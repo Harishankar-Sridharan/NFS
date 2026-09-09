@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](../.gitbook/assets/logo_geoconcept_4.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Introduction
 
@@ -38,7 +38,7 @@ A sample authentication use-case:
 * Browse the application root URL;
 * Click on Login with Google: an SSO authentication through the Google Apps provider is requested by application. A redirection occurs, and the user credentials will have to be filled on the Google website;
 
-![images/exploitation-sso/sso-01.png](../.gitbook/assets/sso-01_2.png)
+![images/exploitation-sso/sso-01.png](../.gitbook/assets/sso-01.png)
 
 * Fill in your Google Apps or GMail account login and password, and submit form: when input gets valid, another redirection occurs, back to the application;
 
@@ -73,7 +73,7 @@ Once authenticated, the user is therefore redirected, as a function of the profi
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html#searchDiv)
 
-![loading table of contents...](../.gitbook/assets/loading_4.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)

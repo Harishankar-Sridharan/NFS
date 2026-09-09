@@ -5,5 +5,5 @@
   * [Presentation of the Reference Guide](introduction-opti-time-reference-guide/presentation-of-the-reference-guide-opti-time-reference-guide.md)
   * [Running the application](introduction-opti-time-reference-guide/running-the-application-opti-time-reference-guide.md)
   * [The different statuses for appointments in Opti-time](introduction-opti-time-reference-guide/the-different-statuses-for-appointments-in-opti-time-opti-time-reference-guide.md)
-
-* [Guided Help - Opti-Time Reference Guide](Guided%20Help%20-%20Opti-Time%20Reference%20Guide.md)
+* [Guided Help - Opti-Time Reference Guide](<Guided Help - Opti-Time Reference Guide.md>)
+* [The Header Bar](guided-help-opti-time-reference-guide-1.md)
