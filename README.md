@@ -1,40 +1,54 @@
-# Introduction - Opti-Time Reference Guide
-
-### Introduction
+# Defining terms
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_2.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Introduction
 
-|                                                                                                                          |                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)  |
+|                                                                                                                            |                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) |
 
-### Introduction
+## Defining terms
 
-The information provided in this document describes the features, and ways of using them, of **Opti-Time** at the first quarter 2020.\
-These may be revised without prior notice.
+The **Opti-Time** application is a full web-based planning management application. It is designed to facilitate daily operating procedures for **mobile workforces** comprising roaming personnel, whose role it is to travel to prospects or customers to deliver goods or services (door-to-door sales to private individuals, deliveries, equipment installation, after sales service, collection of goods, etc).
 
-The software described in this document is distributed in the framework of a software license, and may not be used, copied or transferred except in conformity with the stipulations of this agreement.\
-Copying the **Opti-Time** application to disk or to any other medium for any purpose other than the use of the program by the purchaser for their own needs, is prohibited.
+Mobile forces
 
-**Opti-Time** is a registered trademark of GEOCONCEPT SAS.
+![images/ref/intro/pourqui.png](.gitbook/assets/pourqui.png)
 
-Screen shots used in this document may vary as a function of the rights attributed and the options selected.
+There are two optimisation engines: **batch**, and **real time**. The former is present only in the _Global GeoScheduling_ version of **Opti-Time**, and the latter is available in BOTH VERSIONS of **Opti-Time** Interactive Planning _GeoScheduling_. Opti-Time provides working solutions to the problems encountered by travelling sales personnel, as described in Wikipedia at the following address: [https://en.wikipedia.org/wiki/Travelling\_salesman\_problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem). Opti-Time is more than just a scheduling and planning application: it also takes into account business and environmental constraints that are critical when it comes to planning operations in any geographic space.
+
+The optimisation engines present in the different versions of Opti-Time
+
+|                                   |                                      |                               |
+| --------------------------------- | ------------------------------------ | ----------------------------- |
+|                                   | **Opti-Time** _Global GeoScheduling_ | **Opti-Time** _GeoScheduling_ |
+| **Batch** optimisation engine     | X                                    | O                             |
+| **Real time** optimisation engine | X                                    | X                             |
+
+The solution also takes into account a large repository of constraints linked to the personnel (working hours of staff, holidays, etc..) to customers (opening hours, anniversary dates, visiting frequency, etc..) and to the geography (one-way streets, no-entry, average speed, etc…).
+
+This means the solution can streamline the **appointment making** function of planners, or sales personnel and experts who manage their diaries themselves, to enable travelling staff to concentrate on the work they have to do.
+
+**Opti-Time** is available in several versions. it can be deployed as:
+
+* an Internet site: adapted for work in call centres, or for the application administrator;
+* a mobile application: adapted for operators in the field;
+* of a "black box" application that is totally integrated in enterprise information systems (CRM, ERP etc…).
 
 ***
 
-|                                                                                                               |                                                                                                               |                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html) |                                                                                                               | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html) |
-|                                                                                                               | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html) |                                                                                                                         |
+|                                                                                                                       |                                                                                                                     |                                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html) |
+|                                                                                                                       | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)       |                                                                                                                                              |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_2.gif)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -576,4 +590,4 @@ Screen shots used in this document may vary as a function of the rights attribut
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
