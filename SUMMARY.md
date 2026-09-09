@@ -7,9 +7,4 @@
   * [The different statuses for appointments in Opti-time](introduction-opti-time-reference-guide/the-different-statuses-for-appointments-in-opti-time-opti-time-reference-guide.md)
 * [Guided Help - Opti-Time Reference Guide](<Guided Help - Opti-Time Reference Guide.md>)
 * [The Header Bar](guided-help-opti-time-reference-guide-1.md)
-  * [Change the Area](guided-help-opti-time-reference-guide/change-the-area-opti-time-reference-guide.md)
-  * [Change the password](guided-help-opti-time-reference-guide/change-the-password-opti-time-reference-guide.md)
-  * [Disconnection](guided-help-opti-time-reference-guide/disconnection-opti-time-reference-guide.md)
-  * [User Profile](guided-help-opti-time-reference-guide/user-profile-opti-time-reference-guide.md)
-  * [Notifications](guided-help-opti-time-reference-guide/notifications-opti-time-reference-guide.md)
-  * [Help and Support](guided-help-opti-time-reference-guide/help-and-support-opti-time-reference-guide.md)
+ 
