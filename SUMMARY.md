@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Defining terms](README.md)
-* [Introduction - Opti-Time Reference Guide](<Introduction - Opti-Time Reference Guide.md>)
-* [Presentation of the Reference Guide](<Presentation of the Reference Guide - Opti-Time Reference Guide.md>)
-* [Running the application](<Running the application - Opti-Time Reference Guide.md>)
-* [The different statuses for appointments in Opti-time](<The different statuses for appointments in Opti-time - Opti-Time Reference Guide.md>)
+* [Introduction - Opti-Time Reference Guide](README.md)
+  * [Defining terms](introduction-opti-time-reference-guide/defining-terms-opti-time-reference-guide.md)
+  * [Presentation of the Reference Guide](introduction-opti-time-reference-guide/presentation-of-the-reference-guide-opti-time-reference-guide.md)
+  * [Running the application](introduction-opti-time-reference-guide/running-the-application-opti-time-reference-guide.md)
+  * [The different statuses for appointments in Opti-time](introduction-opti-time-reference-guide/the-different-statuses-for-appointments-in-opti-time-opti-time-reference-guide.md)

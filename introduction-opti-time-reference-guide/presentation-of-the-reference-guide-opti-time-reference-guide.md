@@ -1,171 +1,63 @@
-# The different statuses for appointments in Opti-time
+# Presentation of the Reference Guide
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_5.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept_3.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Introduction
 
-|                                                                                                                                                                  |                                                                                                                        |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html) |
+|                                                                                                                                                 |                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html) |
 
-## The different statuses for appointments in Opti-time
+## Presentation of the Reference Guide
 
-An appointment is a planned meeting between a resource in the field and their customer. In **Opti-Time** the appointment has a status that indicates the changing status of an appointment over time. The status allows the user and the application to distinguish one appointment from another, and to fine tune the behaviour within the application of the appointment accordingly.
+This guide constitutes an exhaustive repository of functionalities of the application, and sets out to help users understand the overall functioning of the application, and to explain specific functions in greater detail.
 
-So for example, an appointment that has been confirmed on the telephone between a customer and a planner has a strong level of commitment for the enterprise that prevents anyone from moving the appointment in the schedule. To signal this commitment, the user can **confirm** the appointment. The appointment will then be in the planning, and the assigned resource, date, time and so on **can no longer be changed**.
+It is structured in nine sections, following the application menu structure:
 
-### Status macros
+* [Portal](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html);
+* [Planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html);
+* [Supervisor](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-supervision.html);
+* [Attendance](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-dispo.html);
+* [Strategic](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-strategic.html);
+* [Sectorisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-sectorisation.html);
+* [Réalisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-fulfilment.html);
+* [Tracking](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-tracking.html);
+* [Administration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-administration.html).
 
-To improve identification, search and counting of appointments, the statuses have been grouped into five categories, or **status macros**:
+A glossary is available at the end of the Guide to centralise and define the key words used in this documentation.
 
-1. **Candidate**: the appointments are not in the planning but are in a holding group awaiting integration in the planning;
-2. **Planned**: the appointment is in the planning and waiting to be fulfilled;
-3. **Fulfilled**: the appointment has been performed or not in accordance with the planning;
-4. **Cancelled**: the appointment is deleted from the planning;
-5. **Archived**: the appointment information items are journalised following a change of status.
+The guide is part of a large body of documentation describing the operating of **Opti-Time**.
 
-Appointments can change from one status to another or from one status macro to another according to certain rules.
+**Opti-Time documentation**
 
-* **Candidate** appointments become **planned** and then **fulfilled** when the visit has taken place;
-* An appointment that has been **planned** can be _re-activated_ or _unplanned_ and can become a **candidate** once again;
-* An appointment can be **cancelled** from any status macro;
-* Finally, after each change to status is made, a trace of the old and new statuses is stored under **archived** appointments.
+The documentation relating to **Opti-Time** comprises three guides:
 
-Possible transitions between status macros
+* the **Installation Guide**, describing the **Opti-Time** architecture and the manual and automated installation procedures;
+* this **Reference Guide** that describes, function by function, the utilisation of the application;
+* the document concerning the **integration** (of data, for example, or of Opti-Time components in third party applications).
 
-![images/ref/planification/macro-statut.png](.gitbook/assets/macro-statut.png)
+**Conventions**
 
-### Statuses
+This Reference Guide takes the form of files that explain the utilisation and deployment of each of the functions or executable commands available via the different menus. Throughout this Guide, highlighted sections of text serve to qualify or refine the concepts presented. They appear as follows:
 
-The names, codes and behaviours of statuses are stored in the tables below. Each table corresponds to a status macro.
-
-Candidate appointments
-
-|            |          |                                                                                                                                                                                                     |
-| ---------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Status** | **Code** | **Description**                                                                                                                                                                                     |
-| Requested  | 21       | The appointment is not in the planning, and the resource, the date and time are not fixed.                                                                                                          |
-| Suspended  | 6        | The appointment has been taken out of the planning and cannot be optimised automatically. It is awaiting application of some kind of action (re-activation, planning, or cancellation) by the user. |
-
-Planned appointments
-
-|            |          |                                                                                                              |
-| ---------- | -------- | ------------------------------------------------------------------------------------------------------------ |
-| **Status** | **Code** | **Description**                                                                                              |
-| Planned    | 2        | The appointment is in the planning, the resource, the date and the time may change.                          |
-| Accepted   | 28       | The appointment is in the planning, the date and the time may change, but the resource **CANNOT** change     |
-| Reserved   | 30       | The appointment is in the planning, the resource may change, however the date and the time **CANNOT** change |
-| Confirmed  | 31       | The appointment is in the planning, the resource, the date and the time **CANNOT BE CHANGED**.               |
-
-Fulfilled appointments
-
-|            |          |                                                                                                                   |
-| ---------- | -------- | ----------------------------------------------------------------------------------------------------------------- |
-| **Status** | **Code** | **Description**                                                                                                   |
-| Realized   | 3        | The appointment has been made and declared as fulfilled in conformity with the event planned                      |
-| Shifted    | 33       | The appointment has been made and declared as fulfilled, but not in conformity with events as planned             |
-| Happened   | 35       | The appointment has been made and declared as fulfilled, but it was not planned (planned, reserved, or confirmed) |
-
-Cancelled appointments
-
-|            |          |                                                                          |
-| ---------- | -------- | ------------------------------------------------------------------------ |
-| **Status** | **Code** | **Description**                                                          |
-| Removed    | 12       | The appointment has been cancelled even though it is still in a planning |
-| Abandonned | 10       | The appointment has been cancelled even though it is still a candidate   |
-
-Appointments set aside
-
-|              |          |                                                                                            |
-| ------------ | -------- | ------------------------------------------------------------------------------------------ |
-| **Status**   | **Code** | **Description**                                                                            |
-| Ignored      | 9        | The appointment is no longer part of the application up until a point where it is restored |
-| Externalized | 32       | The appointment has been fulfilled by a subcontractor                                      |
-
-Appointments that have been archived
-
-|            |          |                                                                                         |
-| ---------- | -------- | --------------------------------------------------------------------------------------- |
-| **Status** | **Code** | **Description**                                                                         |
-| Historized | 40       | These appointments are not treated. They are stored in journal form in the application. |
-
-### Progression steps
-
-When an appointment is taken on board by a resource, a second status serves to track its progress. This is the _`PROGRESSIONSTEP`_ field in the [CSV exchange template](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#CSV-modele). The names, codes and behaviours of statuses are described in the table below.
-
-|                 |          |                                                                                                                                                                    |
-| --------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Status**      | **Code** | **Description**                                                                                                                                                    |
-| In preparation  | -10      | The appointment is saved, but not in Opti-Time - possible associated statuses: 21                                                                                  |
-| Scheduling      | 0        | Default value. The appointment is saved in Opti-Time - possible associated statuses: 21, 2, 6, 29, 30, 31                                                          |
-| Back scheduling | 2        | The appointment has not been fulfilled as planned, and has been reactivated                                                                                        |
-| Merged          | 3        | The appointment is cancelled, because it has been merged with another appointment - possible associated statuses: 21                                               |
-| Supported       | 5        | The appointment has been accepted by the mobile resource - possible associated statuses: 21, 2                                                                     |
-| Ongoing         | 10       | The appointment is under way, the resource has confirmed they are in the process of fulfilling the mission - possible associated statuses: 2, 2, 30, 31, 3, 33, 35 |
-| Partially done  | 15       | The appointment is partially completed - possible associated statuses: 3, 33, 35, 10, 12                                                                           |
-| Completed       | 20       | The appointment has been completed - possible associated statuses: 3, 33, 35, 10, 12                                                                               |
-| Closed          | 100      | The appointment is closed (administratively, legally, financially) - possible associated statuses: 3, 33, 35, 10, 12                                               |
-
-### Fulfilment statuses
-
-Fulfilment statuses follow uploading of the relevant fulfilment data from the Opti-Time Mobile app, via a web service, CSV or SQL. This will consist of the _`ACHIEVEMENT_STATUS`_ and _`ACHIEVEMENT_RESOURCES`_ fields of the [CSV exchange model](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#CSV-modele). The names, codes and behaviours of the statuses are given in the table below.
-
-|                                                        |          |                                                                                   |
-| ------------------------------------------------------ | -------- | --------------------------------------------------------------------------------- |
-| **Status**                                             | **Code** | **Description**                                                                   |
-| None                                                   | 0        | No status                                                                         |
-| Started (STATUS\_STARTED)                              | 1        | Fulfilment has commenced                                                          |
-| Interrupted-On hold (STATUS\_STOPPED)                  | 2        | Fulfilment has stopped or been interrupted (put on hold)                          |
-| Restarted (STATUS\_RESUMED)                            | 3        | Fulfilment has resumed (following a pause/interruption)                           |
-| Terminated (STATUS\_TERMINATED)                        | 4        | Fulfilment completed                                                              |
-| Journey started (STATUS\_TRIP\_STARTED)                | 5        | The journey to the fulfilment location has started                                |
-| Journey completed (STATUS\_TRIP\_TERMINATED)           | 6        | The journey to the fulfilment location has terminated                             |
-| Journey interrupted or on hold (STATUS\_TRIP\_STOPPED) | 7        | The journey to the fulfilment location is interrupted (put on hold)               |
-| Journey resumed (STATUS\_TRIP\_RESUMED)                | 8        | The journey to the fulfilment location has resumed (following interruption/pause) |
-| Unsuccessful (STATUS\_UNSUCCESSFUL)                    | 9        | Fulfilment was unsuccessful                                                       |
-| Unsuccessful journey (STATUS\_TRIP\_UNSUCCCESSFUL)     | 10       | The journey to the fulfilment location has been unsuccessful                      |
-
-### Notification statuses
-
-Notification statuses are linked to the cycle of the send/receive and then accept/reject data for the appointment, as handled by the **Opti-Time Mobile** mobile app.
-
-|            |          |                                                        |
-| ---------- | -------- | ------------------------------------------------------ |
-| **Status** | **Code** | **Description**                                        |
-| Not sent   | 0        | Appointment has not been sent to the resource’s device |
-| Sent       | 1        | The appointment has been sent to the resource          |
-| Received   | 2        | The appointment has been received by the resource      |
-| Accepted   | 3        | The appointment has been accepted by the resource      |
-| Rejected   | 4        | The appointment has been rejected by the resource      |
-
-### Life cycle of an appointment
-
-In **Opti-Time** the appointment is subject to a series of status changes. The latter are triggered when a planning is optimised, by a manual planning event, or when a planning is updated though the import of data.
-
-The appointment follows a life cycle that is subject to rules dictated by the sequence of statuses assigned to the appointment. Depending on the way situations develop, the appointment can evolve in different ways. The schema below shows the generic life-cycle of an appointment.
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                             |         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                                                                                                                                                                                                                                  | Warning |
-| The **removed** and **cancelled** statuses do not feature in the logigram below. The user must be aware that an appointment, whatever its status, can be **cancelled** at any stage in its life cycle. Finally, note that an appointment does not always follow the same linear cycle. A planned appointment, for example, can be **unplanned** or **re-activated** and find itself back in the status macro of **candidate** appointments. |         |
-
-Life cycle of an appointment
-
-![images/ref/planification/cycle-de-vie-rendez-vous.png](.gitbook/assets/cycle-de-vie-rendez-vous.png)
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |         |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| \[Warning]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Warning |
+| The functions and screens presented in the current chapter are configurable, and will vary quite significantly from one configuration to one other. See the chapters [customisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) and [user rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits). The indications present in this documentation are therefore subject to the parameters and settings defined by the user. |         |
 
 ***
 
-|                                                                                                                        |                                                                                                                     |                                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) |
-|                                                                                                                        | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)       |                                                                                                                         |
+|                                                                                                                         |                                                                                                                     |                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html) |
+|                                                                                                                         | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)       |                                                                                                                        |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_5.gif)
+![loading table of contents...](../.gitbook/assets/loading_3.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -707,4 +599,4 @@ Life cycle of an appointment
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html)

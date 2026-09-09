@@ -1,79 +1,54 @@
-# Running the application
+# Defining terms
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_4.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Introduction
 
-|                                                                                                                           |                                                                                                                                              |
-| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html) |
+|                                                                                                                            |                                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) |
 
-## Running the application
+## Defining terms
 
-**Connection**
+The **Opti-Time** application is a full web-based planning management application. It is designed to facilitate daily operating procedures for **mobile workforces** comprising roaming personnel, whose role it is to travel to prospects or customers to deliver goods or services (door-to-door sales to private individuals, deliveries, equipment installation, after sales service, collection of goods, etc).
 
-**Opti-Time** is used in Web mode, by simply running a browser and then typing in an address of the type http://server:port/application/ that will have been supplied by the site administrator.
+Mobile forces
 
-For a utilisation in mobile application form, simply run the application and enter the login and password associated to a user instance.
+![images/ref/intro/pourqui.png](../.gitbook/assets/pourqui.png)
 
-Access portal
+There are two optimisation engines: **batch**, and **real time**. The former is present only in the _Global GeoScheduling_ version of **Opti-Time**, and the latter is available in BOTH VERSIONS of **Opti-Time** Interactive Planning _GeoScheduling_. Opti-Time provides working solutions to the problems encountered by travelling sales personnel, as described in Wikipedia at the following address: [https://en.wikipedia.org/wiki/Travelling\_salesman\_problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem). Opti-Time is more than just a scheduling and planning application: it also takes into account business and environmental constraints that are critical when it comes to planning operations in any geographic space.
 
-![images/exploitation-sso/sso-01.png](.gitbook/assets/sso-01.png)
+The optimisation engines present in the different versions of Opti-Time
 
-**Identification**
+|                                   |                                      |                               |
+| --------------------------------- | ------------------------------------ | ----------------------------- |
+|                                   | **Opti-Time** _Global GeoScheduling_ | **Opti-Time** _GeoScheduling_ |
+| **Batch** optimisation engine     | X                                    | O                             |
+| **Real time** optimisation engine | X                                    | X                             |
 
-Once the identifier elements have been entered, the user [gains access to the application](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html#intro-access-appli).
+The solution also takes into account a large repository of constraints linked to the personnel (working hours of staff, holidays, etc..) to customers (opening hours, anniversary dates, visiting frequency, etc..) and to the geography (one-way streets, no-entry, average speed, etc…).
 
-**Authenticating through Single Sign-On (SSO)**
+This means the solution can streamline the **appointment making** function of planners, or sales personnel and experts who manage their diaries themselves, to enable travelling staff to concentrate on the work they have to do.
 
-A sample authentication use-case:
+**Opti-Time** is available in several versions. it can be deployed as:
 
-|                                                                                                    |         |
-| -------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                         | Warning |
-| Pre-requisites: enable SSO and its Google Apps provider only, in the application instance settings |         |
-
-* Browse the application root URL;
-* Click on Login with Google: an SSO authentication through the Google Apps provider is requested by application. A redirection occurs, and the user credentials will have to be filled on the Google website;
-
-![images/exploitation-sso/sso-01.png](.gitbook/assets/sso-01_2.png)
-
-* Fill in your Google Apps or GMail account login and password, and submit form: when input gets valid, another redirection occurs, back to the application;
-
-![images/exploitation-sso/sso-02.png](.gitbook/assets/sso-02.png)
-
-![images/exploitation-sso/sso-03.png](.gitbook/assets/sso-03.png)
-
-* Two possibilities:
-
-a) If no application user holds a login matching your Google account e-mail, the application denies access;
-
-![images/exploitation-sso/sso-05.png](.gitbook/assets/sso-05.png)
-
-b) On the opposite, if an application user holds a login matching your Google account e-mail, the application grants access to this application user.
-
-**Signing into the application**
-
-Once authenticated, the user is therefore redirected, as a function of the profile, to one of the following modules: [the portal](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html), [the planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html), [the supervision module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-supervision.html), [the attendance module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-dispo.html), [the strategic module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-strategic.html) or [the administration module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-administration.html).
-
-|                                                                                                                                                                                                                                                                         |      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                                                                 | Note |
-| See also: - EXPLOITATION > Configuring SSO access in Opti-Time - REFERENCE GUIDE > Administration > Company data > Human resources > [User tab](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-utilisateur) |      |
+* an Internet site: adapted for work in call centres, or for the application administrator;
+* a mobile application: adapted for operators in the field;
+* of a "black box" application that is totally integrated in enterprise information systems (CRM, ERP etc…).
 
 ***
 
-|                                                                                                                                              |                                                                                                                     |                                                                                                                                                               |
-| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html) |
-|                                                                                                                                              | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)       |                                                                                                                                                               |
+|                                                                                                                       |                                                                                                                     |                                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html) |
+|                                                                                                                       | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)       |                                                                                                                                              |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_4.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -615,4 +590,4 @@ Once authenticated, the user is therefore redirected, as a function of the profi
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)

@@ -1,40 +1,79 @@
-# Introduction - Opti-Time Reference Guide
-
-### Introduction
+# Running the application
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_2.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept_4.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Introduction
 
-|                                                                                                                          |                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)  |
+|                                                                                                                           |                                                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html) |
 
-### Introduction
+## Running the application
 
-The information provided in this document describes the features, and ways of using them, of **Opti-Time** at the first quarter 2020.\
-These may be revised without prior notice.
+**Connection**
 
-The software described in this document is distributed in the framework of a software license, and may not be used, copied or transferred except in conformity with the stipulations of this agreement.\
-Copying the **Opti-Time** application to disk or to any other medium for any purpose other than the use of the program by the purchaser for their own needs, is prohibited.
+**Opti-Time** is used in Web mode, by simply running a browser and then typing in an address of the type http://server:port/application/ that will have been supplied by the site administrator.
 
-**Opti-Time** is a registered trademark of GEOCONCEPT SAS.
+For a utilisation in mobile application form, simply run the application and enter the login and password associated to a user instance.
 
-Screen shots used in this document may vary as a function of the rights attributed and the options selected.
+Access portal
+
+![images/exploitation-sso/sso-01.png](../.gitbook/assets/sso-01.png)
+
+**Identification**
+
+Once the identifier elements have been entered, the user [gains access to the application](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html#intro-access-appli).
+
+**Authenticating through Single Sign-On (SSO)**
+
+A sample authentication use-case:
+
+|                                                                                                    |         |
+| -------------------------------------------------------------------------------------------------- | ------- |
+| \[Warning]                                                                                         | Warning |
+| Pre-requisites: enable SSO and its Google Apps provider only, in the application instance settings |         |
+
+* Browse the application root URL;
+* Click on Login with Google: an SSO authentication through the Google Apps provider is requested by application. A redirection occurs, and the user credentials will have to be filled on the Google website;
+
+![images/exploitation-sso/sso-01.png](../.gitbook/assets/sso-01_2.png)
+
+* Fill in your Google Apps or GMail account login and password, and submit form: when input gets valid, another redirection occurs, back to the application;
+
+![images/exploitation-sso/sso-02.png](../.gitbook/assets/sso-02.png)
+
+![images/exploitation-sso/sso-03.png](../.gitbook/assets/sso-03.png)
+
+* Two possibilities:
+
+a) If no application user holds a login matching your Google account e-mail, the application denies access;
+
+![images/exploitation-sso/sso-05.png](../.gitbook/assets/sso-05.png)
+
+b) On the opposite, if an application user holds a login matching your Google account e-mail, the application grants access to this application user.
+
+**Signing into the application**
+
+Once authenticated, the user is therefore redirected, as a function of the profile, to one of the following modules: [the portal](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html), [the planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html), [the supervision module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-supervision.html), [the attendance module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-dispo.html), [the strategic module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-strategic.html) or [the administration module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-administration.html).
+
+|                                                                                                                                                                                                                                                                         |      |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| \[Note]                                                                                                                                                                                                                                                                 | Note |
+| See also: - EXPLOITATION > Configuring SSO access in Opti-Time - REFERENCE GUIDE > Administration > Company data > Human resources > [User tab](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-utilisateur) |      |
 
 ***
 
-|                                                                                                               |                                                                                                               |                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html) |                                                                                                               | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html) |
-|                                                                                                               | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html) |                                                                                                                         |
+|                                                                                                                                              |                                                                                                                     |                                                                                                                                                               |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html) |
+|                                                                                                                                              | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)       |                                                                                                                                                               |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_2.gif)
+![loading table of contents...](../.gitbook/assets/loading_4.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -576,4 +615,4 @@ Screen shots used in this document may vary as a function of the rights attribut
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html)
