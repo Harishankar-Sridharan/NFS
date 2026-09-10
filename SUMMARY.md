@@ -24,3 +24,4 @@
 * [Global Optimization](globaloptimization.md)
 * [Legend](legend.md)
 * [Opti Time Mobile Application](optitimemobileapplication.md)
+* [Planning](planning.md)
