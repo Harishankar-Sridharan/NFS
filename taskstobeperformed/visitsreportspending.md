@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](../.gitbook/assets/logo_geoconcept_3.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Portal
 
@@ -14,7 +14,7 @@ Opti-Time Reference Guide
 
 List of tasks
 
-![images/ref/portail/tache-a-faire.png](../.gitbook/assets/tache-a-faire_3.png)
+![images/ref/portail/tache-a-faire.png](../.gitbook/assets/tache-a-faire_2.png)
 
 In the lower part of the home page, there are two types of task to be performed in the list:
 
@@ -36,19 +36,19 @@ A list similar to that containing the [**Visit reports pending**](https://mynoma
 
 List of appointments to reschedule
 
-![images/ref/portail/rendez-vous-a-replanifier.png](../.gitbook/assets/rendez-vous-a-replanifier_3.png)
+![images/ref/portail/rendez-vous-a-replanifier.png](../.gitbook/assets/rendez-vous-a-replanifier_2.png)
 
 Click on the sequence number to display the appointment form, and enter the information items needed to make an appointment. Click on Reschedule to search for a new time window that fulfills all the specific constraints associated to the appointment.
 
 Appointment form to reschedule
 
-![images/ref/portail/replanifier-rdv-deplanifie.png](../.gitbook/assets/replanifier-rdv-deplanifie_3.png)
+![images/ref/portail/replanifier-rdv-deplanifie.png](../.gitbook/assets/replanifier-rdv-deplanifie_2.png)
 
 A page prompting the user to choose a resource to assign in the planning then displays.
 
 Choice of a resource when replanning an appointment
 
-![images/ref/portail/replanification-du-rendez-vous.png](../.gitbook/assets/replanification-du-rendez-vous_3.png)
+![images/ref/portail/replanification-du-rendez-vous.png](../.gitbook/assets/replanification-du-rendez-vous_2.png)
 
 |                                                                                                                                     |      |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ---- |
@@ -59,13 +59,13 @@ The Back button returns to the list of appointments to reschedule, while Validat
 
 List of suggestions made by the OTR
 
-![images/ref/portail/proposition-creneaux.png](../.gitbook/assets/proposition-creneaux_3.png)
+![images/ref/portail/proposition-creneaux.png](../.gitbook/assets/proposition-creneaux_2.png)
 
 The immediate effect of Validation is to position the appointment in the planning of the chosen resource.
 
 Appointment planning suspended
 
-![images/ref/portail/planification-du-rendez-vous.png](../.gitbook/assets/planification-du-rendez-vous_3.png)
+![images/ref/portail/planification-du-rendez-vous.png](../.gitbook/assets/planification-du-rendez-vous_2.png)
 
 ***
 
@@ -77,7 +77,7 @@ Appointment planning suspended
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/Tacheafaire.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/Tacheafaire.html#searchDiv)
 
-![loading table of contents...](../.gitbook/assets/loading_3.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
