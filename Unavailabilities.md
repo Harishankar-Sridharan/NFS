@@ -95,7 +95,7 @@ Click on Add unavailability to validate the information entered and add the unav
 
 If the unavailability is of the **Meeting** or **Training** type it can assign several resources. In this instance we refer to a multi-resource type of unavailability.
 
-A drop-down list allows you to choose the name of the resource concerned by unavailability, and clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add_3.png) button allows you to select others. The **resources**, **teams** and **profiles** radio-buttons enable faster filtering on a search on the list of resources.
+A drop-down list allows you to choose the name of the resource concerned by unavailability, and clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add_2.png) button allows you to select others. The **resources**, **teams** and **profiles** radio-buttons enable faster filtering on a search on the list of resources.
 
 The resource can then choose the **meeting** or training required in a list of existing meetings. The resource can also create a new meeting.
 

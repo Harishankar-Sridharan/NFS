@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](../.gitbook/assets/logo_geoconcept_5.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Planning
 
@@ -68,7 +68,7 @@ The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/e
 
 Customer type form
 
-![images/ref/planification/creation-type-client.png](../.gitbook/assets/creation-type-client_2.png)
+![images/ref/planification/creation-type-client.png](../.gitbook/assets/creation-type-client.png)
 
 The form contains the following fields:
 
@@ -198,7 +198,7 @@ For a customer, you can add one or several contacts by clicking on the ![images/
 
 The customer fields are then reset.
 
-The ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder_2.png) button allows you to save the contact.
+The ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder.png) button allows you to save the contact.
 
 Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_2.png) button enables deletion of a contact.
 
@@ -247,7 +247,7 @@ Fields in the Project tab are as follows:
 
 The first part of this tab allows you to modify the association of the customer to a **worksite**.\
 The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) is used to search for worksites sorted by dstance.\
-The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche_2.png) button positions the site on _none_.
+The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche.png) button positions the site on _none_.
 
 The second part of the tab allows you to define resource preferences for appointments to be fulfilled with this customer: select one or several resources in the left-hand pane, then select the status of the resources in the central list (if the [application configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) allows this), and finally, use the right arrow to move these resources in the right-hand window and so define your preferences.
 
@@ -320,9 +320,9 @@ The orderer form includes 2 tabs:
 
 This also allows you to perform specific actions using the following buttons:
 
-* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv_5.png) button displays the [customer list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#resultat-recherche-client) associated to the selected orderer.
-* The ![images/ref/buttons/bouton-lister-rdv.png](../.gitbook/assets/bouton-lister-rdv_2.png) button displays the [appointment list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-rdv-client) associated to the selected project orderer.
-* The ![images/ref/buttons/bouton-rechercher-environs.png](../.gitbook/assets/bouton-rechercher-environs_2.png) button allows you to [search for objects nearby](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-environs) the selected orderer.
+* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv_4.png) button displays the [customer list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#resultat-recherche-client) associated to the selected orderer.
+* The ![images/ref/buttons/bouton-lister-rdv.png](../.gitbook/assets/bouton-lister-rdv.png) button displays the [appointment list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-rdv-client) associated to the selected project orderer.
+* The ![images/ref/buttons/bouton-rechercher-environs.png](../.gitbook/assets/bouton-rechercher-environs.png) button allows you to [search for objects nearby](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-environs) the selected orderer.
 
 **Project orderer form (Details tab)**
 
@@ -739,7 +739,7 @@ Appointment form
 
 ![images/ref/planification/chainage-liste.png](../.gitbook/assets/chainage-liste.png)
 
-If not, it will be possible to create one by clicking on the ![images/ref/buttons/bouton-add.png](<../.gitbook/assets/bouton-add_3 (1).png>) button.
+If not, it will be possible to create one by clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add_2.png) button.
 
 |                                                                     |      |
 | ------------------------------------------------------------------- | ---- |
@@ -789,7 +789,7 @@ For each associated appointment, the following fields are present:
 | \[Note]                                                                                                                                                                           | Note |
 | When a constraint is not utilised (placement sequence, minimum or maximum spacing) you will need to either NOT put the value in the corresponding field, or assign a value of -1. |      |
 
-To delete appointments from a constraint chain, click on the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_3.png) cross opposite the appointment concerned, on the right of the table, in modification mode.
+To delete appointments from a constraint chain, click on the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_2.png) cross opposite the appointment concerned, on the right of the table, in modification mode.
 
 To modify the specific constraints for each appointment in the constraint chain, click on the Edit button.
 
@@ -839,7 +839,7 @@ In this section, we have:
 
 *
 
-Click on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add_4.png) button to the right of the list of resources to activate multiple selection mode (only in the event that a multi-resource type of unavailability is chosen).
+Click on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add_2.png) button to the right of the list of resources to activate multiple selection mode (only in the event that a multi-resource type of unavailability is chosen).
 
 *
 
@@ -870,7 +870,7 @@ The ![images/ref/buttons/bouton-double-chevrons-gauche.png](../.gitbook/assets/b
 
 *
 
-Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_4.png) button allows you to exit the multiple selection mode.
+Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_2.png) button allows you to exit the multiple selection mode.
 
 *
 
@@ -1240,11 +1240,11 @@ Example: Customer search
 
 ![images/ref/planification/resultat-recherche-client.png](../.gitbook/assets/resultat-recherche-client_2.png)
 
-The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche_2.png) button runs the search and displays the [results list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat).
+The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) button runs the search and displays the [results list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat).
 
 The ![images/ref/buttons/bouton-exporter-resultat.png](../.gitbook/assets/bouton-exporter-resultat_2.png) button exports the table of the result of a search on customers in .csv format.
 
-The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche_3.png) button resets the search filters.
+The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche.png) button resets the search filters.
 
 The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter_9.png) button creates an object (here, a customer type object).
 
@@ -1372,7 +1372,7 @@ The Change additional data button allows you to change the Miscellaneous, Logica
 
 An object is created via the [search for this type of object](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) function.
 
-The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter_10.png) button allows you to create an object.
+The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter_9.png) button allows you to create an object.
 
 ### Delete an object in the Planning module
 
@@ -1401,7 +1401,7 @@ Example: delete an exceptional location
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#searchDiv)
 
-![loading table of contents...](../.gitbook/assets/loading_5.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
