@@ -19,3 +19,4 @@
 * [Team Schedule](teamschedule.md)
 * [Area Schedule](areaschedule.md)
 * [Worksite Schedule](worksiteschedule.md)
+* [Multi Resource Scedule](multiresourceschedule.md)
