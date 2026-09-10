@@ -11,6 +11,6 @@
   * [Change the password](<Change the password - Opti-Time Reference Guide.md>)
   * [Disconnection](<Disconnection - Opti-Time Reference Guide.md>)
 * [Portal](Portal.md)
-  * [Home page](Homepage.md.md#home-page)
+  * [Home page](Homepage.md)
   * [Planning](Portal.md#planning)
   * [Appointment form](Portal.md#appointment-form)
