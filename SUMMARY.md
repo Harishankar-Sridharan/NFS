@@ -16,3 +16,4 @@
 * [Team Alerts](teamalerts.md)
 * [Week](week.md)
 * [Month](month.md)
+* [Team Schedule](teamschedule.md)
