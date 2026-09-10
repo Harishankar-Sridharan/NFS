@@ -17,3 +17,4 @@
 * [Week](week.md)
 * [Month](month.md)
 * [Team Schedule](teamschedule.md)
+* [Area Schedule](areaschedule.md)
