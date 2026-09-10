@@ -39,3 +39,4 @@
   * [Home Page](planning-1/homepage.md)
   * [Journal](journal.md)
   * [Control Panel](controlpanel.md)
+  * [Control Panel - Configure](controlpanelconfigure.md)
