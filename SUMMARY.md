@@ -27,3 +27,4 @@
 * [Planning](planning/README.md)
   * [Objects in the Planning Module](planning/objectsintheplanningmodule.md)
 * [The Header Bar](theheaderbar.md)
+* [Map](map.md)
