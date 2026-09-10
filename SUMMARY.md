@@ -13,4 +13,4 @@
 * [Tasks to be performed](taskstobeperformed/README.md)
   * [Visit Report Pending](taskstobeperformed/visitsreportspending.md)
   * [Appointments to Reschedule](appointmentstoreschedule.md)
-* [Team Alerts](taskstobeperformed-1.md)
+* [Team Alerts](teamalerts.md)
