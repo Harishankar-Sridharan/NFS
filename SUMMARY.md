@@ -24,5 +24,5 @@
 * [Global Optimization](globaloptimization.md)
 * [Legend](legend.md)
 * [Opti Time Mobile Application](optitimemobileapplication.md)
-* [Planning](planning.md)
-* [Objects in the Planning Module](objectsintheplanningmodule.md)
+* [Planning](planning/README.md)
+  * [Objects in the Planning Module](planning/objectsintheplanningmodule.md)

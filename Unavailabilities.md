@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_6.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Portal
 
@@ -29,7 +29,7 @@ It is divided up into three sections:
 
 Unavailabilities page
 
-![images/ref/portail/indisponibilite.png](.gitbook/assets/indisponibilite_6.png)
+![images/ref/portail/indisponibilite.png](.gitbook/assets/indisponibilite_3.png)
 
 1. The upper dialogue item presents the list of the next one-off unavailabilities for the resource;
 2. This dialogue item shows the list of regular unavailabilities for the resource;
@@ -67,7 +67,7 @@ The Handling unavailabilities button opens a new window utilised to add unavaila
 
 Unavailability form
 
-![images/ref/portail/gestion-indisponibilite.png](.gitbook/assets/gestion-indisponibilite_6.png)
+![images/ref/portail/gestion-indisponibilite.png](.gitbook/assets/gestion-indisponibilite_3.png)
 
 The bottom part of the window displays the table of the next lot of unavailabilities. Click on the label in one of the table columns to sort unavailabilities as a function of this column. Click a second time on the same label to reverse the sort applied.
 
@@ -95,7 +95,7 @@ Click on Add unavailability to validate the information entered and add the unav
 
 If the unavailability is of the **Meeting** or **Training** type it can assign several resources. In this instance we refer to a multi-resource type of unavailability.
 
-A drop-down list allows you to choose the name of the resource concerned by unavailability, and clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add_6.png) button allows you to select others. The **resources**, **teams** and **profiles** radio-buttons enable faster filtering on a search on the list of resources.
+A drop-down list allows you to choose the name of the resource concerned by unavailability, and clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add_3.png) button allows you to select others. The **resources**, **teams** and **profiles** radio-buttons enable faster filtering on a search on the list of resources.
 
 The resource can then choose the **meeting** or training required in a list of existing meetings. The resource can also create a new meeting.
 
@@ -119,7 +119,7 @@ The user can consult the unavailability form by clicking on Create a note.
 
 One-off unavailability form
 
-![images/ref/portail/fiche-indisponibilite.png](.gitbook/assets/fiche-indisponibilite_6.png)
+![images/ref/portail/fiche-indisponibilite.png](.gitbook/assets/fiche-indisponibilite_3.png)
 
 Click on Delete to delete a one-off unavailability and Back to go back to the **Managing unavailabilities** page.
 
@@ -139,7 +139,7 @@ Appointments that cannot be fulfilled, due to an unavailability, are unplanned o
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_6.gif)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)

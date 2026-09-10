@@ -1,54 +1,78 @@
-# Opti Time Mobile Application
+# Planning
+
+### Planning
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_6.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept_7.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
-## Opti-Time Reference Guide Portal
+## Opti-Time Reference Guide Planning
 
-|                                                                                                                        |                                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-otm.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-legende.html) |
+|                                                                                                                                 |                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-otm.html)  |
 
-## Opti-Time Mobile Application
+### Planning
 
-This section serves to simulate the [Opti-Time Mobile](https://mygeoconcept.com/privatedoc/Vn74K6acB4mFP52i/ot-mobile-doc/index.html) application.
+The Planning module is an **Opti-Time** planning module designed for planning personnel or on-line advisors, personal assistants…. It can be used by resources working in the field as a visualisation tool. It serves to:
 
-Opti-Time Mobile simulator
+* take appointments manually or in an optimised form;
+* modify, reschedule or cancel appointments;
+* search for appointments taking many different criteria into account;
+* manage client portfolios thanks to an integrated CRM;
+* monitor the coherence of plannings via lists of warnings and alerts;
+* save visit reports for appointments, whether they are fulfilled or not;
+* save resources' unavailabilities
+* consult plannings for the different structures within the organisation;
+* download and consult roadboooks;
+* manage types of post;
+* track vehicles in the field (tracking);
+* localise clients, appointments and routes on the map.
 
-![images/ref/portail/ot-mobile.png](.gitbook/assets/ot-mobile.png)
+Access the Planning module by clicking at the top left of the [site header](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau.html).
 
-The drop-down list can be used to modify the appearance and format of the frame in which the application displays.\
-Possible values are: IPhone 5, IPadMini, IPad, Smartphone 5", Phablette 5.5".
+Accessing the call centre
 
-The **Resolution** check-box displays the application in the resolution of the chosen device, without the frame.
+![images/ref/planification/menu.png](../.gitbook/assets/menu.png)
 
-The **Landscape** check-box can be used to switch from a horizontal view to a vertical view.
+The Planning module is made up of four parts:
 
-Having first entered the login and password for the resource in Opti-Time Mobile and clicked on Connection the following window opens:
+1. [Menu](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html);
+2. [Map](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-carte.html);
+3. [Planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html);
+4. [Information display frame](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-cadre-info.html).
 
-URL connection
+The four panes making up the call centre
 
-![images/ref/portail/ot-mobile-con.png](.gitbook/assets/ot-mobile-con.png)
+![images/ref/planification/presentation-centre-d-appels.png](../.gitbook/assets/presentation-centre-d-appels.png)
 
-Here you should enter the url for the Opti-Time webapp. For example: [http://test-otgs/otgs](http://test-otgs/otgs)
+The three frames correspond to the map, the planning and the information display, and can all be resized using the buttons located at the top right of each frame ![images/ref/buttons/bouton-redimensionnement.png](../.gitbook/assets/bouton-redimensionnement.png).
 
-|                                                                                                          |     |
-| -------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                   | Tip |
-| To use this function, the **Opti-Time Mobile** webapp must have been installed previously on the server. |     |
+* ![images/ref/buttons/bouton-etendre-le-cadre-vers-le-bas.png](../.gitbook/assets/bouton-etendre-le-cadre-vers-le-bas.png) allows you to stretch the frame downwards;
+* ![images/ref/buttons/bouton-etendre-le-cadre-vers-le-haut.png](../.gitbook/assets/bouton-etendre-le-cadre-vers-le-haut.png) allows you to stretch the frame upwards;
+* ![images/ref/buttons/bouton-masquer-le-cadre.png](../.gitbook/assets/bouton-masquer-le-cadre.png) allows you to hide the frame;
+* ![images/ref/buttons/bouton-plein-ecran.png](../.gitbook/assets/bouton-plein-ecran.png) allows you to display the frame in full screen mode.
+
+Finally, the sides of the frames can be extended with the mouse giving you the option for manual resizing as required.
+
+|                                                                                                                                                                                                                         |      |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| \[Note]                                                                                                                                                                                                                 | Note |
+| The default size of the frames is defined and initialised by the resizing of the cartographic pane in the `Maptool.xml` file. If these frames are then resized manually, their sizes will be saved in a browser cookie. |      |
+
+We will start by describing the objects that make up the Planning module.
 
 ***
 
-|                                                                                                                         |                                                                                                                      |                                                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-legende.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html) |
-|                                                                                                                         | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                              |
+|                                                                                                                     |                                                                                                               |                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-otm.html) |                                                                                                               | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) |
+|                                                                                                                     | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html) |                                                                                                                            |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-otm.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-otm.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_6.gif)
+![loading table of contents...](../.gitbook/assets/loading_7.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -590,4 +614,4 @@ Here you should enter the url for the Opti-Time webapp. For example: [http://tes
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-otm.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html)
