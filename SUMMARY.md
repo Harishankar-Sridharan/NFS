@@ -41,3 +41,4 @@
   * [Control Panel](controlpanel.md)
   * [Control Panel - Configure](controlpanelconfigure.md)
   * [Control Panel - Interventions](controlpanelinterventions.md)
+  * [Control Panel - Scheduling Summary by Day](controlpanelschedulingsummarybyday.md)
