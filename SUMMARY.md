@@ -43,3 +43,4 @@
   * [Control Panel - Interventions](controlpanelinterventions.md)
   * [Control Panel - Scheduling Summary by Day](controlpanelschedulingsummarybyday.md)
   * [Control Panel - Scheduling Summary By Week](controlpanelschedulingsummarybyweek.md)
+  * [Control Panel - Availabilities](controlpanelavailabilities.md)
