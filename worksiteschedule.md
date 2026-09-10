@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_7.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Portal
 
@@ -30,21 +30,21 @@ Worksite Week Planning
 
 ![images/ref/portail/planning-site-travail-semaine.png](.gitbook/assets/planning-site-travail-semaine.png)
 
-Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente_2.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante_2.png) to go to the next week.\
+Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante.png) to go to the next week.\
 The Week planning (day by day) can be viewed by clicking on the Detailed Week tab:
 
 Detailed Worksite Week Planning
 
 ![images/ref/portail/planning-site-travail-semaine-detail.png](.gitbook/assets/planning-site-travail-semaine-detail.png)
 
-Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente_3.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante_3.png) to go to the following week.\
+Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante.png) to go to the following week.\
 You can display the Work Load Week Planning (cumulated time devoted to all appointments) by clicking on the Occupation ratio tab:
 
 Work Load Week planning
 
 ![images/ref/portail/planning-site-travail-charge.png](.gitbook/assets/planning-site-travail-charge.png)
 
-Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente_4.png) to return to the previous week, or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante_4.png) to see next week.
+Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente.png) to return to the previous week, or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante.png) to see next week.
 
 |                                                                                                                                          |         |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | ------- |
@@ -82,7 +82,7 @@ Finally, this resource has fulfillled an appointment linked to the Narbonne work
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_7.gif)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
