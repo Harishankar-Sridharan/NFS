@@ -21,3 +21,4 @@
 * [Un availabilities](Unavailabilities.md)
 * [Visit Reports](visitreports.md)
 * [Road Book](roadbook.md)
+* [Global Optimization](globaloptimization.md)
