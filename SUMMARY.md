@@ -26,4 +26,4 @@
 * [Opti Time Mobile Application](optitimemobileapplication.md)
 * [Planning](planning/README.md)
   * [Objects in the Planning Module](planning/objectsintheplanningmodule.md)
-* [The Header Bar](planning-1.md)
+* [The Header Bar](theheaderbar.md)
