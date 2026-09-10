@@ -35,5 +35,5 @@
   * [The Information Pane](planning/theinformationpane.md)
   * [Menu](planning/menu.md)
   * [The Planning](planning/theplanning.md)
-* [Supervisor](planning-1.md)
-* [Home Page](homepage.md)
+* [Supervisor](planning-1/README.md)
+  * [Home Page](planning-1/homepage.md)

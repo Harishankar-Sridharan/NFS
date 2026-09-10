@@ -1,63 +1,93 @@
-# Presentation of the Reference Guide
+# Home Page
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept_7.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
-## Opti-Time Reference Guide Introduction
+## Opti-Time Reference Guide Supervisor
 
-|                                                                                                                                                 |                                                                                                                         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html) |
+|                                                                                                                                |                                                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-supervision.html) |
 
-## Presentation of the Reference Guide
+## Home page
 
-This guide constitutes an exhaustive repository of functionalities of the application, and sets out to help users understand the overall functioning of the application, and to explain specific functions in greater detail.
+Opti-Time’s supervisor module is accessed by clicking on the Supervisor tab in the blue toolbar at the top of the screen, or directly by entering the application if the [user profile](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-utilisateur) is configured to open Opti-Time on this module.
 
-It is structured in nine sections, following the application menu structure:
+|                                                                                                                                                                                                                               |      |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| \[Note]                                                                                                                                                                                                                       | Note |
+| You will need to be connected using a profile that has access to the supervisor role (see the chapter [Users](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html)). |      |
 
-* [Portal](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html);
-* [Planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html);
-* [Supervisor](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-supervision.html);
-* [Attendance](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-dispo.html);
-* [Strategic](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-strategic.html);
-* [Sectorisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-sectorisation.html);
-* [Réalisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-fulfilment.html);
-* [Tracking](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-tracking.html);
-* [Administration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-administration.html).
+Supervisor home page:
 
-A glossary is available at the end of the Guide to centralise and define the key words used in this documentation.
+![images/ref/supervision/accueil-superviseur.png](../.gitbook/assets/accueil-superviseur.png)
 
-The guide is part of a large body of documentation describing the operating of **Opti-Time**.
+The Supervisor home page contains a menu (situated at the left of the screen) and a table (situated on the right of the screen).
 
-**Opti-Time documentation**
+### Menu
 
-The documentation relating to **Opti-Time** comprises three guides:
+The Supervisor module menu comprises two parts:
 
-* the **Installation Guide**, describing the **Opti-Time** architecture and the manual and automated installation procedures;
-* this **Reference Guide** that describes, function by function, the utilisation of the application;
-* the document concerning the **integration** (of data, for example, or of Opti-Time components in third party applications).
+* The [Control panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/TDB.html) section: this section displays statistical summaries concerning appointments and unavailabilities, enabling tracking and steering of the mobile work force’s activities.
+* The [Analyses](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/distancier.html) section: this section generates reports and indicators on appointments completed, and on the sectorisation performed.
 
-**Conventions**
+|                                                                                                                                                                                               |     |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| \[Tip]                                                                                                                                                                                        | Tip |
+| The reports contained in the "Control panel" section must be [configured](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html) beforehand. |     |
 
-This Reference Guide takes the form of files that explain the utilisation and deployment of each of the functions or executable commands available via the different menus. Throughout this Guide, highlighted sections of text serve to qualify or refine the concepts presented. They appear as follows:
+The menu contains the following items:
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Warning |
-| The functions and screens presented in the current chapter are configurable, and will vary quite significantly from one configuration to one other. See the chapters [customisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) and [user rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits). The indications present in this documentation are therefore subject to the parameters and settings defined by the user. |         |
+* [**Supervisor home page**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html)
+* [**Journal**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/journal.html)
+* **Control panel**
+  * [Configure](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html)
+  * [Interventions](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intervention.html)
+  * [Scheduling summary by day](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/resume-jour.html)
+  * [Scheduling summary by week](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/resume-semaine.html)
+  * [Availabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/dispo.html)
+  * [Appointment taking Quantity](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/rdv-quantite.html)
+  * [Appointment taking Quality](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/rdv-qualite.html)
+  * [Targets](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/objectif.html)
+* **Analyses**
+  * [Customer distance matrix](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/distancier.html)
+  * [Customer center of gravity matrix](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html)
+  * [Unavailabilities global planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html)
+  * [Scheduling compliance](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/conformite.html)
+  * [Overtimes](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/heures-sup.html)
+
+### Table
+
+The right-hand section **Track past and future appointments** provides a weekly summary of the different appointments for the area.
+
+By default, the table indicates the quantity of candidate, planned, fulfilled or cancelled appointments (cf. [Appointment statuses](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts)) in each type of intervention: however all these are entirely [configurable](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli).
+
+By default, the table displays the number of appointments in the current week, for the 4 previous, and the 4 subsequent weeks.
+
+At the extreme right of the table, a **Cumulated** column allows you to display the number of appointments, for all the intervention types taken together.
+
+|                                                                                                                                                              |     |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
+| \[Tip]                                                                                                                                                       | Tip |
+| The appointment statuses displayed, as well as the weeks corresponding to the lines on the table are all configurable. Contact your Opti-Time administrator. |     |
+
+|                                                                                                                                                     |      |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| \[Note]                                                                                                                                             | Note |
+| You can return at any time to the Supervisor home page by clicking on the Supervisor home page link situated in the menu on the left of the screen. |      |
 
 ***
 
-|                                                                                                                         |                                                                                                                     |                                                                                                                        |
-| ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/otgs-connexion.html) |
-|                                                                                                                         | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)       |                                                                                                                        |
+|                                                                                                                            |                                                                                                                          |                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-supervision.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-supervision.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/journal.html) |
+|                                                                                                                            | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)            |                                                                                                                 |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading.gif)
+![loading table of contents...](../.gitbook/assets/loading_7.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -599,4 +629,4 @@ This Reference Guide takes the form of files that explain the utilisation and de
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_presentation_of_the_reference_guide.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html)

@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](<.gitbook/assets/logo_geoconcept (1).png>)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Introduction
 
@@ -16,7 +16,7 @@ The **Opti-Time** application is a full web-based planning management applicatio
 
 Mobile forces
 
-![images/ref/intro/pourqui.png](<.gitbook/assets/pourqui (1).png>)
+![images/ref/intro/pourqui.png](.gitbook/assets/pourqui.png)
 
 There are two optimisation engines: **batch**, and **real time**. The former is present only in the _Global GeoScheduling_ version of **Opti-Time**, and the latter is available in BOTH VERSIONS of **Opti-Time** Interactive Planning _GeoScheduling_. Opti-Time provides working solutions to the problems encountered by travelling sales personnel, as described in Wikipedia at the following address: [https://en.wikipedia.org/wiki/Travelling\_salesman\_problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem). Opti-Time is more than just a scheduling and planning application: it also takes into account business and environmental constraints that are critical when it comes to planning operations in any geographic space.
 
@@ -48,7 +48,7 @@ This means the solution can streamline the **appointment making** function of pl
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html#searchDiv)
 
-![loading table of contents...](<.gitbook/assets/loading (1).gif>)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)

@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_4.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Introduction
 
@@ -35,7 +35,7 @@ Appointments can change from one status to another or from one status macro to a
 
 Possible transitions between status macros
 
-![images/ref/planification/macro-statut.png](<.gitbook/assets/macro-statut (1).png>)
+![images/ref/planification/macro-statut.png](.gitbook/assets/macro-statut.png)
 
 ### Statuses
 
@@ -153,7 +153,7 @@ The appointment follows a life cycle that is subject to rules dictated by the se
 
 Life cycle of an appointment
 
-![images/ref/planification/cycle-de-vie-rendez-vous.png](<.gitbook/assets/cycle-de-vie-rendez-vous (1).png>)
+![images/ref/planification/cycle-de-vie-rendez-vous.png](.gitbook/assets/cycle-de-vie-rendez-vous.png)
 
 ***
 
@@ -165,7 +165,7 @@ Life cycle of an appointment
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_4.gif)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
