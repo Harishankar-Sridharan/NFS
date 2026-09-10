@@ -7,4 +7,5 @@
   * [Change the password](Change%20the%20password%20-%20Opti-Time%20Reference%20Guide.md)
   * [Disconnection](Disconnection%20-%20Opti-Time%20Reference%20Guide.md)
 * [Portal](Portal.md)
+* [Home page](homepage.md)
  
