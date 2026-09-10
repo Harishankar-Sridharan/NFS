@@ -36,3 +36,4 @@
   * [Menu](planning/menu.md)
   * [The Planning](planning/theplanning.md)
 * [Supervisor](planning-1.md)
+* [Home Page](homepage.md)
