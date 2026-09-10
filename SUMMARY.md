@@ -29,3 +29,4 @@
 * [The Header Bar](theheaderbar.md)
 * [Map](map.md)
 * [The Information Pane](theinformationpane.md)
+* [Menu](menu.md)
