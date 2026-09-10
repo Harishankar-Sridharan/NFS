@@ -8,4 +8,5 @@
   * [Disconnection](Disconnection%20-%20Opti-Time%20Reference%20Guide.md)
 * [Portal](Portal.md)
 * [Home page](homepage.md)
+* [Planning](planning.md)
  
