@@ -10,4 +10,3 @@
   * [Change the Area](<Change area - Opti-Time Reference Guide.md>)
   * [Change the password](<Change the password - Opti-Time Reference Guide.md>)
   * [Disconnection](<Disconnection - Opti-Time Reference Guide.md>)
-* [Portal](guided-help-opti-time-reference-guide-1-1.md)
