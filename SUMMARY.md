@@ -15,3 +15,4 @@
   * [Appointments to Reschedule](appointmentstoreschedule.md)
 * [Team Alerts](teamalerts.md)
 * [Week](week.md)
+* [Month](month.md)
