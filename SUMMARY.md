@@ -21,3 +21,4 @@
 * [Worksite Schedule](worksiteschedule.md)
 * [Multi Resource Scedule](multiresourceschedule.md)
 * [Un availabilities](Unavailabilities.md)
+* [Handling Unavailabilities](handlingunavailabilities.md)
