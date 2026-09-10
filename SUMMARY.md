@@ -11,3 +11,4 @@
   * [Planning](portal/planning.md)
   * [Application form](portal/appointmentform.md)
 * [Tasks to be performed](taskstobeperformed.md)
+* [Visit Report Pending](visitsreportspending.md)
