@@ -9,4 +9,5 @@
 * [Portal](Portal.md)
 * [Home page](homepage.md)
 * [Planning](planning.md)
+* [Application form](appointmentform.md)
  
