@@ -1,13 +1,13 @@
 # Table of contents
 
 * [Introduction - Opti-Time Reference Guide](README.md)
-* [Guided Help - Opti-Time Reference Guide](Guided%20Help%20-%20Opti-Time%20Reference%20Guide.md)
+* [Guided Help - Opti-Time Reference Guide](<Guided Help - Opti-Time Reference Guide.md>)
 * [The Header Bar](guided-help-opti-time-reference-guide-1.md)
-  * [Change the Area](Change%20area%20-%20Opti-Time%20Reference%20Guide.md)
-  * [Change the password](Change%20the%20password%20-%20Opti-Time%20Reference%20Guide.md)
-  * [Disconnection](Disconnection%20-%20Opti-Time%20Reference%20Guide.md)
-* [Portal](Portal.md)
-* [Home page](homepage.md)
-* [Planning](planning.md)
-* [Application form](appointmentform.md)
- 
+  * [Change the Area](<Change area - Opti-Time Reference Guide.md>)
+  * [Change the password](<Change the password - Opti-Time Reference Guide.md>)
+  * [Disconnection](<Disconnection - Opti-Time Reference Guide.md>)
+* [Portal](portal/README.md)
+  * [Home page](portal/homepage.md)
+  * [Planning](portal/planning.md)
+  * [Application form](portal/appointmentform.md)
+* [Tasks to be performed](portal-1.md)
