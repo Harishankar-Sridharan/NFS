@@ -12,3 +12,4 @@
   * [Application form](portal/appointmentform.md)
 * [Tasks to be performed](taskstobeperformed/README.md)
   * [Visit Report Pending](taskstobeperformed/visitsreportspending.md)
+  * [Appointments to Reschedule](appointmentstoreschedule.md)
