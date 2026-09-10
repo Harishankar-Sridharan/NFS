@@ -19,5 +19,5 @@
 * [Worksite Schedule](worksiteschedule.md)
 * [Multi Resource Scedule](multiresourceschedule.md)
 * [Un availabilities](Unavailabilities.md)
-* [Planning](unavailabilities-1/README.md)
+* [Visit Reports](unavailabilities-1/README.md)
   * [Objects in the Planning Module](unavailabilities-1/objects-in-the-planning-module.md)
