@@ -37,3 +37,4 @@
   * [The Planning](planning/theplanning.md)
 * [Supervisor](planning-1/README.md)
   * [Home Page](planning-1/homepage.md)
+  * [Journal](journal.md)
