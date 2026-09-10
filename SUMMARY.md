@@ -30,3 +30,4 @@
 * [Map](map.md)
 * [The Information Pane](theinformationpane.md)
 * [Menu](menu.md)
+* [The Planning](theplanning.md)
