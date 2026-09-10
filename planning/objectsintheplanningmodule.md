@@ -51,7 +51,7 @@ The ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauve
 
 The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche.png) button resets the whole of the form.
 
-The ![images/ref/buttons/bouton-retour.png](../.gitbook/assets/bouton-retour_3.png) button takes you back to the previous page.
+The ![images/ref/buttons/bouton-retour.png](../.gitbook/assets/bouton-retour.png) button takes you back to the previous page.
 
 |                                                                                                          |      |
 | -------------------------------------------------------------------------------------------------------- | ---- |
@@ -118,8 +118,8 @@ The customer form includes 7 tabs:
 
 This also allows you to perform specific actions using the following buttons:
 
-* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv_4.png) button allows an appointment to be made for the selected customer.
-* The ![images/ref/buttons/bouton-panier4.png](../.gitbook/assets/bouton-panier4_3.png) button allows you to add the selected customer to the [customers panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients).
+* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv.png) button allows an appointment to be made for the selected customer.
+* The ![images/ref/buttons/bouton-panier4.png](../.gitbook/assets/bouton-panier4.png) button allows you to add the selected customer to the [customers panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients).
 * The ![images/ref/buttons/bouton-rechercher-environs.png](../.gitbook/assets/bouton-rechercher-environs.png) button [searches on objects nearby](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-environs) the selected customer.
 * The ![images/ref/buttons/bouton-lister-rdv.png](../.gitbook/assets/bouton-lister-rdv.png) button allows you to display the [List of appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-rdv-client) associated with the selected customer.
 * The ![images/ref/buttons/bouton-propagation-demande-de-rendez-vous.png](../.gitbook/assets/bouton-propagation-demande-de-rendez-vous.png) button applies all the modifications made to this customer to all the saved appointment requests for this customer.
@@ -200,7 +200,7 @@ The customer fields are then reset.
 
 The ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder.png) button allows you to save the contact.
 
-Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_2.png) button enables deletion of a contact.
+Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) button enables deletion of a contact.
 
 **Customer form (Project tab)**
 
@@ -320,7 +320,7 @@ The orderer form includes 2 tabs:
 
 This also allows you to perform specific actions using the following buttons:
 
-* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv_4.png) button displays the [customer list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#resultat-recherche-client) associated to the selected orderer.
+* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv.png) button displays the [customer list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#resultat-recherche-client) associated to the selected orderer.
 * The ![images/ref/buttons/bouton-lister-rdv.png](../.gitbook/assets/bouton-lister-rdv.png) button displays the [appointment list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-rdv-client) associated to the selected project orderer.
 * The ![images/ref/buttons/bouton-rechercher-environs.png](../.gitbook/assets/bouton-rechercher-environs.png) button allows you to [search for objects nearby](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-environs) the selected orderer.
 
@@ -456,7 +456,7 @@ Messages tab
 ![images/ref/planification/onglet-messages.png](./images/onglet-messages.png)
 ```
 
-**Constraints** : This tab allows the user to add a chaining constraint to the intervention by clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add_2.png) button.
+**Constraints** : This tab allows the user to add a chaining constraint to the intervention by clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add.png) button.
 
 ```
 Constraints tab
@@ -739,7 +739,7 @@ Appointment form
 
 ![images/ref/planification/chainage-liste.png](../.gitbook/assets/chainage-liste.png)
 
-If not, it will be possible to create one by clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add_2.png) button.
+If not, it will be possible to create one by clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add.png) button.
 
 |                                                                     |      |
 | ------------------------------------------------------------------- | ---- |
@@ -789,7 +789,7 @@ For each associated appointment, the following fields are present:
 | \[Note]                                                                                                                                                                           | Note |
 | When a constraint is not utilised (placement sequence, minimum or maximum spacing) you will need to either NOT put the value in the corresponding field, or assign a value of -1. |      |
 
-To delete appointments from a constraint chain, click on the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_2.png) cross opposite the appointment concerned, on the right of the table, in modification mode.
+To delete appointments from a constraint chain, click on the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) cross opposite the appointment concerned, on the right of the table, in modification mode.
 
 To modify the specific constraints for each appointment in the constraint chain, click on the Edit button.
 
@@ -839,7 +839,7 @@ In this section, we have:
 
 *
 
-Click on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add_2.png) button to the right of the list of resources to activate multiple selection mode (only in the event that a multi-resource type of unavailability is chosen).
+Click on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add.png) button to the right of the list of resources to activate multiple selection mode (only in the event that a multi-resource type of unavailability is chosen).
 
 *
 
@@ -870,7 +870,7 @@ The ![images/ref/buttons/bouton-double-chevrons-gauche.png](../.gitbook/assets/b
 
 *
 
-Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_2.png) button allows you to exit the multiple selection mode.
+Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) button allows you to exit the multiple selection mode.
 
 *
 
@@ -1238,17 +1238,17 @@ The search function is made up of one section containing the fields that can be 
 
 Example: Customer search
 
-![images/ref/planification/resultat-recherche-client.png](../.gitbook/assets/resultat-recherche-client_2.png)
+![images/ref/planification/resultat-recherche-client.png](../.gitbook/assets/resultat-recherche-client.png)
 
 The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) button runs the search and displays the [results list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat).
 
-The ![images/ref/buttons/bouton-exporter-resultat.png](../.gitbook/assets/bouton-exporter-resultat_2.png) button exports the table of the result of a search on customers in .csv format.
+The ![images/ref/buttons/bouton-exporter-resultat.png](../.gitbook/assets/bouton-exporter-resultat.png) button exports the table of the result of a search on customers in .csv format.
 
 The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche.png) button resets the search filters.
 
-The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter_9.png) button creates an object (here, a customer type object).
+The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button creates an object (here, a customer type object).
 
-The ![images/ref/buttons/bouton-corriger-adresse.png](../.gitbook/assets/bouton-corriger-adresse_2.png) button enables verification of whether the town or post code declared correspond to those of the geocoding repository.
+The ![images/ref/buttons/bouton-corriger-adresse.png](../.gitbook/assets/bouton-corriger-adresse.png) button enables verification of whether the town or post code declared correspond to those of the geocoding repository.
 
 Clicking on the (+)More criteria button, the user can search for customers as a function of their type (whether it is active or not) or as a function of customer priority, search all customers assigned to a specified rresource, or search for customers that need visiting periodically (so-called «regular customers»).
 
@@ -1272,9 +1272,9 @@ Clicking on one line in the results of the search, you will arrive at the [form]
 In some lists, a series of buttons present in the result table allow direct access to some functions:
 
 * The Select button allows you to select items in the list.
-* The ![images/ref/buttons/bouton-localise-client-fiche.png](../.gitbook/assets/bouton-localise-client-fiche_3.png) button displays the item on the map
+* The ![images/ref/buttons/bouton-localise-client-fiche.png](../.gitbook/assets/bouton-localise-client-fiche.png) button displays the item on the map
 * The ![images/ref/buttons/play-petit.png](../.gitbook/assets/play-petit.png) runs an [optimised scheduling](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-optimisee-rdv) operation for the appointment
-* The ![images/ref/buttons/bouton-panier.png](../.gitbook/assets/bouton-panier_2.png) button allows you to add the appointment to the panel
+* The ![images/ref/buttons/bouton-panier.png](../.gitbook/assets/bouton-panier.png) button allows you to add the appointment to the panel
 
 A series of buttons are present at the bottom of the results lists depending on the rights the user has:
 
@@ -1286,7 +1286,7 @@ A series of buttons are present at the bottom of the results lists depending on 
 
 Action buttons for appointment lists
 
-![images/ref/planification/resultat-de-la-recherche.png](../.gitbook/assets/resultat-de-la-recherche_2.png)
+![images/ref/planification/resultat-de-la-recherche.png](../.gitbook/assets/resultat-de-la-recherche.png)
 
 The Announce button creates a configurable [circulation listener](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#listener), for example, when sending a pre-formatted message to all the customer appointment contacts in the list.
 
@@ -1372,7 +1372,7 @@ The Change additional data button allows you to change the Miscellaneous, Logica
 
 An object is created via the [search for this type of object](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) function.
 
-The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter_9.png) button allows you to create an object.
+The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button allows you to create an object.
 
 ### Delete an object in the Planning module
 
@@ -1384,7 +1384,7 @@ To delete an object via the search function, select the object(s) to delete and 
 
 Example: delete an exceptional location
 
-![images/ref/planification/page-localisation-exceptionnelle.png](../.gitbook/assets/page-localisation-exceptionnelle_2.png)
+![images/ref/planification/page-localisation-exceptionnelle.png](../.gitbook/assets/page-localisation-exceptionnelle.png)
 
 |                                                 |      |
 | ----------------------------------------------- | ---- |

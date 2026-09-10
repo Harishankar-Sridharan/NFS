@@ -35,3 +35,4 @@
   * [The Information Pane](planning/theinformationpane.md)
   * [Menu](planning/menu.md)
   * [The Planning](planning/theplanning.md)
+* [Supervisor](planning-1.md)
