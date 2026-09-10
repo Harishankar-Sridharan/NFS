@@ -1,145 +1,51 @@
-# Un availabilities
+# Team Alerts
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Portal
 
-|                                                                                                                            |                                                                                                                           |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html) |
+|                                                                                                                        |                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/alert-equip.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/Tacheafaire.html) |
 
-## Unavailabilities
+## Team alerts
 
-This page allows you to view, edit, or delete or add unavailabilities for the resource.
+This dialogue item is reserved essentially for team leaders to list the different resources in their team and subordinate teams, referred to as **sister teams**. This shows us, for each team, how many visit reports are pending, and how many appointments need to be rescheduled.
 
-The page of unavailabilities is accessible optional via the Portal or the Planning module.
+Team alerts
 
-Unavailabilities are the periods during which a resource cannot fulfill the appointment.\
-Unavailabilities may be **one-off** or **regular**.\
-A day of sick-leave, or of time off _in lieu_, or for a meeting, are examples of **one-off unavailabilities**. When an unavailability is repeated regularly over time, it is referred to as a **regular unavailability**.
+![images/ref/portail/alerte-equipe.png](../.gitbook/assets/alerte-equipe.png)
 
-An unavailability is characterised by a **type**, the **resource concerned**, a **date**, a **time window** and a **localisation**. Default localisations are assigned for some types of unavailability and for a given resource. For example, the localisation of a day of time off _in lieu_ is by default the resource’s home address.
+* clicking on the Name of the resource displays today’s planning;
+* clicking on number of visit reports opens an exhaustive list of visit reports pending;
+* clicking on the number of appointments to reschedule opens the list of appointments needing new dates to be set;
+* the Email alert(s) automatically sends a message to the resource to perform the two pending tasks;
+* the Email alert(s) to all automatically sends a message to every member of the team to perform the two pending tasks.
 
-If an unavailability occurs while an appointment has been planned for the same time window, this appointment is suspended.
+In certain cases, the team leader may direct several other **sister teams**. In this case, the interface suggests clicking on Alert(s) to sister teams, to view all these teams, consult their members and their pending visit reports, or their appointments waiting to be rescheduled. For each of them, or for all of a **sister team**, it will be possible to send a warning message.
 
-The Unavailabilities page can be accessed by clicking on the corresponding link in the main menu.\
-It is divided up into three sections:
+|                                                                                                                                                                                                                                                  |         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
+| \[Warning]                                                                                                                                                                                                                                       | Warning |
+| To enable messages to be sent, an SMTP server will be required. Finally, the email address of each resource must be entered in the form for each mobile resource. To do this, go into the Information tab, located in the Administration module. |         |
 
-Unavailabilities page
+Sister team alerts
 
-![images/ref/portail/indisponibilite.png](.gitbook/assets/indisponibilite_3.png)
-
-1. The upper dialogue item presents the list of the next one-off unavailabilities for the resource;
-2. This dialogue item shows the list of regular unavailabilities for the resource;
-3. This dialogue item manages unavailabilities.
-
-### One-off unavailabilities
-
-The table presents the next one-off unavailabilities for the resource. For each unavailability, the table displays the **date** and the **start time**, **the date and finish time** as well as the **type of unavailability**.
-
-All future unavailabilities are displayed.
-
-Click on label in one of the table columns to sort unavailabilities as a function of this column. Click a second time on the same label to reverse the sort applied.
-
-Clicking on Delete deletes the unavailability concerned. A warning message requests the resource to confirm deletion of the unavailability.
-
-Click on Edit notes to consult or modify the score relating to the unavailability (or abbreviated form).
-
-For each unavailability, the resource can add saved comments in the form of a note. Click on Save to validate the modification of the score and redisplays the previous page. Click on Back redisplays the previous page without modifying the score.
-
-### Regular unavailabilities
-
-This table presents the resource’s regular unavailabilities. For each unavailability, the table displays the **start date and time**, **the finish date and time, periodicity, the date** up until which, the unavailability is repeated as well as the **type of unavailability**.
-
-Click on label in one of the table columns to sort unavailabilities as a function of this column. Click a second time on the same label to reverse the sort applied.
-
-Clicking on Delete deletes the unavailability concerned. A warning message requests the resource to confirm deletion of the unavailability.
-
-Click on Edit notes to consult or modify the score relating to the unavailability (or abbreviated form).
-
-For each unavailability, the resource can add saved comments in the form of a note. Click on Save to validate the modification of the score and redisplays the previous page. Click on Back redisplays the previous page without modifying the score.
-
-### Handling unavailabilities
-
-The Handling unavailabilities button opens a new window utilised to add unavailabilities.
-
-Unavailability form
-
-![images/ref/portail/gestion-indisponibilite.png](.gitbook/assets/gestion-indisponibilite_3.png)
-
-The bottom part of the window displays the table of the next lot of unavailabilities. Click on the label in one of the table columns to sort unavailabilities as a function of this column. Click a second time on the same label to reverse the sort applied.
-
-#### Adding an unavailability
-
-To add an unavailability, its characteristics need to be specified: **resource’s name, start and finish dates and times, regular intervention or not, the address and comments**.
-
-The **type of unavailability** is chosen in the drop-down list displaying non-worked days by default. If the type is **Meeting** or **Training**, the unavailability is said to be multi-resource. The addition of this type of unavailability is described later on in this guide (see [Unavailabilities multi-resource](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html#indisponibilitesmultiressource)).
-
-A drop-down list allows you to choose the name of the resource concerned by the unavailability.
-
-The start and finish dates entered in the corresponding dialogue items (for example, 02/03/2013). These can also be chosen using the calendar.
-
-The start and finish times are entered in the corresponding dialogue items (for example, 10:30).
-
-When a frequency is desired, two additional information items should be added: the periodicity expressed in days, weeks or months, as well as the date until which the unavailability is repeated. Not specifying the date indicates that the unavailability is repeated in a permanent manner.
-
-The resource may also specify the address at which the unavailability occurs. If a default location has been defined for the [type of unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-indispo) selected, this location is suggested as the location for the unavailability. Otherwise, having specified the name of the street, the post code, and the town, the resource clicks on Validate the address. A list of addresses most closely matching the address entered is suggested.
-
-The _Comments_ dialogue item allows you to add additional information saved in the form of notes with the unavailability.
-
-Click on Add unavailability to validate the information entered and add the unavailability to those already present. The application then verifies that the new unavailability does not conflict with existing unavailabilities. The unavailability handling window closes and the list of unavailabilities is updated.
-
-#### Adding a multi-resource unavailability
-
-If the unavailability is of the **Meeting** or **Training** type it can assign several resources. In this instance we refer to a multi-resource type of unavailability.
-
-A drop-down list allows you to choose the name of the resource concerned by unavailability, and clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add_2.png) button allows you to select others. The **resources**, **teams** and **profiles** radio-buttons enable faster filtering on a search on the list of resources.
-
-The resource can then choose the **meeting** or training required in a list of existing meetings. The resource can also create a new meeting.
-
-The start and finish dates entered in the corresponding dialogue items (for example, 02/03/2013). These can also be chosen using the calendar.
-
-The start and finish times are entered in the corresponding dialogue items (for example, 10:30).
-
-When a frequency is desired, two additional information items should be added: the periodicity expressed in days, weeks or months, as well as the date until which the unavailability is repeated. Not specifying the date indicates that the unavailability is repeated in a permanent manner.
-
-The resource may also specify the address at which the unavailability occurs. If a default location has been defined for the [type of unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-indispo) selected, this location is suggested as the location for the unavailability. Otherwise, having specified the name of the street, the post code, and the town, the resource clicks on Validate the address. A list of addresses most closely matching the address entered is suggested.
-
-The _Comments_ dialogue item allows you to add additional information saved in the form of notes with the unavailability.
-
-Simply click on Add unavailability to save the new unavailability.
-
-A newly created meeting is saved and added to the list of existing meetings.
-
-#### Unavailability form
-
-The user can consult the unavailability form by clicking on Create a note.
-
-One-off unavailability form
-
-![images/ref/portail/fiche-indisponibilite.png](.gitbook/assets/fiche-indisponibilite_3.png)
-
-Click on Delete to delete a one-off unavailability and Back to go back to the **Managing unavailabilities** page.
-
-The dates of regular unavailabilities can be modified from the unavailability form by clicking on Modify…. The modification is only possible if the unavailability period is in progress, or has not yet begun.
-
-#### Unplanning or reassigning appointments
-
-Appointments that cannot be fulfilled, due to an unavailability, are unplanned or reassigned to another resource who is free, for this time slot.
+![images/ref/portail/alerte-equipe-fille.png](../.gitbook/assets/alerte-equipe-fille.png)
 
 ***
 
-|                                                                                                                           |                                                                                                                      |                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html) |
-|                                                                                                                           | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                      |
+|                                                                                                                     |                                                                                                                      |                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/Tacheafaire.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-semaine.html) |
+|                                                                                                                     | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                         |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/alert-equip.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/alert-equip.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -681,4 +587,4 @@ Appointments that cannot be fulfilled, due to an unavailability, are unplanned o
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/alert-equip.html)

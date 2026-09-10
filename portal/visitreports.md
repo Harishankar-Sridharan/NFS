@@ -1,98 +1,60 @@
-# The Header Bar
+# Visit Reports
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_9.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
-## Opti-Time Reference Guide Planning
+## Opti-Time Reference Guide Portal
 
-|                                                                                                                            |                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) |
+|                                                                                                                         |                                                                                                                         |
+| ----------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html) |
 
-## The header bar
+## Visit reports
 
-In addition to the general functions in the [header bar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau.html), depending on the application configuration, the Planning module offers additional functions to facilitate scheduling.
+Visit report listing
 
-### Favourites for the area
+![images/ref/portail/liste-cr.png](../.gitbook/assets/liste-cr.png)
 
-When you click on the star, you can activate/de-activate the defined area favourites in the favourites manager pane (filter on a selection of teams or worksites, corresponding by default to that defined in the respective [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-perimetre) but which can be edited here). The lists of resources, teams and worksites are then automatically restricted in the whole of this module.
+This operation is crucial since it informs the application about whether an appointment has been fulfilled or not.
 
-Favourite perimeters
+Creating a visit report requires two essential operations:
 
-![images/ref/planification/favoris.png](.gitbook/assets/favoris.png)
+* Recording the appointment status as: **Unknown, Unfulfilled, Fulfilled, and Unable to fulfill**;
+* Creating the visit report that generally speaking records a short report on the appointment fulfilled.
 
-### Recent appointments
+Clearly, it is only possible to raise a visit report for an intervention once it has taken place, that is, the visit report date falls either before today’s date, or is itself dated today.
 
-As successive browsing actions take place in the planning, the header bar displays appointments viewed recently.
+The list of visit reports only exists if some appointments have taken place without any visit report being created, and without the appointment status being modified (not fulfilled, fulfilled).
 
-Recent appointments
+From the exhaustive list of visit reports to be created, sorted into chronological order, clicking on the number in the sequence opens a dialogue:
 
-![images/ref/planification/vu-recemment.png](.gitbook/assets/vu-recemment.png)
+Creating a visit report
 
-It will then suffice to click on the appointment seen recently to access its form.
+![images/ref/portail/editer-cr.png](../.gitbook/assets/editer-cr.png)
 
-### List of urgent appointments
+* the upper section informs the resource connected about the type of appointment, the company, the address, the different telephone numbers for the resource, the status of the appointment, the date, the estimated time, the proposed time slot, the estimated duration and the travelling time;
+* a series of notes may be useful to the resource as an aid to fulfilling the appointment, noting any additional information that could be useful, or recording useful comments;
+* the drop-down list proposes four possible status levels for an appointment. It will be up to the resource to fill in this essential information:
+  * **Status unknown**: the resource has not filled in their visit report. The appointment does not change status;
+  * **Unfulfilled**: the appointment has not taken place but it is not cancelled, its status changes to **Unplanned**;
+  * **Fulfilled**: the appointment status changes to **Fulfilled**;
+  * **Unable to fulfill**; the appointment has not taken place, and will not be, its status changes to **Cancelled**.
+* an editable part called **Visit report** stores all information entered by way of notes or comments following the appointment so any actions taken following the appointment can be recorded. These notes are naturally a precious resource.
 
-it is possible to configure a predefined search list on one or several types of task, and particular characteristics for appointments (logical, fulfilment period, status fields, etc). This functionality is typically used to rapidly highlight the urgent appointments (for example, of the breakdown variety).
-
-This list can be linked to a warning counter appearing in the upper band of the screen in the application interface, incremented each time a creation event occurs for an appointment fulfilling the criteria:
-
-List of urgent appointments
-
-![images/ref/planification/liste-des-rdv-depannage.png](.gitbook/assets/liste-des-rdv-depannage.png)
-
-Click on the link in the header bar (or the link in the [information frame](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-cadre-info.html)) to display the list of urgent appointments in the form of a [search form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche).
-
-Result
-
-![images/ref/planification/liste-rdv-urgent.png](.gitbook/assets/liste-rdv-urgent.png)
-
-The buttons available in the list of urgent appointments are described [here](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat).
-
-|                                                                                                                                                                                                                        |         |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                             | Warning |
-| This list can be configured so it is displayed in the header bar (see the [application settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli)). |         |
-
-### List of customers on alert
-
-In the same way as for urgent appointments, it is possible to define criteria on customers in order to display a counter in the header bar. As soon as a new customer corresponding to the criteria is created, the counter is automatically updated.
-
-The link can be found in the header bar, to the right of the [list of urgent appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html#liste-rdv-urgent) if this has been activated:
-
-List of customers on alert
-
-![images/ref/planification/alerte-clients.png](.gitbook/assets/alerte-clients.png)
-
-Clicking on this link, a search page displays with the predefined list criteria:
-
-Result
-
-![images/ref/planification/resultat-alerte-clients.png](.gitbook/assets/resultat-alerte-clients.png)
-
-The list of corresponding customers displays in the same way as for a standard [customer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher).
-
-|                                                                                                                                                                                                                        |         |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                             | Warning |
-| This list can be configured so it is displayed in the header bar (see the [application settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli)). |         |
-
-### Unread messages
-
-The user can access unread [messages](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#messages) that have been sent to him/her, using the ![images/ref/buttons/courrier.png](.gitbook/assets/courrier.png) icon.
+The Save button saves any modifications made and Back switches to the previous screen: the list of visit reports waiting for attention, the number of which is updated following the editing of the visit reports.
 
 ***
 
-|                                                                                                                            |                                                                                                                            |                                                                                                                           |
-| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-carte.html) |
-|                                                                                                                            | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)              |                                                                                                                           |
+|                                                                                                                         |                                                                                                                      |                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-feuille-de-route.html) |
+|                                                                                                                         | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                                  |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_9.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -634,4 +596,4 @@ The user can access unread [messages](https://mynomadia.com/privatedoc/9LLcWh7j7
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html)

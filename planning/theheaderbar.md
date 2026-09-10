@@ -1,38 +1,98 @@
-# Week
+# The Header Bar
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept_9.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
-## Opti-Time Reference Guide Portal
+## Opti-Time Reference Guide Planning
 
-|                                                                                                                            |                                                                                                                     |
-| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-semaine.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/alert-equip.html) |
+|                                                                                                                            |                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) |
 
-## Week
+## The header bar
 
-This page allows you to consult the daily planning of a resource. This can be accessed by clicking on the Week button in the main menu. By default, the planning displayed is for the current week.
+In addition to the general functions in the [header bar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau.html), depending on the application configuration, the Planning module offers additional functions to facilitate scheduling.
 
-The week planning shows appointments and unavailabilities for each day of the week.
+### Favourites for the area
 
-A week planning legend may be displayed by clicking on [legend](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-legende.html) button in the main menu.
+When you click on the star, you can activate/de-activate the defined area favourites in the favourites manager pane (filter on a selection of teams or worksites, corresponding by default to that defined in the respective [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-perimetre) but which can be edited here). The lists of resources, teams and worksites are then automatically restricted in the whole of this module.
 
-The agendas are displayed in much the same way as [those of the planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html).
+Favourite perimeters
 
-As for agendas in the planning module, you can [navigate in the agenda](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-navig), display the [appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/rendezvous.html) form, or an [unavaibility form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html) by clicking on the number beside them in the list.
+![images/ref/planification/favoris.png](../.gitbook/assets/favoris.png)
+
+### Recent appointments
+
+As successive browsing actions take place in the planning, the header bar displays appointments viewed recently.
+
+Recent appointments
+
+![images/ref/planification/vu-recemment.png](../.gitbook/assets/vu-recemment.png)
+
+It will then suffice to click on the appointment seen recently to access its form.
+
+### List of urgent appointments
+
+it is possible to configure a predefined search list on one or several types of task, and particular characteristics for appointments (logical, fulfilment period, status fields, etc). This functionality is typically used to rapidly highlight the urgent appointments (for example, of the breakdown variety).
+
+This list can be linked to a warning counter appearing in the upper band of the screen in the application interface, incremented each time a creation event occurs for an appointment fulfilling the criteria:
+
+List of urgent appointments
+
+![images/ref/planification/liste-des-rdv-depannage.png](../.gitbook/assets/liste-des-rdv-depannage.png)
+
+Click on the link in the header bar (or the link in the [information frame](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-cadre-info.html)) to display the list of urgent appointments in the form of a [search form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche).
+
+Result
+
+![images/ref/planification/liste-rdv-urgent.png](../.gitbook/assets/liste-rdv-urgent.png)
+
+The buttons available in the list of urgent appointments are described [here](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat).
+
+|                                                                                                                                                                                                                        |         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| \[Warning]                                                                                                                                                                                                             | Warning |
+| This list can be configured so it is displayed in the header bar (see the [application settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli)). |         |
+
+### List of customers on alert
+
+In the same way as for urgent appointments, it is possible to define criteria on customers in order to display a counter in the header bar. As soon as a new customer corresponding to the criteria is created, the counter is automatically updated.
+
+The link can be found in the header bar, to the right of the [list of urgent appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html#liste-rdv-urgent) if this has been activated:
+
+List of customers on alert
+
+![images/ref/planification/alerte-clients.png](../.gitbook/assets/alerte-clients.png)
+
+Clicking on this link, a search page displays with the predefined list criteria:
+
+Result
+
+![images/ref/planification/resultat-alerte-clients.png](../.gitbook/assets/resultat-alerte-clients.png)
+
+The list of corresponding customers displays in the same way as for a standard [customer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher).
+
+|                                                                                                                                                                                                                        |         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| \[Warning]                                                                                                                                                                                                             | Warning |
+| This list can be configured so it is displayed in the header bar (see the [application settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli)). |         |
+
+### Unread messages
+
+The user can access unread [messages](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#messages) that have been sent to him/her, using the ![images/ref/buttons/courrier.png](../.gitbook/assets/courrier.png) icon.
 
 ***
 
-|                                                                                                                     |                                                                                                                      |                                                                                                                      |
-| ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/alert-equip.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-mois.html) |
-|                                                                                                                     | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                      |
+|                                                                                                                            |                                                                                                                            |                                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-carte.html) |
+|                                                                                                                            | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)              |                                                                                                                           |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-semaine.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-semaine.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading.gif)
+![loading table of contents...](../.gitbook/assets/loading_9.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -574,4 +634,4 @@ As for agendas in the planning module, you can [navigate in the agenda](https://
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-semaine.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html)

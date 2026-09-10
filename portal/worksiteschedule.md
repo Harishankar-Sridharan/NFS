@@ -1,56 +1,88 @@
-# Multi Resource Scedule
+# Worksite Schedule
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Portal
 
-|                                                                                                                              |                                                                                                                           |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html) |
+|                                                                                                                              |                                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-plan-reg.html) |
 
-## Multi-Resource schedule
+## Worksite schedule
 
-This page displays the planning(s) for one or several resources that are not affiliated to the team of the resource connected to the application. This function can be accessed by clicking on the Multi-resource schedule in the main menu.
+This page displays the planning of one or several resources as a function of the worksite they are affiliated to. It is accessed by clicking on the Worksite schedule button in the main menu. Depending on the rights profile, the user connected only sees him or herself, their worksite, or all worksites.
 
-The page suggests displaying the plannings of one or several resources by filtering on 7 criteria: **resource type**, **areas of team affiliation**, **teams**, **areas of worksite affiliation**, **worksite**, **period** (day planning or week planning) and the **date**.
+|                                                                                                                                    |      |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| \[Note]                                                                                                                            | Note |
+| A resource is assigned systematically to a main worksite. This resource may also be attributed one or several secondary worksites. |      |
 
-Filter window for displaying the plannings of one or several resources affiliated to another team
+Worksite Day Planning
 
-![images/ref/portail/planning-multi-ressource.png](.gitbook/assets/planning-multi-ressource.png)
+![images/ref/portail/planning-site-travail.png](../.gitbook/assets/planning-site-travail.png)
 
-Choose, in the **Resource type** list, the type of role held by the resource sought. Select the **All** item to perform the search on all resource types.
+Click on ![images/ref/buttons/periode-precedente.png](../.gitbook/assets/periode-precedente.png) to return to the preceding day, or click on ![images/ref/buttons/periode-suivante.png](../.gitbook/assets/periode-suivante.png) to proceed to the next day.\
+The Week Planner can be viewed by clicking on the Week tab:
 
-Choose, in the **Areas of teams** list, the area to which the team of the resource(s) sought is affiliated. Select **All** to perform the search on all the areas to which the teams are affiliated.
+Worksite Week Planning
 
-Choose, in the **Teams** listing, the team to which the resource(s) is or are affiliated. Select the **All** item to perform the search on all teams.
+![images/ref/portail/planning-site-travail-semaine.png](../.gitbook/assets/planning-site-travail-semaine.png)
 
-Choose, in the listing of the **Areas of affiliation of worksites**, the area of affiliation for the worksite of the resource(s) sought. Select the **All** item to perform the search on all areas of worksites.
+Then click on ![images/ref/buttons/periode-precedente.png](../.gitbook/assets/periode-precedente.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](../.gitbook/assets/periode-suivante.png) to go to the next week.\
+The Week planning (day by day) can be viewed by clicking on the Detailed Week tab:
 
-Choose, in the **Worksite** listing, the site of affiliation for the resource(s) sought. Select **All** to perform the search on all worksites.
+Detailed Worksite Week Planning
 
-Choose, in the **Period** drop-down list, the display type of the planning (day or week).
+![images/ref/portail/planning-site-travail-semaine-detail.png](../.gitbook/assets/planning-site-travail-semaine-detail.png)
 
-Choose, in the **Date** field, the date of the planning to display.
+Then click on ![images/ref/buttons/periode-precedente.png](../.gitbook/assets/periode-precedente.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](../.gitbook/assets/periode-suivante.png) to go to the following week.\
+You can display the Work Load Week Planning (cumulated time devoted to all appointments) by clicking on the Occupation ratio tab:
 
-Click on Filter to choose the plannings of resources found, or on Validate to display all the plannings of the selected resources.
+Work Load Week planning
 
-Filtering the display of plannings for resources found
+![images/ref/portail/planning-site-travail-charge.png](../.gitbook/assets/planning-site-travail-charge.png)
 
-![images/ref/portail/planning-multi-ressource-filtre.png](.gitbook/assets/planning-multi-ressource-filtre.png)
+Then click on ![images/ref/buttons/periode-precedente.png](../.gitbook/assets/periode-precedente.png) to return to the previous week, or click on ![images/ref/buttons/periode-suivante.png](../.gitbook/assets/periode-suivante.png) to see next week.
+
+|                                                                                                                                          |         |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| \[Warning]                                                                                                                               | Warning |
+| Depending on the user profile, the choice of worksite may be inactive. By default, it is the user’s worksite that is taken into account. |         |
+
+Depending on the profile of the connected resource, there are three possible scenarios:
+
+* Display plannings for resources affiliated to the main worksite selected;
+* Display plannings for resources affiliated to a different main worksite, but having the selected worksite as their secondary worksite;
+* Display plannings for resources affiliated to a different main worksite, but having as their secondary worksite the one selected, and making an appointment.
+
+The resources or the appointments may be framed:
+
+* an appointment inside a frame indicates that the appointment is to be executed outside the main worksite;
+* a resource inside a pink frame indicates that the resource is not affiliated to the main worksite (this is selected in the interface). However, this site is assigned to the resource as the secondary worksite at which he/she may work.
+
+Example of the Worksite Planning
+
+![images/ref/portail/planning-site-travail-secondaire.png](../.gitbook/assets/planning-site-travail-secondaire.png)
+
+In the example above, resource ARBY Amar is not affiliated to the main work site of Narbonne. However, Narbonne is his secondary worksite. To distinguish this resource from the others, his name is framed in pink.
+
+Also, this resource has fulfilled an appointment that is not linked to the Narbonne worksite. To indicate that the appointment has been fulfilled outside the worksite, this is framed with a slightly thicker outline.
+
+Finally, this resource has fulfillled an appointment linked to the Narbonne worksite because this has not been framed.
 
 ***
 
-|                                                                                                                           |                                                                                                                      |                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html) |
-|                                                                                                                           | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                         |
+|                                                                                                                          |                                                                                                                      |                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-plan-reg.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html) |
+|                                                                                                                          | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                           |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -592,4 +624,4 @@ Filtering the display of plannings for resources found
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html)

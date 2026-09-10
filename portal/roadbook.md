@@ -1,88 +1,30 @@
-# Worksite Schedule
+# Road Book
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Portal
 
-|                                                                                                                              |                                                                                                                          |
-| ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-plan-reg.html) |
+|                                                                                                                                     |                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-feuille-de-route.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html) |
 
-## Worksite schedule
+## Roadbook
 
-This page displays the planning of one or several resources as a function of the worksite they are affiliated to. It is accessed by clicking on the Worksite schedule button in the main menu. Depending on the rights profile, the user connected only sees him or herself, their worksite, or all worksites.
-
-|                                                                                                                                    |      |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                            | Note |
-| A resource is assigned systematically to a main worksite. This resource may also be attributed one or several secondary worksites. |      |
-
-Worksite Day Planning
-
-![images/ref/portail/planning-site-travail.png](.gitbook/assets/planning-site-travail.png)
-
-Click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente.png) to return to the preceding day, or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante.png) to proceed to the next day.\
-The Week Planner can be viewed by clicking on the Week tab:
-
-Worksite Week Planning
-
-![images/ref/portail/planning-site-travail-semaine.png](.gitbook/assets/planning-site-travail-semaine.png)
-
-Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante.png) to go to the next week.\
-The Week planning (day by day) can be viewed by clicking on the Detailed Week tab:
-
-Detailed Worksite Week Planning
-
-![images/ref/portail/planning-site-travail-semaine-detail.png](.gitbook/assets/planning-site-travail-semaine-detail.png)
-
-Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante.png) to go to the following week.\
-You can display the Work Load Week Planning (cumulated time devoted to all appointments) by clicking on the Occupation ratio tab:
-
-Work Load Week planning
-
-![images/ref/portail/planning-site-travail-charge.png](.gitbook/assets/planning-site-travail-charge.png)
-
-Then click on ![images/ref/buttons/periode-precedente.png](.gitbook/assets/periode-precedente.png) to return to the previous week, or click on ![images/ref/buttons/periode-suivante.png](.gitbook/assets/periode-suivante.png) to see next week.
-
-|                                                                                                                                          |         |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                               | Warning |
-| Depending on the user profile, the choice of worksite may be inactive. By default, it is the user’s worksite that is taken into account. |         |
-
-Depending on the profile of the connected resource, there are three possible scenarios:
-
-* Display plannings for resources affiliated to the main worksite selected;
-* Display plannings for resources affiliated to a different main worksite, but having the selected worksite as their secondary worksite;
-* Display plannings for resources affiliated to a different main worksite, but having as their secondary worksite the one selected, and making an appointment.
-
-The resources or the appointments may be framed:
-
-* an appointment inside a frame indicates that the appointment is to be executed outside the main worksite;
-* a resource inside a pink frame indicates that the resource is not affiliated to the main worksite (this is selected in the interface). However, this site is assigned to the resource as the secondary worksite at which he/she may work.
-
-Example of the Worksite Planning
-
-![images/ref/portail/planning-site-travail-secondaire.png](.gitbook/assets/planning-site-travail-secondaire.png)
-
-In the example above, resource ARBY Amar is not affiliated to the main work site of Narbonne. However, Narbonne is his secondary worksite. To distinguish this resource from the others, his name is framed in pink.
-
-Also, this resource has fulfilled an appointment that is not linked to the Narbonne worksite. To indicate that the appointment has been fulfilled outside the worksite, this is framed with a slightly thicker outline.
-
-Finally, this resource has fulfillled an appointment linked to the Narbonne worksite because this has not been framed.
+The Roadbook button displays the [route sheet](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#feuille-de-route) for the resource.
 
 ***
 
-|                                                                                                                          |                                                                                                                      |                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-plan-reg.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html) |
-|                                                                                                                          | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                           |
+|                                                                                                                      |                                                                                                                      |                                                                                                                            |
+| -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-optim-glob.html) |
+|                                                                                                                      | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                            |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-feuille-de-route.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-feuille-de-route.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -624,4 +566,4 @@ Finally, this resource has fulfillled an appointment linked to the Narbonne work
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-feuille-de-route.html)

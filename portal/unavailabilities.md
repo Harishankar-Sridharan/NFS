@@ -1,495 +1,145 @@
-# The Planning
+# Un availabilities
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_11.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
-## Opti-Time Reference Guide Planning
+## Opti-Time Reference Guide Portal
 
-|                                                                                                                               |                                                                                                                          |
-| ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html) |
+|                                                                                                                            |                                                                                                                           |
+| -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html) |
 
-## The planning
+## Unavailabilities
 
-The planning pane is located at the bottom right of the Planning screen. Like the other panes, it can be resized as required.
+This page allows you to view, edit, or delete or add unavailabilities for the resource.
 
-Planning
+The page of unavailabilities is accessible optional via the Portal or the Planning module.
 
-![images/ref/planification/planning.png](.gitbook/assets/planning.png)
+Unavailabilities are the periods during which a resource cannot fulfill the appointment.\
+Unavailabilities may be **one-off** or **regular**.\
+A day of sick-leave, or of time off _in lieu_, or for a meeting, are examples of **one-off unavailabilities**. When an unavailability is repeated regularly over time, it is referred to as a **regular unavailability**.
 
-It is composed of three sections:
+An unavailability is characterised by a **type**, the **resource concerned**, a **date**, a **time window** and a **localisation**. Default localisations are assigned for some types of unavailability and for a given resource. For example, the localisation of a day of time off _in lieu_ is by default the resource’s home address.
 
-1. A [selection bar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#selection-vues) for the different views in the plannings;
-2. A [navigation bar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#planning-navigation), made up of navigation and display buttons;
-3. The [agenda](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#call-center-agenda-rdv) part (composed of appointments, unavailabilities, etc.)
+If an unavailability occurs while an appointment has been planned for the same time window, this appointment is suspended.
 
-This page allows you to consult, modify, and handle the planning of one or several technicians, sales personnel or resources.
+The Unavailabilities page can be accessed by clicking on the corresponding link in the main menu.\
+It is divided up into three sections:
 
-It also allows you to handle plannings at the level of a worksite (team, area,…).
+Unavailabilities page
 
-**Hide / Display the planning as a function of the post occupied**
+![images/ref/portail/indisponibilite.png](../.gitbook/assets/indisponibilite_3.png)
 
-Click on the ![images/ref/buttons/type-poste-masquer.png](.gitbook/assets/type-poste-masquer.png) button to hide the plannings and resources occupying a single post. Conversely, the ![images/ref/buttons/type-poste-afficher.png](.gitbook/assets/type-poste-afficher.png) button redisplays any plannings hidden previously.
+1. The upper dialogue item presents the list of the next one-off unavailabilities for the resource;
+2. This dialogue item shows the list of regular unavailabilities for the resource;
+3. This dialogue item manages unavailabilities.
 
-### Planning views
+### One-off unavailabilities
 
-The user can handle the view of the planning from this page with the help of three main options:
+The table presents the next one-off unavailabilities for the resource. For each unavailability, the table displays the **date** and the **start time**, **the date and finish time** as well as the **type of unavailability**.
 
-* the agenda kind;
-* the period;
-* the hierarchical level.
+All future unavailabilities are displayed.
 
-In each of these drop-down menus, type the first letter of a word to arrive directly at the word you are looking for.
+Click on label in one of the table columns to sort unavailabilities as a function of this column. Click a second time on the same label to reverse the sort applied.
 
-The 3 display options for the planning
+Clicking on Delete deletes the unavailability concerned. A warning message requests the resource to confirm deletion of the unavailability.
 
-![images/ref/planification/options-d-affichage-du-planning.png](.gitbook/assets/options-d-affichage-du-planning.png)
+Click on Edit notes to consult or modify the score relating to the unavailability (or abbreviated form).
 
-#### Agenda kind
+For each unavailability, the resource can add saved comments in the form of a note. Click on Save to validate the modification of the score and redisplays the previous page. Click on Back redisplays the previous page without modifying the score.
 
-Agenda kinds available
+### Regular unavailabilities
 
-![images/ref/planification/nature-du-planning.png](.gitbook/assets/nature-du-planning.png)
+This table presents the resource’s regular unavailabilities. For each unavailability, the table displays the **start date and time**, **the finish date and time, periodicity, the date** up until which, the unavailability is repeated as well as the **type of unavailability**.
 
-The planning manager can visualise the planning of one or several resources as a function of several kinds:
+Click on label in one of the table columns to sort unavailabilities as a function of this column. Click a second time on the same label to reverse the sort applied.
 
-* **Appointments**: enables visualisation of the planned interventions on the given period as a function of their status (Planned, Reserved, Confirmed, or Fulfilled);
-* **Load**: enables visualisation of the planning as a function of the workload for the day (i.e. how fully booked the day is);
-* **Job**: allows you to see the planning as a function of the temporary post assigned to a resource on the day, the week, or the month;
-* **Task type**: allows you to see the planning as a function of the type of intervention planned or fulfilled;
-* **Duty**: allows you to view any on-call duty specified for the given period.
+Clicking on Delete deletes the unavailability concerned. A warning message requests the resource to confirm deletion of the unavailability.
 
-#### Period
+Click on Edit notes to consult or modify the score relating to the unavailability (or abbreviated form).
 
-Available periods
+For each unavailability, the resource can add saved comments in the form of a note. Click on Save to validate the modification of the score and redisplays the previous page. Click on Back redisplays the previous page without modifying the score.
 
-![images/ref/planification/periode-du-planning.png](.gitbook/assets/periode-du-planning.png)
+### Handling unavailabilities
 
-The planning manager can view the planning for one or several resources on 4 different periods (these periods are not all available, as they depend on the kind displayed):
+The Handling unavailabilities button opens a new window utilised to add unavailabilities.
 
-* **Day** (available for all kinds of planning);
-* **Week** (available for all kinds of planning);
-* **Multi-week** (available for the **Load** and **Post** kinds of planning);
-* **Year** (available for the **Load** kind of planning).
+Unavailability form
 
-|                                                                                                                                                                                   |         |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                        | Warning |
-| All these availabilities can be modified in the [Administration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html) module. |         |
+![images/ref/portail/gestion-indisponibilite.png](../.gitbook/assets/gestion-indisponibilite_3.png)
 
-#### Hierarchical level
+The bottom part of the window displays the table of the next lot of unavailabilities. Click on the label in one of the table columns to sort unavailabilities as a function of this column. Click a second time on the same label to reverse the sort applied.
 
-The planning can also be displayed as a function of several hierarchical levels:
+#### Adding an unavailability
 
-* **Resource**: displays the planning of one resource in particular;
-* **Team**: displays the planning of all the resources in one team;
-* **Worksite**: displays the planning of all the resources from one worksite;
-* **Area**: displays the planning of all the resources in one area;
-* **Multi-resources**: displays the planning of several resources, teams, work sites or areas (if no parameters have been set at the outset, the user is directed to a configuration page);
-* **Vehicle**: displays the planning for a vehicle.
+To add an unavailability, its characteristics need to be specified: **resource’s name, start and finish dates and times, regular intervention or not, the address and comments**.
 
-Depending on the hierarchical level selected, the user can then choose in the drop-down list the resource, the team, the worksite, the area, or the vehicle for which they want to consult the planning.
+The **type of unavailability** is chosen in the drop-down list displaying non-worked days by default. If the type is **Meeting** or **Training**, the unavailability is said to be multi-resource. The addition of this type of unavailability is described later on in this guide (see [Unavailabilities multi-resource](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html#indisponibilitesmultiressource)).
 
-Finally, a ![images/ref/buttons/bouton-informations.png](.gitbook/assets/bouton-informations_4.png) [tool-tip](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#info-bulle-tournee), available only in "Resource" mode, displays information about a route.
+A drop-down list allows you to choose the name of the resource concerned by the unavailability.
 
-#### Route info
+The start and finish dates entered in the corresponding dialogue items (for example, 02/03/2013). These can also be chosen using the calendar.
 
-The information are displayed in the following form:
+The start and finish times are entered in the corresponding dialogue items (for example, 10:30).
 
-Abbreviated form for the resource
+When a frequency is desired, two additional information items should be added: the periodicity expressed in days, weeks or months, as well as the date until which the unavailability is repeated. Not specifying the date indicates that the unavailability is repeated in a permanent manner.
 
-![images/ref/planification/fiche-reduite-ressource.png](.gitbook/assets/fiche-reduite-ressource.png)
+The resource may also specify the address at which the unavailability occurs. If a default location has been defined for the [type of unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-indispo) selected, this location is suggested as the location for the unavailability. Otherwise, having specified the name of the street, the post code, and the town, the resource clicks on Validate the address. A list of addresses most closely matching the address entered is suggested.
 
-The form comprises the following 8 tabs:
+The _Comments_ dialogue item allows you to add additional information saved in the form of notes with the unavailability.
 
-* the Contact tab displays **the address** the **telephone number**, and the **email address** of the resource.
-* the Tasks tab displays the **job held** and **level of experience** as well as **intervention types** authorised for the resource.
-* the Assignment tab displays the **team** the **main worksite**, the **secondary worksite** and the **intervention sector** for the resource.
-* the Infos tab displays **additional information** concerning the resource.
-* the Routes tab displays the **travel times** and **kilometers travelled** by the resource. If you display a daily planning, the time and kilometers displayed concern the selected day. If it is a weekly planning, the time and kilometers displayed correspond to the total time and distance travelled for the week (idem for a monthly planning).
-* the Ecology tab displays the total **CO2 emissions** attributable to the resource.
-* the Skills tab displays the resource’s **skills**.
-* the Vehicle tab displays the [**default vehicle used**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-vehicule), the **vehicle** and the **equipment** [assigned](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-affectation) to the resource as well as the **period of assignment**.
+Click on Add unavailability to validate the information entered and add the unavailability to those already present. The application then verifies that the new unavailability does not conflict with existing unavailabilities. The unavailability handling window closes and the list of unavailabilities is updated.
 
-The ![images/ref/buttons/planning-journalier.png](.gitbook/assets/planning-journalier.png) button displays the daily planning for the resource.
+#### Adding a multi-resource unavailability
 
-The ![images/ref/buttons/planning-hebdomadaire.png](.gitbook/assets/planning-hebdomadaire.png) button displays the weekly planning for the resource.
+If the unavailability is of the **Meeting** or **Training** type it can assign several resources. In this instance we refer to a multi-resource type of unavailability.
 
-The ![images/ref/buttons/planning-mensuel.png](.gitbook/assets/planning-mensuel.png) button displays the monthly planning for the resource.
+A drop-down list allows you to choose the name of the resource concerned by unavailability, and clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add_2.png) button allows you to select others. The **resources**, **teams** and **profiles** radio-buttons enable faster filtering on a search on the list of resources.
 
-The ![images/ref/buttons/map-monde.png](.gitbook/assets/map-monde.png) button displays the route.
+The resource can then choose the **meeting** or training required in a list of existing meetings. The resource can also create a new meeting.
 
-The ![images/ref/buttons/bouton-panier3.png](.gitbook/assets/bouton-panier3.png) button puts all the appointments for the route in the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier).
+The start and finish dates entered in the corresponding dialogue items (for example, 02/03/2013). These can also be chosen using the calendar.
 
-The ![images/ref/buttons/bouton-add2.png](.gitbook/assets/bouton-add2_5.png) button allos you to [select](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#lister-rdv-select) all the appointments in the route.
+The start and finish times are entered in the corresponding dialogue items (for example, 10:30).
 
-### Navigation bar
+When a frequency is desired, two additional information items should be added: the periodicity expressed in days, weeks or months, as well as the date until which the unavailability is repeated. Not specifying the date indicates that the unavailability is repeated in a permanent manner.
 
-In addition to the planning visualisation parameters, other tools enable navigation in the planning for the purpose of consulting it.
+The resource may also specify the address at which the unavailability occurs. If a default location has been defined for the [type of unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-indispo) selected, this location is suggested as the location for the unavailability. Otherwise, having specified the name of the street, the post code, and the town, the resource clicks on Validate the address. A list of addresses most closely matching the address entered is suggested.
 
-Bar of viewing functions in the planning
+The _Comments_ dialogue item allows you to add additional information saved in the form of notes with the unavailability.
 
-![images/ref/planification/barre-navigation-planning.png](.gitbook/assets/barre-navigation-planning.png)
+Simply click on Add unavailability to save the new unavailability.
 
-The buttons in this part of the planning are as follows (from left to right in the navigation bar):
+A newly created meeting is saved and added to the list of existing meetings.
 
-* The [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier) ![images/ref/buttons/bouton-panier2.png](.gitbook/assets/bouton-panier2.png);
-* The buttons to change the date of the [agenda](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-navig) composed of two arrows and a date:
-* The [arrows](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-navig-recent) to return to the preceding, ![images/ref/buttons/bouton-precedent.png](.gitbook/assets/bouton-precedent.png) or next, ![images/ref/buttons/bouton-suivant.png](.gitbook/assets/bouton-suivant.png) agenda;
-* The [switch agenda](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-bascule) ![images/ref/buttons/bouton-bascul-de-l-agenda.png](.gitbook/assets/bouton-bascul-de-l-agenda.png) button;
-* The button to display the [position of the resource on the map](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-suivi) ![images/ref/buttons/afficher-la-position-de-l-intervenant.png](.gitbook/assets/afficher-la-position-de-l-intervenant.png);
-* The display of the ![images/ref/buttons/bouton-carte.png](.gitbook/assets/bouton-carte_2.png) [routes on the map](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-tournees);
-* The button to display the [legend](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-legende) ![images/ref/buttons/bouton-legende.png](.gitbook/assets/bouton-legende_2.png);
-* The [map pin](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-punaise) ![images/ref/buttons/bouton-punaise.png](.gitbook/assets/bouton-punaise.png).
+#### Unavailability form
 
-#### The panel
+The user can consult the unavailability form by clicking on Create a note.
 
-If interventions are present in the panel, the number of interventions will be indicated by a symbol on the panel icon: ![images/ref/buttons/bouton-panier2.png](.gitbook/assets/bouton-panier2_2.png).
+One-off unavailability form
 
-Clicking on this image, the user can visualise the interventions stored in the panel. They are stored by resource and with the relevant identifier(s).
+![images/ref/portail/fiche-indisponibilite.png](../.gitbook/assets/fiche-indisponibilite_3.png)
 
-Interventions stored in the panel
+Click on Delete to delete a one-off unavailability and Back to go back to the **Managing unavailabilities** page.
 
-![images/ref/planification/interventions-stockees-dans-le-panier.png](.gitbook/assets/interventions-stockees-dans-le-panier.png)
+The dates of regular unavailabilities can be modified from the unavailability form by clicking on Modify…. The modification is only possible if the unavailability period is in progress, or has not yet begun.
 
-To replan an intervention in the panel and in a planning, simply drag and drop onto a timeslot:
+#### Unplanning or reassigning appointments
 
-* if the timeslot is free, the intervention is automatically planned;
-* if a clash is encountered (unavailability, intervention already planned or a constraint is not respected), the user is warned by a message that summarises the conflict encountered and the choice to force the placement of this intervention or not. The interventions in conflict will then be replanned.
-
-Other options:
-
-1. Moving the orange frame in the panel towards the resource’s planning, the application will try to replan all appointments in this planning. The number of replanned appointments will then be displayed.
-2. When you move an appointment from the panel on to the name of the resource, the application chooses the best timeslot in which to position the appointment in the resource’s day.
-
-#### Navigating from one date to another
-
-To consult the planning for earlier or later periods, the user can click on the ![images/ref/buttons/bouton-simple-chevron-gauche.png](.gitbook/assets/bouton-simple-chevron-gauche_2.png) or ![images/ref/buttons/bouton-simple-chevron-droit.png](.gitbook/assets/bouton-simple-chevron-droit_2.png) buttons.
-
-Clicking on the date, it will also be possible to select a date directly in the agenda.
-
-|                                                                                                                                                          |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                   | Tip |
-| In multi-day views, click on a day of the week to display today’s agenda: it will then be possible to move from a week view to a day view of the agenda. |     |
-
-#### Previous or next agenda
-
-The user can rapidly move to find an agenda viewed recently using the ![images/ref/buttons/bouton-precedent.png](.gitbook/assets/bouton-precedent_2.png) button, and then return to the next agenda using the ![images/ref/buttons/bouton-suivant.png](.gitbook/assets/bouton-suivant_2.png) button.
-
-These buttons navigate through plannings viewed previously in all their forms. For example, if the user has moved from a resource view to a worksite view, they may return to the worksite view simply by clicking on ![images/ref/buttons/bouton-precedent.png](.gitbook/assets/bouton-precedent_3.png).
-
-|                                                                                                                             |     |
-| --------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                      | Tip |
-| These buttons do not permit cancellation of an operation performed earlier, they are exclusively for consultation purposes. |     |
-
-#### Switching the agenda
-
-By default, the agenda is displayed horizontally with the name of the resource(s) on-line and the time, the day, the weeks or the months in columns.
-
-Clicking on the ![images/ref/buttons/bouton-bascul-de-l-agenda.png](.gitbook/assets/bouton-bascul-de-l-agenda_2.png) button, the agenda switches into vertical viewing mode.
-
-Example of a vertical agenda
-
-![images/ref/planification/agenda-bascule.png](.gitbook/assets/agenda-bascule.png)
-
-A click on the ![images/ref/buttons/revenir-a-l-agenda-par-defaut.png](.gitbook/assets/revenir-a-l-agenda-par-defaut.png) button takes you back to the default agenda display.
-
-#### Display the location of the resource in the map
-
-This button displays the location of the resource on the map.
-
-In addition to their map position, the user is informed if the position of the resource corresponds or not to the planned itinerary.
-
-#### Display on the map
-
-This button displays routes in the agenda on the map.
-
-|                                                                                                                                                                                     |      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                             | Note |
-| It is only available in [views](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#selection-vues) the day or week. |      |
-
-Visualising a route on the map
-
-![images/ref/planification/affichage-d-une-tournee-sur-la-carte.png](.gitbook/assets/affichage-d-une-tournee-sur-la-carte.png)
-
-All resources sheduled for the viewed period are indicated by a tool-tip defining the time of the resource.
-
-During the display of the routes of several resources, each route is represented by the colour of the corresponding resource.
-
-Display of routes for a team
-
-![images/ref/planification/affichage-de-plusieurs-tournees.png](.gitbook/assets/affichage-de-plusieurs-tournees.png)
-
-|                                                                                                                          |     |
-| ------------------------------------------------------------------------------------------------------------------------ | --- |
-| \[Tip]                                                                                                                   | Tip |
-| In multi-resource mode, the eye just to the left of the resource name in the planning lets you display / hide the route. |     |
-
-#### Display the legend
-
-Legend
-
-![images/ref/planification/legende-charge-planning.png](.gitbook/assets/legende-charge-planning.png)
-
-The legend displays, by [object](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) type, the colour of the various items in the planning.
-
-The colours of objects displayed in the planning are [configurable](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#couleurs).
-
-|                                              |     |
-| -------------------------------------------- | --- |
-| \[Tip]                                       | Tip |
-| The legend adapts to fit the displayed view. |     |
-
-#### Map pin
-
-When performing manipulations on the [information frame](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-cadre-info.html) (search for an intervention, for example), the planning is updated automatically to display the agenda concerning the search applied.
-
-This button serves to fix the planning view and forbid automated updating.
-
-|                                                                                                                                |         |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| \[Warning]                                                                                                                     | Warning |
-| All the manipulations in the planning view (display by nature of intervention, periods…) cannot be blocked with this function. |         |
-
-### The agenda
-
-The agenda part is made up of one or several days of one or several resources.
-
-The items for this day are displayed in graphical form (either horizontally, or vertically) and a table, at the bottom of the page, displays the detail for these items.
-
-The colours of items in the planning are described in the [legend](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-legende).
-
-|                                                                                                                                                                                                    |      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                            | Note |
-| The priority levels for appointments are shown by a red line, the thickness of which reflects the level of priority for the appointment in the planning: images/ref/planification/priorite-rdv.png |      |
-
-The agenda appearance will vary depending on the [selected view](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#selection-vues):
-
-Day agenda for the worksite
-
-![images/ref/planification/agenda-jour-site.png](.gitbook/assets/agenda-jour-site.png)
-
-Day agenda for the resource
-
-![images/ref/planification/agenda-jour-itv.png](.gitbook/assets/agenda-jour-itv.png)
-
-In this view, under the graphical representation of the agenda, a list provides details of all the items in the planning in chronological order, indicating the start and end time, the intervention type, the status, the names of both the appointment and the town in which it is to take place.
-
-Monthly agenda for the resource in workload view
-
-![images/ref/planification/agenda-charge-itv.png](.gitbook/assets/agenda-charge-itv.png)
-
-The agenda provides access to functions according to the [user rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits):
-
-* [reoptimise a day / week](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#reoptim)
-* [move or extend](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#deplacer-etirer) items (appointments, unavailabilities or exceptional locations)
-* [manage appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-rdv)
-* [manage unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-indispo)
-* [manage non-worked hours for the resource](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-horaire)
-* [manage exceptional locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-loc-except)
-* [manage locked agendas](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-verr)
-* [manage temporary work posts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-postes)
-* [fill free timeslots in the agenda](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-planning-vide)
-* [display information about journey times](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-trajet)
-* [display information about lunch break](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-pause-dej)
-* edit the [roadbook](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#feuille-de-route)
-* display [information about the resource](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#info-bulle-tournee) by clicking on the ![images/ref/buttons/bouton-informations.png](.gitbook/assets/bouton-informations_5.png) button opposite the name of the resource
-
-#### Reoptimising the day
-
-The ![images/ref/buttons/reoptimiser-la-journee.png](.gitbook/assets/reoptimiser-la-journee.png) button runs a re-optimisation of the day on a technician directly from their planning. In the window that opens, the user can define from what time the re-optimisation of the day must start, and whether the tool can insert interventions to be planned or only retain those that have already been planned on that day.
-
-Reoptimisation options on the day
-
-![images/ref/planification/options-de-reoptimisation-de-la-journee.png](.gitbook/assets/options-de-reoptimisation-de-la-journee.png)
-
-|                                                                                                                                    |      |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                            | Note |
-| The option to reoptimise is also available in the weekly agenda. At this point, all the appointments for the week are reoptimised. |      |
-
-#### Move / extend objects
-
-You can move or extend all objects in the planning ([appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-rdv), [unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#centre-d-appel-indisponibilite), non-worked hours, [nights away](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#localisations-exceptionnelles), [agenda marker](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-jalons)).
-
-**Moving an object in the planning**
-
-To move an object, simply drag-and-drop to the desired position in the planning.
-
-|                                                                                                                                                                                                                                                                                             |         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                                                                                  | Warning |
-| Not all drag-and-drop operations are authorised. For example, a drag-and-drop of an appointment on a resource who does not have the skills will not work first time around. A windows will open requesting the user if they want to force the insertion of the appointment in the planning. |         |
-
-**Extend an object in the planning**
-
-To extend an object, simply move the mouse to the extremity of the object, and then click and stretch it forward to shorten it, or backwards to make it larger:
-
-Put the mouse cursor at the object’s extremity:
-
-![images/ref/planification/etirer-1.png](.gitbook/assets/etirer-1.png)
-
-Stretch the object:
-
-![images/ref/planification/etirer-2.png](.gitbook/assets/etirer-2.png)
-
-A window then displays to confirm the object extension.
-
-|                                                                                                                                                                                                                                                                                                                                                                                                        |         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| \[Warning]                                                                                                                                                                                                                                                                                                                                                                                             | Warning |
-| In some cases, it will not be possible to extend the object. In the case of an appointment for example, if the planning is filled, and the object extension interferes with the feasibility of the the journey to or from the appointment, or to the next appointment for example, it will not be possible to extend the appointment object. A message displays to warn the user: "no solution found". |         |
-
-|                                                                                                                                       |      |
-| ------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                               | Note |
-| In earlier versions of Opti-Time, to extend / move an object, you had to select the corresponding option in the appointment tool-tip. |      |
-
-#### Managing appointments in the agenda
-
-Moving the mouse cursor over an intervention, the appointment tool-tip displays.
-
-Appointment information popup
-
-![images/ref/planification/tool-tip-rdv.png](.gitbook/assets/tool-tip-rdv.png)
-
-The tool-tip will contain some information from the [appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv) such as the customer name, and the intervention address or site.
-
-A series of action buttons serve to apply the following operations to the intervention:
-
-* Put the appointment in the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier) ![images/ref/buttons/bouton-panier3.png](.gitbook/assets/bouton-panier3_2.png);
-* Add the appointment to the [list of selected appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html) ![images/ref/buttons/bouton-add2.png](.gitbook/assets/bouton-add2_6.png);
-* Reserve / Unconfirm: changes the appointment [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to _Reserved_ / previous ![images/ref/buttons/deconfirmer.png](.gitbook/assets/deconfirmer.png);
-* Unplan / Suspend an appointment: changes the appointment [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to previous / _Suspended_ ![images/ref/buttons/ca-deplanifier.png](.gitbook/assets/ca-deplanifier.png);
-* Reactivate: changes the appointment [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to _Requested_ ![images/ref/buttons/reactiver.png](.gitbook/assets/reactiver.png);
-* Delete: changes the appointment [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to _Abandonned_ ![images/ref/buttons/bouton-supprimer-une-indisponibilite.png](.gitbook/assets/bouton-supprimer-une-indisponibilite.png);
-* Cancels the appointment ![images/ref/buttons/pas-realise.png](.gitbook/assets/pas-realise.png);
-* Displays the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv) ![images/ref/buttons/informations-depuis-l-infobulle.png](.gitbook/assets/informations-depuis-l-infobulle.png);
-* Displays the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client) ![images/ref/buttons/tooltip-client.png](.gitbook/assets/tooltip-client.png).
-
-|                                                                                                                                                                                                                                                                                                                                                                 |     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                                                          | Tip |
-| Clicking on an intervention in the planning, the [intervention form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv) opens directly and displays in the [map](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-carte.html). |     |
-
-#### Manage unavailabilities in the agenda
-
-Moving the mouse over an unavailability in the agenda, the infobox popup for the unavailability displays.
-
-Infobox for an unavailability
-
-![images/ref/planification/infobulle-d-une-indisponibilite.png](.gitbook/assets/infobulle-d-une-indisponibilite.png)
-
-This displays information about the unavailability.
-
-The ![images/ref/buttons/informations-depuis-l-infobulle.png](.gitbook/assets/informations-depuis-l-infobulle_2.png) button displays the [abbreviated unavailability form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-reduite-indispo).
-
-The ![images/ref/buttons/bouton-supprimer-une-indisponibilite.png](.gitbook/assets/bouton-supprimer-une-indisponibilite_2.png) button deletes the unavailability. In the case of a repeated unavailability, a message will display to allow the user to choose between deleting all repetitions or only the selected unavailabilities.
-
-|                                                                                                                                                                                                                                                                                                                                                                                                     |     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                                                                                              | Tip |
-| Clicking on an unavailability in the planning, the [abbreviated form for the unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-reduite-indispo) opens directly and displays in the [map](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-carte.html). |     |
-
-#### Manage non-worked hours in the agenda
-
-Moving the mouse cursor over the non-worked hours of a resource (start or end of the day), an infobox appears showing the different manipulations that are possible:
-
-Infobox for a series of non-worked hours
-
-![images/ref/planification/tool-tip-non-travaille.png](.gitbook/assets/tool-tip-non-travaille.png)
-
-* The ![images/ref/buttons/ajout-nuitee.png](.gitbook/assets/ajout-nuitee.png) button returns you to the [managing nights away](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html) page.
-* The ![images/ref/buttons/verrou.png](.gitbook/assets/verrou.png) / ![images/ref/buttons/deverrouiller.png](.gitbook/assets/deverrouiller.png) button allows you to [lock / unlock the day](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html).
-* The ![images/ref/buttons/bouton-ajouter-une-indisponibilite-express.png](.gitbook/assets/bouton-ajouter-une-indisponibilite-express.png) button adds an [unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-passage-depot) in the agenda.
-
-#### Manage exceptional locations in the agenda
-
-Moving the mouse over an [exceptional location](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#localisations-exceptionnelles), the corresponding infobox displays.
-
-Here you will find certain information items from the [exceptional location form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-loc-exceptionnelle).
-
-* The ![images/ref/buttons/informations-depuis-l-infobulle.png](.gitbook/assets/informations-depuis-l-infobulle_3.png) button displays the [exceptional location form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-loc-exceptionnelle);
-* The ![images/ref/buttons/bouton-supprimer-une-indisponibilite.png](.gitbook/assets/bouton-supprimer-une-indisponibilite_3.png) button enables deletion of the exceptional location.
-
-#### Managing locked agendas
-
-Clicking on the lock of a locked day ![images/ref/planification/journee-verr.png](.gitbook/assets/journee-verr.png), displays the [locked day form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-journee-verrouillee).
-
-#### Handling temporary posts in the agenda
-
-In [posts view](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#selection-vues), if you move the mouse over a non-worked timeslot, the posts infobox displays.
-
-The ![images/ref/buttons/casque.png](.gitbook/assets/casque.png) button allows you to create a [temporary post](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-postes-temp).
-
-On an existing post,
-
-* The ![images/ref/buttons/informations-depuis-l-infobulle.png](.gitbook/assets/informations-depuis-l-infobulle_4.png) button displays the [temporary post form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-poste-temporaire);
-* The ![images/ref/buttons/bouton-supprimer-une-indisponibilite.png](.gitbook/assets/bouton-supprimer-une-indisponibilite_4.png) button deletes the temporary post.
-
-#### Fill an empty agenda
-
-Gliding the mouse cursor over the empty planning of a resource, an infobox or popup appears with the possibility of various manipulations:
-
-Infobox for an empty planning
-
-![images/ref/planification/infobulle-d-un-planning-vide.png](.gitbook/assets/infobulle-d-un-planning-vide.png)
-
-1. [Filling the empty planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#d172e6579)
-2. [Adding an appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#d172e6644)
-3. [Make an appointment for an existing customer](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#d172e6656)
-4. [Adding an unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#d172e6668)
-5. [Creating an express unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#d172e6680)
-6. [Add a locked day](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#d172e6692)
-7. [Add marker](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#d172e6709)
-
-|        |                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1.** | **Filling the empty planning**                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|        | In the infobox, the user clicks on the images/ref/buttons/bouton-remplir-le-planning.png button. By default, the application searches for all appointments with a [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) of _Requested_ or _Suspended_ that can be added to the planning.                                        |
-| **2.** | **Adding an appointment**                                                                                                                                                                                                                                                                                                                                                                                                                         |
-|        | Clicking on the images/ref/buttons/ajouter-une-intervention.png button, this option plans an intervention that does not yet exist in the interventions to be planned. This displays the customer’s [information form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#prendre-nouveau-rdv).                                                                                      |
-| **3.** | **Make an appointment for an existing customer**                                                                                                                                                                                                                                                                                                                                                                                                  |
-|        | When you click on the images/ref/buttons/tooltip-client.png button, this option allows you to schedule an intervention for an existing customer. The customer [search function](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-type-client) then displays.                                                                                                           |
-| **4.** | **Adding an unavailability**                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|        | Click on the images/ref/buttons/bouton-ajouter-une-indisponibilite.png button to display the [unavailability form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-indispo).                                                                                                                                                                                             |
-| **5.** | **Creating an express unavailability**                                                                                                                                                                                                                                                                                                                                                                                                            |
-|        | This option is available using the images/ref/buttons/bouton-ajouter-une-indisponibilite-express.png button in the infobox. It will only be useable if an [express unavailability](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-passage-depot) has been configured beforehand for the resource. The express unavailability is then automatically placed in the resource’s planning. |
-| **6.** | **Add a locked day**                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|        | Click on the images/ref/buttons/verrou.png / images/ref/buttons/deverrouiller.png button to access the option to [lock / unlock the day](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html).                                                                                                                                                                                     |
-| **7.** | **Add marker**                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|        | By clicking on the images/ref/buttons/jalon.png button, this option lets you [add a marker](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-jalons).                                                                                                                                                                                                                    |
-
-#### Journey time infobox
-
-Moving the mouse cursor over the journey time between two appointments, for example, an infobox displays the number of kilometers and the journey time.
-
-Any journeys that are not connected with the appointment (for example, the return journey between a night away and the usual return address) can also be displayed in the agenda if the [application configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) allows this (Display tab > Calendar > planning.content > _completeWithMoves_). Their duration can be limited in order to force splitting of the appointment, using the _moveMaxDisplayedDuration_ parameter.
-
-#### The lunch break infobox
-
-Moving the mouse cursor over a resource’s lunch break, the corresponding information popup displays.
-
-This displays the duration of the lunch break.
-
-The ![images/ref/buttons/verrou.png](.gitbook/assets/verrou_3.png) / ![images/ref/buttons/deverrouiller.png](.gitbook/assets/deverrouiller_3.png) button allows you to [lock / unlock the day](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html).
+Appointments that cannot be fulfilled, due to an unavailability, are unplanned or reassigned to another resource who is free, for this time slot.
 
 ***
 
-|                                                                                                                          |                                                                                                                            |                                                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-planification.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-supervision.html) |
-|                                                                                                                          | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)              |                                                                                                                            |
+|                                                                                                                           |                                                                                                                      |                                                                                                                      |
+| ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html) | [Up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-portail.html) | [Next](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html) |
+|                                                                                                                           | [Home](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)        |                                                                                                                      |
 
-* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#treeDiv)
-* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#searchDiv)
+* [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html#treeDiv)
+* [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_11.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
@@ -1031,4 +681,4 @@ The ![images/ref/buttons/verrou.png](.gitbook/assets/verrou_3.png) / ![images/re
       * [OTHERS](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/annexes-custom.html#_others)
 * [Glossary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html)
 
-[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html)
+[Search Highlighter (On/Off)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html)
