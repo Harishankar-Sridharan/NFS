@@ -40,3 +40,4 @@
   * [Journal](journal.md)
   * [Control Panel](controlpanel.md)
   * [Control Panel - Configure](controlpanelconfigure.md)
+  * [Control Panel - Interventions](controlpanelinterventions.md)
