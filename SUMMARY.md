@@ -45,3 +45,4 @@
   * [Control Panel - Scheduling Summary By Week](controlpanelschedulingsummarybyweek.md)
   * [Control Panel - Availabilities](controlpanelavailabilities.md)
   * [Control Panel - Appointment taking Quantity](controlpanelappointmenttakingquantity.md)
+  * [Analyzes - Overtimes](analysesovertimes.md)
