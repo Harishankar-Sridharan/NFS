@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction - Opti-Time Reference Guide](README.md)
+* [Introduction](README.md)
   * [Defining Terms](definingterms.md)
   * [Presentation of the Reference Guide](presentationofthereferenceguide.md)
   * [Running the Application](runningtheapplication.md)

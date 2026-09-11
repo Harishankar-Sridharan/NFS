@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](<.gitbook/assets/logo_geoconcept (1).png>)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Supervisor
 
@@ -18,8 +18,8 @@ This function serves to define the number of hours resources have spent over and
 
 ### Application
 
-Click on ![images/ref/buttons/bouton-recherche.png](<.gitbook/assets/bouton-recherche (1).png>)to display the table.\
-Click on ![images/ref/buttons/bouton-exporter-resultat.png](<.gitbook/assets/bouton-exporter-resultat (1).png>) to export the result in .csv format.
+Click on ![images/ref/buttons/bouton-recherche.png](.gitbook/assets/bouton-recherche.png)to display the table.\
+Click on ![images/ref/buttons/bouton-exporter-resultat.png](.gitbook/assets/bouton-exporter-resultat.png) to export the result in .csv format.
 
 |                                                                                                                                            |     |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | --- |
@@ -36,7 +36,7 @@ Click on ![images/ref/buttons/bouton-exporter-resultat.png](<.gitbook/assets/bou
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/heures-sup.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/heures-sup.html#searchDiv)
 
-![loading table of contents...](<.gitbook/assets/loading (1).gif>)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)

@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_6.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Supervisor
 
@@ -35,8 +35,8 @@ Summary of weekly plannings
 
 ![images/ref/supervision/resume-planning-sem.png](.gitbook/assets/resume-planning-sem.png)
 
-Click on the ![images/ref/buttons/bouton-recherche.png](.gitbook/assets/bouton-recherche_2.png) button to run a search on plannings.\
-Click on ![images/ref/buttons/bouton-exporter-resultat.png](.gitbook/assets/bouton-exporter-resultat_2.png) to export the data from the table in a text file.
+Click on the ![images/ref/buttons/bouton-recherche.png](.gitbook/assets/bouton-recherche.png) button to run a search on plannings.\
+Click on ![images/ref/buttons/bouton-exporter-resultat.png](.gitbook/assets/bouton-exporter-resultat.png) to export the data from the table in a text file.
 
 ***
 
@@ -48,7 +48,7 @@ Click on ![images/ref/buttons/bouton-exporter-resultat.png](.gitbook/assets/bout
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/resume-semaine.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/resume-semaine.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_6.gif)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)

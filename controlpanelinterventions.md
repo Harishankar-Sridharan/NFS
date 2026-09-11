@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_4.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Supervisor
 
@@ -47,7 +47,7 @@ Next, you can display statistical indicators for each type of display. To obtain
 * **Resource** functions with all displays except **Resource**;
 * **Resource type** functions with the display by **Activity type**, **Task type**, or **Status**.
 
-Click on the ![images/ref/buttons/recyclage.png](<.gitbook/assets/recyclage (1).png>) button to update the table (3).
+Click on the ![images/ref/buttons/recyclage.png](.gitbook/assets/recyclage.png) button to update the table (3).
 
 The hierarchical tree presents all the resources form the reference area, organised by team. Clicking on each «entity», it is possible to update the corresponding table (3). This hierarchical tree rolls out and rolls up.
 
@@ -68,7 +68,7 @@ Sometimes, explicit alert messages can complete the table to inform the supervis
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intervention.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intervention.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_4.gif)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
