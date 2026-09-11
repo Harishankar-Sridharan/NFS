@@ -46,4 +46,4 @@
   * [Control Panel - Availabilities](controlpanelavailabilities.md)
   * [Control Panel - Appointment taking Quantity](controlpanelappointmenttakingquantity.md)
   * [Analyzes - Overtimes](analysesovertimes.md)
-* [Attendance](planning-1-1.md)
+* [Attendance](attendance.md)
