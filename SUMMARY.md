@@ -47,3 +47,4 @@
   * [Control Panel - Appointment taking Quantity](controlpanelappointmenttakingquantity.md)
   * [Analyzes - Overtimes](analysesovertimes.md)
 * [Attendance](attendance.md)
+* [Strategic](strategic.md)
