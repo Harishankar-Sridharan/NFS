@@ -1,14 +1,23 @@
 # Defining Terms
 
-The **NFS** application is a full web-based planning management application. It is designed to facilitate daily operating procedures for **mobile workforces** comprising roaming personnel, whose role it is to travel to prospects or customers to deliver goods or services (door-to-door sales to private individuals, deliveries, equipment installation, after sales service, collection of goods, etc).
+**NFS** is a web-based planning and management application designed to support the day-to-day operations of **mobile workforces**. It helps organizations plan and manage activities for employees who travel to customer or prospect locations to deliver goods or services.
+
+NFS supports various mobile workforce activities, including door-to-door sales, deliveries, equipment installation, after-sales service, and collection of goods.
 
 Mobile forces
 
 ![](.gitbook/assets/pourqui.png)
 
-There are two optimisation engines: **batch**, and **real time**. The former is present only in the _Global GeoScheduling_ version of **NFS**, and the latter is available in BOTH VERSIONS of **NFS** Interactive Planning _GeoScheduling_. **NFS** provides working solutions to the problems encountered by travelling sales personnel, as described in Wikipedia at the following address: [https://en.wikipedia.org/wiki/Travelling\_salesman\_problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem). NFS is more than just a scheduling and planning application: it also takes into account business and environmental constraints that are critical when it comes to planning operations in any geographic space.
+#### NFS Optimisation Engines
 
-The optimisation engines present in the different versions of NFS
+**NFS** includes two optimisation engines: **Batch Optimisation** and **Real-Time Optimisation**.
+
+* **Batch Optimisation** is available only in the **Global GeoScheduling** version of NFS. It is used to optimise planning for a set of operations based on defined business and operational constraints.
+* **Real-Time Optimisation** is available in both **Interactive Planning** and **GeoScheduling** versions of NFS. It supports optimisation during ongoing planning activities and helps users adapt plans to changing operational requirements.
+
+NFS goes beyond basic scheduling and planning. Its optimisation capabilities consider **business, operational, and environmental constraints** that can affect field operations across different geographic areas.
+
+These optimisation engines help NFS generate practical and efficient plans for mobile workforces while taking into account factors such as travel, resources, activities, and operational constraints.
 
 |                                   |                                 |                          |
 | --------------------------------- | ------------------------------- | ------------------------ |
@@ -16,12 +25,20 @@ The optimisation engines present in the different versions of NFS
 | **Batch** optimisation engine     | X                               | O                        |
 | **Real time** optimisation engine | X                               | X                        |
 
-The solution also takes into account a large repository of constraints linked to the personnel (working hours of staff, holidays, etc..) to customers (opening hours, anniversary dates, visiting frequency, etc..) and to the geography (one-way streets, no-entry, average speed, etc…).
+#### NFS Capabilities
 
-This means the solution can streamline the **appointment making** function of planners, or sales personnels and experts who manage their diaries themselves, to enable travelling staff to concentrate on the work they have to do.
+**NFS** considers a comprehensive set of constraints that can affect workforce planning and scheduling. These constraints can be related to:
 
-**NFS** is available in several versions. it can be deployed as:
+* **Personnel:** working hours, holidays, availability, and other workforce constraints.
+* **Customers:** opening hours, preferred appointment dates, visit frequency, and other customer requirements.
+* **Geography:** one-way streets, restricted roads, no-entry areas, travel times, and average travel speeds.
 
-* An Internet site: adapted for work in call centres, or for the application administrator;
-* A mobile application: adapted for operators in the field;
-* of a "black box" application that is totally integrated in enterprise information systems (CRM, ERP etc…).
+By taking these constraints into account, NFS helps planners and field personnel **schedule appointments and organise daily activities more efficiently**. This allows mobile workers to spend more time focusing on their assigned tasks while NFS supports the planning and scheduling process.
+
+#### NFS Deployment Options
+
+NFS is available in different deployment configurations to meet the needs of different users and business environments:
+
+* **Web application:** Designed for planners, call-centre teams, and application administrators to manage planning and scheduling activities.
+* **Mobile application:** Designed for field operators to access their schedules, manage assigned activities, and update information while working in the field.
+* **Integrated application:** NFS can also be deployed as a **backend or "black box" solution**, fully integrated with enterprise information systems such as **CRM** and **ERP** platforms.
