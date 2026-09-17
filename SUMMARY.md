@@ -27,7 +27,7 @@
   * [Road Book](portal/roadbook.md)
   * [Global Optimization](portal/globaloptimization.md)
   * [Legend](portal/legend.md)
-  * [Opti Time Mobile Application](portal/optitimemobileapplication.md)
+  * [NFS Mobile Application](portal/optitimemobileapplication.md)
 * [Planning](planning/README.md)
   * [Objects in the Planning Module](planning/objectsintheplanningmodule.md)
   * [The Header Bar](planning/theheaderbar.md)
