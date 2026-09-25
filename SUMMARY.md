@@ -50,6 +50,7 @@
   * [Analyses - Customer Distance Matrix](analyses-customerdistancematrix.md)
   * [Analyses - Customer Centre of Gravity Matrix](analyses-customercentreofgravitymatrix.md)
   * [Analyses - Unavailabilities Global Planning](analyses-unavailabilitiesglobalplanning.md)
+  * [Analyses - Scheduling Compliance](analyses-schedulingcompliance.md)
   * [Analyzes - Overtimes](planning-1/analysesovertimes.md)
 * [Attendance](attendance.md)
 * [Strategic](strategic.md)
