@@ -47,6 +47,7 @@
   * [Control Panel - Appointment taking Quantity](planning-1/controlpanelappointmenttakingquantity.md)
   * [Control Panel - Appointment taking Quality](controlpanel-appointmenttakingquality.md)
   * [Control Panel - Targets](controlpanel-targets.md)
+  * [Analyses - Customer Distance Matrix](analyses-customerdistancematrix.md)
   * [Analyzes - Overtimes](planning-1/analysesovertimes.md)
 * [Attendance](attendance.md)
 * [Strategic](strategic.md)
