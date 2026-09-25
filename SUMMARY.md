@@ -45,7 +45,7 @@
   * [Control Panel - Scheduling Summary By Week](planning-1/controlpanelschedulingsummarybyweek.md)
   * [Control Panel - Availabilities](planning-1/controlpanelavailabilities.md)
   * [Control Panel - Appointment taking Quantity](planning-1/controlpanelappointmenttakingquantity.md)
-  * [Control Panel - Appointment taking Quality]
+  * [Control Panel - Appointment taking Quality](controlpanel-appointmenttakingquality.md)
   * [Analyzes - Overtimes](planning-1/analysesovertimes.md)
 * [Attendance](attendance.md)
 * [Strategic](strategic.md)
