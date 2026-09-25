@@ -1,4 +1,4 @@
-Analyses- Unavailabilities global planning
+analyses-unavailabilitiesglobalplanning
 -
 Opti-Time Reference Guide
 
