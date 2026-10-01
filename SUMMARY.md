@@ -52,4 +52,3 @@
   * [Analyses - Scheduling Compliance](analyses-schedulingcompliance.md)
   * [Analyzes - Overtimes](planning-1/analysesovertimes.md)
 * [Attendance](attendance.md)
-* [Strategic](strategic.md)
