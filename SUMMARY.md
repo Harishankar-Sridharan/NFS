@@ -54,4 +54,4 @@
 * [Attendance](attendance/README.md)
   * [Homepage](attendance/attendance-homepage.md)
   * [Modifying a Planning Manually](modifyingaplanningmanually.md)
- [Sectorization](sectorization.md)
+* [Sectorization](sectorization.md)
