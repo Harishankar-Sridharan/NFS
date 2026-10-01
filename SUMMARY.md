@@ -5,7 +5,6 @@
   * [Presentation of the Reference Guide](introduction-opti-time-reference-guide/presentationofthereferenceguide.md)
   * [Running the Application](introduction-opti-time-reference-guide/runningtheapplication.md)
   * [The different statuses for appointments in NFS](introduction-opti-time-reference-guide/thedifferentstatusesforappointmentsinoptitime.md)
-* [Guided Help - NFS](guided-help-opti-time-reference-guide.md)
 * [The Header Bar](guided-help-opti-time-reference-guide-1/README.md)
   * [Change the Area](guided-help-opti-time-reference-guide-1/change-area-opti-time-reference-guide.md)
   * [Change the password](guided-help-opti-time-reference-guide-1/change-the-password-opti-time-reference-guide.md)
