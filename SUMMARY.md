@@ -51,5 +51,5 @@
   * [Analyses - Unavailabilities Global Planning](analyses-unavailabilitiesglobalplanning.md)
   * [Analyses - Scheduling Compliance](analyses-schedulingcompliance.md)
   * [Analyzes - Overtimes](planning-1/analysesovertimes.md)
-* [Attendance](attendance.md)
-* [Attendance - Homepage](attendance-homepage.md)
+* [Attendance](attendance/README.md)
+  * [Homepage](attendance/attendance-homepage.md)

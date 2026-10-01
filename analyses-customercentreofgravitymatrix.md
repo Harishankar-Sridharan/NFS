@@ -6,5 +6,5 @@ Display, for each resource, the centre of gravity for customers who are affiliat
 
 ### Application
 
-Click on ![images/ref/buttons/bouton-recherche.png](<.gitbook/assets/bouton-recherche (1).png>)to display the table.\
-Click on ![images/ref/buttons/bouton-exporter-resultat.png](.gitbook/assets/bouton-exporter-resultat_2.png) to export the result in .csv format.
+Click on ![images/ref/buttons/bouton-recherche.png](.gitbook/assets/bouton-recherche.png)to display the table.\
+Click on ![images/ref/buttons/bouton-exporter-resultat.png](.gitbook/assets/bouton-exporter-resultat.png) to export the result in .csv format.
