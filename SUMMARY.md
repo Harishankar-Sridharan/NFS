@@ -52,6 +52,6 @@
   * [Analyses - Scheduling Compliance](analyses-schedulingcompliance.md)
   * [Analyzes - Overtimes](planning-1/analysesovertimes.md)
 * [Attendance](attendance/README.md)
-  * [Homepage](attendance/attendance-homepage.md)
   * [Modifying a Planning Manually](modifyingaplanningmanually.md)
+  * [Homepage](attendance/attendance-homepage.md)
 * [Sectorization](sectorization.md)
