@@ -59,3 +59,4 @@
 * [Tracking](tracking.md)
 * [Administration](Administration.md)
 * [Home Page](administration-homepage.md)
+* [General Principles](generalprinciples.md)
