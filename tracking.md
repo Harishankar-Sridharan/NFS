@@ -1,6 +1,6 @@
 # Tracking
 
-The Tracking module in **Opti-Time** is accessible only when the [corresponding right](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) (Tracking tab > Perimeter > **TRACKFLEET\_GUEST** right) is associated to the user profile.
+The Tracking module in **Nomada** is accessible only when the [corresponding right](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) (Tracking tab > Perimeter > **TRACKFLEET\_GUEST** right) is associated to the user profile.
 
 This module allows the user to display, in real time, the GPS positions of [mobile resources](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-info) assigned to an [vehicle](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-vehicules) and a [tracking device](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-equip-suivi), as a function of the user’s region of affiliation. A filter is also possible depending on the [worksite](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#site-travail), using the Filter device table link.
 

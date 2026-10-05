@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](../.gitbook/assets/logo_geoconcept_4.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Administration
 
@@ -40,7 +40,7 @@ For example: Search for human resources
 
 ![images/ref/admin/RH-recherche.png](../.gitbook/assets/RH-recherche_2.png)
 
-The ![images/ref/buttons/bouton-recherche.png](<../.gitbook/assets/bouton-recherche (1).png>) button provides access to the list of filtered data.
+The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) button provides access to the list of filtered data.
 
 From this list, it will be possible to:
 
@@ -61,7 +61,7 @@ For example: Modifying a type of post
 | \[Warning]                                | Warning |
 | Mandatory fields are indicated by a star. |         |
 
-To save a data item, click on the ![images/ref/buttons/bouton-sauvegarder.png](<../.gitbook/assets/bouton-sauvegarder (1).png>) button at the bottom of the form.
+To save a data item, click on the ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder.png) button at the bottom of the form.
 
 |                                                                                                                                                                                    |         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
@@ -75,7 +75,7 @@ From the data item form, the user can:
 
 ### Create a new data item
 
-At the bottom of the [data listing](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste), a ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter_7.png) button allows you to enter a new data item. The application returns a blank [creation form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche).
+At the bottom of the [data listing](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste), a ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button allows you to enter a new data item. The application returns a blank [creation form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche).
 
 For example: Creation of a new team
 
@@ -99,7 +99,7 @@ For example: Adding a secondary intervention sector
 
 ### Duplicating a data item
 
-In certain cases, it will be possible to duplicate a data item. To do this, click on Duplicate from the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) of the data item, and then save the new data item by clicking on ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder_2.png).
+In certain cases, it will be possible to duplicate a data item. To do this, click on Duplicate from the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) of the data item, and then save the new data item by clicking on ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder.png).
 
 For example: Duplicating a planning server
 
@@ -112,13 +112,13 @@ For example: Duplicating a planning server
 
 ### De-activating / Deleting a data item
 
-To delete or deactivate a data item, click on ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_3.png) in the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) of the data item.
+To delete or deactivate a data item, click on ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) in the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) of the data item.
 
 For example: De-activating an area
 
 ![images/ref/admin/region-info.png](../.gitbook/assets/region-info_2.png)
 
-In certain cases, it will be possible to deactivate a data item by checking the **Delete** check-box in the [list of records](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste) listing, and clicking on ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete_4.png):
+In certain cases, it will be possible to deactivate a data item by checking the **Delete** check-box in the [list of records](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste) listing, and clicking on ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png):
 
 For example: Deleting a team
 
@@ -149,7 +149,7 @@ In the remainder of this document the following areas will be described: access 
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#searchDiv)
 
-![loading table of contents...](../.gitbook/assets/loading_4.gif)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)

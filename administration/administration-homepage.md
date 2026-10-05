@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](<../.gitbook/assets/logo_geoconcept (1).png>)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](../.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Administration
 
@@ -147,7 +147,7 @@ To access a function or data item in the menu, simply click on the corresponding
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html#searchDiv)
 
-![loading table of contents...](<../.gitbook/assets/loading (1).gif>)
+![loading table of contents...](../.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)
