@@ -2,7 +2,7 @@
 
 Opti-Time Reference Guide
 
-[![Documentation](.gitbook/assets/logo_geoconcept_3.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
+[![Documentation](.gitbook/assets/logo_geoconcept.png)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/index.html)
 
 ## Opti-Time Reference Guide Administration
 
@@ -48,7 +48,7 @@ The search interface proposes the following filters:
 
 If the result of the search returns more than 20 lines, then a Next link allows you to navigate in the search.
 
-The ![images/ref/buttons/bouton-exporter-resultat.png](<.gitbook/assets/bouton-exporter-resultat (1).png>) button enables export of the result of the search in .csv format, with the following information being exported: Name, First name, Login, Profile, Area, Identifier and Badge number.
+The ![images/ref/buttons/bouton-exporter-resultat.png](.gitbook/assets/bouton-exporter-resultat.png) button enables export of the result of the search in .csv format, with the following information being exported: Name, First name, Login, Profile, Area, Identifier and Badge number.
 
 #### Resource form
 
@@ -100,7 +100,7 @@ Affiliation of a resource to one or several secondary worksites
 
 * The **Intervention sector** field; name of the secondary worksite. This may correspond either to a [worksite](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#site-travail), or to a [sector](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#secteur).
 * The **From** and **To** fields serve to define the start and finish dates for taking the resource into account in the plannings of the secondary worksite. If no date has been entered, the sector is assigned in a permanent way to the resource.
-* The **Period** field serves to define a customised period of time. To create a period, click on the ![images/ref/buttons/bouton-add.png](<.gitbook/assets/bouton-add (1).png>) button located to the right of the drop-down list.
+* The **Period** field serves to define a customised period of time. To create a period, click on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add.png) button located to the right of the drop-down list.
 * The **Function** serves to choose the [the profile](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-expertise) that will be assigned to the resource during this period, in other words, the different priorities with which the intervention types can be scheduled for him or her.
 * In **merge mode** you can define whether the resource type selected will replace the other types of resource assigned during this period (_exclusive_ mode) or whether it will be added to the other types assigned (_default_ mode).
 * The **preference** item serves to assign a lesser or greater weight (from 0 to 100) with which to take into account this secondary worksite at the time the appointment for this resource is scheduled.
@@ -300,7 +300,7 @@ Skills tab
 * **Skill**: field corresponding to presaved [skills](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#competence).
 * **External reference**: external reference for the skill.
 * **Length of time worked in sector**: start and finish date for the acquisition of the skill. These dates may correspond to an apprenticeship (in this case, a start date) or to a period of availability for a specific item of equipment or tooling.\
-  You can [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) periods by clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add_2.png) and ![images/ref/buttons/bouton-delete.png](<.gitbook/assets/bouton-delete (1).png>) buttons.
+  You can [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) periods by clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add.png) and ![images/ref/buttons/bouton-delete.png](.gitbook/assets/bouton-delete.png) buttons.
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                              |      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
@@ -319,7 +319,7 @@ Authorizations tab
 * **Authorisation**: this field corresponds to presaved [authorisations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#autorisation).
 * **External reference**: external reference for the authorisation.
 * **Length of time worked in sector**: start and finish date for the acquisition of the authorisation. These dates may represent the period of availability for a particular entitlement, skill or authorisation.\
-  You can [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) periods by clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add_3.png) andt ![images/ref/buttons/bouton-delete.png](.gitbook/assets/bouton-delete_2.png) buttons.
+  You can [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) periods by clicking on the ![images/ref/buttons/bouton-add.png](.gitbook/assets/bouton-add.png) andt ![images/ref/buttons/bouton-delete.png](.gitbook/assets/bouton-delete.png) buttons.
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                    |      |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
@@ -354,7 +354,7 @@ It is possible in the header to:
 
 The **Jobs** tab serves to define temporary or periodic posts for a resource. The posts are associated to a list of intervention types, and this enables definition of a set of types of temporary or periodic intervention types for a resource (see [Job type section](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-poste) and [Function](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-expertise)).
 
-You can [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) temporary posts by clicking on the ![images/ref/buttons/bouton-ajouter.png](<.gitbook/assets/bouton-ajouter (1).png>) and ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer.png) buttons.
+You can [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) temporary posts by clicking on the ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter.png) and ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer.png) buttons.
 
 Posts tab
 
@@ -655,9 +655,9 @@ Description of fields present in the interface:
 
 The list of members displays the **Last name**, **First name** and **Mission sector** of team members.
 
-You can [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) members by clicking on the ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter_2.png) and ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer_2.png) buttons.
+You can [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) members by clicking on the ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter.png) and ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer.png) buttons.
 
-Click on ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter_3.png) to display the list of resources that have not yet been assigned to the team, who are working in the area to which the team is affiliated.
+Click on ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter.png) to display the list of resources that have not yet been assigned to the team, who are working in the area to which the team is affiliated.
 
 Add Team members
 
@@ -739,9 +739,9 @@ Information tab
 
 #### Teams tab
 
-It is possible to [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html) and to [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) teams by clicking on the ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter_4.png) and ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer_3.png) buttons.
+It is possible to [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html) and to [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) teams by clicking on the ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter.png) and ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer.png) buttons.
 
-Click on the ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter_5.png) button to display the list of all Teams who are not already assigned to an Area.
+Click on the ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter.png) button to display the list of all Teams who are not already assigned to an Area.
 
 Adding Teams to an Area
 
@@ -838,7 +838,7 @@ Refer to the [address fields](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/
 
 Towns tab
 
-It is possible to [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) a town by clicking on ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter_6.png) after having clicked on Validate address and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) a town by clicking on ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer_4.png).
+It is possible to [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#ajout) a town by clicking on ![images/ref/buttons/bouton-ajouter.png](.gitbook/assets/bouton-ajouter.png) after having clicked on Validate address and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression) a town by clicking on ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer.png).
 
 This is the list of towns making up the sector.
 
@@ -943,7 +943,7 @@ It is possible to [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/opt
 
 Access the [list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste) of day on-call duties by clicking on the On-call duties > Day template link in the menu.
 
-The interface allows you to filter the list of templates in relation to the area of affiliation and worksite. Click on ![images/ref/buttons/bouton-prendre-rdv.png](.gitbook/assets/bouton-prendre-rdv_2.png) to apply your choice.
+The interface allows you to filter the list of templates in relation to the area of affiliation and worksite. Click on ![images/ref/buttons/bouton-prendre-rdv.png](.gitbook/assets/bouton-prendre-rdv.png) to apply your choice.
 
 **On-call duty form**
 
@@ -982,7 +982,7 @@ It is possible to [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/opt
 
 Access the [list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste) of week on-call duties by clicking on the On-call duties > Week template link in the menu.
 
-The interface allows you to filter the list of templates in relation to the area of affiliation and worksite. Click on ![images/ref/buttons/bouton-prendre-rdv.png](.gitbook/assets/bouton-prendre-rdv_3.png) to apply your choice.
+The interface allows you to filter the list of templates in relation to the area of affiliation and worksite. Click on ![images/ref/buttons/bouton-prendre-rdv.png](.gitbook/assets/bouton-prendre-rdv.png) to apply your choice.
 
 **On-call duties week form**
 
@@ -1282,7 +1282,7 @@ List of day templates
 
 ![images/ref/admin/modele-jour-liste.png](.gitbook/assets/modele-jour-liste.png)
 
-The interface allows you to filter the list of templates in relation to the area of affiliation and worksite. Click on ![images/ref/buttons/bouton-prendre-rdv.png](.gitbook/assets/bouton-prendre-rdv_4.png) to apply your choice.
+The interface allows you to filter the list of templates in relation to the area of affiliation and worksite. Click on ![images/ref/buttons/bouton-prendre-rdv.png](.gitbook/assets/bouton-prendre-rdv.png) to apply your choice.
 
 **Day template form**
 
@@ -1326,7 +1326,7 @@ List of week templates
 
 ![images/ref/admin/modele-semaine-liste.png](.gitbook/assets/modele-semaine-liste.png)
 
-The interface allows you to filter the list of templates in relation to the area of affiliation and worksite. Click on ![images/ref/buttons/bouton-prendre-rdv.png](.gitbook/assets/bouton-prendre-rdv_5.png) to apply your choice.
+The interface allows you to filter the list of templates in relation to the area of affiliation and worksite. Click on ![images/ref/buttons/bouton-prendre-rdv.png](.gitbook/assets/bouton-prendre-rdv.png) to apply your choice.
 
 **Week template form**
 
@@ -1385,7 +1385,7 @@ The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/e
 * [Contents](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#treeDiv)
 * [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#searchDiv)
 
-![loading table of contents...](.gitbook/assets/loading_3.gif)
+![loading table of contents...](.gitbook/assets/loading.gif)
 
 * [Introduction](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_introduction.html)
   * [Defining terms](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_defining_terms.html)

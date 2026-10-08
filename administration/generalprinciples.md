@@ -26,7 +26,7 @@ In some cases, a preliminary search screen will display showing different filter
 
 For example: Search for human resources
 
-![](../.gitbook/assets/RH-recherche_2.png)
+![](../.gitbook/assets/RH-recherche.png)
 
 The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) button provides access to the list of filtered data.
 
@@ -83,7 +83,7 @@ In this case, the addition is made by clicking on the Add button, having first f
 
 For example: Adding a secondary intervention sector
 
-![](../.gitbook/assets/RH-secteurs-1_2.png)
+![](../.gitbook/assets/RH-secteurs-1.png)
 
 ### Duplicating a data item
 
@@ -104,13 +104,13 @@ To delete or deactivate a data item, click on ![images/ref/buttons/bouton-delete
 
 For example: De-activating an area
 
-![](../.gitbook/assets/region-info_2.png)
+![](../.gitbook/assets/region-info.png)
 
 In certain cases, it will be possible to deactivate a data item by checking the **Delete** check-box in the [list of records](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste) listing, and clicking on ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png):
 
 For example: Deleting a team
 
-![](../.gitbook/assets/region-equipe_2.png)
+![](../.gitbook/assets/region-equipe.png)
 
 ### Navigation
 
