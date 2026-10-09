@@ -67,3 +67,4 @@
   * [Customization](customization.md)
   * [CSV Files](csvfiles.md)
   * [Tools](tools.md)
+  * [Nomadia API](nomadiaapi.md)
