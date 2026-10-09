@@ -318,7 +318,7 @@ The interface has six tabs: [service](https://mynomadia.com/privatedoc/9LLcWh7j7
 
 This section allows the user to stop or restart the service. It is also possible to run optimisations manually.
 
-The ![images/ref/buttons/recyclage.png](<.gitbook/assets/recyclage (1).png>) button allows the user to refresh the page content.
+The ![images/ref/buttons/recyclage.png](.gitbook/assets/recyclage.png) button allows the user to refresh the page content.
 
 Management of the optimisation service
 
@@ -354,7 +354,7 @@ You can view the names of all optimisations currently in progress, the area they
 
 The Stop button interrupts the optimisation currently in progress. A certain time elapses before the optimisation stops. A result is imported following this action.
 
-The ![images/ref/buttons/bouton-supprimer.png](<.gitbook/assets/bouton-supprimer (1).png>) button allows you to cancel the optimisation. No result will be imported.
+The ![images/ref/buttons/bouton-supprimer.png](.gitbook/assets/bouton-supprimer.png) button allows you to cancel the optimisation. No result will be imported.
 
 (3) **Planned optimisations**
 
@@ -366,7 +366,7 @@ Lists all the optimisations likely to be triggered manually. It is possible to f
 
 It is also possible to redefine the optimisation duration as well as the [heuristic](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html).
 
-The ![images/ref/buttons/play.png](<.gitbook/assets/play (1).png>) button allows you to start the optimisation.
+The ![images/ref/buttons/play.png](.gitbook/assets/play.png) button allows you to start the optimisation.
 
 |                                                                                                                                                                                                                                                                                                                                                                                                              |      |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
@@ -546,7 +546,7 @@ List of remote optimisation servers
 
 Remote server form
 
-![](<.gitbook/assets/optim-planif-serveur-modif (1).png>)
+![](.gitbook/assets/optim-planif-serveur-modif.png)
 
 The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) for a remote server regroups the following fields:
 

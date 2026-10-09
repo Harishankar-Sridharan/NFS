@@ -104,4 +104,4 @@ You can define the following parameters:
 * **Radius within which stopped resources are considered to have reached destination**: allows you to define an alert if the resource has stopped at a certain distance from the appointment location.
 * **Time limit before considering a location as old** allows you to define an alert for resources whose location has not been refreshed for a certain time.
 
-The ![images/ref/buttons/bouton-sauvegarder.png](<.gitbook/assets/bouton-sauvegarder (1).png>) saves the parameters.
+The ![images/ref/buttons/bouton-sauvegarder.png](.gitbook/assets/bouton-sauvegarder.png) saves the parameters.
