@@ -1,11 +1,5 @@
 # Nomadia API
 
-|                                                                                                                |                                                                                                                |
-| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| [Sidebar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/api.html) | [Prev](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/outils.html) |
-
-## Opti-Time API
-
 ### Documentation
 
 A link to the reference guide for Opti-Time API is provided here.
