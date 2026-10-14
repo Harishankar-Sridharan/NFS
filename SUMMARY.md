@@ -70,4 +70,5 @@
   * [Nomadia API](nomadiaapi.md)
   * [My Nomadia](mynomadia.md)
 * [Appendices](Appendices.md)
+* [Access Rights](accessrights.md)
 * [Glossary](Glossary.md)
