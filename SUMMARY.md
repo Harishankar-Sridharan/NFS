@@ -71,4 +71,5 @@
   * [My Nomadia](mynomadia.md)
 * [Appendices](appendices/README.md)
   * [Access Rights](appendices/accessrights.md)
+  * [Optimization Parameters](optimizationparameters.md)
 * [Glossary](Glossary.md)
