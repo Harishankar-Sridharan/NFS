@@ -1,21 +1,33 @@
 # Glossary
 
-Batch Optimisation : optimisation method for series of visits, whereby a specially formulated batch processing treatment is applied to large numbers of appointments. Batch optimisation optimises all the appointments and automatically fills the plannings or agendas. The operator then validates each appointment, by confirming it directly or liaising with the customer to finalise the booking.
+This glossary defines the main terms used in the NFS user guide.
 
-Real time optimisation (RTO) : interactive optimisation method who makes several suggestions for each appointment to the operator, who can then choose an appointment that is less attractive perhaps in terms of price, but that suits the customer better.
+**Batch optimization**
+: An optimization method for series of visits. A specially formulated batch process is applied to a large number of appointments. Batch optimization optimizes all the appointments and fills the plannings (agendas) automatically. The operator then validates each appointment, either by confirming it directly or by contacting the customer to finalize the booking.
 
-Re-activate : change an appointment’s status in the planning to **requested**. This means the appointment can now be re-optimised separately from the planning using Real Time(RTO) or Batch optimisation.
+**Real-time optimization (RTO)**
+: An interactive optimization method that offers the operator several suggestions for each appointment. The operator can then choose an option that is perhaps less attractive in terms of price but suits the customer better.
 
-Suspended (or unplanned) : is an appointment status outside the planning that cannot be reoptimised via RTO or Batch optimisation without manual intervention on the part of a user to re-activate the appointment.
+**Re-activate**
+: Change the status of an appointment in the planning to **requested**. The appointment can then be re-optimized separately from the planning, using real-time optimization (RTO) or batch optimization.
 
-Period of fulfilment : period during which a requested appointment can be planned. It is delimited by a baseline date and a latest date.
+**Suspended (or unplanned)**
+: An appointment status outside the planning. A suspended appointment cannot be re-optimized by RTO or batch optimization until a user re-activates it manually.
 
-External reference : permits exchanges between databases or via CSV files. This can be modified via the interface.
+**Period of fulfilment**
+: The period during which a requested appointment can be planned. It is delimited by a baseline date and a latest date.
 
-Geocoding : designates the fact of associating a geographic position to an address. This treatment is based on a [Geocoding Table](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html) and returns a [geocoding score](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html#geocodage-score).
+**External reference**
+: A reference that allows data exchange between databases or through CSV files. You can modify it in the interface.
 
-Geocoding score : the geocoding score corresponds to the pertinence of the X-Y coordinates found. This pertinence is evaluated according to two criteria: the geocoding level, and a percentage score depending on the level of geocoding.
+**Geocoding**
+: Associating a geographic position with an address. The process uses a geocoding table and returns a geocoding score.
 
-Geocoding table : database containing addresses and points of interest (for example: certain stations or small villages or points of interest)
+**Geocoding score**
+: The relevance of the X-Y coordinates found. It is evaluated according to two criteria: the geocoding level, and a percentage score that depends on that level.
 
-Heuristic : calculation method for finding an optimisation solution. Generally speaking, a first solution is generated and the associated cost calculated. Next, a new solution is calculated from the first (permutation of route stops…) for which a cost is calculated. If the new solution is less costly than the previous one, it will serve as the basis for calculating a new solution, otherwise the first solution is conserved, and so on.
+**Geocoding table**
+: A database that contains addresses and points of interest (for example, certain stations, small villages or other points of interest).
+
+**Heuristic**
+: A calculation method for finding an optimization solution. In general, the method generates a first solution and calculates its cost. It then calculates a new solution from the first one (for example, by permuting route stops) and calculates its cost. If the new solution costs less than the previous one, it becomes the basis for calculating the next solution. Otherwise, the method keeps the first solution, and so on.

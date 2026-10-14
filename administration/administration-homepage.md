@@ -1,124 +1,131 @@
 # Home Page
 
-Access the Nomadia Administration menu by clicking on the Administration tab in the [blue band](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau.html) at the top of the screen, or by entering the application directly if the [user profile](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-utilisateur) is set up to open Nomadia in the Administration module.
+## Overview
 
-|                                                                                                                                                                                                     |      |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                             | Note |
-| Connection via an administrator profile is required (see the chapter called [Users](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html)). |      |
+To open the Administration menu, do one of the following:
 
-Administration module Home page
+* Click the **Administration** tab in the blue band at the top of the screen. See [The Header Bar](../guided-help-nfs-reference-guide-1/README.md).
+* Enter the application directly, if your user profile is set up to open NFS in the Administration module. See [Company Data](companydata.md).
 
-![](../.gitbook/assets/administration-accueil.png)
+## Prerequisites
 
-The Home page is divided into three sections:
+{% hint style="info" %}
+You must connect with an administrator profile. See [User Handling](userhandling.md).
+{% endhint %}
 
-* The [**band**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau.html), at the top of the screen, enables access to the different modules making up the application
-* The **menu** to the left of the screen provides access to the different data so they can be manipulated;
-* A section to the right of the screen displays different screens relating to the data accessible in the Administration module.
+## Layout of the home page
 
-|                                                                                                                                                                                                                                                                                                                                                                           |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                                                                    | Tip |
-| Displayed on the Home page is the current version number of Opti-Time installed on the server (for example, 9.0.1.42). It is worth noting this number down so it can be easily found and used as a reference when contacting the GEOCONCEPT support team. The list of enabled modules on the current installation is also displayed, with details of the current licence. |     |
+![Administration module home page](../.gitbook/assets/administration-accueil.png)
 
-The Administration module is structured into several dialogue items enabling access to the different information items needed by the application. The different dialogue items available are
+The home page is divided into three sections:
 
-* [Company data](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html)
-* [Optimization](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html)
-* [Mobility](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html)
-* [Users](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html)
-* [Customization](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html)
-* [CSV files](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html)
-* [Tools](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/outils.html)
+* The [**band**](../guided-help-nfs-reference-guide-1/README.md), at the top of the screen, gives access to the different modules that make up the application.
+* The **menu**, on the left of the screen, gives access to the different data so that you can manipulate them.
+* A section on the right of the screen displays the different screens relating to the data accessible in the Administration module.
 
-To access a function or data item in the menu, simply click on the corresponding link in the left-hand menu. The different data or functions are classified as follows:
+{% hint style="info" %}
+The home page displays the current version number of NFS installed on the server (for example, 9.0.1.42). Note this number down so that you can use it as a reference when you contact the GEOCONCEPT support team. The page also displays the list of modules enabled on the current installation, with details of the current license.
+{% endhint %}
+
+## Menu structure
+
+The Administration module is structured into several dialogue items that give access to the different information items the application needs. The dialogue items are:
+
+* [Company data](companydata.md)
+* [Optimization](optimisation.md)
+* [Mobility](mobility.md)
+* [Users](userhandling.md)
+* [Customization](customization.md)
+* [CSV files](csvfiles.md)
+* [Tools](tools.md)
+
+To open a function or data item, click the corresponding link in the left-hand menu. The data and functions are classified as follows:
 
 * **Company data**
-  * [Human resource](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH)
-  * [Function](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-expertise)
-  * [Job type](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-poste)
-  * [Subcontractor](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#sous-traitants)
-  * [Equipment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#materiel)
-  * [Product family](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#famille-produit)
-    * [Product](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#produit)
-  * [Team](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#equipe)
-  * [Domain](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#domaine)
-  * [Area](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#region)
-  * [Worksite](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#site-travail)
-  * [Sector](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#secteur)
-  * [Unavailability type](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-indispo)
-  * [Exceptional location type](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-except-loc)
-  * [On-call duties](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#astreintes)
-    * [Day template](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#modele-jour)
-    * [Week template](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#modele-semaine-astreinte)
-  * [Skill](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#competence)
-  * [Authorization](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#autorisation)
-  * [Intervention group](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#groupe-intervention)
-    * [Mission type](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-intervention)
-  * [Targets](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#objectifs)
-  * [Activities follow up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#suivi-activite)
-    * [Completion status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#etat-realisation)
-    * [Follow-up](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#suite)
-  * [Typology](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html)
-  * [Calendars](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html)
-    * [Public holidays](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#jour-ferie)
-    * [Day template](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#modele-jour)
-    * [Week template](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#modele-semaine)
-    * [Sales Period](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#periode-vente)
-* **Optimisation**
-  * [Optimization parameters](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#param-optim)
-  * [Optimization planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#planif-optim)
-  * [Activate/Deactivate an area](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#activ-region)
-  * [Import/Export optim](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#impexp-optim)
+  * [Human resource](companydata.md)
+  * [Function](companydata.md)
+  * [Job type](companydata.md)
+  * [Subcontractor](companydata.md)
+  * [Equipment](companydata.md)
+  * [Product family](companydata.md)
+    * [Product](companydata.md)
+  * [Team](companydata.md)
+  * [Domain](companydata.md)
+  * [Area](companydata.md)
+  * [Worksite](companydata.md)
+  * [Sector](companydata.md)
+  * [Unavailability type](companydata.md)
+  * [Exceptional location type](companydata.md)
+  * [On-call duties](companydata.md)
+    * [Day template](companydata.md)
+    * [Week template](companydata.md)
+  * [Skill](companydata.md)
+  * [Authorization](companydata.md)
+  * [Intervention group](companydata.md)
+    * [Mission type](companydata.md)
+  * [Targets](companydata.md)
+  * [Activities follow up](companydata.md)
+    * [Completion status](companydata.md)
+    * [Follow-up](companydata.md)
+  * Typology
+  * Calendars
+    * [Public holidays](companydata.md)
+    * [Day template](companydata.md)
+    * [Week template](companydata.md)
+    * [Sales Period](companydata.md)
+* **Optimization**
+  * [Optimization parameters](optimisation.md)
+  * [Optimization planning](optimisation.md)
+  * [Activate/Deactivate an area](optimisation.md)
+  * [Import/Export optim](optimisation.md)
 * **Mobility**
-  * [Vehicles](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-vehicules)
-  * [Tracking service](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-equip-suivi)
-  * [Assignments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-affectation)
-  * [Tracking utils](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#util-suivi)
-  * [Settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-parametres)
+  * [Vehicles](mobility.md)
+  * [Tracking service](mobility.md)
+  * [Assignments](mobility.md)
+  * [Tracking utils](mobility.md)
+  * [Settings](mobility.md)
 * **Users**
-  * [Profile](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#profil)
-  * [Collection of rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits)
-  * [Access rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html)
-  * [Alert subscriptions](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#abo)
+  * [Profile](userhandling.md)
+  * [Collection of rights](userhandling.md)
+  * Access rights
+  * [Alert subscriptions](userhandling.md)
 * **Customization**
-  * [Application settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli)
-  * [Colors](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#couleurs)
+  * [Application settings](customization.md)
+  * [Colors](customization.md)
     * Referentials colors
     * Application colors
 * **CSV files**
-  * [Import CSV file](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#CSV-importer)
-  * [Export CSV file](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#CSV-exporter)
-  * [Global CSV import/export](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#CSV-global)
-  * [CSV import/export template](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#CSV-modele)
-  * [Circulation listeners](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#listener)
-  * [predefined export links](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#export-predefini)
+  * [Import CSV file](csvfiles.md)
+  * [Export CSV file](csvfiles.md)
+  * [Global CSV import/export](csvfiles.md)
+  * [CSV import/export template](csvfiles.md)
+  * [Circulation listeners](csvfiles.md)
+  * [Predefined export links](csvfiles.md)
   * **Specific files**
-    * [Export of TomTom POI](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#fichiers-spec-tom-tom)
-    * [Export of Masternaut POI](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#fichiers-spec-master)
-    * [Export of Garmin POI](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#fichiers-spec-garmin)
-    * [Export of KML POI](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#fichiers-spec-kml)
-  * [Export OT-Strategic files](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#fichiers-spec-strategic)
+    * [Export of TomTom POI](csvfiles.md)
+    * [Export of Masternaut POI](csvfiles.md)
+    * [Export of Garmin POI](csvfiles.md)
+    * [Export of KML POI](csvfiles.md)
+  * [Export OT-Strategic files](csvfiles.md)
   * **XML Files**
-    * [Optimisation file](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#XML-optim)
-    * [Reference files](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html)
-    * [Appointment request file](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html)
-    * [Circulation file](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#XML-circulation)
-    * [Customization file](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#XML-perso)
+    * [Optimization file](csvfiles.md)
+    * Reference files
+    * Appointment request file
+    * [Circulation file](csvfiles.md)
+    * [Customization file](csvfiles.md)
 * **Tools**
-  * [Advanced tools](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/outils.html#MAJ-BDD)
-  * [Recompute distance](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/outils.html#recalcul-dist)
-  * [Check server state](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html)
-  * [SQL query](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_home_page_3.html)
-  * [Logs](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/outils.html#journaux)
-  * [JVM thread dump](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/outils.html#thread-jvm)
+  * [Advanced tools](tools.md)
+  * [Recompute distance](tools.md)
+  * Check server state
+  * SQL query
+  * [Logs](tools.md)
+  * [JVM thread dump](tools.md)
 * **Nomadia API**
   * Documentation
   * CSV export/import templates
 * **MyGeoconcept**
+<!-- REVIEW: menu entry "MyGeoconcept" and "Nomadia API" use legacy names; confirm current menu labels -->
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Note |
-| The most often used dialogue items are [Company data](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html), [Optimisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html), [Users](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html) and [CSV Files](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html). |      |
+{% hint style="info" %}
+The most frequently used dialogue items are [Company Data](companydata.md), [Optimization](optimisation.md), [User Handling](userhandling.md) and [CSV Files](csvfiles.md).
+{% endhint %}

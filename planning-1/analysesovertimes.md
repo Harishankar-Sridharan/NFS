@@ -1,15 +1,14 @@
-# Analyzes - Overtimes
+# Analyses - Overtimes
 
-### Role
+## Overview
 
-This function serves to define the number of hours resources have spent over and above their scheduled working hours.
+Use this analysis to determine the number of hours that resources have worked over and above their scheduled working hours.
 
-### Application
+## Display and export the table
 
-Click on ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png)to display the table.\
-Click on ![images/ref/buttons/bouton-exporter-resultat.png](../.gitbook/assets/bouton-exporter-resultat.png) to export the result in .csv format.
+1. Click the ![Search button](../.gitbook/assets/bouton-recherche.png) button to display the table.
+2. Click the ![Export result button](../.gitbook/assets/bouton-exporter-resultat.png) button to export the result in `.csv` format.
 
-|                                                                                                                                            |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| \[Tip]                                                                                                                                     | Tip |
-| To be able to use this function, the resources must have previously stated a start and end time for their working day in Opti-Time Mobile. |     |
+{% hint style="info" %}
+To use this function, resources must have previously stated a start and end time for their working day in NFS Mobile.
+{% endhint %}

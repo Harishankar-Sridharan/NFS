@@ -1,15 +1,22 @@
 # Control Panel
 
-### Role
+## Overview
 
 The control panel shows the different situations and statuses for appointments, unavailabilities and teams.
 
-### Basic principles
+## Functions of the control panel
 
-Various functions make up the control panel.\
-The first step is to [configure](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html) the control panel, after which [interventions](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intervention.html) can be consulted in any order, along with summaries of [planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/resume-jour.html) and [availabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/dispo.html).\
-Two other tables complete the series of control panel statistics: namely, the [Appointment taking Quantity](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/rdv-quantite.html) and [Appointment taking Quality](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/rdv-qualite.html) tables.
+The control panel is made up of several functions:
 
-### Application
+1. Configure the control panel first. See [Control Panel - Configure](controlpanelconfigure.md).
+2. Consult the following tables in any order:
+   * [Control Panel - Interventions](controlpanelinterventions.md)
+   * [Control Panel - Scheduling Summary by Day](controlpanelschedulingsummarybyday.md) and [Control Panel - Scheduling Summary by Week](controlpanelschedulingsummarybyweek.md)
+   * [Control Panel - Availabilities](controlpanelavailabilities.md)
+3. Two other tables complete the series of control panel statistics:
+   * [Control Panel - Appointment Taking Quantity](controlpanelappointmenttakingquantity.md)
+   * [Control Panel - Appointment Taking Quality](controlpanel-appointmenttakingquality.md)
 
-Click on each of the dialogue items suggested in the vertical left-hand section of the screen to activate each of the functions.
+## Open a function
+
+Click an item in the vertical menu on the left of the screen to activate the corresponding function.

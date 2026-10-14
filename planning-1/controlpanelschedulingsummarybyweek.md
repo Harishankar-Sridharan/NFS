@@ -1,27 +1,31 @@
-# Control Panel - Scheduling Summary By Week
+# Control Panel - Scheduling Summary by Week
 
-### Role
+## Overview
 
-This page shows a summary table of statistics linked to travel on the part of resources [configured](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html) previously (kilometers travelled, journey time, number of visits fulfilled, visit time, unused working time, etc).
+This page shows a summary table of statistics linked to the travel of the resources configured previously: kilometers traveled, journey time, number of visits fulfilled, visit time, unused working time and so on.
 
-This is identical to the [daily plannings summary](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/resume-jour.html), but the statistics are aggregated by week and not by day.
+It is identical to [Control Panel - Scheduling Summary by Day](controlpanelschedulingsummarybyday.md), except that the statistics are aggregated by week instead of by day.
 
-### Application
+## Prerequisites
 
-First, you need to define the search period on plannings. The table display can be [reconfigured](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html) by clicking on Configure.
+Configure the control panel first. See [Control Panel - Configure](controlpanelconfigure.md).
 
-If the **Display empty days** check-box is checked, the table displays all plannings, even if they are empty.
+## Display the summary
 
-If the **Display totals and indices** check-box is checked, the following columns are added to the table, and a total line is added at the end:
+1. Define the search period for the plannings. To change the table display, click **Configure**. See [Control Panel - Configure](controlpanelconfigure.md).
+2. To display all plannings, even empty ones, select the **Display empty days** check box.
+3. To add columns of totals and indices and a total line at the end of the table, select the **Display totals and indices** check box.
+4. Click the ![Search button](../.gitbook/assets/bouton-recherche.png) button to run a search on plannings.
 
-* Journey (kms)/nb of visits
-* Travel duration/Visit duration
-* Visit duration/Working time
-* Period worked / Working hours
+![Summary of weekly plannings](../.gitbook/assets/resume-planning-sem.png)
 
-Summary of weekly plannings
+To export the data from the table to a text file, click ![Export result button](../.gitbook/assets/bouton-exporter-resultat.png).
 
-![](../.gitbook/assets/resume-planning-sem.png)
+## Fields and options
 
-Click on the ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) button to run a search on plannings.\
-Click on ![images/ref/buttons/bouton-exporter-resultat.png](../.gitbook/assets/bouton-exporter-resultat.png) to export the data from the table in a text file.
+When you select **Display totals and indices**, the following columns are added:
+
+* `Journey (kms)/nb of visits`
+* `Travel duration/Visit duration`
+* `Visit duration/Working time`
+* `Period worked / Working hours`

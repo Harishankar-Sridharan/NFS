@@ -1,1537 +1,1070 @@
-# Access Rights
-
-### (fr) Portail
-
-#### (fr) Périmètre
-
-(fr) PORTAL\_SEE\_OPTIMIZATION\_OF\_ALL\_AREA : Voir les optimisations pour toutes les régions
-
-(fr) PORTAL\_MANAGE\_OWN\_WORKSITE : Accès au site de travail de rattachement
-
-(fr) PORTAL\_MANAGE\_OWN\_TEAM : Accès à son équipe de rattachement
-
-(fr) PORTAL\_MANAGE\_OWN\_DOMAIN : Accès aux régions de son propre domaine de rattachement
-
-(fr) PORTAL\_MANAGE\_OWN\_AREA : Accès à sa région de rattachement
-
-(fr) PORTAL\_GUEST : Accès au module portail
-
-(fr) PORTAL\_DISPATCHER : Autorise l’accès aux fichiers d’entrée/sortie de l’optimiseur automatique (Dispatcher)
-
-(fr) PORTAL\_ALLRESOURCES\_PLANNING\_UPDATE : Autorise l'édition des plannings de toutes les ressources
-
-(fr) PORTAL\_ALLRESOURCES\_PLANNING\_DETAIL : Autorise l’accès aux détails du planning de toutes les ressources
-
-(fr) PORTAL\_ALLRESOURCES\_PLANNING\_ACCESS : Autorise l’affichage des plannings de toutes les ressources
-
-#### (fr) Agenda
-
-(fr) PORTAL\_WORKSITE\_PLANNING\_SECOND : Prise en compte des ressources dont le site spécifié pour le planning de site de travail est un site secondaire
-
-(fr) PORTAL\_WORKSITE\_PLANNING\_FIRST : Prise en compte des ressources dont le site principal est le site spécifié pour le planning de site de travail
-
-(fr) PORTAL\_WORKSITE\_PLANNING\_EXECUTING : Prise en compte des ressources qui effectuent un rendez-vous dans le site spécifié pour le planning de site de travail
-
-(fr) PORTAL\_WORKSITE\_PLANNING : Accès aux plannings des sites de travail
-
-(fr) PORTAL\_WHOLEAREA\_WORKSITE\_PLANNING : Accès aux plannings de tous les sites de travail de sa région
-
-(fr) PORTAL\_TEAM\_PLANNING\_UPDATE : Autorise la modification du planning des membres de la même équipe
-
-(fr) PORTAL\_TEAM\_PLANNING\_DETAIL : Autorise l’accès aux fiches de rendez-vous des membres de la même équipe
-
-(fr) PORTAL\_TEAM\_PLANNING\_ACCESS : Accès aux données de l'équipe en lecture
-
-(fr) PORTAL\_NONMOBILE\_RESOURCE\_PLANNING : Accès aux plannings des ressources non mobiles dans le portail
-
-(fr) PORTAL\_MULTIPLANNING\_ACCESS : Accès aux plannings multi-ressources à partir du portail
-
-(fr) PORTAL\_LEADED\_TEAM\_PLANNING\_UPDATE : Autorise la modification du planning des membres des équipes dirigées par la ressource
-
-(fr) PORTAL\_LEADED\_TEAM\_PLANNING\_DETAIL : Autorise l’accès aux détails du planning (activités) des membres des équipes dirigées par la ressource
-
-(fr) PORTAL\_LEADED\_TEAM\_PLANNING\_ACCESS : Accès aux plannings des équipes dirigées par la ressource
-
-(fr) PORTAL\_LEADED\_TEAM\_CHILD\_PLANNING\_UPDATE : Autorise la modification du planning des membres des équipes filles des équipes dirigées par la ressource
-
-(fr) PORTAL\_LEADED\_TEAM\_CHILD\_PLANNING\_DETAIL : Autorise l’accès aux détails du planning (activités) des membres des équipes filles des équipes dirigées par la ressource
-
-(fr) PORTAL\_LEADED\_TEAM\_CHILD\_PLANNING\_ACCESS : Autorise l’accès au planning des équipes filles des équipes dirigées par la ressource
-
-(fr) PORTAL\_AREA\_PLANNING : Accès aux plannings des régions
-
-#### (fr) Communication
-
-(fr) PORTAL\_WAYBILL\_EXPORT\_XML : Accès à l’exportation de la feuille de route en XML
-
-(fr) PORTAL\_WAYBILL\_EXPORT\_TOMTOM : Accès à l’exportation de la feuille de route vers TomTom
-
-(fr) PORTAL\_WAYBILL\_EXPORT\_PDF : Accès à l’exportation de la feuille de route en PDF
-
-(fr) PORTAL\_WAYBILL : Autorise l’accès à la feuille route
-
-(fr) PORTAL\_VIEW\_OTMOBILE : Autorise l’affichage de l’application de simulation OTmobile
-
-#### (fr) Optimisation
-
-(fr) PORTAL\_STOP\_MANUAL\_OPTIMIZATION : Autorise à arrêter manuellement une optimisation automatique
-
-(fr) PORTAL\_STOP\_AUTOMATIC\_OPTIMIZATION : Autorise à arrêter une optimisation automatique
-
-(fr) PORTAL\_START\_OPTIMIZATION\_AT\_ANY\_TIME : Autorise à démarrer manuellement une optimisation automatique à tout moment
-
-(fr) PORTAL\_START\_OPTIM\_ON\_VALIDITY\_PERIOD : Autorise à démarrer manuellement une optimisation automatique pendant sa période de validité
-
-(fr) PORTAL\_OPTIMIZATION\_SERVICE : Accès aux services d’optimisation
-
-#### (fr) Indisponibilités
-
-(fr) PORTAL\_UNAVAILABILITY\_MANAGING\_ACCESS : Accès à la gestion des indisponibilités
-
-(fr) PORTAL\_UNAVAILABILITY\_ACCESS : Accès au menu des indisponibilités
-
-### (fr) Planification
-
-#### (fr) Périmètre
-
-(fr) CALLCENTER\_UPDATE\_RESOURCEUSERLISTS : Accès à la modification d’une liste d’intervenants dans l’interface
-
-(fr) CALLCENTER\_SHOW\_RESOURCEUSERLISTS : Accès à la sélection d’une liste d’intervenants dans l’interface
-
-(fr) CALLCENTER\_SEE\_ONLY\_CURRENT\_USR : Impose la restriction de toutes les vues à celles qui concernent uniquement l’utilisateur connecté
-
-(fr) CALLCENTER\_MANAGE\_PERIMETER : Autorise la gestion du périmètre
-
-(fr) CALLCENTER\_MANAGE\_OWN\_WORKSITE : Accès au site de travail de rattachement
-
-(fr) CALLCENTER\_MANAGE\_OWN\_TEAM : Accès à son équipe de rattachement
-
-(fr) CALLCENTER\_MANAGE\_OWN\_DOMAIN : Autorise la gestion des régions de son propre domaine
-
-(fr) CALLCENTER\_MANAGE\_OWN\_AREA : Accès à sa région de rattachement
-
-(fr) CALLCENTER\_MANAGE\_EXCEPTIONAL\_LOCATION\_CURRENT\_AREA : Accès à la gestion des localisations exceptionnelles pour les ressources de la région en cours
-
-(fr) CALLCENTER\_MANAGE\_EXCEPTIONAL\_LOCATION\_ALL\_AREA : Accès à la gestion des localisations exceptionnelles pour toutes ressources de toutes les régions
-
-(fr) CALLCENTER\_MANAGE\_ALL\_WORKSITES : Accès à tous les sites de travail de la région de rattachement
-
-(fr) CALLCENTER\_MANAGE\_ALL\_TEAMS : Accès à toutes les équipes de la région de rattachement
-
-(fr) CALLCENTER\_MANAGE\_ALL\_AREAS : Accès à toutes les régions (tous les sites de travail et toutes les équipes)
-
-(fr) CALLCENTER\_GUEST : Accès au module Planification
-
-(fr) CALLCENTER\_DELETE\_RESOURCEUSERLISTS : Accès à la suppression d’une liste d’intervenants dans l’interface
-
-(fr) CALLCENTER\_CRM\_VIEW\_ALL\_AREAS : Permet de voir les clients de toutes les régions
-
-(fr) CALLCENTER\_CREATE\_RESOURCEUSERLISTS : Accès à la création d’une liste d’intervenants dans l’interface
-
-(fr) CALLCENTER\_CHANGE\_AREA : Autorise la modification de la région du module actif
-
-#### (fr) Client
-
-(fr) CALLCENTER\_CRM\_VIEW\_PROJECT\_MAININFO : Autorise l’affichage des informations principales de projet
-
-(fr) CALLCENTER\_CRM\_VIEW\_PROJECT\_EXTRAFIELDS : Autorise l’affichage des champs supplémentaires de projets
-
-(fr) CALLCENTER\_CRM\_VIEW\_PROJECT\_DETAILS : Autorise l’affichage des détails de projets
-
-(fr) CALLCENTER\_CRM\_VIEW\_PROJECT\_DAYS : Autorise l’affichage des jours projet
-
-(fr) CALLCENTER\_CRM\_VIEW\_PROJECT\_ASSIGNMENTS : Autorise la visualisation des affectations de projets
-
-(fr) CALLCENTER\_CRM\_VIEW\_ORDERER\_REQUIREMENTS : Autorisation d’afficher les préférences du commanditaire
-
-(fr) CALLCENTER\_CRM\_VIEW\_ORDERER : Autorise l’accès au commanditaire
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_TYPE : Autorise la visualisation du type de client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_REQUIREMENTS : Autorise la visualisation des préférences client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_PROJECT : Autorise la visualisation du projet client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_PLANNING\_WEEK : Autorise la visualisation du planning hebdomadaire client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_PLANNING\_MONTH : Autorise la visualisation du planning mensuel client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_KIND : Autorise la visualisation des natures de client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_DAYS : Autorise la visualisation des jours client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_CONTACTS : Autorise la visualisation des contacts client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_AUTHORIZATION : Accès aux autorisations dans la page customer
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_ASSIGNMENTS : Autorise la visualisation d’affectations client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_APPOINTMENTS : Autorise la visualisation des rendez-vous du client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER\_ADDRESS : Autorise la visualisation d’adresse client
-
-(fr) CALLCENTER\_CRM\_VIEW\_CUSTOMER : Autorise la visualisation du client
-
-(fr) CALLCENTER\_CRM\_VIEW\_ADDRESSES\_STREETVIEW : Autorise l’accès à la vue google street d’une adresse
-
-(fr) CALLCENTER\_CRM\_UPDATE\_PROJECT\_MAININFO : Autorise la modification des informations principales de projet
-
-(fr) CALLCENTER\_CRM\_UPDATE\_PROJECT\_EXTRAFIELDS : Autorise la modification des champs supplémentaires de projets
-
-(fr) CALLCENTER\_CRM\_UPDATE\_PROJECT\_DETAILS : Autorise la modification des détails de projets
-
-(fr) CALLCENTER\_CRM\_UPDATE\_PROJECT\_DAYS : Autorise la modification des jours projet
-
-(fr) CALLCENTER\_CRM\_UPDATE\_PROJECT\_ASSIGNMENTS : Autorise la modification des affectations de projets
-
-(fr) CALLCENTER\_CRM\_UPDATE\_ORDERER\_REQUIREMENTS : Autorisation de modifier les préférences du commanditaire
-
-(fr) CALLCENTER\_CRM\_UPDATE\_ORDERER : Autorise l'édition du commanditaire
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_TYPE : Autorise l'édition du type de client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_REQUIREMENTS : Autorise l'édition des préférences client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_PROJECT : Autorise l'édition du projet client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_KIND : Autorise la modification des natures de client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_DETAILS : Autorise l'édition des préférences client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_DAYS : Autorise l'édition des jours client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_CONTACTS : Autorise l'édition des contacts client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_AUTHORIZATION : Autorise la modification des autorisations dans la page customer
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_ASSIGNMENTS : Autorise l'édition d’affectations client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER\_ADDRESS : Autorise l'édition d’adresse client
-
-(fr) CALLCENTER\_CRM\_UPDATE\_CUSTOMER : Autorise l'édition du client
-
-(fr) CALLCENTER\_CRM\_TOURS\_PLAN : Accès aux modèles de tournées
-
-(fr) CALLCENTER\_CRM\_SET\_MAIN\_CUSTOMER\_CONTACTS : Autorise l'édition du contact principal client
-
-(fr) CALLCENTER\_CRM\_REMOVE\_CUSTOMER\_CONTACTS : Autorise la suppression d’un contact client
-
-(fr) CALLCENTER\_CRM\_LIST\_REPLACE\_WISHED\_HR\_LIST : Autorise à remplacer la liste des intervenants souhaités pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_REPLACE\_REQUIRED\_HR\_LIST : Autorise à remplacer la liste des intervenants requis pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_REPLACE\_REFUSED\_HR\_LIST : Autorise à remplacer la liste des intervenants refusés pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_REMOVE\_FROM\_WISHED\_HR\_LIST : Autorise à retirer de la liste des intervenants souhaités pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_REMOVE\_FROM\_REQUIRED\_HR\_LIST : Autorise à retirer de la liste des intervenants requis pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_REMOVE\_FROM\_REFUSED\_HR\_LIST : Autorise à retirer de la liste des intervenants refusés pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_EMPTY\_WISHED\_HR\_LIST : Autorise à vider la liste des intervenants souhaités pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_EMPTY\_REQUIRED\_HR\_LIST : Autorise à vider la liste des intervenants requis pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_EMPTY\_REFUSED\_HR\_LIST : Autorise à vider la liste des intervenants refusés pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_WORKSITE : Autorise à modifier le site de travail pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_TYPE : Autorise à modifier le type pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_QUANTITIES : Autorise à changer les champs Quantités pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_NEXT\_SCHEDULED\_DATE : Autorise à modifier la date de prochaine visite pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_LOGICALS : Autorise à changer les champs logiques pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_LAST\_VISIT\_DATE : Autorise à modifier la date de dernière visite pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_KIND : Autorise à modifier la nature pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_ISFOCUS : Autorise à modifier le focus pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_FILLERS : Autorise à changer les champs Divers pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_CHANGE\_DATES : Autorise à modifier les dates pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_ADD\_TO\_WISHED\_HR\_LIST : Autorise à ajouter dans la liste des intervenants souhaités pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_ADD\_TO\_REQUIRED\_HR\_LIST : Autorise à ajouter dans la liste des intervenants requis pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_LIST\_ADD\_TO\_REFUSED\_HR\_LIST : Autorise à ajouter dans la liste des intervenants refusés pour une liste de clients
-
-(fr) CALLCENTER\_CRM\_GENERATE\_PERIODIC\_APPT : Accès à la page de génération de demandes pour clients récurrents
-
-(fr) CALLCENTER\_CRM\_CUSTOMER\_SEARCH\_RESET\_FORM : Autorise à réinitialiser la recherche d’un client
-
-(fr) CALLCENTER\_CRM\_CUSTOMER\_SEARCH\_CHECK\_POSTADDRESS : Autorise à vérifier l’adresse postale d’un client lors d’une recherche
-
-(fr) CALLCENTER\_CRM\_CUSTOMER\_EXPORT\_CSV : Autorise à exporter un client au format CSV lors d’une recherche
-
-(fr) CALLCENTER\_CRM\_CUSTOMER\_ALERT\_LIST : Droit d’accès à la liste des alertes de clients
-
-(fr) CALLCENTER\_CRM\_CREATE\_ORDERER : Autorise la création du commanditaire
-
-(fr) CALLCENTER\_CRM\_CREATE\_CUSTOMER\_TYPE : Autorise la création du type de client
-
-(fr) CALLCENTER\_CRM\_CREATE\_CUSTOMER\_KIND : Autorise la création des natures de client
-
-(fr) CALLCENTER\_CRM\_CREATE\_CUSTOMER\_CONTACTS : Autorise la création d’un contact client
-
-(fr) CALLCENTER\_CRM\_CREATE\_CUSTOMER : Autorise la création du client
-
-(fr) CALLCENTER\_CRM\_APPLY\_UPDATES\_TO\_APP : Autorise la propagation des mises à jour du customer vers les demandes de rdv
-
-#### (fr) Rendez-vous
-
-(fr) CALLCENTER\_UNPLAN\_REALIZED\_APPT : Autorise la déplanification de rendez-vous complètement ou partiellement réalisés
-
-(fr) CALLCENTER\_UNPLAN\_APPT : Déplanifier un rendez-vous
-
-(fr) CALLCENTER\_UNDONE\_APPT : Accès à l’annulation de la réalisation d’un rendez-vous
-
-(fr) CALLCENTER\_UNCONFIRM\_APPT : Autorise à déconfirmer un rendez-vous
-
-(fr) CALLCENTER\_TRANSFORM\_REQUEST : Accès au bouton transformer dans la fiche de rendez-vous. Ce bouton ouvre une page d'édition dédiée afin d’appliquer facilement des modifications prédéfinies selon un processus métier personnalisé.
-
-(fr) CALLCENTER\_TAKE\_APPT : Autorise l’accès à la prise de rendez-vous
-
-(fr) CALLCENTER\_SUSPEND\_APPT : Suspendre un rendez-vous
-
-(fr) CALLCENTER\_SPLIT\_APPT : Accès au bouton Diviser dans la page de rendez-vous
-
-(fr) CALLCENTER\_SHEET\_APPT : Autorise l’accès à la fiche de rendez-vous
-
-(fr) CALLCENTER\_SAVE\_APPT : Enregistrer un rendez-vous
-
-(fr) CALLCENTER\_RESERVE\_APPT : Réserver un rendez-vous
-
-(fr) CALLCENTER\_REQUEST\_CONFIRMED\_APPT : Réactiver un rendez-vous réservé ou confirmé
-
-(fr) CALLCENTER\_REQUEST\_APPT : Demander un rendez-vous
-
-(fr) CALLCENTER\_REPLAN\_APPT : Re-planifier un rendez-vous
-
-(fr) CALLCENTER\_PHONE\_COUNTER : Afficher/incrémenter le compteur d’appels
-
-(fr) CALLCENTER\_MODIFY\_APPT : Autorise la modification de rendez-vous
-
-(fr) CALLCENTER\_FULLREQUEST\_MODIFY : Accès intégral à la modification de requête de rendez-vous
-
-(fr) CALLCENTER\_EDIT\_CHAIN\_CONSTRAINT : Créer/modifier une contrainte de chaînage
-
-(fr) CALLCENTER\_DONE\_APPT\_ANYSTATUS : Autorise à basculer un rendez-vous en état réalisé, indépendamment de son état actuel
-
-(fr) CALLCENTER\_DONE\_APPT : Accès à la réalisation du rendez-vous
-
-(fr) CALLCENTER\_DECLARE\_ACHIEVED : Pouvoir déclarer et modifier les rendez- vous réalisés
-
-(fr) CALLCENTER\_COPY\_APPT : Copie d’un rendez-vous
-
-(fr) CALLCENTER\_CONFIRM\_APPT : Confirmer un rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_APPT\_ADDRESS : Autorise à changer l’adresse du rendez-vous
-
-(fr) CALLCENTER\_CANCEL\_APPT : Annuler un rendez-vous
-
-(fr) CALLCENTER\_ACCEPT\_APPOINTMENT : Accepter un rendez-vous
-
-#### (fr) Liste de rendez-vous
-
-(fr) CALLCENTER\_UNPLAN\_LIST : Autorise à passer une liste de rendez-vous à l'état suspendu
-
-(fr) CALLCENTER\_UNCANCEL\_LIST : Autorise à passer une liste de rendez-vous a l'état demandé
-
-(fr) CALLCENTER\_SUSPEND\_LIST : Autorise à passer une liste de rendez-vous à l'état suspendu
-
-(fr) CALLCENTER\_SEARCH\_UNPLANNED\_APPT : Accès à la recherche des rendez-vous déplanifiés
-
-(fr) CALLCENTER\_SEARCH\_RESERVED\_APPT : Accès à la rechercher des rendez-vous réservés
-
-(fr) CALLCENTER\_SEARCH\_REQUESTED\_APPT : Accès à la recherche des rendez-vous demandés
-
-(fr) CALLCENTER\_SEARCH\_PLANNED\_APPT : Accès à la recherche des rendez-vous planifiés
-
-(fr) CALLCENTER\_SEARCH\_EXTERNALIZED\_APPT : Rendez-vous sous-traité
-
-(fr) CALLCENTER\_SEARCH\_CONFIRMED\_APPT : Accès à la recherche des rendez-vous confirmés
-
-(fr) CALLCENTER\_SEARCH\_CHAIN\_CONSTRAINT : Accès à la recherche de contrainte de chaînage
-
-(fr) CALLCENTER\_SEARCH\_APPT : Accès à la recherche de rendez-vous
-
-(fr) CALLCENTER\_SEARCH\_ACCEPTED\_APPT : Accès à l’acceptation de rendez-vous
-
-(fr) CALLCENTER\_RESERV\_LIST : Autorise à passer une liste de rendez-vous à l'état réservé
-
-(fr) CALLCENTER\_REALIZE\_LIST : Autorise à passer une liste de rendez-vous à l'état réalisé
-
-(fr) CALLCENTER\_REACTIVATE\_LIST : Autorise à passer une liste de rendez-vous a l'état demandé
-
-(fr) CALLCENTER\_PLANSUGGEST\_LIST : Autorise à passer une liste de rendez-vous à l'état planifié
-
-(fr) CALLCENTER\_PLAN\_LIST : Autorise à planifier une liste de rendez-vous
-
-(fr) CALLCENTER\_INCREASE\_PLANNED\_DATE\_LIST : Autorise à repousser la date de planification pour une liste de rendez-vous
-
-(fr) CALLCENTER\_INCREASE\_DATE\_MIN\_BEGIN\_LIST : Autorise à repousser la date plancher pour une liste de rendez-vous
-
-(fr) CALLCENTER\_INCREASE\_DATE\_MAX\_END\_LIST : Autorise à repousser la date plafond pour une liste de rendez-vous
-
-(fr) CALLCENTER\_DECREASE\_PLANNED\_DATE\_LIST : Autorise à avancer la date de planification pour une liste de rendez-vous
-
-(fr) CALLCENTER\_DECREASE\_DATE\_MIN\_BEGIN\_LIST : Autorise à avancer la date plancher pour une liste de rendez-vous
-
-(fr) CALLCENTER\_DECREASE\_DATE\_MAX\_END\_LIST : Autorise à avancer la date plafond pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CONFIRM\_LIST : Autorise à passer une liste de rendez-vous à l'état confirmé
-
-(fr) CALLCENTER\_CHANGE\_WORKSITE\_LIST : Autoriser la modification du site de travail pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_RESOURCES\_LIST : Autorise à changer les ressources pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_QUANTITIES\_LIST : Autorise à changer les champs Quantités pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_PRIORITY\_LIST : Autoriser la modification de priorité pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_LOGICALS\_LIST : Autorise à changer les champs Logiques pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_FILLERS\_LIST : Autorise à changer les champs Divers pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_DATES\_TIMES\_LIST : Autorise à changer la date et l’heure plafond et plancher pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_DATE\_MIN\_BEGIN\_LIST : Autorise à modifier la date plancher pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_DATE\_MAX\_END\_LIST : Autorise à modifier la date plafond pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CHANGE\_ADDITIONALDATES\_LIST : Autorise à changer les champs Date additionnels pour une liste de rendez-vous
-
-(fr) CALLCENTER\_CANCEL\_LIST : Autorise à passer une liste de rendez-vous à l'état annulé
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH9 : Accès à la liste de rendez-vous mySearch 9
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH8 : Accès à la liste de rendez-vous mySearch 8
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH7 : Accès à la liste de rendez-vous mySearch 7
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH6 : Accès à la liste de rendez-vous mySearch 6
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH5 : Accès à la liste de rendez-vous mySearch 5
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH4 : Accès à la liste de rendez-vous mySearch 4
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH3 : Accès à la liste de rendez-vous mySearch 3
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH2 : Accès à la liste de rendez-vous mySearch 2
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH15 : Accès à la liste de rendez-vous mySearch 15
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH14 : Accès à la liste de rendez-vous mySearch 14
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH13 : Accès à la liste de rendez-vous mySearch 13
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH12 : Accès à la liste de rendez-vous mySearch 12
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH11 : Accès à la liste de rendez-vous mySearch 11
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH10 : Accès à la liste de rendez-vous mySearch 10
-
-(fr) CALLCENTER\_APPOINTMENT\_LIST\_MYSEARCH1 : Accès à la liste de rendez-vous mySearch 1
-
-(fr) CALLCENTER\_APPOINTMENT\_ALERT\_LIST\_TROUBLESHOOTING : Droit d’accès à la liste des alertes d’interventions de dépannage
-
-(fr) CALLCENTER\_APPOINTMENT\_ALERT\_LIST\_CUSTOMER\_GAP : Droit d’accès à la liste des alertes d'écart client
-
-(fr) CALLCENTER\_APPOINTMENT\_ALERT\_LIST\_BIG\_ROUTE\_DURATION : Droit d’accès à la liste des alertes de durée trajet
-
-(fr) CALLCENTER\_APPOINTMENT\_ALERT\_LIST\_APPOINTMENT\_TO\_REPLAN : Droit d’accès à la liste des alertes des rendez-vous à replanifier
-
-(fr) CALLCENTER\_APPOINTMENT\_ALERT\_LIST : Droit d’accès à la liste des alertes interventions
-
-(fr) CALLCENTER\_ADD\_CONSTRAINT\_LIST : Autorise la création d’une contrainte de chainage pour une liste de rendez-vous
-
-(fr) CALLCENTER\_ACCEPT\_LIST : Autorise à modifier l'état à Accepté pour une liste de rendez-vous
-
-#### Planification
-
-(fr) CALLCENTER\_VISITS\_TOO\_FREQUENT : Autorise les visites trop fréquentes
-
-(fr) CALLCENTER\_SCHEDULE\_APPT\_AS\_PLANNED : Autorise le placement d’un rendez-vous à l'état planifié
-
-(fr) CALLCENTER\_RESCHEDULE\_COLLECTION\_OF\_APPOINTMENT : Permettre de reprendre la planification de un ou plusieurs jours
-
-(fr) CALLCENTER\_REOPTIM\_WEEK : Permettre d’optimiser une semaine
-
-(fr) CALLCENTER\_REOPTIM\_DAY : Permettre d’optimiser une journée
-
-(fr) CALLCENTER\_REALTIME\_TIMEGRID\_MODE : Autorise l’affichage des solutions de l’optimisation temps réel en mode grille
-
-(fr) CALLCENTER\_REALTIME\_OPTIM\_IGNORE\_HR\_CONSTRAINTS : Autoriser l’optimisation temps réel de visites par des intervenants qui ne sont ni ceux requis ni ceux souhaités
-
-(fr) CALLCENTER\_POST\_OPTIM\_SUSPEND\_APP : Autorise le passage en état suspendu d’un rendez-vous pour lequel l’optimisation temps réel n’a pas trouvé de solution
-
-(fr) CALLCENTER\_POST\_OPTIM\_IMPOSE\_APP : Prise de rendez-vous manuel après une optimisation
-
-(fr) CALLCENTER\_PLAN\_APPT : Planifier un rendez-vous
-
-(fr) CALLCENTER\_OPTIM\_APP : Autorise la planification de rendez-vous avec l’optimisation temps réel
-
-(fr) CALLCENTER\_MODIFY\_AGENDA\_CONTROLLED\_DATES\_VALIDATION : Autorise à modifier les données de validation pour les journées verrouillées
-
-(fr) CALLCENTER\_MODIFY\_AGENDA\_CONTROLLED\_DATES\_ENTRY : Autorise à modifier les données de demande de validation pour les journées verrouillées
-
-(fr) CALLCENTER\_MANUAL\_OPTIM\_IGNORE\_HR\_WORKSITE : Autoriser la planification manuelle des visites par des intervenants non affectés au site de travail de la visite
-
-(fr) CALLCENTER\_MANUAL\_OPTIM\_IGNORE\_HR\_CONSTRAINTS : Autoriser la planification manuelle des visites par des intervenants qui ne sont ni ceux requis ni ceux souhaités
-
-(fr) CALLCENTER\_MANAGE\_AGENDA\_MARKERS : Accès aux jalons
-
-(fr) CALLCENTER\_MANAGE\_AGENDA\_CONTROLLED\_DATES : Accès à la gestion des journées verrouillées
-
-(fr) CALLCENTER\_IMPOSE\_APP\_IGNORE\_SKILLS : Prendre un rendez-vous manuel pour un intervenant n’ayant pas les compétences requises
-
-(fr) CALLCENTER\_IMPOSE\_APP : Planifier un rendez-vous manuellement
-
-(fr) CALLCENTER\_FORCE\_IMPOSE\_APP : Planifier un rendez-vous manuellement en violant des contraintes
-
-(fr) CALLCENTER\_FILL\_PLANNING : Remplir le planning d’un intervenant avec des rendez-vous demandés ou déplanifiés
-
-(fr) CALLCENTER\_CAN\_VALIDATE\_AGENDA\_CONTROLLED\_DATE : Autorise à mettre les journées verrouillées en état VALIDÉ
-
-(fr) CALLCENTER\_CAN\_TAKE\_APPOINTMENT\_WITH\_OPTIM\_PARAMETERS\_NAMED : Autorise la prise de rendez-vous avec les configurations nommés de paramètres d’optimisation
-
-(fr) CALLCENTER\_CAN\_REQUEST\_AGENDA\_CONTROLLED\_DATE : Autorise à mettre les journées verrouillées en état DEMANDÉ
-
-(fr) CALLCENTER\_CAN\_REFUSE\_AGENDA\_CONTROLLED\_DATE : Autorise à mettre les journées verrouillées en état REFUSÉ
-
-(fr) CALLCENTER\_CAN\_PLACEONDISABLED\_DATES : Autorise à planifier en temps sur hors des dates contraintes
-
-(fr) CALLCENTER\_CAN\_FORCE\_MAX\_WORK\_TIME\_OF\_WEEK : Autoriser à dépasser la durée maximale de travail d’une semaine
-
-(fr) CALLCENTER\_CAN\_FORCE\_MAX\_WORK\_TIME\_OF\_DAY : Autoriser à dépasser la durée maximale de travail d’une journée
-
-(fr) CALLCENTER\_CAN\_FORCE\_MAX\_MOVE\_TIME\_OF\_WEEK : Autoriser à dépasser la distance maximale de trajet d’une semaine
-
-(fr) CALLCENTER\_CAN\_FORCE\_MAX\_MOVE\_TIME\_OF\_DAY : Autoriser à dépasser la distance maximale de trajet d’une journée
-
-#### (fr) Interactions avec l’agenda
-
-(fr) CALLCENTER\_INPLANNING\_UNPLAN\_REALIZED\_APPT : Autorise à déplanifier de la vue planning des rendez-vous réalisés entièrement ou partiellement
-
-(fr) CALLCENTER\_INPLANNING\_UNPLAN\_APPT : Autorise la suspension (passage en état suspendu) des rendez-vous depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_UNDO\_APP : Autorise à annuler la réalisation d’un rendez-vous réalisé
-
-(fr) CALLCENTER\_INPLANNING\_UNCONFIRM\_EXCEPTIONAL\_LOCATIONS : Autorise l’infirmation de localisations exceptionnelles dans la vue planning
-
-(fr) CALLCENTER\_INPLANNING\_UNCONFIRM\_APPT : Autorise à déconfirmer des rendez-vous (passage en état planifié) dans les plannings
-
-(fr) CALLCENTER\_INPLANNING\_SUSPEND\_APPT : Autorise la suspension (passage en état suspendu) des rendez-vous depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_RESET\_STANDARD\_DAY : Autorise à rétablir un jour à sa valeur standard lorsqu’un type spécifique lui est appliqué
-
-(fr) CALLCENTER\_INPLANNING\_RESERV\_APPT : Autorise la réservation (passage en état réservé) des rendez-vous depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_REMOVE\_UNAVAILABILITY : Autorise la suppression des indisponibilités depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_REMOVE\_EXCEPTIONAL\_LOCATION : Autorise la suppression des localisations exceptionnelles dans les plannings
-
-(fr) CALLCENTER\_INPLANNING\_REMOVE\_APPT : Autorise la suppression (passage en état annulé) des rendez-vous depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_REACTIV\_APPT : Activation des rendez-vous depuis les plannings (retour en état demandé)
-
-(fr) CALLCENTER\_INPLANNING\_MOVE\_UNAVAILABILITY : Autorise le déplacement des indisponibilités depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_MOVE\_MARKER : Autorise le déplacement des jalons dans les plannings
-
-(fr) CALLCENTER\_INPLANNING\_MOVE\_APPT : Autorise le déplacement des rendez-vous depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_MODIFY\_UNAVAILABILITY\_DURATION : Autorise à modifier la durée des indisponibilités dans les plannings
-
-(fr) CALLCENTER\_INPLANNING\_MODIFY\_MARKER\_DURATION : Autorise à modifier la durée des jalons dans les plannings
-
-(fr) CALLCENTER\_INPLANNING\_MODIFY\_EXCEPTIONAL\_LOCATION : Autorise à modifier la durée des localisations exceptionnelles dans les plannings
-
-(fr) CALLCENTER\_INPLANNING\_MODIFY\_APPT\_DURATION : Autorise à modifier la durée des rendez-vous depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_CREATE\_EXCEPTIONAL\_LOCATION : Autorise la création de localisations exceptionnelles dans la vue planning
-
-(fr) CALLCENTER\_INPLANNING\_CONFIRM\_EXCEPTIONAL\_LOCATIONS : Autorise la confirmation de localisations exceptionnelles dans la vue planning
-
-(fr) CALLCENTER\_INPLANNING\_CONFIRM\_APPT : Autorise la confirmation (passage en état confirmé) des rendez-vous depuis les plannings
-
-(fr) CALLCENTER\_INPLANNING\_APP\_PANEL : Accès au panier des rendez-vous dans les plannings
-
-(fr) CALLCENTER\_INPLANNING\_ADD\_BY\_DRAG\_EXCEPTIONAL\_LOCATION : Autorise la création d’une localisation exceptionnelle par drag & drop dans les plannings
-
-(fr) CALLCENTER\_INPLANNING\_ACCEPT\_APPT : Accepter des rendez-vous dans les plannings
-
-#### (fr) Agenda
-
-(fr) CALLCENTER\_WORKSITE\_PLANNING\_SECOND : Prise en compte des ressources dont le site spécifié pour le planning de site de travail est un site secondaire
-
-(fr) CALLCENTER\_WORKSITE\_PLANNING\_FIRST : Prise en compte des ressources dont le site principal est le site spécifié pour le planning de site de travail
-
-(fr) CALLCENTER\_WORKSITE\_PLANNING\_EXECUTING : Prise en compte des ressources qui effectuent un rendez-vous dans le site spécifié pour le planning de site de travail
-
-(fr) CALLCENTER\_WORKSITE\_PLANNING : Accès au planning de site de travail
-
-(fr) CALLCENTER\_WEEK\_PLANNING : Accès au planning semaine
-
-(fr) CALLCENTER\_VIEW\_CHARGE\_PLANNING : Accès aux plannings de charge
-
-(fr) CALLCENTER\_VIEW\_AREA\_BY\_WORKSITE\_PLANNING : Accès aux plannings de région par site de travail
-
-(fr) CALLCENTER\_VEHICLE\_PLANNING : Accès à l’affichage de véhicules suivis
-
-(fr) CALLCENTER\_TEAM\_PLANNING : Accès au planning équipe
-
-(fr) CALLCENTER\_ROTATE\_PLANNING : Accès au bouton de basculement horizontal / vertical de l’agenda
-
-(fr) CALLCENTER\_PLANNING\_NO\_HOURS : Affiche les plannings sans faire figurer les horaires
-
-(fr) CALLCENTER\_PLANNING\_DISPLAY\_MARKERS : Afficher les jalons dans l’agenda du centre d’appels
-
-(fr) CALLCENTER\_PLANNING : Accès aux plannings
-
-(fr) CALLCENTER\_NONMOBILE\_RESOURCE\_PLANNING : Accès au planning des ressources non mobiles dans le module de planification
-
-(fr) CALLCENTER\_MULTI\_PLANNING : Accès aux plannings multi-ressources
-
-(fr) CALLCENTER\_MONTH\_PLANNING : Accès au planning mois
-
-(fr) CALLCENTER\_HIDE\_PERSONAL\_ADDRESS : Masquer les adresses personnelles des intervenants dans la carte, le planning, les formulaires
-
-(fr) CALLCENTER\_AREA\_PLANNING : Accès au planning région
-
-#### (fr) Communication
-
-(fr) CALLCENTER\_VIEW\_WAYBILL : Autorise l’accès à la feuille route
-
-(fr) CALLCENTER\_VIEW\_MESSAGE : Autorise à afficher les messages
-
-(fr) CALLCENTER\_TEAMS\_WAYBILL : Accès à la feuille de route des équipes
-
-(fr) CALLCENTER\_SHOW\_CUSTOM\_EXPORT : Accès à la page des exportations personnalisées
-
-(fr) CALLCENTER\_SEND\_WEEK\_NOTIFICATIONS : Autorise l’envoi de notifications des rendez-vous hebdomadaires
-
-(fr) CALLCENTER\_SEND\_APPOINTMENT\_NOTIFICATION : Autorise l’envoi de notification d’un rendez-vous
-
-(fr) CALLCENTER\_SEND\_APPOINTMENT\_ANNOUNCE : Autorise à envoyer une annonce de rendez-vous
-
-(fr) CALLCENTER\_MANAGE\_NOTIFIABLES : Autorise l’affichage/la mise à jour de la propriété de Notifiable des intervenants
-
-(fr) CALLCENTER\_EXPORT\_CSV : Autorise l’export des tableaux au format CSV
-
-(fr) CALLCENTER\_CREATE\_MESSAGE : Autorise à créer les messages
-
-#### (fr) Cartographie
-
-(fr) CALLCENTER\_VIEW\_MAP\_ACTIVITIES : Accès à la cartographie des activités
-
-(fr) CALLCENTER\_VIEW\_MAP : Donne l’accès à la vue cartographique
-
-(fr) CALLCENTER\_SHOW\_SEARCHAROUNDPAGE : Accès à la page de recherche de proximité
-
-(fr) CALLCENTER\_SHOW\_ITIPAGE : Accès à la page de calcul d’itinéraire
-
-(fr) CALLCENTER\_PICK\_COORDINATES : Accès à la page de conversion de coordonnées
-
-#### (fr) Nuitée
-
-(fr) CALLCENTER\_VIEW\_BUSINESS\_LOCATIONS\_PREFERENCES : Autorise à voir les préférences d’emplacements d’affaires
-
-(fr) CALLCENTER\_UNCONFIRM\_EXCEPTIONAL\_LOCATIONS : Autorise l’infirmation de localisations exceptionnelles
-
-(fr) CALLCENTER\_SUGGEST\_EXCEPTIONAL\_LOCATIONS : Droit pour afficher le bouton de proposition des nuitées
-
-(fr) CALLCENTER\_REMOVE\_EXCEPTIONAL\_LOCATION : Autorise la suppression de localisations exceptionnelles
-
-(fr) CALLCENTER\_MODIFY\_EXCEPTIONAL\_LOCATION : Autorise la mise à jour de localisations exceptionnelles
-
-(fr) CALLCENTER\_MANAGE\_EXCEPTIONAL\_LOCATION : Accès à la gestion des localisations exceptionnelles
-
-(fr) CALLCENTER\_MANAGE\_BUSINESS\_LOCATIONS : Accès à la gestion des emplacements d’affaires (hôtels…)
-
-(fr) CALLCENTER\_FORCE\_EXCEPTIONAL\_LOCATIONS : Droit pour forcer la création/suppression des nuitées
-
-(fr) CALLCENTER\_CREATE\_EXCEPTIONAL\_LOCATION : Autorise la création de localisations exceptionnelles
-
-(fr) CALLCENTER\_CONFIRM\_EXCEPTIONAL\_LOCATIONS : Autorise la confirmation de localisations exceptionnelles
-
-#### (fr) Suivi temps réel
-
-(fr) CALLCENTER\_VEHICLE\_TRACKING\_ANALYZE : Accès à la page d’analyses de suivi de véhicule
-
-(fr) CALLCENTER\_VEHICLE\_TRACKING : Accès au suivi de véhicule
-
-(fr) CALLCENTER\_SHOW\_TRAFFIC\_PATTERN : Rend accessible la page des statistiques de trafic routier
-
-#### (fr) Gestion de ressource
-
-(fr) CALLCENTER\_VIEW\_SECONDARY\_WORKSITE\_ASSIGNMENTS : Autorise la visualisation des affectations à un site secondaire
-
-(fr) CALLCENTER\_VIEW\_RESOURCE\_CUSTOMERS : Autoriser l’affichage des clients et affectations (requis, souhaité…) d’une ressource
-
-(fr) CALLCENTER\_VIEW\_JOBS : Autorise l’affichage des types des postes
-
-(fr) CALLCENTER\_VIEW\_DUTIES : Autorise l’accès aux astreintes
-
-(fr) CALLCENTER\_UPDATE\_SECONDARY\_WORKSITE\_ASSIGNMENTS : Autorise la mise à jour des affectations à un site secondaire
-
-(fr) CALLCENTER\_UPDATE\_JOBS : Autorise la modification des postes
-
-(fr) CALLCENTER\_UPDATE\_DUTIES : Autorise la modification des astreintes
-
-(fr) CALLCENTER\_MANAGE\_SUPPLIES : Autorise à lister des fournitures et à les affecter à des ressources pour une période spécifique
-
-(fr) CALLCENTER\_MANAGE\_SECTORS : Autoriser la gestion des secteurs
-
-#### (fr) Indisponibilités
-
-(fr) CALLCENTER\_VIEW\_UNAVAILABILITY\_PREFERENCES : Autorise à voir les préférences d’indisponibilité
-
-(fr) CALLCENTER\_UNAVAILABILITY\_ADD\_FORCE : Impose le chevauchement des indisponibilités avec d’autres indisponibilités
-
-(fr) CALLCENTER\_TAKE\_UNAVAILABILITY : Autorise la gestion des indisponibilités
-
-(fr) CALLCENTER\_SEARCH\_UNAVAILABILITY : Accès à la recherche d’indisponibilités
-
-(fr) CALLCENTER\_REFUSE\_LIST\_UNAVAILABILITY : Autorise à passer une liste d’indisponibilités à l'état refusé
-
-(fr) CALLCENTER\_EXPRESS\_UNAVAILABILITY : Accès à la prise d’indisponibilités express
-
-(fr) CALLCENTER\_EDIT\_ALL\_UNAVAILABILITY : Autorise l'édition de tous les types d’indisponibilités
-
-(fr) CALLCENTER\_ACCEPT\_LIST\_UNAVAILABILITY : Autorise à passer une liste d’indisponibilités à l'état accepté
-
-#### (fr) Action personnalisée
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_SHEET\_5 : Autorise à voir le bouton Action personnalisée 5 dans les fiches client
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_SHEET\_4 : Autorise à voir le bouton Action personnalisée 4 dans les fiches client
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_SHEET\_3 : Autorise à voir le bouton Action personnalisée 3 dans les fiches client
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_SHEET\_2 : Autorise à voir le bouton Action personnalisée 2 dans les fiches client
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_SHEET\_1 : Autorise à voir le bouton Action personnalisée 1 dans les fiches client
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_MAP\_5 : Autorise à voir le bouton Action personnalisée 5 dans les infobulles de cartes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_MAP\_4 : Autorise à voir le bouton Action personnalisée 4 dans les infobulles de cartes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_MAP\_3 : Autorise à voir le bouton Action personnalisée 3 dans les infobulles de cartes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_MAP\_2 : Autorise à voir le bouton Action personnalisée 2 dans les infobulles de cartes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_MAP\_1 : Autorise à voir le bouton Action personnalisée 1 dans les infobulles de cartes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_COLUMN\_5 : Autorise à voir le bouton Action personnalisée 5 dans les listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_COLUMN\_4 : Autorise à voir le bouton Action personnalisée 4 dans les listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_COLUMN\_3 : Autorise à voir le bouton Action personnalisée 3 dans les listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_COLUMN\_2 : Autorise à voir le bouton Action personnalisée 2 dans les listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_COLUMN\_1 : Autorise à voir le bouton Action personnalisée 1 dans les listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_5 : Autorise à voir le bouton Action personnalisée 5 dans les boutons d’actions de listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_4 : Autorise à voir le bouton Action personnalisée 4 dans les boutons d’actions de listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_3 : Autorise à voir le bouton Action personnalisée 3 dans les boutons d’actions de listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_2 : Autorise à voir le bouton Action personnalisée 2 dans les boutons d’actions de listes de clients
-
-(fr) CALLCENTER\_MYACTION\_CUSTOMER\_LIST\_1 : Autorise à voir le bouton Action personnalisée 1 dans les boutons d’actions de listes de clients
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_SHEET\_5 : Autorise à voir le bouton Action personnalisée 5 dans les fiches de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_SHEET\_4 : Autorise à voir le bouton Action personnalisée 4 dans les fiches de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_SHEET\_3 : Autorise à voir le bouton Action personnalisée 3 dans les fiches de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_SHEET\_2 : Autorise à voir le bouton Action personnalisée 2 dans les fiches de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_SHEET\_1 : Autorise à voir le bouton Action personnalisée 1 dans les fiches de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_PLANNING\_TOOLTIP\_5 : Autorise à voir le bouton Action personnalisée 5 dans les infobulles de plannings
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_PLANNING\_TOOLTIP\_4 : Autorise à voir le bouton Action personnalisée 4 dans les infobulles de plannings
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_PLANNING\_TOOLTIP\_3 : Autorise à voir le bouton Action personnalisée 3 dans les infobulles de plannings
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_PLANNING\_TOOLTIP\_2 : Autorise à voir le bouton Action personnalisée 2 dans les infobulles de plannings
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_PLANNING\_TOOLTIP\_1 : Autorise à voir le bouton Action personnalisée 1 dans les infobulles de plannings
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_MAP\_5 : Autorise à voir le bouton Action personnalisée 5 dans les infobulles de cartes
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_MAP\_4 : Autorise à voir le bouton Action personnalisée 4 dans les infobulles de cartes
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_MAP\_3 : Autorise à voir le bouton Action personnalisée 3 dans les infobulles de cartes
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_MAP\_2 : Autorise à voir le bouton Action personnalisée 2 dans les infobulles de cartes
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_MAP\_1 : Autorise à voir le bouton Action personnalisée 1 dans les infobulles de cartes
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_COLUMN\_5 : Autorise à voir le bouton Action personnalisée 5 dans les listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_COLUMN\_4 : Autorise à voir le bouton Action personnalisée 4 dans les listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_COLUMN\_3 : Autorise à voir le bouton Action personnalisée 3 dans les listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_COLUMN\_2 : Autorise à voir le bouton Action personnalisée 2 dans les listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_COLUMN\_1 : Autorise à voir le bouton Action personnalisée 1 dans les listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_5 : Autorise à voir le bouton Action personnalisée 5 dans les boutons d’actions de listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_4 : Autorise à voir le bouton Action personnalisée 4 dans les boutons d’actions de listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_3 : Autorise à voir le bouton Action personnalisée 3 dans les boutons d’actions de listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_2 : Autorise à voir le bouton Action personnalisée 2 dans les boutons d’actions de listes de rendez-vous
-
-(fr) CALLCENTER\_MYACTION\_APPOINTMENT\_LIST\_1 : Autorise à voir le bouton Action personnalisée 1 dans les boutons d’actions de listes de rendez-vous
-
-#### (fr) Autres
-
-(fr) CALLCENTER\_VIEW\_APPLICATION\_LOG : Autorise l’accès à la liste des événements applicatifs
-
-(fr) CALLCENTER\_SQL\_QUERY\_TOOL : Autorise à utiliser des fichiers de requêtes SQL prédéfinies
-
-(fr) CALLCENTER\_SEND\_TO\_SUBCONTRACTOR : Autorise l’envoi d’un rendez-vous à un sous-traitant
-
-(fr) CALLCENTER\_SEND\_LIST\_TO\_SUBCONTRACTOR : Autorise l’envoi d’une liste de rendez-vous à un sous-traitant
-
-(fr) CALLCENTER\_PASSWORD\_CHANGE : Autorise le changement de mot de passe de l’utilisateur courant
-
-(fr) CALLCENTER\_MESSAGE\_ALERT\_LIST : Accès à la liste des messages d’alertes
-
-(fr) CALLCENTER\_HIDE\_APPOINTMENT\_MODIFY\_PAGE : Interdit l’accès à la page ou à l’assistant d'édition de rendez-vous, quand le droit APPOINTMENT\_MODIFY est activé, afin de restreindre l'édition aux champs de la fiche principale
-
-### (fr) Supervision
-
-#### (fr) Périmètre
-
-(fr) SUPERVISOR\_MANAGE\_OWN\_TEAM : Autorise la gestion des ressources de sa propre équipe
-
-(fr) SUPERVISOR\_MANAGE\_OWN\_DOMAIN : Autorise la gestion des régions de son propre domaine
-
-(fr) SUPERVISOR\_MANAGE\_OWN\_AREA : Droit de gestion de sa propre région
-
-(fr) SUPERVISOR\_MANAGE\_ALL\_AREAS : Accès à toutes les régions
-
-(fr) SUPERVISOR\_GUEST : Accès au module superviseur
-
-(fr) SUPERVISOR\_CHANGE\_AREA : Autorise la modification de la région du module actif
-
-#### (fr) Contrôle
-
-(fr) SUPERVISOR\_OVERTIMES : Accès au tableau de bord des heures supplémentaires
-
-(fr) SUPERVISOR\_JOURNAL : Accès à la visualisation du journal des modifications de rendez-vous
-
-(fr) SUPERVISOR\_GLOBAL\_PLANNING\_UNAVAILABILITIES : Accès au planning global des indisponibilités
-
-(fr) SUPERVISOR\_ACHIEVEMENT\_DATES : Accès au tableau de bord des dates de réalisations
-
-#### (fr) Statistiques
-
-(fr) SUPERVISOR\_QUANTITY : Accès au tableau de bord des quantités de prises de rendez-vous
-
-(fr) SUPERVISOR\_QUALITY : Accès au tableau de bord des qualités de prise de rendez-vous
-
-(fr) SUPERVISOR\_OBJECTIVE : Accès au tableau de bord des objectifs
-
-(fr) SUPERVISOR\_INTERVENTIONS : Accès au tableau de bord des interventions
-
-(fr) SUPERVISOR\_AVAILABILITY : Accès au tableau de bord des disponibilités
-
-#### (fr) Autres
-
-(fr) SUPERVISOR\_INTER\_CUSTOMER\_DISTANCES : Accès au tableau de bord des voisinages inter-clients
-
-(fr) SUPERVISOR\_CUSTOMER\_DISTANCES : Accès au tableau de bord du distancier clients
-
-(fr) SUPERVISOR\_CUSTOMER\_BARYCENTERS : Accès au tableau de bord du barycentre clients
-
-### (fr) Disponibilités
-
-#### (fr) Périmètre
-
-(fr) ATTENDANCEMANAGER\_UPDATE\_RESOURCEUSERLISTS : Accès à la modification d’une liste d’intervenants dans l’interface
-
-(fr) ATTENDANCEMANAGER\_SHOW\_WORKSITES : Autorise la sélection d’un site de travail dans l’interface
-
-(fr) ATTENDANCEMANAGER\_SHOW\_TEAMS : Autorise la sélection d’une équipe dans l’interface
-
-(fr) ATTENDANCEMANAGER\_SHOW\_RESOURCEUSERLISTS : Accès à la sélection d’une liste d’intervenants dans l’interface
-
-(fr) ATTENDANCEMANAGER\_SHOW\_AREA : Autorise la sélection de la région en cours dans l’interface. Tout ou partie des droits ATTENDANCEMANAGER\_SHOW\_WORKSITES et ATTENDANCEMANAGER\_SHOW\_TEAMS doit également être accordé pour accéder au module
-
-(fr) ATTENDANCEMANAGER\_MANAGE\_PERIMETER : Autorise la gestion du périmètre
-
-(fr) ATTENDANCEMANAGER\_MANAGE\_OWN\_WORKSITE : Accès au site de travail de rattachement
-
-(fr) ATTENDANCEMANAGER\_MANAGE\_OWN\_TEAM : Accès à son équipe de rattachement
-
-(fr) ATTENDANCEMANAGER\_MANAGE\_OWN\_DOMAIN : Accès aux régions de son propre domaine de rattachement
-
-(fr) ATTENDANCEMANAGER\_MANAGE\_OWN\_AREA : Accès à sa région de rattachement
-
-(fr) ATTENDANCEMANAGER\_GUEST : Accès au module Disponibilités. Tout ou partie des droits ATTENDANCEMANAGER\_SHOW\_WORKSITES et ATTENDANCEMANAGER\_SHOW\_TEAMS doit également être accordé pour accéder au module
-
-(fr) ATTENDANCEMANAGER\_DELETE\_RESOURCEUSERLISTS : Accès à la suppression d’une liste d’intervenants dans l’interface
-
-(fr) ATTENDANCEMANAGER\_CREATE\_RESOURCEUSERLISTS : Accès à la création d’une liste d’intervenants dans l’interface
-
-#### (fr) Poste
-
-(fr) ATTENDANCEMANAGER\_VIEW\_JOBTYPE : Autorise l’affichage des types de poste
-
-(fr) ATTENDANCEMANAGER\_VIEW\_JOB : Autorise l’affichage des types des postes
-
-(fr) ATTENDANCEMANAGER\_UPDATE\_JOB : Autorise la modification des postes
-
-(fr) ATTENDANCEMANAGER\_DELETE\_JOB : Autorise la suppression des postes
-
-(fr) ATTENDANCEMANAGER\_CREATE\_JOB : Autorise la création des postes
-
-#### (fr) Jour d’astreinte
-
-(fr) ATTENDANCEMANAGER\_VIEW\_DUTYTYPE : Autorise l’affichage des modèles d’astreinte
-
-(fr) ATTENDANCEMANAGER\_VIEW\_DUTY : Autorise l’affichage des astreintes
-
-(fr) ATTENDANCEMANAGER\_UPDATE\_DUTY : Autorise la modification des astreintes
-
-(fr) ATTENDANCEMANAGER\_DELETE\_DUTY : Autorise la suppression des astreintes
-
-(fr) ATTENDANCEMANAGER\_CREATE\_DUTY : Autorise la création des astreintes
-
-#### (fr) Semaine d’astreinte
-
-(fr) ATTENDANCEMANAGER\_VIEW\_DUTYWEEKTYPE : Autorise l’affichage des modèles de semaine d’astreinte
-
-(fr) ATTENDANCEMANAGER\_VIEW\_DUTYWEEK : Autorise l’affichage des semaines d’astreinte
-
-(fr) ATTENDANCEMANAGER\_UPDATE\_DUTYWEEK : Autorise la modification des semaines d’astreinte
-
-(fr) ATTENDANCEMANAGER\_DELETE\_DUTYWEEK : Autorise la suppression des semaines d’astreinte
-
-(fr) ATTENDANCEMANAGER\_CREATE\_DUTYWEEK : Autorise la création des semaines d’astreinte
-
-#### (fr) Indisponibilité
-
-(fr) ATTENDANCEMANAGER\_VIEW\_UNAVAILABILITYTYPE : Autorise l’affichage des types d’indisponibilité
-
-(fr) ATTENDANCEMANAGER\_VIEW\_UNAVAILABILITY : Autorise l’affichage des indisponibilités
-
-(fr) ATTENDANCEMANAGER\_UPDATE\_UNAVAILABILITY : Autorise la modification des indisponibilités
-
-(fr) ATTENDANCEMANAGER\_DELETE\_UNAVAILABILITY : Autorise la suppression des indisponibilités
-
-(fr) ATTENDANCEMANAGER\_CREATE\_UNAVAILABILITY : Autorise la création des indisponibilités
-
-#### (fr) Jalon
-
-(fr) ATTENDANCEMANAGER\_VIEW\_AGENDAMARKERKIND : Autorise l’affichage des natures de jalon
-
-(fr) ATTENDANCEMANAGER\_VIEW\_AGENDAMARKER : Autorise l’affichage des jalons
-
-(fr) ATTENDANCEMANAGER\_UPDATE\_AGENDAMARKER : Autorise la modification des jalons
-
-(fr) ATTENDANCEMANAGER\_PLANNING\_DISPLAY\_MARKERS : Ne pas afficher les jalons dans le planning
-
-(fr) ATTENDANCEMANAGER\_DELETE\_AGENDAMARKER : Autorise la suppression des jalons
-
-(fr) ATTENDANCEMANAGER\_CREATE\_AGENDAMARKER : Autorise la création des jalons
-
-#### (fr) Jour de travail
-
-(fr) ATTENDANCEMANAGER\_VIEW\_WORKEDDAYTYPE : Autorise l’affichage des modèles de jour de travail
-
-(fr) ATTENDANCEMANAGER\_VIEW\_WORKEDDAY : Autorise l’affichage des jours de travail
-
-(fr) ATTENDANCEMANAGER\_UPDATE\_WORKEDDAY : Autorise la modification des jours de travail
-
-(fr) ATTENDANCEMANAGER\_DELETE\_WORKEDDAY : Autorise la suppression des jours de travail
-
-(fr) ATTENDANCEMANAGER\_CREATE\_WORKEDDAY : Autorise la création des jours de travail
-
-#### (fr) Semaine de travail
-
-(fr) ATTENDANCEMANAGER\_VIEW\_WORKEDWEEKTYPE : Autorise l’affichage des modèles de semaine de travail
-
-(fr) ATTENDANCEMANAGER\_VIEW\_WORKEDWEEK : Autorise l’affichage des semaines de travail
-
-(fr) ATTENDANCEMANAGER\_UPDATE\_WORKEDWEEK : Autorise la modification des semaines de travail
-
-(fr) ATTENDANCEMANAGER\_DELETE\_WORKEDWEEK : Autorise la suppression des semaines de travail
-
-(fr) ATTENDANCEMANAGER\_CREATE\_WORKEDWEEK : Autorise la création des semaines de travail
-
-#### (fr) Rapports
-
-(fr) ATTENDANCEMANAGER\_REPORTS\_EXPORTCSV : Autorise l’export CSV des rapports
-
-(fr) ATTENDANCEMANAGER\_REPORTS : Accès au sous-module des rapports
-
-#### (fr) Impression
-
-(fr) ATTENDANCEMANAGER\_PRINTSUMMARYPLANNING : Autorise l’impression du rapport personnalisé
-
-(fr) ATTENDANCEMANAGER\_PRINTAGENDA : Autorise l’impression d’agenda
-
-#### (fr) Communication
-
-(fr) ATTENDANCEMANAGER\_VIEW\_MESSAGE : Autorise à afficher les messages
-
-(fr) ATTENDANCEMANAGER\_CREATE\_MESSAGE : Autorise à créer les messages
-
-### (fr) Strategic
-
-#### (fr) Périmètre
-
-(fr) STRATEGIC\_PLANNING\_GUEST : Accès au module Strategic planning
-
-(fr) STRATEGIC\_MANAGE\_OWN\_DOMAIN : Accès aux régions de son propre domaine de rattachement
-
-(fr) STRATEGIC\_MANAGE\_OWN\_AREA : Accès à sa région de rattachement
-
-(fr) STRATEGIC\_MANAGE\_OWN\_WORKSITE : Accès au site de travail de rattachement
-
-(fr) STRATEGIC\_MANAGE\_OWN\_TEAM : Accès à son équipe de rattachement
-
-### (fr) Mon application 1
-
-#### (fr) Périmètre
-
-(fr) MYAPP1\_MANAGE\_OWN\_DOMAIN : Accès aux régions de son propre domaine de rattachement
-
-(fr) MYAPP1\_MANAGE\_OWN\_AREA : Accès à sa région de rattachement
-
-(fr) MYAPP1\_GUEST : Accès au premier module personnalisé
-
-### (fr) Sectorisation
-
-#### (fr) Périmètre
-
-(fr) DISTRICTING\_GUEST : Accès au module Sectorisation
-
-### (fr) Réalisation
-
-#### (fr) Périmètre
-
-(fr) FULFILMENT\_GUEST : Accès au suivi en direct des réalisations
-
-### (fr) Tracking
-
-#### (fr) Périmètre
-
-(fr) TRACKFLEET\_GUEST : Accès à l’application de suivi de flotte GC\_Location (tracking) dans OTGS
-
-### (fr) Administration
-
-#### (fr) Périmètre
-
-(fr) ADMIN\_GUEST : Accès au module d’administration
-
-(fr) ADMIN\_SEE\_OPTIMIZATION\_OF\_ALL\_AREAS : Voir les optimisations pour toutes les régions
-
-(fr) ADMIN\_MANAGE\_OWN\_AREA : Droit de gestion de sa propre région
-
-(fr) ADMIN\_MANAGE\_OWN\_DOMAIN : Autorise la gestion des régions de son propre domaine
-
-(fr) ADMIN\_MANAGE\_ALL\_AREAS : Autorise la gestion de toutes les régions
-
-(fr) ADMIN\_MANAGE\_OWN\_TEAM : Autorise la gestion de son équipe de rattachement
-
-(fr) ADMIN\_MANAGE\_OWN\_WORKSITE : Autorise la gestion de son site de travail de rattachement
-
-#### (fr) Accès global
-
-(fr) ADMIN\_UPDATE : Autorise la modification dans l’administration
-
-(fr) ADMIN\_INSERT : Autorise l’insertion de données dans l’administration
-
-(fr) ADMIN\_DELETE : Autorise la suppression de données dans l’administration
-
-(fr) ADMIN\_RESTRICTED\_PROFILE\_GRANT : Autorise à affecter un profil restreint à n’importe quel utilisateur
-
-(fr) ADMIN\_TOOLS : Accès aux outils d’administration. ATTENTION : Ceci ne doit pas être utilisé en production
-
-(fr) ADMIN\_MOBILITY : Accès à la gestion des équipements de mobilité
-
-(fr) ADMIN\_VIEW\_REFERENTIAL : Autorise l’accès au référentiel
-
-(fr) ADMIN\_DEACTIVATE : Autorise la désactivation des données dans l’administration
-
-(fr) ADMIN\_VIEW\_RIGHTS : Montrer les droits
-
-(fr) ADMIN\_VIEW\_ADDRESSES\_STREETVIEW : Autorise l’accès à la vue google street d’une adresse
-
-(fr) ADMIN\_HIDE\_INTERNAL\_ID : Masquage identifiant interne des entités
-
-(fr) ADMIN\_HIDE\_EXTREF : Maquer la référence externe des entités (en général couplé avec l’affectation automatique de référence externe)
-
-(fr) ADMIN\_ADMIN\_TOOLS\_MAP : Autorise la modification des coordonnées cartographiques
-
-#### (fr) Intervenant
-
-(fr) ADMIN\_PARTICULAR\_DAYS\_CREATE : Autorise la création des jours particuliers
-
-(fr) ADMIN\_VIEW\_RESOURCE : Montrer les ressources humaines
-
-(fr) ADMIN\_CREATE\_RESOURCE : Autorise la création d’une ressource humaine
-
-(fr) ADMIN\_UPDATE\_RESOURCE : Autorise la mise à jour d’une ressource humaine
-
-(fr) ADMIN\_DISABLE\_RESOURCE : Autorise la désactivation d’une ressource humaine
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_ADDRESS : Autorise les modifications d’adresse d’une ressource
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_AUTHORIZATION : Autorise la modification des autorisations des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_EXPRESSUNAVAILABILITY : Autorise la modification des indisponibilités express des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_INFO : Autorise la modification des informations des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_JOB : Autorise la modification des postes des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_LIMIT : Autorise la modification des limites des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_PRIORITY : Autorise la modification des priorités des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_SKILL : Autorise la modification des compétences des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_USER : Autorise la modification des utilisateurs des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_WORKEDWEEK : Autorise la modification des semaines types des ressources
-
-(fr) ADMIN\_RESOURCE\_ASSIGNMENT\_UPDATE : Autorise la modification des affectations d’une ressource humaine
-
-(fr) ADMIN\_VIEW\_RESOURCE\_ASSIGNMENT : Autorise l’accès aux affectations des ressources
-
-(fr) ADMIN\_VIEW\_RESOURCE\_AUTHORIZATIONS : Autorise la gestion des autorisations d’une ressource
-
-(fr) ADMIN\_VIEW\_RESOURCE\_EXPRESSUNAVAILABILITY : Autorise la gestion des indisponibilités express pour les ressources
-
-(fr) ADMIN\_VIEW\_RESOURCE\_JOB : Autorise l’accès aux postes des ressources
-
-(fr) ADMIN\_VIEW\_RESOURCE\_LIMIT : Autorise l’accès aux limites des ressources humaines
-
-(fr) ADMIN\_VIEW\_RESOURCE\_LOCATION : Autorise l’accès aux adresses des ressources
-
-(fr) ADMIN\_VIEW\_RESOURCE\_PRIORITIES : Autorise la gestion des priorités d’une ressource
-
-(fr) ADMIN\_VIEW\_RESOURCE\_SKILL : Autorise l’accès aux compétences des ressources
-
-(fr) ADMIN\_VIEW\_RESOURCE\_WORKEDWEEK : Autorise l’accès aux semaines types des ressources
-
-(fr) ADMIN\_VIEW\_RESOURCE\_USERPERIMETER : Autorise la gestion du périmètre d’une ressource
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_USERPERIMETER : Autorise la modification du périmètre d’une ressource
-
-(fr) ADMIN\_VIEW\_RESOURCE\_USERS : Montrer l’onglet utilisateur des ressources
-
-(fr) ADMIN\_VIEW\_RESOURCE\_PREFERENCES : Autorise l’accès aux préférences des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_PREFERENCES : Autorise la modification des préférences des ressources
-
-(fr) ADMIN\_VIEW\_RESOURCE\_VEHICLETYPE : Autorise l’accès aux types de véhicules des ressources
-
-(fr) ADMIN\_UPDATE\_RESOURCE\_VEHICLETYPE : Autorise la mise à jour du type de véhicule des ressources
-
-(fr) ADMIN\_ACTIVATE\_RESSOURCE : Autorise l’activation des ressources humaines via l’administration
-
-#### (fr) Poste
-
-(fr) ADMIN\_VIEW\_FUNCTION : Autorise l’affichage des types d’intervenant
-
-(fr) ADMIN\_CREATE\_FUNCTION : Autorise la création des types d’intervenant
-
-(fr) ADMIN\_UPDATE\_FUNCTION : Autorise la mise à jour des types d’intervenant
-
-(fr) ADMIN\_DISABLE\_FUNCTION : Autorise la désactivation des types d’intervenant
-
-(fr) ADMIN\_VIEW\_JOB : Autorise l’affichage des types de poste
-
-(fr) ADMIN\_CREATE\_JOB : Autorise la création des postes
-
-(fr) ADMIN\_UPDATE\_JOB : Autorise la modification des postes
-
-(fr) ADMIN\_DISABLE\_JOB : Autorise la désactivation des types de poste
-
-#### (fr) Equipe
-
-(fr) ADMIN\_MANAGE\_TEAM\_MEMBERS : Autorise la gestion de la composition des équipes
-
-(fr) ADMIN\_TEAM\_LEADER : Autorise la gestion du chef d'équipe
-
-(fr) ADMIN\_TEAM\_PARENT : Autorise la gestion de l'équipe mère
-
-(fr) ADMIN\_VIEW\_TEAM : Montrer les équipes
-
-(fr) ADMIN\_CREATE\_TEAM : Autorise la création d’une équipe
-
-(fr) ADMIN\_UPDATE\_TEAM : Autorise la mise à jour d’une équipe
-
-(fr) ADMIN\_DISABLE\_TEAM : Autorise la désactivation d’une équipe
-
-#### (fr) Site de travail
-
-(fr) ADMIN\_VIEW\_WORKSITE : Autorise l’accès aux sites de travail
-
-(fr) ADMIN\_CREATE\_WORKSITE : Autorise la création d’un site de travail
-
-(fr) ADMIN\_UPDATE\_WORKSITE : Autorise la mise à jour d’un site de travail
-
-(fr) ADMIN\_DISABLE\_WORKSITE : Autorise la désactivation d’un site de travail
-
-#### (fr) Domaine
-
-(fr) ADMIN\_VIEW\_DOMAIN : Autorise l’accès aux domaines
-
-(fr) ADMIN\_CREATE\_DOMAIN : Autorise la création d’un domaine
-
-(fr) ADMIN\_UPDATE\_DOMAIN : Autorise la mise à jour d’un domaine
-
-(fr) ADMIN\_DISABLE\_DOMAIN : Autorise la désactivation d’un domaine
-
-#### (fr) Sous-traitant
-
-(fr) ADMIN\_VIEW\_SUBCONTRACTOR : Autorise l’affichage de sous-traitants
-
-(fr) ADMIN\_CREATE\_SUBCONTRACTOR : Autorise la création de sous-traitants
-
-(fr) ADMIN\_UPDATE\_SUBCONTRACTOR : Autorise la mise à jour de sous-traitants
-
-(fr) ADMIN\_DISABLE\_SUBCONTRACTOR : Autorise la désactivation de sous-traitants
-
-#### (fr) Matériel
-
-(fr) ADMIN\_VIEW\_SUPPLY : Autorise à afficher le matériel
-
-(fr) ADMIN\_CREATE\_SUPPLY : Autorise à créer le matériel
-
-(fr) ADMIN\_UPDATE\_SUPPLY : Autorise à mettre le matériel à jour
-
-(fr) ADMIN\_DISABLE\_SUPPLY : Autorise à désactiver le matériel
-
-(fr) ADMIN\_VIEW\_SUPPLY\_PREFERENCES : Autorise l’affichage des préférences de fournitures
-
-(fr) ADMIN\_UPDATE\_SUPPLY\_PREFERENCES : Autorise la mise à jour des préférences de fournitures
-
-#### (fr) Région
-
-(fr) ADMIN\_VIEW\_AREA : Autorise l’accès aux régions
-
-(fr) ADMIN\_CREATE\_AREA : Autorise la création d’une région
-
-(fr) ADMIN\_UPDATE\_AREA : Autorise la mise à jour d’une région
-
-(fr) ADMIN\_DISABLE\_AREA : Autorise la désactivation d’une région
-
-(fr) ADMIN\_ENABLE\_DISABLE\_AREA : Activer/Désactiver une région
-
-#### (fr) Secteur
-
-(fr) ADMIN\_VIEW\_SECTOR : Autorise l’accès aux secteurs
-
-(fr) ADMIN\_CREATE\_SECTOR : Autorise la création des secteurs
-
-(fr) ADMIN\_UPDATE\_SECTOR : Autorise la mise à jour des secteurs
-
-(fr) ADMIN\_DISABLE\_SECTOR : Autorise la désactivation des secteurs
-
-#### (fr) Type d’indisponibilité
-
-(fr) ADMIN\_VIEW\_UNAVAILABILITY\_TYPE : Autorise l’accès aux types d’indisponibilités
-
-(fr) ADMIN\_CREATE\_UNAVAILABILITY\_TYPE : Autorise la création des types d’indisponibilité
-
-(fr) ADMIN\_UPDATE\_UNAVAILABILITY\_TYPE : Autorise la mise à jour des types d’indisponibilité
-
-(fr) ADMIN\_DISABLE\_UNAVAILABILITY\_TYPE : Autorise la désactivation des types d’indisponibilité
-
-(fr) ADMIN\_VIEW\_UNAVAILABILITYTYPE\_PREFERENCES : Autorise à voir les préférences de types d’indisponibilité
-
-(fr) ADMIN\_UPDATE\_UNAVAILABILITYTYPE\_PREFERENCES : Autorise à mettre les préférences de types d’indisponibilité à jour
-
-#### (fr) Modèle d’astreinte
-
-(fr) ADMIN\_VIEW\_DUTY\_TYPE : Autorise l’affichage des modèles d’astreinte
-
-(fr) ADMIN\_CREATE\_DUTY\_TYPE : Autorise la création des modèles d’astreinte
-
-(fr) ADMIN\_UPDATE\_DUTY\_TYPE : Autorise la mise à jour des modèles d’astreinte
-
-(fr) ADMIN\_DISABLE\_DUTY\_TYPE : Autorise la désactivation des modèles d’astreinte
-
-(fr) ADMIN\_VIEW\_DUTYWEEK\_TYPE : Autorise l’affichage des modèles de semaines d’astreinte
-
-(fr) ADMIN\_CREATE\_DUTYWEEK\_TYPE : Autorise la création des modèles de semaines d’astreinte
-
-(fr) ADMIN\_UPDATE\_DUTYWEEK\_TYPE : Autorise la mise à jour des modèles de semaines d’astreinte
-
-(fr) ADMIN\_DISABLE\_DUTYWEEK\_TYPE : Autorise la désactivation des modèles de semaines d’astreinte
-
-#### (fr) Produit
-
-(fr) ADMIN\_VIEW\_PRODUCT : Autorise à afficher les produits
-
-(fr) ADMIN\_CREATE\_PRODUCT : Autorise à créer des produits
-
-(fr) ADMIN\_UPDATE\_PRODUCT : Autorise à mettre à jour des produits
-
-(fr) ADMIN\_DISABLE\_PRODUCT : Autorise à désactiver des produits
-
-(fr) ADMIN\_VIEW\_PRODUCT\_PREFERENCES : Autorise à visualiser les préférences produits
-
-(fr) ADMIN\_UPDATE\_PRODUCT\_PREFERENCES : Autorise à mettre à jour les préférences produits
-
-#### (fr) Famille de produits
-
-(fr) ADMIN\_VIEW\_PRODUCT\_FAMILY : Autorise à afficher les familles de produits
-
-(fr) ADMIN\_CREATE\_PRODUCT\_FAMILY : Autorise à créer les familles de produits
-
-(fr) ADMIN\_UPDATE\_PRODUCT\_FAMILY : Autorise à mettre les familles de produits à jour
-
-(fr) ADMIN\_DISABLE\_PRODUCT\_FAMILY : Autorise à désactiver les familles de produits
-
-#### (fr) Véhicule
-
-(fr) ADMIN\_VIEW\_VEHICLE : Autorise l’affichage des véhicules
-
-(fr) ADMIN\_CREATE\_VEHICLE : Autorise la création des véhicules
-
-(fr) ADMIN\_UPDATE\_VEHICLE : Autorise la mise à jour des véhicules
-
-(fr) ADMIN\_DISABLE\_VEHICLE : Autorise la désactivation des véhicules
-
-#### (fr) Equipement de suivi
-
-(fr) ADMIN\_VIEW\_TRACKINGDEVICE : Autorise l’affichage des équipements de suivi
-
-(fr) ADMIN\_CREATE\_TRACKINGDEVICE : Autorise la création des équipements de suivi
-
-(fr) ADMIN\_UPDATE\_TRACKINGDEVICE : Autorise la mise à jour des équipements de suivi
-
-(fr) ADMIN\_DISABLE\_TRACKINGDEVICE : Autorise la désactivation des équipements de suivi
-
-#### (fr) Affectation RH véhicule
-
-(fr) ADMIN\_VIEW\_HR\_VEHICLE\_ASSIGNMENT : Autorise l’affichage des affectations de véhicules à des ressources
-
-(fr) ADMIN\_CREATE\_HR\_VEHICLE\_ASSIGNMENT : Autorise la création d’affectations de véhicules à des ressources
-
-(fr) ADMIN\_UPDATE\_HR\_VEHICLE\_ASSIGNMENT : Autorise la mise à jour d’affectations de véhicules à des ressources
-
-(fr) ADMIN\_DISABLE\_HR\_VEHICLE\_ASSIGNMENT : Autorise la désaffectation de véhicules à des ressources
-
-(fr) ADMIN\_SWAP\_HR\_VEHICLE\_ASSIGNMENT : Autorise l'échange d’affectations de véhicules à des ressources
-
-#### (fr) Compétence
-
-(fr) ADMIN\_VIEW\_QUALIFICATION : Autorise l’affichage des compétences
-
-(fr) ADMIN\_CREATE\_QUALIFICATION : Autorise la création des compétences
-
-(fr) ADMIN\_UPDATE\_QUALIFICATION : Autorise la mise à jour des compétences
-
-(fr) ADMIN\_DISABLE\_QUALIFICATION : Autorise la désactivation des compétences
-
-#### (fr) Autorisation
-
-(fr) ADMIN\_VIEW\_AUTHORIZATION : Autorise l’accès aux autorisations
-
-(fr) ADMIN\_CREATE\_AUTHORIZATION : Autorise la création des autorisations
-
-(fr) ADMIN\_UPDATE\_AUTHORIZATION : Autorise la mise à jour des autorisations
-
-(fr) ADMIN\_DISABLE\_AUTHORIZATION : Autorise la désactivation des autorisations
-
-#### (fr) Type d’intervention
-
-(fr) ADMIN\_VIEW\_TASK\_TYPE\_GROUP : Autorise l’accès aux groupes de types d’intervention
-
-(fr) ADMIN\_CREATE\_TASK\_TYPE\_GROUP : Autorise la création des groupes de types d’intervention
-
-(fr) ADMIN\_UPDATE\_TASK\_TYPE\_GROUP : Autorise la mise à jour des groupes de types d’intervention
-
-(fr) ADMIN\_DISABLE\_TASK\_TYPE\_GROUP : Autorise la désactivation des groupes de types d’intervention
-
-(fr) ADMIN\_VIEW\_TASKTYPE : Autorise l’affichage des types de tâche et de leurs groupes
-
-(fr) ADMIN\_CREATE\_TASKTYPE : Autorise la création des types de tâche
-
-(fr) ADMIN\_UPDATE\_TASKTYPE : Autorise la mise à jour des types de tâche
-
-(fr) ADMIN\_DISABLE\_TASKTYPE : Autorise la désactivation des types de tâche
-
-(fr) ADMIN\_VIEW\_TASKTYPE\_DETAIL : Autorise l’accès aux détails de types d’intervention
-
-(fr) ADMIN\_CREATE\_TASKTYPE\_DETAIL : Autorise la création des détails de types d’intervention
-
-(fr) ADMIN\_UPDATE\_TASKTYPE\_DETAIL : Autorise la mise à jour des détails de types d’intervention
-
-(fr) ADMIN\_DISABLE\_TASKTYPE\_DETAIL : Autorise la désactivation des détails de types d’intervention
-
-#### (fr) Objectif
-
-(fr) ADMIN\_VIEW\_OBJECTIVE : Autorise l’accès aux objectifs
-
-(fr) ADMIN\_CREATE\_OBJECTIVE : Autorise la création des objectifs
-
-(fr) ADMIN\_UPDATE\_OBJECTIVE : Autorise la mise à jour des objectifs
-
-(fr) ADMIN\_DISABLE\_OBJECTIVE : Autorise la désactivation des objectifs
-
-#### (fr) Suivi de l’activité
-
-(fr) ADMIN\_VIEW\_COMPLETION\_TYPE : Autorise l’accès aux états de réalisation
-
-(fr) ADMIN\_CREATE\_COMPLETION\_TYPE : Autorise la création des états de réalisation
-
-(fr) ADMIN\_UPDATE\_COMPLETION\_TYPE : Autorise la mise à jour des états de réalisation
-
-(fr) ADMIN\_DISABLE\_COMPLETION\_TYPE : Autorise la désactivation des états de réalisation
-
-(fr) ADMIN\_VIEW\_TO\_DO\_NEXT\_TYPE : Autorise l’accès aux types de suite à donner
-
-(fr) ADMIN\_CREATE\_TO\_DO\_NEXT\_TYPE : Autorise la création des types de suite à donner
-
-(fr) ADMIN\_UPDATE\_TO\_DO\_NEXT\_TYPE : Autorise la mise à jour des types de suite à donner
-
-(fr) ADMIN\_DISABLE\_TO\_DO\_NEXT\_TYPE : Autorise la désactivation des types de suite à donner
-
-#### (fr) Calendrier
-
-(fr) ADMIN\_VIEW\_OFFDAY\_CALENDAR : Autorise l’affichage des calendriers de jours fériés
-
-(fr) ADMIN\_CREATE\_OFFDAY\_CALENDAR : Autorise la création des jours fériés
-
-(fr) ADMIN\_UPDATE\_OFFDAY\_CALENDAR : Autorise la mise à jour des jours fériés
-
-(fr) ADMIN\_DISABLE\_OFFDAY\_CALENDAR : Autorise la désactivation des jours fériés
-
-(fr) ADMIN\_VIEW\_WORKEDDAYTYPE\_CALENDAR : Autorise l’affichage du calendrier des modèles de jours
-
-(fr) ADMIN\_CREATE\_WORKEDDAYTYPE\_CALENDAR : Autorise la création des jours types
-
-(fr) ADMIN\_UPDATE\_WORKEDDAYTYPE\_CALENDAR : Autorise la mise à jour des jours types
-
-(fr) ADMIN\_DISABLE\_WORKEDDAYTYPE\_CALENDAR : Autorise la désactivation des jours types
-
-(fr) ADMIN\_VIEW\_WORKEDWEEKTYPE\_CALENDAR : Autorise l’affichage du calendrier des modèles de semaines
-
-(fr) ADMIN\_CREATE\_WORKEDWEEKTYPE\_CALENDAR : Autorise la création des semaines types
-
-(fr) ADMIN\_UPDATE\_WORKEDWEEKTYPE\_CALENDAR : Autorise la mise à jour des semaines types
-
-(fr) ADMIN\_DISABLE\_WORKEDWEEKTYPE\_CALENDAR : Autorise la désactivation des semaines types
-
-(fr) ADMIN\_VIEW\_SELLING\_PERIOD : Autorise l’accès aux périodes de vente
-
-(fr) ADMIN\_CREATE\_SELLING\_PERIOD : Autorise la création des périodes de vente
-
-(fr) ADMIN\_UPDATE\_SELLING\_PERIOD : Autorise la mise à jour des périodes de vente
-
-(fr) ADMIN\_DISABLE\_SELLING\_PERIOD : Autorise la désactivation des périodes de vente
-
-#### (fr) Configuration
-
-(fr) ADMIN\_CUSTOMIZATION : Personnalisation de l’accès
-
-(fr) ADMIN\_XMLFILE\_PARAMDEF : Autorise l’accès à l’importation/exportation du fichier XML de configuration
-
-(fr) ADMIN\_XMLFILE\_REFERENTIAL : Autorise l’accès à l’importation des fichiers XML du référentiel
-
-(fr) ADMIN\_XMLFILE\_APPT : Autorise l’accès à l’importation des fichiers XML de création, modification, suppression de rendez-vous
-
-(fr) ADMIN\_XMLFILE\_LOG : Changer le niveau de journalisation
-
-(fr) ADMIN\_SYSTEM\_INFO : Autorise la gestion des informations système
-
-(fr) ADMIN\_PROPERTIES\_UPDATE : Autorise la mise à jour des propriétés de ressources
-
-(fr) ADMIN\_LOGOS\_UPDATE : Autorise à mettre les logos à jour
-
-#### (fr) Optimisation
-
-(fr) ADMIN\_OPTIMIZATION\_SERVICE : Accès au service d’optimisation
-
-(fr) ADMIN\_UPDATE\_OPTIMIZATION\_SERVICE : Mise à jour, arrêt et démarrage du service optimisation
-
-(fr) ADMIN\_START\_OPTIM\_DURING\_VALIDITY\_PERIOD : Démarrer une optimisation manuelle pendant sa période de validité
-
-(fr) ADMIN\_START\_OPTIMIZATION\_AT\_ANY\_TIME : Démarrer une optimisation manuelle à tout moment
-
-(fr) ADMIN\_STOP\_AUTOMATIC\_OPTIMIZATION : Arrêter une optimisation automatique
-
-(fr) ADMIN\_STOP\_MANUAL\_OPTIMIZATION : Arrêter une optimisation manuelle
-
-(fr) ADMIN\_OPTIM\_PARAM : Accès à la page de modification des paramètres d’optimisation
-
-(fr) ADMIN\_MANAGE\_OPTIMIZATION\_ON\_IDLE : Autorise la gestion de l’optimisation en continu
-
-(fr) ADMIN\_MANAGE\_PLANNING\_FILLER\_EMERGENCY : Autorise à gérer le remplissage d’urgence du planning
-
-#### (fr) Echanges techniques
-
-(fr) ADMIN\_EXPORT\_TOMTOM\_OV2\_POI : Autorise l’accès à l’exportation vers TomTom de POI (ov2)
-
-(fr) ADMIN\_IMPORT\_CSV : Accès à l’import CSV
-
-(fr) ADMIN\_EXPORT\_CSV : Accès à l’exportation au format CSV
-
-(fr) ADMIN\_EXTERN\_APPLI : Autorise l’accès aux pages de documentation de l’API OTGS
-
-(fr) ADMIN\_EXTERN\_APPLI\_TESTMODE : Autorise à tester l’API OTGS
-
-#### (fr) Type de localisation exceptionnelle
-
-(fr) ADMIN\_VIEW\_EXCEPTLOCATION\_TYPE : Autorise à afficher le type des localisations exceptionnelles
-
-(fr) ADMIN\_CREATE\_EXCEPTLOCATION\_TYPE : Autorise à créer des types de localisations exceptionnelles
-
-(fr) ADMIN\_UPDATE\_EXCEPTLOCATION\_TYPE : Autorise à mettre à jour des types de localisations exceptionnelles
-
-(fr) ADMIN\_DISABLE\_EXCEPTLOCATION\_TYPE : Autorise à désactiver des types de localisations exceptionnelles
-
-#### (fr) Typologie
-
-(fr) ADMIN\_VIEW\_TYPOLOGY : Autorise l’affichage de typologies
-
-(fr) ADMIN\_CREATE\_TYPOLOGY : Autorise la création de typologies
-
-(fr) ADMIN\_UPDATE\_TYPOLOGY : Autorise la mise à jour de typologies
-
-(fr) ADMIN\_DISABLE\_TYPOLOGY : Autorise la désactivation de typologies
-
-#### (fr) Autres
-
-(fr) ADMIN\_UPDATE\_LICENSE : Autorise la mise à jour de la licence d’application
-
-(fr) ADMIN\_SHOW\_SQL\_TOOL : Autorise à voir la page de requêtes SQL
-
-(fr) ADMIN\_CAN\_DEFINE\_COLOR : Autorise à mettre les couleurs à jour
-
-(fr) ADMIN\_DELETE\_DOCUMENTS : Autorise la suppression de documents
-
-(fr) ADMIN\_ADD\_DOCUMENTS : Autorise l’ajout de documents
-
-(fr) ADMIN\_CAN\_DEFINE\_ENTITYCOLOR : Autorise à mettre à jour les couleurs des entités
-
-### (fr) Documentation
-
-#### (fr) Périmètre
-
-(fr) DOC\_GUEST : Accès au module de documentation
+# Access rights
+
+## Overview
+
+This appendix lists the access rights available in NFS, grouped by module and then by theme. Each table gives the identifier of the right and a description of what it allows.
+
+<!-- REVIEW: the source descriptions were written in French and were translated to English; check the UI labels quoted in them (for example Quantities, Logicals, Fillers, Additional dates, Custom action) against the product. -->
+
+## Portal
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `PORTAL_SEE_OPTIMIZATION_OF_ALL_AREA` | View the optimizations for all areas. |
+| `PORTAL_MANAGE_OWN_WORKSITE` | Access to the user's own worksite. |
+| `PORTAL_MANAGE_OWN_TEAM` | Access to the user's own team. |
+| `PORTAL_MANAGE_OWN_DOMAIN` | Access to the areas of the user's own domain. |
+| `PORTAL_MANAGE_OWN_AREA` | Access to the user's own area. |
+| `PORTAL_GUEST` | Access to the Portal module. |
+| `PORTAL_DISPATCHER` | Allows access to the input/output files of the automatic optimizer (Dispatcher). |
+| `PORTAL_ALLRESOURCES_PLANNING_UPDATE` | Allows editing the plannings of all resources. |
+| `PORTAL_ALLRESOURCES_PLANNING_DETAIL` | Allows access to the planning details of all resources. |
+| `PORTAL_ALLRESOURCES_PLANNING_ACCESS` | Allows displaying the plannings of all resources. |
+
+### Schedule
+
+| Right | Description |
+| --- | --- |
+| `PORTAL_WORKSITE_PLANNING_SECOND` | Includes the resources for which the worksite specified for the worksite planning is a secondary worksite. |
+| `PORTAL_WORKSITE_PLANNING_FIRST` | Includes the resources whose main worksite is the worksite specified for the worksite planning. |
+| `PORTAL_WORKSITE_PLANNING_EXECUTING` | Includes the resources that perform an appointment at the worksite specified for the worksite planning. |
+| `PORTAL_WORKSITE_PLANNING` | Access to worksite plannings. |
+| `PORTAL_WHOLEAREA_WORKSITE_PLANNING` | Access to the plannings of all worksites in the user's area. |
+| `PORTAL_TEAM_PLANNING_UPDATE` | Allows modifying the planning of members of the same team. |
+| `PORTAL_TEAM_PLANNING_DETAIL` | Allows access to the appointment forms of members of the same team. |
+| `PORTAL_TEAM_PLANNING_ACCESS` | Read access to team data. |
+| `PORTAL_NONMOBILE_RESOURCE_PLANNING` | Access to the plannings of non-mobile resources in the Portal. |
+| `PORTAL_MULTIPLANNING_ACCESS` | Access to multi-resource plannings from the Portal. |
+| `PORTAL_LEADED_TEAM_PLANNING_UPDATE` | Allows modifying the planning of members of the teams led by the resource. |
+| `PORTAL_LEADED_TEAM_PLANNING_DETAIL` | Allows access to the planning details (activities) of members of the teams led by the resource. |
+| `PORTAL_LEADED_TEAM_PLANNING_ACCESS` | Access to the plannings of the teams led by the resource. |
+| `PORTAL_LEADED_TEAM_CHILD_PLANNING_UPDATE` | Allows modifying the planning of members of the child teams of the teams led by the resource. |
+| `PORTAL_LEADED_TEAM_CHILD_PLANNING_DETAIL` | Allows access to the planning details (activities) of members of the child teams of the teams led by the resource. |
+| `PORTAL_LEADED_TEAM_CHILD_PLANNING_ACCESS` | Allows access to the planning of the child teams of the teams led by the resource. |
+| `PORTAL_AREA_PLANNING` | Access to area plannings. |
+
+### Communication
+
+| Right | Description |
+| --- | --- |
+| `PORTAL_WAYBILL_EXPORT_XML` | Access to exporting the waybill as XML. |
+| `PORTAL_WAYBILL_EXPORT_TOMTOM` | Access to exporting the waybill to TomTom. |
+| `PORTAL_WAYBILL_EXPORT_PDF` | Access to exporting the waybill as PDF. |
+| `PORTAL_WAYBILL` | Allows access to the waybill. |
+| `PORTAL_VIEW_OTMOBILE` | Allows displaying the OTmobile simulation application. |
+
+### Optimization
+
+| Right | Description |
+| --- | --- |
+| `PORTAL_STOP_MANUAL_OPTIMIZATION` | Allows manually stopping an automatic optimization. |
+| `PORTAL_STOP_AUTOMATIC_OPTIMIZATION` | Allows stopping an automatic optimization. |
+| `PORTAL_START_OPTIMIZATION_AT_ANY_TIME` | Allows manually starting an automatic optimization at any time. |
+| `PORTAL_START_OPTIM_ON_VALIDITY_PERIOD` | Allows manually starting an automatic optimization during its validity period. |
+| `PORTAL_OPTIMIZATION_SERVICE` | Access to the optimization services. |
+
+### Unavailabilities
+
+| Right | Description |
+| --- | --- |
+| `PORTAL_UNAVAILABILITY_MANAGING_ACCESS` | Access to unavailability management. |
+| `PORTAL_UNAVAILABILITY_ACCESS` | Access to the unavailabilities menu. |
+
+## Planning
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_UPDATE_RESOURCEUSERLISTS` | Access to modifying a resource list in the interface. |
+| `CALLCENTER_SHOW_RESOURCEUSERLISTS` | Access to selecting a resource list in the interface. |
+| `CALLCENTER_SEE_ONLY_CURRENT_USR` | Restricts all views to those that concern only the logged-in user. |
+| `CALLCENTER_MANAGE_PERIMETER` | Allows managing the scope. |
+| `CALLCENTER_MANAGE_OWN_WORKSITE` | Access to the user's own worksite. |
+| `CALLCENTER_MANAGE_OWN_TEAM` | Access to the user's own team. |
+| `CALLCENTER_MANAGE_OWN_DOMAIN` | Allows managing the areas of the user's own domain. |
+| `CALLCENTER_MANAGE_OWN_AREA` | Access to the user's own area. |
+| `CALLCENTER_MANAGE_EXCEPTIONAL_LOCATION_CURRENT_AREA` | Access to managing exceptional locations for the resources of the current area. |
+| `CALLCENTER_MANAGE_EXCEPTIONAL_LOCATION_ALL_AREA` | Access to managing exceptional locations for all resources of all areas. |
+| `CALLCENTER_MANAGE_ALL_WORKSITES` | Access to all worksites of the user's area. |
+| `CALLCENTER_MANAGE_ALL_TEAMS` | Access to all teams of the user's area. |
+| `CALLCENTER_MANAGE_ALL_AREAS` | Access to all areas (all worksites and all teams). |
+| `CALLCENTER_GUEST` | Access to the Planning module. |
+| `CALLCENTER_DELETE_RESOURCEUSERLISTS` | Access to deleting a resource list in the interface. |
+| `CALLCENTER_CRM_VIEW_ALL_AREAS` | Allows viewing the customers of all areas. |
+| `CALLCENTER_CREATE_RESOURCEUSERLISTS` | Access to creating a resource list in the interface. |
+| `CALLCENTER_CHANGE_AREA` | Allows changing the area of the active module. |
+
+### Customer
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_CRM_VIEW_PROJECT_MAININFO` | Allows displaying the main project information. |
+| `CALLCENTER_CRM_VIEW_PROJECT_EXTRAFIELDS` | Allows displaying the additional project fields. |
+| `CALLCENTER_CRM_VIEW_PROJECT_DETAILS` | Allows displaying the project details. |
+| `CALLCENTER_CRM_VIEW_PROJECT_DAYS` | Allows displaying the project days. |
+| `CALLCENTER_CRM_VIEW_PROJECT_ASSIGNMENTS` | Allows viewing the project assignments. |
+| `CALLCENTER_CRM_VIEW_ORDERER_REQUIREMENTS` | Allows displaying the orderer's preferences. |
+| `CALLCENTER_CRM_VIEW_ORDERER` | Allows access to the orderer. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_TYPE` | Allows viewing the customer type. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_REQUIREMENTS` | Allows viewing the customer preferences. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_PROJECT` | Allows viewing the customer project. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_PLANNING_WEEK` | Allows viewing the customer weekly planning. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_PLANNING_MONTH` | Allows viewing the customer monthly planning. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_KIND` | Allows viewing the customer kinds. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_DAYS` | Allows viewing the customer days. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_CONTACTS` | Allows viewing the customer contacts. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_AUTHORIZATION` | Access to the authorizations on the customer page. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_ASSIGNMENTS` | Allows viewing the customer assignments. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_APPOINTMENTS` | Allows viewing the customer's appointments. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER_ADDRESS` | Allows viewing the customer address. |
+| `CALLCENTER_CRM_VIEW_CUSTOMER` | Allows viewing the customer. |
+| `CALLCENTER_CRM_VIEW_ADDRESSES_STREETVIEW` | Allows access to the Google Street View of an address. |
+| `CALLCENTER_CRM_UPDATE_PROJECT_MAININFO` | Allows modifying the main project information. |
+| `CALLCENTER_CRM_UPDATE_PROJECT_EXTRAFIELDS` | Allows modifying the additional project fields. |
+| `CALLCENTER_CRM_UPDATE_PROJECT_DETAILS` | Allows modifying the project details. |
+| `CALLCENTER_CRM_UPDATE_PROJECT_DAYS` | Allows modifying the project days. |
+| `CALLCENTER_CRM_UPDATE_PROJECT_ASSIGNMENTS` | Allows modifying the project assignments. |
+| `CALLCENTER_CRM_UPDATE_ORDERER_REQUIREMENTS` | Allows modifying the orderer's preferences. |
+| `CALLCENTER_CRM_UPDATE_ORDERER` | Allows editing the orderer. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_TYPE` | Allows editing the customer type. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_REQUIREMENTS` | Allows editing the customer preferences. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_PROJECT` | Allows editing the customer project. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_KIND` | Allows modifying the customer kinds. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_DETAILS` | Allows editing the customer preferences. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_DAYS` | Allows editing the customer days. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_CONTACTS` | Allows editing the customer contacts. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_AUTHORIZATION` | Allows modifying the authorizations on the customer page. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_ASSIGNMENTS` | Allows editing the customer assignments. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER_ADDRESS` | Allows editing the customer address. |
+| `CALLCENTER_CRM_UPDATE_CUSTOMER` | Allows editing the customer. |
+| `CALLCENTER_CRM_TOURS_PLAN` | Access to the tour templates. |
+| `CALLCENTER_CRM_SET_MAIN_CUSTOMER_CONTACTS` | Allows editing the main customer contact. |
+| `CALLCENTER_CRM_REMOVE_CUSTOMER_CONTACTS` | Allows deleting a customer contact. |
+| `CALLCENTER_CRM_LIST_REPLACE_WISHED_HR_LIST` | Allows replacing the list of preferred resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_REPLACE_REQUIRED_HR_LIST` | Allows replacing the list of required resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_REPLACE_REFUSED_HR_LIST` | Allows replacing the list of refused resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_REMOVE_FROM_WISHED_HR_LIST` | Allows removing resources from the list of preferred resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_REMOVE_FROM_REQUIRED_HR_LIST` | Allows removing resources from the list of required resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_REMOVE_FROM_REFUSED_HR_LIST` | Allows removing resources from the list of refused resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_EMPTY_WISHED_HR_LIST` | Allows emptying the list of preferred resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_EMPTY_REQUIRED_HR_LIST` | Allows emptying the list of required resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_EMPTY_REFUSED_HR_LIST` | Allows emptying the list of refused resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_WORKSITE` | Allows changing the worksite for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_TYPE` | Allows changing the type for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_QUANTITIES` | Allows changing the Quantities fields for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_NEXT_SCHEDULED_DATE` | Allows changing the next visit date for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_LOGICALS` | Allows changing the Logicals fields for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_LAST_VISIT_DATE` | Allows changing the last visit date for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_KIND` | Allows changing the kind for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_ISFOCUS` | Allows changing the focus for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_FILLERS` | Allows changing the Fillers fields for a list of customers. |
+| `CALLCENTER_CRM_LIST_CHANGE_DATES` | Allows changing the dates for a list of customers. |
+| `CALLCENTER_CRM_LIST_ADD_TO_WISHED_HR_LIST` | Allows adding resources to the list of preferred resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_ADD_TO_REQUIRED_HR_LIST` | Allows adding resources to the list of required resources for a list of customers. |
+| `CALLCENTER_CRM_LIST_ADD_TO_REFUSED_HR_LIST` | Allows adding resources to the list of refused resources for a list of customers. |
+| `CALLCENTER_CRM_GENERATE_PERIODIC_APPT` | Access to the page for generating requests for recurring customers. |
+| `CALLCENTER_CRM_CUSTOMER_SEARCH_RESET_FORM` | Allows resetting a customer search. |
+| `CALLCENTER_CRM_CUSTOMER_SEARCH_CHECK_POSTADDRESS` | Allows checking a customer's postal address during a search. |
+| `CALLCENTER_CRM_CUSTOMER_EXPORT_CSV` | Allows exporting a customer in CSV format during a search. |
+| `CALLCENTER_CRM_CUSTOMER_ALERT_LIST` | Access right to the list of customer alerts. |
+| `CALLCENTER_CRM_CREATE_ORDERER` | Allows creating the orderer. |
+| `CALLCENTER_CRM_CREATE_CUSTOMER_TYPE` | Allows creating the customer type. |
+| `CALLCENTER_CRM_CREATE_CUSTOMER_KIND` | Allows creating the customer kinds. |
+| `CALLCENTER_CRM_CREATE_CUSTOMER_CONTACTS` | Allows creating a customer contact. |
+| `CALLCENTER_CRM_CREATE_CUSTOMER` | Allows creating the customer. |
+| `CALLCENTER_CRM_APPLY_UPDATES_TO_APP` | Allows propagating customer updates to the appointment requests. |
+
+### Appointment
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_UNPLAN_REALIZED_APPT` | Allows unplanning fully or partially realized appointments. |
+| `CALLCENTER_UNPLAN_APPT` | Unplan an appointment. |
+| `CALLCENTER_UNDONE_APPT` | Access to undoing the realization of an appointment. |
+| `CALLCENTER_UNCONFIRM_APPT` | Allows unconfirming an appointment. |
+| `CALLCENTER_TRANSFORM_REQUEST` | Access to the **Transform** button in the appointment form. This button opens a dedicated edit page to easily apply predefined changes according to a customized business process. |
+| `CALLCENTER_TAKE_APPT` | Allows access to appointment booking. |
+| `CALLCENTER_SUSPEND_APPT` | Suspend an appointment. |
+| `CALLCENTER_SPLIT_APPT` | Access to the **Split** button in the appointment page. |
+| `CALLCENTER_SHEET_APPT` | Allows access to the appointment form. |
+| `CALLCENTER_SAVE_APPT` | Save an appointment. |
+| `CALLCENTER_RESERVE_APPT` | Reserve an appointment. |
+| `CALLCENTER_REQUEST_CONFIRMED_APPT` | Re-activate a reserved or confirmed appointment. |
+| `CALLCENTER_REQUEST_APPT` | Request an appointment. |
+| `CALLCENTER_REPLAN_APPT` | Replan an appointment. |
+| `CALLCENTER_PHONE_COUNTER` | Display and increment the call counter. |
+| `CALLCENTER_MODIFY_APPT` | Allows modifying appointments. |
+| `CALLCENTER_FULLREQUEST_MODIFY` | Full access to modifying an appointment request. |
+| `CALLCENTER_EDIT_CHAIN_CONSTRAINT` | Create and modify a chaining constraint. |
+| `CALLCENTER_DONE_APPT_ANYSTATUS` | Allows switching an appointment to the realized status, regardless of its current status. |
+| `CALLCENTER_DONE_APPT` | Access to the realization of the appointment. |
+| `CALLCENTER_DECLARE_ACHIEVED` | Allows declaring and modifying realized appointments. |
+| `CALLCENTER_COPY_APPT` | Copy an appointment. |
+| `CALLCENTER_CONFIRM_APPT` | Confirm an appointment. |
+| `CALLCENTER_CHANGE_APPT_ADDRESS` | Allows changing the appointment address. |
+| `CALLCENTER_CANCEL_APPT` | Cancel an appointment. |
+| `CALLCENTER_ACCEPT_APPOINTMENT` | Accept an appointment. |
+
+### Appointment list
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_UNPLAN_LIST` | Allows switching a list of appointments to the suspended status. |
+| `CALLCENTER_UNCANCEL_LIST` | Allows switching a list of appointments to the requested status. |
+| `CALLCENTER_SUSPEND_LIST` | Allows switching a list of appointments to the suspended status. |
+| `CALLCENTER_SEARCH_UNPLANNED_APPT` | Access to searching for unplanned appointments. |
+| `CALLCENTER_SEARCH_RESERVED_APPT` | Access to searching for reserved appointments. |
+| `CALLCENTER_SEARCH_REQUESTED_APPT` | Access to searching for requested appointments. |
+| `CALLCENTER_SEARCH_PLANNED_APPT` | Access to searching for planned appointments. |
+| `CALLCENTER_SEARCH_EXTERNALIZED_APPT` | Subcontracted appointment. |
+| `CALLCENTER_SEARCH_CONFIRMED_APPT` | Access to searching for confirmed appointments. |
+| `CALLCENTER_SEARCH_CHAIN_CONSTRAINT` | Access to searching for chaining constraints. |
+| `CALLCENTER_SEARCH_APPT` | Access to searching for appointments. |
+| `CALLCENTER_SEARCH_ACCEPTED_APPT` | Access to searching for accepted appointments. |
+| `CALLCENTER_RESERV_LIST` | Allows switching a list of appointments to the reserved status. |
+| `CALLCENTER_REALIZE_LIST` | Allows switching a list of appointments to the realized status. |
+| `CALLCENTER_REACTIVATE_LIST` | Allows switching a list of appointments to the requested status. |
+| `CALLCENTER_PLANSUGGEST_LIST` | Allows switching a list of appointments to the planned status. |
+| `CALLCENTER_PLAN_LIST` | Allows planning a list of appointments. |
+| `CALLCENTER_INCREASE_PLANNED_DATE_LIST` | Allows postponing the planned date for a list of appointments. |
+| `CALLCENTER_INCREASE_DATE_MIN_BEGIN_LIST` | Allows postponing the earliest date for a list of appointments. |
+| `CALLCENTER_INCREASE_DATE_MAX_END_LIST` | Allows postponing the latest date for a list of appointments. |
+| `CALLCENTER_DECREASE_PLANNED_DATE_LIST` | Allows bringing forward the planned date for a list of appointments. |
+| `CALLCENTER_DECREASE_DATE_MIN_BEGIN_LIST` | Allows bringing forward the earliest date for a list of appointments. |
+| `CALLCENTER_DECREASE_DATE_MAX_END_LIST` | Allows bringing forward the latest date for a list of appointments. |
+| `CALLCENTER_CONFIRM_LIST` | Allows switching a list of appointments to the confirmed status. |
+| `CALLCENTER_CHANGE_WORKSITE_LIST` | Allows changing the worksite for a list of appointments. |
+| `CALLCENTER_CHANGE_RESOURCES_LIST` | Allows changing the resources for a list of appointments. |
+| `CALLCENTER_CHANGE_QUANTITIES_LIST` | Allows changing the Quantities fields for a list of appointments. |
+| `CALLCENTER_CHANGE_PRIORITY_LIST` | Allows changing the priority for a list of appointments. |
+| `CALLCENTER_CHANGE_LOGICALS_LIST` | Allows changing the Logicals fields for a list of appointments. |
+| `CALLCENTER_CHANGE_FILLERS_LIST` | Allows changing the Fillers fields for a list of appointments. |
+| `CALLCENTER_CHANGE_DATES_TIMES_LIST` | Allows changing the latest and earliest date and time for a list of appointments. |
+| `CALLCENTER_CHANGE_DATE_MIN_BEGIN_LIST` | Allows changing the earliest date for a list of appointments. |
+| `CALLCENTER_CHANGE_DATE_MAX_END_LIST` | Allows changing the latest date for a list of appointments. |
+| `CALLCENTER_CHANGE_ADDITIONALDATES_LIST` | Allows changing the Additional dates fields for a list of appointments. |
+| `CALLCENTER_CANCEL_LIST` | Allows switching a list of appointments to the cancelled status. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH9` | Access to the appointment list mySearch 9. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH8` | Access to the appointment list mySearch 8. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH7` | Access to the appointment list mySearch 7. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH6` | Access to the appointment list mySearch 6. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH5` | Access to the appointment list mySearch 5. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH4` | Access to the appointment list mySearch 4. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH3` | Access to the appointment list mySearch 3. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH2` | Access to the appointment list mySearch 2. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH15` | Access to the appointment list mySearch 15. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH14` | Access to the appointment list mySearch 14. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH13` | Access to the appointment list mySearch 13. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH12` | Access to the appointment list mySearch 12. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH11` | Access to the appointment list mySearch 11. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH10` | Access to the appointment list mySearch 10. |
+| `CALLCENTER_APPOINTMENT_LIST_MYSEARCH1` | Access to the appointment list mySearch 1. |
+| `CALLCENTER_APPOINTMENT_ALERT_LIST_TROUBLESHOOTING` | Access right to the list of troubleshooting task alerts. |
+| `CALLCENTER_APPOINTMENT_ALERT_LIST_CUSTOMER_GAP` | Access right to the list of customer gap alerts. |
+| `CALLCENTER_APPOINTMENT_ALERT_LIST_BIG_ROUTE_DURATION` | Access right to the list of travel duration alerts. |
+| `CALLCENTER_APPOINTMENT_ALERT_LIST_APPOINTMENT_TO_REPLAN` | Access right to the list of alerts for appointments to replan. |
+| `CALLCENTER_APPOINTMENT_ALERT_LIST` | Access right to the list of task alerts. |
+| `CALLCENTER_ADD_CONSTRAINT_LIST` | Allows creating a chaining constraint for a list of appointments. |
+| `CALLCENTER_ACCEPT_LIST` | Allows changing the status to accepted for a list of appointments. |
+
+### Planning
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_VISITS_TOO_FREQUENT` | Allows visits that are too frequent. |
+| `CALLCENTER_SCHEDULE_APPT_AS_PLANNED` | Allows placing an appointment in the planned status. |
+| `CALLCENTER_RESCHEDULE_COLLECTION_OF_APPOINTMENT` | Allows resuming the planning of one or more days. |
+| `CALLCENTER_REOPTIM_WEEK` | Allows optimizing a week. |
+| `CALLCENTER_REOPTIM_DAY` | Allows optimizing a day. |
+| `CALLCENTER_REALTIME_TIMEGRID_MODE` | Allows displaying the real-time optimization solutions in grid mode. |
+| `CALLCENTER_REALTIME_OPTIM_IGNORE_HR_CONSTRAINTS` | Allows real-time optimization of visits by resources that are neither required nor preferred. |
+| `CALLCENTER_POST_OPTIM_SUSPEND_APP` | Allows switching to the suspended status an appointment for which the real-time optimization found no solution. |
+| `CALLCENTER_POST_OPTIM_IMPOSE_APP` | Manual appointment booking after an optimization. |
+| `CALLCENTER_PLAN_APPT` | Plan an appointment. |
+| `CALLCENTER_OPTIM_APP` | Allows planning appointments with real-time optimization. |
+| `CALLCENTER_MODIFY_AGENDA_CONTROLLED_DATES_VALIDATION` | Allows modifying the validation data for locked days. |
+| `CALLCENTER_MODIFY_AGENDA_CONTROLLED_DATES_ENTRY` | Allows modifying the validation request data for locked days. |
+| `CALLCENTER_MANUAL_OPTIM_IGNORE_HR_WORKSITE` | Allows manual planning of visits by resources that are not assigned to the worksite of the visit. |
+| `CALLCENTER_MANUAL_OPTIM_IGNORE_HR_CONSTRAINTS` | Allows manual planning of visits by resources that are neither required nor preferred. |
+| `CALLCENTER_MANAGE_AGENDA_MARKERS` | Access to markers. |
+| `CALLCENTER_MANAGE_AGENDA_CONTROLLED_DATES` | Access to managing locked days. |
+| `CALLCENTER_IMPOSE_APP_IGNORE_SKILLS` | Allows manually booking an appointment for a resource who does not have the required skills. |
+| `CALLCENTER_IMPOSE_APP` | Plan an appointment manually. |
+| `CALLCENTER_FORCE_IMPOSE_APP` | Plan an appointment manually, violating constraints. |
+| `CALLCENTER_FILL_PLANNING` | Fill a resource's planning with requested or unplanned appointments. |
+| `CALLCENTER_CAN_VALIDATE_AGENDA_CONTROLLED_DATE` | Allows setting locked days to the VALIDATED status. |
+| `CALLCENTER_CAN_TAKE_APPOINTMENT_WITH_OPTIM_PARAMETERS_NAMED` | Allows booking appointments with the named optimization parameter configurations. |
+| `CALLCENTER_CAN_REQUEST_AGENDA_CONTROLLED_DATE` | Allows setting locked days to the REQUESTED status. |
+| `CALLCENTER_CAN_REFUSE_AGENDA_CONTROLLED_DATE` | Allows setting locked days to the REFUSED status. |
+| `CALLCENTER_CAN_PLACEONDISABLED_DATES` | Allows planning during time outside the constrained dates. |
+| `CALLCENTER_CAN_FORCE_MAX_WORK_TIME_OF_WEEK` | Allows exceeding the maximum working time of a week. |
+| `CALLCENTER_CAN_FORCE_MAX_WORK_TIME_OF_DAY` | Allows exceeding the maximum working time of a day. |
+| `CALLCENTER_CAN_FORCE_MAX_MOVE_TIME_OF_WEEK` | Allows exceeding the maximum travel distance of a week. |
+| `CALLCENTER_CAN_FORCE_MAX_MOVE_TIME_OF_DAY` | Allows exceeding the maximum travel distance of a day. |
+
+### Interactions with the schedule
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_INPLANNING_UNPLAN_REALIZED_APPT` | Allows unplanning fully or partially realized appointments from the planning view. |
+| `CALLCENTER_INPLANNING_UNPLAN_APPT` | Allows suspending appointments (switching to the suspended status) from the plannings. |
+| `CALLCENTER_INPLANNING_UNDO_APP` | Allows undoing the realization of a realized appointment. |
+| `CALLCENTER_INPLANNING_UNCONFIRM_EXCEPTIONAL_LOCATIONS` | Allows unconfirming exceptional locations in the planning view. |
+| `CALLCENTER_INPLANNING_UNCONFIRM_APPT` | Allows unconfirming appointments (switching to the planned status) in the plannings. |
+| `CALLCENTER_INPLANNING_SUSPEND_APPT` | Allows suspending appointments (switching to the suspended status) from the plannings. |
+| `CALLCENTER_INPLANNING_RESET_STANDARD_DAY` | Allows resetting a day to its standard value when a specific type is applied to it. |
+| `CALLCENTER_INPLANNING_RESERV_APPT` | Allows reserving appointments (switching to the reserved status) from the plannings. |
+| `CALLCENTER_INPLANNING_REMOVE_UNAVAILABILITY` | Allows deleting unavailabilities from the plannings. |
+| `CALLCENTER_INPLANNING_REMOVE_EXCEPTIONAL_LOCATION` | Allows deleting exceptional locations in the plannings. |
+| `CALLCENTER_INPLANNING_REMOVE_APPT` | Allows deleting appointments (switching to the cancelled status) from the plannings. |
+| `CALLCENTER_INPLANNING_REACTIV_APPT` | Re-activation of appointments from the plannings (return to the requested status). |
+| `CALLCENTER_INPLANNING_MOVE_UNAVAILABILITY` | Allows moving unavailabilities from the plannings. |
+| `CALLCENTER_INPLANNING_MOVE_MARKER` | Allows moving markers in the plannings. |
+| `CALLCENTER_INPLANNING_MOVE_APPT` | Allows moving appointments from the plannings. |
+| `CALLCENTER_INPLANNING_MODIFY_UNAVAILABILITY_DURATION` | Allows modifying the duration of unavailabilities in the plannings. |
+| `CALLCENTER_INPLANNING_MODIFY_MARKER_DURATION` | Allows modifying the duration of markers in the plannings. |
+| `CALLCENTER_INPLANNING_MODIFY_EXCEPTIONAL_LOCATION` | Allows modifying the duration of exceptional locations in the plannings. |
+| `CALLCENTER_INPLANNING_MODIFY_APPT_DURATION` | Allows modifying the duration of appointments from the plannings. |
+| `CALLCENTER_INPLANNING_CREATE_EXCEPTIONAL_LOCATION` | Allows creating exceptional locations in the planning view. |
+| `CALLCENTER_INPLANNING_CONFIRM_EXCEPTIONAL_LOCATIONS` | Allows confirming exceptional locations in the planning view. |
+| `CALLCENTER_INPLANNING_CONFIRM_APPT` | Allows confirming appointments (switching to the confirmed status) from the plannings. |
+| `CALLCENTER_INPLANNING_APP_PANEL` | Access to the appointment basket in the plannings. |
+| `CALLCENTER_INPLANNING_ADD_BY_DRAG_EXCEPTIONAL_LOCATION` | Allows creating an exceptional location by drag and drop in the plannings. |
+| `CALLCENTER_INPLANNING_ACCEPT_APPT` | Accept appointments in the plannings. |
+
+### Schedule
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_WORKSITE_PLANNING_SECOND` | Includes the resources for which the worksite specified for the worksite planning is a secondary worksite. |
+| `CALLCENTER_WORKSITE_PLANNING_FIRST` | Includes the resources whose main worksite is the worksite specified for the worksite planning. |
+| `CALLCENTER_WORKSITE_PLANNING_EXECUTING` | Includes the resources that perform an appointment at the worksite specified for the worksite planning. |
+| `CALLCENTER_WORKSITE_PLANNING` | Access to the worksite planning. |
+| `CALLCENTER_WEEK_PLANNING` | Access to the week planning. |
+| `CALLCENTER_VIEW_CHARGE_PLANNING` | Access to the workload plannings. |
+| `CALLCENTER_VIEW_AREA_BY_WORKSITE_PLANNING` | Access to the area plannings by worksite. |
+| `CALLCENTER_VEHICLE_PLANNING` | Access to the display of tracked vehicles. |
+| `CALLCENTER_TEAM_PLANNING` | Access to the team planning. |
+| `CALLCENTER_ROTATE_PLANNING` | Access to the button that switches the schedule between horizontal and vertical display. |
+| `CALLCENTER_PLANNING_NO_HOURS` | Displays the plannings without showing the hours. |
+| `CALLCENTER_PLANNING_DISPLAY_MARKERS` | Display markers in the Planning module schedule. |
+| `CALLCENTER_PLANNING` | Access to the plannings. |
+| `CALLCENTER_NONMOBILE_RESOURCE_PLANNING` | Access to the planning of non-mobile resources in the Planning module. |
+| `CALLCENTER_MULTI_PLANNING` | Access to multi-resource plannings. |
+| `CALLCENTER_MONTH_PLANNING` | Access to the month planning. |
+| `CALLCENTER_HIDE_PERSONAL_ADDRESS` | Hide the personal addresses of resources in the map, the planning and the forms. |
+| `CALLCENTER_AREA_PLANNING` | Access to the area planning. |
+
+### Communication
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_VIEW_WAYBILL` | Allows access to the waybill. |
+| `CALLCENTER_VIEW_MESSAGE` | Allows displaying messages. |
+| `CALLCENTER_TEAMS_WAYBILL` | Access to the waybill of the teams. |
+| `CALLCENTER_SHOW_CUSTOM_EXPORT` | Access to the custom exports page. |
+| `CALLCENTER_SEND_WEEK_NOTIFICATIONS` | Allows sending notifications of the weekly appointments. |
+| `CALLCENTER_SEND_APPOINTMENT_NOTIFICATION` | Allows sending the notification of an appointment. |
+| `CALLCENTER_SEND_APPOINTMENT_ANNOUNCE` | Allows sending an appointment announcement. |
+| `CALLCENTER_MANAGE_NOTIFIABLES` | Allows displaying and updating the Notifiable property of resources. |
+| `CALLCENTER_EXPORT_CSV` | Allows exporting tables in CSV format. |
+| `CALLCENTER_CREATE_MESSAGE` | Allows creating messages. |
+
+### Mapping
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_VIEW_MAP_ACTIVITIES` | Access to the activities map. |
+| `CALLCENTER_VIEW_MAP` | Gives access to the map view. |
+| `CALLCENTER_SHOW_SEARCHAROUNDPAGE` | Access to the nearby search page. |
+| `CALLCENTER_SHOW_ITIPAGE` | Access to the itinerary calculation page. |
+| `CALLCENTER_PICK_COORDINATES` | Access to the coordinate conversion page. |
+
+### Overnight stay
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_VIEW_BUSINESS_LOCATIONS_PREFERENCES` | Allows viewing the business location preferences. |
+| `CALLCENTER_UNCONFIRM_EXCEPTIONAL_LOCATIONS` | Allows unconfirming exceptional locations. |
+| `CALLCENTER_SUGGEST_EXCEPTIONAL_LOCATIONS` | Right to display the button that suggests overnight stays. |
+| `CALLCENTER_REMOVE_EXCEPTIONAL_LOCATION` | Allows deleting exceptional locations. |
+| `CALLCENTER_MODIFY_EXCEPTIONAL_LOCATION` | Allows updating exceptional locations. |
+| `CALLCENTER_MANAGE_EXCEPTIONAL_LOCATION` | Access to managing exceptional locations. |
+| `CALLCENTER_MANAGE_BUSINESS_LOCATIONS` | Access to managing business locations (hotels, and so on). |
+| `CALLCENTER_FORCE_EXCEPTIONAL_LOCATIONS` | Right to force the creation or deletion of overnight stays. |
+| `CALLCENTER_CREATE_EXCEPTIONAL_LOCATION` | Allows creating exceptional locations. |
+| `CALLCENTER_CONFIRM_EXCEPTIONAL_LOCATIONS` | Allows confirming exceptional locations. |
+
+### Real-time tracking
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_VEHICLE_TRACKING_ANALYZE` | Access to the vehicle tracking analysis page. |
+| `CALLCENTER_VEHICLE_TRACKING` | Access to vehicle tracking. |
+| `CALLCENTER_SHOW_TRAFFIC_PATTERN` | Makes the road traffic statistics page accessible. |
+
+### Resource management
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_VIEW_SECONDARY_WORKSITE_ASSIGNMENTS` | Allows viewing the assignments to a secondary worksite. |
+| `CALLCENTER_VIEW_RESOURCE_CUSTOMERS` | Allows displaying the customers and assignments (required, preferred, and so on) of a resource. |
+| `CALLCENTER_VIEW_JOBS` | Allows displaying the job types. |
+| `CALLCENTER_VIEW_DUTIES` | Allows access to on-call duties. |
+| `CALLCENTER_UPDATE_SECONDARY_WORKSITE_ASSIGNMENTS` | Allows updating the assignments to a secondary worksite. |
+| `CALLCENTER_UPDATE_JOBS` | Allows modifying jobs. |
+| `CALLCENTER_UPDATE_DUTIES` | Allows modifying on-call duties. |
+| `CALLCENTER_MANAGE_SUPPLIES` | Allows listing supplies and assigning them to resources for a specific period. |
+| `CALLCENTER_MANAGE_SECTORS` | Allows managing sectors. |
+
+### Unavailabilities
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_VIEW_UNAVAILABILITY_PREFERENCES` | Allows viewing the unavailability preferences. |
+| `CALLCENTER_UNAVAILABILITY_ADD_FORCE` | Forces unavailabilities to overlap with other unavailabilities. |
+| `CALLCENTER_TAKE_UNAVAILABILITY` | Allows managing unavailabilities. |
+| `CALLCENTER_SEARCH_UNAVAILABILITY` | Access to searching for unavailabilities. |
+| `CALLCENTER_REFUSE_LIST_UNAVAILABILITY` | Allows switching a list of unavailabilities to the refused status. |
+| `CALLCENTER_EXPRESS_UNAVAILABILITY` | Access to express unavailability entry. |
+| `CALLCENTER_EDIT_ALL_UNAVAILABILITY` | Allows editing all types of unavailabilities. |
+| `CALLCENTER_ACCEPT_LIST_UNAVAILABILITY` | Allows switching a list of unavailabilities to the accepted status. |
+
+### Custom action
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_MYACTION_CUSTOMER_SHEET_5` | Allows seeing the **Custom action 5** button in the customer forms. |
+| `CALLCENTER_MYACTION_CUSTOMER_SHEET_4` | Allows seeing the **Custom action 4** button in the customer forms. |
+| `CALLCENTER_MYACTION_CUSTOMER_SHEET_3` | Allows seeing the **Custom action 3** button in the customer forms. |
+| `CALLCENTER_MYACTION_CUSTOMER_SHEET_2` | Allows seeing the **Custom action 2** button in the customer forms. |
+| `CALLCENTER_MYACTION_CUSTOMER_SHEET_1` | Allows seeing the **Custom action 1** button in the customer forms. |
+| `CALLCENTER_MYACTION_CUSTOMER_MAP_5` | Allows seeing the **Custom action 5** button in the customer map tooltips. |
+| `CALLCENTER_MYACTION_CUSTOMER_MAP_4` | Allows seeing the **Custom action 4** button in the customer map tooltips. |
+| `CALLCENTER_MYACTION_CUSTOMER_MAP_3` | Allows seeing the **Custom action 3** button in the customer map tooltips. |
+| `CALLCENTER_MYACTION_CUSTOMER_MAP_2` | Allows seeing the **Custom action 2** button in the customer map tooltips. |
+| `CALLCENTER_MYACTION_CUSTOMER_MAP_1` | Allows seeing the **Custom action 1** button in the customer map tooltips. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_COLUMN_5` | Allows seeing the **Custom action 5** button in the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_COLUMN_4` | Allows seeing the **Custom action 4** button in the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_COLUMN_3` | Allows seeing the **Custom action 3** button in the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_COLUMN_2` | Allows seeing the **Custom action 2** button in the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_COLUMN_1` | Allows seeing the **Custom action 1** button in the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_5` | Allows seeing the **Custom action 5** button in the action buttons of the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_4` | Allows seeing the **Custom action 4** button in the action buttons of the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_3` | Allows seeing the **Custom action 3** button in the action buttons of the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_2` | Allows seeing the **Custom action 2** button in the action buttons of the customer lists. |
+| `CALLCENTER_MYACTION_CUSTOMER_LIST_1` | Allows seeing the **Custom action 1** button in the action buttons of the customer lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_SHEET_5` | Allows seeing the **Custom action 5** button in the appointment forms. |
+| `CALLCENTER_MYACTION_APPOINTMENT_SHEET_4` | Allows seeing the **Custom action 4** button in the appointment forms. |
+| `CALLCENTER_MYACTION_APPOINTMENT_SHEET_3` | Allows seeing the **Custom action 3** button in the appointment forms. |
+| `CALLCENTER_MYACTION_APPOINTMENT_SHEET_2` | Allows seeing the **Custom action 2** button in the appointment forms. |
+| `CALLCENTER_MYACTION_APPOINTMENT_SHEET_1` | Allows seeing the **Custom action 1** button in the appointment forms. |
+| `CALLCENTER_MYACTION_APPOINTMENT_PLANNING_TOOLTIP_5` | Allows seeing the **Custom action 5** button in the planning tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_PLANNING_TOOLTIP_4` | Allows seeing the **Custom action 4** button in the planning tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_PLANNING_TOOLTIP_3` | Allows seeing the **Custom action 3** button in the planning tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_PLANNING_TOOLTIP_2` | Allows seeing the **Custom action 2** button in the planning tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_PLANNING_TOOLTIP_1` | Allows seeing the **Custom action 1** button in the planning tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_MAP_5` | Allows seeing the **Custom action 5** button in the map tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_MAP_4` | Allows seeing the **Custom action 4** button in the map tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_MAP_3` | Allows seeing the **Custom action 3** button in the map tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_MAP_2` | Allows seeing the **Custom action 2** button in the map tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_MAP_1` | Allows seeing the **Custom action 1** button in the map tooltips. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_COLUMN_5` | Allows seeing the **Custom action 5** button in the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_COLUMN_4` | Allows seeing the **Custom action 4** button in the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_COLUMN_3` | Allows seeing the **Custom action 3** button in the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_COLUMN_2` | Allows seeing the **Custom action 2** button in the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_COLUMN_1` | Allows seeing the **Custom action 1** button in the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_5` | Allows seeing the **Custom action 5** button in the action buttons of the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_4` | Allows seeing the **Custom action 4** button in the action buttons of the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_3` | Allows seeing the **Custom action 3** button in the action buttons of the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_2` | Allows seeing the **Custom action 2** button in the action buttons of the appointment lists. |
+| `CALLCENTER_MYACTION_APPOINTMENT_LIST_1` | Allows seeing the **Custom action 1** button in the action buttons of the appointment lists. |
+
+### Other
+
+| Right | Description |
+| --- | --- |
+| `CALLCENTER_VIEW_APPLICATION_LOG` | Allows access to the list of application events. |
+| `CALLCENTER_SQL_QUERY_TOOL` | Allows using predefined SQL query files. |
+| `CALLCENTER_SEND_TO_SUBCONTRACTOR` | Allows sending an appointment to a subcontractor. |
+| `CALLCENTER_SEND_LIST_TO_SUBCONTRACTOR` | Allows sending a list of appointments to a subcontractor. |
+| `CALLCENTER_PASSWORD_CHANGE` | Allows the current user to change their password. |
+| `CALLCENTER_MESSAGE_ALERT_LIST` | Access to the list of alert messages. |
+| `CALLCENTER_HIDE_APPOINTMENT_MODIFY_PAGE` | Prevents access to the appointment edit page or wizard when the `APPOINTMENT_MODIFY` right is enabled, to restrict editing to the fields of the main form. |
+
+## Supervisor
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `SUPERVISOR_MANAGE_OWN_TEAM` | Allows managing the resources of the user's own team. |
+| `SUPERVISOR_MANAGE_OWN_DOMAIN` | Allows managing the areas of the user's own domain. |
+| `SUPERVISOR_MANAGE_OWN_AREA` | Right to manage the user's own area. |
+| `SUPERVISOR_MANAGE_ALL_AREAS` | Access to all areas. |
+| `SUPERVISOR_GUEST` | Access to the Supervisor module. |
+| `SUPERVISOR_CHANGE_AREA` | Allows changing the area of the active module. |
+
+### Control
+
+| Right | Description |
+| --- | --- |
+| `SUPERVISOR_OVERTIMES` | Access to the overtime dashboard. |
+| `SUPERVISOR_JOURNAL` | Access to viewing the appointment modification journal. |
+| `SUPERVISOR_GLOBAL_PLANNING_UNAVAILABILITIES` | Access to the global unavailability planning. |
+| `SUPERVISOR_ACHIEVEMENT_DATES` | Access to the fulfilment dates dashboard. |
+
+### Statistics
+
+| Right | Description |
+| --- | --- |
+| `SUPERVISOR_QUANTITY` | Access to the dashboard of appointment booking quantities. |
+| `SUPERVISOR_QUALITY` | Access to the dashboard of appointment booking quality. |
+| `SUPERVISOR_OBJECTIVE` | Access to the objectives dashboard. |
+| `SUPERVISOR_INTERVENTIONS` | Access to the tasks dashboard. |
+| `SUPERVISOR_AVAILABILITY` | Access to the availability dashboard. |
+
+### Other
+
+| Right | Description |
+| --- | --- |
+| `SUPERVISOR_INTER_CUSTOMER_DISTANCES` | Access to the inter-customer proximity dashboard. |
+| `SUPERVISOR_CUSTOMER_DISTANCES` | Access to the customer distance matrix dashboard. |
+| `SUPERVISOR_CUSTOMER_BARYCENTERS` | Access to the customer barycenter dashboard. |
+
+## Attendance
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_UPDATE_RESOURCEUSERLISTS` | Access to modifying a resource list in the interface. |
+| `ATTENDANCEMANAGER_SHOW_WORKSITES` | Allows selecting a worksite in the interface. |
+| `ATTENDANCEMANAGER_SHOW_TEAMS` | Allows selecting a team in the interface. |
+| `ATTENDANCEMANAGER_SHOW_RESOURCEUSERLISTS` | Access to selecting a resource list in the interface. |
+| `ATTENDANCEMANAGER_SHOW_AREA` | Allows selecting the current area in the interface. All or some of the `ATTENDANCEMANAGER_SHOW_WORKSITES` and `ATTENDANCEMANAGER_SHOW_TEAMS` rights must also be granted to access the module. |
+| `ATTENDANCEMANAGER_MANAGE_PERIMETER` | Allows managing the scope. |
+| `ATTENDANCEMANAGER_MANAGE_OWN_WORKSITE` | Access to the user's own worksite. |
+| `ATTENDANCEMANAGER_MANAGE_OWN_TEAM` | Access to the user's own team. |
+| `ATTENDANCEMANAGER_MANAGE_OWN_DOMAIN` | Access to the areas of the user's own domain. |
+| `ATTENDANCEMANAGER_MANAGE_OWN_AREA` | Access to the user's own area. |
+| `ATTENDANCEMANAGER_GUEST` | Access to the Attendance module. All or some of the `ATTENDANCEMANAGER_SHOW_WORKSITES` and `ATTENDANCEMANAGER_SHOW_TEAMS` rights must also be granted to access the module. |
+| `ATTENDANCEMANAGER_DELETE_RESOURCEUSERLISTS` | Access to deleting a resource list in the interface. |
+| `ATTENDANCEMANAGER_CREATE_RESOURCEUSERLISTS` | Access to creating a resource list in the interface. |
+
+### Job
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_VIEW_JOBTYPE` | Allows displaying the job types. |
+| `ATTENDANCEMANAGER_VIEW_JOB` | Allows displaying the job types. |
+| `ATTENDANCEMANAGER_UPDATE_JOB` | Allows modifying jobs. |
+| `ATTENDANCEMANAGER_DELETE_JOB` | Allows deleting jobs. |
+| `ATTENDANCEMANAGER_CREATE_JOB` | Allows creating jobs. |
+
+### On-call day
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_VIEW_DUTYTYPE` | Allows displaying the on-call templates. |
+| `ATTENDANCEMANAGER_VIEW_DUTY` | Allows displaying on-call duties. |
+| `ATTENDANCEMANAGER_UPDATE_DUTY` | Allows modifying on-call duties. |
+| `ATTENDANCEMANAGER_DELETE_DUTY` | Allows deleting on-call duties. |
+| `ATTENDANCEMANAGER_CREATE_DUTY` | Allows creating on-call duties. |
+
+### On-call week
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_VIEW_DUTYWEEKTYPE` | Allows displaying the on-call week templates. |
+| `ATTENDANCEMANAGER_VIEW_DUTYWEEK` | Allows displaying on-call weeks. |
+| `ATTENDANCEMANAGER_UPDATE_DUTYWEEK` | Allows modifying on-call weeks. |
+| `ATTENDANCEMANAGER_DELETE_DUTYWEEK` | Allows deleting on-call weeks. |
+| `ATTENDANCEMANAGER_CREATE_DUTYWEEK` | Allows creating on-call weeks. |
+
+### Unavailability
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_VIEW_UNAVAILABILITYTYPE` | Allows displaying the unavailability types. |
+| `ATTENDANCEMANAGER_VIEW_UNAVAILABILITY` | Allows displaying unavailabilities. |
+| `ATTENDANCEMANAGER_UPDATE_UNAVAILABILITY` | Allows modifying unavailabilities. |
+| `ATTENDANCEMANAGER_DELETE_UNAVAILABILITY` | Allows deleting unavailabilities. |
+| `ATTENDANCEMANAGER_CREATE_UNAVAILABILITY` | Allows creating unavailabilities. |
+
+### Marker
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_VIEW_AGENDAMARKERKIND` | Allows displaying the marker kinds. |
+| `ATTENDANCEMANAGER_VIEW_AGENDAMARKER` | Allows displaying markers. |
+| `ATTENDANCEMANAGER_UPDATE_AGENDAMARKER` | Allows modifying markers. |
+| `ATTENDANCEMANAGER_PLANNING_DISPLAY_MARKERS` | Do not display the markers in the planning. |
+| `ATTENDANCEMANAGER_DELETE_AGENDAMARKER` | Allows deleting markers. |
+| `ATTENDANCEMANAGER_CREATE_AGENDAMARKER` | Allows creating markers. |
+
+### Worked day
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_VIEW_WORKEDDAYTYPE` | Allows displaying the worked day templates. |
+| `ATTENDANCEMANAGER_VIEW_WORKEDDAY` | Allows displaying worked days. |
+| `ATTENDANCEMANAGER_UPDATE_WORKEDDAY` | Allows modifying worked days. |
+| `ATTENDANCEMANAGER_DELETE_WORKEDDAY` | Allows deleting worked days. |
+| `ATTENDANCEMANAGER_CREATE_WORKEDDAY` | Allows creating worked days. |
+
+### Worked week
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_VIEW_WORKEDWEEKTYPE` | Allows displaying the worked week templates. |
+| `ATTENDANCEMANAGER_VIEW_WORKEDWEEK` | Allows displaying worked weeks. |
+| `ATTENDANCEMANAGER_UPDATE_WORKEDWEEK` | Allows modifying worked weeks. |
+| `ATTENDANCEMANAGER_DELETE_WORKEDWEEK` | Allows deleting worked weeks. |
+| `ATTENDANCEMANAGER_CREATE_WORKEDWEEK` | Allows creating worked weeks. |
+
+### Reports
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_REPORTS_EXPORTCSV` | Allows exporting the reports as CSV. |
+| `ATTENDANCEMANAGER_REPORTS` | Access to the Reports submodule. |
+
+### Printing
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_PRINTSUMMARYPLANNING` | Allows printing the custom report. |
+| `ATTENDANCEMANAGER_PRINTAGENDA` | Allows printing a schedule. |
+
+### Communication
+
+| Right | Description |
+| --- | --- |
+| `ATTENDANCEMANAGER_VIEW_MESSAGE` | Allows displaying messages. |
+| `ATTENDANCEMANAGER_CREATE_MESSAGE` | Allows creating messages. |
+
+## Strategic
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `STRATEGIC_PLANNING_GUEST` | Access to the Strategic planning module. |
+| `STRATEGIC_MANAGE_OWN_DOMAIN` | Access to the areas of the user's own domain. |
+| `STRATEGIC_MANAGE_OWN_AREA` | Access to the user's own area. |
+| `STRATEGIC_MANAGE_OWN_WORKSITE` | Access to the user's own worksite. |
+| `STRATEGIC_MANAGE_OWN_TEAM` | Access to the user's own team. |
+
+## My application 1
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `MYAPP1_MANAGE_OWN_DOMAIN` | Access to the areas of the user's own domain. |
+| `MYAPP1_MANAGE_OWN_AREA` | Access to the user's own area. |
+| `MYAPP1_GUEST` | Access to the first custom module. |
+
+## Sectorization
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `DISTRICTING_GUEST` | Access to the Sectorization module. |
+
+## Fulfilment
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `FULFILMENT_GUEST` | Access to the live tracking of fulfilments. |
+
+## Tracking
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `TRACKFLEET_GUEST` | Access to the GC_Location fleet tracking application (Tracking) in OTGS. |
+
+## Administration
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_GUEST` | Access to the Administration module. |
+| `ADMIN_SEE_OPTIMIZATION_OF_ALL_AREAS` | View the optimizations for all areas. |
+| `ADMIN_MANAGE_OWN_AREA` | Right to manage the user's own area. |
+| `ADMIN_MANAGE_OWN_DOMAIN` | Allows managing the areas of the user's own domain. |
+| `ADMIN_MANAGE_ALL_AREAS` | Allows managing all areas. |
+| `ADMIN_MANAGE_OWN_TEAM` | Allows managing the user's own team. |
+| `ADMIN_MANAGE_OWN_WORKSITE` | Allows managing the user's own worksite. |
+
+### Global access
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_UPDATE` | Allows modification in Administration. |
+| `ADMIN_INSERT` | Allows inserting data in Administration. |
+| `ADMIN_DELETE` | Allows deleting data in Administration. |
+| `ADMIN_RESTRICTED_PROFILE_GRANT` | Allows assigning a restricted profile to any user. |
+| `ADMIN_TOOLS` | Access to the administration tools. **Warning:** do not use this right in production. |
+| `ADMIN_MOBILITY` | Access to managing mobility devices. |
+| `ADMIN_VIEW_REFERENTIAL` | Allows access to the reference data. |
+| `ADMIN_DEACTIVATE` | Allows deactivating data in Administration. |
+| `ADMIN_VIEW_RIGHTS` | Show the rights. |
+| `ADMIN_VIEW_ADDRESSES_STREETVIEW` | Allows access to the Google Street View of an address. |
+| `ADMIN_HIDE_INTERNAL_ID` | Hide the internal identifier of entities. |
+| `ADMIN_HIDE_EXTREF` | Hide the external reference of entities (usually combined with the automatic assignment of external references). |
+| `ADMIN_ADMIN_TOOLS_MAP` | Allows modifying the map coordinates. |
+
+### Human resource
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_PARTICULAR_DAYS_CREATE` | Allows creating particular days. |
+| `ADMIN_VIEW_RESOURCE` | Show the human resources. |
+| `ADMIN_CREATE_RESOURCE` | Allows creating a human resource. |
+| `ADMIN_UPDATE_RESOURCE` | Allows updating a human resource. |
+| `ADMIN_DISABLE_RESOURCE` | Allows deactivating a human resource. |
+| `ADMIN_UPDATE_RESOURCE_ADDRESS` | Allows modifying the address of a resource. |
+| `ADMIN_UPDATE_RESOURCE_AUTHORIZATION` | Allows modifying the authorizations of resources. |
+| `ADMIN_UPDATE_RESOURCE_EXPRESSUNAVAILABILITY` | Allows modifying the express unavailabilities of resources. |
+| `ADMIN_UPDATE_RESOURCE_INFO` | Allows modifying the information of resources. |
+| `ADMIN_UPDATE_RESOURCE_JOB` | Allows modifying the jobs of resources. |
+| `ADMIN_UPDATE_RESOURCE_LIMIT` | Allows modifying the limits of resources. |
+| `ADMIN_UPDATE_RESOURCE_PRIORITY` | Allows modifying the priorities of resources. |
+| `ADMIN_UPDATE_RESOURCE_SKILL` | Allows modifying the skills of resources. |
+| `ADMIN_UPDATE_RESOURCE_USER` | Allows modifying the users of resources. |
+| `ADMIN_UPDATE_RESOURCE_WORKEDWEEK` | Allows modifying the standard weeks of resources. |
+| `ADMIN_RESOURCE_ASSIGNMENT_UPDATE` | Allows modifying the assignments of a human resource. |
+| `ADMIN_VIEW_RESOURCE_ASSIGNMENT` | Allows access to the assignments of resources. |
+| `ADMIN_VIEW_RESOURCE_AUTHORIZATIONS` | Allows managing the authorizations of a resource. |
+| `ADMIN_VIEW_RESOURCE_EXPRESSUNAVAILABILITY` | Allows managing the express unavailabilities for resources. |
+| `ADMIN_VIEW_RESOURCE_JOB` | Allows access to the jobs of resources. |
+| `ADMIN_VIEW_RESOURCE_LIMIT` | Allows access to the limits of human resources. |
+| `ADMIN_VIEW_RESOURCE_LOCATION` | Allows access to the addresses of resources. |
+| `ADMIN_VIEW_RESOURCE_PRIORITIES` | Allows managing the priorities of a resource. |
+| `ADMIN_VIEW_RESOURCE_SKILL` | Allows access to the skills of resources. |
+| `ADMIN_VIEW_RESOURCE_WORKEDWEEK` | Allows access to the standard weeks of resources. |
+| `ADMIN_VIEW_RESOURCE_USERPERIMETER` | Allows managing the scope of a resource. |
+| `ADMIN_UPDATE_RESOURCE_USERPERIMETER` | Allows modifying the scope of a resource. |
+| `ADMIN_VIEW_RESOURCE_USERS` | Show the user tab of resources. |
+| `ADMIN_VIEW_RESOURCE_PREFERENCES` | Allows access to the preferences of resources. |
+| `ADMIN_UPDATE_RESOURCE_PREFERENCES` | Allows modifying the preferences of resources. |
+| `ADMIN_VIEW_RESOURCE_VEHICLETYPE` | Allows access to the vehicle types of resources. |
+| `ADMIN_UPDATE_RESOURCE_VEHICLETYPE` | Allows updating the vehicle type of resources. |
+| `ADMIN_ACTIVATE_RESSOURCE` | Allows activating human resources through Administration. |
+
+### Job
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_FUNCTION` | Allows displaying the resource types. |
+| `ADMIN_CREATE_FUNCTION` | Allows creating resource types. |
+| `ADMIN_UPDATE_FUNCTION` | Allows updating resource types. |
+| `ADMIN_DISABLE_FUNCTION` | Allows deactivating resource types. |
+| `ADMIN_VIEW_JOB` | Allows displaying the job types. |
+| `ADMIN_CREATE_JOB` | Allows creating jobs. |
+| `ADMIN_UPDATE_JOB` | Allows modifying jobs. |
+| `ADMIN_DISABLE_JOB` | Allows deactivating job types. |
+
+### Team
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_MANAGE_TEAM_MEMBERS` | Allows managing the composition of teams. |
+| `ADMIN_TEAM_LEADER` | Allows managing the team leader. |
+| `ADMIN_TEAM_PARENT` | Allows managing the parent team. |
+| `ADMIN_VIEW_TEAM` | Show the teams. |
+| `ADMIN_CREATE_TEAM` | Allows creating a team. |
+| `ADMIN_UPDATE_TEAM` | Allows updating a team. |
+| `ADMIN_DISABLE_TEAM` | Allows deactivating a team. |
+
+### Worksite
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_WORKSITE` | Allows access to the worksites. |
+| `ADMIN_CREATE_WORKSITE` | Allows creating a worksite. |
+| `ADMIN_UPDATE_WORKSITE` | Allows updating a worksite. |
+| `ADMIN_DISABLE_WORKSITE` | Allows deactivating a worksite. |
+
+### Domain
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_DOMAIN` | Allows access to the domains. |
+| `ADMIN_CREATE_DOMAIN` | Allows creating a domain. |
+| `ADMIN_UPDATE_DOMAIN` | Allows updating a domain. |
+| `ADMIN_DISABLE_DOMAIN` | Allows deactivating a domain. |
+
+### Subcontractor
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_SUBCONTRACTOR` | Allows displaying subcontractors. |
+| `ADMIN_CREATE_SUBCONTRACTOR` | Allows creating subcontractors. |
+| `ADMIN_UPDATE_SUBCONTRACTOR` | Allows updating subcontractors. |
+| `ADMIN_DISABLE_SUBCONTRACTOR` | Allows deactivating subcontractors. |
+
+### Supplies
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_SUPPLY` | Allows displaying supplies. |
+| `ADMIN_CREATE_SUPPLY` | Allows creating supplies. |
+| `ADMIN_UPDATE_SUPPLY` | Allows updating supplies. |
+| `ADMIN_DISABLE_SUPPLY` | Allows deactivating supplies. |
+| `ADMIN_VIEW_SUPPLY_PREFERENCES` | Allows displaying the supply preferences. |
+| `ADMIN_UPDATE_SUPPLY_PREFERENCES` | Allows updating the supply preferences. |
+
+### Area
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_AREA` | Allows access to the areas. |
+| `ADMIN_CREATE_AREA` | Allows creating an area. |
+| `ADMIN_UPDATE_AREA` | Allows updating an area. |
+| `ADMIN_DISABLE_AREA` | Allows deactivating an area. |
+| `ADMIN_ENABLE_DISABLE_AREA` | Activate or deactivate an area. |
+
+### Sector
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_SECTOR` | Allows access to the sectors. |
+| `ADMIN_CREATE_SECTOR` | Allows creating sectors. |
+| `ADMIN_UPDATE_SECTOR` | Allows updating sectors. |
+| `ADMIN_DISABLE_SECTOR` | Allows deactivating sectors. |
+
+### Unavailability type
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_UNAVAILABILITY_TYPE` | Allows access to the unavailability types. |
+| `ADMIN_CREATE_UNAVAILABILITY_TYPE` | Allows creating unavailability types. |
+| `ADMIN_UPDATE_UNAVAILABILITY_TYPE` | Allows updating unavailability types. |
+| `ADMIN_DISABLE_UNAVAILABILITY_TYPE` | Allows deactivating unavailability types. |
+| `ADMIN_VIEW_UNAVAILABILITYTYPE_PREFERENCES` | Allows viewing the unavailability type preferences. |
+| `ADMIN_UPDATE_UNAVAILABILITYTYPE_PREFERENCES` | Allows updating the unavailability type preferences. |
+
+### On-call template
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_DUTY_TYPE` | Allows displaying the on-call templates. |
+| `ADMIN_CREATE_DUTY_TYPE` | Allows creating on-call templates. |
+| `ADMIN_UPDATE_DUTY_TYPE` | Allows updating on-call templates. |
+| `ADMIN_DISABLE_DUTY_TYPE` | Allows deactivating on-call templates. |
+| `ADMIN_VIEW_DUTYWEEK_TYPE` | Allows displaying the on-call week templates. |
+| `ADMIN_CREATE_DUTYWEEK_TYPE` | Allows creating on-call week templates. |
+| `ADMIN_UPDATE_DUTYWEEK_TYPE` | Allows updating on-call week templates. |
+| `ADMIN_DISABLE_DUTYWEEK_TYPE` | Allows deactivating on-call week templates. |
+
+### Product
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_PRODUCT` | Allows displaying products. |
+| `ADMIN_CREATE_PRODUCT` | Allows creating products. |
+| `ADMIN_UPDATE_PRODUCT` | Allows updating products. |
+| `ADMIN_DISABLE_PRODUCT` | Allows deactivating products. |
+| `ADMIN_VIEW_PRODUCT_PREFERENCES` | Allows viewing the product preferences. |
+| `ADMIN_UPDATE_PRODUCT_PREFERENCES` | Allows updating the product preferences. |
+
+### Product family
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_PRODUCT_FAMILY` | Allows displaying product families. |
+| `ADMIN_CREATE_PRODUCT_FAMILY` | Allows creating product families. |
+| `ADMIN_UPDATE_PRODUCT_FAMILY` | Allows updating product families. |
+| `ADMIN_DISABLE_PRODUCT_FAMILY` | Allows deactivating product families. |
+
+### Vehicle
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_VEHICLE` | Allows displaying vehicles. |
+| `ADMIN_CREATE_VEHICLE` | Allows creating vehicles. |
+| `ADMIN_UPDATE_VEHICLE` | Allows updating vehicles. |
+| `ADMIN_DISABLE_VEHICLE` | Allows deactivating vehicles. |
+
+### Tracking device
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_TRACKINGDEVICE` | Allows displaying tracking devices. |
+| `ADMIN_CREATE_TRACKINGDEVICE` | Allows creating tracking devices. |
+| `ADMIN_UPDATE_TRACKINGDEVICE` | Allows updating tracking devices. |
+| `ADMIN_DISABLE_TRACKINGDEVICE` | Allows deactivating tracking devices. |
+
+### Vehicle assignment to human resources
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_HR_VEHICLE_ASSIGNMENT` | Allows displaying the assignments of vehicles to resources. |
+| `ADMIN_CREATE_HR_VEHICLE_ASSIGNMENT` | Allows creating assignments of vehicles to resources. |
+| `ADMIN_UPDATE_HR_VEHICLE_ASSIGNMENT` | Allows updating assignments of vehicles to resources. |
+| `ADMIN_DISABLE_HR_VEHICLE_ASSIGNMENT` | Allows unassigning vehicles from resources. |
+| `ADMIN_SWAP_HR_VEHICLE_ASSIGNMENT` | Allows swapping the assignments of vehicles to resources. |
+
+### Skill
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_QUALIFICATION` | Allows displaying skills. |
+| `ADMIN_CREATE_QUALIFICATION` | Allows creating skills. |
+| `ADMIN_UPDATE_QUALIFICATION` | Allows updating skills. |
+| `ADMIN_DISABLE_QUALIFICATION` | Allows deactivating skills. |
+
+### Authorization
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_AUTHORIZATION` | Allows access to the authorizations. |
+| `ADMIN_CREATE_AUTHORIZATION` | Allows creating authorizations. |
+| `ADMIN_UPDATE_AUTHORIZATION` | Allows updating authorizations. |
+| `ADMIN_DISABLE_AUTHORIZATION` | Allows deactivating authorizations. |
+
+### Task type
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_TASK_TYPE_GROUP` | Allows access to the task type groups. |
+| `ADMIN_CREATE_TASK_TYPE_GROUP` | Allows creating task type groups. |
+| `ADMIN_UPDATE_TASK_TYPE_GROUP` | Allows updating task type groups. |
+| `ADMIN_DISABLE_TASK_TYPE_GROUP` | Allows deactivating task type groups. |
+| `ADMIN_VIEW_TASKTYPE` | Allows displaying the task types and their groups. |
+| `ADMIN_CREATE_TASKTYPE` | Allows creating task types. |
+| `ADMIN_UPDATE_TASKTYPE` | Allows updating task types. |
+| `ADMIN_DISABLE_TASKTYPE` | Allows deactivating task types. |
+| `ADMIN_VIEW_TASKTYPE_DETAIL` | Allows access to the task type details. |
+| `ADMIN_CREATE_TASKTYPE_DETAIL` | Allows creating task type details. |
+| `ADMIN_UPDATE_TASKTYPE_DETAIL` | Allows updating task type details. |
+| `ADMIN_DISABLE_TASKTYPE_DETAIL` | Allows deactivating task type details. |
+
+### Objective
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_OBJECTIVE` | Allows access to the objectives. |
+| `ADMIN_CREATE_OBJECTIVE` | Allows creating objectives. |
+| `ADMIN_UPDATE_OBJECTIVE` | Allows updating objectives. |
+| `ADMIN_DISABLE_OBJECTIVE` | Allows deactivating objectives. |
+
+### Activity tracking
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_COMPLETION_TYPE` | Allows access to the fulfilment statuses. |
+| `ADMIN_CREATE_COMPLETION_TYPE` | Allows creating fulfilment statuses. |
+| `ADMIN_UPDATE_COMPLETION_TYPE` | Allows updating fulfilment statuses. |
+| `ADMIN_DISABLE_COMPLETION_TYPE` | Allows deactivating fulfilment statuses. |
+| `ADMIN_VIEW_TO_DO_NEXT_TYPE` | Allows access to the follow-up action types. |
+| `ADMIN_CREATE_TO_DO_NEXT_TYPE` | Allows creating follow-up action types. |
+| `ADMIN_UPDATE_TO_DO_NEXT_TYPE` | Allows updating follow-up action types. |
+| `ADMIN_DISABLE_TO_DO_NEXT_TYPE` | Allows deactivating follow-up action types. |
+
+### Calendar
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_OFFDAY_CALENDAR` | Allows displaying the public holiday calendars. |
+| `ADMIN_CREATE_OFFDAY_CALENDAR` | Allows creating public holidays. |
+| `ADMIN_UPDATE_OFFDAY_CALENDAR` | Allows updating public holidays. |
+| `ADMIN_DISABLE_OFFDAY_CALENDAR` | Allows deactivating public holidays. |
+| `ADMIN_VIEW_WORKEDDAYTYPE_CALENDAR` | Allows displaying the calendar of day templates. |
+| `ADMIN_CREATE_WORKEDDAYTYPE_CALENDAR` | Allows creating standard days. |
+| `ADMIN_UPDATE_WORKEDDAYTYPE_CALENDAR` | Allows updating standard days. |
+| `ADMIN_DISABLE_WORKEDDAYTYPE_CALENDAR` | Allows deactivating standard days. |
+| `ADMIN_VIEW_WORKEDWEEKTYPE_CALENDAR` | Allows displaying the calendar of week templates. |
+| `ADMIN_CREATE_WORKEDWEEKTYPE_CALENDAR` | Allows creating standard weeks. |
+| `ADMIN_UPDATE_WORKEDWEEKTYPE_CALENDAR` | Allows updating standard weeks. |
+| `ADMIN_DISABLE_WORKEDWEEKTYPE_CALENDAR` | Allows deactivating standard weeks. |
+| `ADMIN_VIEW_SELLING_PERIOD` | Allows access to the selling periods. |
+| `ADMIN_CREATE_SELLING_PERIOD` | Allows creating selling periods. |
+| `ADMIN_UPDATE_SELLING_PERIOD` | Allows updating selling periods. |
+| `ADMIN_DISABLE_SELLING_PERIOD` | Allows deactivating selling periods. |
+
+### Configuration
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_CUSTOMIZATION` | Access customization. |
+| `ADMIN_XMLFILE_PARAMDEF` | Allows access to importing and exporting the configuration XML file. |
+| `ADMIN_XMLFILE_REFERENTIAL` | Allows access to importing the reference data XML files. |
+| `ADMIN_XMLFILE_APPT` | Allows access to importing the XML files that create, modify and delete appointments. |
+| `ADMIN_XMLFILE_LOG` | Change the logging level. |
+| `ADMIN_SYSTEM_INFO` | Allows managing the system information. |
+| `ADMIN_PROPERTIES_UPDATE` | Allows updating the properties of resources. |
+| `ADMIN_LOGOS_UPDATE` | Allows updating the logos. |
+
+### Optimization
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_OPTIMIZATION_SERVICE` | Access to the optimization service. |
+| `ADMIN_UPDATE_OPTIMIZATION_SERVICE` | Update, stop and start the optimization service. |
+| `ADMIN_START_OPTIM_DURING_VALIDITY_PERIOD` | Start a manual optimization during its validity period. |
+| `ADMIN_START_OPTIMIZATION_AT_ANY_TIME` | Start a manual optimization at any time. |
+| `ADMIN_STOP_AUTOMATIC_OPTIMIZATION` | Stop an automatic optimization. |
+| `ADMIN_STOP_MANUAL_OPTIMIZATION` | Stop a manual optimization. |
+| `ADMIN_OPTIM_PARAM` | Access to the page for modifying the optimization parameters. |
+| `ADMIN_MANAGE_OPTIMIZATION_ON_IDLE` | Allows managing continuous optimization. |
+| `ADMIN_MANAGE_PLANNING_FILLER_EMERGENCY` | Allows managing the emergency filling of the planning. |
+
+### Technical exchanges
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_EXPORT_TOMTOM_OV2_POI` | Allows access to exporting POIs (ov2) to TomTom. |
+| `ADMIN_IMPORT_CSV` | Access to the CSV import. |
+| `ADMIN_EXPORT_CSV` | Access to the CSV export. |
+| `ADMIN_EXTERN_APPLI` | Allows access to the OTGS API documentation pages. |
+| `ADMIN_EXTERN_APPLI_TESTMODE` | Allows testing the OTGS API. |
+
+### Exceptional location type
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_EXCEPTLOCATION_TYPE` | Allows displaying the exceptional location types. |
+| `ADMIN_CREATE_EXCEPTLOCATION_TYPE` | Allows creating exceptional location types. |
+| `ADMIN_UPDATE_EXCEPTLOCATION_TYPE` | Allows updating exceptional location types. |
+| `ADMIN_DISABLE_EXCEPTLOCATION_TYPE` | Allows deactivating exceptional location types. |
+
+### Typology
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_VIEW_TYPOLOGY` | Allows displaying typologies. |
+| `ADMIN_CREATE_TYPOLOGY` | Allows creating typologies. |
+| `ADMIN_UPDATE_TYPOLOGY` | Allows updating typologies. |
+| `ADMIN_DISABLE_TYPOLOGY` | Allows deactivating typologies. |
+
+### Other
+
+| Right | Description |
+| --- | --- |
+| `ADMIN_UPDATE_LICENSE` | Allows updating the application license. |
+| `ADMIN_SHOW_SQL_TOOL` | Allows viewing the SQL queries page. |
+| `ADMIN_CAN_DEFINE_COLOR` | Allows updating the colors. |
+| `ADMIN_DELETE_DOCUMENTS` | Allows deleting documents. |
+| `ADMIN_ADD_DOCUMENTS` | Allows adding documents. |
+| `ADMIN_CAN_DEFINE_ENTITYCOLOR` | Allows updating the colors of entities. |
+
+## Documentation
+
+### Scope
+
+| Right | Description |
+| --- | --- |
+| `DOC_GUEST` | Access to the Documentation module. |

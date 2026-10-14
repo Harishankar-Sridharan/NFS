@@ -1,22 +1,28 @@
 # Control Panel - Interventions
 
-### Role
+## Overview
 
-This page shows a summary table of different interventions [configured](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html) previously.
+This page shows a summary table of the different interventions configured previously.
 
-### Application
+## Prerequisites
 
-The table of interventions is divided up into five parts.
+Configure the control panel first. See [Control Panel - Configure](controlpanelconfigure.md).
 
-Interventions control panel
+## Sections of the table
 
-![](../.gitbook/assets/interventions.png)
+The interventions table is divided into five sections.
 
-Click on Configure (1) to switch to the preceding [configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html) step.
+![Interventions control panel](../.gitbook/assets/interventions.png)
 
-Section (2) summarises the series of parameters specified in the [configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html) step.
+1. **Configure** – click it to return to the previous configuration step. See [Control Panel - Configure](controlpanelconfigure.md).
+2. A summary of the parameters specified in the configuration step. See [Control Panel - Configure](controlpanelconfigure.md).
+3. The interventions table, in the right-hand part of the screen.
+4. The display and detail selectors, which let you browse interventions according to several criteria.
+5. The hierarchical tree of resources.
 
-The table in section **(3)** displays all interventions selected during the configuration, including **appointments** and **unavailabilities**, along with the selected time-related options, such as **journey time** and **free time**.
+### Interventions table (3)
+
+The table displays all interventions selected during the configuration, including **appointments** and **unavailabilities**, along with the selected time-related options, such as **journey time** and **free time**.
 
 For each item, the table displays:
 
@@ -31,33 +37,36 @@ The combined percentages of appointments and unavailabilities add up to **100%**
 * Time spent travelling to **fulfilled appointments**.
 * Expected journey time for **confirmed appointments** that are yet to be fulfilled.
 
-Journey time is displayed in hours and minutes and is calculated based on the distance travelled using the road network.
+Journey time is displayed in hours and minutes and is calculated from the distance travelled on the road network.
 
 **Free time** is added to complete the overall time distribution to **100%**.
 
-The item labelled (4) allows the user to browse interventions according to several criteria, and to choose whether to look at the detail or not. Select first the type of display required:
+Sometimes explicit alert messages complete the table to inform you of a situation.
 
-* **Activity type** will enable retrieval of indicators for all intervention types making up an activity type;
-* **Intervention type** returns indicators on each type of intervention;
-* **Status** provides indicators as a function of the appointment’s status;
-* **Resource** returns indicators on each resource from the same platform;
-* **Resource type** allows you to obtain indicators by role type.
+### Display and detail (4)
 
-Next, you can display statistical indicators for each type of display. To obtain detailed indicators, it will be necesssary to check the **Detail by** check-box, and then select the type of detail required:
+1. Select the type of display you want:
+   * **Activity type** retrieves indicators for all the intervention types that make up an activity type.
+   * **Intervention type** returns indicators on each type of intervention.
+   * **Status** returns indicators according to the appointment's status.
+   * **Resource** returns indicators on each resource from the same platform.
+   * **Resource type** returns indicators by role type.
+2. To obtain detailed indicators, select the **Detail by** check box, and then select the type of detail you want:
+   * **Activity type** works only with the display by **Status**, **Resource** or **Resource type**.
+   * **Task type** works with all displays, except **Task type**.
+   * **Status** works with all displays, except **Status**.
+   * **Resource** works with all displays, except **Resource**.
+   * **Resource type** works with the display by **Activity type**, **Task type** or **Status**.
+3. Click the ![Refresh button](../.gitbook/assets/recyclage.png) button to update the table (3).
 
-* **Activity type** only functions with the display by **Status** or **Resource** or **Resource type**;
-* **Task type** functions with all displays, except **Task type**;
-* **Status** functions with all displays except **Status**;
-* **Resource** functions with all displays except **Resource**;
-* **Resource type** functions with the display by **Activity type**, **Task type**, or **Status**.
+<!-- REVIEW: the display list says "Intervention type" but the detail list says "Task type"; the terms may refer to the same item - kept as in source -->
 
-Click on the ![images/ref/buttons/recyclage.png](../.gitbook/assets/recyclage.png) button to update the table (3).
+### Hierarchical tree
 
-The hierarchical tree presents all the resources form the reference area, organised by team. Clicking on each «entity», it is possible to update the corresponding table (3). This hierarchical tree rolls out and rolls up.
+The hierarchical tree shows all the resources of the reference area, organized by team. Click an entity to update the corresponding table (3). Expand or collapse the tree as required.
 
-Sometimes, explicit alert messages can complete the table to inform the supervisor of a situation.
+## Notes, tips and limitations
 
-|                                                                                                              |     |
-| ------------------------------------------------------------------------------------------------------------ | --- |
-| \[Tip]                                                                                                       | Tip |
-| The time spent corresponds to the number of hours and minutes worked in addition to the legal working hours. |     |
+{% hint style="info" %}
+The time spent corresponds to the number of hours and minutes worked in addition to the legal working hours.
+{% endhint %}

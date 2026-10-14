@@ -1,66 +1,69 @@
 # Home Page
 
-NFS supervisor module is accessed by clicking on the Supervisor tab in the blue toolbar at the top of the screen, or directly by entering the application if the [user profile](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-utilisateur) is configured to open Opti-Time on this module.
+## Overview
 
-|                                                                                                                                                                                                                               |      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                       | Note |
-| You will need to be connected using a profile that has access to the supervisor role (see the chapter [Users](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html)). |      |
+Open the Supervisor module in one of two ways:
 
-Supervisor home page:
+* Click the **Supervisor** tab in the blue toolbar at the top of the screen.
+* Enter the application directly, if your user profile is configured to open NFS on this module. See [Company Data](../administration/companydata.md).
 
-![](../.gitbook/assets/accueil-superviseur.png)
+## Prerequisites
 
-The Supervisor home page contains a menu (situated at the left of the screen) and a table (situated on the right of the screen).
+{% hint style="info" %}
+You must be connected with a profile that has access to the Supervisor role. See [User Handling](../administration/userhandling.md).
+{% endhint %}
+
+## Supervisor home page
+
+The Supervisor home page contains a menu on the left of the screen and a table on the right.
+
+![Supervisor home page](../.gitbook/assets/accueil-superviseur.png)
 
 ### Menu
 
-The Supervisor module menu comprises two parts:
+The Supervisor module menu has two parts:
 
-* The [Control panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/TDB.html) section: this section displays statistical summaries concerning appointments and unavailabilities, enabling tracking and steering of the mobile work force’s activities.
-* The [Analyses](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/distancier.html) section: this section generates reports and indicators on appointments completed, and on the sectorisation performed.
+* The **Control panel** section displays statistical summaries about appointments and unavailabilities, so that you can track and steer the activities of the mobile workforce. See [Control Panel](controlpanel.md).
+* The **Analyses** section generates reports and indicators on completed appointments and on the sectorization performed. See [Analyses - Customer Distance Matrix](analyses-customerdistancematrix.md).
 
-|                                                                                                                                                                                               |     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                        | Tip |
-| The reports contained in the "Control panel" section must be [configured](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html) beforehand. |     |
+{% hint style="info" %}
+You must configure the reports in the **Control panel** section beforehand. See [Control Panel - Configure](controlpanelconfigure.md).
+{% endhint %}
 
 The menu contains the following items:
 
-* [**Supervisor home page**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html)
-* [**Journal**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/journal.html)
+* **Supervisor home page**
+* **Journal**: [Journal](journal.md)
 * **Control panel**
-  * [Configure](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/config.html)
-  * [Interventions](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intervention.html)
-  * [Scheduling summary by day](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/resume-jour.html)
-  * [Scheduling summary by week](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/resume-semaine.html)
-  * [Availabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/dispo.html)
-  * [Appointment taking Quantity](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/rdv-quantite.html)
-  * [Appointment taking Quality](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/rdv-qualite.html)
-  * [Targets](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/objectif.html)
+  * **Configure**: [Control Panel - Configure](controlpanelconfigure.md)
+  * **Interventions**: [Control Panel - Interventions](controlpanelinterventions.md)
+  * **Scheduling summary by day**: [Control Panel - Scheduling Summary by Day](controlpanelschedulingsummarybyday.md)
+  * **Scheduling summary by week**: [Control Panel - Scheduling Summary by Week](controlpanelschedulingsummarybyweek.md)
+  * **Availabilities**: [Control Panel - Availabilities](controlpanelavailabilities.md)
+  * **Appointment taking Quantity**: [Control Panel - Appointment Taking Quantity](controlpanelappointmenttakingquantity.md)
+  * **Appointment taking Quality**: [Control Panel - Appointment Taking Quality](controlpanel-appointmenttakingquality.md)
+  * **Targets**: [Control Panel - Targets](controlpanel-targets.md)
 * **Analyses**
-  * [Customer distance matrix](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/distancier.html)
-  * [Customer center of gravity matrix](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html)
-  * [Unavailabilities global planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/supervision-accueil.html)
-  * [Scheduling compliance](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/conformite.html)
-  * [Overtimes](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/heures-sup.html)
+  * **Customer distance matrix**: [Analyses - Customer Distance Matrix](analyses-customerdistancematrix.md)
+  * **Customer center of gravity matrix**: [Analyses - Customer Center of Gravity Matrix](analyses-customercentreofgravitymatrix.md)
+  * **Unavailabilities global planning**: [Analyses - Unavailabilities Global Planning](analyses-unavailabilitiesglobalplanning.md)
+  * **Scheduling compliance**: [Analyses - Scheduling Compliance](analyses-schedulingcompliance.md)
+  * **Overtimes**: [Analyses - Overtimes](analysesovertimes.md)
+
+{% hint style="info" %}
+To return to the Supervisor home page at any time, click the **Supervisor home page** link in the menu on the left of the screen.
+{% endhint %}
 
 ### Table
 
-The right-hand section **Track past and future appointments** provides a weekly summary of the different appointments for the area.
+The **Track past and future appointments** section on the right shows a weekly summary of the different appointments for the area.
 
-By default, the table indicates the quantity of candidate, planned, fulfilled or cancelled appointments (cf. [Appointment statuses](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts)) in each type of intervention: however all these are entirely [configurable](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli).
+By default, the table shows the number of candidate, planned, fulfilled and cancelled appointments for each type of intervention. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md). All of this is configurable (see [Customization](../administration/customization.md)).
 
-By default, the table displays the number of appointments in the current week, for the 4 previous, and the 4 subsequent weeks.
+By default, the table shows the number of appointments in the current week, the 4 previous weeks and the 4 following weeks.
 
-At the extreme right of the table, a **Cumulated** column allows you to display the number of appointments, for all the intervention types taken together.
+The **Cumulated** column at the far right of the table shows the number of appointments for all intervention types taken together.
 
-|                                                                                                                                                              |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| \[Tip]                                                                                                                                                       | Tip |
-| The appointment statuses displayed, as well as the weeks corresponding to the lines on the table are all configurable. Contact your Opti-Time administrator. |     |
-
-|                                                                                                                                                     |      |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                             | Note |
-| You can return at any time to the Supervisor home page by clicking on the Supervisor home page link situated in the menu on the left of the screen. |      |
+{% hint style="info" %}
+The appointment statuses displayed and the weeks that correspond to the rows of the table are configurable. Contact your NFS administrator.
+{% endhint %}

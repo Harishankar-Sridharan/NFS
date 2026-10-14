@@ -1,128 +1,122 @@
 # Journal
 
-Depending on the [rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) granted to the user, the journal allows you to consult the history of actions taken relating to human resources, appointments, unavailabilities, customers, on-call duties, jobs, worked days and agenda markers.
+## Overview
 
-An entry in the journal corresponds to an **action** performed by à user (**resource taking**) on an **object** (see the list above) assigned as required to an **executive resource**.
+Depending on the rights granted to you (see [User Handling](../administration/userhandling.md)), the journal lets you consult the history of actions taken on human resources, appointments, unavailabilities, customers, on-call duties, jobs, worked days and agenda markers.
 
-A first filter page allows you to target the data to display according to criteria : action, taking resource, object characteristics, customer and executive resource.
+An entry in the journal corresponds to an **action** performed by a user (**taking resource**) on an **object** (human resource, appointment, unavailability, customer, on-call duty, job, worked day or agenda marker) that is assigned, as required, to an **executive resource**.
 
-Next, the list of filtered entries displays, enabling viewing of the modifications made to a given object.
+You work in two steps:
 
-### Journal home page
+1. A first filter page lets you target the data to display by action, taking resource, object characteristics, customer and executive resource.
+2. The list of filtered entries then displays, so that you can view the modifications made to a given object.
 
-Access to the journal home page is via a click on the Journal in the Supervisor module menu.
+## Filter the journal
 
-Configuring the journal
+Click **Journal** in the Supervisor module menu to open the journal home page.
 
-![](../.gitbook/assets/journal-config.png)
+![Journal filter page](../.gitbook/assets/journal-config.png)
 
-Filters are divided into 5 sections.
+The filters are divided into five sections.
 
-#### Choice of company data type
+### Choice of company data type
 
-This is the type of action performed by an Opti-Time user that has resulted in changes being made to an appointment, an unavailability, etc … or that has resulted in changes being applied to all these objects types.
+This is the type of action performed by an NFS user that resulted in changes to an appointment, an unavailability and so on, or in changes applied to all these object types.
 
-An appointment can have the following statuses:
+For appointments, the following values are available:
 
-* _All_: displays all actions
-* _Appointment planned:_ action of confirming an appointment (manual or automated)
-* _Appointment unplanned_: the action of unplanning an appointment (manual or automated)
-* _Appointment unplanned by an appointment_: appointment that has been reactivated or suspended following the registering of another appointment
-* _Appointment unplanned by an unavailability_: appointment having been re-activated or suspended following the registering of an unavailability
-* _Appointment accepted_
-* _Reservation of planned appointment_
-* _Confirmation of planned appointment_
-* _Appointment withdrawn_
-* _Appointment cancellation_: action of cancelling an appointment (manual or by batch)
-* _Appointment cancelled by the client:_ action of cancelling an appointment by the client
-* _Appointment cancelled by the company_: action of cancelling an appointment by the Opti-Time user
-* _Appointment ignored_
-* _Appointment completed as planned_
-* _Appointment completed out of planning_;
-* _Unplanned appointment completion_.
+* **All** – displays all actions.
+* **Appointment planned** – the action of confirming an appointment (manual or automated).
+* **Appointment unplanned** – the action of unplanning an appointment (manual or automated).
+* **Appointment unplanned by an appointment** – an appointment that has been reactivated or suspended following the registration of another appointment.
+* **Appointment unplanned by an unavailability** – an appointment that has been reactivated or suspended following the registration of an unavailability.
+* **Appointment accepted**
+* **Reservation of planned appointment**
+* **Confirmation of planned appointment**
+* **Appointment withdrawn**
+* **Appointment cancellation** – the action of cancelling an appointment (manual or by batch).
+* **Appointment cancelled by the client** – the action of cancelling an appointment by the customer.
+* **Appointment cancelled by the company** – the action of cancelling an appointment by the NFS user.
+* **Appointment ignored**
+* **Appointment completed as planned**
+* **Appointment completed out of planning**
+* **Unplanned appointment completion**
 
-Other objects (unavailabilities, restrictions or constraints etc) the possible statuses are as follows:
+<!-- REVIEW: source calls these values "statuses", but they describe actions and some labels differ from the status names in "The different statuses for appointments in NFS"; kept as in source -->
 
-* _All_: displays all actions
-* _Object creation_: the action of creating an object
-* _Object deletion_: the action of deleting an object
+For other objects (unavailabilities, restrictions, constraints and so on), the following values are available:
 
-#### Human resource
+* **All** – displays all actions.
+* **Object creation** – the action of creating an object.
+* **Object deletion** – the action of deleting an object.
 
-You can filter on the **taking resources** (Opti-Time users) as well as on the **executive resources** (workers or technicians) by checking the corresponding check-boxes.
+### Human resource
 
-|                                                                                                                                                                                                                      |      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                              | Note |
-| While all actions can be linked to one user (planning, modification, etc), the actions do not all relate to one resource (for example, modification of an appointment requested where there is no resource request). |      |
+Select the corresponding check boxes to filter on the **taking resources** (NFS users) and on the **executive resources** (workers or technicians).
 
-For a resource (taking or executing) several filters are available:
+{% hint style="info" %}
+All actions can be linked to one user (planning, modification and so on), but not all actions relate to a resource. An example is the modification of a requested appointment where no resource is requested.
+{% endhint %}
 
-* **Mobile** or **Non-mobile**: allows you to filter defined resources as mobile or non-mobile in the [resource form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-info);
-* **a person**: allows you to designate the person or persons (using the CTRL or SHIFT keys) concerned (executing or taking);
-* **a team**: allows you to select all resources belonging to a given team;
-* **a worksite**: allows you to select all resources belonging to a given work site;
-* **by area**: allows you to select all resources belonging to a given area.
+For a resource (taking or executing), several filters are available:
 
-|                                                                                                                                                                                                                           |      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                   | Note |
-| To ensure that selection by area, team or person functions, the resources must be associated to a [team](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#equipe). |      |
+* **Mobile** or **Non-mobile** – filters the resources defined as mobile or non-mobile in the resource form. See [Company Data](../administration/companydata.md).
+* **A person** – designates the person or persons concerned (executing or taking). To select several, hold **Ctrl** or **Shift**.
+* **A team** – selects all resources that belong to a given team.
+* **A worksite** – selects all resources that belong to a given worksite.
+* **By area** – selects all resources that belong to a given area.
 
-#### Enter a customer
+{% hint style="info" %}
+For the selection by area, team or person to work, the resources must be associated with a team. See [Company Data](../administration/companydata.md).
+{% endhint %}
 
-* **Name of the customer**: corresponds to the business name as registered on the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/journal.html);
-* **Contact name**: corresponds to the name of the main contact for this customer;
-* **Reference**: corresponds to the customer’s [external reference](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html#Extref).
+### Enter a customer
 
-#### Enter an identifier
+* **Name of the customer** – the business name as registered on the customer form.
+* **Contact name** – the name of the main contact for this customer.
+* **Reference** – the customer's external reference. See [Glossary](../Glossary.md).
 
-* **External**: [external reference](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html#Extref) of the modified object;
-* **Internal**: internal reference of the modified object.
+### Enter an identifier
 
-#### Choice of the period
+* **External** – the external reference of the modified object. See [Glossary](../Glossary.md).
+* **Internal** – the internal reference of the modified object.
 
-The choice of the date is made by clicking on the calendars.
+### Choice of the period
 
-* **From the**: corresponds to the earliest date in the search period;
-* **To the**: corresponds to the latest date of the search period;
-* **Limit the display to the X last actions** allows you to display only the X last results returned.
+Click the calendars to choose the dates.
 
-#### Validation
+* **From the** – the earliest date of the search period.
+* **To the** – the latest date of the search period.
+* **Limit the display to the X last actions** – displays only the last X results returned.
 
-The Validate button calculates and displays a table corresponding to the different configured criteria.
+### Validation
 
-### Result of the search
+Click **Validate** to calculate and display a table that corresponds to the configured criteria.
 
-Result of the search
+## Search result
 
-![](../.gitbook/assets/journal-list.png)
+![Journal search result](../.gitbook/assets/journal-list.png)
 
-The results are displayed in inverse chronological order.
+The results are displayed in reverse chronological order.
 
-The fields displayed are the following:
+The following fields are displayed:
 
-* **Type**: the type of object concerned;
-* **Identifier**: internal identifier for the object;
-* **Date and time of the modification**: date and time of the action that led to the modification of the object;
-* **Author**: user responsible for the modification;
-* **Action**: an action that led to the modification being made (for example: an appointment request).
+* **Type** – the type of object concerned.
+* **Identifier** – the internal identifier of the object.
+* **Date and time of the modification** – the date and time of the action that led to the modification of the object.
+* **Author** – the user responsible for the modification.
+* **Action** – the action that led to the modification (for example, an appointment request).
 
-### Visualisation of the action
+## View the details of an action
 
-Clicking on a line of the [search result](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/journal.html#journal-resultat), you gain access to the various associated items of information.
+1. Click a line of the search result to open the associated information.
 
-Display of information items associated to a journal event
+   ![Information associated with a journal event](../.gitbook/assets/journal-log.png)
 
-![](../.gitbook/assets/journal-log.png)
+   The table displays the data associated with the event under the heading "New data". The old values are displayed only when the status of an event changes, such as when a planned appointment is fulfilled or an unavailability is cancelled. The table also shows the user who modified the event and the **date and time** of the modification.
 
-This table displays data associated to the event under a heading of "New data".\
-The "Old The **Data** column is populated only when the status of an event changes, such as when a planned appointment is fulfilled or an unavailability is cancelled.
+   <!-- REVIEW: source sentence about the "Old data" column is garbled ('The "Old The Data column is populated only when...'); column name unclear -->
+2. Click **See full appointment history** to view the complete history and lifecycle of the appointment.
 
-The table displays the user who modified the event, along with the **date and time** of the modification.
-
-Click **See full appointment history** to view the complete history and lifecycle of the appointment.
-
-![](../.gitbook/assets/journal-histo.png)
-
-Click on the ![images/ref/buttons/bouton-retour.png](../.gitbook/assets/bouton-retour.png) button to display the previous step, that is, the journal calculated as a function of selected parameters.
+   ![Full history of an appointment](../.gitbook/assets/journal-histo.png)
+3. Click the ![Back button](../.gitbook/assets/bouton-retour.png) button to return to the previous step, that is, the journal calculated from the selected parameters.

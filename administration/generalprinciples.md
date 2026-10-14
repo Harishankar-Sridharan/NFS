@@ -1,128 +1,121 @@
 # General Principles
 
+## Overview
+
 Administration module data are presented in the same way:
 
-* A [home page](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste) enabling access to records and to functions;
-* A [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) containing the information relating to the data currently being viewed.
+* A home page gives access to records and functions.
+* A form contains the information relating to the data item you are viewing.
 
-|                                                                                                                                                                                                                                           |      |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                                   | Note |
-| Access to data, and actions that can be applied in the form of a data item are subject to [utilisation rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits). |      |
+{% hint style="info" %}
+Access to data, and the actions you can apply in the form of a data item, depend on your access rights. See [User Handling](userhandling.md).
+{% endhint %}
 
-### Data home page
+## Data home page
 
-The Data home page contains the list of records present in the database.
+The data home page contains the list of records present in the database.
 
-The data presented in the list correspond to fields in the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) for the data. The definition of these fields is therefore given in the **form** part of the corresponding documentation.
+The data in the list correspond to fields in the data item form. The definition of these fields is therefore given in the **form** part of the corresponding topic.
 
-The list may contain a header that can be used to restrict its display:
+The list can contain a header that you use to restrict its display. For example, filtering on teams:
 
-For example: Filtering on teams
+![Filtering the list on teams](../.gitbook/assets/equipe.png)
 
-![](../.gitbook/assets/equipe.png)
+In some cases, a preliminary search screen shows different filters that restrict the list display. For example, searching for human resources:
 
-In some cases, a preliminary search screen will display showing different filters serving to restrict the list display.
+![Search screen for human resources](../.gitbook/assets/RH-recherche.png)
 
-For example: Search for human resources
+The ![Search button](../.gitbook/assets/bouton-recherche.png) button opens the list of filtered data.
 
-![](../.gitbook/assets/RH-recherche.png)
+From this list, you can:
 
-The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) button provides access to the list of filtered data.
+* create a new data item
+* consult or modify an existing data item
+* delete or deactivate a data item
 
-From this list, it will be possible to:
+## Data form
 
-* [create a new data item](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#creation)
-* [consult or modify an existing data item](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#modification)
-* [delete or deactivate a data item](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression)
+The form contains the saved information associated with the data item.
 
-### Data form
+At the top of the screen, the record you are editing is displayed. In the example below, the type of role is "Controller".
 
-The form contains saved information associated to the data item.
+For example: modifying a type of post.
 
-At the top of the screen, the record currently being edited displays. In the example below, the type of role is that of "Controller".
+{% hint style="warning" %}
+Mandatory fields are indicated by a star.
+{% endhint %}
 
-For example: Modifying a type of post
+To save a data item, click the ![Save button](../.gitbook/assets/bouton-sauvegarder.png) button at the bottom of the form.
 
-|                                           |         |
-| ----------------------------------------- | ------- |
-| \[Warning]                                | Warning |
-| Mandatory fields are indicated by a star. |         |
+{% hint style="warning" %}
+When you save a data item, a unique identifier is created automatically. It cannot be modified afterwards. Only the external identifier can be modified via the interface.
+{% endhint %}
 
-To save a data item, click on the ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder.png) button at the bottom of the form.
+From the data item form, you can:
 
-|                                                                                                                                                                                    |         |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                         | Warning |
-| Saving: When saving a data item, a unique identifier is automatically created. It cannot be modified subsequently. Only the external identifier can be modified via the interface. |         |
+* delete or deactivate the data item (see [De-activating / deleting a data item](#de-activating--deleting-a-data-item))
+* duplicate the data item (see [Duplicating a data item](#duplicating-a-data-item))
 
-From the data item form, the user can:
+## Create a new data item
 
-* [delete or deactivate a data item](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#suppression)
-* [duplicate a data item](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#duplication)
+At the bottom of the data list, click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to enter a new data item. The application displays a blank creation form.
 
-### Create a new data item
+For example: creating a new team.
 
-At the bottom of the [data listing](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste), a ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button allows you to enter a new data item. The application returns a blank [creation form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche).
+![Creation form for a new team](../.gitbook/assets/equipe-creer.png)
 
-For example: Creation of a new team
+## Consult or edit an existing data item
 
-![](../.gitbook/assets/equipe-creer.png)
+Click a line in the data list to open the form of the corresponding data item. You can then edit it.
 
-### Consult or edit an existing data item
+When you create or consult a data item whose form has several tabs, the first tab of the form is displayed.
 
-Click on a line in the [data listing](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste), and it can be edited. The user can then access the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) of the corresponding data item.
+## Adding data
 
-When creating / consulting a data item for which the forms comprise several tabs, the user is returned to the first tab in the form.
+Some data items require you to add extra fields. For example, you can add extra intervention sectors to the resource's existing sectors of affiliation.
 
-### Adding data
+1. Fill in the complementary data required.
+2. Click **Add**.
 
-Some data items will require you to add extra fields. For example, where you need to add extra intervention sectors to the resource’s existing sectors of affiliation.
+For example: adding a secondary intervention sector.
 
-In this case, the addition is made by clicking on the Add button, having first filled in the complementary data required:
+![Adding a secondary intervention sector to a human resource](../.gitbook/assets/RH-secteurs-1.png)
 
-For example: Adding a secondary intervention sector
+## Duplicating a data item
 
-![](../.gitbook/assets/RH-secteurs-1.png)
+In certain cases, you can duplicate a data item.
 
-### Duplicating a data item
+1. In the form of the data item, click **Duplicate**.
+2. Click ![Save button](../.gitbook/assets/bouton-sauvegarder.png) to save the new data item.
 
-In certain cases, it will be possible to duplicate a data item. To do this, click on Duplicate from the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) of the data item, and then save the new data item by clicking on ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder.png).
+For example: duplicating a planning server.
 
-For example: Duplicating a planning server
+![Duplicating a planning server](../.gitbook/assets/optim-planif-serveur-modif.png)
 
-![](../.gitbook/assets/optim-planif-serveur-modif.png)
+{% hint style="warning" %}
+Give the duplicated object a different external reference. Otherwise, it replaces, and thereby deletes, the source object.
+{% endhint %}
 
-|                                                                                                                                          |         |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                               | Warning |
-| Be sure to give a different external reference to the duplicated object, otherwise it will replace and thereby delete the source object. |         |
+## De-activating / deleting a data item
 
-### De-activating / Deleting a data item
+To delete or deactivate a data item, click ![Delete button](../.gitbook/assets/bouton-delete.png) in the form of the data item.
 
-To delete or deactivate a data item, click on ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) in the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-fiche) of the data item.
+For example: de-activating an area.
 
-For example: De-activating an area
+![De-activating an area](../.gitbook/assets/region-info.png)
 
-![](../.gitbook/assets/region-info.png)
+In certain cases, you can deactivate a data item from the list of records. Select the **Delete** check box and click ![Delete button](../.gitbook/assets/bouton-delete.png). For example, deleting a team:
 
-In certain cases, it will be possible to deactivate a data item by checking the **Delete** check-box in the [list of records](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/generalites.html#generalite-liste) listing, and clicking on ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png):
+![Deleting a team from the list](../.gitbook/assets/region-equipe.png)
 
-For example: Deleting a team
+## Navigation
 
-![](../.gitbook/assets/region-equipe.png)
+Navigation in the repository uses arrows:
 
-### Navigation
+![Navigation arrows](../.gitbook/assets/navigation.png)
 
-Navigation in the repository takes place with the help of arrows:
+{% hint style="warning" %}
+The **Return to list** action during a modification invalidates any modifications made.
+{% endhint %}
 
-Navigation
-
-![](../.gitbook/assets/navigation.png)
-
-|                                                                                               |         |
-| --------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                    | Warning |
-| The **Return to list** action during a modification event invalidates any modifications made. |         |
-
-In the remainder of this document the following areas will be described: access to data, search filters, that may vary from one data item to another, and the specificities of managing each data item.
+The remaining topics describe, for each data item, how to access the data, the search filters (which can vary from one data item to another) and the specifics of managing that data item.

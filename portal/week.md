@@ -1,9 +1,11 @@
 # Week
 
-This page allows you to view a resource’s daily planning.
+## Overview
 
-* To access this page, click **Week** in the main menu. By default, the planning for the **current week** is displayed.
+This page shows the daily planning of a resource for each day of the week.
+
+* To open this page, click **Week** in the main menu. By default, the planning for the **current week** is displayed.
 * The week planning shows appointments and unavailabilities for each day of the week.
-* A week planning legend may be displayed by clicking on [legend](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-legende.html) button in the main menu.
-* The agendas are displayed in much the same way as [those of the planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html).
-* As for agendas in the planning module, you can [navigate in the agenda](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-navig), display the [appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/rendezvous.html) form, or an [unavaibility form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html) by clicking on the number beside them in the list.
+* To display a week planning legend, click the **Legend** button in the main menu (see [Legend](legend.md)).
+* The agendas are displayed in much the same way as in the Planning module (see [The Planning](../planning/theplanning.md)).
+* As in the Planning module, you can navigate in the agenda (see [The Planning](../planning/theplanning.md)). You can also display the appointment form (see [Appointment Form](appointmentform.md)) or an unavailability form (see [Unavailabilities](unavailabilities.md)) by clicking the number beside it in the list.

@@ -1,6 +1,8 @@
 # Portal
 
-The **Portal** is a simplified module of **NFS** designed for mobile staff. It provides access to the essential features they need to manage their appointments and daily activities.
+## Overview
+
+The Portal is a simplified NFS module designed for mobile staff. It provides access to the essential features they need to manage their appointments and daily activities.
 
 With the Portal, mobile staff can:
 
@@ -10,8 +12,10 @@ With the Portal, mobile staff can:
 * Record their periods of unavailability.
 * Download or view their roadbook.
 
-The Portal also provides team leaders with a monitoring tool. They can view each team member’s planning, monitor appointments, and send emails when issues arise, such as missed or overlooked appointments.
+The Portal also provides team leaders with a monitoring tool. They can view each team member's planning, monitor appointments and send emails when issues arise, such as missed or overlooked appointments.
 
-Access the Portal by clicking at the top left of the [site header](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau.html).
+## Access the Portal
 
-![](../.gitbook/assets/portail-dans-le-menu.png)
+Click **Portal** at the top left of the header bar (see [The Header Bar](../guided-help-nfs-reference-guide-1/README.md)).
+
+![Portal in the menu](../.gitbook/assets/portail-dans-le-menu.png)

@@ -1,49 +1,48 @@
-# Tasks to be performed
+# Tasks to Be Performed
 
-List of tasks
+## Overview
 
-![](../.gitbook/assets/tache-a-faire.png)
+The lower part of the home page lists the tasks to be performed. There are two types of task:
 
-In the lower part of the home page, there are two types of task to be performed in the list:
+* Visit reports pending
+* Appointments to reschedule
 
-* [Visit reports pending](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/Tacheafaire.html#tacheafaire1);
-* [Appointments to reschedule](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/Tacheafaire.html#rdv-a-replanifier).
+![List of tasks to be performed](../.gitbook/assets/tache-a-faire.png)
 
-### Visit reports pending
+## Visit reports pending
 
-This will be the list of queued [visit reports](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html).
+This list shows the queued visit reports (see [Visit Reports](visitreports.md)).
 
-### Appointments to reschedule
+## Appointments to reschedule
 
-A list similar to that containing the [**Visit reports pending**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html) is proposed.
+The list of appointments to reschedule is similar to the list of pending visit reports (see [Visit Reports](visitreports.md)).
 
-|                                                                                       |         |
-| ------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                            | Warning |
-| Only those appointments that have been suspended beforehand are present in this list. |         |
+{% hint style="warning" %}
+Only appointments that have been suspended beforehand appear in this list.
+{% endhint %}
 
-![](../.gitbook/assets/rendez-vous-a-replanifier.png)
+![List of appointments to reschedule](../.gitbook/assets/rendez-vous-a-replanifier.png)
 
 * Click the **sequence number** to open the **Appointment** form and enter the required appointment information.
 * Click **Reschedule** to search for a new time window that meets all the constraints associated with the appointment.
 
-![](../.gitbook/assets/replanifier-rdv-deplanifie.png)
+![Reschedule button for an unplanned appointment](../.gitbook/assets/replanifier-rdv-deplanifie.png)
 
-* A page is displayed prompting you to select the resource to assign to the appointment in the planning.
+A page is displayed that prompts you to select the resource to assign to the appointment in the planning.
 
-![](../.gitbook/assets/replanification-du-rendez-vous.png)
+![Resource selection for rescheduling an appointment](../.gitbook/assets/replanification-du-rendez-vous.png)
 
-|                                                                                                                                     |      |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                             | Note |
-| At this stage, **Opti-Time** has filtered competent resources, and displays a list of resources suggested as being apt for the job. |      |
+{% hint style="info" %}
+At this stage, NFS has filtered the competent resources and displays a list of resources suggested as suitable for the job.
+{% endhint %}
 
-* The Back button returns to the list of appointments to reschedule, while Validate provides access to the list of suggestions made by the [OTR](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/Tacheafaire.html). To select the suggestion that best matches the need, click on the OK button to the right of the table.
+* **Back** returns to the list of appointments to reschedule.
+* **Validate** opens the list of suggestions made by the real-time optimization engine (RTO). To select the suggestion that best matches the need, click the **OK** button to the right of the table.
 
-![](../.gitbook/assets/proposition-creneaux.png)
+<!-- REVIEW: the source text is truncated ("suggestions made by the [OTR."); "OTR" is assumed to mean the real-time optimization engine -->
 
-* The immediate effect of Validation is to position the appointment in the planning of the chosen resource.
+![Time slot suggestions](../.gitbook/assets/proposition-creneaux.png)
 
+The immediate effect of validation is to place the appointment in the planning of the chosen resource.
 
-
-![](../.gitbook/assets/planification-du-rendez-vous.png)
+![Appointment placed in the planning](../.gitbook/assets/planification-du-rendez-vous.png)

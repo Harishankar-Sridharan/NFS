@@ -1,78 +1,71 @@
 # Control Panel - Configure
 
-### Role
+## Overview
 
-Configuring the control panel is essential to fine tune the calculations the control panel will have to handle.
+Configuring the control panel is essential to fine-tune the calculations that the control panel performs. You set parameters for the different families of search criteria.
 
-### Application
+![Control Panel configuration page](../.gitbook/assets/tableau-de-bord-config.png)
 
-Configuring the control panel involves setting parameters for the different families of search criteria.
+## Fields and options
 
-Configuration of the control panel
+### Human resources
 
-![](../.gitbook/assets/tableau-de-bord-config.png)
+Configure two resources:
 
-Validate button will mean the selected parameters are taken into account. The next step is to select a type of statistical table to apply the configuration established.
+* The executive resource, that is, the mobile resource.
+* The resource responsible for entering data in the system, that is, the person who saves the appointment in the application.
 
-#### Human resources
-
-Two resources need to be configured:
-
-* The executive resource, that is the mobile resource
-* The resource responsible for entering data on the system, that is the person saving the appointment in the application.
-
-For each of these, several types of resource can be selected:
+For each of these, you can select one of several types of resource:
 
 * **Optimizable** or **non-optimizable**
-* **A person**: the drop-down list suggests all the supervisor resources connected, and from these, one must be selected
-* **A team**: in the supervisor’s area, the list allows a choice of a team on which you might want to obtain statistics
-* **A worksite**: several sites can exist in the reference area. The list allows you to filter the one on which you want to obtain information
-* **An area**.
+* **A person**: the drop-down list shows all the connected supervisor resources. Select one of them.
+* **A team**: the list shows the teams in the supervisor's area. Select the team for which you want statistics.
+* **A worksite**: several worksites can exist in the reference area. The list lets you filter on the worksite for which you want information.
+* **An area**
 
-It is possible to filter the search results by type of resource. The type of resource will correspond to the type of post assigned for each resource.
+You can filter the search results by type of resource. The type of resource corresponds to the type of post assigned to each resource.
 
-#### Period
+### Period
 
-Configuring the control panel to define the period
+After you select the resources for which you want information, five options let you filter on the type of time span.
 
-![](../.gitbook/assets/tableau-de-bord-period.png)
+![Control Panel configuration: period](../.gitbook/assets/tableau-de-bord-period.png)
 
-Having selected the resources on which the supervisor wants to obtain information, five options enable filtering on the type of timespan:
+* **Date**: first select the year, then adjust as appropriate:
+  * **Week**: each numbered week of the year is offered.
+  * **Month**: the twelve months of the year are offered.
+  * **Quarter**: the four numbered quarters of the year are offered.
+  * **Year**: the years 2000 to 2030 are available.
+* **Period** (From the... to the...): two fields open a calendar so you can choose a custom period.
 
-* Date: having first selected the year, adjust as appropriate:
-  * Week: each numbered week of the year is suggested;
-  * Month: the twelve months of the year are suggested;
-  * Quarter: the four, numbered, quarters of the year are available;
-  * Year: the years 2000 to 2030 are accessible
-* Period (From the…to the): two zones are reserved for activation of a calendar and choice of a personalized period.
+<!-- REVIEW: source says "five options" but lists Date (with four sub-options) and Period; structure kept as in source -->
 
-|                                                                                   |     |
-| --------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                            | Tip |
-| By default, the default values suggested are those corresponding to today’s date. |     |
+{% hint style="info" %}
+By default, the values suggested are those that correspond to today's date.
+{% endhint %}
 
-#### Activities | Intervention type (optional)
+### Activities | Intervention type (optional)
 
-Configuring the control panel for the types of interventions
-
-![](../.gitbook/assets/tableau-de-bord-activite.png)
+![Control Panel configuration: intervention types](../.gitbook/assets/tableau-de-bord-activite.png)
 
 * Select the **Ignore** check box to disable the selection of an intervention type.
-* Select the **Activity type** check box to choose one or more activity types. Each activity type can include multiple intervention types. To select multiple activity types, hold **CTRL** or **SHIFT** while making your selections.
-* The **Status** option is optional. Select the check box to filter interventions by status. You can select **Cancelled**, **Confirmed**, **Completed**, **Requested but unplanned**, or **Unplanned**.
+* Select the **Activity type** check box to choose one or more activity types. Each activity type can include several intervention types. To select several activity types, hold **Ctrl** or **Shift** while you select.
+* The **Status** option is optional. Select the check box to filter interventions by status. You can select **Cancelled**, **Confirmed**, **Completed**, **Requested but unplanned** or **Unplanned**.
 * Select **Display all** to display the status of all information items based on the selected intervention type.
 
-#### Activities | Unavailability (optional)
+### Activities | Unavailability (optional)
 
-The different types of unavailability are suggested in a drop-down list. It is possible to select them all.
+A drop-down list shows the different types of unavailability. You can select all of them.
 
-The **Type** check-box, when unchecked, will disable selection of an unavailability type.
+Clear the **Type** check box to disable the selection of an unavailability type.
 
-#### Other
+### Other
 
-Two options may complete the control panel: calculation of journey time or free time.
+Two options can complete the control panel: calculation of journey time and calculation of free time.
 
-Activation of journey time options and free time options
+![Control Panel configuration: journey time and free time options](../.gitbook/assets/tableau-de-bord-autre.png)
 
-![](../.gitbook/assets/tableau-de-bord-autre.png)
+## Apply the configuration
 
+1. Click **Validate** to apply the selected parameters.
+2. Select a type of statistical table to which to apply the configuration.

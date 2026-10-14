@@ -1,816 +1,763 @@
 # Menu
 
-The menu of the Planning module is run via the ![images/ref/buttons/bouton-menu-inactif.png](../.gitbook/assets/bouton-menu-inactif.png) button located at the top left of the screen. By default, the button is inactive and the menu is therefore hidden. To display it, simply move the mouse over it. The button changes colour ![images/ref/buttons/bouton-menu-actif.png](../.gitbook/assets/bouton-menu-actif.png) and the user can consult the menu functions.
-
-|                                                                                                                                                                                                                                                                                  |      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                                                                          | Note |
-| Functions can be displayed or hidden by [rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits). In this way, the number of items present in the menu may vary depending on the current user profile. |      |
-
-The menu functions are as follows:
-
-* [Change area](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#changer-region)
-* [Set new appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#prendre-nouveau-rdv)
-* [Customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients)
-  * [Search for customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher)
-  * [Create customer](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-creation)
-  * [Customers panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients)
-  * [Customer alerts list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html)
-  * [Generate periodic requests](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#generer-clients-recurr)
-* [Resources management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-intervenants)
-  * [Temporary job management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-postes-temp)
-  * [Secondary worksites assignments management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#affectation-sites-second)
-  * [Display customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#visualiser-clients)
-  * [On-call duty management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-astreintes)
-  * [Equipment assignments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#affectation-materiel)
-* [Sector management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-secteurs)
-* [Appointment search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-rdv)
-* [Selected appointment list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#lister-rdv-select)
-* Requested, planned, reserved, confirmed, unplanned, externalized [appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#chercher-rdv-etats)
-* [My searches](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#mysearch)
-* [Links between interventions](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liaison-intervention)
-* [Appointment alerts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html)
-* [Customer gap](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#ecart-client)
-* [Alerts on route duration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#alertes-duree-trajet)
-* [Application alerts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#alertes)
-* [Messaging service](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#messages)
-* [Modify appointments in the past](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#modifier-rdv-passe)
-* [Display planners](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#afficher-agendas)
-* [Unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gerer-indispos)
-* [Unavailability search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-indispo)
-* [Route sheet](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html)
-* [Exceptional locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html)
-* [Hotel locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#emplacement-hotel)
-* [Locked day](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html)
-* [Manage agenda markers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gerer-jalons)
-* [Vehicles tracking](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#suivi-vehicule)
-* [Compute a route](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html)
-* [Convert coordinates into Lat/Lon](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#convertir-lat-lon)
-* [Search around](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-environs)
-* [Check traffic for the schedule](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html)
-* [Predefined exports list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-exports-predef)
-* [Custom reports](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-rapports-predef)
+## Overview
+
+The menu of the Planning module gives access to the main functions of the module. To open it, move the mouse over the ![Menu button, inactive](../.gitbook/assets/bouton-menu-inactif.png) button at the top left of the screen. By default, the button is inactive and the menu is hidden. When you move the mouse over the button, it changes color ![Menu button, active](../.gitbook/assets/bouton-menu-actif.png) and the menu functions are displayed.
+
+{% hint style="info" %}
+Functions can be displayed or hidden by [rights](../administration/userhandling.md). The number of items in the menu therefore varies depending on the current user profile.
+{% endhint %}
+
+The menu contains the following functions:
+
+* Change area
+* Set new appointment
+* Customers
+  * Search for customers
+  * Create customer
+  * Customers panel
+  * Customer alerts list
+  * Generate periodic requests
+* Resources management
+  * Temporary job management
+  * Secondary worksites assignments management
+  * Display customers
+  * On-call duty management
+  * Equipment assignments
+* Sector management
+* Appointment search
+* Selected appointment list
+* Requested, planned, reserved, confirmed, unplanned, externalized appointments
+* My searches
+* Links between interventions
+* Appointment alerts
+* Customer gap
+* Alerts on route duration
+* Application alerts
+* Messaging service
+* Modify appointments in the past
+* Display planners
+* Unavailabilities
+* Unavailability search
+* Route sheet
+* Exceptional locations
+* Hotel locations
+* Locked day
+* Manage agenda markers
+* Vehicles tracking
+* Compute a route
+* Convert coordinates into Lat/Lon
+* Search around
+* Check traffic for the schedule
+* Predefined exports list
+* Custom reports
 
-### Change area
+## Change area
 
-This function returns you to the [change area](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau-changer-region.html) function in the header bar.
+This function returns you to the [Change area](../guided-help-nfs-reference-guide-1/change-area-nfs-reference-guide.md) function in the header bar.
 
-### Making a new appointment
+## Making a new appointment
 
-This function allows you to make an appointment without revealing the identity of the customer.
+This function lets you make an appointment without revealing the identity of the customer.
 
-Making an appointment - customer information
+The first page collects the customer information.
 
-![](../.gitbook/assets/prendre-rdv-ecran-1.png)
+![Making an appointment: customer information page](../.gitbook/assets/prendre-rdv-ecran-1.png)
 
-The time information is entered, this will be the information needed to identify the customer: their **name**, **company name** if needed, **name** and **first name** for a company contact, the full **address** of the site of the intended intervention, the different **telephone numbers**.
+Enter the time information and the information needed to identify the customer:
 
-* The validation of the address is described in the [geocoding](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) chapter.
-* The Cancel button cancels the taking of the appointment.
-* The Continue button takes you to the [qualification of the appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#creation-rdv-demande) window.
+* the **name** of the customer;
+* the **company name**, if needed;
+* the **name** and **first name** of a company contact;
+* the full **address** of the site of the intended intervention;
+* the different **telephone numbers**.
 
-|                                                                                 |      |
-| ------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                         | Note |
-| The customer will be created on completion of the appointment taking operation. |      |
+<!-- REVIEW: source says the address validation "is described in the geocoding chapter" but gives no link; reference kept as is -->
 
-### Customers
+* The validation of the address is described in the geocoding chapter.
+* Click **Cancel** to cancel the appointment.
+* Click **Continue** to open the [qualification of the appointment](objectsintheplanningmodule.md) window.
 
-In some companies, it is current practice to carry out maintenance visits or sales rounds for [customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-clients) who are already known to the company. It can even happen that certain technicians are assigned by default to certain [customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-clients). In order to avoid entering information that is already known about [customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-clients), the application suggests saving a [customer](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-clients) database to facilitate the taking of appointments.
+{% hint style="info" %}
+The customer is created when the appointment is completed.
+{% endhint %}
 
-The Customers menu presents the following options:
+## Customers
 
-* [**Customer search**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher)
-* [**Create customer**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-creation)
-* [**Customers panel**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients)
-* [**Customer alerts list**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html)
-* [**Generate periodic requests**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#generer-clients-recurr)
+In some companies, it is common practice to carry out maintenance visits or sales rounds for [customers](objectsintheplanningmodule.md) who are already known to the company. Certain technicians can even be assigned by default to certain [customers](objectsintheplanningmodule.md). To avoid re-entering information that is already known about [customers](objectsintheplanningmodule.md), the application lets you save a [customer](objectsintheplanningmodule.md) database to facilitate making appointments.
 
-#### Customer search
+The **Customers** menu contains the following options:
 
-* The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
-* The search fields are described in the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client).
-* This page allows you to [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer) or modify a customer.
+* **Customer search**
+* **Create customer**
+* **Customers panel**
+* **Customer alerts list**
+* **Generate periodic requests**
 
-In the page header, depending on the configuration, a series of links serve to:
+### Customer search
 
-* [Show Customers panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients)
-* [Orderer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-commanditaire)
-* [Customer type search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-type-client)
-* [Customer kind search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-nature-client)
+This page lets you search for, [create](objectsintheplanningmodule.md) or modify a customer.
 
-**Result of the search**
+* The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
+* The search fields are described in the [customer form](objectsintheplanningmodule.md).
 
-Table of results
+In the page header, depending on the configuration, a series of links lets you:
 
-![](../.gitbook/assets/resultat-recherche-client.png)
+* Show Customers panel
+* Orderer search
+* Customer type search
+* Customer kind search
 
-After running the search, a count on the number of lines is suggested as well as the count on lines displayed.
+#### Result of the search
 
-|                                                                                                                                                          |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                   | Tip |
-| The display limit is [configurable](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli). |     |
+After you run the search, the page shows the number of lines found and the number of lines displayed.
 
-The table has the same [basic functionalities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) as the other tables in Opti-Time.
+![Customer search results table](../.gitbook/assets/resultat-recherche-client.png)
 
-|                                                                                                    |     |
-| -------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                             | Tip |
-| The buttons located in the table header allow you to apply operations to all objects in the table. |     |
+{% hint style="info" %}
+The display limit is [configurable](../administration/customization.md).
+{% endhint %}
 
-The presence of buttons on each line in the table serves to apply certain actions without having to enter in the customer form. Here are a few of the possible actions:
+The table has the same [basic functionalities](objectsintheplanningmodule.md) as the other tables in NFS.
 
-* The ![images/ref/buttons/bouton-panier4.png](../.gitbook/assets/bouton-panier4.png) button allows you to add the customer to the panel;
-* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv.png) button serves to make an appointment with the customer, at which point you are redirected to the [qualification of the appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#creation-rdv-demande) page;
-* The ![images/ref/buttons/bouton-localise-client-fiche.png](../.gitbook/assets/bouton-localise-client-fiche.png) button localises the customer on the [map](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-carte.html);
-*   The ![images/ref/buttons/bouton-lister-rdv-client.png](../.gitbook/assets/bouton-lister-rdv-client.png) button lists all the appointments for the customer;
+{% hint style="info" %}
+The buttons in the table header apply operations to all objects in the table.
+{% endhint %}
 
-    The list of appointments for this customer then display:
+Buttons on each line of the table let you apply actions without opening the customer form. The possible actions include:
 
-![](../.gitbook/assets/liste-rdv-client.png)
+* The ![Add to panel button](../.gitbook/assets/bouton-panier4.png) button adds the customer to the panel.
+* The ![Make an appointment button](../.gitbook/assets/bouton-prendre-rdv.png) button makes an appointment with the customer. You are redirected to the [qualification of the appointment](objectsintheplanningmodule.md) page.
+* The ![Locate customer button](../.gitbook/assets/bouton-localise-client-fiche.png) button locates the customer on the [map](map.md).
+* The ![List customer appointments button](../.gitbook/assets/bouton-lister-rdv-client.png) button lists all the appointments for the customer. The list of appointments for this customer is then displayed:
 
-The first part allows you to [refine the search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#recherche-generique-filtre).
+![List of appointments for a customer](../.gitbook/assets/liste-rdv-client.png)
 
-The second part presents statistics on all appointments displayed (**Number of appointments**, **Number of kilometers travelled**, **Working hours**, etc.)
+The first part of this page lets you [refine the search](objectsintheplanningmodule.md).
 
-Finally, the list of appointments allows you to display the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv) by clicking on one line of the [result](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat).
+The second part shows statistics on all displayed appointments (**Number of appointments**, **Number of kilometers travelled**, **Working hours**, etc.).
 
-To display the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client), click on the corresponding line in the table of results.
+Finally, the list of appointments lets you open the [appointment form](objectsintheplanningmodule.md): click a line of the [result](objectsintheplanningmodule.md).
 
-#### Searching for the company orderer
+To open the [customer form](objectsintheplanningmodule.md), click the corresponding line in the table of results.
 
-This function allows you to [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer), modify, or delete an orderer ([see the customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#type-client-fiche)).
+### Searching for the company orderer
 
-Purchasing orderer search window
+This function lets you [create](objectsintheplanningmodule.md), modify or delete an orderer (see the [customer form](objectsintheplanningmodule.md)).
 
-![](../.gitbook/assets/formulaire-recherche-commanditaire.png)
+![Orderer search window](../.gitbook/assets/formulaire-recherche-commanditaire.png)
 
-The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
+The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
-The search fields are described in the [orderer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-commanditaire).
+The search fields are described in the [orderer form](objectsintheplanningmodule.md).
 
-Click on the [orderer](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#commanditaire) in the list to go back to the corresponding [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-commanditaire).
+* Click an [orderer](objectsintheplanningmodule.md) in the list to open the corresponding [form](objectsintheplanningmodule.md).
+* Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to open the [orderer form](objectsintheplanningmodule.md) in creation mode.
 
-The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button returns you to the [orderer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-commanditaire) in creation mode.
+### Search on a customer type
 
-#### Search on a customer type
+This function lets you search for, [create](objectsintheplanningmodule.md) or change a customer type.
 
-This function allows you to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer) or change a customer type.
+![Customer type search page](../.gitbook/assets/page-recherche-type-client.png)
 
-Searching on customer types
+The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
-![](../.gitbook/assets/page-recherche-type-client.png)
+The search fields are described in the [customer type form](objectsintheplanningmodule.md).
 
-The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
+Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to add a new customer type. The [customer type form](objectsintheplanningmodule.md) opens in creation mode.
 
-The search fields are described in the [customer type form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#type-client-fiche).
+### Search on customer kind
 
-The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button allows you to add a new customer type. This returns you to the [customer type form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#type-client-fiche) in creation mode.
+This function lets you search for, [create](objectsintheplanningmodule.md) or change a customer kind.
 
-#### Search on customer kind
+![Customer kind search page](../.gitbook/assets/page-recherche-nature-client.png)
 
-This function allows you to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer) or change a customer according to its kind.
+The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
-Search on customer kind
+The search fields are described in the [customer kind form](objectsintheplanningmodule.md).
 
-![](../.gitbook/assets/page-recherche-nature-client.png)
+Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to add a new customer kind. The [customer kind form](objectsintheplanningmodule.md) opens in creation mode.
 
-The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
+### Create customer
 
-The search fields are described in the [customer kind form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#nature-client-fiche).
+This page lets you [create](objectsintheplanningmodule.md) a customer.
 
-The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button serves to add a new customer kind. This takes you back to the [customer kind form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#nature-client-fiche) in creation mode.
+In the page header, depending on the configuration, a series of links lets you open:
 
-#### Create customer
+* Customer search
+* Show Customers panel
 
-This page allows you to [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client) a customer.
+### Customers panel
 
-In the page header, depending on the configuration, a series of links serve to:
+This page lets you assign actions to a selection of customers.
 
-* [Customer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher)
-* [Show Customers panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients)
+![Customers panel](../.gitbook/assets/panier-clients.png)
 
-#### Customers panel
+The [search result](objectsintheplanningmodule.md) lists the customers in the panel. Click a line to open the [customer form](objectsintheplanningmodule.md).
 
-This page allows you to assign actions to a selection of customers:
+* The **Customer search** link takes you back to the customer search function.
+* The **Empty panel** link removes the appointments from the customer panel.
+* The ![Remove from panel button](../.gitbook/assets/bouton-panier5.png) button removes an appointment selected in the customer panel.
+* The ![Deselect button](../.gitbook/assets/moins.png) button deselects appointments.
+* The ![Make an appointment button](../.gitbook/assets/bouton-prendre-rdv.png) button makes an appointment with the customer and sends you to the [qualification of the appointment](objectsintheplanningmodule.md) page. If you click this button in the header of the result table, you open the function for making appointments for several customers.
+* The ![Display on map button](../.gitbook/assets/bouton-carte.png) button displays the customers on the map.
 
-![](../.gitbook/assets/panier-clients.png)
+### Making appointments for several customers
 
-The [search result](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat) presents the customers in the panel.
+This function is accessible only from the customer panel.
 
-Clicking on a line, you can access the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client).
+![Making appointments for several customers](../.gitbook/assets/prise-rdv-clients-multiple.png)
 
-* The Customer search link takes you back to the [customer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher) function;
-* The Empty panel link removes the appointments from the customer panel;
-* The ![images/ref/buttons/bouton-panier5.png](../.gitbook/assets/bouton-panier5.png) button removes an appointment selected in the customer panel;
-* The ![images/ref/buttons/moins.png](../.gitbook/assets/moins.png) button allows you to deselect appointments;
-* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv.png) button allows you to make an appointment with the customer, and then be sent back to the [qualification of the appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#creation-rdv-demande) page. If you click on this button in the header of the result table, you can access the [set appointment for several customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#prise-rdv-clients-multiple) function.
-* The ![images/ref/buttons/bouton-carte.png](../.gitbook/assets/bouton-carte.png) button displays the customer(s) on the map.
+The first section lists the customers concerned.
 
-#### Making appointments for several customers
+The second section contains the same fields as the [qualification of the appointment](objectsintheplanningmodule.md).
 
-This function is only accessible from the [customer panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients).
+* Click **Cancel** to return to the customer panel.
+* Click **Request appointments** to create appointments with the _Requested_ [status](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
 
-Making appointments for several customers
+A [table](objectsintheplanningmodule.md) summarizes the appointments created.
 
-![](../.gitbook/assets/prise-rdv-clients-multiple.png)
+![Summary of the requested appointments](../.gitbook/assets/rdv-demandes-resultat.png)
 
-A first section reminds you of the list of customers concerned.
+From this list, you can add the requested appointments to the [panel](theplanning.md): click the panel button opposite an appointment, or in the table header.
 
-The second part presents the same fields as the [qualification of the appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#creation-rdv-demande).
+Click **Back** to return to the customer panel.
 
-* The Cancel button allows you to return to the customer panel;
-* The Request appointments button creates appointments with a _Requested_ [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts).
+### List of customers on alert
 
-A [table](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat) summarizes the appointments created:
+See [List of customer alerts](../guided-help-nfs-reference-guide-1/README.md) in the header bar.
 
-![](../.gitbook/assets/rdv-demandes-resultat.png)
+### Generate periodic requests
 
-From this list, you can add the requested appointments to the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier) by clicking on the panel opposite an appointment or in the table header.
+This page generates visits automatically for customers according to a predefined visiting period.
 
-The Back button allows you to go back to the customer panel.
-
-#### List of customers on alert
-
-See the chapter on [List of customer alerts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html#liste-clients-urgent) in the header bar.
-
-#### Generate periodic requests
-
-This page enables automated generation of visits for customers as a function of a predefined visiting period.
-
-Generation of recurring visits
-
-![](../.gitbook/assets/gen-periodic.png)
+![Generation of recurring visits](../.gitbook/assets/gen-periodic.png)
 
 The visit generation page contains the following fields:
 
 * **Customers to select**
-  * All recurring customers: all customers for whom the _recurring customer_ check-box in the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-projet) is checked, will be selected.
-  * Recurring customers in the panel only: only customers present in the [customer panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients) and for whom the _regular customer_ check-box in the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-projet) is checked will be selected.
+  * **All recurring customers** – selects all customers for whom the _recurring customer_ check box is selected in the [customer form](objectsintheplanningmodule.md).
+  * **Recurring customers in the panel only** – selects only customers who are in the customer panel and for whom the _regular customer_ check box is selected in the [customer form](objectsintheplanningmodule.md).
 * **Generation period to use**
-  * By sales period: the generation will be applied to the selected [sales periods](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#periode-vente).
-  * Explicit: the generation will be between the **period start date** and the **period end date** as selected.
-* **Limit to customers of a required resource**: the generation will be limited to those customers who have the resource selected as a required resource in the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-affectation).
+  * **By sales period** – applies the generation to the selected [sales periods](../administration/companydata.md).
+  * **Explicit** – generates visits between the **period start date** and the **period end date** you select.
+* **Limit to customers of a required resource** – limits the generation to customers who have the selected resource as a required resource in the [customer form](objectsintheplanningmodule.md).
 
-The ![images/ref/buttons/play.png](../.gitbook/assets/play.png) button allows you to run the generation of visits between the two dates.
+Click the ![Play button](../.gitbook/assets/play.png) button to run the generation of visits between the two dates.
 
-The ![images/ref/buttons/bouton-retour.png](../.gitbook/assets/bouton-retour.png) button takes you back to the previous page.
+Click the ![Back button](../.gitbook/assets/bouton-retour.png) button to return to the previous page.
 
-|                                                                                                                                                                                                                                  |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                           | Tip |
-| The generation will be applied according to the settings defined in the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-projet). |     |
+{% hint style="info" %}
+The generation is applied according to the settings defined in the [customer form](objectsintheplanningmodule.md).
+{% endhint %}
 
-### Managing resources
+## Managing resources
 
 The resource management part includes the following functions:
 
-* [temporary job management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-postes-temp)
-* [secondary worksites assignments management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#affectation-sites-second)
-* [display customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#visualiser-clients)
-* [on-call duty management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-astreintes)
-* [equipment assignements](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#affectation-materiel)
+* Temporary job management
+* Secondary worksites assignments management
+* Display customers
+* On-call duty management
+* Equipment assignments
 
-#### Handling of temporary posts
+### Handling of temporary posts
 
-This page allows the user to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer), modify or [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-supprimer) the [temporary posts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-postes-temp) of resources.
+This page lets you search for, [create](objectsintheplanningmodule.md), modify or [delete](objectsintheplanningmodule.md) the [temporary posts](objectsintheplanningmodule.md) of resources.
 
-Main page for managing temporary posts
+![Main page for managing temporary posts](../.gitbook/assets/page-postes-temporaires.png)
 
-![](../.gitbook/assets/page-postes-temporaires.png)
+The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
-The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
+The search fields are described in the [temporary post form](objectsintheplanningmodule.md).
 
-The search fields are described in the [temporary post form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-poste-temporaire).
+Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to add a new temporary post. The [form](objectsintheplanningmodule.md) opens in creation mode.
 
-The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button serves to add a new temporary post. It returns you to the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-poste-temporaire) in creation mode.
+### Assignment of secondary worksites
 
-#### Assignment of secondary worksites
+This page lets you search for, create, modify or delete the [secondary worksites](objectsintheplanningmodule.md) of resources.
 
-* This page allows you to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html), modify or [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html) the [secondary worksites](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-sites-second) of resources.
-* The search page contains [search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) fields as well as a list of worksites that have already been saved.
-* The search fields are described in the [secondary worksite form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-site-second).
-* Click on a line in the table to access the [secondary worksite form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-site-second) in modification mode.
-* The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button adds a new secondary site. It returns the [secondary worksite](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-site-second) in creation mode.
+* The search page contains [search](objectsintheplanningmodule.md) fields and a list of worksites that are already saved.
+* The search fields are described in the [secondary worksite form](objectsintheplanningmodule.md).
+* Click a line in the table to open the [secondary worksite form](objectsintheplanningmodule.md) in modification mode.
+* Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to add a new secondary worksite. The [secondary worksite](objectsintheplanningmodule.md) form opens in creation mode.
 
-#### View customers
+### View customers
 
-This page allows you to see customers assigned to the resource selected in the drop-down list.
+This page shows the customers assigned to the resource selected in the drop-down list.
 
-The search page contains [search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) fields as well as a list of on-call duties that have already been saved.
+<!-- REVIEW: source says the search page contains "a list of on-call duties that have already been saved" in the View customers section; possible copy-paste from On-call duty management -->
 
-![](../.gitbook/assets/interv-liste-client.png)
+The search page contains [search](objectsintheplanningmodule.md) fields and a list of on-call duties that are already saved.
 
-#### On-call duty management
+![List of customers assigned to a resource](../.gitbook/assets/interv-liste-client.png)
 
-* This page allows you to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer), modify or [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-supprimer) [on-call duty items](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-astreinte) for resources.
-* The search page contains [search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) fields as well as a list of on-call duties that have already been saved.
-* The search fields are described in the [on-call duty form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-astreinte).
-* Click on a line in the table to access the [on-call duty form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-astreinte) in modification mode.
-* The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button allows you to add a new on-call duty. It returns the user to the [on-call duty form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-astreinte) in creation mode.
+### On-call duty management
 
-#### Equipment assignments
+This page lets you search for, [create](objectsintheplanningmodule.md), modify or [delete](objectsintheplanningmodule.md) [on-call duty items](objectsintheplanningmodule.md) for resources.
 
-* This page allows the user to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer), edit or [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-supprimer) an assignment between previously created [equipment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#materiel) and existing [resources](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH).
-* The search page contains [search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#recherche-generique-filtre) fields and a list of pre-saved assignments.
+* The search page contains [search](objectsintheplanningmodule.md) fields and a list of on-call duties that are already saved.
+* The search fields are described in the [on-call duty form](objectsintheplanningmodule.md).
+* Click a line in the table to open the [on-call duty form](objectsintheplanningmodule.md) in modification mode.
+* Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to add a new on-call duty. The [on-call duty form](objectsintheplanningmodule.md) opens in creation mode.
 
-### Sector management
+### Equipment assignments
 
-The next page opens or closes sectors.
+This page lets you search for, [create](objectsintheplanningmodule.md), edit or [delete](objectsintheplanningmodule.md) an assignment between previously created [equipment](../administration/companydata.md) and existing [resources](../administration/companydata.md).
 
-![](../.gitbook/assets/secteur-ferme.png)
+The search page contains [search](objectsintheplanningmodule.md) fields and a list of saved assignments.
 
-* The first part allows you to [refine the search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#recherche-generique-filtre) on sectors by selecting the dates along with a sector.
-* In the list of sectors, sectors that are closed over the period are in red, while open sectors are in green.\
-  To close / open a sector, simply click on an open / closed sector.
-* To define an opening / closing timeslot you can click on the ![images/ref/buttons/ca-ca.png](../.gitbook/assets/ca-ca.png) button.\
-  It is then possible to define an opening / closing period:
+## Sector management
 
+This page opens or closes sectors.
 
+![Sector management page](../.gitbook/assets/secteur-ferme.png)
 
-![](../.gitbook/assets/secteur-ferme-dates.png)
+* The first part lets you [refine the search](objectsintheplanningmodule.md) on sectors: select the dates and a sector.
+* In the list of sectors, sectors that are closed over the period are red and open sectors are green. To close or open a sector, click an open or closed sector.
+* To define an opening or closing timeslot, click the ![Opening or closing period button](../.gitbook/assets/ca-ca.png) button. You can then define an opening or closing period:
 
-Finally, two tables at the bottom of the page display the number of appointments and resources for the sector selected in the list of sectors.
+![Defining an opening or closing period for a sector](../.gitbook/assets/secteur-ferme-dates.png)
 
-|                                                                                                           |         |
-| --------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                | Warning |
-| It will not be possible to plan any appointments if the sector is closed, except in manual planning mode. |         |
+Two tables at the bottom of the page show the number of appointments and resources for the sector selected in the list of sectors.
 
-### Searching for an appointment
+{% hint style="warning" %}
+You cannot plan appointments in a closed sector, except in manual planning mode.
+{% endhint %}
 
-This page serves to search for one or several [appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-rdv) as a function of known data on these appointments.
+## Searching for an appointment
 
-|                                                                                                                                                                                                              |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| \[Tip]                                                                                                                                                                                                       | Tip |
-| Only appointments in the same [area](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#changer-region) as the one selected will be displayed. |     |
+This page lets you search for one or several [appointments](objectsintheplanningmodule.md) using known data about these appointments.
 
-|                                                                                                                                                 |     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                          | Tip |
-| You can save search criteria by clicking at the top on Recent searches. This tool also lets you reload an earlier search, delete, or rename it. |     |
+{% hint style="info" %}
+Only appointments in the same area as the one selected are displayed.
+{% endhint %}
 
-![](../.gitbook/assets/formulaire-de-recherche-d-un-rendez-vous.png)
+{% hint style="info" %}
+You can save search criteria by clicking **Recent searches** at the top of the page. This tool also lets you reload, delete or rename an earlier search.
+{% endhint %}
 
-* The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
-* Search fields can be customised in the [Application Configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli), and are described in the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv).
+![Appointment search form](../.gitbook/assets/formulaire-de-recherche-d-un-rendez-vous.png)
 
-**Result of the search**
+* The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
+* Search fields can be customized in the [Application Configuration](../administration/customization.md) and are described in the [appointment form](objectsintheplanningmodule.md).
 
-Table of results
+### Result of the search
 
-![](../.gitbook/assets/resultat-de-la-recherche.png)
+![Appointment search results table](../.gitbook/assets/resultat-de-la-recherche.png)
 
-|                                                                                                             |     |
-| ----------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                      | Tip |
-| The buttons located in the table header allow you to apply various actions on all the objects in the table. |     |
+{% hint style="info" %}
+The buttons in the table header apply various actions to all objects in the table.
+{% endhint %}
 
-The presence of buttons on each line in the table serves to apply certain actions without having to enter in the appointment form. Here are a few of the possible actions:
+Buttons on each line of the table let you apply actions without opening the appointment form. The possible actions include:
 
-* The ![images/ref/buttons/bouton-add2.png](../.gitbook/assets/bouton-add2.png) button serves to add the appointment to the [list of selected appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#lister-rdv-select);
-* The ![images/ref/buttons/bouton-localise-client-fiche.png](../.gitbook/assets/bouton-localise-client-fiche.png) button serves to locate the appointment in the [map](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-carte.html);
-* The ![images/ref/buttons/bouton-panier.png](../.gitbook/assets/bouton-panier.png) button will add this intervention to the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier).
+* The ![Add to selection button](../.gitbook/assets/bouton-add2.png) button adds the appointment to the list of selected appointments.
+* The ![Locate button](../.gitbook/assets/bouton-localise-client-fiche.png) button locates the appointment on the [map](map.md).
+* The ![Add to panel button](../.gitbook/assets/bouton-panier.png) button adds this intervention to the [panel](theplanning.md).
 
-Clicking on one of the appointments found opens the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html).
+Click an appointment in the results to open its form.
 
-### List selected appointments
+## List selected appointments
 
-* This function displays all appointments selected in the lists of appointments via the ![images/ref/buttons/bouton-add2.png](../.gitbook/assets/bouton-add2.png) button.
-* The [table of results](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat) has [buttons common to appointment lists](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#boutons-liste-rdv).
+* This function displays all appointments selected in the appointment lists with the ![Add to selection button](../.gitbook/assets/bouton-add2.png) button.
+* The [table of results](objectsintheplanningmodule.md) has [buttons common to appointment lists](objectsintheplanningmodule.md).
 
-![](../.gitbook/assets/liste-rdv-sel.png)
+![List of selected appointments](../.gitbook/assets/liste-rdv-sel.png)
 
-This list also has two buttons located top right:
+Two buttons are located at the top right of the list:
 
-* ![images/ref/buttons/bouton-panier5.png](../.gitbook/assets/bouton-panier5.png) that lets you add all the appointments in the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier) to the selection.
-* ![images/ref/buttons/bouton-panier4.png](../.gitbook/assets/bouton-panier4.png) that lets you add all selected apppointments to the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier).
+* ![Add panel to selection button](../.gitbook/assets/bouton-panier5.png) adds all the appointments in the [panel](theplanning.md) to the selection.
+* ![Add selection to panel button](../.gitbook/assets/bouton-panier4.png) adds all selected appointments to the [panel](theplanning.md).
 
-### Search for appointments (requested, planned, reserved, confirmed, unplanned, subcontracted)
+## Search for appointments (requested, planned, reserved, confirmed, unplanned, subcontracted)
 
-* Depending on the [rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) granted to the user, they can access predefined searches, or filtered searches on appointment status.
-* For example, the Search on requested appointments link serves to search for appointments with a _Requested_ [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts).
-* Each of the links opens a first screen that suggests filtering on date, on resource (or subcontractor), on worksite and on intervention type.
+* Depending on the [rights](../administration/userhandling.md) granted to you, you can access predefined searches or searches filtered on appointment status.
+* For example, the **Search on requested appointments** link searches for appointments with the _Requested_ [status](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* Each link opens a first screen that lets you filter on date, resource (or subcontractor), worksite and intervention type.
 
-Search on status
+![Search on status](../.gitbook/assets/formulaire-recherche-rdv-par-statut.png)
 
-![](../.gitbook/assets/formulaire-recherche-rdv-par-statut.png)
+* The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
+* Click **Search** to display the [list of results](objectsintheplanningmodule.md). Click an appointment in the list to open the [appointment form](objectsintheplanningmodule.md).
+* Click **Export** to retrieve a `.csv` file for the search.
 
-* The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
-* The Search button returns you to the [list of results](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat).\
-  Clicking on one of the appointments found in the list opens the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv).
-* The Export button allows you to retrieve a .csv file for the search.
+## My searches
 
-### My searches
+{% hint style="warning" %}
+To access a predefined search, you need the corresponding [right](../administration/userhandling.md) from the NFS administrator.
+{% endhint %}
 
-|                                                                                                                                                                                                                                           |         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                                | Warning |
-| To access a predefined search, you need to have the corresponding [right](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) given by the Opti-Time administrator. |         |
+This menu gives access to the searches configured in the [Configuring the application](../administration/customization.md) menu of the Administration module. Quick access links to these predefined searches can also be displayed in the [information pane](theinformationpane.md).
 
-This menu lets you access configured searches in the [Configuring the application](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) menu of the Administration module.\
-Rapid access links to these predefined queries can also be displayed in the [information pane](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-cadre-info.html).
+The table of results is comparable to that of a standard search.
 
-The [table of results](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#resultat-recherche-rdv) is comparable to that obtained with a standard search.
+## Links between interventions
 
-### Links between interventions
+{% hint style="warning" %}
+To access this menu, you need the corresponding [right](../administration/userhandling.md) from the NFS administrator (`CALLCENTER_SEARCH_CHAIN_CONSTRAINT`).
+{% endhint %}
 
-|                                                                                                                                                                                                                                                                             |         |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                                                                  | Warning |
-| To access this menu, you need to have the corresponding [right](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) given by the Opti-Time administrator (**CALLCENTER\_SEARCH\_CHAIN\_CONSTRAINT**). |         |
+This function lets you search for appointments associated with [chaining constraints](objectsintheplanningmodule.md).
 
-This function lets you search for appointments associated to [chaining constraints](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#contrainte-chainage).
+* Click **Reactivate** to recall the scheduling for all appointments in the selected chain(s).
+* Click **Export** to retrieve the `.csv` file for the search.
+* Click a result line to open the form for this chaining constraint. You can then edit it, for example to add or delete an appointment, or apply any other action, such as changing the appointment status or editing the dates of selected appointments.
 
-The Reactivate button lets you recall the scheduling for all appointments contained in the selected chain(s).\
-The Export button lets you retrieve the .csv file for the search.\
-Click on a result line to open the form for this chaining constraint. It will then be possible to edit as required to add or delete an appointment, or apply any other additional action, for example change the appointment status or edit selected appointment dates.
+## Appointment alerts
 
-### Appointment alerts
+This function returns you to the [appointment counters](theinformationpane.md) function.
 
-This function returns you to the [appointment counters](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-cadre-info.html#compteurs-rdv) function.
+## Customer gap
 
-### Customer gap
+This function lets you [search](objectsintheplanningmodule.md) for [appointments](objectsintheplanningmodule.md) for which the customer recurrence constraint defined in the [customer form](objectsintheplanningmodule.md) is not respected.
 
-This function is used to [search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) for [appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-rdv) for which the recurrence of customers constraint defined in the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-projet) is not respected.
+The result is a list of appointments. Its fields are defined in the [appointment section](objectsintheplanningmodule.md).
 
-The result is given in the form of a list of appointments, the fields of which are defined in the [appointment section](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv).
+## Alerts on route duration
 
-### Alerts on route duration
-
-This allows you to filter on:
+This function lets you filter on:
 
 * Date
 * Mobile resource
 * Status
 * Worksite
-* Maximum journey time or distance (in minutes or km): minimum journey duration or distance
+* Maximum journey time or distance (in minutes or km)
 
-The search options are described in the [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#recherche-generique-filtre) chapter.
+<!-- REVIEW: source reads "Maximum journey time or distance (in minutes or km): minimum journey duration or distance"; the maximum/minimum wording is contradictory -->
 
-The [search results](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#resultat-recherche-client) present a list of customers.
+The search options are described in the [Search](objectsintheplanningmodule.md) chapter.
 
-### Application warning messages
+The search results show a list of customers.
 
-This menu provides access to application alert messages subscribed to in the [@menu(Administration)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#abo) module: these constitute the journal of technical exchanges and modifications made in the background to the application, like, for example:
+## Application warning messages
 
-* results of CSV imports: success, error, etc. ;
+This menu gives access to the application alert messages subscribed to in the [@menu(Administration)](../administration/userhandling.md) module. These messages form the journal of technical exchanges and background modifications made to the application, for example:
+
+* results of CSV imports (success, error, etc.);
 * webservice calls;
-* modifications made to optimisation parameters;
+* modifications made to optimization parameters;
 * etc.
 
-This allows a technical user to track and diagnose the events having an impact on the application.
+<!-- REVIEW: link text "@menu(Administration)" looks like an unresolved macro; link target kept as in source -->
 
-Application warning message screen
+A technical user can use this journal to track and diagnose the events that affect the application.
 
-![](../.gitbook/assets/alertes-applicatives.png)
+![Application warning message screen](../.gitbook/assets/alertes-applicatives.png)
 
-The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
+The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
-### Messaging service
+## Messaging service
 
-This menu provides access to a full messaging service for the purpose of consulting, writing, sending or deleting messages exchanged between users.\
-The user can refresh this list at any time by clicking on the ![images/ref/buttons/recharger.png](../.gitbook/assets/recharger.png) button located at the top right of the information pane.
+This menu gives access to a full messaging service. You use it to read, write, send or delete messages exchanged between users. To refresh the list at any time, click the ![Refresh button](../.gitbook/assets/recharger.png) button at the top right of the information pane.
 
-This messaging manager displays messages in table form showing their status: unread, received, sent or all these (_read_, _answered_, _sent_, _draft_). Each column can be sorted.\
-When you click on a line, the details of the corresponding message appear (sender, recipient, issue date, publication start and end dates, message body text).\
-Various actions can then be applied to this message:
+The messaging manager displays messages in a table showing their status: unread, received, sent or all of these (_read_, _answered_, _sent_, _draft_). You can sort each column.
 
-* mark as unread,
-* reply,
+When you click a line, the details of the message appear: sender, recipient, issue date, publication start and end dates, and message body text. You can then apply the following actions to the message:
+
+* mark as unread;
+* reply;
 * delete.
 
-You can also write a new message by clicking on the + New message button.\
-Enter:
+### Write a new message
 
-* the recipient(s) selecting from the [resources](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH) and [teams](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#equipe) for the current area (or from one or several available if the area favourites are enabled),
-* (optional) a notification start date in the case of a delayed sending action,
-* (optional) a notification end date where an expiry date is applied,
-* the body of the message.
+1. Click **+ New message**.
+2. Enter the recipient(s). Select from the [resources](../administration/companydata.md) and [teams](../administration/companydata.md) of the current area (or from one or several available areas if the area favorites are enabled).
+3. (Optional) Enter a notification start date to delay sending.
+4. (Optional) Enter a notification end date to apply an expiry date.
+5. Enter the body of the message.
+6. Send the message or save it as a draft.
 
-It will then be possible to send the message or save it as a draft.
+## Modify the appointments of the past
 
-### Modify the appointments of the past
+This page modifies the characteristics of a past appointment. Notably, you use it to declare that the appointment has been fulfilled and under what conditions.
 
-This page modifies the characteristics of a past appointment, and notably declares that it has been fulfilled and under what conditions.
+It also lets you align the past agendas of resources with the routes actually fulfilled, by adding appointments.
 
-It also enables resources' past agendas to be put into correspondence with routes fulfilled by adding appointments;
+### Modify the current status of past plannings
 
-#### Modify the current status of past plannings
+The first window asks you to choose the route to modify, using a resource and a date.
 
-The first window requests you choose, via a resource and a date, the route to modify.
+![Choosing the resource and date of the route to modify](../.gitbook/assets/modifier-les-rendez-vous-du-passe.png)
 
-![](../.gitbook/assets/modifier-les-rendez-vous-du-passe.png)
+The application searches for and lists the appointments that can be modified.
 
-The application searches for, and lists the appointments likely to be modified.
+![List of appointments that can be modified](../.gitbook/assets/modifier-les-rendez-vous-du-passe-1.png)
 
-![](../.gitbook/assets/modifier-les-rendez-vous-du-passe-1.png)
+For each appointment, some characteristics are shown for reference, for example the address, date, status and time window. A drop-down menu lets you change the default value **Do nothing**:
 
-For each appointment, certain characteristics are given as reference, for example, the address, the date, the status and the time window. A drop-down menu proposes to modify the default value **Do nothing**:
+* **Do nothing** – does not modify the appointment.
+* **Modify** – lets you modify the timeslot(s).
 
-* **Do nothing** does not modify the appointment;
-*   **Modify** allows you to modify the timeslot(s);
+  {% hint style="info" %}
+  In this mode, you can edit the timeslot times as required.
+  {% endhint %}
 
-    |                                                             |     |
-    | ----------------------------------------------------------- | --- |
-    | \[Tip]                                                      | Tip |
-    | In this mode, the timeslot times can be edited as required. |     |
-* It is possible to add several time windows clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add.png) button.
-* The ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) button deletes the time windows.
-* Click on the ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv.png) button having first made any modifications required. You can then cancel all the modifications applied by clicking on the ![images/ref/buttons/bouton-invalider-creneau.png](../.gitbook/assets/bouton-invalider-creneau.png) button.
-* **Reactivate** enables the appointment to return to _Requested_ status.
-* **Fulfilled** serves to signal that the appointment has been fulfilled and to fill in any additional information relating to the fulfilment of the appointment (income generated, status of the task in hand, Follow-up required, and different comment lines that can be filled in).
-* **Unplan** allows you to exit from the appointment in the planning.
+  * Click the ![Add button](../.gitbook/assets/bouton-add.png) button to add several time windows.
+  * Click the ![Delete button](../.gitbook/assets/bouton-delete.png) button to delete time windows.
+  * Make any required modifications, then click the ![Make an appointment button](../.gitbook/assets/bouton-prendre-rdv.png) button. You can then cancel all the modifications applied by clicking the ![Invalidate timeslot button](../.gitbook/assets/bouton-invalider-creneau.png) button.
+* **Reactivate** – returns the appointment to _Requested_ status.
+* **Fulfilled** – signals that the appointment has been fulfilled and lets you enter additional information about its fulfilment (income generated, status of the task, follow-up required, and different comment lines).
+* **Unplan** – removes the appointment from the planning.
 
-#### Adding an appointment to a past planning
+### Adding an appointment to a past planning
 
-* An appointment can be added to a past planning of a resource. For example, an appointment planned for the next day may have been fulfilled ahead of time (an emergency, a timeslot liberated unexpectedly, etc).
-* Click on the "Choose" drop-down menu at the bottom of the window and select "Add an appointment".
-* A window proposes to search on requested, planned and confirmed appointments. It will be possible to define a certain number of criteria to recover the appointment(s) that must be added to the planning. Once the form has been filled, click on Search to run the search.
-* Search on appointments likely to be added to a past planning.
+You can add an appointment to the past planning of a resource. For example, an appointment planned for the next day may have been fulfilled ahead of time (emergency, timeslot freed unexpectedly, etc.).
 
-![](../.gitbook/assets/modif-rdv-passe-ajouter-rdv.png)
+1. In the **Choose** drop-down menu at the bottom of the window, select **Add an appointment**.
+2. In the window that opens, define the criteria to find the appointment(s) to add to the planning. You can search on requested, planned and confirmed appointments.
+3. Click **Search** to run the search.
 
-* The application proposes to list the appointments found, and you then just have to click on the appointment to add to the past planning.
-* Before the final validation of the addition of this appointment, the operator must indicate the time window for the intervention at the customer’s premises. They must also supply details of the start and end time of the appointment, and if appropriate, the actual duration.
+   ![Search for appointments to add to a past planning](../.gitbook/assets/modif-rdv-passe-ajouter-rdv.png)
 
-### Display agendas
+4. In the list of appointments found, click the appointment to add to the past planning.
+5. Indicate the time window for the intervention at the customer's premises. Also supply the start and end time of the appointment and, if appropriate, the actual duration.
 
-This function reinitialises the [planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html).
+<!-- REVIEW: source does not state the final validation control for adding the appointment -->
 
-### Handling unavailabilities
+## Display agendas
 
-This page serves to [add](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer) or [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-supprimer) [unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#centre-d-appel-indisponibilite) to plannings managed by the user. It will be possible to create unavailabilities for one or several resources simultaneously (handling of meetings) to supply details of appointment times, predefined or free, a recurrence, to overwrite an address, or add a commentary etc.
+This function reinitializes the [planning](theplanning.md).
 
-This page is described in the [Unavailability form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-indispo) chapter.
+## Handling unavailabilities
 
-### Unavailability search
+This page lets you [add](objectsintheplanningmodule.md) or [delete](objectsintheplanningmodule.md) [unavailabilities](objectsintheplanningmodule.md) in the plannings you manage. You can create unavailabilities for one or several resources simultaneously (handling of meetings), specify predefined or free appointment times and a recurrence, overwrite an address, add a comment, etc.
 
-This page allows you to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer), modify or [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-supprimer) [unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#centre-d-appel-indisponibilite).
+This page is described in the [Unavailability form](objectsintheplanningmodule.md) chapter.
 
-![](../.gitbook/assets/recherche-indispo.png)
+## Unavailability search
 
-* The search page contains [search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) fields. Clicking on Search, the [list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat) of unavailabilities displays.
-* The search fields are described in the [unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-indispo) form.
-* Click on a line in the search result to access the [reduced unavailability form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-reduite-indispo).
+This page lets you search for, [create](objectsintheplanningmodule.md), modify or [delete](objectsintheplanningmodule.md) [unavailabilities](objectsintheplanningmodule.md).
 
-|                                                                                                                                          |     |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                   | Tip |
-| The Selected unavailabilities link lists unavailabilities selected in the result list via the images/ref/buttons/bouton-add2.png button. |     |
+![Unavailability search page](../.gitbook/assets/recherche-indispo.png)
 
-### Editing the roadbook
+* The search page contains [search](objectsintheplanningmodule.md) fields. Click **Search** to display the [list](objectsintheplanningmodule.md) of unavailabilities.
+* The search fields are described in the [unavailabilities](objectsintheplanningmodule.md) form.
+* Click a line in the search result to open the [reduced unavailability form](objectsintheplanningmodule.md).
 
-This function displays and describes the different appointments and scheduled interventions for a chosen duration (day/week) for a connected resource/team.
+{% hint style="info" %}
+The **Selected unavailabilities** link lists the unavailabilities selected in the result list with the ![Add to selection button](../.gitbook/assets/bouton-add2.png) button.
+{% endhint %}
 
-![](../.gitbook/assets/feuille-route.png)
+## Editing the roadbook
 
-The screen shows the forecasted planning for the chosen duration.
+This function displays and describes the appointments and scheduled interventions for a chosen duration (day or week) for a connected resource or team.
 
-The roadbook describes all the different interventions of the day by type and in chronological order.\
-For each appointment, different items of information are suggested that vary depending on the type of intervention.\
-For each event in the day an access plan is provided by clicking on the ![images/ref/buttons/bouton-corriger-adresse.png](../.gitbook/assets/bouton-corriger-adresse.png) button.\
-Opening the access plan opens a floating window showing the map centered on the event, shown as a circular symbol indicating the appointment time.\
-This window can be resized on the screen, so it can be enlarged or reduced to match the space reserved for the map. Certain graphical manipulations are possible via the utilisation of the vertical bar, at the top left of the window:
+![Roadbook](../.gitbook/assets/feuille-route.png)
 
-* Move the cursor towards the + to perform a zoom on the map (the mouse wheel can perform the same function if need be);
-* Move the cursor towards the – to perform a zoom-out on the map (or use the mouse wheel);
-* Hold down the left-hand button on the mouse and slide the cursor to pan the map.
+The screen shows the forecast planning for the chosen duration.
 
-Exporting the roadbook in pdf format
+The roadbook describes all the interventions of the day by type and in chronological order. For each appointment, the items of information shown vary depending on the type of intervention.
 
-![](../.gitbook/assets/export-feuille-route.png)
+For each event of the day, an access plan is available: click the ![Correct address button](../.gitbook/assets/bouton-corriger-adresse.png) button. The access plan opens in a floating window showing the map centered on the event, shown as a circular symbol indicating the appointment time. You can resize this window to match the space you want for the map. Use the vertical bar at the top left of the window to manipulate the map:
 
-The user can generate a file in .pdf format from the roadbook to display it on the screen.\
-The **Add detailed maps** check-box inserts the map in the `.pdf` file.
+* Move the cursor towards **+** to zoom in on the map (you can also use the mouse wheel).
+* Move the cursor towards **–** to zoom out on the map (you can also use the mouse wheel).
+* Hold down the left mouse button and slide the cursor to pan the map.
 
-|                                                                                                                |     |
-| -------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                         | Tip |
-| The **Add global map** check-box is operational only if the map display is configured on GCIS, and not on HTC. |     |
+### Exporting the roadbook
 
-You can also generate a file in Garmin, TomTom, HTML or xml format in order to be able to read the roadbook in a GPS navigation application.
+![Exporting the roadbook in PDF format](../.gitbook/assets/export-feuille-route.png)
 
-Click on Back to redisplay the last week’s planning viewed.
+You can generate a `.pdf` file from the roadbook to display it on the screen. Select the **Add detailed maps** check box to insert the maps in the `.pdf` file.
 
-### Exceptional locations
+{% hint style="info" %}
+The **Add global map** check box works only if the map display is configured on GCIS, and not on HTC.
+{% endhint %}
 
-This menu serves to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-supprimer) [exceptional locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#localisations-exceptionnelles).
+You can also generate a file in Garmin, TomTom, HTML or XML format to read the roadbook in a GPS navigation application.
 
-Search for exceptional locations
+Click **Back** to redisplay the last week's planning you viewed.
 
-![](../.gitbook/assets/page-localisation-exceptionnelle.png)
+## Exceptional locations
 
-* The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
-* The search fields are described in the [exceptional location form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-loc-exceptionnelle).
-* The ![images/ref/buttons/bouton-suggerer-localisation-exceptionnelle.png](../.gitbook/assets/bouton-suggerer-localisation-exceptionnelle.png) button runs an analysis of the panel of appointments to plan, and suggests exceptional locations to fulfil distant appointments.
-* Clicking on a line in the result list returns you to the [exceptional location form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-loc-exceptionnelle).
-* The Forced mode check-box makes it possible to ignore journey times when deleting an exceptional location.
-* The Confirm/Unconfirm button allows you to change the status of the selected exceptional locations from _confirmed_ to _to confirm_ and vice versa.
+This menu lets you search for, [create](objectsintheplanningmodule.md) and [delete](objectsintheplanningmodule.md) [exceptional locations](objectsintheplanningmodule.md).
 
-|                                                                                                                                                                                                             |     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                      | Tip |
-| Unconfirmed exceptional locations can be modified during a [batch optimisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#planif-optim). |     |
+![Search for exceptional locations](../.gitbook/assets/page-localisation-exceptionnelle.png)
 
-### Hotel locations
+* The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
+* The search fields are described in the [exceptional location form](objectsintheplanningmodule.md).
+* The ![Suggest exceptional locations button](../.gitbook/assets/bouton-suggerer-localisation-exceptionnelle.png) button analyzes the panel of appointments to plan and suggests exceptional locations to fulfil distant appointments.
+* Click a line in the result list to open the [exceptional location form](objectsintheplanningmodule.md).
+* The **Forced mode** check box makes it possible to ignore journey times when deleting an exceptional location.
+* The **Confirm/Unconfirm** button changes the status of the selected exceptional locations from _confirmed_ to _to confirm_ and vice versa.
 
-This page allows you to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer) and [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-supprimer) [hotels](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-hotel).
+{% hint style="info" %}
+Unconfirmed exceptional locations can be modified during a [batch optimization](../administration/optimisation.md).
+{% endhint %}
 
-Search screen for hotel locations
+## Hotel locations
 
-![](../.gitbook/assets/hotel-rechercher.png)
+This page lets you search for, [create](objectsintheplanningmodule.md) and [delete](objectsintheplanningmodule.md) [hotels](objectsintheplanningmodule.md).
 
-* The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
-* The **Close to** field allows you to filter on towns including presaved hotels.
-* The search fields are described in the [hotel location form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-hotel).
-* Clicking on a line in the result table returns you to the [hotel location form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-hotel).
+![Search screen for hotel locations](../.gitbook/assets/hotel-rechercher.png)
 
-### Locked day
+* The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
+* The **Close to** field filters on towns that include pre-saved hotels.
+* The search fields are described in the [hotel location form](objectsintheplanningmodule.md).
+* Click a line in the result table to open the [hotel location form](objectsintheplanningmodule.md).
 
-This page allows you to search and [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer) [locked days](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-journees-verr) in resources' agendas.
+## Locked day
 
-Search screen for locked days
+This page lets you search for and [create](objectsintheplanningmodule.md) [locked days](objectsintheplanningmodule.md) in the agendas of resources.
 
-![](../.gitbook/assets/page-date-controlee.png)
+![Search screen for locked days](../.gitbook/assets/page-date-controlee.png)
 
-The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
+The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
-The search fields are [configurable](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli), they are described in the [locked day form in the agenda](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-journee-verrouillee).
+The search fields are [configurable](../administration/customization.md) and are described in the [locked day form in the agenda](objectsintheplanningmodule.md).
 
-|                                                                               |      |
-| ----------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                       | Note |
-| Before version 8.4, only the **Closed** status is handled by the application. |      |
+{% hint style="info" %}
+Before version 8.4, the application handles only the **Closed** status.
+{% endhint %}
 
-* Clicking on a line in the result table displays the corresponding [locked day form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-journee-verrouillee).
-* The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button serves to create a new locked day for the resource selected in the drop-down list. This button opens the [locked day form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-journee-verrouillee) in edit mode.
+* Click a line in the result table to open the corresponding [locked day form](objectsintheplanningmodule.md).
+* Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to create a new locked day for the resource selected in the drop-down list. The [locked day form](objectsintheplanningmodule.md) opens in edit mode.
 
-### Manage agenda markers
+## Manage agenda markers
 
-This page serves to search, [create](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-creer), modify or [delete](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-supprimer) [agenda markers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-jalons).
+This page lets you search for, [create](objectsintheplanningmodule.md), modify or [delete](objectsintheplanningmodule.md) [agenda markers](objectsintheplanningmodule.md).
 
-Agenda marker search screen
+![Agenda marker search screen](../.gitbook/assets/jalons-recherche.png)
 
-![](../.gitbook/assets/jalons-recherche.png)
+* The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
+* The search fields are described in the [agenda marker form](objectsintheplanningmodule.md).
+* Click a line in the result table to open the [agenda marker form](objectsintheplanningmodule.md).
+* Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to create an agenda marker for the resource selected in the drop-down list. The [agenda marker form](objectsintheplanningmodule.md) opens in edit mode.
 
-* The principle of the search functions is described in the [Search in the Planning module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) chapter.
-* The search fields described in the [agenda marker form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-jalon).
-* Clicking on a line in the result table returns you to the [agenda marker form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-jalon).
-* The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button allows you to create an agenda marker for the resource selected in the drop-down list. This button opens the [agenda marker form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-jalon) in edit mode.
+## Vehicles tracking
 
-### Vehicles tracking
+For a given worksite, this function lists and maps the last known position of [vehicles](../administration/mobility.md) that have an on-board [tracking device](../administration/mobility.md) [assigned](../administration/mobility.md) to a resource for a given period.
 
-This function allows you, for a given worksite, to list and map the last known position of [vehicles](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-vehicules) with an on-board [tracking device](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-equip-suivi) [assigned](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-affectation) to a resource for a given period.
+![Vehicles tracking](../.gitbook/assets/suivi-vehicule.png)
 
-![](../.gitbook/assets/suivi-vehicule.png)
+{% hint style="info" %}
+This function requires the application to be configured with a [positions server](../administration/mobility.md).
+{% endhint %}
 
-This assume that the application has been configured so it is associated to a [positions server](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-parametres).
-
-### Compute a route
+## Compute a route
 
 This function calculates a route and displays the route sheet or roadbook.
 
-The first page of the function comprises the following fields:
+The first page of the function contains the following fields:
 
-![](../.gitbook/assets/calc-iti.png)
+![Compute a route: first page](../.gitbook/assets/calc-iti.png)
 
-* In the **Start** section, you will need to enter the start [address](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html).
-* In the **Arrival** section, enter the arrival [address](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html).
-* Next, it is possible to choose either the **start time** or the **arrival time**, and a **vehicle profile** lets you choose from a variety of preconfigured vehicles (car, truck, light delivery vehicle, delivery truck, bus, emergency vehicle, emergency truck, taxi, bicycle, pedestrian) with technical specificities (average speeds, access restrictions to various types of road…) that will then be taken into account for the calculation.
+* **Start** – enter the start address.
+* **Arrival** – enter the arrival address.
+* **start time** or **arrival time** – choose one of the two.
+* **vehicle profile** – choose from a variety of preconfigured vehicles (car, truck, light delivery vehicle, delivery truck, bus, emergency vehicle, emergency truck, taxi, bicycle, pedestrian). Their technical specificities (average speeds, access restrictions to various types of road, etc.) are taken into account in the calculation.
 
-|                                                                         |         |
-| ----------------------------------------------------------------------- | ------- |
-| \[Warning]                                                              | Warning |
-| The arrival / departure times only operate if a suitable graph is used. |         |
+{% hint style="warning" %}
+The arrival and departure times work only if a suitable graph is used.
+{% endhint %}
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                  |     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                                                                                                                                           | Tip |
-| **Opti-Time** lets you define different speeds as a function of defined time windows so that changing traffic conditions throughout the day can be taken into account. These speed profiles (_Speed Patterns_) must be enabled and defined from the Administration module (Customization > Configuration > Application > Itinerary computation > SmartRouting > isSpeedPatternUsed and allSpeedPatternInterval). They will then be applied here. |     |
+{% hint style="info" %}
+NFS lets you define different speeds for defined time windows, so that changing traffic conditions throughout the day can be taken into account. These speed profiles (_Speed Patterns_) must be enabled and defined in the Administration module (Customization > Configuration > Application > Itinerary computation > SmartRouting > `isSpeedPatternUsed` and `allSpeedPatternInterval`). They are then applied here.
+{% endhint %}
 
-* The Reset button reinitialisess all fields.
-* The Compute route button runs the calculation.
-* The second page comprises the result of the route calculation:
+* Click **Reset** to reinitialize all fields.
+* Click **Compute route** to run the calculation.
 
-![](../.gitbook/assets/calc-iti-result.png)
+The second page contains the result of the route calculation:
 
-* The ![images/ref/buttons/bouton-exporter-resultat.png](../.gitbook/assets/bouton-exporter-resultat.png) Export button exports the results.
-* The ![images/ref/buttons/play.png](../.gitbook/assets/play.png) Start button displays the journey on the map as a series of route steps.
-* Zoom-in on a particular step in the route simply by clicking on it.
-* The Back link returns you to the first page.
-* The 15-30 minutes before / after link moves the departure times forwards or back (if the graph installed permits this).
-* The Return journey link returns you to the first page, reversing the start and arrival addresses.
+![Compute a route: result page](../.gitbook/assets/calc-iti-result.png)
 
-### Convert coordinates into Lat/Lon
+* The ![Export button](../.gitbook/assets/bouton-exporter-resultat.png) **Export** button exports the results.
+* The ![Start button](../.gitbook/assets/play.png) **Start** button displays the journey on the map as a series of route steps.
+* Click a step of the route to zoom in on it.
+* The **Back** link returns you to the first page.
+* The **15-30 minutes before / after** link moves the departure times forwards or back (if the installed graph permits it).
+* The **Return journey** link returns you to the first page, with the start and arrival addresses reversed.
 
-This function allows you to calculate the coordinates of an address in Latitude/Longitude (that is, in terms of geographic coordinates).
+## Convert coordinates into Lat/Lon
 
-![](../.gitbook/assets/convert-lat-lon.png)
+This function calculates the coordinates of an address in latitude/longitude (geographic coordinates).
 
-This page contains [address](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) fields.
+![Convert coordinates into Lat/Lon](../.gitbook/assets/convert-lat-lon.png)
 
-The Convert button runs the calculation and returns the coordinates in Latitude/Longitude in the lower frame.
+This page contains address fields.
 
-### Search around
+Click **Convert** to run the calculation. The coordinates in latitude/longitude appear in the lower frame.
 
-This function displays the worksites, vehicles, clients, hotels, or appointments nearby an address.
+## Search around
 
+This function displays the worksites, vehicles, customers, hotels or appointments near an address.
 
+![Search around: search page](../.gitbook/assets/recherche-environ-1.png)
 
-![](../.gitbook/assets/recherche-environ-1.png)
+* The page contains an address section.
+* A drop-down list lets you select the type of object you want.
+* The **Search** button searches for the selected objects around the saved address.
+* The following [result list](objectsintheplanningmodule.md) then displays:
 
-* This page contains an [address](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) section.
-* A drop-down list in which the desired object type can be selected.
-* The Search button searches for selected objects in the drop-down list of the saved address.
-* The following [result list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat) then displays:
+![Search around: result list](../.gitbook/assets/recherche-environ-2.png)
 
-Search around
+* If the search is applied to customers or appointments, the ![Add button](../.gitbook/assets/bouton-add2.png) button adds the customer to the customer panel, or the appointment to the list of selected appointments, respectively.
+* The ![Route button](../.gitbook/assets/iti.png) button runs a route calculation between the address entered and the corresponding object.
+* Click the name of the object to open its [form](objectsintheplanningmodule.md).
 
-![](../.gitbook/assets/recherche-environ-2.png)
+## Verify circulation for the planning
 
-* If the search is applied to customers or appointments, the ![images/ref/buttons/bouton-add2.png](../.gitbook/assets/bouton-add2.png) button allows you to add the customer to the [customer panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients), or the appointment to the [list of selected appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#lister-rdv-select), respectively.
-* The ![images/ref/buttons/iti.png](../.gitbook/assets/iti.png) button runs a [route calculation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#calc-iti) between the address entered and the corresponding object.
-* Clicking on the name of the object returns you to the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral).
+This function lets you verify whether the suggested planning is compatible with the current traffic status.
 
-### Verify circulation for the planning
+![View of traffic](../.gitbook/assets/traffic-vue.png)
 
-This function allows you to verify whether the planning suggested is compatible with the current traffic status.
+* The ![Display traffic button](../.gitbook/assets/ca-fleche.png) button displays the traffic status corresponding to the view displayed in the [planning](theplanning.md).
+* The ![Legend button](../.gitbook/assets/bouton-legende.png) button displays the legend for the page:
 
-View of traffic
+![Traffic legend](../.gitbook/assets/circulation-legende.png)
 
-![](../.gitbook/assets/traffic-vue.png)
+* The ![Back button](../.gitbook/assets/bouton-retour.png) button takes you back to the preceding traffic status.
+* The ![Refresh traffic button](../.gitbook/assets/recyclage.png) button refreshes the traffic status.
+* Click a check box in the traffic status to open the appointment management page:
 
-* The ![images/ref/buttons/ca-fleche.png](../.gitbook/assets/ca-fleche.png) button displays the status of traffic corresponding to the view displayed in the [planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#selection-vues).
-* The ![images/ref/buttons/bouton-legende.png](../.gitbook/assets/bouton-legende.png) button displays the legend for the page:
+![Manage traffic page](../.gitbook/assets/traffic-gerer.png)
 
-![](../.gitbook/assets/circulation-legende.png)
+The first column shows the confirmed appointment graphically: the ![Appointment position in the planning](../.gitbook/assets/rdv-traffic.png) image represents the position of the appointment in the planning. The appointment concerned is the second item in the image.
 
-* The ![images/ref/buttons/bouton-retour.png](../.gitbook/assets/bouton-retour.png) button takes you back to the preceding traffic status.
-* The ![images/ref/buttons/recyclage.png](../.gitbook/assets/recyclage.png) button refreshes the traffic status.
-* Clicking on a check-box in the traffic status displays the next appointment management page:
+* **Journey from** – the start address for the mission.
+* **Journey to** – the arrival address for the mission.
+* **Departure** and **Arrival** – the departure and arrival times for the appointment.
+* **Recalculated departure** and **Recalculated arrival** – the departure and arrival times for the appointment after the journey time is recalculated to take traffic into account.
+* **Destination event** – the name and address of the next event in the planning.
+* **Travel distance revised** and **Travel time revised** – the distance and time of travel, recalculated to take traffic into account.
+* **Consequences** – details of any anticipated delay or late arrival.
+* **Advice** – any relevant scheduling advice. For example, the **Remove** link lets you remove the appointment from the planning.
 
-Manage traffic
+{% hint style="info" %}
+Traffic conditions are available only if a graph that permits this is used. The traffic status is calculated statistically and may deviate from the reality on the ground.
+{% endhint %}
 
-![](../.gitbook/assets/traffic-gerer.png)
+## Predefined exports list
 
-The first column represents the confirmed appointment graphically: the ![images/ref/planification/rdv-traffic.png](../.gitbook/assets/rdv-traffic.png) image represents the position of the appointment in the planning. The appointment concerned is represented by the second item in the image.
+Predefined exports let you export data in `.csv` format according to the fields predefined in the [application settings](../administration/customization.md).
 
-The **Journey from** field gives the start address for the mission.
+![Predefined exports list](../.gitbook/assets/liste-exports-predef.png)
 
-The **Journey to** field gives the arrival address for the mission.
+You can filter the predefined export on the following fields:
 
-The **Departure** and **Arrival** fields give the departure and arrival times for the appointment.
-
-The **Recalculated departure** and **Recalculated arrival** fields give the departure and arrival times for the appointment following recalculation of the journey time while taking the traffic into account.
-
-The **Destination event** field gives the name and address of the next event in the planning.
-
-The **Travel distance revised** and **Travel time revised** fields give the distance and the time of travel, recalculated to take the traffic into account.
-
-The **Consequences** field gives details of any delay or late arrival anticipated.
-
-The **Advice** field gives any relevant scheduling advice. For example, the Remove link allows you to remove the appointment from the planning.
-
-|                                                                                                                                                                            |      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                    | Note |
-| Traffic conditions are available only if a graph that permits this is used. The traffic status is calculated statistically and may deviate from the reality on the ground. |      |
-
-### Predefined exports list
-
-Predefined exports will allow export in .csv format of data according to the fields predefined in the [application settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli).
-
-Planning
-
-![](../.gitbook/assets/liste-exports-predef.png)
-
-The interface allows you to filter the predefined export as a function of the following fields:
-
-* **Export type**: list containing the names of any predefined exports
-* The **area**
-* The **Mobile resource**
+* **Export type** – list containing the names of any predefined exports
+* **area**
+* **Mobile resource**
 * **Achieved by**
 * **Actual leader**
-* The **planner**
-* The **team**
-* The **type**
-* The **worksite**
-* The appointments [**status**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts)
-* The appointments [**progression step**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#etats-avancement)
-* The **date**
+* **planner**
+* **team**
+* **type**
+* **worksite**
+* Appointments [**status**](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)
+* Appointments [**progression step**](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)
+* **date**
 
-The Export button retrieves the .csv file containing the desired export.
+Click **Export** to retrieve the `.csv` file containing the export.
 
-Below, a table summarises information about the export (number of lines exported, execution times, etc.)
+Below the filters, a table summarizes information about the export (number of lines exported, execution times, etc.).
 
-|                                                                                                                                                                                   |         |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                        | Warning |
-| Some filters are not possible, as their utilisation will depend on the type of export selected. For example, for an export of Customer type, the Status filter will not function. |         |
+{% hint style="warning" %}
+Some filters are not available, because their use depends on the type of export selected. For example, for an export of the Customer type, the **Status** filter does not work.
+{% endhint %}
 
-### Custom reports
+## Custom reports
 
-This function is identical to that of [predefined exports](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-exports-predef) except that it is not based on the [application settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli), but on the .sql files stored in the ad hoc directory on the server.
+This function is identical to [Predefined exports list](#predefined-exports-list), except that it is not based on the [application settings](../administration/customization.md), but on the `.sql` files stored in the ad hoc directory on the server.

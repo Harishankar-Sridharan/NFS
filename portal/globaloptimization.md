@@ -1,46 +1,46 @@
 # Global Optimization
 
-This function provides access to optimization management commands (see the **Administration** module), including a command for performing optimization on individual files.
+## Overview
 
-### Export tab
+This function gives access to the optimization management commands (see the Administration module), including a command for running an optimization on individual files.
 
-This function performs an optimisation and retrieves the result in à file.
+## Export tab
 
-|                                              |     |
-| -------------------------------------------- | --- |
-| \[Tip]                                       | Tip |
-| This function does not modify the plannings. |     |
+The **Export** tab runs an optimization and retrieves the result in a file.
 
+{% hint style="info" %}
+This function does not modify the plannings.
+{% endhint %}
 
+![Export tab for global optimization](../.gitbook/assets/portail-export-optim.png)
 
-![](../.gitbook/assets/portail-export-optim.png)
+To run an optimization:
 
-To run an optimization, select an **area**, specify the **period**, and choose the **optimization type**:
-
-* **Fast** – Optimizes only the selected appointments.
-* **Total** – Re-optimizes all planned appointments, except confirmed appointments, and inserts new requests.
+1. Select an **area**.
+2. Specify the **period**.
+3. Choose the **optimization type**:
+   * **Fast** – Optimizes only the selected appointments.
+   * **Total** – Re-optimizes all planned appointments, except confirmed appointments, and inserts new requests.
 
 The optimization file is created at the specified location.
 
-### Import tab
+## Import tab
 
-This function allows you to import a filé for optimization.
+The **Import** tab imports a file for optimization.
 
-|                                                                      |     |
-| -------------------------------------------------------------------- | --- |
-| \[Tip]                                                               | Tip |
-| The result of this optimisation will be imported into the plannings. |     |
+{% hint style="info" %}
+The result of this optimization is imported into the plannings.
+{% endhint %}
 
+![Import tab for global optimization](../.gitbook/assets/portail-import-optim.png)
 
+1. Select a file to import.
+2. Click **Update**.
 
-![](../.gitbook/assets/portail-import-optim.png)
+## Automatic tab
 
-First, select a file to import, and then click on Update.
+See [Optimization](../administration/optimisation.md) in the Administration module.
 
-### Automatic tab
+## Journal tab
 
-(cf [Administration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#optim-service) module)
-
-### Journal tab
-
-(cf [Administration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#optim-journal) module)
+See [Optimization](../administration/optimisation.md) in the Administration module.

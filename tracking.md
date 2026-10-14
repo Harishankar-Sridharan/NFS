@@ -1,19 +1,27 @@
 # Tracking
 
-The Tracking module in **Nomada** is accessible only when the [corresponding right](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) (Tracking tab > Perimeter > **TRACKFLEET\_GUEST** right) is associated to the user profile.
+## Overview
 
-This module allows the user to display, in real time, the GPS positions of [mobile resources](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-info) assigned to an [vehicle](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-vehicules) and a [tracking device](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/mob.html#mob-equip-suivi), as a function of the user’s region of affiliation. A filter is also possible depending on the [worksite](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#site-travail), using the Filter device table link.
+The Tracking module lets you display, in real time, the GPS positions of [mobile resources](administration/companydata.md) that are assigned a [vehicle](administration/mobility.md) and a [tracking device](administration/mobility.md). The positions shown depend on your region of affiliation. You can also filter by [worksite](administration/companydata.md) using the **Filter device table** link.
 
-![](.gitbook/assets/accueil_2.png)
+![Tracking module home page](.gitbook/assets/accueil_2.png)
 
-|                                                                                                                                                                                                                                                                                                          |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                   | Tip |
-| The display for items on this page can be horizontal or vertical images/ref/buttons/bouton-tracking-pos.png. It can also be personalised using the **Settings** button images/ref/buttons/bouton-tracking-param.png (filter on the display of position markers, personalisation of table fields, … etc). |     |
+## Prerequisites
+
+You can access the Tracking module only if the [corresponding right](administration/userhandling.md) (**Tracking** tab > **Perimeter** > `TRACKFLEET_GUEST` right) is associated with your user profile.
+
+## Track a resource
 
 1. Select a day and the period.
-2. In the **Vehicles** tab, check the resource (resource/vehicle/device) that you would like to track.
-3. The map is automatically updated with visit points and the plot of any tracking points for the resource. Moving the mouse over these points brings up an infobox.\
-   A second tab under the selected resource name is also displayed and provides details of all the relevant waypoints (visit and tracking).
+2. In the **Vehicles** tab, select the resource (resource, vehicle or device) that you want to track.
+3. The map updates automatically with the visit points and the plot of any tracking points for the resource. Move the mouse over these points to display an infobox.
 
-![](.gitbook/assets/track.png)
+   A second tab under the selected resource name also appears. It provides details of all the relevant waypoints (visit and tracking).
+
+![Map with visit points and tracking points for the selected resource](.gitbook/assets/track.png)
+
+{% hint style="info" %}
+You can display the items on this page horizontally or vertically (`images/ref/buttons/bouton-tracking-pos.png`). You can also customize the display with the **Settings** button (`images/ref/buttons/bouton-tracking-param.png`), for example to filter the display of position markers or to customize table fields.
+{% endhint %}
+
+<!-- REVIEW: the two button icons (bouton-tracking-pos.png, bouton-tracking-param.png) are only text paths in the source and no matching image exists in .gitbook/assets -->

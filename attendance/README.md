@@ -1,19 +1,22 @@
 # Attendance
 
-The Attendance module in **Opti-Time** can only be accessed if the [corresponding rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) (Attendance tab > **ATTENDANCEMANAGER\_GUEST**, **ATTENDANCEMANAGER\_SHOW\_AREA** and either **ATTENDANCEMANAGER\_SHOW\_WORKSITES** or **ATTENDANCEMANAGER\_SHOW\_TEAMS**) are associated to the user profile.
+## Overview
 
-This is designed for use by managers and planning personnel.
+The Attendance module is designed for managers and planning personnel. It lets you:
 
-It allows the user to:
+* view the plannings in the selection, according to the temporary post assigned to each resource;
+* apply manual modifications to the resources' plannings quickly and easily.
 
-* view plannings in the selection as a function of the temporary post assigned to each resource;
-* easily and rapidly apply manual modifications to the resources' plannings.
+## Prerequisites
 
-Access the Attendance by clicking at the top in the [site header bar](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau.html).
+You can access the Attendance module only if the [corresponding rights](../administration/userhandling.md) are associated with your user profile: in the **Attendance** tab, `ATTENDANCEMANAGER_GUEST`, `ATTENDANCEMANAGER_SHOW_AREA` and either `ATTENDANCEMANAGER_SHOW_WORKSITES` or `ATTENDANCEMANAGER_SHOW_TEAMS`.
 
-In addition to the current [area](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/bandeau-changer-region.html), the user can enable/disable favourites for the area defined in the favourites management pane (filter on a selection of teams or worksites, corresponding by default to that defined in the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-perimetre), but that can be adjusted and redefined here).\
-If the [corresponding right](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) (Availabilities tab > Communication > **ATTENDANCEMANAGER\_VIEW\_MESSAGE** right) is associated to the user profile, access is also possible to any unread [messages](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#messages) that have been sent to the user, via the ![images/ref/buttons/courrier.png](../.gitbook/assets/courrier.png) icon. Note that this icon will disappear once no unread messages remain.
+## Access the Attendance module
 
-Accessing attendance
+Click **Attendance** in the header bar at the top of the page (see [The Header Bar](../guided-help-nfs-reference-guide-1/README.md)).
 
-![](../.gitbook/assets/dispo-dans-le-menu.png)
+![Attendance in the menu](../.gitbook/assets/dispo-dans-le-menu.png)
+
+In addition to the current area (see [Change the Area](../guided-help-nfs-reference-guide-1/change-area-nfs-reference-guide.md)), you can enable or disable favorites for the area in the favorites management pane. The favorites filter on a selection of teams or worksites. By default, this selection corresponds to the one defined in the area form (see [Company Data](../administration/companydata.md)), but you can adjust and redefine it here.
+
+If the [corresponding right](../administration/userhandling.md) (**Availabilities** tab > **Communication** > `ATTENDANCEMANAGER_VIEW_MESSAGE` right) is associated with your user profile, you can also access any unread messages sent to you (see [Menu](../planning/menu.md)), using the ![Mail icon](../.gitbook/assets/courrier.png) icon. This icon disappears once no unread messages remain.

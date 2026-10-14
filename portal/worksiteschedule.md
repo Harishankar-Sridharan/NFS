@@ -1,53 +1,60 @@
 # Worksite Schedule
 
-This page displays the planning for one or more resources based on their assigned worksite. To access it, click **Worksite Schedule** in the main menu.
+## Overview
 
-Depending on the configured rights profile, users can view their own planning, the planning for their assigned worksite, or the planning for all worksites.
+This page shows the planning for one or more resources based on their assigned worksite. To open it, click **Worksite Schedule** in the main menu.
 
-|                                                                                                                                    |      |
-| ---------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                            | Note |
-| A resource is assigned systematically to a main worksite. This resource may also be attributed one or several secondary worksites. |      |
+Depending on the configured rights profile, you can view your own planning, the planning for your assigned worksite, or the planning for all worksites.
 
-![](../.gitbook/assets/planning-site-travail.png)
+{% hint style="info" %}
+A resource is always assigned to a main worksite. The resource can also be assigned one or more secondary worksites.
+{% endhint %}
 
-Click on ![images/ref/buttons/periode-precedente.png](../.gitbook/assets/periode-precedente.png) to return to the previous day or click on ![images/ref/buttons/periode-suivante.png](../.gitbook/assets/periode-suivante.png) to proceed to the next day.\
-The Week Planner can be viewed by clicking on the Week tab:
+![Worksite schedule page](../.gitbook/assets/planning-site-travail.png)
 
-![](../.gitbook/assets/planning-site-travail-semaine.png)
+{% hint style="warning" %}
+Depending on the user profile, the choice of worksite can be inactive. By default, NFS uses the worksite of the user.
+{% endhint %}
 
-Then click on ![images/ref/buttons/periode-precedente.png](../.gitbook/assets/periode-precedente.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](../.gitbook/assets/periode-suivante.png) to go to the next week.\
-The Week planning (day by day) can be viewed by clicking on the Detailed Week tab:
+## Navigate between periods and views
 
-![](../.gitbook/assets/planning-site-travail-semaine-detail.png)
+Click ![Previous period button](../.gitbook/assets/periode-precedente.png) to return to the previous day, or click ![Next period button](../.gitbook/assets/periode-suivante.png) to go to the next day.
 
-Then click on ![images/ref/buttons/periode-precedente.png](../.gitbook/assets/periode-precedente.png) to return to the previous week or click on ![images/ref/buttons/periode-suivante.png](../.gitbook/assets/periode-suivante.png) to go to the following week.\
-You can display the Work Load Week Planning (cumulated time devoted to all appointments) by clicking on the Occupation ratio tab:
+To view the week planner, click the **Week** tab.
 
-![](../.gitbook/assets/planning-site-travail-charge.png)
+![Week planner for the worksite](../.gitbook/assets/planning-site-travail-semaine.png)
 
-Then click on ![images/ref/buttons/periode-precedente.png](../.gitbook/assets/periode-precedente.png) to return to the previous week, or click on ![images/ref/buttons/periode-suivante.png](../.gitbook/assets/periode-suivante.png) to see next week.
+Click ![Previous period button](../.gitbook/assets/periode-precedente.png) to return to the previous week, or click ![Next period button](../.gitbook/assets/periode-suivante.png) to go to the next week.
 
-|                                                                                                                                          |         |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                               | Warning |
-| Depending on the user profile, the choice of worksite may be inactive. By default, it is the user’s worksite that is taken into account. |         |
+To view the week planning day by day, click the **Detailed Week** tab.
+
+![Detailed week planning for the worksite](../.gitbook/assets/planning-site-travail-semaine-detail.png)
+
+Click ![Previous period button](../.gitbook/assets/periode-precedente.png) to return to the previous week, or click ![Next period button](../.gitbook/assets/periode-suivante.png) to go to the following week.
+
+To view the workload week planning (the cumulated time devoted to all appointments), click the **Occupation ratio** tab.
+
+![Workload week planning for the worksite](../.gitbook/assets/planning-site-travail-charge.png)
+
+Click ![Previous period button](../.gitbook/assets/periode-precedente.png) to return to the previous week, or click ![Next period button](../.gitbook/assets/periode-suivante.png) to go to the next week.
+
+## Main and secondary worksites
 
 Depending on the profile of the connected resource, there are three possible scenarios:
 
-* Display plannings for resources affiliated to the main worksite selected;
-* Display plannings for resources affiliated to a different main worksite, but having the selected worksite as their secondary worksite;
-* Display plannings for resources affiliated to a different main worksite, but having as their secondary worksite the one selected, and making an appointment.
+* Display the plannings for resources affiliated with the selected main worksite.
+* Display the plannings for resources affiliated with a different main worksite but that have the selected worksite as their secondary worksite.
+* Display the plannings for resources affiliated with a different main worksite but that have the selected worksite as their secondary worksite, and that have an appointment.
 
-The resources or the appointments may be framed:
+Resources and appointments can be framed:
 
-* an appointment inside a frame indicates that the appointment is to be executed outside the main worksite;
-* a resource inside a pink frame indicates that the resource is not affiliated to the main worksite (this is selected in the interface). However, this site is assigned to the resource as the secondary worksite at which he/she may work.
+* An appointment inside a frame indicates that the appointment is to be performed outside the main worksite.
+* A resource inside a pink frame indicates that the resource is not affiliated with the main worksite (the one selected in the interface). However, this worksite is assigned to the resource as a secondary worksite where the resource can work.
 
-![](../.gitbook/assets/planning-site-travail-secondaire.png)
+![Worksite planning with a resource from a secondary worksite](../.gitbook/assets/planning-site-travail-secondaire.png)
 
-In the example above, resource ARBY Amar is not affiliated to the main work site of Narbonne. However, Narbonne is his secondary worksite. To distinguish this resource from the others, his name is framed in pink.
+In this example, the resource ARBY Amar is not affiliated with the main worksite of Narbonne. However, Narbonne is the secondary worksite of this resource. To distinguish this resource from the others, the name is framed in pink.
 
-Also, this resource has fulfilled an appointment that is not linked to the Narbonne worksite. To indicate that the appointment has been fulfilled outside the worksite, this is framed with a slightly thicker outline.
+This resource has also fulfilled an appointment that is not linked to the Narbonne worksite. To indicate that the appointment was fulfilled outside the worksite, it is framed with a slightly thicker outline.
 
-Finally, this resource has fulfillled an appointment linked to the Narbonne worksite because this has not been framed.
+Finally, this resource has fulfilled an appointment linked to the Narbonne worksite, because this appointment is not framed.

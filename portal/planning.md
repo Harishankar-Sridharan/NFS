@@ -1,30 +1,27 @@
 # Planning
 
-The central section automatically displays the plannings for **Today** and **Tomorrow**.
+## Overview
 
-![](../.gitbook/assets/portail-planning.png)
+The central section automatically displays the plannings for **Today** and **Tomorrow**. It contains the same items as the planning in the Planning module (see [The Planning](../planning/theplanning.md)).
 
-|                                                                                                                                                                                                           |     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                    | Tip |
-| Click on [Legend](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-legende.html) button in the main menu for the key to colour coding for time windows. |     |
+![Portal planning for today and tomorrow](../.gitbook/assets/portail-planning.png)
 
-Here we find the same items as are present in the [planning in the scheduling module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#call-center-agenda-rdv).
+{% hint style="info" %}
+Click the **Legend** button in the main menu to display the color key for time windows (see [Legend](legend.md)).
+{% endhint %}
 
-#### Viewing the Planning for Another Day
-
-To view the planning for a day other than **Today** or **Tomorrow**:
+## View the planning for another day
 
 1. Click the **date selector** in the lower-left corner of the screen.
 2. Select a date from the **current month** or from the **following two months**.
-3. The planning for the selected day is displayed.
 
-![](../.gitbook/assets/changer-jour.png)
+   The planning for the selected day is displayed.
 
-Click **Another day** to select an earlier or later date from the calendar.
+   ![Date selector for choosing another day](../.gitbook/assets/changer-jour.png)
 
-After selecting the desired date, the corresponding planning is displayed. You can then view or edit the appointments scheduled for that day.
+To select an earlier or later date from the calendar, click **Another day**.
 
-Click on the week link to display the [Week Planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-semaine.html).
+After you select the date, the corresponding planning is displayed. You can then view or edit the appointments scheduled for that day.
 
-Click on the month link to display the [month planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-mois.html).
+* Click the week link to display the [Week](week.md) planning.
+* Click the month link to display the [Month](month.md) planning.

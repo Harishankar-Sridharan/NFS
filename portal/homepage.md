@@ -1,28 +1,31 @@
-# Home page
+# Home Page
 
-Click on Portal menu to open the module home page directly.
+## Overview
 
-![](../.gitbook/assets/accueil-portail.png)
+To open the module home page directly, click **Portal** in the menu.
 
-#### Main Menu
+![Portal home page](../.gitbook/assets/accueil-portail.png)
 
-The **Portal** home page is divided into two sections. The main menu is located in the **top-left corner** of the screen.
+The **Portal** home page is divided into two sections: the main menu and the central section.
 
-The functions available in the menu depend on the user’s access rights:
+## Main menu
 
-1. **Today** – Displays the resource’s daily planning and the tasks to be completed. For team leaders, this section also displays **team alerts**. Team leaders can use the **Email alert** button to send an email to the relevant team members.
+The main menu is in the **top-left corner** of the screen. The functions available in the menu depend on your access rights.
 
-* [Week](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-semaine.html)
-* [Month](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-mois.html)
-* [Team schedule](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-plan-equipe.html)
-* [Area schedule](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-plan-reg.html)
-* [Worksite schedule](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-site-trav.html)
-* [Multi-resource schedule](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-multi-res.html)
-* [Unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/indisponibilite.html)
-* [Visit reports](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/compterendus.html)
-* [Route sheet](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#feuille-de-route)
-* [Global optimization](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-optim-glob.html)
-* [Legend](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-legende.html)
-* [OTMobile application](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/portail-otm.html)
+* **Today** – Displays the resource's daily planning and the tasks to be completed. For team leaders, this section also displays team alerts. Team leaders can use the **Email alert** button to send an email to the relevant team members.
+* [Week](week.md)
+* [Month](month.md)
+* [Team Schedule](teamschedule.md)
+* [Area Schedule](areaschedule.md)
+* [Worksite Schedule](worksiteschedule.md)
+* [Multi-Resource Schedule](multiresourceschedule.md)
+* [Unavailabilities](unavailabilities.md)
+* [Visit Reports](visitreports.md)
+* Route sheet (see [Menu](../planning/menu.md))
+* [Global Optimization](globaloptimization.md)
+* [Legend](legend.md)
+* [NFS Mobile Application](nfsmobileapplication.md)
 
-2. **Central section** – Displays the information available in the Portal.
+## Central section
+
+The central section displays the information available in the Portal.

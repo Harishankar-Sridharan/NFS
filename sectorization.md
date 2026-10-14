@@ -1,5 +1,9 @@
 # Sectorization
 
-**Opti-Time**'s Sectorization module can only be accessed if the [corresponding right](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) (Sectorization tab > Perimeter > **DISTRICTING\_GUEST** right) is associated to the user profile.
+## Prerequisites
 
-Refer to [documentation](https://mygeoconcept.com/en/documentation-geoconcept-territory-manager) for **Nomadia Territory Manager**.
+You can access the Sectorization module in NFS only if the [corresponding right](administration/userhandling.md) (**Sectorization** tab > **Perimeter** > `DISTRICTING_GUEST` right) is associated with your user profile.
+
+## Documentation
+
+For more information, refer to the [documentation](https://mygeoconcept.com/en/documentation-geoconcept-territory-manager) for Nomadia Territory Manager.

@@ -1,1060 +1,1047 @@
-# Objects in the Planning Module
+# Objects in the Planning module
+
+## Overview
 
 The Planning module handles the following objects:
 
-* [Customer types](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-types-client)
-* [Customer kinds](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-nature-client)
-* [Customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-clients)
-* [Orderers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#commanditaire)
-* [Appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-rdv)
-* [Unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#centre-d-appel-indisponibilite)
-* [Exceptional locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#localisations-exceptionnelles)
-* [Temporary posts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-postes-temp)
-* [Secondary worksites](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-sites-second)
-* [Hotel locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-hotel)
-* [Agenda markers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-jalons)
-* [On-call duties](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-astreinte)
-* [Locked days](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-journees-verr)
+* Customer types
+* Customer kinds
+* Customers
+* Orderers
+* Appointments
+* Unavailabilities
+* Exceptional locations
+* Temporary posts
+* Secondary worksites
+* Hotel locations
+* Agenda markers
+* On-call duties
+* Locked days
 
-In principle, the objects in the Planning module include a generic [search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) function that allows you to find an object that has been created already in the application, to add new ones, or to delete them.
+In principle, the objects in the Planning module include a generic search function. You use it to find an object that already exists in the application, to add new objects, or to delete them.
 
-Each object has a form, the behavior of which is described in the [next chapter](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral).
+Each object has a form. The form behavior is described in the following sections.
 
-|                                                                                                                                                                                  |      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                          | Note |
-| Other objects are handled in the [administration module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/module-administration.html). |      |
+{% hint style="info" %}
+Other objects are handled in the [Administration](../administration/README.md) module.
+{% endhint %}
 
-### Forms
+## Forms
 
-The forms include fields that are described in the different chapters relating to the objects handled.
+The forms include fields that are described in the sections for each object.
 
-In edit mode (creation or modification), the form takes the following format:
+In edit mode (creation or modification), a form takes the following format.
 
 Example: Customer type form
 
-![](../.gitbook/assets/creation-type-client.png)
+![Customer type form in edit mode](../.gitbook/assets/creation-type-client.png)
 
-The ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder.png) button allows you to save the modifications made in the form.
+* The ![Save button](../.gitbook/assets/bouton-sauvegarder.png) button saves the modifications made in the form.
+* The ![Reset button](../.gitbook/assets/bouton-reinitialiser-recherche.png) button resets the whole form.
+* The ![Back button](../.gitbook/assets/bouton-retour.png) button takes you back to the previous page.
 
-The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche.png) button resets the whole of the form.
+{% hint style="info" %}
+Some forms have additional buttons. They are described in the sections for the corresponding objects.
+{% endhint %}
 
-The ![images/ref/buttons/bouton-retour.png](../.gitbook/assets/bouton-retour.png) button takes you back to the previous page.
+## Customer types
 
-|                                                                                                          |      |
-| -------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                  | Note |
-| Some forms have additional buttons that will be described in the chapters for the corresponding objects. |      |
+Customer types are groups of customers arranged to suit your purpose. You do not have to use customer types if they are not appropriate for your organization.
 
-### Customer types
+### Customer type form
 
-Customer types are groups of customers arranged to suit your purpose. You don’t have to use customer types if this is inappropriate.
-
-#### Customer type form
-
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for the customer type is accessible after searching for a customer type in the [(Customer type search)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-type-client) menu.
+You access the customer type form after searching for a customer type in the [Menu](menu.md) (**Customer type search**).
 
 Customer type form
 
-![images/ref/planification/creation-type-client.png](../.gitbook/assets/creation-type-client.png)
+![Customer type form](../.gitbook/assets/creation-type-client.png)
 
 The form contains the following fields:
 
-* **External reference**;
-* **Name** (mandatory);
-* **Description**;
-* **Colour**: allows you to give a custom [colour](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#couleurs) to the customer type in the plannings.
+* **External reference**
+* **Name** (mandatory)
+* **Description**
+* **Colour** – gives the customer type a custom color in the plannings. See [Customization](../administration/customization.md).
 
-### Customer kinds
+## Customer kinds
 
-The customer kinds grouping allows you to categorise customers according to a second level of classification (in addition to the [Customer types](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-types-client) grouping).
+Customer kinds let you categorize customers according to a second level of classification, in addition to the customer types.
 
-#### Customer kind form
+### Customer kind form
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for customer kind is accessible following a search for a customer kind in the [(customer kind search)](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-nature-client) menu.
+You access the customer kind form after searching for a customer kind in the [Menu](menu.md) (**Customer kind search**).
 
 The form contains the following fields:
 
-* **External reference**;
-* **Name**;
-* **Description**;
-* **Colour**: allows you to assign a custom [colour](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#couleurs) to the cutomer kind in the plannings.
+* **External reference**
+* **Name**
+* **Description**
+* **Colour** – assigns a custom color to the customer kind in the plannings. See [Customization](../administration/customization.md).
 
-### Customers
+## Customers
 
 You must have at least one customer to whom you can associate appointments.
 
-Customers may be displayed on the map.
+Customers can be displayed on the map.
 
-#### Customer form
+### Customer form
 
-The customer [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) is accessible using the following functions:
+You access the customer form in one of the following ways:
 
-* [Customer type search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-type-client) in the menu
-* Via the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv) by clicking on the customer info icon
-* Via the [appointment info-box popup](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-rdv) in the planning.
+* From the [Menu](menu.md), using **Customer type search**.
+<!-- REVIEW: source says "Customer type search" for opening the customer form; probably should be the customer search -->
+* From the appointment form, by clicking the customer info icon.
+* From the appointment info-box popup in the planning. See [The Planning](theplanning.md).
 
-The customer form includes 7 tabs:
+The customer form includes seven tabs:
 
-* the [Details](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-details) tab;
-* the [Address](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-adresse) tab;
-* the [Contacts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-contacts) tab;
-* the [Project](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-projet) tab;
-* the [Assignments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-affectation) tab;
-* the [Timetable](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-edt) tab;
-* the [Preferences](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-pref) tab.
+* **Details**
+* **Address**
+* **Contacts**
+* **Project**
+* **Assignments**
+* **Timetable**
+* **Preferences**
 
-This also allows you to perform specific actions using the following buttons:
+The form also provides the following buttons:
 
-* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv.png) button allows an appointment to be made for the selected customer.
-* The ![images/ref/buttons/bouton-panier4.png](../.gitbook/assets/bouton-panier4.png) button allows you to add the selected customer to the [customers panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#panier-des-clients).
-* The ![images/ref/buttons/bouton-rechercher-environs.png](../.gitbook/assets/bouton-rechercher-environs.png) button [searches on objects nearby](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-environs) the selected customer.
-* The ![images/ref/buttons/bouton-lister-rdv.png](../.gitbook/assets/bouton-lister-rdv.png) button allows you to display the [List of appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-rdv-client) associated with the selected customer.
-* The ![images/ref/buttons/bouton-propagation-demande-de-rendez-vous.png](../.gitbook/assets/bouton-propagation-demande-de-rendez-vous.png) button applies all the modifications made to this customer to all the saved appointment requests for this customer.
-* The ![images/ref/buttons/bouton-planning-hebdo-client.png](../.gitbook/assets/bouton-planning-hebdo-client.png) button displays the weekly planning for a customer.
-* The ![images/ref/buttons/bouton-planning-mois-client.png](../.gitbook/assets/bouton-planning-mois-client.png) buttons display the monthly planning for the customer.
+* The ![Make an appointment button](../.gitbook/assets/bouton-prendre-rdv.png) button makes an appointment for the selected customer.
+* The ![Add to panel button](../.gitbook/assets/bouton-panier4.png) button adds the selected customer to the customers panel. See [Menu](menu.md).
+* The ![Search nearby button](../.gitbook/assets/bouton-rechercher-environs.png) button searches for objects nearby the selected customer. See [Menu](menu.md).
+* The ![List appointments button](../.gitbook/assets/bouton-lister-rdv.png) button displays the list of appointments associated with the selected customer. See [Menu](menu.md).
+* The ![Propagate to appointment requests button](../.gitbook/assets/bouton-propagation-demande-de-rendez-vous.png) button applies all the modifications made to this customer to all the saved appointment requests for this customer.
+* The ![Weekly customer planning button](../.gitbook/assets/bouton-planning-hebdo-client.png) button displays the weekly planning for the customer.
+* The ![Monthly customer planning button](../.gitbook/assets/bouton-planning-mois-client.png) button displays the monthly planning for the customer.
 
-**Customer form (Details tab)**
+### Details tab
 
-![](../.gitbook/assets/fiche-client.png)
+![Customer form, Details tab](../.gitbook/assets/fiche-client.png)
 
-*   Here you will find general information about the customer such as its external reference number, its name (mandatory), its orderer, its kind, its type (mandatory), its priority and a description.
+The **Details** tab contains the general information about the customer: external reference, name (mandatory), orderer, kind, type (mandatory), priority and description.
 
-    |                                                                                                                                                                                                                                                                 |     |
-    | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-    | \[Tip]                                                                                                                                                                                                                                                          | Tip |
-    | When it is not defined, the priority is normal. If the user wishes to give less priority to the scheduling of an appointment, they must define a value lower than 50, or conversely a value of more than 50 if the appointment is to be given greater priority. |     |
+{% hint style="info" %}
+If you do not define a priority, the priority is normal. To give an appointment less priority in scheduling, define a value lower than 50. To give it greater priority, define a value higher than 50.
+{% endhint %}
 
-    The _`Orderer`_ field cannot be filled directly, but its content must be searched for via the ![images/ref/buttons/bouton-recherche-commanditaire.png](../.gitbook/assets/bouton-recherche-commanditaire.png) button. This executes the [orderer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-commanditaire).
+You cannot fill in the **Orderer** field directly. Search for the orderer with the ![Search orderer button](../.gitbook/assets/bouton-recherche-commanditaire.png) button, which runs the orderer search. See [Menu](menu.md). For more about orderers, see [Orderers](#orderers).
 
-To find out more about orderers, see the [next chapter](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#commanditaire).
+If no orderer details have been saved, you can create them with the ![Edit orderer button](../.gitbook/assets/bouton-editer-crm.png) button. This opens the orderer form in edit mode.
 
-If no purchasing orderer details have been saved, it is possible to create them by clicking on the ![images/ref/buttons/bouton-editer-crm.png](../.gitbook/assets/bouton-editer-crm.png) button.
+To unassign the orderer contact from the customer, click the ![Remove orderer button](../.gitbook/assets/bouton-enlever-crm.png) button.
 
-At this point, you can access the [orderer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-commanditaire) in edit mode.
+Other fields in the tab:
 
-If the user wants to unassign the customer purchasing contact this can be done using the ![images/ref/buttons/bouton-enlever-crm.png](../.gitbook/assets/bouton-enlever-crm.png) button.
+* **Active** – select this check box for all active customers.
 
-*   The **Active** check-box should be checked for all active customers.
+  {% hint style="warning" %}
+  When this check box is cleared, automated generation and placement of appointment requests is impossible. However, if requested or planned appointments exist for inactive customers, you can still place them through real-time optimization (RTO).
+  {% endhint %}
+* **Activation period** – defines a period during which the generation of a visit is possible.
+* **Focus** – select this check box to find the customer again more quickly with the search function. See [Menu](menu.md).
+* **Last visit** – the date of the last visit.
+* **Next visit** – the anticipated date of the next planned, reserved and confirmed appointment.
 
-    |                                                                                                                                                                                                                                                          |         |
-    | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-    | \[Warning]                                                                                                                                                                                                                                               | Warning |
-    | When this check-box is unchecked, the automated generation and placement of requests for appointments is impossible. Conversely, if requested or planned appointments exist for inactive customers, it will still be possible to place them via the OTR. |         |
-* **Activation period** defines a period during which the generation of a visit is possible.
-* The **Focus** check-box can be checked so the customer can be found again more rapidly with the [search function](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher).
-* **Last visit** designates the date of the last visit.
-* **The next visit** designates the date anticipated for the next planned, reserved and confirmed appointment.
-* Finally, the information for the [main contact](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-contacts) are displayed at the bottom of the form.
+The information for the main contact is displayed at the bottom of the form.
 
-**Customer form (Address tab)**
+### Address tab
 
-![images/ref/planification/adresse-client.png](../.gitbook/assets/adresse-client.png)
+![Customer form, Address tab](../.gitbook/assets/adresse-client.png)
 
-The address fields are described in the [geocoding](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) chapter.
+The address fields are described in the geocoding topic.
 
-The Address tab contains the following additional fields:
+The **Address** tab contains the following additional fields:
 
-* **Entry access time**: this information field gives the time it takes to access the customer (not used in the planning itself)
-* **Exit access time**: information field providing the time needed to exit from the customer’s premises (not used in the planning itself)
-* **Floor level**: customer floor level
-* **Without elevator**: indicates whether a lift operates to access the customer
+* **Entry access time** – information field giving the time it takes to access the customer (not used in the planning itself).
+* **Exit access time** – information field giving the time needed to exit the customer's premises (not used in the planning itself).
+* **Floor level** – the customer's floor level.
+* **Without elevator** – indicates whether an elevator is available to access the customer.
 
-**Customer form (Contacts tab)**
+### Contacts tab
 
-![](../.gitbook/assets/fiche-client-contact.png)
+![Customer form, Contacts tab](../.gitbook/assets/fiche-client-contact.png)
 
-This page includes the list of pre-saved contacts as well as a frame allowing you to modify the information for the selected contact.
+This tab lists the saved contacts and provides a frame for modifying the information of the selected contact.
 
-Contact information for customers are as follows:
+The contact information is as follows:
 
-* **Main contact**: this allows you to define the main contact. This will be the contact who will receive confirmation emails if this option is enabled under [circulation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#XML-circulation).
-* **External reference**;
-* **Title**: the contact’s title (Mrs, Mr, Dr, etc);
-* The **last name** and **first name** for the contact;
-* The **Function** in the organisation held by the contact;
-* The contact’s address details (**Work email, telephone and fax**).
+* **Main contact** – defines the main contact. This contact receives confirmation emails if the option is enabled under [CSV Files](../administration/csvfiles.md).
+* **External reference**
+* **Title** – the contact's title (Mrs, Mr, Dr, and so on).
+* **Last name** and **First name**
+* **Function** – the contact's function in the organization.
+* The contact's address details (**Work email**, **Telephone** and **Fax**).
 
-For a customer, you can add one or several contacts by clicking on the ![images/ref/buttons/bouton-ajouter-crm.png](../.gitbook/assets/bouton-ajouter-crm.png) button.
+To add one or several contacts to a customer:
 
-The customer fields are then reset.
+1. Click the ![Add contact button](../.gitbook/assets/bouton-ajouter-crm.png) button. The contact fields are reset.
+2. Enter the contact information.
+3. Click the ![Save button](../.gitbook/assets/bouton-sauvegarder.png) button to save the contact.
 
-The ![images/ref/buttons/bouton-sauvegarder.png](../.gitbook/assets/bouton-sauvegarder.png) button allows you to save the contact.
+To delete a contact, click the ![Delete button](../.gitbook/assets/bouton-delete.png) button.
 
-Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) button enables deletion of a contact.
+### Project tab
 
-**Customer form (Project tab)**
+For a specific customer, you can define appointments in advance that are regular appointments. For example, a salesperson must visit their customer at least twice a month, or a technician must perform security checks at least once a year.
 
-For a specific customer, it is possible to define appointments in advance that are _regular appointments_. For example, a salesperson must visit their customer at least twice a month or a technician must perform security checks at least once a year.
+![Customer form, Project tab](../.gitbook/assets/definir-un-client-recurrent.png)
 
-![](../.gitbook/assets/definir-un-client-recurrent.png)
+The **Project** tab contains the following fields:
 
-Fields in the Project tab are as follows:
+* **Periodic customer** – if you select this check box, the application can generate an appointment automatically on the anniversary date.
+* **Periodicity** – defines how often visits are planned for this customer. For example, for a visit that must take place twice per month, enter 2 in the first text field, 1 in the second, and choose "month" in the drop-down list.
+* **Task type** – lists all the task types saved in the Administration module. The generated visits are assigned the selected task type. See [Company Data](../administration/companydata.md).
+* **Duration** – the duration of the generated visits.
+* **Chaining constraint** – you can also define a chaining constraint linking the appointments associated with this customer site.
 
-* **Periodic customer** check-box: if this option is checked, the application will be capable of generating an appointment automatically on the anniversary date.
-* The **Periodicity** defines how often visits will be planned for this customer. For example, for a visit that must take place twice per month, put 2 in the first text field, 1 in the second, and select "month" in the drop-down list.
-* The **Task type** contains the list of all the types of tasks saved in the [Administration module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-intervention). The visits generated will be assigned the type of task as selected.
-* The **duration** of visits generated.
-*   It is also possible to define a [chaining constraint](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#contrainte-chainage) linking the appointments associated to this customer site.
+  {% hint style="warning" %}
+  The name of the constraint identifies the appointments that are concerned by the constraint. It must be unique. Otherwise, appointments that should not be linked can be linked by a constraint.
+  {% endhint %}
 
-    |                                                                                                                                                                                                                                                    |         |
-    | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-    | \[Warning]                                                                                                                                                                                                                                         | Warning |
-    | The name of the constraint allows you to identify the appointments that are concerned by the constraint. It must therefore be unique, as otherwise there will always be a risk of linking appointments that should not be linked via a constraint. |         |
+  {% hint style="info" %}
+  The most frequently used constraints are:
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                             |     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                                                                                                                      | Tip |
-| The most frequently used constraints are: - **spacing and ordering**: this defines the minimum and maximum gaps that can exist between visits. For example, there must be at least 20 days between two visits on a customer site where the customer must be visited every month. - **Separate day**: in the case of sites to be visited several times a week, this ensures that the visits are not grouped on the same day. |     |
+  * **Spacing and ordering** – defines the minimum and maximum gaps that can exist between visits. For example, there must be at least 20 days between two visits on a customer site that must be visited every month.
+  * **Separate day** – for sites visited several times a week, ensures that the visits are not grouped on the same day.
+  {% endhint %}
+* **Project start and end dates** – the interval within which appointments are generated.
+* **Last planned visit date** – the date when an appointment was last generated.
+* **Planned date for the next visit** – the date of the next generation. It is also the earliest date for the generated appointment.
 
-* The **Project start and end dates** that indicate the dates interval within which appointments will be generated
-* **Last planned visit date**: date the last time an appointment was generated
-*   **Planned date for the next visit**: date of the next generation, that will also be the earliest date for the appointment generated
+  {% hint style="info" %}
+  The **Last planned visit date** and **Planned date for the next visit** fields are updated automatically according to the last optimization.
+  {% endhint %}
 
-    |                                                                                                                                              |     |
-    | -------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-    | \[Tip]                                                                                                                                       | Tip |
-    | The _Last planned visit date_ and _Planned date for the next visit_ fields are updated automatically as a function of the last optimisation. |     |
+{% hint style="info" %}
+If the application configuration allows it (**Display** tab > **CRM** > `crm.customer.project` > `multipleProjects` set to `TRUE`), the **Project** tab lets you create several projects. You can then take appointments with different repeat settings for the same customer. See [Customization](../administration/customization.md).
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |      |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Note |
-| If the [application configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) allows it, (Display tab > CRM > crm.customer.project > _multipleProjects_ set to TRUE), this tab allows you to create **several projects** so appointments can be taken with different repeat settings for the same customer. images/ref/planification/definir-plusieurs-projets.png Click on the Add a project link. The project form includes 5 tabs: - **Details** tab: here we find the same fields as described for a mono-project above; - **Extra details** tab; - **Preferences** tab; - **Timetable** tab: allows you to define favourite opening days and times specific to the appointments that will be created for this project; - **Closings** tab: allows you to associate closing periods to this project. Once data entry is complete, click on the Add visit button to make an appointment that will be included in the cycle of the current project. The List visits button allows you to list appointments created for this project. |      |
+![Customer form, multiple projects](../images/definir-plusieurs-projets.png)
+<!-- REVIEW: in the source this image was only raw text inside a note; it is now embedded from ../images/ -->
 
-**Customer form (Assignments tab)**
+Click the **Add a project** link. The project form includes five tabs:
 
-![](../.gitbook/assets/choix-des-ressources-humaines-pour-un-client-donne.png)
+* **Details** – the same fields as described above for a single project.
+* **Extra details**
+* **Preferences**
+* **Timetable** – defines favorite opening days and times specific to the appointments created for this project.
+* **Closings** – associates closing periods with this project.
 
-The first part of this tab allows you to modify the association of the customer to a **worksite**.\
-The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) is used to search for worksites sorted by dstance.\
-The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche.png) button positions the site on _none_.
+When data entry is complete, click **Add visit** to make an appointment that is included in the cycle of the current project. The **List visits** button lists the appointments created for this project.
+{% endhint %}
 
-The second part of the tab allows you to define resource preferences for appointments to be fulfilled with this customer: select one or several resources in the left-hand pane, then select the status of the resources in the central list (if the [application configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) allows this), and finally, use the right arrow to move these resources in the right-hand window and so define your preferences.
+### Assignments tab
 
-|                                                                                                                                                                                                                                     |         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                          | Warning |
-| **Required** signifies: mandatory resource. **Desired** signifies: Preferred resource (but the others remain possible). **Undesirable** signifies that the appointments of this customer will never be attributed to this resource. |         |
+![Customer form, Assignments tab](../.gitbook/assets/choix-des-ressources-humaines-pour-un-client-donne.png)
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Tip |
-| It is possible to combine statuses. For example: - **with several resources required**: the appointments will be attributed exclusively to a resource among those required, to the exclusion of all the others; - **with one or several resources required and one or several desired resources**: the appointments will be attributed in preference to the required resources, and if not, to the desired resources, to the exclusion of any other; - **with one or several desired resources** : the appointments will be attributed in preference to the desired resources, and if not, to other resources. |     |
+The first part of the tab lets you modify the association of the customer with a worksite.
 
-Finally, if the [application configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) allows this, it is possible to request that certain [authorizations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#autorisation) have been granted for the resource, by checking the relevant check-boxes.
+* The ![Search button](../.gitbook/assets/bouton-recherche.png) button searches for worksites sorted by distance.
+* The ![Reset button](../.gitbook/assets/bouton-reinitialiser-recherche.png) button sets the worksite to **none**.
 
-**Customer form (Timetable tab)**
+The second part of the tab lets you define resource preferences for appointments fulfilled with this customer. To define the preferences:
 
-![](../.gitbook/assets/parametrer-les-horaires-de-disponibilite-d-un-clie.png)
+1. Select one or several resources in the left-hand pane.
+2. Select the status of the resources in the central list (if the application configuration allows it). See [Customization](../administration/customization.md).
+3. Click the right arrow to move the resources to the right-hand pane.
 
-* The customer availability constraint has been taken into account in order to improve the quality of the appointment taking.
-* First, select the **local time zone** to which they are affiliated.
-* The **favorite days** checked will be favored by the optimisation engine, but this does not prevent planning on another day, unlike the closure of a day as described above.
-* Check the **Opening hours** check-box (the check-box may be checked by default if the [application configuration](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) allows this (Display tab > CRM > page.crm.openinghours.defaulthours > _enabled_ set to TRUE) to define the times customers are available on each day of the week, including a midday closure.
+{% hint style="warning" %}
+**Required** means a mandatory resource. **Desired** means a preferred resource (the others remain possible). **Undesirable** means that the appointments of this customer are never assigned to this resource.
+{% endhint %}
 
-|                                                                                                                                                       |     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                | Tip |
-| For a specific day, if all values are set to 00:00 or if the check-box corresponding to the day is unchecked, the customer is not available that day. |     |
+{% hint style="info" %}
+You can combine statuses. For example:
 
-* Finally it is possible to define **periods of closure** for the customer, for example to handle annual holidays in the month of August.
-* If a series of closing hours have already been saved for this customer, they will appear in this part of the form.
-* Click on the Add closing periods link to access the following page:
-* Handling periods of closure for a customer
+* **With several resources required** – the appointments are assigned exclusively to one of the required resources, to the exclusion of all others.
+* **With one or several resources required and one or several resources desired** – the appointments are assigned preferably to the required resources, and otherwise to the desired resources, to the exclusion of any other.
+* **With one or several resources desired** – the appointments are assigned preferably to the desired resources, and otherwise to other resources.
+{% endhint %}
 
-![](../.gitbook/assets/ajouter-une-periode-de-fermeture-client.png)
+If the application configuration allows it, you can also require that certain authorizations have been granted to the resource, by selecting the relevant check boxes. See [Customization](../administration/customization.md) and [Company Data](../administration/companydata.md).
 
-|                                                                                                                                            |      |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
-| \[Note]                                                                                                                                    | Note |
-| Addition of a period of closure automatically results in its being saved. You don’t need to save this when returning to the customer form. |      |
+### Timetable tab
 
-**Customer form (Preferences tab)**
+![Customer form, Timetable tab](../.gitbook/assets/parametrer-les-horaires-de-disponibilite-d-un-clie.png)
 
-This tab can be configured. It displays the different additional fields for the customer. It is possible to display / hide fields in the [Application settings](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli) menu.
+The customer availability constraint is taken into account to improve the quality of appointment taking.
 
-The fields for each customer can now be entered.
+* Select the **local time zone** to which the customer is affiliated.
+* The **favorite days** you select are favored by the optimization engine. This does not prevent planning on another day, unlike the closure of a day.
+* Select the **Opening hours** check box to define the times the customer is available on each day of the week, including a midday closure. The check box can be selected by default if the application configuration allows it (**Display** tab > **CRM** > `page.crm.openinghours.defaulthours` > `enabled` set to `TRUE`). See [Customization](../administration/customization.md).
 
-### Orderers
+{% hint style="info" %}
+For a specific day, if all values are set to 00:00 or if the check box for the day is cleared, the customer is not available that day.
+{% endhint %}
 
-The orderer can, for example, be a central administration, a referring entity, or a main site. An orderer may have several customers affiliated to it.
+* You can also define **periods of closure** for the customer, for example to handle annual holidays in August.
+* If closing periods are already saved for this customer, they appear in this part of the form.
+* Click the **Add closing periods** link to open the following page.
 
-#### Orderer form
+Handling periods of closure for a customer
 
-Access to the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) of the orderer can be made via the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client) or via the [orderer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-commanditaire) function.
+![Adding a customer closing period](../.gitbook/assets/ajouter-une-periode-de-fermeture-client.png)
+
+{% hint style="info" %}
+A period of closure is saved automatically when you add it. You do not need to save it again when you return to the customer form.
+{% endhint %}
+
+### Preferences tab
+
+This tab can be configured. It displays the additional fields for the customer. You can show or hide fields in the **Application settings** menu. See [Customization](../administration/customization.md).
+
+You can then enter the fields for each customer.
+
+## Orderers
+
+An orderer can be, for example, a central administration, a referring entity, or a main site. An orderer can have several customers affiliated with it.
+
+### Orderer form
+
+You access the orderer form from the customer form or with the orderer search function. See [Menu](menu.md).
 
 Orderer form in edit mode
 
-![](../.gitbook/assets/nouveau-commanditaire-client.png)
+![Orderer form in edit mode](../.gitbook/assets/nouveau-commanditaire-client.png)
 
-The orderer form includes 2 tabs:
+The orderer form includes two tabs:
 
-* [Details](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-commanditaire-details) tab;
-* [Preferences](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-commanditaire-pref) tab.
+* **Details**
+* **Preferences**
 
-This also allows you to perform specific actions using the following buttons:
+The form also provides the following buttons:
 
-* The ![images/ref/buttons/bouton-prendre-rdv.png](../.gitbook/assets/bouton-prendre-rdv.png) button displays the [customer list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#resultat-recherche-client) associated to the selected orderer.
-* The ![images/ref/buttons/bouton-lister-rdv.png](../.gitbook/assets/bouton-lister-rdv.png) button displays the [appointment list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#liste-rdv-client) associated to the selected project orderer.
-* The ![images/ref/buttons/bouton-rechercher-environs.png](../.gitbook/assets/bouton-rechercher-environs.png) button allows you to [search for objects nearby](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-environs) the selected orderer.
+* The ![Customer list button](../.gitbook/assets/bouton-prendre-rdv.png) button displays the customer list associated with the selected orderer. See [Menu](menu.md).
+* The ![Appointment list button](../.gitbook/assets/bouton-lister-rdv.png) button displays the appointment list associated with the selected orderer. See [Menu](menu.md).
+* The ![Search nearby button](../.gitbook/assets/bouton-rechercher-environs.png) button searches for objects nearby the selected orderer. See [Menu](menu.md).
 
-**Project orderer form (Details tab)**
+### Orderer form: Details tab
 
-The form contains the following fields:
+The tab contains the following fields:
 
-* The external reference
-* The name
-* The SIRET number
-* The juridical status
-* A description
-* The address fields are described in the [geocoding](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) chapter.
+* External reference
+* Name
+* SIRET number
+* Juridical status
+* Description
+* Address fields, which are described in the geocoding topic.
 
-|                                                                                     |     |
-| ----------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                              | Tip |
-| Certain items of information are mandatory such as the **Name** and **Town** field. |     |
+{% hint style="info" %}
+Some items of information are mandatory, such as the **Name** and **Town** fields.
+{% endhint %}
 
-**Project orderer form (Preferences tab)**
+### Orderer form: Preferences tab
 
-![images/ref/planification/choix-des-ressources-humaines-pour-un-commanditaire-donne.png](../.gitbook/assets/choix-des-ressources-humaines-pour-un-commanditaire-donne.png)
+![Orderer form, Preferences tab](../.gitbook/assets/choix-des-ressources-humaines-pour-un-commanditaire-donne.png)
 
-This tab allows you to define resource preferences for appointments to be made with customers associated to this orderer: select one or several resources in the left-hand window, and then use the right arrow to move the resources around in the right-hand window to define your preferences.
+This tab lets you define resource preferences for appointments made with customers associated with this orderer. Select one or several resources in the left-hand pane, then click the right arrow to move them to the right-hand pane.
 
-### Appointments
+## Appointments
 
-Appointments are the most important objects as regards the call centre. They are always affiliated to a [customer](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-clients).
+Appointments are the most important objects for the call center. They are always affiliated with a customer.
 
-They will appear in a particular colour in the planning and can be displayed on the map.
+They appear in a particular color in the planning and can be displayed on the map.
 
-New appointments are made, either:
+You make new appointments in one of the following ways:
 
-* using the [set new appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#prendre-nouveau-rdv) function;
-* or via the customer lists, or from the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client);
-* or using the [empty planning tool-tip](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-planning-vide).
+* With the **Set new appointment** function. See [Menu](menu.md).
+* From the customer lists or from the customer form.
+* With the empty planning tool-tip. See [The Planning](theplanning.md).
 
-#### Appointment form
+### Appointment form
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for an appointment is accessible via:
+You access the appointment form from:
 
-* [appointment search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-rdv)
-* [appointment search on status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#chercher-rdv-etats)
-* [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client)
-* [list of urgent appointments](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_header_bar.html#liste-rdv-urgent)
-* [appointment counters](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-cadre-info.html#compteurs-rdv)
-* [map](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-carte.html)
-* [appointments information popup](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-rdv) in the planning.
+* The appointment search. See [Menu](menu.md).
+* The appointment search on status. See [Menu](menu.md).
+* The customer form.
+* The list of urgent appointments. See [The Header Bar](../guided-help-nfs-reference-guide-1/README.md).
+* The appointment counters. See [The Information Pane](theinformationpane.md).
+* The map. See [Map](map.md).
+* The appointment information popup in the planning. See [The Planning](theplanning.md).
 
-This allows you to apply [actions](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#rdv-boutons-action-fiche) to appointments and comprises 7 parts as follows:
+The form lets you apply actions to appointments. The source describes it as comprising seven parts.
+<!-- REVIEW: source says the form has 7 parts but describes 8 (General, Customer, Communication, Fulfilment status, Additional data, Comments, Messages, Constraints) -->
 
-1. [General](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#d172e2482)
+#### General tab
 
-|        |                                                                                                                                                                                                                                                                                                                                               |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1.** | **General**                                                                                                                                                                                                                                                                                                                                   |
-|        | This tab contains information about the intervention such as its **identifier**, (internal identifier separated from the external identifier by a "/"), and also the **Earliest date** and **Latest date** indicating the period of time during which the intervention must be fulfilled. General images/ref/planification/onglet-general.png |
+This tab contains information about the intervention, such as its **identifier** (the internal identifier separated from the external identifier by a "/"), and the **Earliest date** and **Latest date**, which indicate the period during which the intervention must be fulfilled.
 
-|                                                                                                                                                                          |         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| \[Warning]                                                                                                                                                               | Warning |
-| You can display - in the map itself or in another window - additional information about the resource by clicking on the images/ref/buttons/bouton-informations.png link. |         |
+General
 
-**Customer** : This tab summarises all the information relevant to the [customer](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client) such as the customer reference, name, address and [contact details](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client-contacts).
+![Appointment form, General tab](../images/onglet-general.png)
 
-```
+{% hint style="warning" %}
+You can display additional information about the resource, in the map itself or in another window, by clicking the ![Information button](../.gitbook/assets/bouton-informations.png) link.
+{% endhint %}
+
+#### Customer tab
+
+This tab summarizes all the relevant information about the customer, such as the customer reference, name, address and contact details.
+
 Customer
 
-![images/ref/planification/onglet-client.png](./images/onglet-client.png)
-```
+![Appointment form, Customer tab](../images/onglet-client.png)
 
-|                                                                                                           |         |
-| --------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                | Warning |
-| You can access the full customer form by clicking on the images/ref/buttons/bouton-informations.png link. |         |
+{% hint style="warning" %}
+You can access the full customer form by clicking the ![Information button](../.gitbook/assets/bouton-informations.png) link.
+{% endhint %}
 
-**Communication** : This tab summarises the information to be communicated on the subject of the intervention such as the time slot, the time, the resource, the type of intervention, and any equipment needed.
+#### Communication tab
 
-```
+This tab summarizes the information to communicate about the intervention, such as the time slot, the time, the resource, the type of intervention, and any equipment needed.
+
 Communication
 
-![images/ref/planification/onglet-communiquer.png](./images/onglet-communiquer.png)
+![Appointment form, Communication tab](../images/onglet-communiquer.png)
 
-|  |  |
-| --- | --- |
-| [Warning] | Warning |
-| Clicking on the images/ref/buttons/bouton-informations.png button located at the level of the type of intervention, an infobox indicates the [competencies](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#competence "Skill") needed for the fulfilment of the intervention.  This button can also be found at the level of the selected resource, and enables information such as the duration of the intervention to be obtained, along with the distance and journey time from the previous intervention, and journey time to the next. |
-```
+{% hint style="warning" %}
+When you click the ![Information button](../.gitbook/assets/bouton-informations.png) button next to the type of intervention, an infobox shows the competencies needed to fulfill the intervention. See [Company Data](../administration/companydata.md).
 
-**Fulfilment status** : This tab summarises the information relating to the state of play on the intervention, and enables the user to fill in details of this status.
+The button is also available next to the selected resource. It shows information such as the duration of the intervention, the distance and journey time from the previous intervention, and the journey time to the next one.
+{% endhint %}
 
-```
+#### Fulfilment status tab
+
+This tab summarizes the information about the state of play of the intervention and lets you fill in the details of this status.
+
 Fulfilment status
 
-![images/ref/planification/etat-de-realisation.png](./images/etat-de-realisation.png)
+![Appointment form, Fulfilment status tab](../images/etat-de-realisation.png)
 
-Several statuses are available: Indeterminate status, Unfulfilled, Fulfilled, Unable to fulfill. These are described in the
-[Progression steps](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#etats-avancement "Progression steps") chapter.
-```
+Several statuses are available: **Indeterminate status**, **Unfulfilled**, **Fulfilled** and **Unable to fulfill**. They are described in the "Progression steps" section of [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
 
-|                                                                                                                                                                                   |      |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                           | Note |
-| If the user selects as status **Fulfilled** they will then be able to fill in the **Intervention report**, this option only being available for the fulfilled appointment status. |      |
+{% hint style="info" %}
+If you select the status **Fulfilled**, you can fill in the **Intervention report**. This option is only available for the fulfilled appointment status.
+{% endhint %}
 
-**Additional data** : Depending on the rights granted to the user, this tab enables him to associate a document to the intervention, as well as various information items such as quantities.
+#### Additional data tab
 
-```
+Depending on the rights granted to you, this tab lets you associate a document with the intervention, as well as various information items such as quantities.
+
 Complementary data tab
 
-![images/ref/planification/onglet-donnees-complementaires.png](./images/onglet-donnees-complementaires.png)
-```
+![Appointment form, Additional data tab](../images/onglet-donnees-complementaires.png)
 
-**Comments** : This tab allows the user to add a commentary on the intervention. This commentary is only available when consulting the planning.
+#### Comments tab
 
-```
+This tab lets you add a comment on the intervention. The comment is only available when you consult the planning.
+
 Comments tab
 
-![images/ref/planification/onglet-commentaires.png](./images/onglet-commentaires.png)
-```
+![Appointment form, Comments tab](../images/onglet-commentaires.png)
 
-**Messages** : This tab allows the user to consult any [messages](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#messages) exchanged on the subject of this intervention and/or to create new messages.
+#### Messages tab
 
-```
+This tab lets you consult the messages exchanged about this intervention and create new messages. See [Menu](menu.md).
+
 Messages tab
 
-![images/ref/planification/onglet-messages.png](./images/onglet-messages.png)
-```
+![Appointment form, Messages tab](../images/onglet-messages.png)
 
-**Constraints** : This tab allows the user to add a chaining constraint to the intervention by clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add.png) button.
+#### Constraints tab
 
-```
+This tab lets you add a chaining constraint to the intervention by clicking the ![Add button](../.gitbook/assets/bouton-add.png) button.
+
 Constraints tab
 
-![images/ref/planification/onglet-contraintes.png](./images/onglet-contraintes.png)
-```
+![Appointment form, Constraints tab](../images/onglet-contraintes.png)
 
-The constraints are described in the [chaining constraint](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#contrainte-chainage) chapter.
+The constraints are described in [Setting up liaisons between appointments](#setting-up-liaisons-between-appointments).
 
-**Action buttons**
+### Action buttons in the appointment form
 
-A series of different action buttons are available
+A series of action buttons is available.
 
-![](../.gitbook/assets/differents-boutons-dispo.png)
+![Action buttons of the appointment form](../.gitbook/assets/differents-boutons-dispo.png)
 
-The following actions can be applied from an appointment form:
+You can apply the following actions from an appointment form:
 
-* The Back button takes you back to the last screen;
-* The Save button allows the user to save all the modifications made to the appointment form;
-* The Delete button deletes the appointment. The user must indicate whether the intervention has been deleted by the customer or by the company. Once the deletion has been validated, it will take on a [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) _Cancelled_ status;
-* The Unplan button restores the [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) of the appointment to what it was previously;
-* The Reactivate button restores the daily planning of the selected appointment. The appointment status then changes to a _Requested_ [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts), and is added to the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier);
-* The Suspend button results in the same outcome as unplanning with one exception: the suspended appointments will not be optimisable by the [batch](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_glossary.html#batch) or the [OTR](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html);
-* The Unconfirm button changes the status of the appointment from a _Confirmed_ [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to a _Planned_ [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts);
-* The Plan/Replan button returns the user to the [real-time planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-optimisee-rdv) page;
-* The Manual scheduling/Manual rescheduling button returns the user to the [Manual planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-manuelle-rdv) page;
-*   The Complete… button changes the appointment [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to _Completed_.\
-    You will need to have filled in the following completion form beforehand:
+* **Back** – takes you back to the last screen.
+* **Save** – saves all the modifications made to the appointment form.
+* **Delete** – deletes the appointment. You must indicate whether the intervention was deleted by the customer or by the company. After you validate the deletion, the appointment takes the status **Cancelled**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* **Unplan** – restores the status of the appointment to what it was previously. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* **Reactivate** – restores the daily planning of the selected appointment. The appointment status changes to **Requested** and the appointment is added to the panel. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md) and [The Planning](theplanning.md).
+* **Suspend** – has the same outcome as unplanning, with one exception: suspended appointments cannot be optimized by the batch optimization or by RTO. See [Glossary](../Glossary.md).
+* **Unconfirm** – changes the status of the appointment from **Confirmed** to **Planned**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* **Plan/Replan** – takes you to the real-time planning page.
+* **Manual scheduling/Manual rescheduling** – takes you to the manual planning page.
+* **Complete…** – changes the appointment status to **Completed**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md). You must first fill in the following completion form.
 
-    Completion status form
+  Completion status form
 
-    ![](../.gitbook/assets/realization-form.png)
-* The Transform button (visible whenever the appointment is requested) opens a page in which you can rapidly apply pre-configured modifications such as the modification of earliest and latest dates, for example.
-*   The Modify… button allows you to modify the information items that cannot be edited in the form itself.
+  ![Completion status form](../.gitbook/assets/realization-form.png)
+* **Transform** – visible whenever the appointment is requested. Opens a page where you can quickly apply pre-configured modifications, such as modifying the earliest and latest dates.
+* **Modify…** – lets you modify the information items that cannot be edited in the form itself.
 
-    Modify appointment form
+  Modify appointment form
 
-    ![](../.gitbook/assets/fiche-rdv-modif.png)
+  ![Modify appointment form](../.gitbook/assets/fiche-rdv-modif.png)
 
-The Save button saves the modifications and the Back to the form button takes you back to the appointment form.
+  In this form, **Save** saves the modifications and **Back to the form** takes you back to the appointment form.
+* **Announce** – creates a configurable circulation listener, for example when sending a pre-formatted message to all the customer appointment contacts in the list. See [CSV Files](../administration/csvfiles.md).
+* **Send** – signals that the technician has been informed about the appointment. The ![Notified icon](../.gitbook/assets/notifie.png) icon is displayed next to the name of the resource concerned.
 
-* The Announce button creates a configurable [circulation listener](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#listener), for example, when sending a pre-formatted message to all the customer appointment contacts in the list.
-*   The Send button allows you to signal that the technician has been informed about the appointment. The ![images/ref/buttons/notifie.png](../.gitbook/assets/notifie.png) icon displays opposite the name of the resource concerned.
+  {% hint style="info" %}
+  The appointment then takes the notification status "sent". See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+  {% endhint %}
+* **Add to panel** – adds the appointment to the panel. See [The Planning](theplanning.md).
+* **Add an agenda marker** – takes you to the function for adding a new agenda marker. See [Menu](menu.md).
+* **Visit report** – visible if the appointment is fulfilled. Authorizes the resource to complete the information in the appointment form after it is set up. You fill in any notes, modify the appointment status if it needs updating (fulfilled, unfulfilled) and, if the appointment is fulfilled, write an explanatory report for the visit.
+* **Subcontract** – changes the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
 
-    |                                                                                                                                                                                                                                                                       |     |
-    | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-    | \[Tip]                                                                                                                                                                                                                                                                | Tip |
-    | The appointment then changes status so it now has a status of [notification status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#etats-notification) "sent". |     |
-* The Add to panel button adds the appointment to the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier);
-* The Add an agenda marker button returns you to the Add a new [agenda marker](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gerer-jalons) function;
-* Visit report (button visible if the appointment is fulfilled) authorises the resource to complete the information in the appointment form once the latter has been set up; the user must fill in any notes, modify the status of the appointment if this needs updating (fulfilled, unfulfilled) and raise an explanatory report for the visit if fulfilled.
-* The Subcontract button changes the appointment [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to _Externalised_.
+## Steps in the scheduling process
 
-### Steps in the scheduling process
+The scheduling process is made up of several steps.
 
-The planning process is made up of several steps:
+### Qualification of the appointment
 
-#### Qualification of the appointment
+Qualification is the validation of the solution suggested by the application. When an optimization is performed, several timeslots can be suggested for scheduling the appointment. You can validate the appointment when you set a new appointment or when you make an appointment for an existing customer after performing a customer search. See [Menu](menu.md).
 
-The [validation of the solution](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-confirmation) suggested by the application. Where an optimisation is being performed, several timeslots may be suggested for scheduling the appointment. The validation of the appointment is possible when you [set a new appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#prendre-nouveau-rdv) or when you make an appointment for an existing customer having first performed a [customer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher).
+Optimization request
 
-Optimisation request
+![Optimization request screen](../.gitbook/assets/demande-rdv.png)
 
-![](../.gitbook/assets/demande-rdv.png)
+* Qualification consists of filling in at least the **Intervention type**, the **Duration** of the appointment and a **Description**.
 
-* Qualification consists of filling in at least the **Intervention type**, the **duration** of the appointment and a **description**.
+{% hint style="info" %}
+You can modify the address by clicking the button beside the address. Address modification is described in the geocoding topic. The address identifies the intervention sector concerned when the associated appointment is scheduled. To enable this, you must enable:
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |      |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Note |
-| You can modify the address by clicking on the button beside the address. The modification of the address is described in the [geocoding](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) chapter. This address serves to identify the [intervention sector](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) concerned at the time scheduling of the associated appointment takes place. To do this, you will need to enable: - the _Customization > Configuration > Display > Address > address.district.codification > cityInDistrictSubstringIndexes_ parameter, that generates the INSEE code from the IRIS code returned by [geocoding](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html); - the _Customization > Configuration > Application > Agents > appointment.completion.agent.districting > codeZoneWorksite and codeZoneWorksite.ordering_ agent, which takes the INSEE code as starting point to go and search for the unique correspondence among towns added to the various saved sectors. |      |
+* The **Customization** > **Configuration** > **Display** > **Address** > `address.district.codification` > `cityInDistrictSubstringIndexes` parameter, which generates the INSEE code from the IRIS code returned by geocoding.
+* The **Customization** > **Configuration** > **Application** > **Agents** > `appointment.completion.agent.districting` > `codeZoneWorksite` and `codeZoneWorksite.ordering` agent, which uses the INSEE code as a starting point to find the unique correspondence among the towns added to the various saved sectors.
 
-Once the intervention has been qualified, the user can [**request an appointment**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#demande-rdv), requesting [**optimised scheduling**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-optimisee-rdv) or [**manual scheduling**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-manuelle-rdv) as required.
+See [Customization](../administration/customization.md).
+{% endhint %}
 
-#### Appointment request
+After you qualify the intervention, you can **request an appointment**, requesting **optimized scheduling** or **manual scheduling** as required.
+
+### Appointment request
 
 Request an appointment with period of fulfilment
 
-![](../.gitbook/assets/demande-rdv2.png)
+![Appointment request with period of fulfilment](../.gitbook/assets/demande-rdv2.png)
 
-In this screen, the user terminates the qualification of the appointment by filling in the following information:
+On this screen, you finish qualifying the appointment by filling in the following information:
 
-* **Resource** allows you to force which mobile resources will be assigned to perform the appointment. To do this, select the _Select resources to optimise_ radio-button, and then select the resource(s) to be used.
-* A **Time limit** can be set to restrict the possible scope for the scheduling. First check the _Force the appointment dates_ check-box, and then select the earliest date required as well as the latest possible date in terms of a number of days, or by selecting dates using the popup calendars.
+* **Resource** – forces which mobile resources are assigned to perform the appointment. Select the **Select resources to optimise** option, then select the resources to use.
+* **Time limit** – restricts the possible scope for scheduling. First select the **Force the appointment dates** check box. Then select the earliest required date and the latest possible date, either as a number of days or with the popup calendars. You can also define a time on the first (or last) day of the appointment before (or after) which the appointment is not scheduled.
+* **Client availability** – sets the times when the customer is available.
+* **Priority** – the more urgent the appointment is, the more likely the application schedules it when the plannings are overloaded.
 
-Similarly, you can define a time on the first (or last) day of the appointment being scheduled before (or after) which the appointment will not be scheduled.
+  {% hint style="info" %}
+  Use a priority of 100 sparingly, and only for the most urgent appointments. A priority of 0 is equivalent to a priority of 50.
+  {% endhint %}
 
-* **Client availability** allows you to set times when the client is available.
-*   **Priority**: the more urgent the appointment is, the more likely it is that it will be scheduled by the application in the event of an overload on the plannings generally.
+You can cancel the appointment request, or confirm it by clicking **Request an appointment**. An appointment is then created with the status **Requested**, so the batch optimization engine can schedule it automatically. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
 
-    |                                                                                                                                           |     |
-    | ----------------------------------------------------------------------------------------------------------------------------------------- | --- |
-    | \[Tip]                                                                                                                                    | Tip |
-    | A priority of 100 should be used sparingly, and only for the most urgent appointments. A priority of 0 is equivalent to a priority of 50. |     |
+### Optimized appointment (real time)
 
-It is possible to **cancel** the appointment request or confirm it by clicking on **Request an appointment**. An appointment is then created with a [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) of _Requested_ and so can be automatically scheduled by the batch optimisation engine.
+After you qualify the appointment, you can ask the application to calculate the best opportunities according to the imposed constraints. These are the optimized, or real-time optimized, functions, as opposed to cold optimization. See [Optimization](../administration/optimisation.md).
 
-#### Optimised appointment (real time)
+Configuration window for the search for an optimized appointment
 
-Once the appointment has been [qualified](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#creation-rdv-demande), it will be possible to request that the application calculates the best opportunities as a function of the constraints imposed: these are the optimised, or optimised in real time functions, as opposed to [cold optimisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#planif-optim)).
+![Configuration window for an optimized appointment search](../.gitbook/assets/prendre-rdv-ecran-optimise-2.png)
 
-Configuration window for the search for an optimised appointment
+The fields are similar to those for the appointment request.
 
-![](../.gitbook/assets/prendre-rdv-ecran-optimise-2.png)
+In addition, you can specify an optimization profile and the days on which the appointment is not scheduled, by clearing those days at the end of the page. See [Optimization](../administration/optimisation.md).
 
-Here, the fields are similar to those for the [appointment request](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#demande-rdv).
+Click **Cancel** to cancel the scheduling.
 
-In addition, you can specify an [optimization profile](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#profil-optim) and the days on which the appointment will not be scheduled, by unchecking these as required at the end of the page.
+Click **Search** or **Search +** to run the search for suggestions from the application and display the results.
 
-You will be able to cancel the scheduling by clicking on the Cancel button.
+{% hint style="warning" %}
+For a multi-resource appointment, if the **Select resources to optimise** option is activated, you must select as many resources as are necessary to fulfill the appointment. The **Search +** function returns suggestions on timeslots that are already taken, by authorizing the engine to extract from the agendas any appointments that have a planned status.
+{% endhint %}
 
-The Search or Search + buttons run the search on suggestions from the application and display the [results](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html).
+Result of an optimization with the **Search +** button
 
-|                                                                                                                                                                                                                                                                                                                                                                   |         |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                                                                                                                                                        | Warning |
-| In the case of a multi-resource appointment, if the **Select resources to optimise** option is activated, you need to select as many resources as are necessary to fulfil the appointment. The Search + function returns suggestions on the timeslots already taken by authorising the engine to extract from the agendas any appointments with a planned status. |         |
+![Result of an optimization with Search +](../.gitbook/assets/prendre-rdv-ecran-optimise-6.png)
 
-* Result of an optimisation via the Search + button
+{% hint style="info" %}
+If the table is displayed after you use the **Search +** function, a ![Warning symbol](../images/avertissement.png) symbol indicates that one or several planned appointments must be unplanned once the operation is completed. Move the mouse over the symbol to see the detailed information in a popup.
+{% endhint %}
 
-![](../.gitbook/assets/prendre-rdv-ecran-optimise-6.png)
+* The upper part of the screen summarizes the information present in the appointment form.
+* Below, a list shows all the appointment opportunities that correspond to the request.
+* The list is sorted by cost suitability (the best compromise between the date, the resource's qualification and the journey distance to the appointment). The lower the cost of the route plan suggestion, the higher its suitability, and the better the suggestion.
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                              |      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
-| \[Note]                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Note |
-| If the table is displayed following utilisation of the [Search +](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-optimisee-rdv) function, a images/ref/buttons/avertissement.png symbol indicates that one or several planned appointments must be unplanned once this operation is completed. Moving the mouse over the item reveals the detailed information in a popup. |      |
+{% hint style="info" %}
+You can configure a star system to represent this suitability visually. To do this, activate the optimization setting **Display solution cost as a chart**. See [Optimization](../administration/optimisation.md).
+{% endhint %}
 
-* In the upper part of the screen is a summary of the information present in the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv).
-* Below, a listing of all appointment opportunities corresponding to the request expressed is displayed.
-* This list is sorted in order of cost suitability (best compromise between the date, the resource’s qualification and the journey distance to arrive at the appointment).\
-  The lower the cost of the route plan suggestion, the higher its suitability, and the better the suggestion.
-
-|                                                                                                                                                                                                                                                                                        |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                 | Tip |
-| A stars system can be configured to represent this suitability visually. To do this, activate the [optimization setting](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#param-optim) _Display solution cost as a chart_. |     |
-
-* The table suggests, for each of the potential resources, over and above the time window, the cost as well as the presenting time calculated for the appointment. Moving the mouse cursor over the item displays an information popup associated to the cost giving the different information items explaining the cost value (the journey time added in relation to the appointments already fixed, the extra distance and the time needed…).
-* The Agenda icon on the line of a suggested timeslot displays the agenda for the day in question and the corresponding resources in the [planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) section.
-* The OK link validates the choice of appointment and returns the user to the confirmation page.
+* For each potential resource, the table suggests the time window, the cost and the presenting time calculated for the appointment. Move the mouse cursor over the cost to display a popup with the items that explain the cost value (the journey time added in relation to the appointments already fixed, the extra distance, the time needed, and so on).
+* The **Agenda** icon on the line of a suggested timeslot displays the agenda for that day and the corresponding resources in the planning section.
+* The **OK** link validates the choice of appointment and takes you to the confirmation page.
 
 Confirmation of the suggestion
 
-![](../.gitbook/assets/prendre-rdv-ecran-optimise-5.png)
+![Confirmation of the suggestion](../.gitbook/assets/prendre-rdv-ecran-optimise-5.png)
 
-* The information in the [Appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv) is then shown. It is also possible to enter additonal notes if necessary.
-* Click on the Confirm button to confirm the taking of the appointment and switch to the appointment home page.
-* Click on the Back button to go back to the previous step.
-* Click on the Subcontract button to change the appointment [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to _Externalised_.
+* The information from the appointment form is shown. You can also enter additional notes if necessary.
+* Click **Confirm** to confirm the appointment and go to the appointment home page.
+* Click **Back** to go back to the previous step.
+* Click **Subcontract** to change the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
 
-#### Manual appointment
+### Manual appointment
 
-Unlike [optimised scheduling](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-optimisee-rdv), manual scheduling forces the resource(s) used, as well as the date and time of the appointment. It will therefore be possible to override some scheduling constraints.
+Unlike optimized scheduling, manual scheduling forces the resources used, as well as the date and time of the appointment. You can therefore override some scheduling constraints.
 
 Manual appointment taking
 
-![](../.gitbook/assets/prise-rdv-manuel-1.png)
+![Manual appointment taking](../.gitbook/assets/prise-rdv-manuel-1.png)
 
-The manual scheduling function copies, in the first part, the information from the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv).
+The first part of the manual scheduling function copies the information from the appointment form.
 
-You will need to specify an [optimization profile](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#profil-optim).
+You must specify an optimization profile. See [Optimization](../administration/optimisation.md).
 
-The resource type is adjusted in relation to the type of intervention selected (as a function of competencies) and a drop-down list allows you to choose the resource among those assigned to the area on which the call taker works.\
-While it is not necessary or mandatory to choose a precise resource, it is possible to allow the application to choose from all the resources able to make the journey by checking the **several** option.
+The resource type is adjusted to the type of intervention selected (according to competencies). A drop-down list lets you choose the resource among those assigned to the area where the call taker works. You do not have to choose a specific resource. To let the application choose from all the resources able to make the journey, select the **several** option.
 
-The first thing to do is choose a **date** and a **time** for the appointment in the two editable zones provided.\
-If the **Precise** option is chosen, the application verifies whether it will be possible to place the intervention at the time indicated.\
-If the **From** option is chosen, the application will search for the best solution from the indicated time.
+1. Choose a **date** and a **time** for the appointment in the two editable zones.
+2. If you choose the **Precise** option, the application verifies whether it can place the intervention at the indicated time. If you choose the **From** option, the application searches for the best solution from the indicated time.
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Tip |
-| The [planning](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html) is automatically updated with the planning for the selected resource(s) on the chosen date. The call taker can then confirm the availability of the potential resource and modify the three main variables as required: resource, date and day. The button to the left of the **resource** allows you to refresh the list of resources as a function of the chosen date. |     |
+{% hint style="info" %}
+The planning is automatically updated with the planning for the selected resources on the chosen date. See [The Planning](theplanning.md). The call taker can then confirm the availability of the potential resource and modify the three main variables as required: resource, date and day. The button to the left of **resource** refreshes the list of resources according to the chosen date.
+{% endhint %}
 
-The Continue button allows you to see which constraints will be forced by the scheduling, or to confirm the solution, if constraint override is not used.
+Click **Continue** to see which constraints the scheduling forces, or to confirm the solution if constraint override is not used.
 
-The Subcontract button changes the appointment [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) to _Externalised_.
+Click **Subcontract** to change the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
 
 Displaying forced constraints where override has been used
 
-![](../.gitbook/assets/fiche-de-planification-manuelle-en-cas-de-conflit.png)
+![Forced constraints displayed when override is used](../.gitbook/assets/fiche-de-planification-manuelle-en-cas-de-conflit.png)
 
-Where one or several constraints must be forced to enable the appointment to be scheduled at the chosen time, a series of warning messages display in red at the top of the screen.
+When one or several constraints must be forced to schedule the appointment at the chosen time, a series of warning messages appears in red at the top of the screen.
 
-Messages may concern the unplanning of an appointment or unavailability, a time constraint of the resource or of the client, or again a constraint on the assignment of the resource.
+The messages can concern the unplanning of an appointment or unavailability, a time constraint of the resource or of the customer, or a constraint on the assignment of the resource.
 
-|                                                                                                                                                                                                                                                                                          |      |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                                                                                  | Note |
-| If an appointment is unplanned, the appointment(s) that have been unplanned will display automatically in the [panel](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#manipuler-une-intervention-a-partir-du-panier). |      |
+{% hint style="info" %}
+If an appointment is unplanned, the unplanned appointments are displayed automatically in the panel. See [The Planning](theplanning.md).
+{% endhint %}
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Tip |
-| You can authorise superimposition at the time a positioning action is made without unplanning other appointments or unavailabilities. To do this, configure the various _Manual placement with overlap_ [optimization parameters](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#param-optim) and the _CALLCENTER\_FORCE\_IMPOSE\_APP\_WITH\_OVERLAPS_ right. A Overlap the appointment button then appears. |     |
+{% hint style="info" %}
+You can authorize superimposition when you make a positioning action, without unplanning other appointments or unavailabilities. To do this, configure the various **Manual placement with overlap** optimization parameters and the `CALLCENTER_FORCE_IMPOSE_APP_WITH_OVERLAPS` right. An **Overlap the appointment** button then appears. See [Optimization](../administration/optimisation.md).
+{% endhint %}
 
-A [confirmation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-confirmation) screen allows you to complete the appointment-making operation.
+A confirmation screen lets you complete the appointment-making operation.
 
-### Setting up liaisons between appointments
+## Setting up liaisons between appointments
 
-Liaisons between appointments (appointments that are to take place simultaneously or that must respect a minimum gap between them, etc.) are modelled by chaining constraints.
+Liaisons between appointments (appointments that take place simultaneously, that must respect a minimum gap between them, and so on) are modeled by chaining constraints.
 
-A chain is composed of different appointments and features a liaison type.
+A chain is composed of different appointments and has a liaison type.
 
-|                                                                                                                                                                                                                                 |         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                      | Warning |
-| Excepted for the **stapling** liaison type, the chain can be inserted in an incomplete form if some constraints are not suitable. This means that the presence of all the member items of a constraint chain is not guaranteed. |         |
+{% hint style="warning" %}
+Except for the **Stapling** liaison type, the chain can be inserted in an incomplete form if some constraints are not suitable. This means that the presence of all the member items of a constraint chain is not guaranteed.
+{% endhint %}
 
-#### Types of liaison (chaining constraints)
+### Types of liaison (chaining constraints)
 
-*   **Spacing and ordering**: guarantees that between one appointment and the next a certain minimum or maximum delay is respected. The minimum and maximum time delays taken into account are the values defined in the _Minimum delay_ and _Maximum delay_ fields. This type of constraint also allows you to be able to manage the sequencing in the schedule (ie the ordering of appointments) by the application (field\_Scheduling order\_ defined in section 2 on the screen).
+* **Spacing and ordering** – guarantees that a certain minimum or maximum delay is respected between one appointment and the next. The delays taken into account are the values defined in the **Minimum delay** and **Maximum delay** fields. This type of constraint also lets the application manage the sequencing in the schedule (the ordering of appointments), using the **Scheduling order** field defined in part 2 of the screen.
 
-    Example 1: all appointments must follow one another with 1 or 2 days gap between them. Therefore you need to specify in the _Minimum gap_ field a value of 1, and in the _Maximum gap_ field, a value of 2.
+  Example 1: all appointments must follow one another with a gap of 1 or 2 days between them. Specify a value of 1 in the **Minimum gap** field and a value of 2 in the **Maximum gap** field.
 
-    Example 2: all appointments must be completed on the same day. Therefore, you will need to specify a value of 0 in the _Minimum gap_ and _Maximum gap_ fields.
-*   **Same resource**: Guarantees that the appointments in the chain will be planned on the same resource.
+  Example 2: all appointments must be completed on the same day. Specify a value of 0 in the **Minimum gap** and **Maximum gap** fields.
+* **Same resource** – guarantees that the appointments in the chain are planned on the same resource.
 
-    |                                                                                                                                                                                                                                |         |
-    | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-    | \[Warning]                                                                                                                                                                                                                     | Warning |
-    | - If the constraint is not compatible with the required resources, or with resources that are refused, preferred, or assigned, the complete chain will be rejected. - This liaison type does not apply in multi-resource mode. |         |
-*   **Unbreakable**: Guarantees that ALL appointments are completed, one after the other (without other appointments being inserted between them).
+  {% hint style="warning" %}
+  * If the constraint is not compatible with the required resources, or with resources that are refused, preferred or assigned, the complete chain is rejected.
+  * This liaison type does not apply in multi-resource mode.
+  {% endhint %}
+* **Unbreakable** – guarantees that all appointments are completed one after the other, without other appointments inserted between them.
 
-    |                                                                                                                                                   |         |
-    | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-    | \[Warning]                                                                                                                                        | Warning |
-    | This type of constraint is not applicable in batch optimisation mode with Dispatcher. Functions only in pre-scheduling by real time optimisation. |         |
+  {% hint style="warning" %}
+  This type of constraint is not applicable in batch optimization mode with Dispatcher. It functions only in pre-scheduling by real-time optimization.
+  {% endhint %}
 
-|                                                     |      |
-| --------------------------------------------------- | ---- |
-| \[Note]                                             | Note |
-| This is non-selectable via the Opti-Time interface. |      |
+  {% hint style="info" %}
+  This type cannot be selected in the NFS interface.
+  {% endhint %}
+* **Grouped (maximum spacing from start)** – all appointments in the chain must be completed within a maximum timespan in relation to the first appointment (the maximum timespan between the first appointment and the last). For example, all appointments in the chain must be completed within 2 days counting from the first appointment.
+* **Same resource and grouped** – guarantees that the appointments are scheduled one after the other (other appointments can be inserted between them), on the same resource and within the defined maximum time interval.
+* **Delayed (Minimum gap in relation to the first)** – all appointments in the chain must take place after a certain timespan starting from the first appointment (the time interval between the first appointment and the following ones). For example, respect an interval of 3 days after the first appointment before scheduling all the following ones.
+* **Same resource and delayed** – guarantees that appointments are scheduled one after another (other appointments can be placed between them), on the same resource and with a certain time delay between the first and the following appointments.
+* **Circuit (same resource, unbreakable, grouped)** – guarantees that appointments are scheduled one after the other (without other appointments in between), on the same resource and within the maximum time space defined according to the defined order.
 
-* **Grouped (maximum spacing from start)**: all appointments in the chain must be completed within a maximum timespan in relation to the first appointment (maximum timespan between the first appointment 1 and the last). For example, all appointments in the chain must be completed within a timespan of 2 days counting from the 1st appointment.
-* **Same resource and grouped**: Guarantees that the appointments are scheduled one after the other (with other appointments inserted between them a possibility), on the same resource and on the defined maximal time interval.
-* **Delayed (Minimum gap in relation to the first)**: all appointments in the string must take place after a certain timespan starting from the first appointment (i.e. the time interval between appointment 1 and the next ones). For example, respecting an interval of 3 days after the first appointment before scheduling all the following ones.
-* **Same resource and delayed**: Guarantees that appointments are scheduled one after another (with the option of placing other appointments in between them), on the same resource and respecting a certain time delay between the first and subsequent appointments.
-*   **Circuit (same resource, unbreakable, grouped)**: Guarantees that appointments are scheduled one after the other (without other appointments in between them), on the same resource and on the maximum time space defined as a function of the defined order.
+  {% hint style="warning" %}
+  For this constraint to function in a batch optimization, activate the pre-optimization phase of circuits in the optimization parameters. See [Optimization](../administration/optimisation.md).
+  {% endhint %}
+* **Same start time** – guarantees that the appointments in the series are scheduled at the same time (same day, same time).
+* **Separate day** – guarantees that the appointments in the chain are planned on different days.
 
-    |                                                                                                                                                                                                                                                                                    |         |
-    | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-    | \[Warning]                                                                                                                                                                                                                                                                         | Warning |
-    | So that this constraint functions in a batch optimisation, you need to activate the pre-optimisation phase of circuits in the [optimization parameters](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#optim-optim). |         |
-* **Same start time**: Guarantees that the appointments in the series will be scheduled at the same time (same day, same time).
-*   **Separate day**: Guarantees that the appointments in the chain will be planned on different days.
+  {% hint style="warning" %}
+  If the chaining constraint is incompatible with the imposed appointment dates, their positioning in the schedule is not guaranteed.
+  {% endhint %}
+* **Ordered route** – guarantees that the appointments are placed one after another (other appointments can be placed between them), on the same resource and on the same day.
+* **Ordered circuit (sequenced route, unbreakable)** – guarantees that appointments are placed one after the other (without other appointments scheduled in between), on the same resource and on the same day.
+* **Stapling** – all the appointments in the series are "stapled together" so they are taken as a single long appointment and scheduled as such. This guarantees that all appointments in the series are scheduled one after another in sequence (without any other appointments in between) on the same resource at the same site.
 
-    |                                                                                                                                          |         |
-    | ---------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-    | \[Warning]                                                                                                                               | Warning |
-    | If the chaining constraint is incompatible with the imposed appointment dates, their positioning in the schedule will not be guaranteed. |         |
-* **Ordered route**: Guarantees that the appointments are placed one after another (with the option of placing other appointments in between them), on the same resource and on the same day.
-* **Ordered circuit (sequenced route, unbreakable)**: Guarantees that appointments are placed one after the other (without other appointments scheduled in between them), on the same resource and on the same day.
-*   **Stapling**: All the appointments in the series are "stapled together" so they can be taken as a single long appointment and scheduled as such. This guarantees that ALL appointments in the series will be scheduled one after another in sequence (without any other appointments in between them) on the same resource at the same site.
+  {% hint style="warning" %}
+  This type of constraint is not applicable in batch optimization mode with Dispatcher. It functions only in pre-scheduling by real-time optimization.
+  {% endhint %}
 
-    |                                                                                                                                                   |         |
-    | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-    | \[Warning]                                                                                                                                        | Warning |
-    | This type of constraint is not applicable in batch optimisation mode with Dispatcher. Functions only in pre-scheduling by real time optimisation. |         |
+### Linking two appointments in the interface
 
-#### Linking two appointments in the interface
+{% hint style="warning" %}
+To create or modify a chaining constraint, you need the corresponding rights assigned by the NFS administrator. See [User Handling](../administration/userhandling.md).
+{% endhint %}
 
-|                                                                                                                                                                                                                                                                      |         |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                                                           | Warning |
-| To be able to create or modify a chaining constraint, you need to have the corresponding [rights](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/utilisateurs.html#coll-droits) assigned by the Opti-Time administrator. |         |
-
-At the bottom of the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv), in the section called **Chaining constraints**, the existing constraints display if there are any:
+At the bottom of the appointment form, the **Chaining constraints** section shows the existing constraints, if any.
 
 Appointment form
 
-![](../.gitbook/assets/chainage-liste.png)
+![Appointment form with the list of chaining constraints](../.gitbook/assets/chainage-liste.png)
 
-If not, it will be possible to create one by clicking on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add.png) button.
+If there are none, you can create one by clicking the ![Add button](../.gitbook/assets/bouton-add.png) button.
 
-|                                                                     |      |
-| ------------------------------------------------------------------- | ---- |
-| \[Note]                                                             | Note |
-| It is preferable only to create one single constraint per customer. |      |
+{% hint style="info" %}
+It is preferable to create only one constraint per customer.
+{% endhint %}
 
-The chaining constraint screen comprises two parts: the first allows you to specify the liaison constraints and the second allows you to specify the constraints specific to each linked appointment.
+The chaining constraint screen has two parts. The first part lets you specify the liaison constraints. The second part lets you specify the constraints specific to each linked appointment.
 
 Creating a new constraint
 
-![](../.gitbook/assets/chainage-modifier.png)
+![Creating a new chaining constraint](../.gitbook/assets/chainage-modifier.png)
 
-Once in this screen, it will be necessary to fill in values for the following fields:
+Fill in the following fields.
 
-(Part 1)
+**Part 1**
 
-* **Name**: unique identifier for the constraint chain. Each chain must have a different name. In effect, all the appointments having a chaining constraint with the same name will be linked between them. This field is mandatory.
-* **Type**: Type of chaining constraint. The different types of constraint are defined below (section [Types of liaison](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#Type-liaison)).
-* **Minimum gap**: A gap of 0 days signifies «the same day». This gap takes as reference the first day of the intervention (even for appointments taking place over several days)
-* **Minimum gap**: A gap of 0 days signifies "the same day". This gap takes as reference the first day of the intervention (even for appointments taking place over several days)
-* **Description**: Text field allowing you to give a description to the chaining constraint.
+* **Name** – unique identifier for the constraint chain (mandatory). Each chain must have a different name, because all the appointments that have a chaining constraint with the same name are linked.
+* **Type** – the type of chaining constraint. The types are described in [Types of liaison (chaining constraints)](#types-of-liaison-chaining-constraints).
+* **Minimum gap** – a gap of 0 days means "the same day". The gap takes the first day of the intervention as reference (even for appointments that take place over several days).
+<!-- REVIEW: the source lists "Minimum gap" twice with identical text; the second entry was probably meant to be "Maximum gap" -->
+* **Description** – text field for describing the chaining constraint.
 
-(Part 2)
+**Part 2**
 
-In part 2, you will find appointments associated to the constraint chain.
+Part 2 shows the appointments associated with the constraint chain.
 
 For each associated appointment, the following fields are present:
 
-* Customer delivered: external customer reference
-* Town: town where the customer is located
-* Date / Time: date and time of the appointment in the schedule (if an appointment has been placed there)
-* Resource: resource assigned to the appointment (if the appointment has been scheduled)
-* Earliest date: the earliest date for the appointment
-* Latest date: latest scheduling date for the appointment
-* Status: completion status of the appointment
-*   Sequencing order: order of the appointment in the chain. The application will try in this case to plan appointments in the order requested.
+* **Customer delivered** – external customer reference.
+* **Town** – town where the customer is located.
+* **Date / Time** – date and time of the appointment in the schedule (if the appointment has been placed there).
+* **Resource** – resource assigned to the appointment (if the appointment has been scheduled).
+* **Earliest date** – the earliest date for the appointment.
+* **Latest date** – the latest scheduling date for the appointment.
+* **Status** – completion status of the appointment.
+* **Sequencing order** – order of the appointment in the chain. The application tries to plan appointments in the requested order.
 
-    |                                          |         |
-    | ---------------------------------------- | ------- |
-    | \[Warning]                               | Warning |
-    | Only for chainings of the _Circuit_ type |         |
-* Minimum spacing: minimum gap between appointments (overload of the value specified in Part 1)
-* Maximum spacing: maximum gap between appointments (overload the value specified in Part 1)
+  {% hint style="warning" %}
+  Only for chainings of the **Circuit** type.
+  {% endhint %}
+* **Minimum spacing** – minimum gap between appointments (overrides the value specified in Part 1).
+* **Maximum spacing** – maximum gap between appointments (overrides the value specified in Part 1).
 
-|                                                                                                                                                                                   |      |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                           | Note |
-| When a constraint is not utilised (placement sequence, minimum or maximum spacing) you will need to either NOT put the value in the corresponding field, or assign a value of -1. |      |
+{% hint style="info" %}
+When a constraint is not used (placement sequence, minimum or maximum spacing), either leave the corresponding field empty or enter a value of -1.
+{% endhint %}
 
-* To delete appointments from a constraint chain, click on the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) cross opposite the appointment concerned, on the right of the table, in modification mode.
-* To modify the specific constraints for each appointment in the constraint chain, click on the Edit button.
-* To save the constraint chain, click on Save.
-* To delete the constraint chain, click on the Delete button at the bottom of the page.
+* To delete appointments from a constraint chain, click the ![Delete button](../.gitbook/assets/bouton-delete.png) cross opposite the appointment concerned, on the right of the table, in modification mode.
+* To modify the constraints specific to each appointment in the chain, click **Edit**.
+* To save the constraint chain, click **Save**.
+* To delete the constraint chain, click **Delete** at the bottom of the page.
 
-### Unavailabilities
+## Unavailabilities
 
-Unavailabilities appear with a specific colouring in the planning. They are always geolocated, and can therefore be displayed on the map.
+Unavailabilities appear with a specific color in the planning. They are always geolocated, so they can be displayed on the map.
 
-#### Unavailability form
+### Unavailability form
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for the unavailability is accessible via:
+You access the unavailability form from:
 
-* the [unavailabilities management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gerer-indispos) form;
-* the [search for unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-indispo) function;
-* using the [unavailability tool-tip](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-indispo).
+* The unavailabilities management form. See [Menu](menu.md).
+* The unavailabilities search function. See [Menu](menu.md).
+* The unavailability tool-tip. See [The Planning](theplanning.md).
 
 Unavailabilities management page
 
-![](../.gitbook/assets/page-indisponibilites.png)
+![Unavailabilities management page](../.gitbook/assets/page-indisponibilites.png)
 
-It is divided into five sections:
+The source describes the page as divided into five sections, but only the **General** section is described.
+<!-- REVIEW: source says "five sections" but only section 1 (General) is described; the remaining sections appear in the source as run-on items (Frequency, Address, Comments, Next unavailabilities) -->
 
-1. [General](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#d172e3137)
+#### General
 
-|        |                                                                            |
-| ------ | -------------------------------------------------------------------------- |
-| **1.** | **General**                                                                |
-|        | Choice of unavailability type images/ref/planification/indispo-general.png |
+Choice of unavailability type
 
-In this section, we have:
+![Unavailability form, General section](../images/indispo-general.png)
 
-\* Selection of the **Unavailability type** in the first of the drop-down menus. This contains all the types of unavailability that have been configured in the [administration module](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-indispo). \* Selection of the **Resource** to which the unavailability will be added.
+In this section:
 
-|                                                                                                                                                                                                                                                                                                                         |     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                                                                                                                                                                                  | Tip |
-| Depending on the configuration of the [unavailability type](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-indispo) (mono/multi-resource), the user interface will propose either a simple selection of a single resource, or a multi-resource selection. |     |
+* Select the **Unavailability type** in the first drop-down menu. It contains all the unavailability types configured in the Administration module. See [Company Data](../administration/companydata.md).
+* Select the **Resource** to which the unavailability is added.
 
-* Click on the ![images/ref/buttons/bouton-add.png](../.gitbook/assets/bouton-add.png) button to the right of the list of resources to activate multiple selection mode (only in the event that a multi-resource type of unavailability is chosen).
-* This mode adds participants to the meeting either one by one (_'Resources_' radio button selected), or team by team (_'team_' radio button selected), or post profile by post profile (_'Profile_' radio button selected).
-* Select an item in the left-hand list and click on the ![images/ref/buttons/bouton-simple-chevron-droit.png](../.gitbook/assets/bouton-simple-chevron-droit.png) button to add to the selection list.
-* The ![images/ref/buttons/bouton-double-chevrons-droit.png](../.gitbook/assets/bouton-double-chevrons-droit.png) button adds all the items in the list on the left to the selection.
-* To remove an item from the selection list, click on it to select it and then click on the ![images/ref/buttons/bouton-simple-chevron-gauche.png](../.gitbook/assets/bouton-simple-chevron-gauche.png) button to remove it.
+{% hint style="info" %}
+Depending on the configuration of the unavailability type (mono-resource or multi-resource), the user interface offers either a selection of a single resource or a multi-resource selection. See [Company Data](../administration/companydata.md).
+{% endhint %}
 
-The ![images/ref/buttons/bouton-double-chevrons-gauche.png](../.gitbook/assets/bouton-double-chevrons-gauche.png) button serves to remove all the resources from the selection list.
+To select several resources (only when you choose a multi-resource type of unavailability):
 
-|                                                                       |     |
-| --------------------------------------------------------------------- | --- |
-| \[Tip]                                                                | Tip |
-| A new Meeting field is available to give an objective to the meeting. |     |
+1. Click the ![Add button](../.gitbook/assets/bouton-add.png) button to the right of the list of resources to activate multiple selection mode.
+2. Choose how to add participants to the meeting: one by one (select the **Resources** option), team by team (select the **Team** option) or post profile by post profile (select the **Profile** option).
+3. Select an item in the left-hand list and click the ![Add one button](../.gitbook/assets/bouton-simple-chevron-droit.png) button to add it to the selection list.
+4. To add all the items of the left-hand list to the selection, click the ![Add all button](../.gitbook/assets/bouton-double-chevrons-droit.png) button.
+5. To remove an item from the selection list, select it and click the ![Remove one button](../.gitbook/assets/bouton-simple-chevron-gauche.png) button.
+6. To remove all the resources from the selection list, click the ![Remove all button](../.gitbook/assets/bouton-double-chevrons-gauche.png) button.
+7. To exit multiple selection mode, click the ![Delete button](../.gitbook/assets/bouton-delete.png) button.
 
-Finally, the ![images/ref/buttons/bouton-delete.png](../.gitbook/assets/bouton-delete.png) button allows you to exit the multiple selection mode.
+{% hint style="info" %}
+A new **Meeting** field is available to give an objective to the meeting.
+{% endhint %}
 
-The permitted **duration** for the unavailability.
+Next, define the permitted **duration** of the unavailability. Several options are available.
 
-Several options are proposed for the definition of the unavailability duration.
-
-| Radio button | Description                                                                                                                                                                        |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| One day      | The unavailability will be created on a complete day, depending on the working hours of the resource                                                                               |
-| Full days    | The unavailability will be created over several complete days, depending on the working hours of the resource.                                                                     |
-| Morning      | The unavailability will be created for the chosen day, for the morning, that is for the start time up until the start time for the lunch break time window.                        |
-| Afternoon    | The unavailability will be created for the chosen day on the afternoon, that is on the end of the time window for the lunch break up until the time of the end of the working day. |
-| Free entry   | The user should themselves fill in the bounds on their unavailability                                                                                                              |
-
-|                                                                                                                                                                 |     |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                          | Tip |
-| In the case of a multi-resource unavailability it is the hours of the first resource on the list that are taken as a reference in the time constraints methods. |     |
-
-|                                                                                                                                                  |         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| \[Warning]                                                                                                                                       | Warning |
-| As a function of the option chosen, the calendar or the time-picker are greyed out If not, the user can overwrite the initial information items. |         |
-
-**Frequency** : In this part, the user can define a recurrence associated to the unavailability in the course of being created, so that it will be repeated.
-
-```
-The date to enter in the Up until field serves to give an end date to the recurrence of the unavailability.
-```
-
-**Address** : In the Address block, the user can overwrite the address of the unavailability. Address fields are described in the [geocoding](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) chapter.
-
-```
-|  |  |
+| Option | Description |
 | --- | --- |
-| [Tip] | Tip |
-| For some types of unavailability, the address may be entered automatically as the home address of the resource, or as the address of their main work area. |
-```
+| **One day** | The unavailability is created on a complete day, according to the working hours of the resource. |
+| **Full days** | The unavailability is created over several complete days, according to the working hours of the resource. |
+| **Morning** | The unavailability is created for the morning of the chosen day, from the start time until the start of the lunch break time window. |
+| **Afternoon** | The unavailability is created for the afternoon of the chosen day, from the end of the lunch break time window until the end of the working day. |
+| **Free entry** | You enter the bounds of the unavailability yourself. |
 
-**Comments** : The field present in this block enables the user to enter a comment line that will be visible in the summary form for the unavailability.
+{% hint style="info" %}
+For a multi-resource unavailability, the hours of the first resource in the list are used as the reference in the time constraint methods.
+{% endhint %}
 
-**Next unavailabilities** : This section displays the unavailabilities that have already been recorded for the selected resource(s).
+{% hint style="warning" %}
+Depending on the option you choose, the calendar or the time picker is greyed out. Otherwise, you can overwrite the initial information items.
+{% endhint %}
 
-```
-Clicking in the list allows you to access the [repeated unavailability form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-reduite-indispo "Repeated unavailability form").
-```
+#### Frequency
 
-The Add unavailability button allows you to finalise the creation of an unavailability.
+In this part, you can define a recurrence for the unavailability you are creating, so that it is repeated.
 
-|                                                                                                                                                                                                                                                               |      |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                                                                                                                                                       | Note |
-| In Opti-Time, an unavailability is a time period during which the resource is not available to fufill an appointment. Any optimisations in progress will therefore not place any intervention on the time windows that have been entered as unavailabilities. |      |
+The date you enter in the **Up until** field gives an end date to the recurrence of the unavailability.
 
-|                                                                                                                                                                 |         |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                      | Warning |
-| It may be the case, for example, in the case of a lengthy unavailability, that clashes exist in the planning of appointments or with existing unavailabilities. |         |
+#### Address
 
-**In the case of a conflict between appointments**, the application will identify the conflicts and suggest three possible actions:
+In the **Address** block, you can overwrite the address of the unavailability. The address fields are described in the geocoding topic.
+
+{% hint style="info" %}
+For some types of unavailability, the address can be entered automatically as the home address of the resource or as the address of their main work area.
+{% endhint %}
+
+#### Comments
+
+The field in this block lets you enter a comment line that is visible in the summary form for the unavailability.
+
+#### Next unavailabilities
+
+This section displays the unavailabilities that are already recorded for the selected resources.
+
+Click an entry in the list to open the repeated unavailability form. See [Repeated unavailability form](#repeated-unavailability-form).
+
+#### Creating the unavailability
+
+Click **Add unavailability** to finish creating an unavailability.
+
+{% hint style="info" %}
+In NFS, an unavailability is a time period during which the resource is not available to fulfill an appointment. Optimizations in progress therefore do not place any intervention in the time windows entered as unavailabilities.
+{% endhint %}
+
+{% hint style="warning" %}
+For example, for a lengthy unavailability, clashes can exist in the planning of appointments or with existing unavailabilities.
+{% endhint %}
+
+#### Conflicts with appointments
+
+If there is a conflict between appointments, the application identifies the conflicts and suggests three possible actions.
 
 Handling of conflicts between appointments
 
-![](../.gitbook/assets/page-indisponibilites-conflit-rdv.png)
+![Handling of conflicts between appointments](../.gitbook/assets/page-indisponibilites-conflit-rdv.png)
 
-* The Back button cancels the entry of the unavailability and enables modification of the parameters.
-* The Force button will create the unavailability by taking the appointments out of the planning. Any **planned** appointments will be reinstated with their original **requested** status, and the **confirmed** appointments will be reassigned a status of **suspended**.
-* The Force/Manage button will create the unavailability and will seek to replace the conflicting appointments, in the same time slot if this is possible, or on another timeslot. The **planned** appointments that would not have been replaced will be reassigned a status of **requested** and the **confirmed** appointments will be reassigned a status of **suspended**.
+* **Back** – cancels the entry of the unavailability and lets you modify the parameters.
+* **Force** – creates the unavailability by taking the appointments out of the planning. Any **planned** appointments are reinstated with their original **requested** status. The **confirmed** appointments are reassigned the status **suspended**.
+* **Force/Manage** – creates the unavailability and tries to replace the conflicting appointments, in the same timeslot if possible, or in another timeslot. The **planned** appointments that cannot be replaced are reassigned the status **requested**. The **confirmed** appointments are reassigned the status **suspended**.
 
-**In the case of a conflict with another unavailability**, the application will suggest a Force button forcing the creation of the new unavailability. In this case, the unavailability created will be superposed on the unavailability in conflict. This can create inconsistencies in the planning that invalidate the process of planning on the day in question.
+#### Conflicts with another unavailability
 
-#### Repeated unavailability form
+If there is a conflict with another unavailability, the application suggests a **Force** button that forces the creation of the new unavailability. The new unavailability is then superposed on the unavailability in conflict. This can create inconsistencies in the planning that invalidate the planning process for the day in question.
+
+### Repeated unavailability form
 
 Repeated unavailability form
 
-![](../.gitbook/assets/fiche-d-indisponibilite-repetee.png)
+![Repeated unavailability form](../.gitbook/assets/fiche-d-indisponibilite-repetee.png)
 
-* The fields present in the repeated unavailability form are the same as those in the [unavailability form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-indispo).
-* The Back button returns you to the previous page.
-* The Modify… button returns the user to the [unavailability form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-indispo).
-* The Delete button deletes the unavailability (in the case of a regular unavailability, all the occurrences will be deleted).
-* The Delete occurrence button deletes only the occurrence selected in the case of a repeated unavailability.
+* The fields in the repeated unavailability form are the same as those in the unavailability form.
+* **Back** – returns you to the previous page.
+* **Modify…** – returns you to the unavailability form.
+* **Delete** – deletes the unavailability. For a regular unavailability, all the occurrences are deleted.
+* **Delete occurrence** – deletes only the selected occurrence of a repeated unavailability.
 
-### Exceptional locations
+## Exceptional locations
 
-Exceptional locations are temporary addresses for the start and end of routes. Typically it is here that nights away will be handled if the resources are called upon to perform overnight missions.
+Exceptional locations are temporary addresses for the start and end of routes. Typically, nights away are handled here if resources are called on to perform overnight missions.
 
-They can also be used to model:
+You can also use exceptional locations to model:
 
-* an exceptional location in the morning only (or the evening);
-* a modification to the start and end times of the resource’s working day;
+* An exceptional location in the morning only (or the evening).
+* A modification to the start and end times of the resource's working day.
 
-They are recorded in the resources' plannings in a [custom colour](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#agenda-legende).
+They are recorded in the resources' plannings in a custom color. See [The Planning](theplanning.md).
 
-|                                                       |      |
-| ----------------------------------------------------- | ---- |
-| \[Note]                                               | Note |
-| Exceptional locations must have an associated address |      |
+{% hint style="info" %}
+Exceptional locations must have an associated address.
+{% endhint %}
 
-#### Exceptional location form
+### Exceptional location form
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for an exceptional location is accessible either:
+You access the exceptional location form:
 
-* via the [exceptional locations search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html);
-* or via the [exceptional location tool-tip](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-loc-except)
+* From the exceptional locations search.
+* From the exceptional location tool-tip. See [The Planning](theplanning.md).
 
-It comprises 3 parts:
+The form has three parts.
 
-**Part 1: Usual locations**
+#### Part 1: Usual locations
 
 Exceptional location form - part 1
 
-![](../.gitbook/assets/nuitee-part1.png)
+![Exceptional location form, part 1](../.gitbook/assets/nuitee-part1.png)
 
-* The **Usual start / end work location** corresponds to the start / end address for the working day for the resource as defined in their [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-adresse).
-* Clicking on an address, the location displays on the map.
-* Click on the Use button to fill in the address of the location for the night away, (part 2 below) using the corresponding address.
+* **Usual start / end work location** – the start and end address of the working day for the resource, as defined in their form. See [Company Data](../administration/companydata.md).
+* Click an address to display the location on the map.
+* Click **Use** to fill in the address of the location for the night away (part 2) with the corresponding address.
 
-**Nights away** take the values defined in the [resource form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-semaine).
+**Nights away** take the values defined in the resource form. See [Company Data](../administration/companydata.md).
 
-**Part 2: View an exceptional location**
+#### Part 2: View an exceptional location
 
 Exceptional location form - part 2
 
-![](../.gitbook/assets/nuitee-part2.png)
+![Exceptional location form, part 2](../.gitbook/assets/nuitee-part2.png)
 
 This section contains information about the exceptional location:
 
-* The **Identifier** generated automatically for the exceptional location
-* The **External reference** for the exceptional location
-* The **Abbreviation** for the exceptional location
-*   The **Status** of the exceptional location: confirmed or to confirm
+* **Identifier** – generated automatically for the exceptional location.
+* **External reference** – the external reference of the exceptional location.
+* **Abbreviation** – the abbreviation of the exceptional location.
+* **Status** – the status of the exceptional location: confirmed or to confirm.
 
-    |                                                                                                                                                                                                               |     |
-    | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-    | \[Tip]                                                                                                                                                                                                        | Tip |
-    | Unconfirmed exceptional locations may be modified when using [batch optimisation](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#planif-optim). |     |
-* The [**address**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) section\
-  The Hotel button allows you to add a hotel, selecting it on the map from a predefined list of [hotels](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-hotel).
-* The fields allow you to set the start and end dates/times for the exceptional location
-* A **Description**
-*   A **Forcing allowed** mode means you can force the addition of the unavailability in the event of a clash in the planning.
+  {% hint style="info" %}
+  Unconfirmed exceptional locations can be modified when you use batch optimization. See [Optimization](../administration/optimisation.md).
+  {% endhint %}
+* **Address** section – the **Hotel** button lets you add a hotel by selecting it on the map from a predefined list of hotels.
+* The fields for setting the start and end dates and times of the exceptional location.
+* **Description**
+* **Forcing allowed** – this mode lets you force the addition of the unavailability if there is a clash in the planning.
 
-    |                                                                       |         |
-    | --------------------------------------------------------------------- | ------- |
-    | \[Warning]                                                            | Warning |
-    | This mode will result in other items in the planning being unplanned. |         |
+  {% hint style="warning" %}
+  This mode causes other items in the planning to be unplanned.
+  {% endhint %}
 
-The Save button allows you to create the exceptional location with the information entered in the file.\
-The Confirm/Unconfirm button allows you to change the status of the exceptional location from _confirmed_ to _to confirm_ and vice versa. Confirmed exceptional locations can no longer be cancelled or moved during a future [batch optimization](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/optimisation.html#planif-optim).\
-The Copy like button allows you to create a new exceptional location with the information entered in the file.
+Use the following buttons:
 
-**Part 3: Next exceptional locations**
+* **Save** – creates the exceptional location with the information entered in the form.
+* **Confirm/Unconfirm** – changes the status of the exceptional location from confirmed to to confirm and vice versa. Confirmed exceptional locations can no longer be canceled or moved during a future batch optimization. See [Optimization](../administration/optimisation.md).
+* **Copy like** – creates a new exceptional location with the information entered in the form.
 
-This part comprises a table of the next exceptional locations for the resource.
+#### Part 3: Next exceptional locations
 
-### Temporary posts
+This part is a table of the next exceptional locations for the resource.
+
+## Temporary posts
 
 A resource has a main post that defines their default competency profile: the list of intervention types they are competent to perform.
 
-Thanks to this functionality, it is possible to provisionally replace the main post by another. To authorise a maintenance technician, for example, to perform breakdown recovery during a week where there is a workload peak.
+With this functionality, you can temporarily replace the main post with another one. For example, you can authorize a maintenance technician to perform breakdown recovery during a week with a workload peak.
 
 You can create, modify or delete a secondary post.
 
-#### Temporary post form
+### Temporary post form
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for a temporary post is accessible either:
+You access the temporary post form:
 
-* via the [temporary post management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-postes-temp) function;
-* via the [post type tool-tip](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-agenda.html#tool-tip-postes).
+* From the temporary post management function. See [Menu](menu.md).
+* From the post type tool-tip. See [The Planning](theplanning.md).
 
 Temporary post form
 
-![](../.gitbook/assets/poste-temp.png)
+![Temporary post form](../.gitbook/assets/poste-temp.png)
 
 The form contains the following fields:
 
-* **Job**: serves to select the [type of post](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-poste) to assign to the resource
+* **Job** – selects the type of post to assign to the resource. See [Company Data](../administration/companydata.md).
 * **Duration**
-* **From**: date from which the resource will assume the secondary post
-* **To**: date of the end of assignment to the temporary post (only if the **Cyclic job** check-box is NOT checked)
-* **Daily** (only if the **Cyclical task** check-box is checked)
-* **Cycle** (only if the **Cyclic job** check-box is checked): the frequency in terms of per week occurrences of the assignment
-* **Duration**: duration for the assignment in days
-* **Depth**: date, in weeks, from the start date, at which the assignment stops
+* **From** – the date from which the resource assumes the secondary post.
+* **To** – the end date of the assignment to the temporary post (only if the **Cyclic job** check box is not selected).
+* **Daily** (only if the **Cyclical task** check box is selected)
+* **Cycle** (only if the **Cyclic job** check box is selected) – the frequency of the assignment, in occurrences per week.
+* **Duration** – the duration of the assignment in days.
+* **Depth** – the date, in weeks from the start date, at which the assignment stops.
 
-|                                                                                                                                 |         |
-| ------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                      | Warning |
-| This form applies any changes to the assignment: Temporary post form (modification) images/ref/planification/poste-temp-mod.png |         |
+{% hint style="warning" %}
+This form applies any changes to the assignment.
 
-### Secondary worksites
+![Temporary post form (modification)](../images/poste-temp-mod.png)
+{% endhint %}
 
-Secondary worksites allow you to assign temporarily to the resource, either an additional worksite, or another worksite that replaces the usual work site for the resource.
+## Secondary worksites
 
-#### Secondary worksite form
+Secondary worksites let you temporarily assign to the resource either an additional worksite, or another worksite that replaces the resource's usual worksite.
 
-* The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for a secondary worksite is accessible via the [assign secondary worksites](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#affectation-sites-second) function.
-* The principle is the same as for [temporary posts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-poste-temporaire).
-* The fields are described in the resource’s form and the [Assignment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#RH-affectation) tab.
+### Secondary worksite form
 
-### Hotel locations
+* You access the secondary worksite form with the assign secondary worksites function. See [Menu](menu.md).
+* The principle is the same as for temporary posts.
+* The fields are described in the resource form and its **Assignment** tab. See [Company Data](../administration/companydata.md).
 
-The locations of hotels allow you to position a [Night away](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#localisations-exceptionnelles) quickly.
+## Hotel locations
 
-#### Hotel location form
+Hotel locations let you position a night away quickly.
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for a hotel is accessed via the [hotel location](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#emplacement-hotel) function.
+### Hotel location form
+
+You access the hotel form with the hotel location function. See [Menu](menu.md).
 
 The form contains the following fields:
 
-* An **Identifier** (field saved automatically when creating a new hotel location)
-* An **External reference**
-* A **Name**
-* [**Address**](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/intro-geocodage.html) fields
-* A **Period** of availability for the hotel
-* A **Description**
+* **Identifier** – saved automatically when you create a new hotel location.
+* **External reference**
+* **Name**
+* **Address** fields
+* **Period** – the period of availability of the hotel.
+* **Description**
 
-### Agenda markers
+## Agenda markers
 
-The agenda markers for items displayed in the planning.
+Agenda markers are items displayed in the planning.
 
-Unlike other items in the planning, the agenda marker does not need to have an address.
+Unlike other items in the planning, an agenda marker does not need an address.
 
-It may serve to define the start and end times for an appointment, or a real appointment time.
+You can use it to define the start and end times for an appointment, or a real appointment time.
 
 Display of agenda markers in the planning
 
-![](../.gitbook/assets/jalons-planning.png)
+![Display of agenda markers in the planning](../.gitbook/assets/jalons-planning.png)
 
-The agenda markers are the purple coloured bars in the planning, including a bullet point at the start and end of the bar.
+Agenda markers are the purple bars in the planning, with a bullet point at the start and end of the bar.
 
-|                             |     |
-| --------------------------- | --- |
-| \[Tip]                      | Tip |
-| Agenda markers may overlap. |     |
+{% hint style="info" %}
+Agenda markers can overlap.
+{% endhint %}
 
-#### Agenda marker form
+### Agenda marker form
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for an agenda marker is accessible via:
+You access the agenda marker form:
 
-* using the [manage agenda markers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gerer-jalons) function;
-* via the [appointment form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-rdv).
+* With the manage agenda markers function. See [Menu](menu.md).
+* From the appointment form.
 
 Agenda marker form
 
-![](../.gitbook/assets/jalons-fiche.png)
+![Agenda marker form](../.gitbook/assets/jalons-fiche.png)
 
 The form contains the following fields:
 
-* An **Identifier** filled automatically as the new agenda marker is created
-* The **External reference** for the agenda marker
-* The **Name** of the agenda marker
-* The name of the **Resource** to select in a list
-* The **Marker type**(information field). A type of marker can be selected from the following values:
+* **Identifier** – filled automatically when you create the agenda marker.
+* **External reference** – the external reference of the agenda marker.
+* **Name** – the name of the agenda marker.
+* **Resource** – select the name of the resource from a list.
+* **Marker type** (information field) – you can select a type of marker from the following values:
   * Day start
   * Day end
   * Appointment commitment
@@ -1062,232 +1049,220 @@ The form contains the following fields:
   * Minor alert
   * Major alert
   * Date
-* The **date** and **time** for the agenda marker
-* The **Duration** for the agenda marker
-* A **description** of the agenda marker
-* The **intervention identifier** if the marker is linked to an intervention.
+* **Date** and **Time** of the agenda marker.
+* **Duration** of the agenda marker.
+* **Description** of the agenda marker.
+* **Intervention identifier** – if the marker is linked to an intervention.
 
-### On-call duty
+## On-call duty
 
-The [on-call duty types](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#astreintes) are defined in the administration module. You will find more information about on-call duties in this menu.
+The on-call duty types are defined in the Administration module. See [Company Data](../administration/companydata.md). You find more information about on-call duties in this menu.
 
-#### On-call duty form
+### On-call duty form
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for an on-call duty is accessible via the [on-call duty management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-astreintes) function.
+You access the on-call duty form with the on-call duty management function. See [Menu](menu.md).
 
 Creation page for an on-call duty
 
-![](../.gitbook/assets/fiche-astreinte.png)
+![Creation page for an on-call duty](../.gitbook/assets/fiche-astreinte.png)
 
 The page contains the following items:
 
-* The **Type** of on-call duty: drop-down list containing predefined [types of on-call duties](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#astreintes)
-* The **post** for which the resource will be on duty and containing the predefined [Functions](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-expertise) and [Job types](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#type-poste).
-* The **from** and **to** dates allowing you to define the start and end dates for the on-call duty.
-*   The **Cyclic job** field that defines the regularity of the On-call duty if necesssary (check the check-box)
+* **Type** – drop-down list of predefined types of on-call duties. See [Company Data](../administration/companydata.md).
+* **Post** – the post for which the resource is on duty, containing the predefined functions and job types. See [Company Data](../administration/companydata.md).
+* **From** and **To** – the start and end dates of the on-call duty.
+* **Cyclic job** – defines the regularity of the on-call duty if necessary (select the check box).
 
-    Cyclic job
+  Cyclic job
 
-    ![](../.gitbook/assets/astreinte-cycle.png)
+  ![Cyclic job fields for an on-call duty](../.gitbook/assets/astreinte-cycle.png)
 
-The other fields are defined in the [On-call duty day template](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/donnees.html#modele-jour-astreinte) chapter.
+The other fields are defined in the on-call duty day template topic. See [Company Data](../administration/companydata.md).
 
-### Locked days in the agenda
+## Locked days in the agenda
 
-A locked day is a day for which no optimisation is possible. Whatever their status, appointments present will not be replayed and no new appointment can be set automatically.
+A locked day is a day for which no optimization is possible. Whatever their status, the appointments present are not replayed, and no new appointment can be set automatically.
 
-#### Locked day in the agenda
+### Locked day in the agenda
 
-The [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) for a locked day in the agenda is accessible:
+You access the locked day form:
 
-* via the [locked day in the menu](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html) function;
-* via the tool-tip for a non-worked time.
+* From the locked day function in the menu.
+* From the tool-tip for a non-worked time.
 
-The creation form and the editing form do not differ except for the presence in the latter of the Delete button.
+The creation form and the editing form are identical, except that the editing form has a **Delete** button.
 
 Creation page for a locked day
 
-![](../.gitbook/assets/page-creation-date-controlee.png)
+![Creation page for a locked day](../.gitbook/assets/page-creation-date-controlee.png)
 
-The user can give an identifier to the locked day (External reference). The user should then choose the status and the date, and can also enter a description.
+You can give an identifier to the locked day (**External reference**). Then choose the status and the date. You can also enter a description.
 
-Click on the Save button to validate the creation of the locked day.
+Click **Save** to validate the creation of the locked day.
 
-|                                                                                                                                                          |     |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| \[Tip]                                                                                                                                                   | Tip |
-| Following the creation, the day for the resource is greyed out in the planning and a padlock appears beside its name to indicate that the day is locked. |     |
+{% hint style="info" %}
+After you create a locked day, the day for the resource is greyed out in the planning and a padlock appears beside its name to indicate that the day is locked.
+{% endhint %}
 
-### Search in the Planning module
+## Search in the Planning module
 
-* The basic principles are the same, but, depending on the object sought, the items available may vary.
-* Search filters are [configurable](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/perso.html#config-appli).
-* The search comprises a [filters](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#recherche-generique-filtre) part, and a [result](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat) part.
-* Below, for objects in the Planning module, are the associated search functions:
+* The basic principles are the same for all objects, but the available items can vary according to the object you search for.
+* Search filters are configurable. See [Customization](../administration/customization.md).
+* The search has a filters part and a result part.
 
-| Object name                                                                                                                                                               | Link to the search function                                                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [customer types](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-types-client)                  | [Search for a customer type](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-type-client)                   |
-| [customer kinds](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-nature-client)                 | [Customer kind search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-nature-client)                       |
-| [customers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-clients)                            | [Search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#menu-clients-rechercher)                                      |
-| [orderers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#commanditaire)                              | [Orderer search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-commanditaire)                             |
-| [appointment](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-rdv)                              | [Appointment search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#rechercher-rdv)                                   |
-| [unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#centre-d-appel-indisponibilite)     | [Unavailabilities](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gerer-indispos)                                     |
-| [exceptional locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#localisations-exceptionnelles) | [Exceptional locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html)                                             |
-| [hotel locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-hotel)                        | [Hotel locations](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#emplacement-hotel)                                   |
-| [temporary posts](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-postes-temp)                  | [Temporary job management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-postes-temp)                        |
-| [secondary worksites](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-sites-second)             | [Secondary worksites assignments management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#affectation-sites-second) |
-| [agenda markers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-jalons)                        | [Manage agenda markers](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gerer-jalons)                                  |
-| [on-call duty](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-astreinte)                       | [On-call duty management](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-menu.html#gestion-astreintes)                          |
-| [locked days](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-journees-verr)                    | [Locked day](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html)                                                        |
+The following table lists the search function for each object in the Planning module.
 
-#### Search filters
+| Object name | Search function |
+| --- | --- |
+| Customer types | **Search for a customer type**. See [Menu](menu.md). |
+| Customer kinds | **Customer kind search**. See [Menu](menu.md). |
+| Customers | **Search**. See [Menu](menu.md). |
+| Orderers | **Orderer search**. See [Menu](menu.md). |
+| Appointments | **Appointment search**. See [Menu](menu.md). |
+| Unavailabilities | **Unavailabilities**. See [Menu](menu.md). |
+| Exceptional locations | **Exceptional locations** |
+| Hotel locations | **Hotel locations**. See [Menu](menu.md). |
+| Temporary posts | **Temporary job management**. See [Menu](menu.md). |
+| Secondary worksites | **Secondary worksites assignments management**. See [Menu](menu.md). |
+| Agenda markers | **Manage agenda markers**. See [Menu](menu.md). |
+| On-call duty | **On-call duty management**. See [Menu](menu.md). |
+| Locked days | **Locked day** |
 
-The search function is made up of one section containing the fields that can be used to filter the search, and the action buttons.
+### Search filters
+
+The search function has a section with the fields you use to filter the search, and the action buttons.
 
 Example: Customer search
 
-![](../.gitbook/assets/resultat-recherche-client.png)
+![Customer search page](../.gitbook/assets/resultat-recherche-client.png)
 
-* The ![images/ref/buttons/bouton-recherche.png](../.gitbook/assets/bouton-recherche.png) button runs the search and displays the [results list](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-resultat).
-* The ![images/ref/buttons/bouton-exporter-resultat.png](../.gitbook/assets/bouton-exporter-resultat.png) button exports the table of the result of a search on customers in .csv format.
-* The ![images/ref/buttons/bouton-reinitialiser-recherche.png](../.gitbook/assets/bouton-reinitialiser-recherche.png) button resets the search filters.
-* The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button creates an object (here, a customer type object).
-* The ![images/ref/buttons/bouton-corriger-adresse.png](../.gitbook/assets/bouton-corriger-adresse.png) button enables verification of whether the town or post code declared correspond to those of the geocoding repository.
+* The ![Search button](../.gitbook/assets/bouton-recherche.png) button runs the search and displays the results list.
+* The ![Export result button](../.gitbook/assets/bouton-exporter-resultat.png) button exports the table of the search result on customers in `.csv` format.
+* The ![Reset button](../.gitbook/assets/bouton-reinitialiser-recherche.png) button resets the search filters.
+* The ![Add button](../.gitbook/assets/bouton-ajouter.png) button creates an object (here, a customer type object).
+* The ![Correct address button](../.gitbook/assets/bouton-corriger-adresse.png) button verifies whether the declared town or post code corresponds to those of the geocoding repository.
 
-Clicking on the (+)More criteria button, the user can search for customers as a function of their type (whether it is active or not) or as a function of customer priority, search all customers assigned to a specified rresource, or search for customers that need visiting periodically (so-called «regular customers»).
+Click **(+) More criteria** to search for customers by type (active or not) or by customer priority. You can also search for all customers assigned to a specified resource, or for customers that need periodic visits ("regular customers").
 
-#### Search result
+### Search result
 
-* The results are presented in table form, and include standard browsing and sort functions. A series of action buttons allow you to perform actions on one part, or all, of the results.
+* The results are presented in a table with standard browsing and sort functions. A series of action buttons lets you perform actions on part or all of the results.
 * Some lists can also be filtered.
 
 Example: List of appointments
 
-![](../.gitbook/assets/tableau-resultat-filtre.png)
+![List of appointments with a filter](../.gitbook/assets/tableau-resultat-filtre.png)
 
-With free text entry in the filter field, the content of the table can be restricted to the elements corresponding to the filter.\
-This filter is of the `Starting with` type, that is, that all the records with a filter field value starting with the entry value will be retained.\
-It is possible to escape from characters by including a `*` in the filter parameter.\
-For example, the search above returns all appointments of the **Installation** type. Entering in the filter the **Intervention type** a value of `*panel`, we will only filter on installation of solar panels.
+With free text entry in the filter field, you can restrict the table to the elements that match the filter.
 
-Clicking on one line in the results of the search, you will arrive at the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) of the corresponding object.
+This filter is of the `Starting with` type: all the records with a filter field value that starts with the entered value are retained. To escape from characters, include a `*` in the filter parameter.
 
-In some lists, a series of buttons present in the result table allow direct access to some functions:
+For example, the search above returns all appointments of the **Installation** type. If you enter the value `*panel` in the **Intervention type** filter, only installations of solar panels are returned.
 
-* The Select button allows you to select items in the list.
-* The ![images/ref/buttons/bouton-localise-client-fiche.png](../.gitbook/assets/bouton-localise-client-fiche.png) button displays the item on the map
-* The ![images/ref/buttons/play-petit.png](../.gitbook/assets/play-petit.png) runs an [optimised scheduling](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#planification-optimisee-rdv) operation for the appointment
-* The ![images/ref/buttons/bouton-panier.png](../.gitbook/assets/bouton-panier.png) button allows you to add the appointment to the panel
+Click a line in the search results to open the form of the corresponding object.
 
-A series of buttons are present at the bottom of the results lists depending on the rights the user has:
+In some lists, a series of buttons in the result table gives direct access to some functions:
 
-* The Back button takes you back to the search form (the parameters in which have been stored).
-* The Export in CSV button exports the table obtained in the form of a file (column separator: commas) for editing in Excel © for example.
-* You can delete some objects by selecting them in the result list (_Selection_ column) and clicking on the delete button.
+* **Select** – selects items in the list.
+* The ![Locate on map button](../.gitbook/assets/bouton-localise-client-fiche.png) button displays the item on the map.
+* The ![Run optimized scheduling button](../.gitbook/assets/play-petit.png) button runs an optimized scheduling operation for the appointment.
+* The ![Add to panel button](../.gitbook/assets/bouton-panier.png) button adds the appointment to the panel.
 
-**Additional action buttons for lists of appointments**
+Depending on your rights, a series of buttons is present at the bottom of the results lists:
+
+* **Back** – takes you back to the search form (the parameters in it are stored).
+* **Export in CSV** – exports the table as a file (column separator: comma) that you can edit in Excel, for example.
+* To delete some objects, select them in the result list (**Selection** column) and click the delete button.
+
+### Additional action buttons for lists of appointments
 
 Action buttons for appointment lists
 
-![](../.gitbook/assets/resultat-de-la-recherche.png)
+![Action buttons for appointment lists](../.gitbook/assets/resultat-de-la-recherche.png)
 
-The Announce button creates a configurable [circulation listener](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/CSV.html#listener), for example, when sending a pre-formatted message to all the customer appointment contacts in the list.
+* **Announce** – creates a configurable circulation listener, for example when sending a pre-formatted message to all the customer appointment contacts in the list. See [CSV Files](../administration/csvfiles.md).
+* **Change the dates** – modifies the start and end dates of the appointments in the list. You can apply the modification in several ways:
+  * **Push the earliest start date** – adds the defined number of days to the earliest dates of the appointments in the list.
+  * **Advance the earliest start date** – brings the earliest dates forward by a number of days for the appointments in the list.
+  * **Change the earliest start date** – defines an earliest date that is applied to all appointments in the list.
+  * **Push the latest end date** – defines a latest date that is applied to all the appointments in the list.
+  * **Advance the latest end date** – brings forward the latest dates of the appointments in the list by the defined number of days.
+  * **Change the latest end date** – adds the defined number of days to the latest dates of the appointments in the list.
+  * **Push the planned date** – adds the defined number of days to the scheduled dates of the appointments in the list.
+  * **Advance the planned date** – subtracts the defined number of days from the scheduled dates of the appointments in the list.
+  * **Change the periode of possible completion** – redefines the earliest and latest possible dates that are applied to all appointments in the list.
 
-The Change the dates button modifies the start and end dates for appointments in the list. This modification can be applied in several ways:
+  {% hint style="info" %}
+  If the appointments in the list do not have an earliest or latest date defined, today's date is used as a reference.
+  {% endhint %}
+* **Modify resources** – defines preferences for the resources (required, desired, refused) assigned to the appointments in the list. The following window is displayed.
 
-* Push the earliest start date: adds the defined number of days to the earliest dates for appointments in the list;
-* Advance the earliest start date: allows you to bring earliest dates forward by a certain number of days for appointments in the list;
-* Change the earliest start date: defines an earliest date that will be applied to all appointments in the list;
-* Push the latest end date: defines a latest date that will be applied to all the appointments in the list;
-* Advance the latest end date: brings forward the latest dates of appointments in the list by the defined number of days;
-* Change the latest end date: adds the defined number of days to the latest dates for appointments in the list;
-* Push the planned date: allows you to add the defined number of days to the scheduled dates of appointments in the list;
-* Advance the planned date: allows you to subtract the defined number of days from the scheduled dates for appointments in the list;
-* Change the periode of possible completion: allows you to redefine earliest and latest dates possible to be applied to all appointments in the list.
+  Reassign resources
 
-|                                                                                                                           |      |
-| ------------------------------------------------------------------------------------------------------------------------- | ---- |
-| \[Note]                                                                                                                   | Note |
-| If the appointments in the list do not have an earliest or latest date defined, today’s date will be used as a reference. |      |
+  ![Reassign resources window](../.gitbook/assets/modifier-intervenant.png)
 
-The Modify resources button allows you to define preferences for the resources (required, desired, refused) assigned to appointments in the list. This then displays the following window:
+  In this window, you can modify how resources are classified in relation to appointments: desired, required or refused.
 
-Reassign resources
+  {% hint style="warning" %}
+  This function only applies to appointments with the status **Requested**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+  {% endhint %}
+* **Modify priority** – defines a new priority value for the appointments in the list.
+* **Modify worksite** – changes the worksite associated with each appointment in the list. The following window is displayed.
 
-![](../.gitbook/assets/modifier-intervenant.png)
+  Modify worksites
 
-In this window, it will be possible to modify how resources are classified in relation to appointments, as desired, required, or refused.
+  ![Modify worksites window](../.gitbook/assets/modifier-ws.png)
 
-|                                                                                                                                                                                                                                         |         |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| \[Warning]                                                                                                                                                                                                                              | Warning |
-| This function only applies for appointments with a _Requested_ [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts). |         |
+  In this window, you can change the worksites linked to the appointment.
+* **Modify additional data** – modifies the **Miscellaneous**, **Logical**, **Quantity** and **Dates** fields of the appointments in the list.
+* **Modify statuses** – modifies the status of the appointments in the list. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* **Subcontract** – sets the appointments in the list to the status **Externalized**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
 
-The Modify priority button defines a new priority value for the appointments in the list.
+{% hint style="warning" %}
+Not all status changes are possible with these actions in batch mode. For example, you cannot move a list of **candidate** appointments to the status **Confirmed** in this way, because they are not in a planning.
+{% endhint %}
 
-The Modify worksite button is used to change the worksite associated with each appointment in the list. It displays in the following window:
+### Action buttons on customer lists
 
-Modify worksites
+* **Modify dates** – offers two options:
+  * **Modify the date of the last visit** – modifies the date of the last visit shown in the customer form.
+  * **Modify the date of the next visit** – modifies the date of the next visit shown in the customer form.
 
-![](../.gitbook/assets/modifier-ws.png)
+  See [Customers](#customers).
+* **Modify the type** – modifies the customer type. The following window is displayed.
 
-* In this window, it will be possible to change the worksites linked to the appointment.
-* The Modify additional data button modifies the Miscellaneous, Logical, Quantity and Dates fields for appointments in the list.
-* The Modify statuses button modifies the [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts) of appointments in the list.
+  Change customer type
 
-The Subcontract button redefines appointments in the list to _Externalised_ [status](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/_the_different_statuses_for_appointments_in_opti_time.html#statuts).
+  ![Change customer type window](../.gitbook/assets/modifier-type-client.png)
+* **Modify the kind** – modifies the customer kind. The following window is displayed.
 
-|                                                                                                                                                                                                                                            |         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |
-| \[Warning]                                                                                                                                                                                                                                 | Warning |
-| All changes to status are not possible in these actions when performed in batch mode: for example, it is not possible to move a list of **candidate** appointments to _Confirmed_ status in this way (because they are not in a planning). |         |
+  Change customer kind
 
-**The action buttons on customer lists**
+  ![Change customer kind window](../.gitbook/assets/modifier-nature.png)
+* **Change the focus** – modifies the customer focus. The following window is displayed.
 
-The Modify dates button:
+  Change customer focus
 
-* Modify the date of the last visit: this allows you to modify the date of the last visit indicated in the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client)
-* Modify the date of the next visit: this allows you to modify the date of the next visit indicated in the [customer form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#fiche-client)
+  ![Change customer focus window](../.gitbook/assets/modifier-focus.png)
+* **Change additional data** – changes the **Miscellaneous**, **Logical**, **Quantity** and **Dates** fields of the customers in the list.
 
-The Modify the type button allows you to modify the [customer type](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-types-client). The following window then displays:
+## Create an object in the Planning module
 
-Change customer type
+You create an object with the search function for that type of object.
 
-![](../.gitbook/assets/modifier-type-client.png)
+Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to create an object.
 
-* The Modify the kind button allows you to modify the [customer kind](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#objets-nature-client). The following window then displays:
+## Delete an object in the Planning module
 
-Change customer kind
+Depending on the type of object, you can delete or deactivate it from the object form or with the object search function.
 
-![](../.gitbook/assets/modifier-nature.png)
-
-* The Change the focus button allows you to modify the customer focus. The following window then displays:
-
-Change customer focus
-
-![](../.gitbook/assets/modifier-focus.png)
-
-* The Change additional data button allows you to change the Miscellaneous, Logical, Quantity and Dates fields for customers in the list.
-
-### Create an object in the Planning module
-
-An object is created via the [search for this type of object](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) function.
-
-The ![images/ref/buttons/bouton-ajouter.png](../.gitbook/assets/bouton-ajouter.png) button allows you to create an object.
-
-### Delete an object in the Planning module
-
-Depending on the type of object, it will be possible to delete or de-activate this via the [form](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-fiche-gral) of the object or via the [object search](https://mynomadia.com/privatedoc/9LLcWh7j74sENa54/optitime-doc/docs/en/otgs-reference-book/call-center-objets.html#call-center-recherche) function.
-
-* To delete an object from its form, simply click on the Delete button.
-* To delete an object via the search function, select the object(s) to delete and click on Delete.
+* To delete an object from its form, click **Delete**.
+* To delete an object with the search function, select the objects to delete and click **Delete**.
 
 Example: delete an exceptional location
 
-![](../.gitbook/assets/page-localisation-exceptionnelle.png)
+![Deleting an exceptional location](../.gitbook/assets/page-localisation-exceptionnelle.png)
 
-|                                                 |      |
-| ----------------------------------------------- | ---- |
-| \[Note]                                         | Note |
-| Some objects cannot be deleted or de-activated. |      |
+{% hint style="info" %}
+Some objects cannot be deleted or deactivated.
+{% endhint %}
