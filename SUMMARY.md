@@ -69,6 +69,6 @@
   * [Tools](tools.md)
   * [Nomadia API](nomadiaapi.md)
   * [My Nomadia](mynomadia.md)
-* [Appendices](Appendices.md)
-* [Access Rights](accessrights.md)
+* [Appendices](appendices/README.md)
+  * [Access Rights](appendices/accessrights.md)
 * [Glossary](Glossary.md)
