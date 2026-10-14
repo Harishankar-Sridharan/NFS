@@ -69,3 +69,4 @@
   * [Tools](tools.md)
   * [Nomadia API](nomadiaapi.md)
   * [My Nomadia](mynomadia.md)
+* [Appendices](Appendices.md)
