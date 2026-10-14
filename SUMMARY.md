@@ -72,4 +72,5 @@
 * [Appendices](appendices/README.md)
   * [Access Rights](appendices/accessrights.md)
   * [Optimization Parameters](optimizationparameters.md)
+  * [Customizable Parameters](customizableparameters.md)
 * [Glossary](Glossary.md)
