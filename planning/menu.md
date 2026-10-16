@@ -71,9 +71,6 @@ Enter the time information and the information needed to identify the customer:
 * the **name** and **first name** of a company contact;
 * the full **address** of the site of the intended intervention;
 * the different **telephone numbers**.
-
-<!-- REVIEW: source says the address validation "is described in the geocoding chapter" but gives no link; reference kept as is -->
-
 * The validation of the address is described in the geocoding chapter.
 * Click **Cancel** to cancel the appointment.
 * Click **Continue** to open the [qualification of the appointment](objectsintheplanningmodule.md) window.
@@ -213,7 +210,7 @@ The first section lists the customers concerned.
 The second section contains the same fields as the [qualification of the appointment](objectsintheplanningmodule.md).
 
 * Click **Cancel** to return to the customer panel.
-* Click **Request appointments** to create appointments with the _Requested_ [status](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* Click **Request appointments** to create appointments with the _Requested_ [status](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 A [table](objectsintheplanningmodule.md) summarizes the appointments created.
 
@@ -225,7 +222,7 @@ Click **Back** to return to the customer panel.
 
 ### List of customers on alert
 
-See [List of customer alerts](../guided-help-nfs-reference-guide-1/README.md) in the header bar.
+See [List of customer alerts](../guided-help-nfs-reference-guide-1/) in the header bar.
 
 ### Generate periodic requests
 
@@ -285,8 +282,6 @@ This page lets you search for, create, modify or delete the [secondary worksites
 ### View customers
 
 This page shows the customers assigned to the resource selected in the drop-down list.
-
-<!-- REVIEW: source says the search page contains "a list of on-call duties that have already been saved" in the View customers section; possible copy-paste from On-call duty management -->
 
 The search page contains [search](objectsintheplanningmodule.md) fields and a list of on-call duties that are already saved.
 
@@ -373,7 +368,7 @@ Two buttons are located at the top right of the list:
 ## Search for appointments (requested, planned, reserved, confirmed, unplanned, subcontracted)
 
 * Depending on the [rights](../administration/userhandling.md) granted to you, you can access predefined searches or searches filtered on appointment status.
-* For example, the **Search on requested appointments** link searches for appointments with the _Requested_ [status](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* For example, the **Search on requested appointments** link searches for appointments with the _Requested_ [status](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 * Each link opens a first screen that lets you filter on date, resource (or subcontractor), worksite and intervention type.
 
 ![Search on status](../.gitbook/assets/formulaire-recherche-rdv-par-statut.png)
@@ -423,8 +418,6 @@ This function lets you filter on:
 * Status
 * Worksite
 * Maximum journey time or distance (in minutes or km)
-
-<!-- REVIEW: source reads "Maximum journey time or distance (in minutes or km): minimum journey duration or distance"; the maximum/minimum wording is contradictory -->
 
 The search options are described in the [Search](objectsintheplanningmodule.md) chapter.
 
@@ -485,15 +478,13 @@ The application searches for and lists the appointments that can be modified.
 For each appointment, some characteristics are shown for reference, for example the address, date, status and time window. A drop-down menu lets you change the default value **Do nothing**:
 
 * **Do nothing** – does not modify the appointment.
-* **Modify** – lets you modify the timeslot(s).
+*   **Modify** – lets you modify the timeslot(s).
 
-  {% hint style="info" %}
-  In this mode, you can edit the timeslot times as required.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>In this mode, you can edit the timeslot times as required.</p></div>
 
-  * Click the ![Add button](../.gitbook/assets/bouton-add.png) button to add several time windows.
-  * Click the ![Delete button](../.gitbook/assets/bouton-delete.png) button to delete time windows.
-  * Make any required modifications, then click the ![Make an appointment button](../.gitbook/assets/bouton-prendre-rdv.png) button. You can then cancel all the modifications applied by clicking the ![Invalidate timeslot button](../.gitbook/assets/bouton-invalider-creneau.png) button.
+    * Click the ![Add button](../.gitbook/assets/bouton-add.png) button to add several time windows.
+    * Click the ![Delete button](../.gitbook/assets/bouton-delete.png) button to delete time windows.
+    * Make any required modifications, then click the ![Make an appointment button](../.gitbook/assets/bouton-prendre-rdv.png) button. You can then cancel all the modifications applied by clicking the ![Invalidate timeslot button](../.gitbook/assets/bouton-invalider-creneau.png) button.
 * **Reactivate** – returns the appointment to _Requested_ status.
 * **Fulfilled** – signals that the appointment has been fulfilled and lets you enter additional information about its fulfilment (income generated, status of the task, follow-up required, and different comment lines).
 * **Unplan** – removes the appointment from the planning.
@@ -504,14 +495,11 @@ You can add an appointment to the past planning of a resource. For example, an a
 
 1. In the **Choose** drop-down menu at the bottom of the window, select **Add an appointment**.
 2. In the window that opens, define the criteria to find the appointment(s) to add to the planning. You can search on requested, planned and confirmed appointments.
-3. Click **Search** to run the search.
+3.  Click **Search** to run the search.
 
-   ![Search for appointments to add to a past planning](../.gitbook/assets/modif-rdv-passe-ajouter-rdv.png)
-
+    ![Search for appointments to add to a past planning](../.gitbook/assets/modif-rdv-passe-ajouter-rdv.png)
 4. In the list of appointments found, click the appointment to add to the past planning.
 5. Indicate the time window for the intervention at the customer's premises. Also supply the start and end time of the appointment and, if appropriate, the actual duration.
-
-<!-- REVIEW: source does not state the final validation control for adding the appointment -->
 
 ## Display agendas
 
@@ -744,8 +732,8 @@ You can filter the predefined export on the following fields:
 * **team**
 * **type**
 * **worksite**
-* Appointments [**status**](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)
-* Appointments [**progression step**](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)
+* Appointments [**status**](../introduction/thedifferentstatusesforappointmentsinnfs.md)
+* Appointments [**progression step**](../introduction/thedifferentstatusesforappointmentsinnfs.md)
 * **date**
 
 Click **Export** to retrieve the `.csv` file containing the export.
@@ -758,4 +746,4 @@ Some filters are not available, because their use depends on the type of export 
 
 ## Custom reports
 
-This function is identical to [Predefined exports list](#predefined-exports-list), except that it is not based on the [application settings](../administration/customization.md), but on the `.sql` files stored in the ad hoc directory on the server.
+This function is identical to [Predefined exports list](menu.md#predefined-exports-list), except that it is not based on the [application settings](../administration/customization.md), but on the `.sql` files stored in the ad hoc directory on the server.

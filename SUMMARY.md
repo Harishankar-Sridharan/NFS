@@ -1,10 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
-  * [Defining Terms](introduction-nfs-reference-guide/definingterms.md)
-  * [Presentation of the Reference Guide](introduction-nfs-reference-guide/presentationofthereferenceguide.md)
-  * [Running the Application](introduction-nfs-reference-guide/runningtheapplication.md)
-  * [The different statuses for appointments in NFS](introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)
+  * [Defining Terms](introduction/definingterms.md)
+  * [Presentation of the Reference Guide](introduction/presentationofthereferenceguide.md)
+  * [Running the Application](introduction/runningtheapplication.md)
+  * [The different statuses for appointments in NFS](introduction/thedifferentstatusesforappointmentsinnfs.md)
 * [The Header Bar](guided-help-nfs-reference-guide-1/README.md)
   * [Change the Area](guided-help-nfs-reference-guide-1/change-area-nfs-reference-guide.md)
   * [Change the password](guided-help-nfs-reference-guide-1/change-the-password-nfs-reference-guide.md)

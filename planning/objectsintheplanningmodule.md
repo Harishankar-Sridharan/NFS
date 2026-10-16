@@ -1,4 +1,4 @@
-# Objects in the Planning module
+# Objects in the Planning Module
 
 ## Overview
 
@@ -23,7 +23,7 @@ In principle, the objects in the Planning module include a generic search functi
 Each object has a form. The form behavior is described in the following sections.
 
 {% hint style="info" %}
-Other objects are handled in the [Administration](../administration/README.md) module.
+Other objects are handled in the [Administration](../administration/) module.
 {% endhint %}
 
 ## Forms
@@ -89,7 +89,6 @@ Customers can be displayed on the map.
 You access the customer form in one of the following ways:
 
 * From the [Menu](menu.md), using **Customer type search**.
-<!-- REVIEW: source says "Customer type search" for opening the customer form; probably should be the customer search -->
 * From the appointment form, by clicking the customer info icon.
 * From the appointment info-box popup in the planning. See [The Planning](theplanning.md).
 
@@ -123,7 +122,7 @@ The **Details** tab contains the general information about the customer: externa
 If you do not define a priority, the priority is normal. To give an appointment less priority in scheduling, define a value lower than 50. To give it greater priority, define a value higher than 50.
 {% endhint %}
 
-You cannot fill in the **Orderer** field directly. Search for the orderer with the ![Search orderer button](../.gitbook/assets/bouton-recherche-commanditaire.png) button, which runs the orderer search. See [Menu](menu.md). For more about orderers, see [Orderers](#orderers).
+You cannot fill in the **Orderer** field directly. Search for the orderer with the ![Search orderer button](../.gitbook/assets/bouton-recherche-commanditaire.png) button, which runs the orderer search. See [Menu](menu.md). For more about orderers, see [Orderers](objectsintheplanningmodule.md#orderers).
 
 If no orderer details have been saved, you can create them with the ![Edit orderer button](../.gitbook/assets/bouton-editer-crm.png) button. This opens the orderer form in edit mode.
 
@@ -131,11 +130,9 @@ To unassign the orderer contact from the customer, click the ![Remove orderer bu
 
 Other fields in the tab:
 
-* **Active** – select this check box for all active customers.
+*   **Active** – select this check box for all active customers.
 
-  {% hint style="warning" %}
-  When this check box is cleared, automated generation and placement of appointment requests is impossible. However, if requested or planned appointments exist for inactive customers, you can still place them through real-time optimization (RTO).
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>When this check box is cleared, automated generation and placement of appointment requests is impossible. However, if requested or planned appointments exist for inactive customers, you can still place them through real-time optimization (RTO).</p></div>
 * **Activation period** – defines a period during which the generation of a visit is possible.
 * **Focus** – select this check box to find the customer again more quickly with the search function. See [Menu](menu.md).
 * **Last visit** – the date of the last visit.
@@ -191,31 +188,21 @@ The **Project** tab contains the following fields:
 * **Periodicity** – defines how often visits are planned for this customer. For example, for a visit that must take place twice per month, enter 2 in the first text field, 1 in the second, and choose "month" in the drop-down list.
 * **Task type** – lists all the task types saved in the Administration module. The generated visits are assigned the selected task type. See [Company Data](../administration/companydata.md).
 * **Duration** – the duration of the generated visits.
-* **Chaining constraint** – you can also define a chaining constraint linking the appointments associated with this customer site.
+*   **Chaining constraint** – you can also define a chaining constraint linking the appointments associated with this customer site.
 
-  {% hint style="warning" %}
-  The name of the constraint identifies the appointments that are concerned by the constraint. It must be unique. Otherwise, appointments that should not be linked can be linked by a constraint.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>The name of the constraint identifies the appointments that are concerned by the constraint. It must be unique. Otherwise, appointments that should not be linked can be linked by a constraint.</p></div>
 
-  {% hint style="info" %}
-  The most frequently used constraints are:
-
-  * **Spacing and ordering** – defines the minimum and maximum gaps that can exist between visits. For example, there must be at least 20 days between two visits on a customer site that must be visited every month.
-  * **Separate day** – for sites visited several times a week, ensures that the visits are not grouped on the same day.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>The most frequently used constraints are:</p><ul><li><strong>Spacing and ordering</strong> – defines the minimum and maximum gaps that can exist between visits. For example, there must be at least 20 days between two visits on a customer site that must be visited every month.</li><li><strong>Separate day</strong> – for sites visited several times a week, ensures that the visits are not grouped on the same day.</li></ul></div>
 * **Project start and end dates** – the interval within which appointments are generated.
 * **Last planned visit date** – the date when an appointment was last generated.
-* **Planned date for the next visit** – the date of the next generation. It is also the earliest date for the generated appointment.
+*   **Planned date for the next visit** – the date of the next generation. It is also the earliest date for the generated appointment.
 
-  {% hint style="info" %}
-  The **Last planned visit date** and **Planned date for the next visit** fields are updated automatically according to the last optimization.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>The <strong>Last planned visit date</strong> and <strong>Planned date for the next visit</strong> fields are updated automatically according to the last optimization.</p></div>
 
 {% hint style="info" %}
 If the application configuration allows it (**Display** tab > **CRM** > `crm.customer.project` > `multipleProjects` set to `TRUE`), the **Project** tab lets you create several projects. You can then take appointments with different repeat settings for the same customer. See [Customization](../administration/customization.md).
 
-![Customer form, multiple projects](../images/definir-plusieurs-projets.png)
-<!-- REVIEW: in the source this image was only raw text inside a note; it is now embedded from ../images/ -->
+<img src="../.gitbook/assets/definir-plusieurs-projets.png" alt="Customer form, multiple projects" data-size="original">
 
 Click the **Add a project** link. The project form includes five tabs:
 
@@ -352,13 +339,12 @@ You access the appointment form from:
 * The appointment search. See [Menu](menu.md).
 * The appointment search on status. See [Menu](menu.md).
 * The customer form.
-* The list of urgent appointments. See [The Header Bar](../guided-help-nfs-reference-guide-1/README.md).
+* The list of urgent appointments. See [The Header Bar](../guided-help-nfs-reference-guide-1/).
 * The appointment counters. See [The Information Pane](theinformationpane.md).
 * The map. See [Map](map.md).
 * The appointment information popup in the planning. See [The Planning](theplanning.md).
 
 The form lets you apply actions to appointments. The source describes it as comprising seven parts.
-<!-- REVIEW: source says the form has 7 parts but describes 8 (General, Customer, Communication, Fulfilment status, Additional data, Comments, Messages, Constraints) -->
 
 #### General tab
 
@@ -366,7 +352,7 @@ This tab contains information about the intervention, such as its **identifier**
 
 General
 
-![Appointment form, General tab](../images/onglet-general.png)
+![Appointment form, General tab](../.gitbook/assets/onglet-general.png)
 
 {% hint style="warning" %}
 You can display additional information about the resource, in the map itself or in another window, by clicking the ![Information button](../.gitbook/assets/bouton-informations.png) link.
@@ -378,7 +364,7 @@ This tab summarizes all the relevant information about the customer, such as the
 
 Customer
 
-![Appointment form, Customer tab](../images/onglet-client.png)
+![Appointment form, Customer tab](../.gitbook/assets/onglet-client.png)
 
 {% hint style="warning" %}
 You can access the full customer form by clicking the ![Information button](../.gitbook/assets/bouton-informations.png) link.
@@ -390,7 +376,7 @@ This tab summarizes the information to communicate about the intervention, such 
 
 Communication
 
-![Appointment form, Communication tab](../images/onglet-communiquer.png)
+![Appointment form, Communication tab](../.gitbook/assets/onglet-communiquer.png)
 
 {% hint style="warning" %}
 When you click the ![Information button](../.gitbook/assets/bouton-informations.png) button next to the type of intervention, an infobox shows the competencies needed to fulfill the intervention. See [Company Data](../administration/companydata.md).
@@ -404,9 +390,9 @@ This tab summarizes the information about the state of play of the intervention 
 
 Fulfilment status
 
-![Appointment form, Fulfilment status tab](../images/etat-de-realisation.png)
+![Appointment form, Fulfilment status tab](../.gitbook/assets/etat-de-realisation.png)
 
-Several statuses are available: **Indeterminate status**, **Unfulfilled**, **Fulfilled** and **Unable to fulfill**. They are described in the "Progression steps" section of [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+Several statuses are available: **Indeterminate status**, **Unfulfilled**, **Fulfilled** and **Unable to fulfill**. They are described in the "Progression steps" section of [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 {% hint style="info" %}
 If you select the status **Fulfilled**, you can fill in the **Intervention report**. This option is only available for the fulfilled appointment status.
@@ -418,7 +404,7 @@ Depending on the rights granted to you, this tab lets you associate a document w
 
 Complementary data tab
 
-![Appointment form, Additional data tab](../images/onglet-donnees-complementaires.png)
+![Appointment form, Additional data tab](../.gitbook/assets/onglet-donnees-complementaires.png)
 
 #### Comments tab
 
@@ -426,7 +412,7 @@ This tab lets you add a comment on the intervention. The comment is only availab
 
 Comments tab
 
-![Appointment form, Comments tab](../images/onglet-commentaires.png)
+![Appointment form, Comments tab](../.gitbook/assets/onglet-commentaires.png)
 
 #### Messages tab
 
@@ -434,7 +420,7 @@ This tab lets you consult the messages exchanged about this intervention and cre
 
 Messages tab
 
-![Appointment form, Messages tab](../images/onglet-messages.png)
+![Appointment form, Messages tab](../.gitbook/assets/onglet-messages.png)
 
 #### Constraints tab
 
@@ -442,9 +428,9 @@ This tab lets you add a chaining constraint to the intervention by clicking the 
 
 Constraints tab
 
-![Appointment form, Constraints tab](../images/onglet-contraintes.png)
+![Appointment form, Constraints tab](../.gitbook/assets/onglet-contraintes.png)
 
-The constraints are described in [Setting up liaisons between appointments](#setting-up-liaisons-between-appointments).
+The constraints are described in [Setting up liaisons between appointments](objectsintheplanningmodule.md#setting-up-liaisons-between-appointments).
 
 ### Action buttons in the appointment form
 
@@ -456,36 +442,34 @@ You can apply the following actions from an appointment form:
 
 * **Back** – takes you back to the last screen.
 * **Save** – saves all the modifications made to the appointment form.
-* **Delete** – deletes the appointment. You must indicate whether the intervention was deleted by the customer or by the company. After you validate the deletion, the appointment takes the status **Cancelled**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
-* **Unplan** – restores the status of the appointment to what it was previously. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
-* **Reactivate** – restores the daily planning of the selected appointment. The appointment status changes to **Requested** and the appointment is added to the panel. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md) and [The Planning](theplanning.md).
+* **Delete** – deletes the appointment. You must indicate whether the intervention was deleted by the customer or by the company. After you validate the deletion, the appointment takes the status **Cancelled**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
+* **Unplan** – restores the status of the appointment to what it was previously. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
+* **Reactivate** – restores the daily planning of the selected appointment. The appointment status changes to **Requested** and the appointment is added to the panel. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md) and [The Planning](theplanning.md).
 * **Suspend** – has the same outcome as unplanning, with one exception: suspended appointments cannot be optimized by the batch optimization or by RTO. See [Glossary](../Glossary.md).
-* **Unconfirm** – changes the status of the appointment from **Confirmed** to **Planned**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* **Unconfirm** – changes the status of the appointment from **Confirmed** to **Planned**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 * **Plan/Replan** – takes you to the real-time planning page.
 * **Manual scheduling/Manual rescheduling** – takes you to the manual planning page.
-* **Complete…** – changes the appointment status to **Completed**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md). You must first fill in the following completion form.
+*   **Complete…** – changes the appointment status to **Completed**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md). You must first fill in the following completion form.
 
-  Completion status form
+    Completion status form
 
-  ![Completion status form](../.gitbook/assets/realization-form.png)
+    ![Completion status form](../.gitbook/assets/realization-form.png)
 * **Transform** – visible whenever the appointment is requested. Opens a page where you can quickly apply pre-configured modifications, such as modifying the earliest and latest dates.
-* **Modify…** – lets you modify the information items that cannot be edited in the form itself.
+*   **Modify…** – lets you modify the information items that cannot be edited in the form itself.
 
-  Modify appointment form
+    Modify appointment form
 
-  ![Modify appointment form](../.gitbook/assets/fiche-rdv-modif.png)
+    ![Modify appointment form](../.gitbook/assets/fiche-rdv-modif.png)
 
-  In this form, **Save** saves the modifications and **Back to the form** takes you back to the appointment form.
+    In this form, **Save** saves the modifications and **Back to the form** takes you back to the appointment form.
 * **Announce** – creates a configurable circulation listener, for example when sending a pre-formatted message to all the customer appointment contacts in the list. See [CSV Files](../administration/csvfiles.md).
-* **Send** – signals that the technician has been informed about the appointment. The ![Notified icon](../.gitbook/assets/notifie.png) icon is displayed next to the name of the resource concerned.
+*   **Send** – signals that the technician has been informed about the appointment. The ![Notified icon](../.gitbook/assets/notifie.png) icon is displayed next to the name of the resource concerned.
 
-  {% hint style="info" %}
-  The appointment then takes the notification status "sent". See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>The appointment then takes the notification status "sent". See <a href="../introduction/thedifferentstatusesforappointmentsinnfs.md">The different statuses for appointments in NFS</a>.</p></div>
 * **Add to panel** – adds the appointment to the panel. See [The Planning](theplanning.md).
 * **Add an agenda marker** – takes you to the function for adding a new agenda marker. See [Menu](menu.md).
 * **Visit report** – visible if the appointment is fulfilled. Authorizes the resource to complete the information in the appointment form after it is set up. You fill in any notes, modify the appointment status if it needs updating (fulfilled, unfulfilled) and, if the appointment is fulfilled, write an explanatory report for the visit.
-* **Subcontract** – changes the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* **Subcontract** – changes the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 ## Steps in the scheduling process
 
@@ -523,13 +507,11 @@ On this screen, you finish qualifying the appointment by filling in the followin
 * **Resource** – forces which mobile resources are assigned to perform the appointment. Select the **Select resources to optimise** option, then select the resources to use.
 * **Time limit** – restricts the possible scope for scheduling. First select the **Force the appointment dates** check box. Then select the earliest required date and the latest possible date, either as a number of days or with the popup calendars. You can also define a time on the first (or last) day of the appointment before (or after) which the appointment is not scheduled.
 * **Client availability** – sets the times when the customer is available.
-* **Priority** – the more urgent the appointment is, the more likely the application schedules it when the plannings are overloaded.
+*   **Priority** – the more urgent the appointment is, the more likely the application schedules it when the plannings are overloaded.
 
-  {% hint style="info" %}
-  Use a priority of 100 sparingly, and only for the most urgent appointments. A priority of 0 is equivalent to a priority of 50.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Use a priority of 100 sparingly, and only for the most urgent appointments. A priority of 0 is equivalent to a priority of 50.</p></div>
 
-You can cancel the appointment request, or confirm it by clicking **Request an appointment**. An appointment is then created with the status **Requested**, so the batch optimization engine can schedule it automatically. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+You can cancel the appointment request, or confirm it by clicking **Request an appointment**. An appointment is then created with the status **Requested**, so the batch optimization engine can schedule it automatically. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 ### Optimized appointment (real time)
 
@@ -556,7 +538,7 @@ Result of an optimization with the **Search +** button
 ![Result of an optimization with Search +](../.gitbook/assets/prendre-rdv-ecran-optimise-6.png)
 
 {% hint style="info" %}
-If the table is displayed after you use the **Search +** function, a ![Warning symbol](../images/avertissement.png) symbol indicates that one or several planned appointments must be unplanned once the operation is completed. Move the mouse over the symbol to see the detailed information in a popup.
+If the table is displayed after you use the **Search +** function, a ![Warning symbol](../.gitbook/assets/avertissement.png) symbol indicates that one or several planned appointments must be unplanned once the operation is completed. Move the mouse over the symbol to see the detailed information in a popup.
 {% endhint %}
 
 * The upper part of the screen summarizes the information present in the appointment form.
@@ -578,7 +560,7 @@ Confirmation of the suggestion
 * The information from the appointment form is shown. You can also enter additional notes if necessary.
 * Click **Confirm** to confirm the appointment and go to the appointment home page.
 * Click **Back** to go back to the previous step.
-* Click **Subcontract** to change the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* Click **Subcontract** to change the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 ### Manual appointment
 
@@ -603,7 +585,7 @@ The planning is automatically updated with the planning for the selected resourc
 
 Click **Continue** to see which constraints the scheduling forces, or to confirm the solution if constraint override is not used.
 
-Click **Subcontract** to change the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+Click **Subcontract** to change the appointment status to **Externalized**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 Displaying forced constraints where override has been used
 
@@ -635,48 +617,35 @@ Except for the **Stapling** liaison type, the chain can be inserted in an incomp
 
 ### Types of liaison (chaining constraints)
 
-* **Spacing and ordering** – guarantees that a certain minimum or maximum delay is respected between one appointment and the next. The delays taken into account are the values defined in the **Minimum delay** and **Maximum delay** fields. This type of constraint also lets the application manage the sequencing in the schedule (the ordering of appointments), using the **Scheduling order** field defined in part 2 of the screen.
+*   **Spacing and ordering** – guarantees that a certain minimum or maximum delay is respected between one appointment and the next. The delays taken into account are the values defined in the **Minimum delay** and **Maximum delay** fields. This type of constraint also lets the application manage the sequencing in the schedule (the ordering of appointments), using the **Scheduling order** field defined in part 2 of the screen.
 
-  Example 1: all appointments must follow one another with a gap of 1 or 2 days between them. Specify a value of 1 in the **Minimum gap** field and a value of 2 in the **Maximum gap** field.
+    Example 1: all appointments must follow one another with a gap of 1 or 2 days between them. Specify a value of 1 in the **Minimum gap** field and a value of 2 in the **Maximum gap** field.
 
-  Example 2: all appointments must be completed on the same day. Specify a value of 0 in the **Minimum gap** and **Maximum gap** fields.
-* **Same resource** – guarantees that the appointments in the chain are planned on the same resource.
+    Example 2: all appointments must be completed on the same day. Specify a value of 0 in the **Minimum gap** and **Maximum gap** fields.
+*   **Same resource** – guarantees that the appointments in the chain are planned on the same resource.
 
-  {% hint style="warning" %}
-  * If the constraint is not compatible with the required resources, or with resources that are refused, preferred or assigned, the complete chain is rejected.
-  * This liaison type does not apply in multi-resource mode.
-  {% endhint %}
-* **Unbreakable** – guarantees that all appointments are completed one after the other, without other appointments inserted between them.
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><ul><li>If the constraint is not compatible with the required resources, or with resources that are refused, preferred or assigned, the complete chain is rejected.</li><li>This liaison type does not apply in multi-resource mode.</li></ul></div>
+*   **Unbreakable** – guarantees that all appointments are completed one after the other, without other appointments inserted between them.
 
-  {% hint style="warning" %}
-  This type of constraint is not applicable in batch optimization mode with Dispatcher. It functions only in pre-scheduling by real-time optimization.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>This type of constraint is not applicable in batch optimization mode with Dispatcher. It functions only in pre-scheduling by real-time optimization.</p></div>
 
-  {% hint style="info" %}
-  This type cannot be selected in the NFS interface.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>This type cannot be selected in the NFS interface.</p></div>
 * **Grouped (maximum spacing from start)** – all appointments in the chain must be completed within a maximum timespan in relation to the first appointment (the maximum timespan between the first appointment and the last). For example, all appointments in the chain must be completed within 2 days counting from the first appointment.
 * **Same resource and grouped** – guarantees that the appointments are scheduled one after the other (other appointments can be inserted between them), on the same resource and within the defined maximum time interval.
 * **Delayed (Minimum gap in relation to the first)** – all appointments in the chain must take place after a certain timespan starting from the first appointment (the time interval between the first appointment and the following ones). For example, respect an interval of 3 days after the first appointment before scheduling all the following ones.
 * **Same resource and delayed** – guarantees that appointments are scheduled one after another (other appointments can be placed between them), on the same resource and with a certain time delay between the first and the following appointments.
-* **Circuit (same resource, unbreakable, grouped)** – guarantees that appointments are scheduled one after the other (without other appointments in between), on the same resource and within the maximum time space defined according to the defined order.
+*   **Circuit (same resource, unbreakable, grouped)** – guarantees that appointments are scheduled one after the other (without other appointments in between), on the same resource and within the maximum time space defined according to the defined order.
 
-  {% hint style="warning" %}
-  For this constraint to function in a batch optimization, activate the pre-optimization phase of circuits in the optimization parameters. See [Optimization](../administration/optimisation.md).
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>For this constraint to function in a batch optimization, activate the pre-optimization phase of circuits in the optimization parameters. See <a href="../administration/optimisation.md">Optimization</a>.</p></div>
 * **Same start time** – guarantees that the appointments in the series are scheduled at the same time (same day, same time).
-* **Separate day** – guarantees that the appointments in the chain are planned on different days.
+*   **Separate day** – guarantees that the appointments in the chain are planned on different days.
 
-  {% hint style="warning" %}
-  If the chaining constraint is incompatible with the imposed appointment dates, their positioning in the schedule is not guaranteed.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>If the chaining constraint is incompatible with the imposed appointment dates, their positioning in the schedule is not guaranteed.</p></div>
 * **Ordered route** – guarantees that the appointments are placed one after another (other appointments can be placed between them), on the same resource and on the same day.
 * **Ordered circuit (sequenced route, unbreakable)** – guarantees that appointments are placed one after the other (without other appointments scheduled in between), on the same resource and on the same day.
-* **Stapling** – all the appointments in the series are "stapled together" so they are taken as a single long appointment and scheduled as such. This guarantees that all appointments in the series are scheduled one after another in sequence (without any other appointments in between) on the same resource at the same site.
+*   **Stapling** – all the appointments in the series are "stapled together" so they are taken as a single long appointment and scheduled as such. This guarantees that all appointments in the series are scheduled one after another in sequence (without any other appointments in between) on the same resource at the same site.
 
-  {% hint style="warning" %}
-  This type of constraint is not applicable in batch optimization mode with Dispatcher. It functions only in pre-scheduling by real-time optimization.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>This type of constraint is not applicable in batch optimization mode with Dispatcher. It functions only in pre-scheduling by real-time optimization.</p></div>
 
 ### Linking two appointments in the interface
 
@@ -707,9 +676,8 @@ Fill in the following fields.
 **Part 1**
 
 * **Name** – unique identifier for the constraint chain (mandatory). Each chain must have a different name, because all the appointments that have a chaining constraint with the same name are linked.
-* **Type** – the type of chaining constraint. The types are described in [Types of liaison (chaining constraints)](#types-of-liaison-chaining-constraints).
+* **Type** – the type of chaining constraint. The types are described in [Types of liaison (chaining constraints)](objectsintheplanningmodule.md#types-of-liaison-chaining-constraints).
 * **Minimum gap** – a gap of 0 days means "the same day". The gap takes the first day of the intervention as reference (even for appointments that take place over several days).
-<!-- REVIEW: the source lists "Minimum gap" twice with identical text; the second entry was probably meant to be "Maximum gap" -->
 * **Description** – text field for describing the chaining constraint.
 
 **Part 2**
@@ -725,11 +693,9 @@ For each associated appointment, the following fields are present:
 * **Earliest date** – the earliest date for the appointment.
 * **Latest date** – the latest scheduling date for the appointment.
 * **Status** – completion status of the appointment.
-* **Sequencing order** – order of the appointment in the chain. The application tries to plan appointments in the requested order.
+*   **Sequencing order** – order of the appointment in the chain. The application tries to plan appointments in the requested order.
 
-  {% hint style="warning" %}
-  Only for chainings of the **Circuit** type.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>Only for chainings of the <strong>Circuit</strong> type.</p></div>
 * **Minimum spacing** – minimum gap between appointments (overrides the value specified in Part 1).
 * **Maximum spacing** – maximum gap between appointments (overrides the value specified in Part 1).
 
@@ -759,13 +725,12 @@ Unavailabilities management page
 ![Unavailabilities management page](../.gitbook/assets/page-indisponibilites.png)
 
 The source describes the page as divided into five sections, but only the **General** section is described.
-<!-- REVIEW: source says "five sections" but only section 1 (General) is described; the remaining sections appear in the source as run-on items (Frequency, Address, Comments, Next unavailabilities) -->
 
 #### General
 
 Choice of unavailability type
 
-![Unavailability form, General section](../images/indispo-general.png)
+![Unavailability form, General section](../.gitbook/assets/indispo-general.png)
 
 In this section:
 
@@ -792,13 +757,13 @@ A new **Meeting** field is available to give an objective to the meeting.
 
 Next, define the permitted **duration** of the unavailability. Several options are available.
 
-| Option | Description |
-| --- | --- |
-| **One day** | The unavailability is created on a complete day, according to the working hours of the resource. |
-| **Full days** | The unavailability is created over several complete days, according to the working hours of the resource. |
-| **Morning** | The unavailability is created for the morning of the chosen day, from the start time until the start of the lunch break time window. |
-| **Afternoon** | The unavailability is created for the afternoon of the chosen day, from the end of the lunch break time window until the end of the working day. |
-| **Free entry** | You enter the bounds of the unavailability yourself. |
+| Option         | Description                                                                                                                                      |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **One day**    | The unavailability is created on a complete day, according to the working hours of the resource.                                                 |
+| **Full days**  | The unavailability is created over several complete days, according to the working hours of the resource.                                        |
+| **Morning**    | The unavailability is created for the morning of the chosen day, from the start time until the start of the lunch break time window.             |
+| **Afternoon**  | The unavailability is created for the afternoon of the chosen day, from the end of the lunch break time window until the end of the working day. |
+| **Free entry** | You enter the bounds of the unavailability yourself.                                                                                             |
 
 {% hint style="info" %}
 For a multi-resource unavailability, the hours of the first resource in the list are used as the reference in the time constraint methods.
@@ -830,7 +795,7 @@ The field in this block lets you enter a comment line that is visible in the sum
 
 This section displays the unavailabilities that are already recorded for the selected resources.
 
-Click an entry in the list to open the repeated unavailability form. See [Repeated unavailability form](#repeated-unavailability-form).
+Click an entry in the list to open the repeated unavailability form. See [Repeated unavailability form](objectsintheplanningmodule.md#repeated-unavailability-form).
 
 #### Creating the unavailability
 
@@ -919,19 +884,15 @@ This section contains information about the exceptional location:
 * **Identifier** – generated automatically for the exceptional location.
 * **External reference** – the external reference of the exceptional location.
 * **Abbreviation** – the abbreviation of the exceptional location.
-* **Status** – the status of the exceptional location: confirmed or to confirm.
+*   **Status** – the status of the exceptional location: confirmed or to confirm.
 
-  {% hint style="info" %}
-  Unconfirmed exceptional locations can be modified when you use batch optimization. See [Optimization](../administration/optimisation.md).
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Unconfirmed exceptional locations can be modified when you use batch optimization. See <a href="../administration/optimisation.md">Optimization</a>.</p></div>
 * **Address** section – the **Hotel** button lets you add a hotel by selecting it on the map from a predefined list of hotels.
 * The fields for setting the start and end dates and times of the exceptional location.
 * **Description**
-* **Forcing allowed** – this mode lets you force the addition of the unavailability if there is a clash in the planning.
+*   **Forcing allowed** – this mode lets you force the addition of the unavailability if there is a clash in the planning.
 
-  {% hint style="warning" %}
-  This mode causes other items in the planning to be unplanned.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>This mode causes other items in the planning to be unplanned.</p></div>
 
 Use the following buttons:
 
@@ -976,7 +937,7 @@ The form contains the following fields:
 {% hint style="warning" %}
 This form applies any changes to the assignment.
 
-![Temporary post form (modification)](../images/poste-temp-mod.png)
+<img src="../.gitbook/assets/poste-temp-mod.png" alt="Temporary post form (modification)" data-size="original">
 {% endhint %}
 
 ## Secondary worksites
@@ -1071,11 +1032,11 @@ The page contains the following items:
 * **Type** – drop-down list of predefined types of on-call duties. See [Company Data](../administration/companydata.md).
 * **Post** – the post for which the resource is on duty, containing the predefined functions and job types. See [Company Data](../administration/companydata.md).
 * **From** and **To** – the start and end dates of the on-call duty.
-* **Cyclic job** – defines the regularity of the on-call duty if necessary (select the check box).
+*   **Cyclic job** – defines the regularity of the on-call duty if necessary (select the check box).
 
-  Cyclic job
+    Cyclic job
 
-  ![Cyclic job fields for an on-call duty](../.gitbook/assets/astreinte-cycle.png)
+    ![Cyclic job fields for an on-call duty](../.gitbook/assets/astreinte-cycle.png)
 
 The other fields are defined in the on-call duty day template topic. See [Company Data](../administration/companydata.md).
 
@@ -1112,21 +1073,21 @@ After you create a locked day, the day for the resource is greyed out in the pla
 
 The following table lists the search function for each object in the Planning module.
 
-| Object name | Search function |
-| --- | --- |
-| Customer types | **Search for a customer type**. See [Menu](menu.md). |
-| Customer kinds | **Customer kind search**. See [Menu](menu.md). |
-| Customers | **Search**. See [Menu](menu.md). |
-| Orderers | **Orderer search**. See [Menu](menu.md). |
-| Appointments | **Appointment search**. See [Menu](menu.md). |
-| Unavailabilities | **Unavailabilities**. See [Menu](menu.md). |
-| Exceptional locations | **Exceptional locations** |
-| Hotel locations | **Hotel locations**. See [Menu](menu.md). |
-| Temporary posts | **Temporary job management**. See [Menu](menu.md). |
-| Secondary worksites | **Secondary worksites assignments management**. See [Menu](menu.md). |
-| Agenda markers | **Manage agenda markers**. See [Menu](menu.md). |
-| On-call duty | **On-call duty management**. See [Menu](menu.md). |
-| Locked days | **Locked day** |
+| Object name           | Search function                                                      |
+| --------------------- | -------------------------------------------------------------------- |
+| Customer types        | **Search for a customer type**. See [Menu](menu.md).                 |
+| Customer kinds        | **Customer kind search**. See [Menu](menu.md).                       |
+| Customers             | **Search**. See [Menu](menu.md).                                     |
+| Orderers              | **Orderer search**. See [Menu](menu.md).                             |
+| Appointments          | **Appointment search**. See [Menu](menu.md).                         |
+| Unavailabilities      | **Unavailabilities**. See [Menu](menu.md).                           |
+| Exceptional locations | **Exceptional locations**                                            |
+| Hotel locations       | **Hotel locations**. See [Menu](menu.md).                            |
+| Temporary posts       | **Temporary job management**. See [Menu](menu.md).                   |
+| Secondary worksites   | **Secondary worksites assignments management**. See [Menu](menu.md). |
+| Agenda markers        | **Manage agenda markers**. See [Menu](menu.md).                      |
+| On-call duty          | **On-call duty management**. See [Menu](menu.md).                    |
+| Locked days           | **Locked day**                                                       |
 
 ### Search filters
 
@@ -1181,42 +1142,39 @@ Action buttons for appointment lists
 ![Action buttons for appointment lists](../.gitbook/assets/resultat-de-la-recherche.png)
 
 * **Announce** – creates a configurable circulation listener, for example when sending a pre-formatted message to all the customer appointment contacts in the list. See [CSV Files](../administration/csvfiles.md).
-* **Change the dates** – modifies the start and end dates of the appointments in the list. You can apply the modification in several ways:
-  * **Push the earliest start date** – adds the defined number of days to the earliest dates of the appointments in the list.
-  * **Advance the earliest start date** – brings the earliest dates forward by a number of days for the appointments in the list.
-  * **Change the earliest start date** – defines an earliest date that is applied to all appointments in the list.
-  * **Push the latest end date** – defines a latest date that is applied to all the appointments in the list.
-  * **Advance the latest end date** – brings forward the latest dates of the appointments in the list by the defined number of days.
-  * **Change the latest end date** – adds the defined number of days to the latest dates of the appointments in the list.
-  * **Push the planned date** – adds the defined number of days to the scheduled dates of the appointments in the list.
-  * **Advance the planned date** – subtracts the defined number of days from the scheduled dates of the appointments in the list.
-  * **Change the periode of possible completion** – redefines the earliest and latest possible dates that are applied to all appointments in the list.
+*   **Change the dates** – modifies the start and end dates of the appointments in the list. You can apply the modification in several ways:
 
-  {% hint style="info" %}
-  If the appointments in the list do not have an earliest or latest date defined, today's date is used as a reference.
-  {% endhint %}
-* **Modify resources** – defines preferences for the resources (required, desired, refused) assigned to the appointments in the list. The following window is displayed.
+    * **Push the earliest start date** – adds the defined number of days to the earliest dates of the appointments in the list.
+    * **Advance the earliest start date** – brings the earliest dates forward by a number of days for the appointments in the list.
+    * **Change the earliest start date** – defines an earliest date that is applied to all appointments in the list.
+    * **Push the latest end date** – defines a latest date that is applied to all the appointments in the list.
+    * **Advance the latest end date** – brings forward the latest dates of the appointments in the list by the defined number of days.
+    * **Change the latest end date** – adds the defined number of days to the latest dates of the appointments in the list.
+    * **Push the planned date** – adds the defined number of days to the scheduled dates of the appointments in the list.
+    * **Advance the planned date** – subtracts the defined number of days from the scheduled dates of the appointments in the list.
+    * **Change the periode of possible completion** – redefines the earliest and latest possible dates that are applied to all appointments in the list.
 
-  Reassign resources
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>If the appointments in the list do not have an earliest or latest date defined, today's date is used as a reference.</p></div>
+*   **Modify resources** – defines preferences for the resources (required, desired, refused) assigned to the appointments in the list. The following window is displayed.
 
-  ![Reassign resources window](../.gitbook/assets/modifier-intervenant.png)
+    Reassign resources
 
-  In this window, you can modify how resources are classified in relation to appointments: desired, required or refused.
+    ![Reassign resources window](../.gitbook/assets/modifier-intervenant.png)
 
-  {% hint style="warning" %}
-  This function only applies to appointments with the status **Requested**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
-  {% endhint %}
+    In this window, you can modify how resources are classified in relation to appointments: desired, required or refused.
+
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>This function only applies to appointments with the status <strong>Requested</strong>. See <a href="../introduction/thedifferentstatusesforappointmentsinnfs.md">The different statuses for appointments in NFS</a>.</p></div>
 * **Modify priority** – defines a new priority value for the appointments in the list.
-* **Modify worksite** – changes the worksite associated with each appointment in the list. The following window is displayed.
+*   **Modify worksite** – changes the worksite associated with each appointment in the list. The following window is displayed.
 
-  Modify worksites
+    Modify worksites
 
-  ![Modify worksites window](../.gitbook/assets/modifier-ws.png)
+    ![Modify worksites window](../.gitbook/assets/modifier-ws.png)
 
-  In this window, you can change the worksites linked to the appointment.
+    In this window, you can change the worksites linked to the appointment.
 * **Modify additional data** – modifies the **Miscellaneous**, **Logical**, **Quantity** and **Dates** fields of the appointments in the list.
-* **Modify statuses** – modifies the status of the appointments in the list. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
-* **Subcontract** – sets the appointments in the list to the status **Externalized**. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+* **Modify statuses** – modifies the status of the appointments in the list. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
+* **Subcontract** – sets the appointments in the list to the status **Externalized**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 {% hint style="warning" %}
 Not all status changes are possible with these actions in batch mode. For example, you cannot move a list of **candidate** appointments to the status **Confirmed** in this way, because they are not in a planning.
@@ -1224,26 +1182,27 @@ Not all status changes are possible with these actions in batch mode. For exampl
 
 ### Action buttons on customer lists
 
-* **Modify dates** – offers two options:
-  * **Modify the date of the last visit** – modifies the date of the last visit shown in the customer form.
-  * **Modify the date of the next visit** – modifies the date of the next visit shown in the customer form.
+*   **Modify dates** – offers two options:
 
-  See [Customers](#customers).
-* **Modify the type** – modifies the customer type. The following window is displayed.
+    * **Modify the date of the last visit** – modifies the date of the last visit shown in the customer form.
+    * **Modify the date of the next visit** – modifies the date of the next visit shown in the customer form.
 
-  Change customer type
+    See [Customers](objectsintheplanningmodule.md#customers).
+*   **Modify the type** – modifies the customer type. The following window is displayed.
 
-  ![Change customer type window](../.gitbook/assets/modifier-type-client.png)
-* **Modify the kind** – modifies the customer kind. The following window is displayed.
+    Change customer type
 
-  Change customer kind
+    ![Change customer type window](../.gitbook/assets/modifier-type-client.png)
+*   **Modify the kind** – modifies the customer kind. The following window is displayed.
 
-  ![Change customer kind window](../.gitbook/assets/modifier-nature.png)
-* **Change the focus** – modifies the customer focus. The following window is displayed.
+    Change customer kind
 
-  Change customer focus
+    ![Change customer kind window](../.gitbook/assets/modifier-nature.png)
+*   **Change the focus** – modifies the customer focus. The following window is displayed.
 
-  ![Change customer focus window](../.gitbook/assets/modifier-focus.png)
+    Change customer focus
+
+    ![Change customer focus window](../.gitbook/assets/modifier-focus.png)
 * **Change additional data** – changes the **Miscellaneous**, **Logical**, **Quantity** and **Dates** fields of the customers in the list.
 
 ## Create an object in the Planning module

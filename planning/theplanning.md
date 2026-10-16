@@ -47,8 +47,6 @@ The planning manager can visualize the planning of one or several resources acco
 * **Task type** – shows the planning according to the type of appointment planned or fulfilled.
 * **Duty** – shows any on-call duty specified for the given period.
 
-<!-- REVIEW: the agenda kind is called "Job" here but the period list refers to the "Post" kind; confirm the UI label -->
-
 ### Period
 
 Available periods
@@ -168,12 +166,11 @@ These buttons do not cancel an operation performed earlier. They are for consult
 
 By default, the agenda is displayed horizontally, with the names of the resources in rows and the time, days, weeks or months in columns.
 
-1. Click the ![Switch agenda button](../.gitbook/assets/bouton-bascul-de-l-agenda.png) button. The agenda switches to vertical viewing mode.
+1.  Click the ![Switch agenda button](../.gitbook/assets/bouton-bascul-de-l-agenda.png) button. The agenda switches to vertical viewing mode.
 
-   Example of a vertical agenda
+    Example of a vertical agenda
 
-   ![Example of a vertical agenda](../.gitbook/assets/agenda-bascule.png)
-
+    ![Example of a vertical agenda](../.gitbook/assets/agenda-bascule.png)
 2. To return to the default agenda display, click the ![Return to default agenda button](../.gitbook/assets/bouton-bascul-de-l-agenda.png) button.
 
 ### Display the location of the resource on the map
@@ -188,8 +185,6 @@ This button displays the routes in the agenda on the map.
 {% hint style="info" %}
 This button is only available in day or week views.
 {% endhint %}
-
-<!-- REVIEW: source note was truncated ("It is only available in [views the day or week."); link target unknown, removed -->
 
 Visualizing a route on the map
 
@@ -230,13 +225,11 @@ This function cannot block all manipulations in the planning view (display by ap
 
 The agenda part is made up of one or several days of one or several resources. The items for the day are displayed in graphical form, either horizontally or vertically. A table at the bottom of the page displays the detail of these items.
 
-The colors of the items in the planning are described in the legend. For details, see [Display the legend](#display-the-legend).
+The colors of the items in the planning are described in the legend. For details, see [Display the legend](theplanning.md#display-the-legend).
 
 {% hint style="info" %}
 The priority levels for appointments are shown by a red line. The thickness of the line reflects the priority level of the appointment in the planning.
 {% endhint %}
-
-<!-- REVIEW: the source note referred to an image (images/ref/planification/priorite-rdv.png) that is not embedded and not found in .gitbook/assets -->
 
 The appearance of the agenda varies depending on the selected view.
 
@@ -298,14 +291,12 @@ Not all drag-and-drop operations are authorized. For example, dropping an appoin
 
 #### Extend an object in the planning
 
-1. Move the mouse cursor to the extremity of the object.
+1.  Move the mouse cursor to the extremity of the object.
 
-   ![Mouse cursor at the extremity of the object](../.gitbook/assets/etirer-1.png)
+    ![Mouse cursor at the extremity of the object](../.gitbook/assets/etirer-1.png)
+2.  Click and stretch the object: forward to shorten it, or backward to make it larger.
 
-2. Click and stretch the object: forward to shorten it, or backward to make it larger.
-
-   ![Stretching the object](../.gitbook/assets/etirer-2.png)
-
+    ![Stretching the object](../.gitbook/assets/etirer-2.png)
 3. Confirm the extension in the window that displays.
 
 {% hint style="warning" %}
@@ -326,14 +317,14 @@ Appointment information popup
 
 The tool-tip contains some information from the [appointment](objectsintheplanningmodule.md), such as the customer name and the appointment address or site.
 
-The action buttons of the tool-tip apply the following operations to the appointment. For the status names, see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+The action buttons of the tool-tip apply the following operations to the appointment. For the status names, see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 * ![Panel button](../.gitbook/assets/bouton-panier3.png) – puts the appointment in the panel.
 * ![Select button](../.gitbook/assets/bouton-add2.png) – adds the appointment to the list of selected appointments.
-* ![Reserve or unconfirm button](../.gitbook/assets/deconfirmer.png) **Reserve** / **Unconfirm** – changes the appointment [status](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md) to **Reserved**, or back to the previous status.
-* ![Unplan or suspend button](../.gitbook/assets/ca-deplanifier.png) **Unplan** / **Suspend** – changes the appointment [status](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md) back to the previous status, or to **Suspended**.
-* ![Reactivate button](../.gitbook/assets/reactiver.png) **Reactivate** – changes the appointment [status](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md) to **Requested**.
-* ![Delete button](../.gitbook/assets/bouton-supprimer-une-indisponibilite.png) **Delete** – changes the appointment [status](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md) to **Abandonned**.
+* ![Reserve or unconfirm button](../.gitbook/assets/deconfirmer.png) **Reserve** / **Unconfirm** – changes the appointment [status](../introduction/thedifferentstatusesforappointmentsinnfs.md) to **Reserved**, or back to the previous status.
+* ![Unplan or suspend button](../.gitbook/assets/ca-deplanifier.png) **Unplan** / **Suspend** – changes the appointment [status](../introduction/thedifferentstatusesforappointmentsinnfs.md) back to the previous status, or to **Suspended**.
+* ![Reactivate button](../.gitbook/assets/reactiver.png) **Reactivate** – changes the appointment [status](../introduction/thedifferentstatusesforappointmentsinnfs.md) to **Requested**.
+* ![Delete button](../.gitbook/assets/bouton-supprimer-une-indisponibilite.png) **Delete** – changes the appointment [status](../introduction/thedifferentstatusesforappointmentsinnfs.md) to **Abandonned**.
 * ![Cancel button](../.gitbook/assets/pas-realise.png) – cancels the appointment.
 * ![Appointment form button](../.gitbook/assets/informations-depuis-l-infobulle.png) – displays the [appointment form](objectsintheplanningmodule.md).
 * ![Customer form button](../.gitbook/assets/tooltip-client.png) – displays the [customer form](objectsintheplanningmodule.md).
@@ -401,15 +392,13 @@ Infobox for an empty planning
 
 ![Infobox for an empty planning](../.gitbook/assets/infobulle-d-un-planning-vide.png)
 
-1. **Filling the empty planning** – Click the fill button in the infobox. By default, NFS searches for all appointments with the status **Requested** or **Suspended** that it can add to the planning. For the statuses, see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md).
+1. **Filling the empty planning** – Click the fill button in the infobox. By default, NFS searches for all appointments with the status **Requested** or **Suspended** that it can add to the planning. For the statuses, see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 2. **Adding an appointment** – Click the add appointment button to plan an appointment that does not yet exist among the appointments to be planned. The customer [information form](menu.md) displays. For details, see [Menu](menu.md).
 3. **Making an appointment for an existing customer** – Click the ![Customer button](../.gitbook/assets/tooltip-client.png) button to schedule an appointment for an existing customer. The customer [search function](menu.md) then displays.
 4. **Adding an unavailability** – Click the add unavailability button to display the [unavailability form](objectsintheplanningmodule.md).
 5. **Creating an express unavailability** – Click the ![Add express unavailability button](../.gitbook/assets/bouton-ajouter-une-indisponibilite-express.png) button in the infobox. This option is usable only if an [express unavailability](../administration/companydata.md) has been configured beforehand for the resource. NFS then places the express unavailability automatically in the planning of the resource.
 6. **Adding a locked day** – Click the ![Lock button](../.gitbook/assets/verrou.png) / ![Unlock button](../.gitbook/assets/deverrouiller.png) button to lock or unlock the day.
 7. **Adding a marker** – Click the marker button to [add a marker](objectsintheplanningmodule.md).
-
-<!-- REVIEW: icons for the fill, add appointment, add unavailability and marker buttons (bouton-remplir-le-planning.png, ajouter-une-intervention.png, bouton-ajouter-une-indisponibilite.png, jalon.png) were not embedded in the source and are not found in .gitbook/assets -->
 
 ### Journey time infobox
 

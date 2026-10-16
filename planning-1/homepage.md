@@ -58,7 +58,7 @@ To return to the Supervisor home page at any time, click the **Supervisor home p
 
 The **Track past and future appointments** section on the right shows a weekly summary of the different appointments for the area.
 
-By default, the table shows the number of candidate, planned, fulfilled and cancelled appointments for each type of intervention. See [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md). All of this is configurable (see [Customization](../administration/customization.md)).
+By default, the table shows the number of candidate, planned, fulfilled and cancelled appointments for each type of intervention. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md). All of this is configurable (see [Customization](../administration/customization.md)).
 
 By default, the table shows the number of appointments in the current week, the 4 previous weeks and the 4 following weeks.
 

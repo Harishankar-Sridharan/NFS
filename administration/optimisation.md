@@ -72,62 +72,48 @@ The full list of optimization parameters is available in [Optimization Parameter
 ### Parameters that are common to both optimization modes
 
 * **Hourly cost** – cost of one hour of travel or intervention in a route.
-* **Kilometer cost** – cost of a kilometer traveled by a resource on a route.
+*   **Kilometer cost** – cost of a kilometer traveled by a resource on a route.
 
-  {% hint style="info" %}
-  Ratio between hourly cost and kilometer cost: 1 hour corresponds to 50 km for an average speed of 50 km/h. To give priority to the distance over the duration, the kilometer cost must be 50 times greater than the hourly cost.
-  {% endhint %}
-
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Ratio between hourly cost and kilometer cost: 1 hour corresponds to 50 km for an average speed of 50 km/h. To give priority to the distance over the duration, the kilometer cost must be 50 times greater than the hourly cost.</p></div>
 * **Initial day rate** – adds a per-day cost for the days elapsed between the earliest date for the appointment and the first day of the optimization.
-* **Parameters linked to late penalties** – the following parameters make up a table of penalties and costs as a function of days elapsed. An example follows the list.
-  * **Rate of increase in daily cost (before late penalties)** – multiplication factor that increases the cost for each day elapsed before the **First day of application of late penalty**. In the example below, the value is 1.05, so the cost increases by 5% each day before the day of application of the late penalty.
-  * **Late penalty** – numeric constant that adds weight to the other parameters and so influences the general score. The higher this value, the more the score is adversely affected. In the example below, the value is 10.
-  * **First day of application of late penalty** – number of days after which the late penalty is applied. In the example below, the value is 5.
-  * **Rate of increase in the daily cost after a late penalty** – multiplication factor that increases the cost for each day after the **First day of application of late penalty**. In the example below, the value is 1.06, so the cost increases by 6% each day after the first day of application of the late penalty.
-  * **Radius around expected date** – number of days possible around the expected date. If the value is 0, the expected date is exclusive. If it is -1, all days are accepted. In any event, the expected date minimizes the late cost function.
+*   **Parameters linked to late penalties** – the following parameters make up a table of penalties and costs as a function of days elapsed. An example follows the list.
 
-  **Example:** for a resource with an empty planning (each day is equivalent from the point of view of travel, and the total cost is equal to c), the costs are as follows. Day 0 is the first day of the optimization.
+    * **Rate of increase in daily cost (before late penalties)** – multiplication factor that increases the cost for each day elapsed before the **First day of application of late penalty**. In the example below, the value is 1.05, so the cost increases by 5% each day before the day of application of the late penalty.
+    * **Late penalty** – numeric constant that adds weight to the other parameters and so influences the general score. The higher this value, the more the score is adversely affected. In the example below, the value is 10.
+    * **First day of application of late penalty** – number of days after which the late penalty is applied. In the example below, the value is 5.
+    * **Rate of increase in the daily cost after a late penalty** – multiplication factor that increases the cost for each day after the **First day of application of late penalty**. In the example below, the value is 1.06, so the cost increases by 6% each day after the first day of application of the late penalty.
+    * **Radius around expected date** – number of days possible around the expected date. If the value is 0, the expected date is exclusive. If it is -1, all days are accepted. In any event, the expected date minimizes the late cost function.
 
-  | Day     | 0  | 1     | 2        | 3          | 4          | 5                    | 6                     |
-  | ------- | -- | ----- | -------- | ---------- | ---------- | -------------------- | --------------------- |
-  | Formula | c  | 1.05c | (1.05)²c | (1.05)^3.c | (1.05)^4.c | 1.1((1.06)^4.c + 10) | 1.1²((1.06)^4.c + 10) |
-  | Cost    | 10 | 10.5  | 11       | 11.5       | 12         | 19                   | 20.5                  |
+    **Example:** for a resource with an empty planning (each day is equivalent from the point of view of travel, and the total cost is equal to c), the costs are as follows. Day 0 is the first day of the optimization.
 
-  {% hint style="warning" %}
-  If you set the values of the parameters **Coefficient before application of late penalties** and/or **Coefficient after the application of late penalties** to zero, the cost calculation on these parameters is equal to zero (see the formula above). To avoid taking these parameters into account, set them to 1. To make the cost increase over time, give them a value higher than 1. To make the cost decrease over time, give them a value between 0 and 1.
-  {% endhint %}
+    | Day     | 0  | 1     | 2        | 3          | 4          | 5                    | 6                     |
+    | ------- | -- | ----- | -------- | ---------- | ---------- | -------------------- | --------------------- |
+    | Formula | c  | 1.05c | (1.05)²c | (1.05)^3.c | (1.05)^4.c | 1.1((1.06)^4.c + 10) | 1.1²((1.06)^4.c + 10) |
+    | Cost    | 10 | 10.5  | 11       | 11.5       | 12         | 19                   | 20.5                  |
 
-  <!-- REVIEW: warning refers to "Coefficient before/after application of late penalties", which are not the parameter labels listed above ("Rate of increase in daily cost ..."); kept as in source -->
-
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>If you set the values of the parameters <strong>Coefficient before application of late penalties</strong> and/or <strong>Coefficient after the application of late penalties</strong> to zero, the cost calculation on these parameters is equal to zero (see the formula above). To avoid taking these parameters into account, set them to 1. To make the cost increase over time, give them a value higher than 1. To make the cost decrease over time, give them a value between 0 and 1.</p></div>
 * **Confirmation delay (in days)** – number of days before a reserved appointment passes automatically to the confirmed status.
 * **Reservation period (in days)** – number of days before a planned appointment passes automatically to the reserved status.
-* **Snap to grid for appointment start times** – forces the application to suggest start times for the appointment at a regular interval in minutes. For example, for an appointment that is possible from 8:23 am onwards, the application proposes 8:25 am for a 5-minute step, or 8:30 am for a 10-minute step. The available steps are none, 5m, 10m, 15m, 20m, 30m and 60m.
+*   **Snap to grid for appointment start times** – forces the application to suggest start times for the appointment at a regular interval in minutes. For example, for an appointment that is possible from 8:23 am onwards, the application proposes 8:25 am for a 5-minute step, or 8:30 am for a 10-minute step. The available steps are none, 5m, 10m, 15m, 20m, 30m and 60m.
 
-  {% hint style="warning" %}
-  This parameter can add a gap between appointments in the agenda. It therefore reduces the optimization performance.
-  {% endhint %}
-
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>This parameter can add a gap between appointments in the agenda. It therefore reduces the optimization performance.</p></div>
 * **Cost of not using a favourite day** – cost added when the day is not a favorite day of the customer. You configure favorite days in the handling of known customers (see the Planning module). For example, a customer prefers to be visited on Mondays. The suggestions for appointments on the other days are penalized with an additional cost.
 * **Cost of not using a preferred resource** – cost added for the use of a non-preferred resource compared with the use of a preferred resource. A customer can be assigned to preferred resources. The application can propose non-preferred resources when there is no other choice, which retains some flexibility. This cost penalizes the choice of a non-preferred resource.
-* **Access time (in minutes)** – the sum of two durations:
-  * the time between stopping the vehicle and arriving at the customer's premises;
-  * the time between the end of the visit to the customer and the departure of the vehicle.
+*   **Access time (in minutes)** – the sum of two durations:
 
-  This field measures the accessibility of a site, so the time can vary according to the customer. The content of this field is duplicated on route stops.
-* **Add the fixed duration between two appointments with the same location** – **Yes** adds the access time between two appointments at the same geographic location. **No** does not add the access time when two appointments are at the same place, so the travel times and access times are null.
+    * the time between stopping the vehicle and arriving at the customer's premises;
+    * the time between the end of the visit to the customer and the departure of the vehicle.
 
-  {% hint style="warning" %}
-  This parameter adds a gap between appointments in the agenda.
-  {% endhint %}
+    This field measures the accessibility of a site, so the time can vary according to the customer. The content of this field is duplicated on route stops.
+*   **Add the fixed duration between two appointments with the same location** – **Yes** adds the access time between two appointments at the same geographic location. **No** does not add the access time when two appointments are at the same place, so the travel times and access times are null.
 
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>This parameter adds a gap between appointments in the agenda.</p></div>
 * **Parameters linked to the handling of nights away**
   * **Cost of a night away from home** – if this cost is lower than the cost of returning to the address registered for the end of the working day, a night away from home is suggested.
   * **Minimum journey duration to justify a night away** – minimum travel time above which a night away can be suggested. Reducing this time increases the suggestions for nights away. The parameters for the resource (**Limits** tab, see [Company Data](companydata.md)) override it.
   * **Maximum number of nights away per week** – maximum number of nights away suggested. The parameters for the resource (**Limits** tab, see [Company Data](companydata.md)) override it.
   * **Overrun ratio for journey overlap on overnight morning** – percentage of overrun on the authorized time that allows an overlap on the days after nights away.
   * **Overrun ratio for journey overlap on overnight morning** – percentage of overrun on the authorized time that allows an overlap on the evenings of nights away.
-
-    <!-- REVIEW: two parameters share the same label in the source; the second description refers to evenings, so its label may be different -->
   * **Journey gain factor expected for overnight away** – factor (as a percentage) of the gain in travel time obtained by using nights away. Increasing this value reduces the number of nights away.
 
 ### Parameters relating to a real time optimization
@@ -158,8 +144,6 @@ The full list of optimization parameters is available in [Optimization Parameter
   * **Maximum number of kms per day** – maximum number of kilometers of travel authorized per day. If this value is exceeded and greater than 0, the timeslot is not suggested.
   * **Maximum cost of the timeslot suggested without any alert** – maximum cost authorized without alert for the suggested timeslot. If this value is exceeded and greater than 0, the timeslot is suggested with an alert.
   * **Maximum number of minutes for the outward journey without alert** – maximum cost authorized without alert for the suggested timeslot. If this value is exceeded and greater than 0, the timeslot is suggested with an alert.
-
-    <!-- REVIEW: description mentions "cost" although the parameter is about outward journey minutes; kept as in source -->
   * **Maximum number of minutes for the return journey without an alert** – maximum number of minutes of travel authorized without alert for the return journey from the appointment. If this value is exceeded and greater than 0, the timeslot is suggested with an alert.
   * **Maximum number of minutes in total (Outward/Return) without alert** – maximum number of minutes of travel authorized without alert for the sum of the outward and return journeys. If this value is exceeded and greater than 0, the timeslot is suggested with an alert.
   * **Maximum number of journey minutes per day without alert** – maximum travel time in minutes authorized per day without alert. If this value is exceeded and greater than 0, the timeslot is suggested with an alert.
@@ -167,30 +151,18 @@ The full list of optimization parameters is available in [Optimization Parameter
   * **Maximum number of kms for the return journey without an alert** – maximum number of kilometers authorized without alert for the return journey from the appointment. If this value is exceeded and greater than 0, the timeslot is suggested with an alert.
   * **Maximum number of kms in total (Outward/Return) without alert** – maximum number of kilometers authorized without alert for the sum of the outward and return journeys. If this value is exceeded and greater than 0, the timeslot is suggested with an alert.
   * **Maximum number of kms per day without alert** – maximum number of kilometers of travel authorized per day without alert. If this value is exceeded and greater than 0, the timeslot is suggested with an alert.
-* **Method to set slipping time interval for confirmed appointments (only for confirmed or reserved appointments)** – defines how the theoretical time of passage is communicated.
+*   **Method to set slipping time interval for confirmed appointments (only for confirmed or reserved appointments)** – defines how the theoretical time of passage is communicated.
 
-  {% hint style="info" %}
-  The available methods are:
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>The available methods are:</p><ul><li><strong>None</strong>: no information is given.</li><li><strong>On the day</strong>: the appointment takes place during the day in question.</li><li><strong>On the half day</strong>: the appointment takes place during the morning or the afternoon.</li><li><strong>Maximum delay</strong>: the appointment must take place at the latest at a given time.</li><li><strong>Maximum advance</strong>: the appointment must take place at the earliest at a given time.</li><li><strong>More or less</strong>: the indicated visit time is plus or minus a time defined by the <strong>Slipping time interval for communicated appointments</strong> parameter. For example, the application calculates a theoretical visit time of 11:30 am. If the interval is 60 minutes, the communicated timeslot is a probable visit time between 10:30 am and 12:30 pm.</li><li><strong>By timeslot</strong>: the indicated visit time takes into account the <strong>Slipping time interval for communicated appointments</strong> parameter and the <strong>Reference times</strong> parameter for the calculation of the arrival time interval of communicated appointments. This lets you communicate rounded visit times to the customer. For example, the theoretical visit time is 10:23 am, the <strong>Reference time of slipping interval</strong> parameter is 00:00 and the <strong>Slipping time interval</strong> duration is 120 minutes. The timeslot to communicate to the customer is a probable visit time between 10 am and 12 noon.</li></ul></div>
 
-  * **None**: no information is given.
-  * **On the day**: the appointment takes place during the day in question.
-  * **On the half day**: the appointment takes place during the morning or the afternoon.
-  * **Maximum delay**: the appointment must take place at the latest at a given time.
-  * **Maximum advance**: the appointment must take place at the earliest at a given time.
-  * **More or less**: the indicated visit time is plus or minus a time defined by the **Slipping time interval for communicated appointments** parameter. For example, the application calculates a theoretical visit time of 11:30 am. If the interval is 60 minutes, the communicated timeslot is a probable visit time between 10:30 am and 12:30 pm.
-  * **By timeslot**: the indicated visit time takes into account the **Slipping time interval for communicated appointments** parameter and the **Reference times** parameter for the calculation of the arrival time interval of communicated appointments. This lets you communicate rounded visit times to the customer. For example, the theoretical visit time is 10:23 am, the **Reference time of slipping interval** parameter is 00:00 and the **Slipping time interval** duration is 120 minutes. The timeslot to communicate to the customer is a probable visit time between 10 am and 12 noon.
-  {% endhint %}
+    * **Slipping time interval duration (confirmed appointments)** – duration in minutes of the time interval used by the previous parameter (**Method to set slipping time interval for communicated appointment**). It is taken into account only in the modes **More or less**, **Maximum advance**, **Maximum delay** and **By slot**.
+    *   **Reference time of slipping intervals (confirmed appointments)** – reference time from which the slots are calculated. If the value is 00:00, the slots are calculated from 00:00.
 
-  * **Slipping time interval duration (confirmed appointments)** – duration in minutes of the time interval used by the previous parameter (**Method to set slipping time interval for communicated appointment**). It is taken into account only in the modes **More or less**, **Maximum advance**, **Maximum delay** and **By slot**.
-  * **Reference time of slipping intervals (confirmed appointments)** – reference time from which the slots are calculated. If the value is 00:00, the slots are calculated from 00:00.
-
-    For example, if you choose **By timeslot** with a duration of 2 hours, the calculated slots are 00:00-02:00, 02:00-04:00, 04:00-06:00, and so on. If a visit is planned for 10:16, the slot to communicate is 10:00-12:00.
+        For example, if you choose **By timeslot** with a duration of 2 hours, the calculated slots are 00:00-02:00, 02:00-04:00, 04:00-06:00, and so on. If a visit is planned for 10:16, the slot to communicate is 10:00-12:00.
 * **Method to set slipping time interval for planned appointments** – applies only to appointments with the planned status.
   * **Slipping time interval duration (planned appointments)** – applies only to appointments with the planned status.
   * **Reference time of slipping interval (planned appointments)** – applies only to appointments with the planned status.
 * **Method to set slipping time interval for planned appointments** – delay to apply in minutes (with an offset of 5 minutes, 14:55 is considered as belonging to the time interval 15:00-15:15 if the timespan is set to 15 minutes).
-
-  <!-- REVIEW: this label duplicates the previous parameter; the source description is partial -->
 * **Appointment duration taken into account in the baseline time**:
   * **Yes** – the suggested timeslot covers the whole appointment. For a **Slipping time interval duration** of 60 minutes and an appointment defined at 10:30 for a duration of 2 hours, the application suggests the timeslot 10:00-13:00.
   * **No** – the suggested timeslot contains the start time of the appointment. For a **Slipping time interval** of 60 minutes and an appointment defined at 10:30 for a duration of 2 hours, the application suggests the timeslot 10:00-11:00.
@@ -208,12 +180,9 @@ The next four parameters prefill the search interface for a timeslot (planning o
 * **Search day** – default value for the search day in relation to the current day, for an appointment optimized on a chosen day.
 * **Factor applied to prioritise the type of intervention** – cost added for a difference of 1% between the priorities of two resources for the same type of task (see priority of resources in [Company Data](companydata.md)).
 * **Out of sector surcharge** – cost associated with an appointment located out of sector.
-* **Split appointment surcharge** – cost added per split appointment (divided into several parts in the day).
+*   **Split appointment surcharge** – cost added per split appointment (divided into several parts in the day).
 
-  {% hint style="warning" %}
-  A high value prevents the engine from splitting an appointment to place it in the schedule. This can reduce the quality of the optimization.
-  {% endhint %}
-
+    <div data-gb-custom-block data-tag="hint" data-style="warning" class="hint hint-warning"><p>A high value prevents the engine from splitting an appointment to place it in the schedule. This can reduce the quality of the optimization.</p></div>
 * **Parameters linked to the handling of multi-day appointments**
   * **Minimum duration of a multi-day appointment** – minimum duration that an appointment must have to be splittable at the end of a working day.
   * **Minimum duration placed on first/last day for a multi-day appointment** – when an appointment must be split to be performed over several days, the parts of this appointment placed on the first and last days may not exceed the value defined in this field.
@@ -230,14 +199,9 @@ The next four parameters prefill the search interface for a timeslot (planning o
   * **An appointment on several days can continue after the customer closes** – option to continue an appointment over several days after the customer closes. This is possible every day the appointment continues.
   * **An appointment on one day can continue after the customer closes** – option to continue an appointment on one day after the customer closes.
 * **Minimum slot duration (split appointment)** – when an appointment must be split to be performed in several parts within a single day (for example, on either side of the lunch break), the sections of this appointment have the value defined in this field as a minimum duration.
-* **Mobilisation cost for a resource (common override)** – fixed cost added for each new route. When a value is present in the batch optimization parameter **Cost of mobilisation of a resource**, the value defined in this field takes precedence.
+*   **Mobilisation cost for a resource (common override)** – fixed cost added for each new route. When a value is present in the batch optimization parameter **Cost of mobilisation of a resource**, the value defined in this field takes precedence.
 
-  <!-- REVIEW: precedence sentence is garbled in source ("while it is the value defined in this last field that counts"); verify which field wins -->
-
-  {% hint style="info" %}
-  A high value for this field favors the filling of routes (fewer resources mobilized). A low value favors the mobilization of resources.
-  {% endhint %}
-
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>A high value for this field favors the filling of routes (fewer resources mobilized). A low value favors the mobilization of resources.</p></div>
 * **Cost of mobilising the resource at D0** – cost added to the first appointment of the resource's current working day in real time optimization.
 * **Cost of an appointment not placed today** – cost added for an appointment that is not suggested for today (the current working day). This cost gives priority to appointments that fit in the whole working day.
 * **Costs linked to unplanning an appointment**
@@ -256,12 +220,9 @@ The next four parameters prefill the search interface for a timeslot (planning o
   * **Cost of unplanning a non-work related unavailability** – cost above which a non-worked unavailability can be unplanned (by planning an appointment in real time).
   * **Cost per hour of unplanning a non-worked unavailability** – fixed cost added per hour of non-worked unavailability. The total cost for this unavailability defines the cost above which it can be unplanned (by scheduling an appointment in real time).
 * **Cost for non-delivery** – cost above which an appointment is not planned. It is the cost of an unfulfilled intervention with a 50% priority. By default, the value is 0 and the duration of the intervention does not affect the cost of non-delivery.
-* **Hourly rate for non-delivery** – cost added per hour of appointment, so it is proportional to the duration of the appointment. The total cost is a threshold above which the appointment is not planned. It is the hourly cost of an unfulfilled standard priority intervention. By default, the value is 0 and the appointment duration does not affect the cost of non-delivery.
+*   **Hourly rate for non-delivery** – cost added per hour of appointment, so it is proportional to the duration of the appointment. The total cost is a threshold above which the appointment is not planned. It is the hourly cost of an unfulfilled standard priority intervention. By default, the value is 0 and the appointment duration does not affect the cost of non-delivery.
 
-  {% hint style="info" %}
-  If this value is too low, certain appointments may not be scheduled in batch optimization (see [Glossary](../Glossary.md)) mode.
-  {% endhint %}
-
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>If this value is too low, certain appointments may not be scheduled in batch optimization (see <a href="../Glossary.md">Glossary</a>) mode.</p></div>
 * **Maximum cost of a journey without alert** – cost above which an alert is displayed when the appointment is suggested. The parameter is not used if it is 0.
 * **Maximum radius (in km)** – maximum radius (in kilometers) of the circle centered on the departure point for the day. It defines the circle in which appointments are possible. The parameter is not used if the value is 0.
   * **Radius calculated by the road** – **Yes**: the radius is calculated along the road network. **No**: it is calculated as a straight line (as the crow flies).
@@ -271,19 +232,13 @@ The next four parameters prefill the search interface for a timeslot (planning o
   * **Kilometer overcost for two appointments considered too far** – kilometer overcost added when two appointments are considered too far apart (see the previous parameters).
 * **Cost of not using a mission type favorite weekday (real-time context)** – cost added for an appointment scheduled on a non-favorite day in relation to the intervention type (see [Company Data](companydata.md)).
 * **Favorite first days** – favorite first days of a multi-day appointment, as days of the week numbered from 1 to 7 (Monday = 1, Sunday = 7), separated by semicolons. An additional cost applies to the non-favorite days (see the next parameter).
-  * **Cost of not using a favorite first day** – cost added when a multi-day appointment starts on a day that is not listed in the previous parameter.
+  *   **Cost of not using a favorite first day** – cost added when a multi-day appointment starts on a day that is not listed in the previous parameter.
 
-    {% hint style="info" %}
-    To prevent a multi-day appointment from being scheduled on a Friday and so being split by a weekend, enter `1;2;3;4` in **Favorite first days** and enter a high value in **Cost of not using a favorite first day**.
-    {% endhint %}
-
+      <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>To prevent a multi-day appointment from being scheduled on a Friday and so being split by a weekend, enter <code>1;2;3;4</code> in <strong>Favorite first days</strong> and enter a high value in <strong>Cost of not using a favorite first day</strong>.</p></div>
 * **Favorite last days** – same as **Favorite first days**, for the last day of a multi-day appointment.
-  * **Cost of not using a favorite last day** – same as **Cost of not using a favorite first day**, for the last day of a multi-day appointment.
+  *   **Cost of not using a favorite last day** – same as **Cost of not using a favorite first day**, for the last day of a multi-day appointment.
 
-    {% hint style="info" %}
-    To prevent a multi-day appointment from finishing on a Monday and so being split by a weekend, enter `2;3;4;5` in **Favorite last days** and enter a high value in **Cost of not using a last favorite day**.
-    {% endhint %}
-
+      <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>To prevent a multi-day appointment from finishing on a Monday and so being split by a weekend, enter <code>2;3;4;5</code> in <strong>Favorite last days</strong> and enter a high value in <strong>Cost of not using a last favorite day</strong>.</p></div>
 * **Night away used** – activates or deactivates the scheduling of nights away with real time optimization.
   * **Non-favorite night away used** – activates or deactivates the scheduling of a night away that is not defined in the resource form and the **Limits** tab (see [Company Data](companydata.md)). This parameter lets the optimizing staff member suggest a night away when it was initially not authorized.
     * **Cost of non-favorite night away** – cost added for scheduling an appointment on an evening that is not defined in the resource form and the **Limits** tab (see [Company Data](companydata.md)).
@@ -425,24 +380,22 @@ Click **Advanced parameters** to display the following additional fields.
   * **Fill with visits (H6)**
   * **Addition by sector (H9)**
   * **Low** – uses the real time optimization engine.
-* **Subset**:
-  * **None** – by default, the optimization is not split into sections.
-  * **Resource** – the optimization is divided into several packets (one per resource).
-  * **Worksite** – the optimization is divided into several packets (one per worksite).
+*   **Subset**:
 
-  {% hint style="info" %}
-  Splitting the optimization into subsets is recommended in the following cases: customers are always visited by the same resource (subset: **Resource**), or resources do not have a worksite or secondary sector (subset: **Worksite**).
-  {% endhint %}
+    * **None** – by default, the optimization is not split into sections.
+    * **Resource** – the optimization is divided into several packets (one per resource).
+    * **Worksite** – the optimization is divided into several packets (one per worksite).
 
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>Splitting the optimization into subsets is recommended in the following cases: customers are always visited by the same resource (subset: <strong>Resource</strong>), or resources do not have a worksite or secondary sector (subset: <strong>Worksite</strong>).</p></div>
 * **Pre-optimisation of rounds (circuit routes)** – adds a phase before the optimization that positions linked appointments or circuits.
 * **Pre-optimisation of appointments having a duration of at least** – adds a phase before the optimization that schedules long appointments.
 * **Duration of the pre-optimisation** – duration of the scheduling phase for long appointments, as a percentage of the optimization duration.
-* **Appointments with requested status are not optimised** – the optimization does not take into account appointments with the requested status (see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)).
-* **Appointments with a planned status cannot change day** – appointments with the planned status cannot change day during the optimization (see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)).
-* **Appointments with a planned status cannot change resource** – you cannot change the resource of an appointment with the planned status during the optimization (see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)).
-* **Appointments with planned status will remain scheduled** – you cannot unplan appointments with the planned status during the optimization (see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)).
+* **Appointments with requested status are not optimised** – the optimization does not take into account appointments with the requested status (see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md)).
+* **Appointments with a planned status cannot change day** – appointments with the planned status cannot change day during the optimization (see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md)).
+* **Appointments with a planned status cannot change resource** – you cannot change the resource of an appointment with the planned status during the optimization (see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md)).
+* **Appointments with planned status will remain scheduled** – you cannot unplan appointments with the planned status during the optimization (see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md)).
 * **Optimisation of appointments with a planned status before, and up to T1 -** – enables re-optimization of appointments with the planned status that date from before the optimization period. The value in days determines the date (T1) from which the planned appointments remain in the planning.
-* **Appointments with an optimised planned status before T1 will not be reactivated if they have not been scheduled** – appointments with the planned status scheduled before and up to T1 are not unplanned during an optimization if it is not possible to replan them (see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)).
+* **Appointments with an optimised planned status before T1 will not be reactivated if they have not been scheduled** – appointments with the planned status scheduled before and up to T1 are not unplanned during an optimization if it is not possible to replan them (see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md)).
 * **Post-optimisation of appointments having a duration of at least** – adds a phase after the optimization that schedules long appointments.
 * **Status of results over the optimisation period**:
   * **first days in confirmed status**
@@ -455,8 +408,6 @@ The optimization parameter **Minimum duration for a multi-day appointment** defi
 #### Trigger event and Activation period
 
 ![Association of a trigger event to an optimization](../.gitbook/assets/optim-planif-optim-event.png)
-
-<!-- REVIEW: the source sentence under this heading ("the application lists all optimisations that are in the course of being optimised") looks copied from the Service tab and does not describe trigger events or activation periods; removed from the text -->
 
 The optimization is launched by the chosen trigger event.
 
@@ -543,8 +494,6 @@ The remote server form (see [General Principles](generalprinciples.md)) contains
 * **Delay** – the period between two requests from NFS to the optimization engine about the progress of the optimization. The default value is 5,000 milliseconds.
 * **Local access** – the local file path for the files that the optimization engine generates at the end of the optimization (for example, `C:\OptimisationFiles`).
 * **Remote access** – the file path that lets NFS retrieve the files that the optimization engine generates on the remote server (for example, `c`).
-
-  <!-- REVIEW: example value "c" for Remote access looks truncated in the source -->
 * **Map and areas handled** – see below.
 
 #### Map and areas handled

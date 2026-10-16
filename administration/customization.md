@@ -8,9 +8,8 @@ Parameters are organized in groups, distributed over the following tabs:
 * **DISPLAY** – manages parameters relating to display.
 * **OPTIMIZATION** – manages parameters relating to optimization.
 * **APPLICATION** – manages global application parameters, such as the **NFS Mobile** parameters.
-* **MY_ACTIONS** – manages parameters relating to customized actions.
+* **MY\_ACTIONS** – manages parameters relating to customized actions.
 * **OTHERS** – manages other parameters.
-<!-- REVIEW: source says "5 tabs" but lists six tabs -->
 
 Click **Save** to save the parameters in the database.
 
@@ -20,10 +19,9 @@ These parameters influence the general behavior of the application (imports, opt
 
 ## Modify a parameter
 
-1. On the page of parameter groups, click a line to display the list of associated parameters.
+1.  On the page of parameter groups, click a line to display the list of associated parameters.
 
-   ![List of settings](../.gitbook/assets/admin-perso-liste-params.png)
-
+    ![List of settings](../.gitbook/assets/admin-perso-liste-params.png)
 2. Select the parameter to modify in the first column.
 3. Modify the **Value** field.
 4. Click **Save**.
@@ -100,6 +98,6 @@ The **Area** drop-down list lets you define the different color palettes for eac
 ### Application colors
 
 * The unavailability type (worked/non-worked)
-* Appointment states (see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md))
+* Appointment states (see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md))
 * The other elements in the planning, such as night away, lunch break, holidays and journey
-* The color of the band (see [The Header Bar](../guided-help-nfs-reference-guide-1/README.md))
+* The color of the band (see [The Header Bar](../guided-help-nfs-reference-guide-1/))

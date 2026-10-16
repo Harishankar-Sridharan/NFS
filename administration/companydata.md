@@ -1,4 +1,4 @@
-# Company data
+# Company Data
 
 ## Overview
 
@@ -49,11 +49,9 @@ The **Human resource** form has the following tabs: **Information**, **Affiliati
 * **Photo**: on the left of the screen, you can import a photo of the resource. Move the mouse pointer over the photo. Click the ![Import photo button](../.gitbook/assets/photo.png) button to import a photo, or the ![Delete photo button](../.gitbook/assets/poubelle.png) button to delete it.
 * **External reference**: external reference of the mobile resource.
 * Identification: **Name**, **First name**, **Company ID** (the company ID corresponds to the [external identifier](../Glossary.md) of the resource), **Badge number** and **Description**.
-* **Job held**: specifies the function of the resource. This information determines the type of intervention (or offering) that the resource can provide when an appointment is made. An intervention type depends on two criteria: the type of post occupied and the skills the resource has. The skills of the resource are described in the **Skills** tab.
+*   **Job held**: specifies the function of the resource. This information determines the type of intervention (or offering) that the resource can provide when an appointment is made. An intervention type depends on two criteria: the type of post occupied and the skills the resource has. The skills of the resource are described in the **Skills** tab.
 
-  {% hint style="info" %}
-  When you select the ![Take appointment check box](../.gitbook/assets/bouton-prendre-rdv.png) check box, the information about the function is retrieved in the resource form.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>When you select the <img src="../.gitbook/assets/bouton-prendre-rdv.png" alt="Take appointment check box"> check box, the information about the function is retrieved in the resource form.</p></div>
 * **Mobile resource**: declares the resource as mobile. Select this check box to allow appointments to be taken for the resource, as a mobile resource. This parameter mainly distinguishes mobile resources (or advisors in the field) from other people (managers, supervisors, online advisors) who are never called upon to fulfill appointments.
 * **Length of time in company**: start and end date of the work contract. This information is used to handle the life cycle of the work contract: arrival in the company and departure (resignation, retirement, and so on). Company transfers are handled by "stopping" a mobile resource on a given date (for a given area, for example) and re-creating it for another assignment (another area, for example).
 * **Period of availability**: start and end date from which the resource is taken into account in the planning process. This lets you set a delay between the start of the work contract and the availability of the resource for appointments made by NFS. If you enter no date, the resource is considered available from the start of the work contract, so an appointment can be taken for the resource from day 1 of employment.
@@ -63,8 +61,6 @@ The **Human resource** form has the following tabs: **Information**, **Affiliati
 * Mobile contact details: **mobile email address** (some operators offer email addresses that can be read on a mobile phone) and **telephone** **mobile** (for text messages).
 
 #### Assignment tab
-
-<!-- REVIEW: this tab is called "Affiliation" in the tab list and in the image caption, "Assignment" in the heading -->
 
 ![Affiliation tab of the human resource form](../.gitbook/assets/RH-affectation.png)
 
@@ -97,7 +93,6 @@ This tab usually defines the start and arrival points of each daily itinerary. F
 ![Address tab of the human resource form](../.gitbook/assets/RH-adresse.png)
 
 To fill in the start address, see the Address section of this guide.
-<!-- REVIEW: the source refers to "the section of this guide, Address" without a link -->
 
 {% hint style="warning" %}
 If you do not enter this information, NFS uses the worksite address.
@@ -126,7 +121,7 @@ Use this tab to define a resource as a user.
 See also:
 
 * EXPLOITATION > Configuring SSO access in NFS
-* REFERENCE GUIDE > Introduction > Running the application > [Running the Application](../introduction-nfs-reference-guide/runningtheapplication.md) (section "Authenticating through Single Sign-On (SSO)")
+* REFERENCE GUIDE > Introduction > Running the application > [Running the Application](../introduction/runningtheapplication.md) (section "Authenticating through Single Sign-On (SSO)")
 {% endhint %}
 
 #### Perimeter tab
@@ -138,8 +133,6 @@ Depending on the user rights assigned, this tab lets you select favorites for th
 You can apply this perimeter in the Planning and Attendance modules, so that only objects that belong to the perimeter are displayed, regardless of the area of affiliation of the resource defined in the **Affiliation** tab.
 
 #### Typical week tab
-
-<!-- REVIEW: the tab is called "Standard week" in the tab list and "Typical week" here -->
 
 Use this tab to save the **Working hours** of each resource according to the **Day of Week**. Each resource has a standard working week. The tab stores the working hours for Monday, Tuesday, and so on.
 
@@ -153,11 +146,9 @@ Part 1: "Typical working week"
 
 * **Day of the Week**: Monday, Tuesday, and so on.
 * **Working hours**: the maximum length of the working day, for example 08:00-20:00.
-* **Lunch break** and **Length of break**: the start and end times of the lunch break give the period during which the break must be taken. Example: a one-hour break to be taken between 12:00 and 14:00.
+*   **Lunch break** and **Length of break**: the start and end times of the lunch break give the period during which the break must be taken. Example: a one-hour break to be taken between 12:00 and 14:00.
 
-  {% hint style="info" %}
-  A value of 00:00 means that the parameter is not taken into account in the optimization.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>A value of 00:00 means that the parameter is not taken into account in the optimization.</p></div>
 * **Worked day**: indicates whether the resource can perform interventions that day.
 * **Night away possible**: indicates whether the optimization engine can schedule a night away for that day.
 
@@ -195,14 +186,12 @@ Use this tab to define maximum quantities.
   * Maximum **daily** travel time: a time limit for travel between home and the workplace in one day.
   * Maximum **weekly** travel time: a time limit for travel between home and the workplace in one week.
   * Maximum **per month** travel time: a time limit for travel between home and the workplace in one month.
-* Drop-down list: selects the calculation mode for the cumulated total.
+*   Drop-down list: selects the calculation mode for the cumulated total.
 
-  {% hint style="info" %}
-  This field is in fact changed in the application settings. To modify it, go to the [Customization](customization.md) menu (application settings) and replace the value of the **Optimization tab > Batch > OPTIM_DISPATCHER > MAX_WORK_TIME_TYPE** setting with the value you want.
-  {% endhint %}
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>This field is in fact changed in the application settings. To modify it, go to the <a href="customization.md">Customization</a> menu (application settings) and replace the value of the <strong>Optimization tab > Batch > OPTIM_DISPATCHER > MAX_WORK_TIME_TYPE</strong> setting with the value you want.</p></div>
 
-  * **Intervention**: only the duration of interventions is included in the calculation.
-  * **Journey time + intervention**: travel times are also counted, depending on the options selected below the item.
+    * **Intervention**: only the duration of interventions is included in the calculation.
+    * **Journey time + intervention**: travel times are also counted, depending on the options selected below the item.
 * **first workway included**: when selected, the first journey is included in the work time. When cleared, you must fill the **Max overrun allowed** field.
 * **last workway included**: when selected, the last journey is included in the work time. When cleared, you must fill the **Max overrun allowed** field.
 
@@ -302,8 +291,6 @@ In the table header, you can:
 
 #### Posts tab
 
-<!-- REVIEW: the source calls this tab both "Posts" and "Jobs" -->
-
 Use the **Jobs** tab to define temporary or periodic posts for a resource. Posts are associated with a list of intervention types. This lets you define a set of temporary or periodic intervention types for a resource (see the Job type and Function sections).
 
 To add or delete temporary posts, click the ![Add button](../.gitbook/assets/bouton-ajouter.png) and ![Delete button](../.gitbook/assets/bouton-supprimer.png) buttons (see [General Principles](generalprinciples.md)). You can also add and delete the post types associated with a resource.
@@ -371,15 +358,15 @@ The tab shows the following data for each function:
 
 Select the week template that applies to this resource type from the list of week templates.
 
-The fields are described in the **Standard week** tab of the human resource (see [Typical week tab](#typical-week-tab)).
+The fields are described in the **Standard week** tab of the human resource (see [Typical week tab](companydata.md#typical-week-tab)).
 
 #### Limits tab
 
-This tab is the same as the **Limits** tab of the human resource (see [Limits tab](#limits-tab)).
+This tab is the same as the **Limits** tab of the human resource (see [Limits tab](companydata.md#limits-tab)).
 
 #### Priorities tab
 
-This tab is the same as the **Priorities** tab of the human resource (see [Priorities tab](#priorities-tab)).
+This tab is the same as the **Priorities** tab of the human resource (see [Priorities tab](companydata.md#priorities-tab)).
 
 ## Job type
 
@@ -415,15 +402,15 @@ The tab shows the following data for each job type:
 
 #### Work week tab
 
-This tab is the same as the **Standard week** tab of the human resource (see [Typical week tab](#typical-week-tab)).
+This tab is the same as the **Standard week** tab of the human resource (see [Typical week tab](companydata.md#typical-week-tab)).
 
 #### Priorities tab
 
-This tab is the same as the **Priorities** tab of the human resource (see [Priorities tab](#priorities-tab)).
+This tab is the same as the **Priorities** tab of the human resource (see [Priorities tab](companydata.md#priorities-tab)).
 
 ## Subcontractor
 
-Defining subcontractors lets you assign an intervention to a subcontractor. This is useful to keep a trace of an appointment without managing its life cycle (see [The different statuses for appointments in NFS](../introduction-nfs-reference-guide/thedifferentstatusesforappointmentsinnfs.md)).
+Defining subcontractors lets you assign an intervention to a subcontractor. This is useful to keep a trace of an appointment without managing its life cycle (see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md)).
 
 You can create, consult, duplicate or deactivate a subcontractor. For the general procedures, see [General Principles](generalprinciples.md).
 
@@ -621,7 +608,6 @@ An area is the representation in NFS of the geographic zone or zones in which ea
 {% hint style="info" %}
 An area can be linked to several teams. Under normal circumstances, it includes at least one team. An area is broken down into sectors. A sector cannot depend on just one area. Areas are disparate entities.
 {% endhint %}
-<!-- REVIEW: "A sector cannot depend on just one area" is as in the source; the meaning may be the opposite ("must depend on only one area") -->
 
 You can create, consult, duplicate or deactivate an area. For the general procedures, see [General Principles](generalprinciples.md).
 
@@ -732,7 +718,6 @@ The sector form has the following tabs: **Information**, **Address**, **Towns** 
 #### Address tab
 
 See the address fields section of this documentation.
-<!-- REVIEW: the source refers to the address fields section without a link -->
 
 #### Towns tab
 
@@ -753,7 +738,7 @@ Each town can belong to only one sector.
 
 #### Resources tab
 
-This tab lets you view the resources that use the sector as their main or secondary sector (see the resource form in [Human resource](#human-resource)).
+This tab lets you view the resources that use the sector as their main or secondary sector (see the resource form in [Human resource](companydata.md#human-resource)).
 
 * **Resource**: the first name and surname of the resource.
 * **Start date** and **End date**: the start and end dates of the assignment of the resource to this sector.
@@ -787,8 +772,6 @@ The form of an unavailability type has one tab. It shows the following data:
   * _Blank, but mandatory_: you must enter the address.
   * _At home_: the default address is the home address of the resource.
   * _On the worksite_: the default address is the address of the main worksite.
-
-  <!-- REVIEW: the source says there are four possibilities but lists only three -->
 * **Default duration**: pre-fills the duration when you create an unavailability of this type.
 * **Minimum duration**: a minimum duration below which the planning manager cannot enter an unavailability of this type.
 * **Maximum duration**: a maximum duration above which the planning manager cannot enter an unavailability of this type.
@@ -1016,7 +999,7 @@ The list of targets shows the following information:
 * **type of intervention**: the intervention type associated with the target.
 * **value**: the value of the target.
 
-![List of targets](../.gitbook/assets/objectifs%20(1).png)
+![List of targets](<../.gitbook/assets/objectifs (1).png>)
 
 ### Form for a target
 
@@ -1038,8 +1021,8 @@ The form has the following fields:
 * The value of the target.
 
 {% hint style="info" %}
-* The turnover is visible in the weekly planning by depot, as a gauge. Appointments with a status of _Fulfilled_ and _Confirmed_ are used to compare the turnover achieved with the target.
-* When a target is reached, for example a target for the number of appointments, you can no longer plan appointments of this type in [batch](../Glossary.md) or real-time optimization mode.
+- The turnover is visible in the weekly planning by depot, as a gauge. Appointments with a status of _Fulfilled_ and _Confirmed_ are used to compare the turnover achieved with the target.
+- When a target is reached, for example a target for the number of appointments, you can no longer plan appointments of this type in [batch](../Glossary.md) or real-time optimization mode.
 {% endhint %}
 
 ## Follow-up
@@ -1086,8 +1069,6 @@ Follow-up actions can serve as a reminder of which follow-up to assign to the ap
 
 ## Typology
 
-<!-- REVIEW: the source has an empty "Typology" heading with no content -->
-
 ## Calendars
 
 ### Public holidays
@@ -1122,7 +1103,7 @@ The form has the following fields:
 
 Use the day template to define typical days. You can use them to:
 
-* create standard weeks that you can use in the resource form (see [Week template](#week-template));
+* create standard weeks that you can use in the resource form (see [Week template](companydata.md#week-template));
 * assign days for which the working hours differ from the usual hours in the **Typical week** tab of the resource form.
 
 You can create, consult, duplicate or delete a day template. For the general procedures, see [General Principles](generalprinciples.md).
@@ -1178,9 +1159,9 @@ You can filter the list of templates by area of affiliation and worksite. Click 
 
 ![Week template form](../.gitbook/assets/modele-semaine.png)
 
-Use the drop-down lists to select a day template for each day of the week, from the saved day templates (see [Day template](#day-template)).
+Use the drop-down lists to select a day template for each day of the week, from the saved day templates (see [Day template](companydata.md#day-template)).
 
-You cannot modify the other fields. They are described in [Day template form](#day-template-form).
+You cannot modify the other fields. They are described in [Day template form](companydata.md#day-template-form).
 
 ### Sales period
 
