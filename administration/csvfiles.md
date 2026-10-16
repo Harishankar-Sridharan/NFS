@@ -76,8 +76,7 @@ The **Entity** drop-down list contains the different types of data that you can 
 When you select a type of data under **Entity**, the **Fields** list is updated with all the fields that you can export.
 
 * To select fields, click a field and then click the **>** button. Click the **>>** button to select all fields.
-* To deselect fields, click a field in the **Selected fields** section and then click the **>** button. Click **<<** to deselect all fields.
-<!-- REVIEW: source uses the ">" button to deselect fields; this is probably "<" -->
+* To deselect fields, click a field in the **Selected fields** section and then click the **<** button. Click **<<** to deselect all fields.
 
 
 ### CSV formatting

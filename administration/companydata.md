@@ -813,10 +813,8 @@ The form is made up of a first part and an address part. The first part shows th
 * **Area**: the area in which the equipment is available. This is a mandatory field.
 * **Description**
 * **Allow overrun**: allows or prevents the journey time from encroaching on the exceptional location.
-* **Work start time**: defines a default time for the end of the exceptional location.
-* **Work start time**: defines a default time for the end of the exceptional location.
-
-<!-- REVIEW: "Work start time" appears twice with the same description ("default time for the end"); one of them is probably "Work end time" -->
+* **Work start time**: defines a default time for the start of the exceptional location.
+* **Work end time**: defines a default time for the end of the exceptional location.
 
 The address part is described in the "Geocoding" chapter.
 

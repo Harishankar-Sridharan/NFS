@@ -432,14 +432,12 @@ The search results show a list of customers.
 
 ## Application warning messages
 
-This menu gives access to the application alert messages subscribed to in the [@menu(Administration)](../administration/userhandling.md) module. These messages form the journal of technical exchanges and background modifications made to the application, for example:
+This menu gives access to the application alert messages subscribed to in the Administration module (see [User Handling](../administration/userhandling.md)). These messages form the journal of technical exchanges and background modifications made to the application, for example:
 
 * results of CSV imports (success, error, etc.);
 * webservice calls;
 * modifications made to optimization parameters;
 * etc.
-
-<!-- REVIEW: link text "@menu(Administration)" looks like an unresolved macro; link target kept as in source -->
 
 A technical user can use this journal to track and diagnose the events that affect the application.
 
