@@ -2,7 +2,7 @@
 
 ## Overview
 
-In addition to the general functions in [The Header Bar](../guided-help-nfs-reference-guide-1/README.md), the Planning module offers additional functions that facilitate scheduling. Which functions are available depends on the application configuration.
+In addition to the general functions in [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md), the Planning module offers additional functions that facilitate scheduling. Which functions are available depends on the application configuration.
 
 ## Favorites for the area
 

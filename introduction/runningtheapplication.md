@@ -52,7 +52,7 @@ Prerequisites: enable SSO and its Google Apps provider only, in the application 
 
 ## Sign in to the application
 
-Once you are authenticated, NFS redirects you, depending on your profile, to one of the following modules: [Portal](../portal/), [Planning](../planning/), [Supervisor](../planning-1/), [Attendance](../attendance/), the Strategic module or [Administration](../administration/).
+Once you are authenticated, NFS redirects you, depending on your profile, to one of the following modules: [Portal](../portal/portal.md), [Planning](../planning/planning.md), [Supervisor](../supervisor/planning-1.md), [Attendance](../attendance/attendance.md), the Strategic module or [Administration](../administration/administration.md).
 
 {% hint style="info" %}
 See also: EXPLOITATION > Configuring SSO access in NFS, and REFERENCE GUIDE > Administration > Company data > Human resources > [Company Data](../administration/companydata.md) (**User** tab).

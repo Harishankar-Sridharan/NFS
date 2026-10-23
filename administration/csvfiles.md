@@ -6,7 +6,7 @@ The functions in this section let you manage the data presented in this guide in
 
 For example, instead of entering the mobile resources of the company one by one, you can import a single CSV file.
 
-These functions also let you retrieve a data set, for example to archive it, or to modify a large quantity of data quickly. To do the latter, [export](#exporting-a-csv-file) a CSV file, modify the fields you want, and then [re-import](#importing-a-csv-file) the file.
+These functions also let you retrieve a data set, for example to archive it, or to modify a large quantity of data quickly. To do the latter, [export](csvfiles.md#exporting-a-csv-file) a CSV file, modify the fields you want, and then [re-import](csvfiles.md#importing-a-csv-file) the file.
 
 ## Importing a CSV file
 
@@ -28,7 +28,7 @@ Define the following information:
 * **Text delimiter** – the character that delimits a text zone (`"` `'` or empty).
 * **Separator of lists of values** – the character that separates the values in one list in a single column (`,` `;` `\t` `:` `|`). This separator must be different from the field separator.
 * **Dates format** – the format of date data. By default, dates are in the format `dd/mm/yyyy` (for example, `21/03/2016`).
-* **Geocoding tolerance** – the lowest geocoding quality accepted, for data that includes address fields. For the term, see [Glossary](../Glossary.md). The options are:
+* **Geocoding tolerance** – the lowest geocoding quality accepted, for data that includes address fields. For the term, see [Glossary](../glossary/glossary.md). The options are:
   * **On street number** – data for which the address does not include any street number is not imported.
   * **Exclusively on street number** – data for which the address does not include the street number is not imported.
   * **On streets** – data for which the address does not include the street name is not imported.
@@ -47,7 +47,7 @@ Define the following information:
 1. Click the **Folder** button to select the file to import.
 2. Click **Update**.
 
-The file must include the expected columns, which correspond to the [Import/export CSV template](#importexport-csv-template).
+The file must include the expected columns, which correspond to the [Import/export CSV template](csvfiles.md#importexport-csv-template).
 
 If the file does not include the expected columns, the following error message is displayed:
 
@@ -78,7 +78,6 @@ When you select a type of data under **Entity**, the **Fields** list is updated 
 * To select fields, click a field and then click the **>** button. Click the **>>** button to select all fields.
 * To deselect fields, click a field in the **Selected fields** section and then click the **<** button. Click **<<** to deselect all fields.
 
-
 ### CSV formatting
 
 In this section, you define the format of the exported file.
@@ -92,7 +91,6 @@ The screen contains the following information:
 * **Time format** – the format of time data. By default, times are in the `hh:mm` format (for example, `01:15`).
 * **Format the duration as a time**
 * **Charset** – the encoding format of the file (**As Server System** or **utf8**).
-<!-- REVIEW: source describes the export "Charset" as the encoding format "for the file to import" -->
 
 ### Filtering
 
@@ -118,7 +116,7 @@ The first part (global import) imports all elements from the repository.
 2. Click **Import**.
 
 {% hint style="info" %}
-The file to import must be a `.zip` file that contains the `.csv` files to import. See [Importing a CSV file](#importing-a-csv-file).
+The file to import must be a `.zip` file that contains the `.csv` files to import. See [Importing a CSV file](csvfiles.md#importing-a-csv-file).
 {% endhint %}
 
 The second part exports all the application data. To configure the export:
@@ -167,7 +165,7 @@ The Type section has the following columns:
 
 ## Circulation listeners
 
-You can run certain flow modules from this interface. They are defined inside the flow files. See [Flows file](#flows-file).
+You can run certain flow modules from this interface. They are defined inside the flow files. See [Flows file](csvfiles.md#flows-file).
 
 ![Circulation listeners](../.gitbook/assets/listeners.png)
 
@@ -175,7 +173,7 @@ To run an action, click the HTTP link in the list. Some actions require paramete
 
 ## Predefined export links
 
-The predefined export links are created in the circulation. See [Flows file](#flows-file).
+The predefined export links are created in the circulation. See [Flows file](csvfiles.md#flows-file).
 
 A predefined export link performs a predefined action. For example, it can execute a script in a database, import data or save the database.
 
@@ -197,19 +195,19 @@ The **Export** button creates a file in `.ov2` format.
 
 ### Export of Masternaut POI
 
-This page works in the same way as [Export of TomTom POI](#export-of-tomtom-poi).
+This page works in the same way as [Export of TomTom POI](csvfiles.md#export-of-tomtom-poi).
 
 The **Export** button creates a file in `.txt` format.
 
 ### Export of Garmin POI
 
-This page works in the same way as [Export of TomTom POI](#export-of-tomtom-poi).
+This page works in the same way as [Export of TomTom POI](csvfiles.md#export-of-tomtom-poi).
 
 The **Export** button creates a file in `.gpx` format.
 
 ### Export of KML POI
 
-This page works in the same way as [Export of TomTom POI](#export-of-tomtom-poi).
+This page works in the same way as [Export of TomTom POI](csvfiles.md#export-of-tomtom-poi).
 
 The **Export** button creates a file in `.kml` format.
 
@@ -253,7 +251,7 @@ To open this function, click the **Optimisation file** link under the **XML file
 
 This file, called `optim.xml`, contains optimization parameters that you can also modify from the interface. See [Optimization](optimisation.md).
 
-You can download and update it. See [Basic principles](#basic-principles).
+You can download and update it. See [Basic principles](csvfiles.md#basic-principles).
 
 ### Flows file
 
@@ -261,13 +259,13 @@ To open this function, click the **Flow file** link under the **XML files** item
 
 This mode is reserved for administrators who configure exchanges of XML files between NFS and an external application. The flow principle is explained in the relevant documentation.
 
-In addition to download and update (see [Basic principles](#basic-principles)), you can view the file in schema form on the **View** tab.
+In addition to download and update (see [Basic principles](csvfiles.md#basic-principles)), you can view the file in schema form on the **View** tab.
 
 ![Flow schema](../.gitbook/assets/xml-circulation-schema.png)
 
 The **Documentation** tab gives a link to the associated documentation.
 
-Certain calculations include calls to functions via HTTP links available in the application. See [Circulation listeners](#circulation-listeners).
+Certain calculations include calls to functions via HTTP links available in the application. See [Circulation listeners](csvfiles.md#circulation-listeners).
 
 ### XML customization file
 
@@ -275,4 +273,4 @@ To open this function, click the **Customisation file** link under the **XML fil
 
 This mode is reserved for administrators who want to customize how the application works.
 
-You can download the file and update it through an import operation. See [Basic principles](#basic-principles).
+You can download the file and update it through an import operation. See [Basic principles](csvfiles.md#basic-principles).

@@ -54,7 +54,7 @@ The menu contains the following functions:
 
 ## Change area
 
-This function returns you to the [Change area](../guided-help-nfs-reference-guide-1/change-area-nfs-reference-guide.md) function in the header bar.
+This function returns you to the [Change area](../the-header-bar/change-area-nfs-reference-guide.md) function in the header bar.
 
 ## Making a new appointment
 
@@ -222,7 +222,7 @@ Click **Back** to return to the customer panel.
 
 ### List of customers on alert
 
-See [List of customer alerts](../guided-help-nfs-reference-guide-1/) in the header bar.
+See [List of customer alerts](../the-header-bar/guided-help-nfs-reference-guide-1.md) in the header bar.
 
 ### Generate periodic requests
 

@@ -100,4 +100,4 @@ The **Area** drop-down list lets you define the different color palettes for eac
 * The unavailability type (worked/non-worked)
 * Appointment states (see [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md))
 * The other elements in the planning, such as night away, lunch break, holidays and journey
-* The color of the band (see [The Header Bar](../guided-help-nfs-reference-guide-1/))
+* The color of the band (see [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md))

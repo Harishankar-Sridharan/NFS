@@ -23,7 +23,7 @@ In principle, the objects in the Planning module include a generic search functi
 Each object has a form. The form behavior is described in the following sections.
 
 {% hint style="info" %}
-Other objects are handled in the [Administration](../administration/) module.
+Other objects are handled in the [Administration](../administration/administration.md) module.
 {% endhint %}
 
 ## Forms
@@ -339,7 +339,7 @@ You access the appointment form from:
 * The appointment search. See [Menu](menu.md).
 * The appointment search on status. See [Menu](menu.md).
 * The customer form.
-* The list of urgent appointments. See [The Header Bar](../guided-help-nfs-reference-guide-1/).
+* The list of urgent appointments. See [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md).
 * The appointment counters. See [The Information Pane](theinformationpane.md).
 * The map. See [Map](map.md).
 * The appointment information popup in the planning. See [The Planning](theplanning.md).
@@ -445,7 +445,7 @@ You can apply the following actions from an appointment form:
 * **Delete** – deletes the appointment. You must indicate whether the intervention was deleted by the customer or by the company. After you validate the deletion, the appointment takes the status **Cancelled**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 * **Unplan** – restores the status of the appointment to what it was previously. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 * **Reactivate** – restores the daily planning of the selected appointment. The appointment status changes to **Requested** and the appointment is added to the panel. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md) and [The Planning](theplanning.md).
-* **Suspend** – has the same outcome as unplanning, with one exception: suspended appointments cannot be optimized by the batch optimization or by RTO. See [Glossary](../Glossary.md).
+* **Suspend** – has the same outcome as unplanning, with one exception: suspended appointments cannot be optimized by the batch optimization or by RTO. See [Glossary](../glossary/glossary.md).
 * **Unconfirm** – changes the status of the appointment from **Confirmed** to **Planned**. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 * **Plan/Replan** – takes you to the real-time planning page.
 * **Manual scheduling/Manual rescheduling** – takes you to the manual planning page.

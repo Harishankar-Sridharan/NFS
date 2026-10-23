@@ -4,11 +4,11 @@
 
 The Fulfilment module lets you track the fulfilment of routes in real time. It uses the uploads sent from the field by users of the NFS Mobile app who are on their rounds visiting customers.
 
-![Fulfilment module home page](.gitbook/assets/accueil.png)
+![Fulfilment module home page](../.gitbook/assets/accueil.png)
 
 ## Prerequisites
 
-You can access the Fulfilment module only if the [corresponding right](administration/userhandling.md) (**Fulfilment** tab > **Perimeter** > `FULFILMENT_GUEST` right) is associated with your user profile.
+You can access the Fulfilment module only if the [corresponding right](../administration/userhandling.md) (**Fulfilment** tab > **Perimeter** > `FULFILMENT_GUEST` right) is associated with your user profile.
 
 ## Route page layout
 

@@ -6,15 +6,15 @@ This guide provides an overview of the NFS application and its features. It help
 
 The guide is organized into **nine sections**, following the structure of the **NFS application menu**. Each section covers the features and functions available in the corresponding menu area.
 
-* [Portal](../portal/README.md)
-* [Planning](../planning/README.md)
-* [Supervisor](../planning-1/README.md)
-* [Attendance](../attendance/README.md)
+* [Portal](../portal/portal.md)
+* [Planning](../planning/planning.md)
+* [Supervisor](../supervisor/planning-1.md)
+* [Attendance](../attendance/attendance.md)
 * Strategic
-* [Sectorization](../sectorization.md)
-* [Fulfilment](../fulfilment.md)
-* [Tracking](../tracking.md)
-* [Administration](../administration/README.md)
+* [Sectorization](../sectorization/sectorization.md)
+* [Fulfilment](../fulfilment/fulfilment.md)
+* [Tracking](../tracking/tracking.md)
+* [Administration](../administration/administration.md)
 
 ## Glossary
 

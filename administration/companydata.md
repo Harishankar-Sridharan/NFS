@@ -48,7 +48,7 @@ The **Human resource** form has the following tabs: **Information**, **Affiliati
 
 * **Photo**: on the left of the screen, you can import a photo of the resource. Move the mouse pointer over the photo. Click the ![Import photo button](../.gitbook/assets/photo.png) button to import a photo, or the ![Delete photo button](../.gitbook/assets/poubelle.png) button to delete it.
 * **External reference**: external reference of the mobile resource.
-* Identification: **Name**, **First name**, **Company ID** (the company ID corresponds to the [external identifier](../Glossary.md) of the resource), **Badge number** and **Description**.
+* Identification: **Name**, **First name**, **Company ID** (the company ID corresponds to the [external identifier](../glossary/glossary.md) of the resource), **Badge number** and **Description**.
 *   **Job held**: specifies the function of the resource. This information determines the type of intervention (or offering) that the resource can provide when an appointment is made. An intervention type depends on two criteria: the type of post occupied and the skills the resource has. The skills of the resource are described in the **Skills** tab.
 
     <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>When you select the <img src="../.gitbook/assets/bouton-prendre-rdv.png" alt="Take appointment check box"> check box, the information about the function is retrieved in the resource form.</p></div>
@@ -250,7 +250,7 @@ Use the **Skills** tab to associate with a resource an experience level, a weigh
 * **Length of time worked in sector**: start and end date of the acquisition of the skill. These dates can correspond to an apprenticeship (in this case, a start date) or to a period of availability for a specific item of equipment or tooling. To add or delete periods, click the ![Add button](../.gitbook/assets/bouton-add.png) and ![Delete button](../.gitbook/assets/bouton-delete.png) buttons (see [General Principles](generalprinciples.md)).
 
 {% hint style="info" %}
-If a skill is required to perform an intervention and the resource does not have this skill, the intervention cannot be planned on the resource in [batch optimization](../Glossary.md) and optimized modes.
+If a skill is required to perform an intervention and the resource does not have this skill, the intervention cannot be planned on the resource in [batch optimization](../glossary/glossary.md) and optimized modes.
 {% endhint %}
 
 #### Authorizations tab
@@ -265,7 +265,7 @@ Authorizations correspond to characteristics of a customer, for example the pass
 * **Length of time worked in sector**: start and end date of the acquisition of the authorization. These dates can represent the period of availability of a particular entitlement, skill or authorization. To add or delete periods, click the ![Add button](../.gitbook/assets/bouton-add.png) and ![Delete button](../.gitbook/assets/bouton-delete.png) buttons (see [General Principles](generalprinciples.md)).
 
 {% hint style="info" %}
-If an authorization is required to perform an intervention and the resource does not hold this skill, the intervention cannot be planned on the resource in [batch optimization](../Glossary.md) and optimized modes.
+If an authorization is required to perform an intervention and the resource does not hold this skill, the intervention cannot be planned on the resource in [batch optimization](../glossary/glossary.md) and optimized modes.
 {% endhint %}
 
 #### Priorities tab
@@ -544,7 +544,7 @@ The team form has the following tabs: **Information**, **Members**, **Team Leade
 ![Information tab of the team form](../.gitbook/assets/equipe-info.png)
 
 * **Identifier**: a unique reference for the team. It is read-only and assigned automatically by NFS when the team is created.
-* [**External reference**](../Glossary.md)
+* [**External reference**](../glossary/glossary.md)
 * **Name**: the name of the team. NFS uses this name each time it mentions a team, so choose a representative name. An empty string is not permitted.
 * **Team Leader**: the name of the team leader. It is displayed when a team leader is designated in the **Team leader** tab.
 * **Parent team**: the name of the parent team. It is displayed when a parent team is designated in the **Parent team** tab.
@@ -626,7 +626,7 @@ The area form has the following tabs: **Information**, **Teams**, **District**, 
 ![Information tab of the area form](../.gitbook/assets/region-info.png)
 
 * **Identifier**: the unique identifier of the area. It is read-only and determined automatically by NFS when the area is created.
-* [**External reference**](../Glossary.md): the external reference of the area.
+* [**External reference**](../glossary/glossary.md): the external reference of the area.
 * **Name**: the name of the area. You must enter an area name.
 * **Description**: free text describing the area.
 * **Domain**: the name of the domain the area is affiliated to.
@@ -676,7 +676,7 @@ You can filter worksites on:
 The worksite form contains the following information:
 
 * **Identifier**: the unique identifier of the worksite. It is read-only and generated automatically by NFS.
-* [**External reference**](../Glossary.md): the external reference of the worksite.
+* [**External reference**](../glossary/glossary.md): the external reference of the worksite.
 * **Name**: the name of the worksite. This information is mandatory.
 * **Type**: the type of worksite. It can be _Agency_ or _Standard_.
 * **Description**: free text describing the worksite.
@@ -761,7 +761,7 @@ You can filter the list of unavailability types by area of affiliation.
 The form of an unavailability type has one tab. It shows the following data:
 
 * **Identifier**: the identifier of the unavailability type. It is unique.
-* **External reference**: the [external reference](../Glossary.md) of the unavailability type.
+* **External reference**: the [external reference](../glossary/glossary.md) of the unavailability type.
 * **Name**: the name of the unavailability type.
 * **Colour**: gives the unavailability type a custom [color](customization.md) in the plannings.
 * **Area**: the area in which the unavailability type is available. This field is required.
@@ -886,10 +886,10 @@ The skill form has one tab. It shows the following data:
 ![Skill form](../.gitbook/assets/comp.png)
 
 * **Identifier**: the identifier of the skill. It is unique.
-* [**External reference**](../Glossary.md): the external reference of the skill.
+* [**External reference**](../glossary/glossary.md): the external reference of the skill.
 * **Name**: the name of the skill.
 * **Description**: a concise description of the skill.
-* **Mandatory**: when selected, an appointment that requires this skill cannot be placed in the agenda of a resource that lacks it, even in manual planning mode. When cleared, the appointment cannot be placed in [batch](../Glossary.md) or real-time optimization mode, but it can be inserted in manual planning mode.
+* **Mandatory**: when selected, an appointment that requires this skill cannot be placed in the agenda of a resource that lacks it, even in manual planning mode. When cleared, the appointment cannot be placed in [batch](../glossary/glossary.md) or real-time optimization mode, but it can be inserted in manual planning mode.
 * **In a team**: for multi-resource appointments, resources can share the skills needed to perform an appointment.
 
 ## Authorization
@@ -964,7 +964,7 @@ You can filter the intervention types by group of affiliation.
 The form has the following fields:
 
 * **Identifier**: the identifier of the intervention type. It is unique.
-* [**External reference**](../Glossary.md): the external reference of the intervention type.
+* [**External reference**](../glossary/glossary.md): the external reference of the intervention type.
 * **Name**: the name of the intervention type.
 * **Area of intervention**: associates the intervention type with an area. The intervention type is not visible in the other areas. With _All areas_, the group and its intervention types are available in every area.
 * **Description**: a concise description of the intervention type.
@@ -1022,7 +1022,7 @@ The form has the following fields:
 
 {% hint style="info" %}
 - The turnover is visible in the weekly planning by depot, as a gauge. Appointments with a status of _Fulfilled_ and _Confirmed_ are used to compare the turnover achieved with the target.
-- When a target is reached, for example a target for the number of appointments, you can no longer plan appointments of this type in [batch](../Glossary.md) or real-time optimization mode.
+- When a target is reached, for example a target for the number of appointments, you can no longer plan appointments of this type in [batch](../glossary/glossary.md) or real-time optimization mode.
 {% endhint %}
 
 ## Follow-up
@@ -1124,7 +1124,7 @@ The form has the following fields:
 
 * **Identifier**: the unique identifier of the day template. It is read-only and attributed by NFS when the day template is created.
 * **Day of the week**: the day on which the day template can be based. If you select _All_, the template can be applied to any day of the week.
-* **External reference**: the [external reference](../Glossary.md) of the day template.
+* **External reference**: the [external reference](../glossary/glossary.md) of the day template.
 * **Name**: required.
 * **Area**: the area in which the template is available. This field is required.
 * **Worksite**
@@ -1165,7 +1165,7 @@ You cannot modify the other fields. They are described in [Day template form](co
 
 ### Sales period
 
-A sales period declares to NFS the timespans during which [batch optimization](../Glossary.md) is possible in the configuration of the optimization (see [Optimisation](optimisation.md)).
+A sales period declares to NFS the timespans during which [batch optimization](../glossary/glossary.md) is possible in the configuration of the optimization (see [Optimisation](optimisation.md)).
 
 {% hint style="info" %}
 You can use this function, for example, for a company that wants to configure a regular batch optimization from the first Monday of the month to the last Friday of the month.
@@ -1188,7 +1188,7 @@ You can filter the list by area.
 The form has the following information:
 
 * **Identifier**: the unique identifier of the sales period. It is attributed automatically when you create a new sales period.
-* [**External reference**](../Glossary.md): the external reference of the sales period.
+* [**External reference**](../glossary/glossary.md): the external reference of the sales period.
 * **Name** (mandatory field): the name of the sales period.
 * **Area** (mandatory field): the area to which the sales period applies.
 * **Description**: a concise description of the sales period.

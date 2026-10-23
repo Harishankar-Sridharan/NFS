@@ -4,7 +4,7 @@
 
 To open the Administration menu, do one of the following:
 
-* Click the **Administration** tab in the blue band at the top of the screen. See [The Header Bar](../guided-help-nfs-reference-guide-1/README.md).
+* Click the **Administration** tab in the blue band at the top of the screen. See [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md).
 * Enter the application directly, if your user profile is set up to open NFS in the Administration module. See [Company Data](companydata.md).
 
 ## Prerequisites
@@ -19,7 +19,7 @@ You must connect with an administrator profile. See [User Handling](userhandling
 
 The home page is divided into three sections:
 
-* The [**band**](../guided-help-nfs-reference-guide-1/README.md), at the top of the screen, gives access to the different modules that make up the application.
+* The [**band**](../the-header-bar/guided-help-nfs-reference-guide-1.md), at the top of the screen, gives access to the different modules that make up the application.
 * The **menu**, on the left of the screen, gives access to the different data so that you can manipulate them.
 * A section on the right of the screen displays the different screens relating to the data accessible in the Administration module.
 
@@ -124,7 +124,6 @@ To open a function or data item, click the corresponding link in the left-hand m
   * Documentation
   * CSV export/import templates
 * **MyGeoconcept**
-<!-- REVIEW: menu entry "MyGeoconcept" and "Nomadia API" use legacy names; confirm current menu labels -->
 
 {% hint style="info" %}
 The most frequently used dialogue items are [Company Data](companydata.md), [Optimization](optimisation.md), [User Handling](userhandling.md) and [CSV Files](csvfiles.md).

@@ -19,7 +19,7 @@ The Planning module is the NFS module designed for planning personnel, online ad
 
 ## Open the Planning module
 
-Click at the top left of the header bar. For details, see [The Header Bar](../guided-help-nfs-reference-guide-1/README.md).
+Click at the top left of the header bar. For details, see [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md).
 
 ![Opening the Planning module from the header bar](../.gitbook/assets/menu.png)
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-NFS supports two optimization modes: real time optimization and global batch optimization (see [Glossary](../Glossary.md)). The optimization engines apply the parameters that you define in the Administration module in both modes.
+NFS supports two optimization modes: real time optimization and global batch optimization (see [Glossary](../glossary/glossary.md)). The optimization engines apply the parameters that you define in the Administration module in both modes.
 
 The optimization of appointments in NFS depends on a group of parameters that express the cost of a solution and particular constraints. Use these parameters to express preferences or constraints. For example, the enterprise does not accept that a resource spends a night in a hotel if the distance is below a given threshold. You define this threshold in the optimization parameters.
 
@@ -222,7 +222,7 @@ The next four parameters prefill the search interface for a timeslot (planning o
 * **Cost for non-delivery** – cost above which an appointment is not planned. It is the cost of an unfulfilled intervention with a 50% priority. By default, the value is 0 and the duration of the intervention does not affect the cost of non-delivery.
 *   **Hourly rate for non-delivery** – cost added per hour of appointment, so it is proportional to the duration of the appointment. The total cost is a threshold above which the appointment is not planned. It is the hourly cost of an unfulfilled standard priority intervention. By default, the value is 0 and the appointment duration does not affect the cost of non-delivery.
 
-    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>If this value is too low, certain appointments may not be scheduled in batch optimization (see <a href="../Glossary.md">Glossary</a>) mode.</p></div>
+    <div data-gb-custom-block data-tag="hint" data-style="info" class="hint hint-info"><p>If this value is too low, certain appointments may not be scheduled in batch optimization (see <a href="../glossary/glossary.md">Glossary</a>) mode.</p></div>
 * **Maximum cost of a journey without alert** – cost above which an alert is displayed when the appointment is suggested. The parameter is not used if it is 0.
 * **Maximum radius (in km)** – maximum radius (in kilometers) of the circle centered on the departure point for the day. It defines the circle in which appointments are possible. The parameter is not used if the value is 0.
   * **Radius calculated by the road** – **Yes**: the radius is calculated along the road network. **No**: it is calculated as a straight line (as the crow flies).

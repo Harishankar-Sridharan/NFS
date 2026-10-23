@@ -42,8 +42,6 @@ For appointments, the following values are available:
 * **Appointment completed out of planning**
 * **Unplanned appointment completion**
 
-<!-- REVIEW: source calls these values "statuses", but they describe actions and some labels differ from the status names in "The different statuses for appointments in NFS"; kept as in source -->
-
 For other objects (unavailabilities, restrictions, constraints and so on), the following values are available:
 
 * **All** – displays all actions.
@@ -74,11 +72,11 @@ For the selection by area, team or person to work, the resources must be associa
 
 * **Name of the customer** – the business name as registered on the customer form.
 * **Contact name** – the name of the main contact for this customer.
-* **Reference** – the customer's external reference. See [Glossary](../Glossary.md).
+* **Reference** – the customer's external reference. See [Glossary](../glossary/glossary.md).
 
 ### Enter an identifier
 
-* **External** – the external reference of the modified object. See [Glossary](../Glossary.md).
+* **External** – the external reference of the modified object. See [Glossary](../glossary/glossary.md).
 * **Internal** – the internal reference of the modified object.
 
 ### Choice of the period
@@ -109,14 +107,12 @@ The following fields are displayed:
 
 ## View the details of an action
 
-1. Click a line of the search result to open the associated information.
+1.  Click a line of the search result to open the associated information.
 
-   ![Information associated with a journal event](../.gitbook/assets/journal-log.png)
+    ![Information associated with a journal event](../.gitbook/assets/journal-log.png)
 
-   The table displays the data associated with the event under the heading "New data". The old values are displayed only when the status of an event changes, such as when a planned appointment is fulfilled or an unavailability is cancelled. The table also shows the user who modified the event and the **date and time** of the modification.
+    The table displays the data associated with the event under the heading "New data". The old values are displayed only when the status of an event changes, such as when a planned appointment is fulfilled or an unavailability is cancelled. The table also shows the user who modified the event and the **date and time** of the modification.
+2.  Click **See full appointment history** to view the complete history and lifecycle of the appointment.
 
-   <!-- REVIEW: source sentence about the "Old data" column is garbled ('The "Old The Data column is populated only when...'); column name unclear -->
-2. Click **See full appointment history** to view the complete history and lifecycle of the appointment.
-
-   ![Full history of an appointment](../.gitbook/assets/journal-histo.png)
+    ![Full history of an appointment](../.gitbook/assets/journal-histo.png)
 3. Click the ![Back button](../.gitbook/assets/bouton-retour.png) button to return to the previous step, that is, the journal calculated from the selected parameters.

@@ -122,7 +122,6 @@ For better legibility, the basic rights are grouped into themes. The full list o
 * **Statistics** – defines access to statistics on appointments, unavailabilities, the taking of appointments and the achievement of targets.
 * **Perimeter** – defines access to the administration module and to different levels of data (area, domain, team, worksite).
 * **Others** – other access rights.
-<!-- REVIEW: Supervision "Perimeter" description mentions the administration module; check it is not copied from the Administration theme -->
 
 #### Attendance
 
@@ -162,7 +161,7 @@ For better legibility, the basic rights are grouped into themes. The full list o
 * **Skill** – defines access to skills management functions. See [Company Data](companydata.md).
 * **Authorisation** – defines access to management functions for authorizations. See [Company Data](companydata.md).
 * **Intervention type** – defines access to management functions for types of intervention. See [Company Data](companydata.md).
-* **Target** – defines access to management functions for targets. See [Control Panel – Targets](../planning-1/controlpanel-targets.md).
+* **Target** – defines access to management functions for targets. See [Control Panel – Targets](../supervisor/controlpanel-targets.md).
 * **Activity tracking** – defines access to activity tracking management functions. See [Company Data](companydata.md).
 * **Calendar** – defines access to calendar functions (public holidays, day templates, week templates and sales periods). See [Company Data](companydata.md).
 * **Configuration** – defines access to the management of XML and CSV files. See [CSV Files](csvfiles.md).
@@ -179,7 +178,7 @@ For better legibility, the basic rights are grouped into themes. The full list o
 
 #### Documentation
 
-* **Perimeter** – defines access to the online documentation and the WalkMe display. See [The Header Bar](../guided-help-nfs-reference-guide-1/README.md).
+* **Perimeter** – defines access to the online documentation and the WalkMe display. See [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md).
 
 #### My applications
 
