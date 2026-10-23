@@ -4,8 +4,6 @@
 
 Click an appointment in the daily planning to open the corresponding **Appointment** form.
 
-![Appointment form](../.gitbook/assets/fiche-rendez-vous.png)
-
 ## View and edit an appointment
 
 The **Appointment** form provides access to the information and actions related to the appointment:

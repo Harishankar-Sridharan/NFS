@@ -4,8 +4,6 @@
 
 The central section automatically displays the plannings for **Today** and **Tomorrow**. It contains the same items as the planning in the Planning module (see [The Planning](../planning/theplanning.md)).
 
-![Portal planning for today and tomorrow](../.gitbook/assets/portail-planning.png)
-
 {% hint style="info" %}
 Click the **Legend** button in the main menu to display the color key for time windows (see [Legend](legend.md)).
 {% endhint %}
@@ -13,11 +11,9 @@ Click the **Legend** button in the main menu to display the color key for time w
 ## View the planning for another day
 
 1. Click the **date selector** in the lower-left corner of the screen.
-2. Select a date from the **current month** or from the **following two months**.
+2.  Select a date from the **current month** or from the **following two months**.
 
-   The planning for the selected day is displayed.
-
-   ![Date selector for choosing another day](../.gitbook/assets/changer-jour.png)
+    The planning for the selected day is displayed.
 
 To select an earlier or later date from the calendar, click **Another day**.
 
