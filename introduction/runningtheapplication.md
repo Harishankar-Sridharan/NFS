@@ -10,7 +10,7 @@ You can access NFS through a web browser or the mobile application, depending on
 2. Enter the NFS URL provided by your site administrator. The URL typically has the following format: `http://server:port/application/`
 3. Enter your login credentials when prompted.
 
-![Access portal](../.gitbook/assets/sso-01.png)
+<figure><img src="../.gitbook/assets/nfs-access-portal-en.png" alt=""><figcaption><p>Access portal</p></figcaption></figure>
 
 Once you have entered your credentials, you gain access to the application.
 
@@ -36,7 +36,7 @@ Prerequisites: enable SSO and its Google Apps provider only, in the application 
 4. Enter your Google account credentials and complete the authentication process.
 5. After successful authentication, you are redirected to the NFS application.
 
-![Login page with the Google sign-in option](../.gitbook/assets/sso-01.png)
+<figure><img src="../.gitbook/assets/nfs-access-portal-login.png" alt=""><figcaption><p>Login page with the Google sign-in option</p></figcaption></figure>
 
 * Enter your Google Workspace or Gmail account credentials and submit the form. If the credentials are valid, you are authenticated and redirected back to the NFS application.
 
@@ -46,13 +46,13 @@ Prerequisites: enable SSO and its Google Apps provider only, in the application 
 
 * If no NFS user account is associated with your Google account email address, access to the application is denied.
 
-![Access denied message](../.gitbook/assets/sso-05.png)
+<figure><img src="../.gitbook/assets/nfs-access-portal-login.png" alt=""><figcaption><p>Access denied message</p></figcaption></figure>
 
 * If an NFS user account is associated with your Google account email address, NFS grants access using the corresponding user account.
 
 ## Sign in to the application
 
-Once you are authenticated, NFS redirects you, depending on your profile, to one of the following modules: [Portal](../portal/README.md), [Planning](../planning/README.md), [Supervisor](../planning-1/README.md), [Attendance](../attendance/README.md), the Strategic module or [Administration](../administration/README.md).
+Once you are authenticated, NFS redirects you, depending on your profile, to one of the following modules: [Portal](../portal/), [Planning](../planning/), [Supervisor](../planning-1/), [Attendance](../attendance/), the Strategic module or [Administration](../administration/).
 
 {% hint style="info" %}
 See also: EXPLOITATION > Configuring SSO access in NFS, and REFERENCE GUIDE > Administration > Company data > Human resources > [Company Data](../administration/companydata.md) (**User** tab).
