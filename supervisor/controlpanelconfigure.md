@@ -4,7 +4,7 @@
 
 Configuring the control panel is essential to fine-tune the calculations that the control panel performs. You set parameters for the different families of search criteria.
 
-![Control Panel configuration page](../.gitbook/assets/tableau-de-bord-config.png)
+![Control Panel configuration page](../.gitbook/assets/supervisor__controlpanelconfigure__1.png)
 
 ## Fields and options
 
@@ -29,7 +29,7 @@ You can filter the search results by type of resource. The type of resource corr
 
 After you select the resources for which you want information, five options let you filter on the type of time span.
 
-![Control Panel configuration: period](../.gitbook/assets/tableau-de-bord-period.png)
+![Control Panel configuration: period](../.gitbook/assets/supervisor__controlpanelconfigure__2.png)
 
 * **Date**: first select the year, then adjust as appropriate:
   * **Week**: each numbered week of the year is offered.
@@ -38,15 +38,13 @@ After you select the resources for which you want information, five options let 
   * **Year**: the years 2000 to 2030 are available.
 * **Period** (From the... to the...): two fields open a calendar so you can choose a custom period.
 
-<!-- REVIEW: source says "five options" but lists Date (with four sub-options) and Period; structure kept as in source -->
-
 {% hint style="info" %}
 By default, the values suggested are those that correspond to today's date.
 {% endhint %}
 
 ### Activities | Intervention type (optional)
 
-![Control Panel configuration: intervention types](../.gitbook/assets/tableau-de-bord-activite.png)
+![Control Panel configuration: intervention types](../.gitbook/assets/supervisor__controlpanelconfigure__3.png)
 
 * Select the **Ignore** check box to disable the selection of an intervention type.
 * Select the **Activity type** check box to choose one or more activity types. Each activity type can include several intervention types. To select several activity types, hold **Ctrl** or **Shift** while you select.
@@ -63,7 +61,7 @@ Clear the **Type** check box to disable the selection of an unavailability type.
 
 Two options can complete the control panel: calculation of journey time and calculation of free time.
 
-![Control Panel configuration: journey time and free time options](../.gitbook/assets/tableau-de-bord-autre.png)
+![Control Panel configuration: journey time and free time options](../.gitbook/assets/supervisor__controlpanelconfigure__4.png)
 
 ## Apply the configuration
 

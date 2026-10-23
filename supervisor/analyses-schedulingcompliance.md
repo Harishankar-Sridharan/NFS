@@ -4,7 +4,7 @@
 
 Use this analysis to track the number of appointments completed by the expected date. It shows the degree of conformity with the established planned schedules (compliance).
 
-![Degree of conformity with established planned schedules (compliance)](../.gitbook/assets/conformite.png)
+![Degree of conformity with established planned schedules (compliance)](../.gitbook/assets/supervisor__analyses-schedulingcompliance__1.png)
 
 ## Display and export the table
 

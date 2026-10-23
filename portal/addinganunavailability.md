@@ -4,7 +4,7 @@
 
 The **Handling unavailabilities** button on the [Unavailabilities](unavailabilities.md) page opens a new window that you use to add unavailabilities.
 
-![Window for handling unavailabilities](../.gitbook/assets/gestion-indisponibilite_3.png)
+![Window for handling unavailabilities](../.gitbook/assets/portal__unavailabilities__addinganunavailability__1.png)
 
 The bottom part of the window displays the table of the next unavailabilities. Click a column heading to sort the unavailabilities by that column. Click the same heading again to reverse the sort order.
 

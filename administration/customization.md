@@ -68,7 +68,7 @@ The colors are then visible in the planning. See [The Planning](../planning/thep
 
 For example: intervention groups.
 
-![Colors of intervention groups](../.gitbook/assets/admin-colors.png)
+![Colors of intervention groups](../.gitbook/assets/administration__customization__3.png)
 
 Here, the repair intervention group is displayed in purple and the installation intervention group in yellow. For intervention groups, see [Company Data](companydata.md).
 

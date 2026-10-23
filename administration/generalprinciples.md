@@ -19,11 +19,11 @@ The data in the list correspond to fields in the data item form. The definition 
 
 The list can contain a header that you use to restrict its display. For example, filtering on teams:
 
-![Filtering the list on teams](../.gitbook/assets/equipe.png)
+![Filtering the list on teams](../.gitbook/assets/administration__generalprinciples__1.png)
 
 In some cases, a preliminary search screen shows different filters that restrict the list display. For example, searching for human resources:
 
-![Search screen for human resources](../.gitbook/assets/RH-recherche.png)
+![Search screen for human resources](../.gitbook/assets/administration__generalprinciples__2.png)
 
 The ![Search button](../.gitbook/assets/bouton-recherche.png) button opens the list of filtered data.
 
@@ -53,8 +53,8 @@ When you save a data item, a unique identifier is created automatically. It cann
 
 From the data item form, you can:
 
-* delete or deactivate the data item (see [De-activating / deleting a data item](#de-activating--deleting-a-data-item))
-* duplicate the data item (see [Duplicating a data item](#duplicating-a-data-item))
+* delete or deactivate the data item (see [De-activating / deleting a data item](generalprinciples.md#de-activating--deleting-a-data-item))
+* duplicate the data item (see [Duplicating a data item](generalprinciples.md#duplicating-a-data-item))
 
 ## Create a new data item
 
@@ -62,7 +62,7 @@ At the bottom of the data list, click the ![Add button](../.gitbook/assets/bouto
 
 For example: creating a new team.
 
-![Creation form for a new team](../.gitbook/assets/equipe-creer.png)
+![Creation form for a new team](../.gitbook/assets/administration__generalprinciples__3.png)
 
 ## Consult or edit an existing data item
 
@@ -79,7 +79,7 @@ Some data items require you to add extra fields. For example, you can add extra 
 
 For example: adding a secondary intervention sector.
 
-![Adding a secondary intervention sector to a human resource](../.gitbook/assets/RH-secteurs-1.png)
+![Adding a secondary intervention sector to a human resource](../.gitbook/assets/administration__generalprinciples__4.png)
 
 ## Duplicating a data item
 
@@ -102,11 +102,11 @@ To delete or deactivate a data item, click ![Delete button](../.gitbook/assets/b
 
 For example: de-activating an area.
 
-![De-activating an area](../.gitbook/assets/region-info.png)
+![De-activating an area](../.gitbook/assets/administration__generalprinciples__6.png)
 
 In certain cases, you can deactivate a data item from the list of records. Select the **Delete** check box and click ![Delete button](../.gitbook/assets/bouton-delete.png). For example, deleting a team:
 
-![Deleting a team from the list](../.gitbook/assets/region-equipe.png)
+![Deleting a team from the list](../.gitbook/assets/administration__generalprinciples__7.png)
 
 ## Navigation
 

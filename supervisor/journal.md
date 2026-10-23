@@ -15,7 +15,7 @@ You work in two steps:
 
 Click **Journal** in the Supervisor module menu to open the journal home page.
 
-![Journal filter page](../.gitbook/assets/journal-config.png)
+![Journal filter page](../.gitbook/assets/supervisor__journal__1.png)
 
 The filters are divided into five sections.
 
@@ -93,7 +93,7 @@ Click **Validate** to calculate and display a table that corresponds to the conf
 
 ## Search result
 
-![Journal search result](../.gitbook/assets/journal-list.png)
+![Journal search result](../.gitbook/assets/supervisor__journal__2.png)
 
 The results are displayed in reverse chronological order.
 
@@ -109,10 +109,10 @@ The following fields are displayed:
 
 1.  Click a line of the search result to open the associated information.
 
-    ![Information associated with a journal event](../.gitbook/assets/journal-log.png)
+    ![Information associated with a journal event](../.gitbook/assets/supervisor__journal__3.png)
 
     The table displays the data associated with the event under the heading "New data". The old values are displayed only when the status of an event changes, such as when a planned appointment is fulfilled or an unavailability is cancelled. The table also shows the user who modified the event and the **date and time** of the modification.
 2.  Click **See full appointment history** to view the complete history and lifecycle of the appointment.
 
-    ![Full history of an appointment](../.gitbook/assets/journal-histo.png)
+    ![Full history of an appointment](../.gitbook/assets/supervisor__journal__4.png)
 3. Click the ![Back button](../.gitbook/assets/bouton-retour.png) button to return to the previous step, that is, the journal calculated from the selected parameters.

@@ -12,7 +12,7 @@ Configure the control panel first. See [Control Panel - Configure](controlpanelc
 
 The table is divided into three sections.
 
-![Targets control panel](../.gitbook/assets/objectifs.png)
+![Targets control panel](../.gitbook/assets/supervisor__controlpanel-targets__1.png)
 
 1. **Configure** – click it to return to the previous configuration step. See [Control Panel - Configure](controlpanelconfigure.md).
 2. Information about the resource for which the table is calculated. The period or date is displayed, as well as the area, worksite or team. This section recaps the type of offers selected during the configuration. See [Control Panel - Configure](controlpanelconfigure.md).
@@ -32,5 +32,3 @@ The **Detail by** section lets you view the objectives according to several crit
 * **Intervention type** – returns indicators on each type of intervention.
 * **Resource** – returns indicators on each resource from the same platform.
 * **Resource type** – returns indicators by role type.
-
-<!-- REVIEW: the text introducing the detail options names "Activity type, Job type, Resource or Resource type", while the list describes "Activity type, Intervention type, Resource, Resource type"; kept as in source -->

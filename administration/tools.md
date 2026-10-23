@@ -12,7 +12,7 @@ This section is reserved for expert administrators. The actions applied in this 
 
 To open the function, click the **Advanced tools** link in the **Tools** menu.
 
-![Advanced tools interface for database updates](../.gitbook/assets/outils-maj-bdd.png)
+![Advanced tools interface for database updates](../.gitbook/assets/administration__tools__1.png)
 
 This section lets you apply the following modifications in the database.
 
@@ -44,7 +44,7 @@ Following a database update, this function refreshes the interface.
 
 To open this function, click the **Recompute distance** link in the **Tools** menu.
 
-![Recompute distance and time interface](../.gitbook/assets/recalcul-distance.png)
+![Recompute distance and time interface](../.gitbook/assets/administration__tools__2.png)
 
 This interface lets you recompute, for a given perimeter (area, site, team or resource for a given period), the journey distances and times between appointments in the routes of this perimeter.
 
@@ -54,7 +54,7 @@ This function is useful, for example, when the speed of travel of a resource has
 
 To open the interface for verifying the server status, click the **Verification of server status** link in the **Tools** menu.
 
-![Server status interface](../.gitbook/assets/etat-server.png)
+![Server status interface](../.gitbook/assets/administration__tools__3.png)
 
 This interface lets you verify the status of the geographic services (GCIS), the cartographic services (H) and the geocoding services (UGC). In the example shown, the services are functional and their status is OK.
 
@@ -70,7 +70,7 @@ This tool lets you query the database directly.
 
 To open the journals interface, click the **Journals** link in the **Tools** menu.
 
-![Journals interface](../.gitbook/assets/outil-journaux.png)
+![Journals interface](../.gitbook/assets/administration__tools__5.png)
 
 This tool lets you view the application logs directly in the interface. You can also change the journalization mode, which sets the level of detail in the logs.
 

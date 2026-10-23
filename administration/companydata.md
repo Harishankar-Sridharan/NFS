@@ -22,7 +22,7 @@ To open the human resource management interface, click the **Human resource** li
 
 Before the list of human resources is displayed, you must run a search on the database.
 
-![Human resource search interface](../.gitbook/assets/RH-recherche.png)
+![Human resource search interface](../.gitbook/assets/administration__companydata__1.png)
 
 The search interface offers the following filters:
 
@@ -44,7 +44,7 @@ The **Human resource** form has the following tabs: **Information**, **Affiliati
 
 #### Information tab
 
-![Information tab of the human resource form](../.gitbook/assets/RH-infos.png)
+![Information tab of the human resource form](../.gitbook/assets/administration__companydata__2.png)
 
 * **Photo**: on the left of the screen, you can import a photo of the resource. Move the mouse pointer over the photo. Click the ![Import photo button](../.gitbook/assets/photo.png) button to import a photo, or the ![Delete photo button](../.gitbook/assets/poubelle.png) button to delete it.
 * **External reference**: external reference of the mobile resource.
@@ -62,7 +62,7 @@ The **Human resource** form has the following tabs: **Information**, **Affiliati
 
 #### Assignment tab
 
-![Affiliation tab of the human resource form](../.gitbook/assets/RH-affectation.png)
+![Affiliation tab of the human resource form](../.gitbook/assets/administration__companydata__3.png)
 
 Part 1: each resource can be affiliated to two entities defined globally in NFS.
 
@@ -73,7 +73,7 @@ Part 2: affiliation of a resource to one or several secondary worksites.
 
 You can add or delete secondary worksites for the resource (see [General Principles](generalprinciples.md)). Each secondary worksite is assigned to the resource with a function and a preference. A resource that has a secondary worksite can perform an intervention located on this worksite even if it is not the main worksite of affiliation.
 
-![Affiliation of a resource to a secondary worksite](../.gitbook/assets/RH-secteurs-1.png)
+![Affiliation of a resource to a secondary worksite](../.gitbook/assets/administration__companydata__4.png)
 
 * **Intervention sector**: name of the secondary worksite. It can be a worksite or a sector.
 * **From** and **To**: start and end dates from which the resource is taken into account in the plannings of the secondary worksite. If you enter no date, the sector is permanently assigned to the resource.
@@ -84,13 +84,13 @@ You can add or delete secondary worksites for the resource (see [General Princip
 
 The list of intervention sectors is displayed at the bottom of the screen.
 
-![List of secondary intervention sectors](../.gitbook/assets/RH-secteurs-2.png)
+![List of secondary intervention sectors](../.gitbook/assets/administration__companydata__5.png)
 
 #### Address tab
 
 This tab usually defines the start and arrival points of each daily itinerary. For example, it can be the home address of the resource.
 
-![Address tab of the human resource form](../.gitbook/assets/RH-adresse.png)
+![Address tab of the human resource form](../.gitbook/assets/administration__companydata__6.png)
 
 To fill in the start address, see the Address section of this guide.
 
@@ -128,7 +128,7 @@ See also:
 
 Depending on the user rights assigned, this tab lets you select favorites for the area, the team and the worksite, to build a perimeter for this resource.
 
-![Perimeter tab of the human resource form](../.gitbook/assets/RH-perimetre.png)
+![Perimeter tab of the human resource form](../.gitbook/assets/administration__companydata__7.png)
 
 You can apply this perimeter in the Planning and Attendance modules, so that only objects that belong to the perimeter are displayed, regardless of the area of affiliation of the resource defined in the **Affiliation** tab.
 
@@ -174,7 +174,7 @@ This tab can be pre-filled if a function is associated with the resource in the 
 
 Use this tab to define maximum quantities.
 
-![Limits tab of the human resource form](../.gitbook/assets/RH-limites.png)
+![Limits tab of the human resource form](../.gitbook/assets/administration__companydata__8.png)
 
 **Overall time limit**
 
@@ -223,7 +223,7 @@ A value of 00:00 means that the parameter is not taken into account in the optim
 
 Use this tab to configure an express unavailability that is available in the unavailabilities tooltip of the Planning module (see [The Planning](../planning/theplanning.md)).
 
-![Stop points tab of the human resource form](../.gitbook/assets/admin-stop-point.png)
+![Stop points tab of the human resource form](../.gitbook/assets/administration__companydata__9.png)
 
 The tab has two parts:
 
@@ -240,7 +240,7 @@ In earlier versions of NFS, this tab is called **Call in at depot**.
 
 Use the **Skills** tab to associate with a resource an experience level, a weighting for the fulfilment speed, and the skills the resource has according to training and experience.
 
-![Skills tab of the human resource form](../.gitbook/assets/RH-comp.png)
+![Skills tab of the human resource form](../.gitbook/assets/administration__companydata__10.png)
 
 * **Experience level**: choose one of three levels: junior, confirmed or expert. This parameter is taken into account when appointments are optimized. When two resources are possible for one appointment, the resource with the higher experience level is chosen.
 * **Execution speed weighting**: artificially increases or reduces the appointment fulfilment speed (as a percentage).
@@ -257,7 +257,7 @@ If a skill is required to perform an intervention and the resource does not have
 
 Authorizations correspond to characteristics of a customer, for example the password or key to access a block of flats, or nationality. An authorization is not a skill.
 
-![Authorizations tab of the human resource form](../.gitbook/assets/RH-autorisation-ajouter.png)
+![Authorizations tab of the human resource form](../.gitbook/assets/administration__companydata__11.png)
 
 * **Sel:**: quickly adds or deletes an authorization.
 * **Authorisation**: the saved authorizations.
@@ -274,7 +274,7 @@ If an authorization is required to perform an intervention and the resource does
 This tab can be pre-filled if a function is associated with the resource in the **Information** tab.
 {% endhint %}
 
-![Priorities tab of the human resource form](../.gitbook/assets/RH-priorite.png)
+![Priorities tab of the human resource form](../.gitbook/assets/administration__companydata__12.png)
 
 * **Intervention type**: name of the intervention type, among the saved intervention types.
 * **Manual planning**: allows or prevents the planning of an appointment in manual mode for an intervention type.
@@ -295,7 +295,7 @@ Use the **Jobs** tab to define temporary or periodic posts for a resource. Posts
 
 To add or delete temporary posts, click the ![Add button](../.gitbook/assets/bouton-ajouter.png) and ![Delete button](../.gitbook/assets/bouton-supprimer.png) buttons (see [General Principles](generalprinciples.md)). You can also add and delete the post types associated with a resource.
 
-![Posts tab of the human resource form](../.gitbook/assets/RH-poste.png)
+![Posts tab of the human resource form](../.gitbook/assets/administration__companydata__13.png)
 
 The line at the top summarizes the post occupied by the resource.
 
@@ -319,7 +319,7 @@ The list of temporary posts with their validity period is displayed at the botto
 
 Use this tab to choose the vehicle associated with the resource (see [Mobility](mobility.md)).
 
-![Vehicle tab of the human resource form](../.gitbook/assets/admin-rh-veh.png)
+![Vehicle tab of the human resource form](../.gitbook/assets/administration__companydata__15.png)
 
 The information about the vehicle is displayed on screen.
 
@@ -541,7 +541,7 @@ The team form has the following tabs: **Information**, **Members**, **Team Leade
 
 #### Information tab
 
-![Information tab of the team form](../.gitbook/assets/equipe-info.png)
+![Information tab of the team form](../.gitbook/assets/administration__companydata__16.png)
 
 * **Identifier**: a unique reference for the team. It is read-only and assigned automatically by NFS when the team is created.
 * [**External reference**](../glossary/glossary.md)
@@ -564,7 +564,7 @@ You can add and delete members by clicking the ![Add button](../.gitbook/assets/
 
 Click ![Add button](../.gitbook/assets/bouton-ajouter.png) to display the list of resources that are not yet assigned to the team and that work in the area to which the team is affiliated.
 
-![Adding team members](../.gitbook/assets/equipe-ajout-membre.png)
+![Adding team members](../.gitbook/assets/administration__companydata__17.png)
 
 #### Team leader tab
 
@@ -572,7 +572,7 @@ Assigning a team leader is not mandatory.
 
 To add a team leader, select a member in the drop-down list and click **Save**.
 
-![Team leader tab of the team form](../.gitbook/assets/equipe-chef.png)
+![Team leader tab of the team form](../.gitbook/assets/administration__companydata__18.png)
 
 #### Parent team tab
 
@@ -590,13 +590,13 @@ A domain is a grouping of areas. You can create, consult and edit a domain. For 
 
 To open the list of domains, click the **Domain** link in the menu of the **Company data** dialog.
 
-![List of domains](../.gitbook/assets/domaine-liste.png)
+![List of domains](../.gitbook/assets/administration__companydata__19.png)
 
 ### Domain form
 
 The domain form is made up of two blocks.
 
-![Domain form](../.gitbook/assets/domaine-modif.png)
+![Domain form](../.gitbook/assets/administration__companydata__20.png)
 
 * To associate an area with a domain, select the area in the **Other areas** block and click `>`. Click `>>` to move all the areas.
 * To withdraw an area from a domain, select the area in the **Areas of the domain** block and click `<`. Click `<<` to move all the areas.
@@ -623,7 +623,7 @@ The area form has the following tabs: **Information**, **Teams**, **District**, 
 
 #### Information tab
 
-![Information tab of the area form](../.gitbook/assets/region-info.png)
+![Information tab of the area form](../.gitbook/assets/administration__companydata__21.png)
 
 * **Identifier**: the unique identifier of the area. It is read-only and determined automatically by NFS when the area is created.
 * [**External reference**](../glossary/glossary.md): the external reference of the area.
@@ -638,7 +638,7 @@ You can add and delete teams by clicking the ![Add button](../.gitbook/assets/bo
 
 Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to display the list of all teams that are not already assigned to an area.
 
-![Adding teams to an area](../.gitbook/assets/region-equipe.png)
+![Adding teams to an area](../.gitbook/assets/administration__companydata__22.png)
 
 To unassign teams from the area, select them in the list and choose the **Delete** command.
 
@@ -823,7 +823,7 @@ You can filter the list of templates by area of affiliation and worksite. Click 
 
 The on-call duty form has one tab. It shows the following data:
 
-![Daily on-call duty form](../.gitbook/assets/astreinte-jour.png)
+![Daily on-call duty form](../.gitbook/assets/administration__companydata__23.png)
 
 * **Name**: the name of the on-call duty. It is unique.
 * **Abbreviation**
@@ -856,7 +856,7 @@ You can filter the list of templates by area of affiliation and worksite. Click 
 
 The on-call duty week form has one tab. It shows the following data:
 
-![On-call duties week form](../.gitbook/assets/astreinte-semaine.png)
+![On-call duties week form](../.gitbook/assets/administration__companydata__25.png)
 
 * **Name**: the name of the on-call duty. It is unique.
 * **Abbreviation**
@@ -883,7 +883,7 @@ You can filter the list of skills by area of affiliation.
 
 The skill form has one tab. It shows the following data:
 
-![Skill form](../.gitbook/assets/comp.png)
+![Skill form](../.gitbook/assets/administration__companydata__26.png)
 
 * **Identifier**: the identifier of the skill. It is unique.
 * [**External reference**](../glossary/glossary.md): the external reference of the skill.
@@ -936,7 +936,7 @@ You can filter the list of intervention groups by area of affiliation.
 
 ### Interventions group form
 
-![Interventions group form](../.gitbook/assets/groupe-interv.png)
+![Interventions group form](../.gitbook/assets/administration__companydata__29.png)
 
 The form has the following fields:
 
@@ -984,7 +984,7 @@ You can create, consult, duplicate or deactivate a target. For the general proce
 
 To open the list of targets, click the **Targets** link in the menu.
 
-![Filtering on targets](../.gitbook/assets/objectifs-acces.png)
+![Filtering on targets](../.gitbook/assets/administration__companydata__30.png)
 
 Before you consult or create a target, define the following filters:
 
@@ -1003,7 +1003,7 @@ The list of targets shows the following information:
 
 ### Form for a target
 
-![Form for a target](../.gitbook/assets/objectifs-nouveau.png)
+![Form for a target](../.gitbook/assets/administration__companydata__32.png)
 
 The form has the following fields:
 
@@ -1045,7 +1045,7 @@ You can create or deactivate a completion status.
 
 #### Completion status form
 
-![Completion status form](../.gitbook/assets/etat-realisation.png)
+![Completion status form](../.gitbook/assets/administration__companydata__33.png)
 
 The form has the following fields:
 
@@ -1112,13 +1112,13 @@ You can create, consult, duplicate or delete a day template. For the general pro
 
 To open the list of day templates, click the **Day template** link, under the **Calendars** item, in the menu.
 
-![List of day templates](../.gitbook/assets/modele-jour-liste.png)
+![List of day templates](../.gitbook/assets/administration__companydata__36.png)
 
 You can filter the list of templates by area of affiliation and worksite. Click ![Apply button](../.gitbook/assets/bouton-prendre-rdv.png) to apply your choice.
 
 #### Day template form
 
-![Day template form](../.gitbook/assets/modele-jour.png)
+![Day template form](../.gitbook/assets/administration__companydata__37.png)
 
 The form has the following fields:
 
@@ -1151,13 +1151,13 @@ You can create, consult, duplicate or delete a week template. For the general pr
 
 To open the list of week templates, click the **Week template** link, under the **Calendars** item, in the menu.
 
-![List of week templates](../.gitbook/assets/modele-semaine-liste.png)
+![List of week templates](../.gitbook/assets/administration__companydata__38.png)
 
 You can filter the list of templates by area of affiliation and worksite. Click ![Apply button](../.gitbook/assets/bouton-prendre-rdv.png) to apply your choice.
 
 #### Week template form
 
-![Week template form](../.gitbook/assets/modele-semaine.png)
+![Week template form](../.gitbook/assets/administration__companydata__39.png)
 
 Use the drop-down lists to select a day template for each day of the week, from the saved day templates (see [Day template](companydata.md#day-template)).
 

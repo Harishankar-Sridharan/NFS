@@ -4,7 +4,7 @@
 
 This page lets you simulate the NFS Mobile application.
 
-![NFS Mobile simulator page](../.gitbook/assets/ot-mobile.png)
+![NFS Mobile simulator page](../.gitbook/assets/portal__nfsmobileapplication__1.png)
 
 ## Prerequisites
 
@@ -29,5 +29,3 @@ Use the following options to configure how the application is displayed:
 The application opens in the configured display format.
 
 ![NFS Mobile connection page](../.gitbook/assets/ot-mobile-con.png)
-
-<!-- REVIEW: the example URL contains "otgs", which looks like a leftover of the former product name; confirm the example URL. The step order for login, password and URL is not explicit in the source. -->

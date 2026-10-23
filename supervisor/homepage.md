@@ -17,7 +17,7 @@ You must be connected with a profile that has access to the Supervisor role. See
 
 The Supervisor home page contains a menu on the left of the screen and a table on the right.
 
-![Supervisor home page](../.gitbook/assets/accueil-superviseur.png)
+![Supervisor home page](../.gitbook/assets/supervisor__homepage__1.png)
 
 ### Menu
 

@@ -4,7 +4,7 @@
 
 The Tracking module lets you display, in real time, the GPS positions of [mobile resources](../administration/companydata.md) that are assigned a [vehicle](../administration/mobility.md) and a [tracking device](../administration/mobility.md). The positions shown depend on your region of affiliation. You can also filter by [worksite](../administration/companydata.md) using the **Filter device table** link.
 
-![Tracking module home page](../.gitbook/assets/accueil_2.png)
+![Tracking module home page](../.gitbook/assets/tracking__tracking__1.png)
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ You can access the Tracking module only if the [corresponding right](../administ
 
     A second tab under the selected resource name also appears. It provides details of all the relevant waypoints (visit and tracking).
 
-![Map with visit points and tracking points for the selected resource](../.gitbook/assets/track.png)
+![Map with visit points and tracking points for the selected resource](../.gitbook/assets/tracking__tracking__2.png)
 
 {% hint style="info" %}
 You can display the items on this page horizontally or vertically (`images/ref/buttons/bouton-tracking-pos.png`). You can also customize the display with the **Settings** button (`images/ref/buttons/bouton-tracking-param.png`), for example to filter the display of position markers or to customize table fields.

@@ -18,4 +18,4 @@ The Portal also provides team leaders with a monitoring tool. They can view each
 
 Click **Portal** at the top left of the header bar (see [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md)).
 
-![Portal in the menu](../.gitbook/assets/portail-dans-le-menu.png)
+![Portal in the menu](../.gitbook/assets/portal__portal__1.png)

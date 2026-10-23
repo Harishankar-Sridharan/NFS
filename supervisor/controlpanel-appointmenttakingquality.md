@@ -1,4 +1,4 @@
-# Control Panel - Appointment Taking Quality
+# Control Panel - Appointment taking Quality
 
 ## Overview
 
@@ -12,7 +12,7 @@ Configure the control panel first. See [Control Panel - Configure](controlpanelc
 
 The table is divided into five sections.
 
-![Appointment taking quality control panel](../.gitbook/assets/qualite.png)
+![Appointment taking quality control panel](../.gitbook/assets/supervisor__controlpanel-appointmenttakingquality__1.png)
 
 1. **Configure** – click it to return to the previous configuration step. See [Control Panel - Configure](controlpanelconfigure.md).
 2. Information about the resource for which the table is calculated, the period during which the dates are displayed, and the area.

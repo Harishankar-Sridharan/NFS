@@ -15,7 +15,7 @@ You must connect with an administrator profile. See [User Handling](userhandling
 
 ## Layout of the home page
 
-![Administration module home page](../.gitbook/assets/administration-accueil.png)
+![Administration module home page](../.gitbook/assets/administration__administration-homepage__1.png)
 
 The home page is divided into three sections:
 

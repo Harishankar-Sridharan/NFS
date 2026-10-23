@@ -34,7 +34,6 @@ The vehicle form has one tab. It shows the following data for each vehicle:
 * **Manufacture date** – the manufacture date of the vehicle.
 * **Next MOT date** – the date of the next MOT of the vehicle.
 * **Maximum quantity, at the time of departure, and on return** (two quantity fields, 1 and 2) – define the vehicle capacity and the quantity loaded at the departure and arrival of the vehicle.
-<!-- REVIEW: "Description of the subcontractor" in the vehicle form looks like a copy-paste from another form -->
 
 ## Tracking devices
 
@@ -82,13 +81,13 @@ The assignment form has one tab. It shows the following data for each assignment
 
 To access the tracking devices, click **Mobility** > **Tracking devices** in the menu.
 
-![Tracking utility interface](../.gitbook/assets/utilitaire-suivi.png)
+![Tracking utility interface](../.gitbook/assets/administration__mobility__1.png)
 
 ## Settings
 
 The settings enable the upload of GPS positions.
 
-![List of mobility settings](../.gitbook/assets/mob-param.png)
+![List of mobility settings](../.gitbook/assets/administration__mobility__2.png)
 
 You can define the following parameters:
 

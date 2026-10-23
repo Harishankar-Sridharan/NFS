@@ -35,7 +35,7 @@ You can define, for example, an Online Advisor profile, a Supervisor profile and
 
 The interface displays the list of profiles currently saved in the application.
 
-![List of profiles](../.gitbook/assets/utilisateur-profils.png)
+![List of profiles](../.gitbook/assets/administration__userhandling__1.png)
 
 ### Profile form
 
@@ -43,7 +43,7 @@ The profile form is made up of the **Information** and **Collections** tabs.
 
 #### Information tab
 
-![Information tab of a profile](../.gitbook/assets/utilisateur-profils-info.png)
+![Information tab of a profile](../.gitbook/assets/administration__userhandling__2.png)
 
 Each profile stores the following information:
 
@@ -55,7 +55,7 @@ Each profile stores the following information:
 
 The **Collections** tab lets you associate one or several collections of rights with a profile.
 
-![Collections of rights associated with a profile](../.gitbook/assets/utilisateur-profils-coll.png)
+![Collections of rights associated with a profile](../.gitbook/assets/administration__userhandling__3.png)
 
 You can add and delete collections of rights.
 
@@ -71,11 +71,11 @@ To open the list of collections of rights, click the **Collection of rights** li
 
 The interface displays the list of collections of rights currently saved in the application.
 
-![List of collections of rights](../.gitbook/assets/utilisateur-collection.png)
+![List of collections of rights](../.gitbook/assets/administration__userhandling__4.png)
 
 ### Collection of rights form
 
-![Information about a collection of rights](../.gitbook/assets/utilisateur-collection-modif.png)
+![Information about a collection of rights](../.gitbook/assets/administration__userhandling__5.png)
 
 The form for the collection of rights presents the following information:
 
@@ -200,13 +200,13 @@ To open this function, click the **Access rights** link in the menu.
 
 The interface displays the list of access rights, classified by activity, currently saved in the application.
 
-![List of access rights](../.gitbook/assets/utilisateur-droits.png)
+![List of access rights](../.gitbook/assets/administration__userhandling__6.png)
 
 The list includes a **Description** field that gives the definition of each right.
 
 ### Access right form
 
-![Access right form](../.gitbook/assets/utilisateur-droits-modif.png)
+![Access right form](../.gitbook/assets/administration__userhandling__7.png)
 
 The access right form contains the following information:
 

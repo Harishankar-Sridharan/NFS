@@ -17,7 +17,7 @@ This topic describes how to:
 
 To open the optimization parameters, click the **Optimisation parameters** link in the menu.
 
-![Preview of some of the optimization parameters](../.gitbook/assets/optim-param.png)
+![Preview of some of the optimization parameters](../.gitbook/assets/administration__optimisation__1.png)
 
 {% hint style="warning" %}
 **Types of parameter values**
@@ -46,7 +46,7 @@ You can create, consult or delete optimization profiles. For the procedures, see
 
 #### Optimization profile form
 
-![Setting up a new optimization profile](../.gitbook/assets/optim-profil-modif.png)
+![Setting up a new optimization profile](../.gitbook/assets/administration__optimisation__3.png)
 
 The form for an optimization profile (see [General Principles](generalprinciples.md)) includes the following fields:
 
@@ -580,7 +580,7 @@ You can also use the following links:
 
 To open the function, click the **Activate/Deactivate an area** link in the menu.
 
-![List of the statuses of areas](../.gitbook/assets/optim-region.png)
+![List of the statuses of areas](../.gitbook/assets/administration__optimisation__22.png)
 
 The **Status** column can take the following values:
 

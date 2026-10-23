@@ -46,7 +46,7 @@ Prerequisites: enable SSO and its Google Apps provider only, in the application 
 
 * If no NFS user account is associated with your Google account email address, access to the application is denied.
 
-<figure><img src="../.gitbook/assets/nfs-access-portal-login.png" alt=""><figcaption><p>Access denied message</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/nfs-access-denied-en.png" alt=""><figcaption><p>Access denied message</p></figcaption></figure>
 
 * If an NFS user account is associated with your Google account email address, NFS grants access using the corresponding user account.
 

@@ -1,4 +1,4 @@
-# Control Panel - Appointment Taking Quantity
+# Control Panel - Appointment taking Quantity
 
 ## Overview
 
@@ -12,7 +12,7 @@ Configure the control panel first. See [Control Panel - Configure](controlpanelc
 
 The table is divided into five sections.
 
-![Appointment taking quantity control panel](../.gitbook/assets/quantite.png)
+![Appointment taking quantity control panel](../.gitbook/assets/supervisor__controlpanelappointmenttakingquantity__1.png)
 
 1. **Configure** – click it to return to the previous configuration step. See [Control Panel - Configure](controlpanelconfigure.md).
 2. Information about the resource for which the table is calculated, the period or date, and the area.

@@ -4,7 +4,7 @@
 
 The home page of the Attendance module has three parts: a command bar, a side menu and the planning display.
 
-![Attendance home page](../.gitbook/assets/accueil-dispo.png)
+![Attendance home page](../.gitbook/assets/attendance__attendance-homepage__1.png)
 
 ## Command bar
 
@@ -21,8 +21,6 @@ The command bar is at the top of the screen. The options available depend on you
 * **Services list:**
   * Display plannings in report format.
   * Print a planning summary.
-
-<!-- REVIEW: the source has "[icon]" placeholders instead of icons for the planning navigation arrows and the date/period buttons -->
 
 ## Side menu
 

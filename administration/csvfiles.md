@@ -18,7 +18,7 @@ The interface is divided into three sections:
 * a section where you select the file to import
 * a **Previous result** button
 
-![CSV import interface](../.gitbook/assets/csv-importer.png)
+![CSV import interface](../.gitbook/assets/administration__csvfiles__1.png)
 
 ### Import format
 
@@ -65,7 +65,7 @@ To open this function, click the **Export a CSV file** link under the **CSV file
 
 The export of a CSV file has three parts: **Entities to export**, **CSV Formatting** and **Filtering**.
 
-![CSV export interface](../.gitbook/assets/csv-exporter.png)
+![CSV export interface](../.gitbook/assets/administration__csvfiles__3.png)
 
 ### Entities to export
 
@@ -108,7 +108,7 @@ When you have filled in the fields, click **Export** to export the data.
 
 This function lets you export and import all the application data in one go.
 
-![Global import and export page](../.gitbook/assets/admin-csv-global.png)
+![Global import and export page](../.gitbook/assets/administration__csvfiles__4.png)
 
 The first part (global import) imports all elements from the repository.
 
@@ -135,11 +135,11 @@ This section has two parts:
 * A summary page that gives access to the different object templates.
 * A section that contains the list of fields in the template.
 
-![Summary of the CSV templates](../.gitbook/assets/csv-modele-sommaire.png)
+![Summary of the CSV templates](../.gitbook/assets/administration__csvfiles__5.png)
 
 Click a link in the summary to go to the corresponding object. The last link in the summary, **Dictionary of the data types**, goes to the Type section.
 
-![Fields of an object in the CSV template](../.gitbook/assets/csv-modele-champs.png)
+![Fields of an object in the CSV template](../.gitbook/assets/administration__csvfiles__6.png)
 
 Each field is described by the following information:
 
@@ -167,7 +167,7 @@ The Type section has the following columns:
 
 You can run certain flow modules from this interface. They are defined inside the flow files. See [Flows file](csvfiles.md#flows-file).
 
-![Circulation listeners](../.gitbook/assets/listeners.png)
+![Circulation listeners](../.gitbook/assets/administration__csvfiles__7.png)
 
 To run an action, click the HTTP link in the list. Some actions require parameters. In this case, fill in the **message to send** part and click the **Post message** or **Send params** link.
 
@@ -177,7 +177,7 @@ The predefined export links are created in the circulation. See [Flows file](csv
 
 A predefined export link performs a predefined action. For example, it can execute a script in a database, import data or save the database.
 
-![Predefined export links interface](../.gitbook/assets/export.png)
+![Predefined export links interface](../.gitbook/assets/administration__csvfiles__8.png)
 
 ## Specific files
 
@@ -235,11 +235,11 @@ The XML file functions are **Download** and **Update**.
 
 **Download** retrieves the configuration file located on the application server.
 
-![Downloading the XML file for the optimization](../.gitbook/assets/xml-optim-telecharger.png)
+![Downloading the XML file for the optimization](../.gitbook/assets/administration__csvfiles__11.png)
 
 **Update** updates the configuration file located on the application server.
 
-![Updating the application with the new XML file](../.gitbook/assets/xml-optim-maj.png)
+![Updating the application with the new XML file](../.gitbook/assets/administration__csvfiles__12.png)
 
 {% hint style="warning" %}
 Certain parameters require you to restart the application for the update to take effect. Contact your NFS administrator to perform this kind of update.

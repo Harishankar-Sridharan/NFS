@@ -4,7 +4,7 @@
 
 To open the module home page directly, click **Portal** in the menu.
 
-![Portal home page](../.gitbook/assets/accueil-portail.png)
+![Portal home page](../.gitbook/assets/portal__homepage__1.png)
 
 The **Portal** home page is divided into two sections: the main menu and the central section.
 
