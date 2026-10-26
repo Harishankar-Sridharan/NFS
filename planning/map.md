@@ -8,7 +8,7 @@ The map is displayed in a frame reserved for it at the top right of the Planning
 The map of France installed by default also includes bordering countries such as Spain, Luxembourg, Switzerland, Germany, Italy and Belgium.
 {% endhint %}
 
-![Route map in the Planning module](../.gitbook/assets/carte-route.png)
+![Route map in the Planning module](../.gitbook/assets/planning__map_1.png)
 
 ## Navigation
 
@@ -28,7 +28,7 @@ Use the **Configuration** function to select the information displayed on the ma
 This pane also displays a view from an external application or from an internet site when you click a specific link in the information pane.
 {% endhint %}
 
-![Map configuration](../.gitbook/assets/configuration-carte.png)
+![Map configuration](../.gitbook/assets/planning__map_2.png)
 
 ### Display the appointments
 
@@ -36,7 +36,7 @@ Select the **Display the appointments** check box to display the appointments on
 
 Click an appointment on the map to display the following tooltip:
 
-![Tooltip of an appointment on the map](../.gitbook/assets/tool-tip-carte-rdv.png)
+![Tooltip of an appointment on the map](../.gitbook/assets/planning__map_3.png)
 
 * The **Display** button displays the appointment form (see [Objects in the Planning Module](objectsintheplanningmodule.md)).
 * The **Add to panel** button adds the appointment to the panel (see [The Planning](theplanning.md)).

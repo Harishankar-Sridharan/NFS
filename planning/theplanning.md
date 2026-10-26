@@ -4,7 +4,7 @@
 
 The planning pane is located at the bottom right of the Planning screen. Like the other panes, it can be resized as required.
 
-![Planning pane of the Planning screen](../.gitbook/assets/planning.png)
+![Planning pane of the Planning screen](../.gitbook/assets/planning__theplanning_1.png)
 
 The planning pane is composed of three sections:
 
@@ -31,13 +31,13 @@ In each of these drop-down menus, type the first letter of a word to go directly
 
 The 3 display options for the planning
 
-![The three display options for the planning](../.gitbook/assets/options-d-affichage-du-planning.png)
+![The three display options for the planning](../.gitbook/assets/planning__theplanning_4.png)
 
 ### Agenda kind
 
 Agenda kinds available
 
-![Agenda kinds available](../.gitbook/assets/nature-du-planning.png)
+![Agenda kinds available](../.gitbook/assets/planning__theplanning_5.png)
 
 The planning manager can visualize the planning of one or several resources according to several kinds:
 
@@ -51,7 +51,7 @@ The planning manager can visualize the planning of one or several resources acco
 
 Available periods
 
-![Available periods](../.gitbook/assets/periode-du-planning.png)
+![Available periods](../.gitbook/assets/planning__theplanning_6.png)
 
 The planning manager can view the planning for one or several resources over four periods. Not all periods are available for every agenda kind:
 
@@ -85,7 +85,7 @@ The information is displayed in the following form:
 
 Abbreviated form for the resource
 
-![Abbreviated form for the resource](../.gitbook/assets/fiche-reduite-ressource.png)
+![Abbreviated form for the resource](../.gitbook/assets/planning__theplanning_8.png)
 
 The form comprises the following eight tabs:
 
@@ -100,12 +100,12 @@ The form comprises the following eight tabs:
 
 The form also contains the following buttons:
 
-* ![Daily planning button](../.gitbook/assets/planning-journalier.png) – displays the daily planning for the resource.
-* ![Weekly planning button](../.gitbook/assets/planning-hebdomadaire.png) – displays the weekly planning for the resource.
-* ![Monthly planning button](../.gitbook/assets/planning-mensuel.png) – displays the monthly planning for the resource.
-* ![World map button](../.gitbook/assets/map-monde.png) – displays the route.
-* ![Panel button](../.gitbook/assets/bouton-panier3.png) – puts all the appointments for the route in the panel.
-* ![Select button](../.gitbook/assets/bouton-add2.png) – selects all the appointments in the route. For details, see [Menu](menu.md).
+* ![Daily planning button](../.gitbook/assets/planning__theplanning_icon1.png) – displays the daily planning for the resource.
+* ![Weekly planning button](../.gitbook/assets/planning__theplanning_icon2.png) – displays the weekly planning for the resource.
+* ![Monthly planning button](../.gitbook/assets/planning__theplanning_icon3.png) – displays the monthly planning for the resource.
+* ![World map button](../.gitbook/assets/planning__theplanning_icon4.png) – displays the route.
+* ![Panel button](../.gitbook/assets/planning__theplanning_icon5.png) – puts all the appointments for the route in the panel.
+* ![Select button](../.gitbook/assets/planning__theplanning_icon6.png) – selects all the appointments in the route. For details, see [Menu](menu.md).
 
 ## Navigation bar
 
@@ -113,11 +113,11 @@ In addition to the planning visualization parameters, other tools let you naviga
 
 Bar of viewing functions in the planning
 
-![Bar of viewing functions in the planning](../.gitbook/assets/barre-navigation-planning.png)
+![Bar of viewing functions in the planning](../.gitbook/assets/planning__theplanning_15.png)
 
 The navigation bar contains the following buttons, from left to right:
 
-* The panel ![Panel button](../.gitbook/assets/bouton-panier2.png).
+* The panel ![Panel button](../.gitbook/assets/planning__theplanning_16.png).
 * The buttons to change the date of the agenda, composed of two arrows and a date:
   * The arrows to return to the previous ![Previous agenda button](../.gitbook/assets/bouton-precedent.png) or next ![Next agenda button](../.gitbook/assets/bouton-suivant.png) agenda.
 * The switch agenda ![Switch agenda button](../.gitbook/assets/bouton-bascul-de-l-agenda.png) button.
@@ -146,7 +146,7 @@ You have two other options:
 
 ### Navigate from one date to another
 
-* To consult the planning for earlier or later periods, click the ![Left chevron button](../.gitbook/assets/bouton-simple-chevron-gauche.png) or ![Right chevron button](../.gitbook/assets/bouton-simple-chevron-droit.png) button.
+* To consult the planning for earlier or later periods, click the ![Left chevron button](../.gitbook/assets/planning__theplanning_26.png) or ![Right chevron button](../.gitbook/assets/planning__theplanning_27.png) button.
 * To select a date directly in the agenda, click the date.
 
 {% hint style="info" %}
@@ -170,7 +170,7 @@ By default, the agenda is displayed horizontally, with the names of the resource
 
     Example of a vertical agenda
 
-    ![Example of a vertical agenda](../.gitbook/assets/agenda-bascule.png)
+    ![Example of a vertical agenda](../.gitbook/assets/planning__theplanning_vertical.png)
 2. To return to the default agenda display, click the ![Return to default agenda button](../.gitbook/assets/bouton-bascul-de-l-agenda.png) button.
 
 ### Display the location of the resource on the map
@@ -188,12 +188,12 @@ This button is only available in day or week views.
 
 Visualizing a route on the map
 
-![Visualizing a route on the map](../.gitbook/assets/affichage-d-une-tournee-sur-la-carte.png)
+![Visualizing a route on the map](../.gitbook/assets/planning__theplanning_30.png)
 
 * All resources scheduled for the viewed period are indicated by a tool-tip that gives the time of the resource.
 * When you display the routes of several resources, each route is shown in the color of the corresponding resource.
 
-![Display of several routes on the map](../.gitbook/assets/affichage-de-plusieurs-tournees.png)
+![Display of several routes on the map](../.gitbook/assets/planning__theplanning_31.png)
 
 {% hint style="info" %}
 In multi-resource mode, the eye just to the left of the resource name in the planning lets you display or hide the route.
@@ -203,7 +203,7 @@ In multi-resource mode, the eye just to the left of the resource name in the pla
 
 Legend
 
-![Legend of the planning load view](../.gitbook/assets/legende-charge-planning.png)
+![Legend of the planning load view](../.gitbook/assets/planning__theplanning_32.png)
 
 * The legend shows the color of the various items in the planning, by object type. For details, see [Objects in the Planning Module](objectsintheplanningmodule.md).
 * The colors of the objects displayed in the planning are configurable. For details, see [Customization](../administration/customization.md).
@@ -235,17 +235,17 @@ The appearance of the agenda varies depending on the selected view.
 
 Day agenda for the worksite
 
-![Day agenda for the worksite](../.gitbook/assets/agenda-jour-site.png)
+![Day agenda for the worksite](../.gitbook/assets/planning__theplanning_dayworksite.png)
 
 Day agenda for the resource
 
-![Day agenda for the resource](../.gitbook/assets/agenda-jour-itv.png)
+![Day agenda for the resource](../.gitbook/assets/planning__theplanning_dayresource.png)
 
 In this view, below the graphical representation of the agenda, a list gives the details of all the items in the planning in chronological order. It shows the start and end time, the appointment type, the status, and the names of both the appointment and the town in which it takes place.
 
 Monthly agenda for the resource in workload view
 
-![Monthly agenda for the resource in workload view](../.gitbook/assets/agenda-charge-itv.png)
+![Monthly agenda for the resource in workload view](../.gitbook/assets/planning__theplanning_month.png)
 
 According to your [user rights](../administration/userhandling.md), the agenda gives access to the following functions. For details on rights, see [User Handling](../administration/userhandling.md).
 
@@ -313,7 +313,7 @@ Move the mouse cursor over an appointment to display the appointment tool-tip.
 
 Appointment information popup
 
-![Appointment information popup](../.gitbook/assets/tool-tip-rdv.png)
+![Appointment information popup](../.gitbook/assets/planning__theplanning_apptpopup.png)
 
 The tool-tip contains some information from the [appointment](objectsintheplanningmodule.md), such as the customer name and the appointment address or site.
 
@@ -356,7 +356,7 @@ Move the mouse cursor over the non-worked hours of a resource (start or end of t
 
 Infobox for a series of non-worked hours
 
-![Infobox for a series of non-worked hours](../.gitbook/assets/tool-tip-non-travaille.png)
+![Infobox for a series of non-worked hours](../.gitbook/assets/planning__theplanning_nonworked.png)
 
 * ![Add night away button](../.gitbook/assets/ajout-nuitee.png) – returns you to the page for managing nights away.
 * ![Lock button](../.gitbook/assets/verrou.png) / ![Unlock button](../.gitbook/assets/deverrouiller.png) – locks or unlocks the day.

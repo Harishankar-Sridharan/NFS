@@ -21,7 +21,7 @@ The Planning module is the NFS module designed for planning personnel, online ad
 
 Click at the top left of the header bar. For details, see [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md).
 
-![Opening the Planning module from the header bar](../.gitbook/assets/menu.png)
+<img src="../.gitbook/assets/planning__planning_1.png" alt="Opening the Planning module from the header bar" width="144">
 
 ## Parts of the Planning module
 
@@ -32,7 +32,7 @@ The Planning module is made up of four parts:
 3. [The Planning](theplanning.md)
 4. [The Information Pane](theinformationpane.md)
 
-![The four panes of the Planning module](../.gitbook/assets/presentation-centre-d-appels.png)
+![The four panes of the Planning module](../.gitbook/assets/planning__planning_2.png)
 
 [Objects in the Planning Module](objectsintheplanningmodule.md) describes the objects that make up the Planning module.
 

@@ -62,7 +62,7 @@ This function lets you make an appointment without revealing the identity of the
 
 The first page collects the customer information.
 
-![Making an appointment: customer information page](../.gitbook/assets/prendre-rdv-ecran-1.png)
+![Making an appointment: customer information page](../.gitbook/assets/planning__menu_1.png)
 
 Enter the time information and the information needed to identify the customer:
 
@@ -109,7 +109,7 @@ In the page header, depending on the configuration, a series of links lets you:
 
 After you run the search, the page shows the number of lines found and the number of lines displayed.
 
-![Customer search results table](../.gitbook/assets/resultat-recherche-client.png)
+![Customer search results table](../.gitbook/assets/planning__menu_custsearch.png)
 
 {% hint style="info" %}
 The display limit is [configurable](../administration/customization.md).
@@ -128,7 +128,7 @@ Buttons on each line of the table let you apply actions without opening the cust
 * The ![Locate customer button](../.gitbook/assets/bouton-localise-client-fiche.png) button locates the customer on the [map](map.md).
 * The ![List customer appointments button](../.gitbook/assets/bouton-lister-rdv-client.png) button lists all the appointments for the customer. The list of appointments for this customer is then displayed:
 
-![List of appointments for a customer](../.gitbook/assets/liste-rdv-client.png)
+![List of appointments for a customer](../.gitbook/assets/planning__menu_custappts.png)
 
 The first part of this page lets you [refine the search](objectsintheplanningmodule.md).
 
@@ -142,7 +142,7 @@ To open the [customer form](objectsintheplanningmodule.md), click the correspond
 
 This function lets you [create](objectsintheplanningmodule.md), modify or delete an orderer (see the [customer form](objectsintheplanningmodule.md)).
 
-![Orderer search window](../.gitbook/assets/formulaire-recherche-commanditaire.png)
+![Orderer search window](../.gitbook/assets/planning__menu_orderer.png)
 
 The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
@@ -155,7 +155,7 @@ The search fields are described in the [orderer form](objectsintheplanningmodule
 
 This function lets you search for, [create](objectsintheplanningmodule.md) or change a customer type.
 
-![Customer type search page](../.gitbook/assets/page-recherche-type-client.png)
+![Customer type search page](../.gitbook/assets/planning__menu_custtype.png)
 
 The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
@@ -166,8 +166,6 @@ Click the ![Add button](../.gitbook/assets/bouton-ajouter.png) button to add a n
 ### Search on customer kind
 
 This function lets you search for, [create](objectsintheplanningmodule.md) or change a customer kind.
-
-![Customer kind search page](../.gitbook/assets/page-recherche-nature-client.png)
 
 The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
@@ -188,7 +186,7 @@ In the page header, depending on the configuration, a series of links lets you o
 
 This page lets you assign actions to a selection of customers.
 
-![Customers panel](../.gitbook/assets/panier-clients.png)
+![Customers panel](../.gitbook/assets/planning__menu_custpanel.png)
 
 The [search result](objectsintheplanningmodule.md) lists the customers in the panel. Click a line to open the [customer form](objectsintheplanningmodule.md).
 
@@ -203,8 +201,6 @@ The [search result](objectsintheplanningmodule.md) lists the customers in the pa
 
 This function is accessible only from the customer panel.
 
-![Making appointments for several customers](../.gitbook/assets/prise-rdv-clients-multiple.png)
-
 The first section lists the customers concerned.
 
 The second section contains the same fields as the [qualification of the appointment](objectsintheplanningmodule.md).
@@ -213,8 +209,6 @@ The second section contains the same fields as the [qualification of the appoint
 * Click **Request appointments** to create appointments with the _Requested_ [status](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
 A [table](objectsintheplanningmodule.md) summarizes the appointments created.
-
-![Summary of the requested appointments](../.gitbook/assets/rdv-demandes-resultat.png)
 
 From this list, you can add the requested appointments to the [panel](theplanning.md): click the panel button opposite an appointment, or in the table header.
 
@@ -227,8 +221,6 @@ See [List of customer alerts](../the-header-bar/guided-help-nfs-reference-guide-
 ### Generate periodic requests
 
 This page generates visits automatically for customers according to a predefined visiting period.
-
-![Generation of recurring visits](../.gitbook/assets/gen-periodic.png)
 
 The visit generation page contains the following fields:
 
@@ -262,7 +254,7 @@ The resource management part includes the following functions:
 
 This page lets you search for, [create](objectsintheplanningmodule.md), modify or [delete](objectsintheplanningmodule.md) the [temporary posts](objectsintheplanningmodule.md) of resources.
 
-![Main page for managing temporary posts](../.gitbook/assets/page-postes-temporaires.png)
+![Main page for managing temporary posts](../.gitbook/assets/planning__menu_tempposts.png)
 
 The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
@@ -285,8 +277,6 @@ This page shows the customers assigned to the resource selected in the drop-down
 
 The search page contains [search](objectsintheplanningmodule.md) fields and a list of on-call duties that are already saved.
 
-![List of customers assigned to a resource](../.gitbook/assets/interv-liste-client.png)
-
 ### On-call duty management
 
 This page lets you search for, [create](objectsintheplanningmodule.md), modify or [delete](objectsintheplanningmodule.md) [on-call duty items](objectsintheplanningmodule.md) for resources.
@@ -306,13 +296,13 @@ The search page contains [search](objectsintheplanningmodule.md) fields and a li
 
 This page opens or closes sectors.
 
-![Sector management page](../.gitbook/assets/secteur-ferme.png)
+![Sector management page](../.gitbook/assets/planning__menu_sectors.png)
 
 * The first part lets you [refine the search](objectsintheplanningmodule.md) on sectors: select the dates and a sector.
 * In the list of sectors, sectors that are closed over the period are red and open sectors are green. To close or open a sector, click an open or closed sector.
 * To define an opening or closing timeslot, click the ![Opening or closing period button](../.gitbook/assets/ca-ca.png) button. You can then define an opening or closing period:
 
-![Defining an opening or closing period for a sector](../.gitbook/assets/secteur-ferme-dates.png)
+![Defining an opening or closing period for a sector](../.gitbook/assets/planning__menu_sectorperiod.png)
 
 Two tables at the bottom of the page show the number of appointments and resources for the sector selected in the list of sectors.
 
@@ -332,14 +322,14 @@ Only appointments in the same area as the one selected are displayed.
 You can save search criteria by clicking **Recent searches** at the top of the page. This tool also lets you reload, delete or rename an earlier search.
 {% endhint %}
 
-![Appointment search form](../.gitbook/assets/formulaire-de-recherche-d-un-rendez-vous.png)
+![Appointment search form](../.gitbook/assets/planning__menu_apptsearch.png)
 
 * The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 * Search fields can be customized in the [Application Configuration](../administration/customization.md) and are described in the [appointment form](objectsintheplanningmodule.md).
 
 ### Result of the search
 
-![Appointment search results table](../.gitbook/assets/resultat-de-la-recherche.png)
+![Appointment search results table](../.gitbook/assets/planning__menu_apptresults.png)
 
 {% hint style="info" %}
 The buttons in the table header apply various actions to all objects in the table.
@@ -358,7 +348,7 @@ Click an appointment in the results to open its form.
 * This function displays all appointments selected in the appointment lists with the ![Add to selection button](../.gitbook/assets/bouton-add2.png) button.
 * The [table of results](objectsintheplanningmodule.md) has [buttons common to appointment lists](objectsintheplanningmodule.md).
 
-![List of selected appointments](../.gitbook/assets/liste-rdv-sel.png)
+![List of selected appointments](../.gitbook/assets/planning__menu_selappts.png)
 
 Two buttons are located at the top right of the list:
 
@@ -371,7 +361,7 @@ Two buttons are located at the top right of the list:
 * For example, the **Search on requested appointments** link searches for appointments with the _Requested_ [status](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 * Each link opens a first screen that lets you filter on date, resource (or subcontractor), worksite and intervention type.
 
-![Search on status](../.gitbook/assets/formulaire-recherche-rdv-par-statut.png)
+![Search on status](../.gitbook/assets/planning__menu_searchstatus.png)
 
 * The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 * Click **Search** to display the [list of results](objectsintheplanningmodule.md). Click an appointment in the list to open the [appointment form](objectsintheplanningmodule.md).
@@ -434,8 +424,6 @@ This menu gives access to the application alert messages subscribed to in the Ad
 
 A technical user can use this journal to track and diagnose the events that affect the application.
 
-![Application warning message screen](../.gitbook/assets/alertes-applicatives.png)
-
 The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
 ## Messaging service
@@ -469,11 +457,7 @@ It also lets you align the past agendas of resources with the routes actually fu
 
 The first window asks you to choose the route to modify, using a resource and a date.
 
-![Choosing the resource and date of the route to modify](../.gitbook/assets/modifier-les-rendez-vous-du-passe.png)
-
 The application searches for and lists the appointments that can be modified.
-
-![List of appointments that can be modified](../.gitbook/assets/modifier-les-rendez-vous-du-passe-1.png)
 
 For each appointment, some characteristics are shown for reference, for example the address, date, status and time window. A drop-down menu lets you change the default value **Do nothing**:
 
@@ -495,9 +479,7 @@ You can add an appointment to the past planning of a resource. For example, an a
 
 1. In the **Choose** drop-down menu at the bottom of the window, select **Add an appointment**.
 2. In the window that opens, define the criteria to find the appointment(s) to add to the planning. You can search on requested, planned and confirmed appointments.
-3.  Click **Search** to run the search.
-
-    ![Search for appointments to add to a past planning](../.gitbook/assets/modif-rdv-passe-ajouter-rdv.png)
+3. Click **Search** to run the search.
 4. In the list of appointments found, click the appointment to add to the past planning.
 5. Indicate the time window for the intervention at the customer's premises. Also supply the start and end time of the appointment and, if appropriate, the actual duration.
 
@@ -515,7 +497,7 @@ This page is described in the [Unavailability form](objectsintheplanningmodule.m
 
 This page lets you search for, [create](objectsintheplanningmodule.md), modify or [delete](objectsintheplanningmodule.md) [unavailabilities](objectsintheplanningmodule.md).
 
-![Unavailability search page](../.gitbook/assets/recherche-indispo.png)
+![Unavailability search page](../.gitbook/assets/planning__menu_unavail.png)
 
 * The search page contains [search](objectsintheplanningmodule.md) fields. Click **Search** to display the [list](objectsintheplanningmodule.md) of unavailabilities.
 * The search fields are described in the [unavailabilities](objectsintheplanningmodule.md) form.
@@ -559,7 +541,7 @@ Click **Back** to redisplay the last week's planning you viewed.
 
 This menu lets you search for, [create](objectsintheplanningmodule.md) and [delete](objectsintheplanningmodule.md) [exceptional locations](objectsintheplanningmodule.md).
 
-![Search for exceptional locations](../.gitbook/assets/page-localisation-exceptionnelle.png)
+![Search for exceptional locations](../.gitbook/assets/planning__menu_exclocs.png)
 
 * The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 * The search fields are described in the [exceptional location form](objectsintheplanningmodule.md).
@@ -576,7 +558,7 @@ Unconfirmed exceptional locations can be modified during a [batch optimization](
 
 This page lets you search for, [create](objectsintheplanningmodule.md) and [delete](objectsintheplanningmodule.md) [hotels](objectsintheplanningmodule.md).
 
-![Search screen for hotel locations](../.gitbook/assets/hotel-rechercher.png)
+![Search screen for hotel locations](../.gitbook/assets/planning__menu_hotels.png)
 
 * The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 * The **Close to** field filters on towns that include pre-saved hotels.
@@ -586,8 +568,6 @@ This page lets you search for, [create](objectsintheplanningmodule.md) and [dele
 ## Locked day
 
 This page lets you search for and [create](objectsintheplanningmodule.md) [locked days](objectsintheplanningmodule.md) in the agendas of resources.
-
-![Search screen for locked days](../.gitbook/assets/page-date-controlee.png)
 
 The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 
@@ -604,7 +584,7 @@ Before version 8.4, the application handles only the **Closed** status.
 
 This page lets you search for, [create](objectsintheplanningmodule.md), modify or [delete](objectsintheplanningmodule.md) [agenda markers](objectsintheplanningmodule.md).
 
-![Agenda marker search screen](../.gitbook/assets/jalons-recherche.png)
+![Agenda marker search screen](../.gitbook/assets/planning__menu_markers.png)
 
 * The principle of the search functions is described in the [Search in the Planning module](objectsintheplanningmodule.md) chapter.
 * The search fields are described in the [agenda marker form](objectsintheplanningmodule.md).
@@ -615,7 +595,7 @@ This page lets you search for, [create](objectsintheplanningmodule.md), modify o
 
 For a given worksite, this function lists and maps the last known position of [vehicles](../administration/mobility.md) that have an on-board [tracking device](../administration/mobility.md) [assigned](../administration/mobility.md) to a resource for a given period.
 
-![Vehicles tracking](../.gitbook/assets/suivi-vehicule.png)
+![Vehicles tracking](../.gitbook/assets/planning__menu_vehicles.png)
 
 {% hint style="info" %}
 This function requires the application to be configured with a [positions server](../administration/mobility.md).
@@ -627,7 +607,7 @@ This function calculates a route and displays the route sheet or roadbook.
 
 The first page of the function contains the following fields:
 
-![Compute a route: first page](../.gitbook/assets/calc-iti.png)
+![Compute a route: first page](../.gitbook/assets/planning__menu_route.png)
 
 * **Start** – enter the start address.
 * **Arrival** – enter the arrival address.
@@ -660,7 +640,7 @@ The second page contains the result of the route calculation:
 
 This function calculates the coordinates of an address in latitude/longitude (geographic coordinates).
 
-![Convert coordinates into Lat/Lon](../.gitbook/assets/convert-lat-lon.png)
+![Convert coordinates into Lat/Lon](../.gitbook/assets/planning__menu_latlon.png)
 
 This page contains address fields.
 
@@ -670,7 +650,7 @@ Click **Convert** to run the calculation. The coordinates in latitude/longitude 
 
 This function displays the worksites, vehicles, customers, hotels or appointments near an address.
 
-![Search around: search page](../.gitbook/assets/recherche-environ-1.png)
+![Search around: search page](../.gitbook/assets/planning__menu_nearby.png)
 
 * The page contains an address section.
 * A drop-down list lets you select the type of object you want.
@@ -687,18 +667,11 @@ This function displays the worksites, vehicles, customers, hotels or appointment
 
 This function lets you verify whether the suggested planning is compatible with the current traffic status.
 
-![View of traffic](../.gitbook/assets/traffic-vue.png)
-
 * The ![Display traffic button](../.gitbook/assets/ca-fleche.png) button displays the traffic status corresponding to the view displayed in the [planning](theplanning.md).
 * The ![Legend button](../.gitbook/assets/bouton-legende.png) button displays the legend for the page:
-
-![Traffic legend](../.gitbook/assets/circulation-legende.png)
-
 * The ![Back button](../.gitbook/assets/bouton-retour.png) button takes you back to the preceding traffic status.
 * The ![Refresh traffic button](../.gitbook/assets/recyclage.png) button refreshes the traffic status.
 * Click a check box in the traffic status to open the appointment management page:
-
-![Manage traffic page](../.gitbook/assets/traffic-gerer.png)
 
 The first column shows the confirmed appointment graphically: the ![Appointment position in the planning](../.gitbook/assets/rdv-traffic.png) image represents the position of the appointment in the planning. The appointment concerned is the second item in the image.
 
@@ -718,8 +691,6 @@ Traffic conditions are available only if a graph that permits this is used. The 
 ## Predefined exports list
 
 Predefined exports let you export data in `.csv` format according to the fields predefined in the [application settings](../administration/customization.md).
-
-![Predefined exports list](../.gitbook/assets/liste-exports-predef.png)
 
 You can filter the predefined export on the following fields:
 

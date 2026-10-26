@@ -34,7 +34,7 @@ In edit mode (creation or modification), a form takes the following format.
 
 Example: Customer type form
 
-![Customer type form in edit mode](../.gitbook/assets/creation-type-client.png)
+![Customer type form in edit mode](../.gitbook/assets/planning__obj_custtypeform.png)
 
 * The ![Save button](../.gitbook/assets/bouton-sauvegarder.png) button saves the modifications made in the form.
 * The ![Reset button](../.gitbook/assets/bouton-reinitialiser-recherche.png) button resets the whole form.
@@ -114,7 +114,7 @@ The form also provides the following buttons:
 
 ### Details tab
 
-![Customer form, Details tab](../.gitbook/assets/fiche-client.png)
+![Customer form, Details tab](../.gitbook/assets/planning__obj_cust_details.png)
 
 The **Details** tab contains the general information about the customer: external reference, name (mandatory), orderer, kind, type (mandatory), priority and description.
 
@@ -142,7 +142,7 @@ The information for the main contact is displayed at the bottom of the form.
 
 ### Address tab
 
-![Customer form, Address tab](../.gitbook/assets/adresse-client.png)
+![Customer form, Address tab](../.gitbook/assets/planning__obj_cust_address.png)
 
 The address fields are described in the geocoding topic.
 
@@ -155,7 +155,7 @@ The **Address** tab contains the following additional fields:
 
 ### Contacts tab
 
-![Customer form, Contacts tab](../.gitbook/assets/fiche-client-contact.png)
+![Customer form, Contacts tab](../.gitbook/assets/planning__obj_cust_contacts.png)
 
 This tab lists the saved contacts and provides a frame for modifying the information of the selected contact.
 
@@ -180,7 +180,7 @@ To delete a contact, click the ![Delete button](../.gitbook/assets/bouton-delete
 
 For a specific customer, you can define appointments in advance that are regular appointments. For example, a salesperson must visit their customer at least twice a month, or a technician must perform security checks at least once a year.
 
-![Customer form, Project tab](../.gitbook/assets/definir-un-client-recurrent.png)
+![Customer form, Project tab](../.gitbook/assets/planning__obj_cust_project.png)
 
 The **Project** tab contains the following fields:
 
@@ -202,7 +202,7 @@ The **Project** tab contains the following fields:
 {% hint style="info" %}
 If the application configuration allows it (**Display** tab > **CRM** > `crm.customer.project` > `multipleProjects` set to `TRUE`), the **Project** tab lets you create several projects. You can then take appointments with different repeat settings for the same customer. See [Customization](../administration/customization.md).
 
-<img src="../.gitbook/assets/definir-plusieurs-projets.png" alt="Customer form, multiple projects" data-size="original">
+<img src="../.gitbook/assets/planning__obj_projlist.png" alt="Customer form, multiple projects" data-size="original">
 
 Click the **Add a project** link. The project form includes five tabs:
 
@@ -217,7 +217,7 @@ When data entry is complete, click **Add visit** to make an appointment that is 
 
 ### Assignments tab
 
-![Customer form, Assignments tab](../.gitbook/assets/choix-des-ressources-humaines-pour-un-client-donne.png)
+![Customer form, Assignments tab](../.gitbook/assets/planning__obj_cust_assign.png)
 
 The first part of the tab lets you modify the association of the customer with a worksite.
 
@@ -246,7 +246,7 @@ If the application configuration allows it, you can also require that certain au
 
 ### Timetable tab
 
-![Customer form, Timetable tab](../.gitbook/assets/parametrer-les-horaires-de-disponibilite-d-un-clie.png)
+![Customer form, Timetable tab](../.gitbook/assets/planning__obj_cust_timetable.png)
 
 The customer availability constraint is taken into account to improve the quality of appointment taking.
 
@@ -264,7 +264,7 @@ For a specific day, if all values are set to 00:00 or if the check box for the d
 
 Handling periods of closure for a customer
 
-![Adding a customer closing period](../.gitbook/assets/ajouter-une-periode-de-fermeture-client.png)
+![Adding a customer closing period](../.gitbook/assets/planning__obj_closing.png)
 
 {% hint style="info" %}
 A period of closure is saved automatically when you add it. You do not need to save it again when you return to the customer form.
@@ -286,7 +286,7 @@ You access the orderer form from the customer form or with the orderer search fu
 
 Orderer form in edit mode
 
-![Orderer form in edit mode](../.gitbook/assets/nouveau-commanditaire-client.png)
+![Orderer form in edit mode](../.gitbook/assets/planning__obj_orderer.png)
 
 The orderer form includes two tabs:
 
@@ -315,8 +315,6 @@ Some items of information are mandatory, such as the **Name** and **Town** field
 {% endhint %}
 
 ### Orderer form: Preferences tab
-
-![Orderer form, Preferences tab](../.gitbook/assets/choix-des-ressources-humaines-pour-un-commanditaire-donne.png)
 
 This tab lets you define resource preferences for appointments made with customers associated with this orderer. Select one or several resources in the left-hand pane, then click the right arrow to move them to the right-hand pane.
 
@@ -352,7 +350,7 @@ This tab contains information about the intervention, such as its **identifier**
 
 General
 
-![Appointment form, General tab](../.gitbook/assets/onglet-general.png)
+![Appointment form, General tab](../.gitbook/assets/planning__obj_appt_general.png)
 
 {% hint style="warning" %}
 You can display additional information about the resource, in the map itself or in another window, by clicking the ![Information button](../.gitbook/assets/bouton-informations.png) link.
@@ -364,7 +362,7 @@ This tab summarizes all the relevant information about the customer, such as the
 
 Customer
 
-![Appointment form, Customer tab](../.gitbook/assets/onglet-client.png)
+![Appointment form, Customer tab](../.gitbook/assets/planning__obj_appt_client.png)
 
 {% hint style="warning" %}
 You can access the full customer form by clicking the ![Information button](../.gitbook/assets/bouton-informations.png) link.
@@ -376,7 +374,7 @@ This tab summarizes the information to communicate about the intervention, such 
 
 Communication
 
-![Appointment form, Communication tab](../.gitbook/assets/onglet-communiquer.png)
+![Appointment form, Communication tab](../.gitbook/assets/planning__obj_appt_comm.png)
 
 {% hint style="warning" %}
 When you click the ![Information button](../.gitbook/assets/bouton-informations.png) button next to the type of intervention, an infobox shows the competencies needed to fulfill the intervention. See [Company Data](../administration/companydata.md).
@@ -390,7 +388,7 @@ This tab summarizes the information about the state of play of the intervention 
 
 Fulfilment status
 
-![Appointment form, Fulfilment status tab](../.gitbook/assets/etat-de-realisation.png)
+![Appointment form, Fulfilment status tab](../.gitbook/assets/planning__obj_appt_status.png)
 
 Several statuses are available: **Indeterminate status**, **Unfulfilled**, **Fulfilled** and **Unable to fulfill**. They are described in the "Progression steps" section of [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
 
@@ -404,7 +402,7 @@ Depending on the rights granted to you, this tab lets you associate a document w
 
 Complementary data tab
 
-![Appointment form, Additional data tab](../.gitbook/assets/onglet-donnees-complementaires.png)
+![Appointment form, Additional data tab](../.gitbook/assets/planning__obj_appt_extra.png)
 
 #### Comments tab
 
@@ -412,7 +410,7 @@ This tab lets you add a comment on the intervention. The comment is only availab
 
 Comments tab
 
-![Appointment form, Comments tab](../.gitbook/assets/onglet-commentaires.png)
+![Appointment form, Comments tab](../.gitbook/assets/planning__obj_appt_comments.png)
 
 #### Messages tab
 
@@ -420,7 +418,7 @@ This tab lets you consult the messages exchanged about this intervention and cre
 
 Messages tab
 
-![Appointment form, Messages tab](../.gitbook/assets/onglet-messages.png)
+![Appointment form, Messages tab](../.gitbook/assets/planning__obj_appt_messages.png)
 
 #### Constraints tab
 
@@ -428,7 +426,7 @@ This tab lets you add a chaining constraint to the intervention by clicking the 
 
 Constraints tab
 
-![Appointment form, Constraints tab](../.gitbook/assets/onglet-contraintes.png)
+![Appointment form, Constraints tab](../.gitbook/assets/planning__obj_appt_constraints.png)
 
 The constraints are described in [Setting up liaisons between appointments](objectsintheplanningmodule.md#setting-up-liaisons-between-appointments).
 
@@ -436,7 +434,7 @@ The constraints are described in [Setting up liaisons between appointments](obje
 
 A series of action buttons is available.
 
-![Action buttons of the appointment form](../.gitbook/assets/differents-boutons-dispo.png)
+![Action buttons of the appointment form](../.gitbook/assets/planning__obj_appt_buttons.png)
 
 You can apply the following actions from an appointment form:
 
@@ -453,13 +451,13 @@ You can apply the following actions from an appointment form:
 
     Completion status form
 
-    ![Completion status form](../.gitbook/assets/realization-form.png)
+    ![Completion status form](../.gitbook/assets/planning__obj_appt_report.png)
 * **Transform** – visible whenever the appointment is requested. Opens a page where you can quickly apply pre-configured modifications, such as modifying the earliest and latest dates.
 *   **Modify…** – lets you modify the information items that cannot be edited in the form itself.
 
     Modify appointment form
 
-    ![Modify appointment form](../.gitbook/assets/fiche-rdv-modif.png)
+    ![Modify appointment form](../.gitbook/assets/planning__obj_appt_modify.png)
 
     In this form, **Save** saves the modifications and **Back to the form** takes you back to the appointment form.
 * **Announce** – creates a configurable circulation listener, for example when sending a pre-formatted message to all the customer appointment contacts in the list. See [CSV Files](../administration/csvfiles.md).
@@ -481,7 +479,7 @@ Qualification is the validation of the solution suggested by the application. Wh
 
 Optimization request
 
-![Optimization request screen](../.gitbook/assets/demande-rdv.png)
+![Optimization request screen](../.gitbook/assets/planning__obj_optreq.png)
 
 * Qualification consists of filling in at least the **Intervention type**, the **Duration** of the appointment and a **Description**.
 
@@ -519,7 +517,7 @@ After you qualify the appointment, you can ask the application to calculate the 
 
 Configuration window for the search for an optimized appointment
 
-![Configuration window for an optimized appointment search](../.gitbook/assets/prendre-rdv-ecran-optimise-2.png)
+![Configuration window for an optimized appointment search](<../.gitbook/assets/planning__obj_optreq (1).png>)
 
 The fields are similar to those for the appointment request.
 
@@ -535,7 +533,7 @@ For a multi-resource appointment, if the **Select resources to optimise** option
 
 Result of an optimization with the **Search +** button
 
-![Result of an optimization with Search +](../.gitbook/assets/prendre-rdv-ecran-optimise-6.png)
+![Result of an optimization with Search +](../.gitbook/assets/planning__obj_optresult.png)
 
 {% hint style="info" %}
 If the table is displayed after you use the **Search +** function, a ![Warning symbol](../.gitbook/assets/avertissement.png) symbol indicates that one or several planned appointments must be unplanned once the operation is completed. Move the mouse over the symbol to see the detailed information in a popup.
@@ -568,7 +566,7 @@ Unlike optimized scheduling, manual scheduling forces the resources used, as wel
 
 Manual appointment taking
 
-![Manual appointment taking](../.gitbook/assets/prise-rdv-manuel-1.png)
+![Manual appointment taking](../.gitbook/assets/planning__obj_manual.png)
 
 The first part of the manual scheduling function copies the information from the appointment form.
 
@@ -657,7 +655,7 @@ At the bottom of the appointment form, the **Chaining constraints** section show
 
 Appointment form
 
-![Appointment form with the list of chaining constraints](../.gitbook/assets/chainage-liste.png)
+![Appointment form with the list of chaining constraints](<../.gitbook/assets/planning__obj_appt_constraints (1).png>)
 
 If there are none, you can create one by clicking the ![Add button](../.gitbook/assets/bouton-add.png) button.
 
@@ -722,7 +720,7 @@ You access the unavailability form from:
 
 Unavailabilities management page
 
-![Unavailabilities management page](../.gitbook/assets/page-indisponibilites.png)
+![Unavailabilities management page](<../.gitbook/assets/planning__menu_unavail (1).png>)
 
 The source describes the page as divided into five sections, but only the **General** section is described.
 
@@ -730,7 +728,7 @@ The source describes the page as divided into five sections, but only the **Gene
 
 Choice of unavailability type
 
-![Unavailability form, General section](../.gitbook/assets/indispo-general.png)
+![Unavailability form, General section](../.gitbook/assets/planning__obj_unavail_general.png)
 
 In this section:
 
@@ -829,7 +827,7 @@ If there is a conflict with another unavailability, the application suggests a *
 
 Repeated unavailability form
 
-![Repeated unavailability form](../.gitbook/assets/fiche-d-indisponibilite-repetee.png)
+![Repeated unavailability form](../.gitbook/assets/planning__obj_unavail_repeat.png)
 
 * The fields in the repeated unavailability form are the same as those in the unavailability form.
 * **Back** – returns you to the previous page.
@@ -921,7 +919,7 @@ You access the temporary post form:
 
 Temporary post form
 
-![Temporary post form](../.gitbook/assets/poste-temp.png)
+![Temporary post form](../.gitbook/assets/planning__obj_temppos.png)
 
 The form contains the following fields:
 
@@ -937,7 +935,7 @@ The form contains the following fields:
 {% hint style="warning" %}
 This form applies any changes to the assignment.
 
-<img src="../.gitbook/assets/poste-temp-mod.png" alt="Temporary post form (modification)" data-size="original">
+<img src="../.gitbook/assets/planning__obj_temppos_edit.png" alt="Temporary post form (modification)" data-size="original">
 {% endhint %}
 
 ## Secondary worksites
@@ -1055,8 +1053,6 @@ The creation form and the editing form are identical, except that the editing fo
 
 Creation page for a locked day
 
-![Creation page for a locked day](../.gitbook/assets/page-creation-date-controlee.png)
-
 You can give an identifier to the locked day (**External reference**). Then choose the status and the date. You can also enter a description.
 
 Click **Save** to validate the creation of the locked day.
@@ -1095,7 +1091,7 @@ The search function has a section with the fields you use to filter the search, 
 
 Example: Customer search
 
-![Customer search page](../.gitbook/assets/resultat-recherche-client.png)
+![Customer search page](../.gitbook/assets/planning__obj_custsearch.png)
 
 * The ![Search button](../.gitbook/assets/bouton-recherche.png) button runs the search and displays the results list.
 * The ![Export result button](../.gitbook/assets/bouton-exporter-resultat.png) button exports the table of the search result on customers in `.csv` format.
@@ -1112,7 +1108,7 @@ Click **(+) More criteria** to search for customers by type (active or not) or b
 
 Example: List of appointments
 
-![List of appointments with a filter](../.gitbook/assets/tableau-resultat-filtre.png)
+![List of appointments with a filter](../.gitbook/assets/planning__obj_apptlist_filter.png)
 
 With free text entry in the filter field, you can restrict the table to the elements that match the filter.
 
@@ -1139,7 +1135,7 @@ Depending on your rights, a series of buttons is present at the bottom of the re
 
 Action buttons for appointment lists
 
-![Action buttons for appointment lists](../.gitbook/assets/resultat-de-la-recherche.png)
+![Action buttons for appointment lists](<../.gitbook/assets/planning__menu_apptresults (1).png>)
 
 * **Announce** – creates a configurable circulation listener, for example when sending a pre-formatted message to all the customer appointment contacts in the list. See [CSV Files](../administration/csvfiles.md).
 *   **Change the dates** – modifies the start and end dates of the appointments in the list. You can apply the modification in several ways:
@@ -1169,8 +1165,6 @@ Action buttons for appointment lists
 
     Modify worksites
 
-    ![Modify worksites window](../.gitbook/assets/modifier-ws.png)
-
     In this window, you can change the worksites linked to the appointment.
 * **Modify additional data** – modifies the **Miscellaneous**, **Logical**, **Quantity** and **Dates** fields of the appointments in the list.
 * **Modify statuses** – modifies the status of the appointments in the list. See [The different statuses for appointments in NFS](../introduction/thedifferentstatusesforappointmentsinnfs.md).
@@ -1191,18 +1185,12 @@ Not all status changes are possible with these actions in batch mode. For exampl
 *   **Modify the type** – modifies the customer type. The following window is displayed.
 
     Change customer type
-
-    ![Change customer type window](../.gitbook/assets/modifier-type-client.png)
 *   **Modify the kind** – modifies the customer kind. The following window is displayed.
 
     Change customer kind
-
-    ![Change customer kind window](../.gitbook/assets/modifier-nature.png)
 *   **Change the focus** – modifies the customer focus. The following window is displayed.
 
     Change customer focus
-
-    ![Change customer focus window](../.gitbook/assets/modifier-focus.png)
 * **Change additional data** – changes the **Miscellaneous**, **Logical**, **Quantity** and **Dates** fields of the customers in the list.
 
 ## Create an object in the Planning module

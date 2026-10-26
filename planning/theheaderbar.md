@@ -10,8 +10,6 @@ Click the **star** to activate or deactivate the area favorites defined in the *
 
 Once activated, the selected **resources, teams and worksites** are automatically restricted throughout the module.
 
-![Favorites for the area in the header bar](../.gitbook/assets/favoris.png)
-
 ## Recent appointments
 
 As you browse the planning, the header bar displays the appointments you viewed recently.
@@ -28,11 +26,11 @@ Use this function to quickly identify **urgent appointments**, such as breakdown
 
 You can link the predefined search list to a **warning counter** displayed in the upper section of the application interface. The counter increases each time an appointment that meets the defined criteria is created.
 
-![Counter for the list of breakdown appointments](../.gitbook/assets/liste-des-rdv-depannage.png)
+![Counter for the list of breakdown appointments](../.gitbook/assets/planning__theheaderbar_3.png)
 
 To display the list of urgent appointments as a search form (see [Objects in the Planning Module](objectsintheplanningmodule.md)), click the link in the header bar or the link in [The Information Pane](theinformationpane.md).
 
-![List of urgent appointments](../.gitbook/assets/liste-rdv-urgent.png)
+![List of urgent appointments](../.gitbook/assets/planning__theheaderbar_4.png)
 
 The buttons available in the list of urgent appointments are described in [Objects in the Planning Module](objectsintheplanningmodule.md).
 
@@ -52,7 +50,7 @@ When enabled, the customer counter is displayed in the **header bar**, to the ri
 
 Click the counter to display a search page with the predefined list criteria.
 
-![Result of the customer alert search](../.gitbook/assets/resultat-alerte-clients.png)
+![Result of the customer alert search](../.gitbook/assets/planning__theheaderbar_6.png)
 
 The list of matching customers is displayed in the same way as for a standard customer search (see [Menu](menu.md)).
 
