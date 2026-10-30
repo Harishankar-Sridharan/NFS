@@ -1,9 +1,49 @@
-# Introduction
+---
+description: Nomadia Field Service user guide.
+---
 
-This User Guide describes the features and usage of NFS as available at the time of publication. Features and functionality may be updated or modified without prior notice.
+# Nomadia Field Service
 
-The software described in this guide is provided under a software license agreement. You may not use, copy, reproduce or transfer the software except as permitted by the terms of that agreement. Copying the NFS application to a disk or any other storage medium is prohibited, except when required for the purchaser's authorized use of the software.
+Welcome to the Nomadia Field Service user documentation.
 
-NFS is a registered trademark of Nomadia Group SAS.
+Nomadia Field Service is a web application for planning field operations. It lets you schedule appointments, assign them to field workers, track planning and appointment completion, and manage your organization's data.
 
-The screenshots in this User Guide are provided for illustration purposes only. The screens and available options may vary depending on your assigned access rights and on the configuration or options selected.
+This documentation presents the application features and the procedures required to use them.
+
+## Who is this documentation for?
+
+This documentation is intended for authorized Nomadia Field Service users, including:
+
+* planners, who schedule appointments and organize planning;
+* team managers and supervisors, who monitor activity;
+* administrators, who manage resources and reference data.
+
+## Documentation structure
+
+The documentation follows the application's module structure:
+
+| Area                | Content                                                |
+| ------------------- | ------------------------------------------------------ |
+| Introduction        | Sign-in, general navigation, and appointment statuses  |
+| Portal              | Home dashboard                                         |
+| Planning            | Planning screen and field-worker schedules             |
+| Appointments        | Creating, searching, viewing, and editing appointments |
+| Customers           | Creating, searching, and viewing customers             |
+| Unavailabilities    | Declaring and searching unavailabilities               |
+| Availabilities      | Field-worker availability calendar                     |
+| Supervision         | Activity monitoring, log, and dashboards               |
+| Fulfilment          | Comparing planned and completed work                   |
+| Report              | Report and form templates                              |
+| Administration      | Human resources, teams, and reference data             |
+| Imports and exports | CSV file import and export                             |
+
+## Conventions used
+
+* Menu, button, tab, and field names appear in **bold**.
+* Paths use the `Module > Menu > Page` format.
+* Fields marked with an asterisk (\*) in the application are required.
+* Data displayed in screenshots is fictional.
+
+{% hint style="info" %}
+Displayed modules, menus, and actions may vary according to your profile permissions and environment configuration.
+{% endhint %}

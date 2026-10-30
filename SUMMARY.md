@@ -1,117 +1,98 @@
 # Table of contents
 
+* [Nomadia Field Service](README.md)
+
 ## Introduction
 
-* [Introduction](README.md)
-* [Defining Terms](introduction/definingterms.md)
-* [Presentation of the Reference Guide](introduction/presentationofthereferenceguide.md)
-* [Running the Application](introduction/runningtheapplication.md)
-* [The different statuses for appointments in NFS](introduction/thedifferentstatusesforappointmentsinnfs.md)
-
-## The Header Bar
-
-* [The Header Bar](the-header-bar/guided-help-nfs-reference-guide-1.md)
-* [Change the Area](the-header-bar/change-area-nfs-reference-guide.md)
-* [Change the password](the-header-bar/change-the-password-nfs-reference-guide.md)
-* [Disconnection](the-header-bar/disconnection-nfs-reference-guide.md)
+* [Overview](introduction/overview.md)
+* [Sign in](introduction/sign-in.md)
+* [Navigate the application](introduction/navigate-the-application.md)
+* [Understand appointment statuses](introduction/appointment-statuses.md)
 
 ## Portal
 
 * [Portal](portal/portal.md)
-* [Home Page](portal/homepage.md)
-* [Planning](portal/planning.md)
-* [Appointment Form](portal/appointmentform.md)
-* [Tasks to be performed](portal/taskstobeperformed.md)
-* [Team Alerts](portal/teamalerts.md)
-* [Week](portal/week.md)
-* [Month](portal/month.md)
-* [Team Schedule](portal/teamschedule.md)
-* [Area Schedule](portal/areaschedule.md)
-* [Worksite Schedule](portal/worksiteschedule.md)
-* [Multi-Resource Schedule](portal/multiresourceschedule.md)
-* [Unavailabilities](portal/unavailabilities.md)
-  * [One-off unavailabilities](portal/oneoffunavailabilities.md)
-  * [Regular unavailabilities](portal/regularunavailabilities.md)
-  * [Adding an unavailability](portal/addinganunavailability.md)
-  * [Adding a multi-resource unavailability](portal/addinganmultiresourceunavailability.md)
-  * [The unavailability form](portal/unavailabilityform.md)
-  * [Unplanning or reassigning appointments](portal/unplanningorreassigningappointments.md)
-* [Visit Reports](portal/visitreports.md)
-* [Road Book](portal/roadbook.md)
-* [Global Optimization](portal/globaloptimization.md)
-* [Legend](portal/legend.md)
-* [NFS Mobile Application](portal/nfsmobileapplication.md)
 
 ## Planning
 
-* [Planning](planning/planning.md)
-* [Objects in the Planning Module](planning/objectsintheplanningmodule.md)
-* [The Header Bar](planning/theheaderbar.md)
-* [Map](planning/map.md)
-* [The Information Pane](planning/theinformationpane.md)
-* [Menu](planning/menu.md)
-* [The Planning](planning/theplanning.md)
+* [Planning overview](planning/planning-overview.md)
+* [View the schedule](planning/view-the-schedule.md)
+* [Manage an appointment from the schedule](planning/manage-an-appointment-from-the-schedule.md)
+* [Manage search views](planning/manage-search-views/README.md)
+  * [Configure a view with the wizard](planning/manage-search-views/configure-a-view-with-the-wizard.md)
+  * [Create an administrator view](planning/manage-search-views/create-an-administrator-view.md)
+  * [Create a user view](planning/manage-search-views/create-a-user-view.md)
+  * [Edit, copy, or delete a view](planning/manage-search-views/edit-copy-or-delete-a-view.md)
+* [Resource monitoring](planning/resource-monitoring/README.md)
+  * [Display route indicators in the resource mini-card](planning/resource-monitoring/display-route-indicators-in-the-resource-mini-card.md)
+  * [View the resource activity table](planning/resource-monitoring/view-the-resource-activity-table.md)
 
-## Supervisor
+## Appointments
 
-* [Supervisor](supervisor/planning-1.md)
-* [Home Page](supervisor/homepage.md)
-* [Journal](supervisor/journal.md)
-* [Control Panel](supervisor/controlpanel.md)
-* [Control Panel - Configure](supervisor/controlpanelconfigure.md)
-* [Control Panel - Interventions](supervisor/controlpanelinterventions.md)
-* [Control Panel - Scheduling Summary by Day](supervisor/controlpanelschedulingsummarybyday.md)
-* [Control Panel - Scheduling Summary By Week](supervisor/controlpanelschedulingsummarybyweek.md)
-* [Control Panel - Availabilities](supervisor/controlpanelavailabilities.md)
-* [Control Panel - Appointment taking Quantity](supervisor/controlpanelappointmenttakingquantity.md)
-* [Control Panel - Appointment taking Quality](supervisor/controlpanel-appointmenttakingquality.md)
-* [Control Panel - Targets](supervisor/controlpanel-targets.md)
-* [Analyses - Customer Distance Matrix](supervisor/analyses-customerdistancematrix.md)
-* [Analyses - Customer Centre of Gravity Matrix](supervisor/analyses-customercentreofgravitymatrix.md)
-* [Analyses - Unavailabilities Global Planning](supervisor/analyses-unavailabilitiesglobalplanning.md)
-* [Analyses - Scheduling Compliance](supervisor/analyses-schedulingcompliance.md)
-* [Analyses - Overtimes](supervisor/analysesovertimes.md)
+* [Appointments overview](appointments/appointments-overview.md)
+* [Schedule an appointment](appointments/schedule-an-appointment.md)
+* [Schedule an appointment manually](appointments/schedule-an-appointment-manually.md)
+* [Search for appointments](appointments/search-for-appointments.md)
+* [View an appointment record](appointments/view-an-appointment-record.md)
+* [Edit an appointment](appointments/edit-an-appointment.md)
 
-## Attendance
+## Customers
 
-* [Attendance](attendance/attendance.md)
-* [Modifying a Planning Manually](attendance/modifyingaplanningmanually.md)
-* [Home Page](attendance/attendance-homepage.md)
+* [Customers overview](customers/customers-overview.md)
+* [Create a customer](customers/create-a-customer.md)
+* [Search for a customer](customers/search-for-a-customer.md)
+* [View and use a customer record](customers/view-and-use-a-customer-record.md)
 
-## Sectorization
+## Unavailabilities
 
-* [Sectorization](sectorization/sectorization.md)
+* [Unavailabilities overview](unavailabilities/unavailabilities-overview.md)
+* [Create an unavailability](unavailabilities/create-an-unavailability.md)
+* [Search for unavailabilities](unavailabilities/search-for-unavailabilities.md)
+
+## Availabilities
+
+* [Availabilities](availabilities/availability.md)
+
+## Supervision
+
+* [Supervision overview](supervision/supervision-overview.md)
+* [Track past and upcoming appointments](supervision/track-past-and-upcoming-appointments.md)
+* [View the log](supervision/view-the-log.md)
+* [Configure and view dashboards](supervision/configure-and-view-dashboards.md)
 
 ## Fulfilment
 
 * [Fulfilment](fulfilment/fulfilment.md)
 
-## Tracking
+## Report
 
-* [Tracking](tracking/tracking.md)
+* [Report module overview](report/report-overview.md)
+* [Generate appointment reports](report/generate-appointment-reports.md)
+* [Prepare a report Word template](report/prepare-a-report-word-template.md)
 
 ## Administration
 
-* [Administration](administration/administration.md)
-* [Home Page](administration/administration-homepage.md)
-* [General Principles](administration/generalprinciples.md)
-* [Company Data](administration/companydata.md)
-* [Optimization](administration/optimisation.md)
-* [Mobility](administration/mobility.md)
-* [User Handling](administration/userhandling.md)
-* [Customization](administration/customization.md)
-* [CSV Files](administration/csvfiles.md)
-* [Tools](administration/tools.md)
-* [Nomadia API](administration/nomadiaapi.md)
-* [My Nomadia](administration/mynomadia.md)
+* [Administration overview](administration/administration-overview.md)
+* [Manage human resources](administration/manage-human-resources.md)
+* [Manage resource and job types](administration/manage-resource-and-job-types.md)
+* [Manage subcontractors, equipment and products](administration/manage-subcontractors-equipment-and-products.md)
+* [Manage teams](administration/manage-teams.md)
+* [Manage geographic organization](administration/manage-geographic-organization.md)
+* [Configure unavailability and exceptional location types](administration/configure-unavailability-and-exceptional-location-types.md)
+* [Configure on-call duties](administration/configure-on-call-duties.md)
+* [Manage skills and authorizations](administration/manage-skills-and-authorizations.md)
+* [Configure interventions](administration/configure-interventions.md)
+* [Manage objectives, activity monitoring, and typologies](administration/manage-objectives-activity-monitoring-and-typologies.md)
+* [Manage calendars](administration/manage-calendars.md)
+* [Configure optimization](administration/configure-optimization.md)
+* [Manage mobility](administration/manage-mobility.md)
+* [Manage profiles and permissions](administration/manage-profiles-and-permissions.md)
+* [Customize the application](administration/customize-the-application.md)
+* [Manage exchange files](administration/manage-exchange-files.md)
+* [Use administration tools](administration/use-administration-tools.md)
 
-## Appendices
+## Imports and exports
 
-* [Appendices](appendices/appendices.md)
-* [Access Rights](appendices/accessrights.md)
-* [Optimization Parameters](appendices/optimizationparameters.md)
-* [Customizable Parameters](appendices/customizableparameters.md)
-
-## Glossary
-
-* [Glossary](glossary/glossary.md)
+* [Imports and exports overview](imports-and-exports/imports-and-exports-overview.md)
+* [Export a CSV file](imports-and-exports/export-a-csv-file.md)
+* [Import a CSV file](imports-and-exports/import-a-csv-file.md)

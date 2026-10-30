@@ -1,27 +1,32 @@
+---
+description: Compare a resource's planned and completed day.
+---
+
 # Fulfilment
 
-## Overview
+The Fulfilment module displays the planned stages of a resource's day and their completion for a selected date.
 
-The Fulfilment module lets you track the fulfilment of routes in real time. It uses the uploads sent from the field by users of the NFS Mobile app who are on their rounds visiting customers.
+## Access the module
 
-![Fulfilment module home page](../.gitbook/assets/fulfilment__fulfilment__1.png)
+**Navigation:** `Application launcher > Fulfilment`
 
-## Prerequisites
+## Use the feature
 
-You can access the Fulfilment module only if the [corresponding right](../administration/userhandling.md) (**Fulfilment** tab > **Perimeter** > `FULFILMENT_GUEST` right) is associated with your user profile.
+1. Select the resource from the list at the top left.
+2. Select the date using the calendar.
+3. Check that **View** is set to **Fulfilment**.
 
-## Route page layout
+![Fulfilment module with planned and completed stages for a resource](/broken/files/4U9ftB4o0RqDsnvaPAS5)
 
-The page is divided into two areas: the navigation bar at the top and the list of visits below it.
+## Read the table
 
-### Navigation bar
+The table has two parts.
 
-The navigation bar is at the top of the page. Use it to display the route of one resource on a chosen date.
+* The left part describes the plan: **No.**, **Stage**, **Address**, **Scheduled on**, **from**, **to**, **Duration**, and **Driving duration**.
+* The right part describes completion: **No.**, **Completed**, **Start time**, **End time**, **Duration**, **Driving duration**, and **Status**.
 
-### List of visits
+Stages include **Start of day**, **Break**, numbered appointments, and **End of day**. The **Status** column displays a coloured label, such as **Received** or **Sent**.
 
-The list below the navigation bar shows the visits to be completed on the selected route, along with information about how each visit is progressing. It includes the following columns:
+## Notes
 
-* **Start time:** Shows the time at which the mobile app user confirmed the start of the visit using the **Begin** action.
-* **End time:** Shows the time at which the mobile app user confirmed the end of the visit using the **Finish** action.
-* **Status:** Shows the current status of the visit. The value depends on the actions the mobile app user has performed in the mobile app.
+* The icon to the right of the **View** list refreshes the display.

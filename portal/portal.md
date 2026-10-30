@@ -1,21 +1,43 @@
+---
+description: View the Portal home dashboard.
+---
+
 # Portal
 
-## Overview
-
-The Portal is a simplified NFS module designed for mobile staff. It provides access to the essential features they need to manage their appointments and daily activities.
-
-With the Portal, mobile staff can:
-
-* View their appointment schedules and record relevant information in their planning.
-* Record visit reports for completed or uncompleted appointments.
-* Reschedule appointments that have been placed on hold.
-* Record their periods of unavailability.
-* Download or view their roadbook.
-
-The Portal also provides team leaders with a monitoring tool. They can view each team member's planning, monitor appointments and send emails when issues arise, such as missed or overlooked appointments.
+The Portal displays a dashboard summarizing field-worker attendance, daily activity, and workload for the coming weeks.
 
 ## Access the Portal
 
-Click **Portal** at the top left of the header bar (see [The Header Bar](../the-header-bar/guided-help-nfs-reference-guide-1.md)).
+**Navigation:** `Application launcher > Portal`
 
-![Portal in the menu](../.gitbook/assets/portal__portal__1.png)
+## Read the dashboard
+
+The **Welcome to the dashboard** page contains several areas.
+
+![Portal dashboard with user card, alerts, and daily activity indicators](/broken/files/sf549fQChAHHJvKdpp2h)
+
+### User card
+
+The card displays your name, site, and username. It contains:
+
+* a site selection button offering **All** or your site;
+* the **Sign out** button.
+
+### Alert indicators
+
+Three indicators display these counts:
+
+* **immediate unavailability**;
+* **overdue appointment**;
+* **urgent appointment**.
+
+### Daily attendance and activity
+
+* The **Daily attendance** tile displays the attendance rate and the number of **Present**, **Partially absent**, and **Absent** workers.
+* The **Daily activity** tiles display the number of **Scheduled appointments** and **Completed appointments**, first for all activity, then by intervention type or group.
+
+### Forecast workload
+
+The **Forecast workload for the next 3 weeks** area displays a weekly bar chart. Hover over a week to view a tooltip with **Hourly capacity**, **Forecast workload**, and **Delta**.
+
+![Bar chart of forecast workload for the next three weeks with tooltip](/broken/files/S9Pa0ktaAXyN7DzerOUt)
