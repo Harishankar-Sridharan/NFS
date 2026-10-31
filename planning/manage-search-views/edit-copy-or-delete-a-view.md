@@ -19,16 +19,12 @@ You can also select **Edit MySearch** from a view’s results list. This require
 | **Delete**    | Not available.                                                                         | **Delete** removes the view **immediately, without confirmation**.         |
 | **Home page** | Select the checkbox, then select **Save changes** at the top of the page.              | Select the checkbox, then select **Save changes** at the top of the page.  |
 
-![User tab with a view’s Edit, Copy, and Delete buttons](/broken/files/D1bbO1LFRCuUnrIBSglf)
-
 ## Edit a view
 
 1. Select the view’s pencil icon, or select **Edit MySearch** from its results list.
 2. The wizard opens with the view name in its title and the saved settings.
 3. Update the required steps. When editing, **Save changes** is available on every step.
 4. Select **Save changes**, then close the window.
-
-![Wizard open for editing an existing view](/broken/files/dAF80cSUKjqRia2Lrhm9)
 
 For details about each step, see [Configure a view with the wizard](configure-a-view-with-the-wizard.md).
 

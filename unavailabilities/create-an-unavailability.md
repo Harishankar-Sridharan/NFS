@@ -22,13 +22,13 @@ The **Unavailability management** panel appears on the left. The schedule on the
 6. Enter an **Address** and **Comments** if needed.
 7. Select **Add unavailability**.
 
-![Unavailability management panel with General, Recurrence, Address, and Comments sections](/broken/files/q3Jb7w0xJKRDR9jd4qdJ)
+![Unavailability management panel with General, Recurrence, Address, and Comments sections](../.gitbook/assets/en_unavailability_panel.png)
 
 ## Result
 
 The unavailability appears in the resource schedule and in the list below it, with its start and end times and type.
 
-![Unavailability added and displayed in the resource schedule](/broken/files/n1Lxa8lk29IsvoXbJig4)
+![Unavailability added and displayed in the resource schedule](../.gitbook/assets/en_unavailability_schedule.png)
 
 ## Notes
 

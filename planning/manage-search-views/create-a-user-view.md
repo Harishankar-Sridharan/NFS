@@ -23,19 +23,13 @@ A user view is a personal list, such as “My scheduled appointments today”. I
 5. Select **Save changes**, then close the window.
 6. The view appears in the **User** tab list. Optional: select or clear **Home page**, then select **Save changes** at the top of the page.
 
-![User tab with a personal view and its Edit, Copy, and Delete buttons](/broken/files/D1bbO1LFRCuUnrIBSglf)
-
 ## Find the view
 
 The view appears at the end of the **Appointments** section in the module menu. It uses the name you chose and appears after status searches. If it does not appear immediately, refresh the page.
 
-![Personal view displayed at the end of the Appointments section](/broken/files/sK5KVL9hZYQj5D8QvyyZ)
-
 When the counter is enabled, the view also appears as a card on the home screen. It uses your selected counter icon and name.
 
 The results list shows the view criteria at the top of the page. You can adjust them temporarily and select **Search** without changing the view. **Export** and **Edit MySearch** are also available.
-
-![Personal-view results list with criteria, selected columns, and bulk actions](/broken/files/UhY9sV2achYY24a178Xr)
 
 {% hint style="info" %}
 A user view is strictly personal. Other users cannot see or share it. To create a shared view, create an [administrator view](create-an-administrator-view.md).

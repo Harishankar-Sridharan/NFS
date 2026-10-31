@@ -16,13 +16,9 @@ Unavailability search finds declared unavailabilities by resource, type, status,
 2. Enter the **From** and **To** dates in **Date**.
 3. Select **Search**.
 
-![Search for an unavailability panel](/broken/files/6FuclCcnisuTkLFYRaSo)
-
 ## Result
 
 The **Unavailability management** page shows the number of unavailabilities found. The table displays the **External reference**, **Type**, **Resource**, **Status**, **City**, the person who entered the unavailability (**Entered by**), **Date / Time**, and **Duration**.
-
-![List of found unavailabilities](/broken/files/bgewyKMu4iFBUod0Nm7p)
 
 ## Notes
 

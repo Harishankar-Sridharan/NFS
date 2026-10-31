@@ -22,7 +22,7 @@ Hover over the appointment in the schedule. A window displays the time, interven
 | i                   | Open the intervention record   |
 | Person              | Open the customer record       |
 
-![Appointment hover window in the schedule](/broken/files/syuF3po4c6ljHv2kL7BO)
+![Appointment hover window in the schedule](../.gitbook/assets/en_appt_hover.png)
 
 ## Change an appointment status
 
@@ -30,7 +30,7 @@ Hover over the appointment in the schedule. A window displays the time, interven
 2. Select the **Change intervention status** icon.
 3. Select the action to apply: **Book**, **Confirm**, **Unplan**, **Reactivate**, **Suspend**, or **Delete**.
 
-![Appointment status-change menu](/broken/files/IRr9uz8NMPnlTeFfZbrN)
+![Appointment status-change menu](../.gitbook/assets/en_appt_status_menu.png)
 
 Select **Back** to close the menu without changing the status.
 

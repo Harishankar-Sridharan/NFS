@@ -22,7 +22,7 @@ An **intervention type** corresponds to the task completed during an appointment
 3. If needed, complete **Abbreviation**, **Color**, and **Description**.
 4. Select **Save**.
 
-![Intervention group record](/broken/files/MKI7pMIcrMHv9sjSTzD1)
+![Intervention group record](../.gitbook/assets/en_intervention_group.png)
 
 ## Create an intervention type
 
@@ -34,7 +34,7 @@ An **intervention type** corresponds to the task completed during an appointment
 6. Select the required **Skills**.
 7. Select **Save**.
 
-![Intervention type record, Information tab](/broken/files/xrZ15n2LOBoqsGvoZ9GE)
+![Intervention type record, Information tab](../.gitbook/assets/en_mission_type.png)
 
 | Field                           | Values                                                                                                                                                          |
 | ------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |

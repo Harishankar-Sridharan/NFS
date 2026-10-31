@@ -17,7 +17,7 @@ The edit record lets you update appointment data, such as description, earliest 
 3. In the **Edit record**, update the required fields.
 4. Select **Save**.
 
-![Appointment edit record](/broken/files/IC0sFEo6l7VHS3xpyjgI)
+![Appointment edit record](../.gitbook/assets/en_appt_edit.png)
 
 The edit record includes **Description**, **Earliest date**, **Latest date**, **Customer name**, **Requester**, **Last name**, **First name**, **Home phone**, **Work phone**, **Mobile phone**, **Email**, **Fax**, **Priority**, **Required field worker(s)**, **Marked**, **With appointment**, **Urgent**, quantities, and miscellaneous fields.
 

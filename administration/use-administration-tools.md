@@ -33,7 +33,7 @@ These tools affect the entire application. Restrict them to administrators and u
 
 **Search routes in error** is also available.
 
-![Recalculate distance and time](/broken/files/130fSmPlDXAsh6TKlSbE)
+![Recalculate distance and time](../.gitbook/assets/en_recompute.png)
 
 ## Advanced tools
 
@@ -53,8 +53,6 @@ These actions affect the entire application. Use them only at support's request.
 ## Configure mapping services
 
 The **Mapping settings** page has **General**, **Geocoding**, **Routing**, and **Mapping** tabs. The **General** tab contains **Plate**, **SRS**, and **Coordinate source**. Select **Save** after changing settings.
-
-![Mapping settings, General tab](/broken/files/pI4nq8rnCPHTHu848Yh8)
 
 ## Other tools
 

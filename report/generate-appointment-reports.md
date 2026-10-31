@@ -34,7 +34,7 @@ Nomadia Field Service can automatically produce an appointment report in PDF for
 | `REPORTMANAGEMENT_UPDATE` | Ability to update a report template |
 | `REPORTMANAGEMENT_DELETE` | Ability to delete a report template |
 
-![Reports tab of a permission collection with report management permissions](/broken/files/wxqMFEn3f8uOvTYh6YoI)
+![Reports tab of a permission collection with report management permissions](../.gitbook/assets/en_reports_permissions.png)
 
 4. For profiles that publish reports, open the **Scheduling** tab, then the **Appointments** section. Select `CALLCENTER_PUBLISH_REPORT` (**Allow report publication**).
 5. Select **Save**.
@@ -47,8 +47,6 @@ Nomadia Field Service can automatically produce an appointment report in PDF for
 2. In the **Template** tab, enter the template name in the **Name** field.
 3. Select the folder icon (**Select a file**) and choose your Word file.
 4. Select **Add** to upload the file.
-
-![Create a report template, Template tab](/broken/files/piB20EM2DHpCJYnecH3S)
 
 * **Download** retrieves the template Word file.
 * The trash icon (**Deselect a file**) removes the selected file.
@@ -67,7 +65,7 @@ Edit the Word file, then upload the new version from the report template.
 3. For `triggerPrepareReport`, select **on**.
 4. Select **Save**.
 
-![triggerPrepareReport setting of the appointment completion agent](/broken/files/jeQyQkq3U0NTYrs8Eb8A)
+![triggerPrepareReport setting of the appointment completion agent](../.gitbook/assets/en_trigger_prepare_report.png)
 
 {% hint style="warning" %}
 Application configuration applies to all users. Have your environment administrator approve this change.
@@ -87,7 +85,7 @@ To make forms available in the mobile application:
 2. Enable `useSurveyReports` (**Fill survey reports?**).
 3. Select **Save**.
 
-![useCombinedMissions and useSurveyReports settings](/broken/files/swtgIzo2mLV0TUUEXYaG)
+![useCombinedMissions and useSurveyReports settings](../.gitbook/assets/en_otmobile_settings.png)
 
 The technician can then see forms available for their appointment in the mobile application's **Report** tab.
 
@@ -99,6 +97,6 @@ To combine several appointments in a single report:
 2. Set `lastAchievedCombinedMissionMappedField` to a number from 1 to 15. This number identifies the appointment's additional logical field that identifies the last appointment.
 3. Select **Save**.
 
-![lastAchievedCombinedMissionMappedField setting](/broken/files/d7vmeepxdvowJZXHCfzV)
+![lastAchievedCombinedMissionMappedField setting](../.gitbook/assets/en_last_achieved.png)
 
 The report is generated when the last appointment ends.

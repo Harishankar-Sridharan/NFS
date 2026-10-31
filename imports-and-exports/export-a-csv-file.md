@@ -18,7 +18,7 @@ This feature exports data for an item type. You choose the fields and file forma
 4. In **CSV formatting**, check the file settings.
 5. Select **Export**.
 
-![Export a CSV file page](/broken/files/xVYasEBbtwzuRoCjOOwo)
+![Export a CSV file page](../.gitbook/assets/en_export_csv.png)
 
 ## Formatting settings
 

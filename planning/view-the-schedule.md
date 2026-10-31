@@ -12,7 +12,7 @@ For each field worker, the schedule displays appointments, unavailabilities, and
 
 To display the schedule across the full screen width, use the expand icon at the top right of the panel.
 
-![Expanded week-view schedule with a team's field workers](/broken/files/WVCfZC2ZsdKCYyG9dlvH)
+![Expanded week-view schedule with a team's field workers](../.gitbook/assets/en_schedule_week_expanded.png)
 
 ## Choose the display
 
@@ -24,11 +24,11 @@ The schedule's top bar contains three lists.
 | Period        | **Day**, **Week**                                                                     |
 | Level         | **Worksite**, **Sector**, **Team**, **Field worker**, **Region**, **Multi-resources** |
 
-![Calendar type list](/broken/files/nTzqP3Pv1P6Y9ikSavvr)
+![Calendar type list](../.gitbook/assets/en_schedule_calendar_type.png)
 
-![Display period list](/broken/files/zjpXDp5AjcEhnOipH5Rh)
+![Display period list](../.gitbook/assets/en_schedule_period.png)
 
-![Display level list](/broken/files/NOZ5Ay1H6LNa2L0VofIf)
+![Display level list](../.gitbook/assets/en_schedule_level.png)
 
 To the right of the lists, select the item to display, such as the team or field worker.
 
@@ -41,7 +41,7 @@ To the right of the lists, select the item to display, such as the team or field
 
 In **Day** view, a time scale appears at the top of the schedule. Each row represents a field worker.
 
-![Day-view schedule with appointments, an unavailability, and lunch breaks](/broken/files/x659lwDBTfACALJHv3TW)
+![Day-view schedule with appointments, an unavailability, and lunch breaks](../.gitbook/assets/en_schedule_day.png)
 
 * Appointments display their start and end times.
 * Unavailabilities display their type, such as **CALLBACK** or **LEAVE**.
@@ -59,7 +59,7 @@ Select the **⋮** icon to the right of a field worker's name. The menu offers:
 * **Display locked days**;
 * **Resource mini-card**.
 
-![Field worker menu in the schedule](/broken/files/hz3Iz3KMB9ALwMSzN6NJ)
+![Field worker menu in the schedule](../.gitbook/assets/en_schedule_worker_menu.png)
 
 ## View a field worker's mini-card
 
@@ -68,7 +68,7 @@ Select the **⋮** icon to the right of a field worker's name. The menu offers:
 
 The mini-card displays the field worker's name and employee number. It includes the **CONTACT**, **TASKS**, **EQUIPMENT**, **ASSIGNMENT**, **INFO**, **HOURS**, **ROUTES**, **ECOLOGY**, **SKILLS**, and **VEHICLE** tabs. The **CONTACT** tab displays the mobile number, work email, address, and field-worker color.
 
-![Resource mini-card open on the Contact tab](/broken/files/lnhrDxcyhNJaDHKIoG64)
+![Resource mini-card open on the Contact tab](../.gitbook/assets/en_resource_minicard.png)
 
 Displayed tabs depend on the application configuration. To display the **QUOTA** tab and additional indicators, see [Display route indicators in the resource mini-card](resource-monitoring/display-route-indicators-in-the-resource-mini-card.md).
 

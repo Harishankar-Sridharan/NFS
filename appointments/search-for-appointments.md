@@ -24,7 +24,7 @@ The **Search for an appointment** panel provides these criteria:
 * **Earliest date**, **Latest date**, **Entry date**;
 * **Miscellaneous 1** through **Miscellaneous 3**, and **Additional logic 1**.
 
-![Search for an appointment panel with the status list open](/broken/files/YfrJSIaoB2781aV0O4c6)
+![Search for an appointment panel with the status list open](../.gitbook/assets/en_appt_search_status.png)
 
 1. Enter one or more criteria.
 2. Select **Search**.
@@ -39,7 +39,7 @@ A search without criteria can return many appointments and take time. Enter at l
 
 The **Appointments found** page shows the number of appointments found and displays them in pages. Set the rows per page above the table.
 
-![Appointments found list with bulk actions](/broken/files/JspT0cyUMCidjV8FF563)
+![Appointments found list with bulk actions](../.gitbook/assets/en_appt_found_bulk.png)
 
 * Sort a column with arrows in its header.
 * Filter a column with the field below its header.

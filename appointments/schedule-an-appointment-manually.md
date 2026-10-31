@@ -25,7 +25,7 @@ The **Manual scheduling** screen appears.
 4. Choose **exact** or **from**.
 5. Select **Continue**.
 
-![Manual scheduling screen](/broken/files/SaaM8hOWc5sGS9gQu82r)
+![Manual scheduling screen](../.gitbook/assets/en_manual_scheduling.png)
 
 ## Result
 
@@ -37,7 +37,7 @@ The application checks the requested slot. If constraints are not met, messages 
 
 The **Force appointment** button then appears next to **Continue**.
 
-![Validation messages after Continue, with the Force appointment button](/broken/files/nTcca3aH4bTnNee7pvDL)
+![Validation messages after Continue, with the Force appointment button](../.gitbook/assets/en_manual_validation.png)
 
 ## Points to note
 

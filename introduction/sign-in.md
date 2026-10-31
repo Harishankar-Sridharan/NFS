@@ -17,8 +17,6 @@ Have the application address and your credentials ready. Your administrator prov
 3. Enter your password. Use the eye icon to display the entered password.
 4. Select **Sign in**.
 
-![Nomadia Field Service sign-in page with username and password fields and sign-in buttons](/broken/files/3YpclReaK4oC5zru98bG)
-
 ## Sign in with single sign-on
 
 If your organization uses single sign-on, select **Sign in with SAML**.

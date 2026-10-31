@@ -17,11 +17,11 @@ The **Search for a human resource** page provides the following criteria: **Last
 1. Enter the desired criteria.
 2. Select **Search**.
 
-![Human resources search page](/broken/files/gq0d4zAb6e6RlGvxpScE)
+![Human resources search page](../.gitbook/assets/en_hr_search.png)
 
 The list displays **Last name**, **First name**, **User**, **Profile**, **Region**, **Workplace**, and **Badge number**.
 
-![Human resources list](/broken/files/2ScuB8m2YDtiUpsYn5Rh)
+![Human resources list](../.gitbook/assets/en_hr_list.png)
 
 The **Create a human resource** and **Export** buttons are available at the top of the search page.
 
@@ -29,7 +29,7 @@ The **Create a human resource** and **Export** buttons are available at the top 
 
 Select a row in the list. The **Human resource** record opens on the **Information** tab.
 
-![Information tab of a human resource record](/broken/files/32cpy5mQgx0o8kHxMAqB)
+![Information tab of a human resource record](../.gitbook/assets/en_hr_info.png)
 
 The record contains these tabs: **Information**, **Assignment**, **Address**, **User**, **Scope**, **Typical week**, **Limits**, **Relay point**, **Skills**, **Authorizations**, **Priorities**, **Positions**, **Activity smoothing**, **Preferences**, **Vehicle**, and **Customers**.
 
@@ -51,7 +51,7 @@ The **Typical week** tab provides a table for each day of the week:
 * **Working day**;
 * **Overnight stay possible**, **Lunch break location**, and **Night work**.
 
-![Typical week tab of a human resource record](/broken/files/z9b6QCqj8rFlDZ2w7alk)
+![Typical week tab of a human resource record](../.gitbook/assets/en_hr_week.png)
 
 Below the table:
 

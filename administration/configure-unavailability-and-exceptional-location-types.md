@@ -23,7 +23,7 @@ The unavailability-type list displays **Name**, **Region**, **Group name** and *
 3. Configure the options below.
 4. Select **Save**.
 
-![Unavailability-type record](/broken/files/2iOQJUkuQ3Tm7FGkeVYZ)
+![Unavailability-type record](../.gitbook/assets/en_unavailability_type.png)
 
 | Field                                                            | Values                  |
 | ---------------------------------------------------------------- | ----------------------- |
@@ -63,5 +63,3 @@ According to the **Color** tooltip, colour applies correctly only to items with 
    * **Maximum evening overrun to justify an overnight stay**.
 4. Complete the **Address** section. **Postcode** and **City** are required. Then select **Validate address**.
 5. Select **Save**.
-
-![Create an exceptional location type](/broken/files/adLc5Vy0pIHvzRNvGs5R)

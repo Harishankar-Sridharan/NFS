@@ -25,8 +25,6 @@ An administrator view provides a shared appointment list for a group of users. F
 7. Optional: show the view as a card on the home screen. Select the row’s **Home page** checkbox, then select **Save changes** at the top of the page.
 8. Give the users who need the view the **Access to MySearch N appointment list** permission. Use the same number, N.
 
-![General searches tab with MySearch 1 to 15 and the edit pencil](/broken/files/HN1krtVcvKo44hf2OkeB)
-
 The view replaces “MySearch N appointment list” in the **Appointments** menu for users with access.
 
 {% hint style="warning" %}

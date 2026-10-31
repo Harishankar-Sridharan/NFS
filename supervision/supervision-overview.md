@@ -24,7 +24,7 @@ The left menu provides these entries:
 
 When you open the module, the dashboard displays indicators for total, completed, scheduled, and requested appointments, charts, and a detailed table. The displayed period appears at the top right.
 
-![Supervision module dashboard with indicators and charts](/broken/files/g64pO1znNJg1ZxxDLpVr)
+![Supervision module dashboard with indicators and charts](../.gitbook/assets/en_supervision_dashboard.png)
 
 {% hint style="info" %}
 Some dashboard labels appear in English.

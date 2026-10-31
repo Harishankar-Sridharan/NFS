@@ -20,8 +20,6 @@ Choose the criteria that select appointments for the view.
 4. Select the **Operator**, enter the **Value**, then select **OK**.
 5. If needed, select **Hidden** to apply the criterion without showing it in results. Select **!NOT** to invert the criterion.
 
-![Edit criterion window for the Status field, with Planned and Confirmed values](/broken/files/RvCgG8KhZ1EBT6z5KLEI)
-
 Available operators depend on the field: equals, between, less than, greater than, in, like, contains, is null, and not null. Some fields accept only one operator. For some fields, **!NOT** is marked as unsupported.
 
 | Field type                     | Value entry                                                                                                                                                                                                                                                                             |
@@ -31,11 +29,7 @@ Available operators depend on the field: equals, between, less than, greater tha
 | Value list, such as Status     | Select one or more values. Remove **--All--** to keep only the selected values.                                                                                                                                                                                                         |
 | List without predefined values | Separate values with **commas**.                                                                                                                                                                                                                                                        |
 
-![Edit criterion window for a date, with relative-value input help](/broken/files/uWZ6AiT5K1DhqPOktGpC)
-
 Use the arrows on each row to change the criterion order. Use the bin to remove a criterion.
-
-![Filters step with two criteria: Status and From](/broken/files/utluzJVdurSYO6djWDRZ)
 
 {% hint style="warning" %}
 At least one criterion is required. Otherwise, the message “There must be at least one criterion” appears.
@@ -48,8 +42,6 @@ Choose the fields shown in the results table.
 1. In the tree, select the fields to display. They are added to the **Selected columns** list.
 2. Select a column and use the buttons below the list to move it: first, up, down, last, or remove.
 
-![Columns step with five selected columns](/broken/files/09k7xfqR08AVsD4oyscW)
-
 The column order also defines the CSV export order.
 
 {% hint style="warning" %}
@@ -60,8 +52,6 @@ At least one column is required: “There must be at least one column.”
 
 Enable the actions available on each results row: **Selection list**, **Appointment basket**, **Map**, **Calendar**, **Schedule appointment**, and **Tracking**. All actions are enabled by default except **Tracking**.
 
-![Optional actions step with result-row action toggles](/broken/files/m6w2RbgvWLyx3PyyincL)
-
 ## Step 4: Bulk actions
 
 Enable the bulk actions available below the results list. They are grouped into three categories:
@@ -69,10 +59,6 @@ Enable the bulk actions available below the results list. They are grouped into 
 * **Edit** actions, enabled by default: **Move dates**, **Edit arrival times**, **Edit resources**, **Edit skills**, **Edit priority**, **Change requested manpower**, **Edit work site**, **Edit additional data**, and **Edit duration**. Only **Edit with appointment** is disabled by default.
 * **Status change** actions, disabled by default: unschedule, unconfirm, revive cancelled appointments, or set the status to **Requested**, **Suspended**, **Cancelled**, **Accepted**, **Reserved**, **Confirmed**, or **Completed**.
 * **Other actions**: **Schedule** is enabled by default. **Subcontract** and **Announce** are disabled.
-
-![Bulk actions step, Edit category](/broken/files/PH9p5gAOIs7B7gDyNegV)
-
-![Bulk actions step, Status change and Other actions categories](/broken/files/gYoLJQdkqkDxI8NUvVD8)
 
 {% hint style="info" %}
 A user can use a bulk action only when it is enabled here and they have the required permission.
@@ -89,19 +75,13 @@ A user can use a bulk action only when it is enabled here and they have the requ
 | **Show counter**         | Shows the view as a counter card on the home screen. It displays the **Counter name** and **Counter icon** fields.       |
 | **Hide counter value**   | For user views only. Shows the card without the appointment count. It is enabled by default when you enable the counter. |
 
-![Proceed step with a view name and the counter enabled](/broken/files/hAhd8YMFi7CwLIiXLbgc)
-
 **Counter icon** offers seven icons: **counter**, **account**, **alert**, **chart\_pie**, **flag**, **format\_list\_bulleted**, and **message\_alert**.
-
-![List of available counter icons](/broken/files/xVXIgpwqcCOfYdEUQRE9)
 
 ## Save and close
 
 1. Select **Save changes**. When creating a view, this button appears only on the **Proceed** step. When editing, it is available on every step.
 2. The **MySearch was created successfully.** or **MySearch was saved successfully.** message confirms the operation.
 3. Close the window with the cross in the upper-right corner.
-
-![Confirmation message after saving a view](/broken/files/pHqNB3oGA8sc9BY9P8Yu)
 
 * If a criterion, column, or name is missing, the wizard returns to the step that needs correction.
 * If you close the window without saving, the application asks you to confirm.

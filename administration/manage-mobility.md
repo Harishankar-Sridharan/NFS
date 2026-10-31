@@ -20,7 +20,7 @@ The **Mobility** group describes vehicles and tracking equipment, such as GPS un
 
 The list can be filtered by **Region**, **Work site**, **Fleet**, and **Type**. It displays each vehicle's **Name**, **Region**, **Work site**, **Fleet**, **Type**, and **Description**.
 
-![Vehicle list](/broken/files/7rEKAM9x0Hr1tqJT5U8Q)
+![Vehicle list](../.gitbook/assets/en_vehicles.png)
 
 1. Select **Create a vehicle**, or select a vehicle from the list.
 2. On the **Information** tab, enter the **Name** and **Region**.
@@ -31,7 +31,7 @@ The list can be filtered by **Region**, **Work site**, **Fleet**, and **Type**. 
 4. Complete the **Quota** tab if needed.
 5. Select **Save**.
 
-![Vehicle record, Information tab](/broken/files/032VlY8qhm0vQsHPgFo7)
+![Vehicle record, Information tab](../.gitbook/assets/en_vehicle_record.png)
 
 ## Manage tracking equipment
 
@@ -46,7 +46,7 @@ The **Assign a field worker to tracking equipment or a vehicle** page lists exis
 
 The list displays the **Field worker**, **Vehicle**, **Tracking equipment**, and assignment period (**Start date**, **Start time**, **End date**, **End time**). Each column has a **Search** field.
 
-![Vehicle and tracking-equipment assignments](/broken/files/y3AkMx5qz23L48xSgIKB)
+![Vehicle and tracking-equipment assignments](../.gitbook/assets/en_assignments.png)
 
 ## Configure tracking
 

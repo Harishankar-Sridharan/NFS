@@ -23,7 +23,7 @@ Each list displays **Name**, **Region**, and **Description**. The **Region** fil
    * **In a team**: **at least one resource must have it** or **all must have it**.
 4. Select **Save**.
 
-![Skill record, Information tab](/broken/files/l9kBzqWnJ44Vctgvgeu7)
+![Skill record, Information tab](../.gitbook/assets/en_skill_info.png)
 
 Tooltips explain the options:
 
@@ -37,7 +37,7 @@ Tooltips explain the options:
 
 The **Resources** tab in the record lists resources with the skill. It includes their **Type**, **Region**, **Worksite**, and period (**Start date**, **End date**).
 
-![Skill Resources tab](/broken/files/yBoqkIoPk9aPmiGw9alK)
+![Skill Resources tab](../.gitbook/assets/en_skill_resources.png)
 
 ## Create an authorization
 

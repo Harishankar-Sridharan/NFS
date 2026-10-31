@@ -29,7 +29,7 @@ The **Appointment record** title is followed by the service type. Information is
 | **Messages**          | Messages linked to the appointment.                                                                                                                                      |
 | **History**           | Appointment history.                                                                                                                                                     |
 
-![Scheduled appointment record with action buttons](/broken/files/1I05E5MSTX0Y7aKFKbve)
+![Scheduled appointment record with action buttons](../.gitbook/assets/en_appt_record.png)
 
 ## Use scheduled-appointment actions
 

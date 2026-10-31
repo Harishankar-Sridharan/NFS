@@ -30,7 +30,7 @@ These settings apply to all users. Record a setting's original value before chan
 
 The **Reset** button is available next to **Save**.
 
-![Application configuration filtered by a setting](/broken/files/yVOz2DclnNxWhkmKB1fR)
+![Application configuration filtered by a setting](../.gitbook/assets/en_app_settings_filter.png)
 
 {% hint style="warning" %}
 A changed setting affects the entire application. Change only settings whose effects you understand, and test the result.
@@ -43,20 +43,18 @@ The **Label Files** page has two tabs.
 * **Download**: each label file (`.properties`) is listed with the **Download label file** button.
 * **Update**: select the changed file with the Folder button (**Choose a file…**), then select **Update**.
 
-![Download label files tab](/broken/files/cnULN8MqX7qXKfiNulMT)
-
 ## Manage themes
 
 The **Theme List** page displays the **Theme Name** of each theme.
 
-![Theme list](/broken/files/sPNn2v4A2Gxc2LIYHuYI)
+![Theme list](../.gitbook/assets/en_themes.png)
 
 1. Select **New theme**, or select a theme from the list.
 2. Enter the **Theme Name**.
 3. Enter the **CSS Definitions** in the editor.
 4. Select **Save**.
 
-![Edit a theme](/broken/files/Eq3GpQF35BMwxxos6z36)
+![Edit a theme](../.gitbook/assets/en_edit_theme.png)
 
 On the **Edit theme** page, the **Delete theme** button deletes the displayed theme.
 
@@ -69,7 +67,7 @@ The **Reference data colors** page assigns a color to each company data item. It
 3. Choose the color with the picker, or enter its hexadecimal code, for example `#2944a3`.
 4. Select **Save**.
 
-![Reference data colors](/broken/files/q2oIUIXuDoXgR2ssXuwf)
+![Reference data colors](../.gitbook/assets/en_referential_colours.png)
 
 {% hint style="info" %}
 Loading this page can take several seconds.
@@ -84,6 +82,6 @@ The **Application colors** page defines common display colors in four sections:
 * **Schedule**: travel time, public holiday, lunch break, non-working hours, days of the week, appointment markers…;
 * **Application appearance**: **Banner**.
 
-![Application colors](/broken/files/BGR6wM8DWCZM3YijMy21)
+![Application colors](../.gitbook/assets/en_app_colours.png)
 
 Select **Save** to apply the changes.

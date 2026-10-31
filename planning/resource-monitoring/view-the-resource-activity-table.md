@@ -15,8 +15,6 @@ Two permissions control this feature. They are in the permissions collection und
 | `CALLCENTER_PLANNING_ACTIVITY_BOARD`               | Allows displaying the activity table in schedules. |
 | `CALLCENTER_PLANNING_ACTIVITY_BOARD_CONFIGURATION` | Allows configuring activity-table columns.         |
 
-![Activity-table permissions in a permissions collection](/broken/files/1J2p4L5FuPs15Dvp1GVz)
-
 **Navigation:** `Administration > Users > Permissions collection`
 
 1. Open the permissions collection for the relevant profile.
@@ -28,11 +26,7 @@ Two permissions control this feature. They are in the permissions collection und
 **Navigation:** `Planning`, schedule panel.
 
 1. Display the required schedule. Choose the period, **Day** or **Week**, and level, such as **Team**, **Field worker**, or **Multi-resources**.
-2. In the schedule toolbar, select the chart icon, **Activity table**. If the icon is hidden, select the arrow to the left of the icons to show hidden buttons.
-
-![Activity table icon in the schedule toolbar](/broken/files/74mjJJnlBBwIoDOp8zNK)
-
-The **Activity table** window opens. Its header shows the displayed item, team or field worker, and the period.
+2. In the schedule toolbar, select the chart icon, **Activity table**. If the icon is hidden, select the arrow to the left of the icons to show hidden buttons.The **Activity table** window opens. Its header shows the displayed item, team or field worker, and the period.
 
 ## Read the table
 
@@ -40,13 +34,9 @@ The **Activity table** window opens. Its header shows the displayed item, team o
 
 Each row represents a field worker displayed in the schedule. The **Total** row adds the team’s counts, durations, and distances.
 
-![Team activity table with one row per field worker](/broken/files/34XWtEaFvYvFuZSwjWAQ)
-
 ### Field-worker schedule
 
 Each row represents a day in the displayed period, shown in the **Date** column. This lets you track the field worker’s daily activity.
-
-![Field-worker activity table with one row for each weekday](/broken/files/8pEwB5Tbkoo3XQ5dSEyW)
 
 ### Available columns
 
@@ -74,8 +64,6 @@ This configuration requires the `CALLCENTER_PLANNING_ACTIVITY_BOARD_CONFIGURATIO
 2. Clear columns to hide them, or select columns to display. A cleared column moves to the bottom of the list.
 3. To change column order, drag a row by the handle on its left.
 4. Select **Save**, or **Cancel** to close without changing anything.
-
-![Column configuration window with checkboxes and drag handles](/broken/files/ZB4R67rgEYhKuBpn9f4Q)
 
 The table immediately reflects your selection and order. The configuration is retained the next time you open it.
 

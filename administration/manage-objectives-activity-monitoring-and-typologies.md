@@ -27,7 +27,7 @@ The **Objectives** page has three tabs: **Human resource**, **Worksite**, and **
 2. Enter the **Region**, the relevant item, such as **Human resource**, and the **Start date** / **To** period.
 3. Select **Search**.
 
-![Objective search](/broken/files/VHTjVqbEJwEOd3im1wqj)
+![Objective search](../.gitbook/assets/en_targets_search.png)
 
 ## Create an objective
 
@@ -38,7 +38,7 @@ The **Objectives** page has three tabs: **Human resource**, **Worksite**, and **
 5. Enter the **From** / **To** period and the **Value**.
 6. Select **Save**.
 
-![Create an objective](/broken/files/JOe0WL3dtb5GPB29SBnN)
+![Create an objective](../.gitbook/assets/en_create_target.png)
 
 The **Type** field includes **Maximum daily working-time occupancy rate (in %)**, **Revenue**, **Number of appointments booked**, **Number of appointments**, **Daily revenue**, **Daily number of appointments**, **Daily number of appointments booked**, and **Daily number of meetings**.
 
@@ -52,7 +52,7 @@ Both entries work the same way: the entry form appears at the top of the page an
 
 The **Save completed** notification appears and the value appears in the list below the form.
 
-![Completion statuses page with a created value](/broken/files/COyhcYKa56dS5Qq2PzWX)
+![Completion statuses page with a created value](../.gitbook/assets/en_completion_status.png)
 
 By default, **Region** is `All regions`. The **All**, **None**, and **Invert selection** links help select rows.
 
@@ -63,5 +63,3 @@ By default, **Region** is `All regions`. The **All**, **None**, and **Invert sel
 3. Choose the **Entity name**, such as `APPOINTMENT`, `CUSTOMER`, `RESOURCE`, or `WORKSITE`, then the **Field name**.
 4. If needed, choose a **Parent field** and enter a **Description**.
 5. Select **Save**.
-
-![Create a typology](/broken/files/TCbgK1BHBfQm7tOFpp8E)

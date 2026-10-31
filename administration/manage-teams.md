@@ -20,7 +20,7 @@ The teams list displays the **Name**, **Region** and **Description** columns. Us
 4. Optionally complete **Abbreviation**, **Description** and **Time zone**.
 5. Select **Save**.
 
-![Create a new team, Information tab](/broken/files/pwuZlIFQJCTjvE1GgK1e)
+![Create a new team, Information tab](../.gitbook/assets/en_create_team.png)
 
 **Name** and **Service region** are required.
 
@@ -28,10 +28,10 @@ The teams list displays the **Name**, **Region** and **Description** columns. Us
 
 The **Save completed** notification appears. The team record displays the **Information**, **Members**, **Team leader** and **Parent team** tabs, as well as the **Return to list**, **Deactivate**, **Duplicate** and **Save** buttons.
 
-![Saved team with tabs and buttons](/broken/files/Upfbt8n4Z550gQdjRItL)
+![Saved team with tabs and buttons](../.gitbook/assets/en_team_saved.png)
 
 ## View members
 
 Select the **Members** tab. For a new team, the list displays **Empty list!**. The **Add** button is available beneath the list.
 
-![Members tab for a new team](/broken/files/iijY2NnURjF3N8DTmUB2)
+![Members tab for a new team](../.gitbook/assets/en_team_members.png)

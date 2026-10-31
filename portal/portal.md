@@ -14,7 +14,7 @@ The Portal displays a dashboard summarizing field-worker attendance, daily activ
 
 The **Welcome to the dashboard** page contains several areas.
 
-![Portal dashboard with user card, alerts, and daily activity indicators](/broken/files/sf549fQChAHHJvKdpp2h)
+![Portal dashboard with user card, alerts, and daily activity indicators](../.gitbook/assets/en_portal_dashboard.png)
 
 ### User card
 
@@ -40,4 +40,4 @@ Three indicators display these counts:
 
 The **Forecast workload for the next 3 weeks** area displays a weekly bar chart. Hover over a week to view a tooltip with **Hourly capacity**, **Forecast workload**, and **Delta**.
 
-![Bar chart of forecast workload for the next three weeks with tooltip](/broken/files/S9Pa0ktaAXyN7DzerOUt)
+![Bar chart of forecast workload for the next three weeks with tooltip](../.gitbook/assets/en_portal_forecast.png)

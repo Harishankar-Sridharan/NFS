@@ -18,7 +18,7 @@ The screen has three panels:
 * at the top right, the map;
 * at the bottom right, the field-worker schedule.
 
-![Planning module home screen with shortcuts, map, and schedule](/broken/files/aSnvqQ3HS8IhZgH87eLC)
+![Planning module home screen with shortcuts, map, and schedule](../.gitbook/assets/en_planning_home_screen.png)
 
 When opened, the workspace displays:
 
@@ -29,7 +29,7 @@ When opened, the workspace displays:
 
 Select **Planning**, next to the logo, to open the module menu.
 
-![Planning module menu open on the Appointments section](/broken/files/kqpxo43bKOecAvB3dE3H)
+![Planning module menu open on the Appointments section](../.gitbook/assets/en_planning_module_menu.png)
 
 | Section          | Entries                                                                                                                                                                                                                                                     |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

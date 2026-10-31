@@ -27,7 +27,7 @@ Filter both lists by **Region** and **Work site**.
 6. If needed, select **Start of day**, **Middle of day**, **End of day**, or **Apply custom hours**.
 7. Select **Save**.
 
-![Create an on-call day template](/broken/files/GEGUpimoMExdFR7O5QuC)
+![Create an on-call day template](../.gitbook/assets/en_oncall_day.png)
 
 ## Create an on-call week template
 
@@ -39,7 +39,7 @@ Filter both lists by **Region** and **Work site**.
 6. In the table, select a day template for each day. The table displays **Level** and the **Start of day**, **Middle of day** and **End of day** slots.
 7. Select **Save**.
 
-![Create an on-call week template](/broken/files/4FiKEyXNUfEMshJmbrGD)
+![Create an on-call week template](../.gitbook/assets/en_oncall_week.png)
 
 {% hint style="info" %}
 The **Transfer schedule** tooltip states that it specifies an exact time. It is ignored when set to `00:00`, because selecting a **Transfer time** is usually sufficient.

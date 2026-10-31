@@ -28,14 +28,14 @@ The bottom bar displays today's date and language on the left. It shows the acti
 1. Select the application launcher at the top left.
 2. Select the module to open.
 
-![Open application launcher with the module list](/broken/files/mrAuy0GCRpOjqD8tOlk6)
+![Open application launcher with the module list](../.gitbook/assets/en_app_launcher.png)
 
 ## View recently viewed items
 
 1. Select the star in the top bar.
 2. In the **Recently viewed** list, select the item to reopen.
 
-![Recently viewed list with viewed appointments](/broken/files/kMLa4KzWuFHs18gBDOs7)
+![Recently viewed list with viewed appointments](../.gitbook/assets/en_recently_viewed.png)
 
 ## Use the user menu
 
@@ -45,7 +45,7 @@ Select the user icon at the top right. The menu displays your username and these
 * **Region favorites**;
 * **Sign out**.
 
-![Open user menu](/broken/files/RDhqk6NBcDUDJPmLaAsu)
+![Open user menu](../.gitbook/assets/en_user_menu.png)
 
 ## Change the language or theme
 
@@ -54,7 +54,7 @@ Select the user icon at the top right. The menu displays your username and these
 3. Choose the **Language** and **Theme**.
 4. Select **OK** to apply, or **Close** to cancel.
 
-![User settings window with Language and Theme lists](/broken/files/LqF8M406rJUIDgLwOr0L)
+![User settings window with Language and Theme lists](../.gitbook/assets/en_user_settings.png)
 
 ## Expand or collapse a panel
 

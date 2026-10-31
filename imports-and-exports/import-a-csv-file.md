@@ -19,7 +19,7 @@ This feature imports a CSV file into Nomadia Field Service.
 5. Select the folder icon to choose the file.
 6. Select **Update**.
 
-![Import a CSV file page](/broken/files/xFZRnFsvKKg0kb9TgWZ2)
+![Import a CSV file page](../.gitbook/assets/en_import_csv.png)
 
 ## Important notes
 

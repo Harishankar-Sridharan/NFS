@@ -28,7 +28,7 @@ The **Service type to perform** screen appears.
 4. Check the **Duration**. It is prefilled from the selected service type.
 5. If needed, complete **Required skill(s)**, **Required field worker(s)**, and **Priority**.
 
-![Service type to perform screen with service types and duration](/broken/files/gsKIFphpxLmR5txFcNcQ)
+![Service type to perform screen with service types and duration](../.gitbook/assets/en_service_type.png)
 
 6. Choose the scheduling mode:
 
@@ -54,7 +54,7 @@ The **Optimization settings** screen appears.
 6. Select or clear weekdays, **Mon** through **Sun**.
 7. Select **Search**.
 
-![Optimization settings screen](/broken/files/z1F2lHpD3Gp2u968hD7L)
+![Optimization settings screen](../.gitbook/assets/en_optim_settings.png)
 
 The **Save these values for future reoptimization** checkbox is selected by default.
 
@@ -65,11 +65,9 @@ The **Optimization results** screen lists **Found slots**. Each slot shows the *
 1. Select the required slot row.
 2. Select **OK** on that row.
 
-![Optimization results with proposed time slots](/broken/files/YV88nIsa7d4VNZYat5QG)
-
 If no slot is suitable, **Other actions** offers **Set status to Suspended**, **Set status to Requested**, and **Subcontract**. **Manual scheduling** is also available.
 
-![Other actions menu in optimization results](/broken/files/kT5emvyk1vyLuNeDY52t)
+![Other actions menu in optimization results](../.gitbook/assets/en_optim_other_actions.png)
 
 ## Confirm the appointment
 
@@ -83,13 +81,9 @@ The appointment record appears with the **Scheduling in progress** status. The f
 | **Confirm**          | Confirms the appointment.                                      |
 | **Confirm and send** | Confirms and sends the appointment.                            |
 
-![Appointment record with Scheduling in progress status](/broken/files/D7crHnuDKUJxmOZT6P7K)
-
 1. Select the required button, such as **Schedule**.
 2. Select **OK** in the confirmation message.
 
 ## Result
 
 The **Appointment is scheduled.** message appears and the appointment status becomes **Scheduled**. The appointment appears in the field worker’s schedule, and the customer record’s **Next visit date** is updated.
-
-![Appointment record after scheduling](/broken/files/4nl7mhSAHejgnZY4z0kX)

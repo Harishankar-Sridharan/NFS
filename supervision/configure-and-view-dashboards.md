@@ -22,7 +22,7 @@ The **Dashboard > Search criteria** page has four tabs.
 1. Enter criteria on each tab.
 2. Select **Validate**.
 
-![Human resources tab in the dashboard configuration](/broken/files/5ifQBj8aS3cZnmLKRdNI)
+![Human resources tab in the dashboard configuration](../.gitbook/assets/en_dashboard_config_hr.png)
 
 {% hint style="info" %}
 The **Activities** and **Other** tabs state that their configuration is not used in schedule summary tables.
@@ -38,7 +38,7 @@ The page recalls the current configuration, including resource, week, dates, reg
 2. To add a second level, enable **Detail by** and choose the criterion.
 3. Select **Apply**.
 
-![Appointments table with Display by and Detail by options](/broken/files/4iJixpZG9PdtPjKoR5SX)
+![Appointments table with Display by and Detail by options](../.gitbook/assets/en_dashboard_appointments.png)
 
 The table displays **Number**, **Time**, **Travel time**, **Travel distance (km)**, and **Revenue**, with their percentages, for appointments and each unavailability type.
 

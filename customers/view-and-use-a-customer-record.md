@@ -22,7 +22,7 @@ The following buttons appear below the customer information:
 * **Weekly calendar**;
 * **Monthly calendar**.
 
-![Customer record with action buttons](/broken/files/7uShhu6Ak6DJwLpHbH8g)
+![Customer record with action buttons](../.gitbook/assets/en_customer_record.png)
 
 To schedule an appointment, see [Schedule an appointment](../appointments/schedule-an-appointment.md).
 
@@ -35,7 +35,7 @@ The page shows these indicators for the period: **Number of appointments**, **To
 
 The appointment list appears below the indicators. Hover over a row to display appointment details. Select **•••** to open its record.
 
-![Customer appointment list with appointment details on hover](/broken/files/hPO6PXHZQCwLAjTq8uYX)
+![Customer appointment list with appointment details on hover](../.gitbook/assets/en_customer_appointments.png)
 
 ## Notes
 

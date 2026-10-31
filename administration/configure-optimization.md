@@ -35,7 +35,7 @@ These settings change optimization results for every affected area. Have each ch
 4. Edit the values. The information icon on each row displays parameter help.
 5. Select **Save**.
 
-![Optimization parameters, common parameters](/broken/files/Dz9TPCQyAcUMIA7cVyVx)
+![Optimization parameters, common parameters](../.gitbook/assets/en_optim_params.png)
 
 Common parameters include **Hourly cost**, **Kilometer cost**, **Initial cost of the day**, **Late penalty**, **Confirmation delay (in days)**, **Reservation delay (in days)**, **Cost of a non-favorite day**, **Cost of a non-favorite resource**, **Cost of a night away from home**, and **Minimum travel duration to justify an overnight stay**.
 
@@ -55,15 +55,11 @@ The **Optimization scheduling** page contains the following tabs:
 | **Journal**           | Search the optimization journal by **Result**, **Area**, **Name**, and **Period**                                              |
 | **Viewer**            | Viewer tab                                                                                                                     |
 
-![Optimization scheduling Service tab](/broken/files/JhHFlwWYCkZ8SmbirJSk)
-
 In the **Service** tab, the **Possible manual optimizations** area offers **Filter resources**, **Choose a new interval**, **Choose a new duration**, and **Choose the heuristic** before starting an optimization with **Start**.
 
 ### Create a scheduled optimization
 
 The **Optimization** tab lists scheduled optimizations with their **Name** and **Area**.
-
-![Optimization scheduling Optimization tab](/broken/files/oi0pPT7QXgjcPvFteOiE)
 
 1. In the **Optimization** tab, select **Create an optimization**, or select an optimization from the list.
 2. Enter the **Name**, **Area**, **Worksite**, and **Optimization parameters** profile.
@@ -74,8 +70,6 @@ The **Optimization** tab lists scheduled optimizations with their **Name** and *
 5. Set the options: optimization engine, **Active**, **Optimization type** (**Fast** or **Total**), **Simulation**, **Generate recurring appointments before optimization**, **Generate overnight stays before optimization**, **Move visits as early as possible**, **Use sales periods**.
 6. Add a **Trigger event** and, if needed, an **Activation period**.
 7. Select **Save**.
-
-![Scheduled optimization record](/broken/files/7fOsrDB0FLHiB494niRZ)
 
 According to the tooltips:
 
@@ -92,7 +86,7 @@ The **Activate/Deactivate an area** page lists areas with their **Status**.
 
 The **Refresh** and **Cut signals** buttons are also available.
 
-![Activate or deactivate an area](/broken/files/ymLSEYQQn5SXHzSQIcxz)
+![Activate or deactivate an area](../.gitbook/assets/en_enable_area.png)
 
 ## Export or import a global optimization
 

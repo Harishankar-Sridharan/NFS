@@ -23,7 +23,7 @@ Each list displays the **Name**, **Region**, and **Description** columns. Use th
 
 To edit an existing type, select its row in the list. All tabs then become directly available.
 
-![Information tab of a resource type](/broken/files/a6byYlKlvmpQMaeGoMwP)
+![Information tab of a resource type](../.gitbook/assets/en_resource_type_info.png)
 
 The record contains these tabs:
 
@@ -43,7 +43,7 @@ The **Overall time limit** section provides:
 
 The following collapsible sections complete the configuration: **Cumulative intervention time** with maximum duration per **Day**, **Week**, and **Month**, expressed as `%` or `HH:mm`, in **Single** or **Detailed** mode; **Schedule fill rate**; **Cumulative travel time**; **Daily travel constraints**; **Overnight stay settings**; and **Time reserve**.
 
-![Limits tab of a resource type](/broken/files/s0ux5fB2mvYTn92T0MfM)
+![Limits tab of a resource type](../.gitbook/assets/en_resource_type_limits.png)
 
 ### Priorities tab
 
@@ -55,7 +55,7 @@ The table lists each intervention type, preceded by its group, with three column
 
 Column filters restrict the list. **Reset** clears the filters.
 
-![Priorities tab of a resource type](/broken/files/fGNzkOBonClIAHtPbMvQ)
+![Priorities tab of a resource type](../.gitbook/assets/en_resource_type_priorities.png)
 
 ## Configure a job type
 
@@ -68,7 +68,7 @@ Creating a job type uses several pages.
 
 **Default location** provides these values: **Position not entered but required**, **At home**, **At the workplace**, and **No position required**.
 
-![Saved job type record](/broken/files/druRSrM6Ml4muS3l8UOX)
+![Saved job type record](../.gitbook/assets/en_job_type.png)
 
 The **Work week** and **Priorities** tabs work like those of a resource type.
 

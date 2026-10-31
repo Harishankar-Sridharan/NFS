@@ -23,12 +23,12 @@ The **Log configuration** page appears.
 4. To limit results, enable **Limit display to** and choose the number of **last actions**.
 5. Select **Validate**.
 
-![Log configuration page](/broken/files/VUe5I7Zk2cSRl9mkjFdS)
+![Log configuration page](../.gitbook/assets/en_log_config.png)
 
 ## Result
 
 The **Search result** page displays the data **Type**, **Identifier**, **Modification date and time**, **Author**, and completed **Action** for each entry.
 
-![Log search result](/broken/files/PcyQf3kExdjnIpFTOl2w)
+![Log search result](../.gitbook/assets/en_log_result.png)
 
 The **Back** button is available below the table.

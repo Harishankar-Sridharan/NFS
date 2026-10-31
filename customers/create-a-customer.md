@@ -20,7 +20,7 @@ The **Edit customer > New customer** screen opens on the **Details** tab.
 2. If needed, complete **External reference**, **Requester**, **Nature**, **Type**, **Priority**, and **Description**.
 3. If needed, enter the **Last visit** and **Next visit date**.
 
-![Details tab for creating a customer](/broken/files/uSFZAde93d8vN0sMAj02)
+![Details tab for creating a customer](../.gitbook/assets/en_create_customer_details.png)
 
 ## Enter and validate the address
 
@@ -28,11 +28,11 @@ The **Edit customer > New customer** screen opens on the **Details** tab.
 2. Enter the **Address**, **Postcode**, **City**, and **Country**. Postcode and city are required.
 3. Select **Validate address**.
 
-![Address tab for creating a customer](/broken/files/bZNA9iPyNrYBhmHS5scv)
+![Address tab for creating a customer](../.gitbook/assets/en_create_customer_address.png)
 
 4. In the **Address search** window, select the matching address under **Choose an address**.
 
-![Address search window with proposed addresses](/broken/files/WNuOkqFZhYiWKteDVh1k)
+![Address search window with proposed addresses](../.gitbook/assets/en_address_search.png)
 
 The address, postcode, city, and **X, Y coordinates** are then filled in. **Initial entry** keeps the text you entered.
 
@@ -56,6 +56,6 @@ Select **Save**.
 
 The **Saved successfully...** message appears. The screen title shows the customer name. New buttons appear at the bottom of the record, including **Create an appointment**.
 
-![Customer record after saving, with action buttons](/broken/files/2jMnd9AnLLxt5RyJy5bS)
+![Customer record after saving, with action buttons](../.gitbook/assets/en_customer_after_save.png)
 
 For the next steps, see View and use a customer record.

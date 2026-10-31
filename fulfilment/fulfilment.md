@@ -16,7 +16,7 @@ The Fulfilment module displays the planned stages of a resource's day and their 
 2. Select the date using the calendar.
 3. Check that **View** is set to **Fulfilment**.
 
-![Fulfilment module with planned and completed stages for a resource](/broken/files/4U9ftB4o0RqDsnvaPAS5)
+![Fulfilment module with planned and completed stages for a resource](../.gitbook/assets/en_fulfilment.png)
 
 ## Read the table
 

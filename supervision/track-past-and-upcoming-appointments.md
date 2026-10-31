@@ -19,6 +19,6 @@ The **Track past and upcoming appointments** page is followed by the region name
 
 The **Cumulative** column totals the values in each row. The **Total** row totals the weeks.
 
-![Track past and upcoming appointments page](/broken/files/7hnLwObU15wBSY498t6e)
+![Track past and upcoming appointments page](../.gitbook/assets/en_supervisor_home.png)
 
 Each number colour corresponds to a category shown in the legend below the table.

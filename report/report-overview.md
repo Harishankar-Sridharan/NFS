@@ -17,8 +17,6 @@ The module has two tabs:
 
 Each tab displays its template list, with **Actions**, **Report title**, **Status**, **Creation date**, **Worksite**, **Intervention group**, and **Intervention type** columns. The **Form template** tab also displays the **Required** column. The number of templates appears below the list under **Total**.
 
-![Form template list](/broken/files/YvYzLn9VLpQlr3ckbkox)
-
 ## Create a form template
 
 1. Select the **Form template** tab.
@@ -32,8 +30,6 @@ The form editor appears in English. It includes:
 * an element list on the left for multiple choices, lists, scales, input fields, panels, and more;
 * the build area in the centre, with **Add Question**;
 * the form properties panel on the right.
-
-![Form template editor](/broken/files/62jc0nLUsnBVxHiCP1oy)
 
 ## In this section
 

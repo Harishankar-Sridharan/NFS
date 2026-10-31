@@ -49,8 +49,6 @@ The **View managers** menu appears only with permission `1445` or `1446`. Only u
 3. Select **View managers**.
 4. Choose the relevant module and entry.
 
-![View managers menu](/broken/files/ka97Ucad11ytVQR3HwxK)
-
 ### Available tabs
 
 | Tab                  | Content                                              | Permission | Default views    |
@@ -59,14 +57,6 @@ The **View managers** menu appears only with permission `1445` or `1446`. Only u
 | **User**             | Personal appointment views.                          | `1446`     | —                |
 | **Unavailabilities** | Unavailability MySearch lists.                       | `1445`     | MySearch 1 to 5  |
 | **Projects**         | Project views.                                       | `1445`     | —                |
-
-![General searches tab](/broken/files/HN1krtVcvKo44hf2OkeB)
-
-![User tab](/broken/files/qJqUo0ceRTVkOjyZHkZs)
-
-![Unavailabilities tab](/broken/files/N9tJbnqU4baGB9oE6IH8)
-
-![Projects tab](/broken/files/6Xm00QRO2DKXtwyvKMZr)
 
 ### Edit a view directly from a results list
 
@@ -77,8 +67,6 @@ The **Edit MySearch** action opens the configuration wizard. It is available wit
 1. Select the relevant tab.
 2. Select or clear the **Home page** column for each view.
 3. Select **Save changes**.
-
-![Choose home-page views](/broken/files/bCAmvASIHYiUIANB3B19)
 
 ### Related pages
 

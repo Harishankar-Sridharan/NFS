@@ -41,7 +41,7 @@ Four settings control these indicators:
    * **showVehicle** for the **VEHICLE** tab.
 3. Select **Save**.
 
-![hrInfo setting with mini-card tab display switches](/broken/files/3p3DJ3DYSSD7pzEjZnhB)
+![hrInfo setting with mini-card tab display switches](../../.gitbook/assets/en_hrinfo.png)
 
 ## Read the Routes tab
 
@@ -55,7 +55,7 @@ The **ROUTES** tab summarizes field-worker activity for the period displayed in 
 * **Available time**;
 * **Time reserve**.
 
-![Routes mini-card tab with available time and time reserve](/broken/files/Mxcmc1P2A7EwyNS33uUJ)
+![Routes mini-card tab with available time and time reserve](../../.gitbook/assets/en_minicard_routes.png)
 
 ## Add a quantity sum to the Routes tab
 
@@ -71,7 +71,7 @@ You can show the sum of a quantity from scheduled appointments in the **ROUTES**
    * **enabled**: enable the switch to show the statistic.
 3. Select **Save**.
 
-![hrInfo.userfield.stats setting with a sum block for quantity 1](/broken/files/TUMPqaV1Jrf326b7fDRp)
+![hrInfo.userfield.stats setting with a sum block for quantity 1](../../.gitbook/assets/en_hrinfo_stats.png)
 
 A row with your selected label is added at the bottom of the **ROUTES** tab. It shows the sum for the period.
 
@@ -95,7 +95,7 @@ A quantity quota compares the quantity of scheduled appointments with the field 
    * **vehicleMaxQuantityField**: vehicle maximum quantity to use, such as `maxQuantity1`.
 3. Select **Save**.
 
-![hrInfo.vehicleQuantityQuota setting with a quota block for quantity 1](/broken/files/1MYv5QziwkgHaVMH2Ou2)
+![hrInfo.vehicleQuantityQuota setting with a quota block for quantity 1](../../.gitbook/assets/en_hrinfo_quota.png)
 
 **Example:** A field worker has two appointments, each with quantity 1 equal to `1`. Their vehicle has maximum quantity 1 equal to `3`. The displayed quota is `66.67%`.
 
@@ -107,7 +107,7 @@ The **VEHICLE** tab displays information about the vehicle assigned to the field
 2. Enable **showMaxQuantity1** through **showMaxQuantity5** for the maximum quantities to show. Only the first two are displayed by default.
 3. Select **Save**.
 
-![hrInfo.vehicle setting with maximum-quantity switches](/broken/files/TKPH7Jsdhx8dD0t7Aj9D)
+![hrInfo.vehicle setting with maximum-quantity switches](../../.gitbook/assets/en_hrinfo_vehicle.png)
 
 ## Points to note
 

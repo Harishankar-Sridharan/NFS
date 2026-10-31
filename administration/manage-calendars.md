@@ -23,7 +23,7 @@ Calendars define the reference working time:
 
 For the selected year, the list displays each public holiday's **Name**, **Region**, **Date**, and **Description**.
 
-![Public holiday list](/broken/files/tlqAofjanND5JCc1PNsN)
+![Public holiday list](../.gitbook/assets/en_public_holidays.png)
 
 To create a public holiday:
 
@@ -37,7 +37,7 @@ According to its tooltip, **Duplicate** copies the public holidays from the disp
 
 The list displays each template's **Name**, **Region**, **Day of the week**, and **Description**.
 
-![Workday template list](/broken/files/VW963v3aSiL8GYkGXTFl)
+![Workday template list](../.gitbook/assets/en_workday_templates.png)
 
 1. Select **Create workday template**.
 2. Choose the **Day of the week** for the template, or `--All--`.
@@ -46,7 +46,7 @@ The list displays each template's **Name**, **Region**, **Day of the week**, and
 5. Select **Working day**, **Overnight stay away from home possible**, **Located lunch break**, **Ignore on-call duty at lunchtime**, and **Night work** as required.
 6. Select **Save**.
 
-![Workday template form](/broken/files/BiGfDxiPGlPkANyZnUP5)
+![Workday template form](../.gitbook/assets/en_workday_form.png)
 
 ## Create a week template
 
@@ -55,7 +55,7 @@ The list displays each template's **Name**, **Region**, **Day of the week**, and
 3. In the table, select a day template for each day of the week. The selected template's hours appear in the column.
 4. Select **Save**.
 
-![Workweek template form](/broken/files/m9LcBxO7fgH8EbysO2p8)
+![Workweek template form](../.gitbook/assets/en_workweek_form.png)
 
 You can select a week template for a human resource, worker type, or area.
 

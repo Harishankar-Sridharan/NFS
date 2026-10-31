@@ -10,8 +10,6 @@ The Availabilities module displays resource work schedules: day templates, break
 
 **Navigation:** `Application launcher > Availabilities`
 
-![Availabilities module with calendar, unavailability legend, and resource schedule](/broken/files/yJJv0OGytcJRvcLFSXGB)
-
 ## Identify screen areas
 
 ### Top bar
@@ -41,16 +39,12 @@ Each row represents a resource. The grey bar displays the applied day template, 
 
 Select the **⋮** icon to the right of a resource name. The menu provides **Weekly schedule** and **Resource mini card**.
 
-![Resource menu in the Availabilities module](/broken/files/HHHuGat11PXt1JiUR3U0)
-
 ## Add an unavailability from the schedule
 
 1. Hover over a resource time slot. A window displays the **Available working hours** and day template.
 2. Select the **Add an unavailability** icon.
 3. In the creation window, enter the **Type**, **Duration**, and dates. The resource is prefilled.
 4. Confirm with **OK**. Select **Cancel** to close the window without creating an unavailability.
-
-![Create an unavailability window from the Availabilities module](/broken/files/P8djoDgi1AkFAoXtZZrO)
 
 The fields in this window are the same as in [unavailability management](../unavailabilities/create-an-unavailability.md).
 

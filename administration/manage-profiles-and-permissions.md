@@ -29,20 +29,20 @@ These pages change what users can see and do. Test every change with a test acco
 
 The list displays each profile's **Name**, **Region**, and **Description**.
 
-![Profile list](/broken/files/CDExjiDNrwEA6JlD4jsf)
+![Profile list](../.gitbook/assets/en_profiles.png)
 
 1. Select **Create a profile**, or select a row.
 2. In **Information**, enter the **Name**, then, if needed, the **Abbreviation** and **Description**.
 3. Select **Save**.
 
-![Profile Information tab](/broken/files/9btA4fV8JiMeqimCn6jC)
+![Profile Information tab](../.gitbook/assets/en_profile_info.png)
 
 The **Collections** tab lists the profile's **Permission collections**:
 
 * **Add** attaches a collection;
 * to remove a collection, select it in the **Delete** column, then select **Delete**.
 
-![Profile Collections tab](/broken/files/aaDtMt1KBx8195mo1yEB)
+![Profile Collections tab](../.gitbook/assets/en_profile_collections.png)
 
 ## Manage a permission collection
 
@@ -52,7 +52,7 @@ The **Collections** tab lists the profile's **Permission collections**:
 4. In each section, select the rights to grant in the **Sel.** column.
 5. Select **Save**.
 
-![Permission collection, Planning tab](/broken/files/muf1QQ4uYJEwUf3ZR7qY)
+![Permission collection, Planning tab](../.gitbook/assets/en_collection_planning.png)
 
 Rights are grouped in expandable sections, for example **Scope**, **Schedule**, **Customer**, **Appointment**, or **Optimization**. The **Show all / Hide all** link opens or closes every section. Each row displays the right's technical name and **Description**.
 
@@ -60,7 +60,7 @@ Rights are grouped in expandable sections, for example **Scope**, **Schedule**, 
 
 The **Access rights** page lists available rights with their **Name** and **Description**. Choose the **Module** to display its rights: **Administration**, **Planning**, **Portal**, **Supervisor**, **Availabilities**, **Sectorization**, **Fulfilment**, **Doc**, and more.
 
-![Administration access-right list](/broken/files/fArht1nqtEowb4Wdoj9v)
+![Administration access-right list](../.gitbook/assets/en_access_rights.png)
 
 ## Manage alert subscriptions
 
@@ -73,7 +73,7 @@ The **Application alert subscriptions** page defines which users receive applica
 
 The subscription is created as soon as you select **Add**. It appears in the list with the **Profile**, **Permission collection**, **Type**, and **Logging level**.
 
-![Application alert subscriptions](/broken/files/1YyVzA6hLWdTBcX3Jwra)
+![Application alert subscriptions](../.gitbook/assets/en_alert_subscriptions.png)
 
 To delete a subscription, select its row in the **Delete** column, then select **Delete**.
 

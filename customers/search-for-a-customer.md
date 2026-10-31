@@ -18,7 +18,7 @@ You can also select the **SEARCH FOR CUSTOMERS** shortcut on the module home scr
 2. Enable **More criteria** to display additional criteria.
 3. Select **Search**.
 
-![Search for a customer panel](/broken/files/f52sy6Q5MtyjYt2zIDU3)
+![Search for a customer panel](../.gitbook/assets/en_customer_search_panel.png)
 
 The additional criteria are **Additional information**, **City**, **Phone**, **Main contact**, **Address**, **Country**, **Intervention type**, **Project work site**, **Priority**, and **Recurring customers**. The available options are **All**, **Visit scheduled**, and **Visit to schedule**.
 
@@ -26,7 +26,7 @@ The additional criteria are **Additional information**, **City**, **Phone**, **M
 
 The title shows the number of customers found. The table displays the **Company name**, **External reference**, **Work site**, **City**, **Address**, and **Postal code**.
 
-![Customer search result](/broken/files/Hesc6KmuZG2MnC9pHwLC)
+![Customer search result](../.gitbook/assets/en_customer_search_result.png)
 
 ## Notes
 

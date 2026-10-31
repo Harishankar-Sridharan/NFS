@@ -28,7 +28,7 @@ The **Information** tab contains:
 
 Use **Validate address**, **Map** and **Street View** to check the location.
 
-![Subcontractor record, Information tab](/broken/files/ydQ3tURhbBKUBDRbZC7L)
+![Subcontractor record, Information tab](../.gitbook/assets/en_subcontractor.png)
 
 ## Equipment
 
@@ -38,7 +38,7 @@ An equipment record has one page:
 * **Duration**, **Stock**, **Stock2**, **Load**, **Load2**;
 * **Number of employees** and **Priority**.
 
-![Create equipment](/broken/files/6yJXP0pqBwbdf91MYfnu)
+![Create equipment](../.gitbook/assets/en_create_equipment.png)
 
 ## Product family
 
@@ -51,7 +51,7 @@ A product record uses the equipment fields and adds:
 * **Family**\*: the related product family;
 * **Unit price**.
 
-![Create a product](/broken/files/QOzrx0WwniNrt3BFNarL)
+![Create a product](../.gitbook/assets/en_product.png)
 
 {% hint style="info" %}
 Create the product family before the product. The **Family** field is required.
