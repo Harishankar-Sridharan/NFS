@@ -1,3 +1,7 @@
+---
+description: Create a product family, then a product.
+---
+
 # How do I create a product and its product family?
 
 1. Create the product family first, under **Administration > Company data > Product family > Product family**.

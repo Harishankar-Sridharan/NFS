@@ -156,3 +156,8 @@
 * [Where are CSV imports and exports?](faq/where-are-csv-imports-and-exports.md)
 * [How do I export a CSV file?](faq/how-do-i-export-a-csv-file.md)
 * [How do I import a CSV file?](faq/how-do-i-import-a-csv-file.md)
+
+## Reference
+
+* [Glossary](reference/glossary.md)
+* [Find a topic (A–Z)](reference/find-a-topic.md)
