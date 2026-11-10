@@ -5,6 +5,7 @@
 ## Introduction
 
 * [Overview](introduction/overview.md)
+* [Quick start](introduction/quick-start.md)
 * [Sign in](introduction/sign-in.md)
 * [Navigate the application](introduction/navigate-the-application.md)
 * [Understand appointment statuses](introduction/appointment-statuses.md)

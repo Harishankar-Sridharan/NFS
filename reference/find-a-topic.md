@@ -8,7 +8,7 @@ Browse every topic of the guide in alphabetical order.
 
 Select a letter to jump to it, then select a topic to open it. Each row shows the part of the guide where the topic is and what it covers.
 
-[A](#a) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w)
+[A](#a) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w)
 
 ## A
 
@@ -154,6 +154,12 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Planning overview](../planning/planning-overview.md) | Planning | Discover the Planning module screen and its menu. |
 | [Portal](../portal/portal.md) | Portal | View the Portal home dashboard. |
 | [Prepare a report Word template](../report/prepare-a-report-word-template.md) | Report | Prepare a Word appointment report template with merge fields. |
+
+## Q
+
+| Topic | Part of the guide | What it covers |
+| ----- | ----------------- | -------------- |
+| [Quick start](../introduction/quick-start.md) | Introduction | Follow the main planning tasks from sign-in to a scheduled appointment, with a link to the full topic for each step. |
 
 ## R
 

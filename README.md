@@ -46,6 +46,7 @@ The documentation follows the application's module structure:
 | I want to... | Go to |
 | ------------ | ----- |
 | Learn what Nomadia Field Service is and which modules it has | [Overview](introduction/overview.md) |
+| Follow the main planning tasks, from sign-in to a scheduled appointment | [Quick start](introduction/quick-start.md) |
 | Sign in or sign out | [Sign in](introduction/sign-in.md) |
 | Find my way around the screen and change module | [Navigate the application](introduction/navigate-the-application.md) |
 | Understand appointment statuses and the actions that change them | [Understand appointment statuses](introduction/appointment-statuses.md) |
