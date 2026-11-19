@@ -19,10 +19,10 @@ The map, at the top right of the Planning module, displays the appointments, wor
 
 ## Choose what the map displays
 
-1. Select the **Map configuration** button.
+1. Select the **Configuration** button of the map.
 2. Select the items to display:
-   * **Show appointments**: you can filter by **Intervention type** and by period (**From**, **To**);
-   * **Show sectors**: sectors for which towns are entered in their record are displayed on the map.
+   * **Display the appointments**: you can filter by **Type** (the intervention type) and by period (**from**, **to**);
+   * **Display the customers**: you can filter by **Type** and **Kind**.
 
 ## Act on an appointment from the map
 
@@ -37,4 +37,4 @@ Select an appointment on the map to display its tooltip. Depending on your right
 
 For more information about nearby searches, see [Use the location and export tools](use-location-and-export-tools.md).
 
-<!-- REVIEW: the labels Map configuration, Show appointments, Show sectors, Zoom in, Zoom out, Intervention type, From, To, and the tooltip actions Display and Select are translated from the French topic and were not verified in the application, because the map did not load in the test environment. Add a screenshot of the map configuration and of an appointment tooltip. -->
+<!-- REVIEW: the Configuration, Zoom in, and Zoom out labels, and the Display the appointments and Display the customers options, were verified in the application. The French topic also describes displaying sectors, which is not offered in the test environment. The tooltip actions (Display, Add to basket, Select, Search around) were not verified because the map did not load. Add a screenshot of the map configuration and of an appointment tooltip. -->

@@ -44,7 +44,7 @@ To remove temporary jobs, select them in the **Selection** column, then select *
 The **Resource assignment to sectors** page temporarily assigns an additional sector to a field worker, or another sector to replace the field worker's own.
 
 1. Open **Assignment of worksites**.
-2. Select the assignment button next to **Search**.
+2. Select **Assign a sector**.
 3. Choose the sector and the period, then save.
 
 ![Resource assignment to sectors page with the Mobile resource, Sector, from, and to filters](../.gitbook/assets/en_planning_sector_assignment.png)
@@ -54,7 +54,7 @@ The **Resource assignment to sectors** page temporarily assigns an additional se
 An agenda marker is a timestamped reference point in the planning, for example a phone call or a promised appointment. It does not need an address and can overlap other items.
 
 1. Open **Agenda marker**, or select **Place a marker** in an appointment record.
-2. Choose the field worker, the **Type**, the date, and the time.
+2. Choose the field worker, the **Type** (**Appointment commitment**, **Call**, **Day start**, or **Day end**), the date, and the time.
 3. Save.
 
 To find markers, filter by **Mobile resource**, **Worksite**, **Type**, and period, then select **Search**.
@@ -108,4 +108,4 @@ The **Sectors management** page displays, for each sector and each day of the pe
 
 ![Sectors management page with the sector grid and the number of appointments by status](../.gitbook/assets/en_planning_sector_management.png)
 
-<!-- REVIEW: the following labels are translated from the French topic and were not verified in the application: the button to assign a sector (truncated on screen), Place a marker, the marker types (phone call, start of day, end of day, promised appointment), the Locked day entry and its Closed, Sealed, Forced states, Lock a day, the unlock action, and the sector cell tooltips. The Locked day entry is not displayed in the test environment menu. The creation buttons on Exceptional locations and Agenda markers are not displayed for the test profile. -->
+<!-- REVIEW: the Assign a sector button and the agenda marker types were verified in the application. The following are translated from the French topic and were not verified: Place a marker (in an appointment record), the Locked day entry and its Closed, Sealed, and Forced states, Lock a day, the unlock action, and the sector cell tooltips. The Locked day entry is not displayed in the test environment's menu, and the Agenda marker page has no creation button for the test profile. -->

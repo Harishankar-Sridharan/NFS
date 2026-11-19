@@ -30,17 +30,17 @@ The Availabilities module lets you edit the field workers' attendance planning d
 
 1. Select a field worker's name, a column header, or a cell to select the items it contains. Hold the **Ctrl** key for a multiple selection.
 2. Use the commands offered:
-   * **Repeat the selection**: define the recurrence of the selected items;
-   * **Cancel the selection**: deselect the items;
-   * **Delete the selection (click, or drop items)**: select the button, or drop the selection on it, then confirm.
+   * **Repeat selection**: define the recurrence of the selected items;
+   * **Cancel selection**: deselect the items;
+   * **Delete selection (click, or drop items on)**: select the button, or drop the selection on it, then confirm.
 
 ## Produce a report
 
-1. Open the **Navigate between services** icon, then **Reports**.
+1. Open the **Browse services** icon, then **Reports**.
 2. Choose the report from the configured templates. It covers the displayed scope.
 3. Export the report if your profile allows it.
 
-The **Export the schedule** and **Print the schedule** icons export or print the displayed schedule.
+The **Export schedule** and **Print schedule** icons export or print the displayed schedule.
 
 ## Display customer schedules
 
@@ -54,4 +54,4 @@ Changes made in the Availabilities module apply directly to the schedules used b
 
 * To view the schedule and add an unavailability from a hover window, see [Availabilities](availability.md).
 
-<!-- REVIEW: this topic has no screenshot of the drag-and-drop or of the creation window, because dragging would change data in the test environment. The names of the commands Repeat the selection, Cancel the selection, and Delete the selection, the Reports entry, and the Customer view are translated from the French topic and were not verified in the application. The module is named Attendance in the test environment's application launcher. -->
+<!-- REVIEW: the Repeat selection, Cancel selection, Delete selection, Export schedule, Print schedule, Browse services, and Reports labels were verified in the application (tooltips). This topic has no screenshot of the drag-and-drop or of the creation window, because dragging would change data in the test environment. The Customer view and the "You are not authorized to perform this action." message are translated from the French topic and were not verified. The module is named Attendance in the test environment's application launcher. -->

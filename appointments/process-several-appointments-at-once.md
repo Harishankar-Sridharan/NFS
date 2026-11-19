@@ -42,9 +42,10 @@ The more target resources and the longer the period, the more likely the engine 
 
 1. Add the appointments to the selection list from a results list, the map, or the schedule.
 2. Open `Planning > Appointments menu > Selected appointment list`.
-3. Run the action to schedule several appointments.
-4. Choose the period (**Start**, **End**) and the field workers, by **Team**, **Worksite**, or **Field worker**.
-5. Confirm.
+3. Run the **Plan several appointments** action.
+4. In the **Plan several appointments** window, choose the **Type**, the period (**Start**, **End**), and the field workers under **Choose the resources**, by **Team**, **Worksite**, or **Mobile resource**.
+5. If needed, select **Allow planning appointments only on their required resources**.
+6. Select **Schedule**.
 
 The list of selected appointments also lets you reassign resources to the selected appointments (**Required**, **Preferred**, or **Undesirable** resource). This action applies only to appointments with the **Requested** status.
 
@@ -54,4 +55,5 @@ The list of selected appointments also lets you reassign resources to the select
 Scheduling a selection does not transfer appointments that are already scheduled: it submits them to the engine again. A **Requested** appointment is searched over the whole period you enter, and a **Planned** appointment only within its possible completion period. Some appointments can therefore stay with their original field worker.
 {% endhint %}
 
-<!-- REVIEW: the following were not verified in the application: the Swap entry (not displayed in the test environment menu; the Planning overview lists it as Swap), the Apply button on Swap and Reschedule, the name of the action that schedules several appointments, and the fields of the scheduling window (Start, End, Team, Worksite, Field worker). The Planning overview and the appointment statuses topic call the Reschedule entry Replan. -->
+<!-- REVIEW: the Reschedule page (including Apply) and the Plan several appointments window were verified in the application. The Swap entry is not displayed in the test environment's menu (the Planning overview lists it as Swap), so the Swap steps and its Apply button are translated from the French topic and were not verified. The Planning overview and the appointment statuses topic call the Reschedule entry Replan. -->
+

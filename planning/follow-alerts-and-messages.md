@@ -27,18 +27,18 @@ The counters on the module home page also show the number of appointments in eac
 
 ## View customers on alert
 
-The triangle-shaped counter in the header shows the number of customers on alert. Select it to display the list, in the same form as a customer search.
+The counter in the header shows the number of customers on alert. Select it to display the list, in the same form as a customer search.
 
 You can also open `Planning > Customers menu > List customers with alerts`.
 
 ## View application alerts
 
-The **Alerts** entry, at the bottom of the module menu, lists the application alerts that your profile subscribes to. If you do not subscribe to any alert, the message "You have no subscription for application alerts" appears.
+The **Alert** icon in the header, a target icon with a counter, shows the number of application alerts. Select it to list the application alerts that your profile subscribes to. If you do not subscribe to any alert, the message "You have no subscription for application alerts" appears.
 
 Subscriptions are managed by the administrator. For more information, see [Manage profiles and permissions](../administration/manage-profiles-and-permissions.md).
 
 ## Read unread messages
 
-The envelope icon in the header shows the number of unread messages. Select it to open the messaging.
+The envelope icon in the header (**List the messages that are not read**) shows the number of unread messages. Select it to open the messaging.
 
-<!-- REVIEW: the following were not verified in the application: the Alerts entry at the bottom of the module menu, the triangle counter in the header, the List customers with alerts entry, the subscription message, and the names of the actions on selected appointments. The filters on the Appointment Alerts page differ from the French topic (state and work site): this topic lists the ones displayed in the test environment. -->
+<!-- REVIEW: the Appointment Alerts filters, the Find and Export buttons, the Alert icon (application alerts), and the unread messages icon were verified in the application. The French topic also describes an Alerts entry at the bottom of the module menu and a triangle-shaped customer alert counter: the test environment's menu has no Alerts entry, and the customer alert list is reached from a header icon whose tooltip is wrong in the application. The List customers with alerts menu entry, the subscription message, and the names of the actions on selected appointments were not verified. The filters on the Appointment Alerts page differ from the French topic (state and work site): this topic lists the ones displayed in the test environment. -->

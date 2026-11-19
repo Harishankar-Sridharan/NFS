@@ -18,9 +18,9 @@ This function searches for items located near an address: work sites, vehicles, 
 
 1. Open `Planning > Location menu > Search around`.
 2. Enter the address, then select **Validate address**. For more information, see [Geocode an address](../introduction/geocode-an-address.md).
-3. Choose the **Type of search**.
+3. Choose the **Type of search**: **Worksite**, **Theoretical vehicles**, **GPS Vehicles**, **Client**, **Hotel**, or **Appointment**.
 4. For an appointment search, specify the status, the period (**From**, **To**), and the **Intervention type** if needed.
-5. Start the search.
+5. Select **Find**.
 
 ![Search around page with the address block and the Type of search list](../.gitbook/assets/en_address_block_search_around.png)
 
@@ -28,7 +28,7 @@ This function searches for items located near an address: work sites, vehicles, 
 
 1. Open `Planning > Location menu > Compute a route`.
 2. Enter and validate the **Departure** address, then the **Arrival** address.
-3. Enter the **Date**.
+3. Enter the **Start date and time** or the **Arrival date and time**, and choose the **Vehicle profile** if needed.
 4. Select **Compute a route**.
 
 Select **Re-init** to clear the form.
@@ -39,14 +39,16 @@ Select **Re-init** to clear the form.
 
 1. Open `Planning > Location menu > Convert coordinates into Lat/Lon`.
 2. Enter and validate the address.
-3. Select **Convert**. The latitude and longitude are displayed.
+3. Select **Convert**. The **Latitude / Longitude** field displays the result.
+
+Select **Re-init** to clear the form.
 
 ## Track geolocated vehicles
 
-The `Planning > Location menu > Vehicles tracking` entry displays the positions and states of geolocated vehicles.
+The `Planning > Location menu > Vehicles tracking` entry opens the **Positions and status of geolocalized vehicles** page.
 
-* Filter the list by work site.
-* Select the automatic refresh option to update the positions regularly.
+* Filter the list by **Worksite**.
+* Select **Automatic refresh (every 100s)** to update the positions regularly.
 
 ## Run a predefined export
 
@@ -68,4 +70,4 @@ The **List predefined exports** entry appears only if your administrator has con
 
 The route sheet is also available from the **⋮** menu of a field worker in the schedule.
 
-<!-- REVIEW: the following labels are translated from the French topic and were not verified in the application: the other Type of search values (vehicles, GPS vehicles, customer, hotel, appointment), the Convert button and the latitude and longitude field, the automatic refresh option, and the predefined export fields. The address validation could not be run in the test environment. -->
+<!-- REVIEW: the Search around, Compute a route, Convert, Vehicles tracking, and Route sheet labels were verified in the application. The predefined exports page is not displayed in the test environment (no export configured), so its fields (region, work site, resources, team, intervention type) are translated from the French topic and were not verified. The address validation could not be run in the test environment. -->

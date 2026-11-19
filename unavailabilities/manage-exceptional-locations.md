@@ -37,4 +37,5 @@ An exceptional location that is **To be confirmed** can be changed by optimizati
 * Exceptional locations are displayed in the field workers' schedule. See the legend for their color (**Exceptional location** and **Confirmed exceptional location**).
 * To configure the types of exceptional location, see [Configure unavailability and exceptional location types](../administration/configure-unavailability-and-exceptional-location-types.md).
 
-<!-- REVIEW: the New button is not displayed for the test profile. The Confirmed and To be confirmed status values, the Suggest exceptional locations button, and the legend labels are translated from the French topic and were not verified in the application. -->
+<!-- REVIEW: the filters and the Confirmed and To be confirmed status values were verified in the application. The New button is not displayed for the test profile, so the creation steps, the Suggest exceptional locations button, and the legend labels are translated from the French topic and were not verified. -->
+

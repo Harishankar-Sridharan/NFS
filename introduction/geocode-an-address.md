@@ -18,7 +18,7 @@ Customers, appointments, resources, work sites, unavailabilities, and other loca
 | **Additional address info** | Practical information about the place, such as building, floor, or access code. This field is not used for geocoding.     |
 | **Postcode** and **City**   | Town of the address. Both are required.                                                                                   |
 | **Country**                 | Country of the address.                                                                                                   |
-| **Initial entry**           | Text you entered before validating the address. This field is read-only.                                                  |
+| **Initial entry** (or **Initial address**) | Text you entered before validating the address. This field is read-only.                                   |
 | **X, Y coordinates**        | Position calculated on the map.                                                                                           |
 
 ![Address block with the Validate address button and the X, Y coordinates](../.gitbook/assets/en_address_block_search_around.png)
@@ -51,4 +51,5 @@ Start the **Address** field with the street number and street name. Mentions suc
 
 * For a complete example, see [Create a customer](../customers/create-a-customer.md).
 
-<!-- REVIEW: button labels differ between screens in the application: Initial entry / Initial address, Locate / Place. Confirm which label to keep. The Street View button was not visible on the Search around screen of the test environment. -->
+<!-- REVIEW: the labels differ between screens in the application. The customer record uses Initial entry and Locate (as in Create a customer), while the Search around, Compute a route, and Convert screens use Initial address and Place. The Street View button is not displayed on those screens. This topic names both labels. -->
+

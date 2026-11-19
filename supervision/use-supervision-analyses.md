@@ -44,8 +44,8 @@ The **Unavailabilities global planning** analysis displays the unavailabilities 
 The **Scheduling compliance** analysis tracks, by work site and by day, the share of appointments completed on the planned date.
 
 1. Open **Scheduling compliance**.
-2. Enter the period (**from** … **to**), then select the search button.
-3. Select the export button to export the result.
+2. Enter the period (**From the** … **to the**), then select **Search**.
+3. Select **Export as csv** to export the result.
 
 ## Calculate overtime
 
@@ -59,4 +59,5 @@ The **Overtime** analysis compares, for each field worker and each day, the limi
 The calculation relies on the field workers' start-of-day and end-of-day markers, declared in particular from the mobile application. Without these markers, no hours are calculated.
 {% endhint %}
 
-<!-- REVIEW: only the Customer distance matrix page was captured. The test environment's Supervisor menu also shows Scheduling compliance, but not the center of gravity, unavailabilities global planning, or overtime analyses (rights). The labels of those analyses, their options, and the search and export buttons are translated from the French topic and were not verified in the application. The module is named Supervisor in the test environment's application launcher. -->
+<!-- REVIEW: the Customer distance matrix and Scheduling compliance pages were verified in the application. The test environment's Supervisor menu has no customer center of gravity, unavailabilities global planning, or overtime analyses, so those three sections (their names, options, and buttons) are translated from the French topic and were not verified. The module is named Supervisor in the test environment's application launcher. -->
+
