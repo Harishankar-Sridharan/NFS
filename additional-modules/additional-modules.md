@@ -1,5 +1,5 @@
 ---
-description: Discover the additional modules: Sectorization, Fulfilment, Tracking, Report, and custom modules.
+description: "Discover the additional modules: Sectorization, Fulfilment, Tracking, Report, and custom modules."
 ---
 
 # Additional modules

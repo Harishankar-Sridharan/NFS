@@ -1,5 +1,5 @@
 ---
-description: Use the Supervision analyses: customer distances, centers of gravity, unavailabilities, compliance, and overtime.
+description: "Use the Supervision analyses: customer distances, centers of gravity, unavailabilities, compliance, and overtime."
 ---
 
 # Use the Supervision analyses
