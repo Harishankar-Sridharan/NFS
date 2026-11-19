@@ -35,6 +35,7 @@ The terms are in alphabetical order. Each definition has a link to the topic tha
 | **Equipment** | An item that the company manages, like a subcontractor or a product. A product record uses the equipment fields. See [Manage subcontractors, equipment and products](../administration/manage-subcontractors-equipment-and-products.md). |
 | **Exceptional location** | A location that replaces the usual one. Its type defines the hours and the address. See [Configure unavailability and exceptional location types](../administration/configure-unavailability-and-exceptional-location-types.md). |
 | **Exchange files** | The tools that import and export data in files: CSV files, specific files and XML files. See [Manage exchange files](../administration/manage-exchange-files.md). |
+| **Exchange model** | The set of entities and fields that can be imported or exported, with their types and references. See [Concepts and exchange model](../data-integration-guide/concepts-and-exchange-model.md). |
 | **Field worker** | A person who carries out appointments in the field. You see their schedule, their route indicators and their workload. See [View the schedule](../planning/view-the-schedule.md). |
 | **Forecast workload** | On the Portal, a weekly bar chart for the next 3 weeks that compares the hourly capacity with the forecast workload. See [Portal](../portal/portal.md). |
 | **Form template** | A form that lets technicians answer questions during an appointment. See [Report module overview](../report/report-overview.md). |
@@ -64,6 +65,7 @@ The terms are in alphabetical order. Each definition has a link to the topic tha
 | **Product family** | A family of products. You create it before the products. See [Manage subcontractors, equipment and products](../administration/manage-subcontractors-equipment-and-products.md). |
 | **Profile** | A combination of permission collections. You assign it to a user in the human resource record. See [Manage profiles and permissions](../administration/manage-profiles-and-permissions.md). |
 | **Reactivate** | An action that sets an appointment to Requested, so that batch optimization can schedule it. See [Understand appointment statuses](../introduction/appointment-statuses.md). |
+| **Reference data** | The data that other data refer to, such as regions, work sites, intervention types, and skills. It must be loaded before the data that uses it. See [Reference data and integration order](../data-integration-guide/reference-data-and-integration-order.md). |
 | **Region** | The assignment area for resources, teams and configuration data. See [Manage geographic organization](../administration/manage-geographic-organization.md). |
 | **Report template** | A Word template that generates PDF appointment reports automatically. See [Generate appointment reports](../report/generate-appointment-reports.md) and [Prepare a report Word template](../report/prepare-a-report-word-template.md). |
 | **Resource type** | A type of resource that is used for human resources. See [Manage resource and job types](../administration/manage-resource-and-job-types.md). |

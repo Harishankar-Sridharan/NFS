@@ -32,10 +32,12 @@ The documentation follows the application's module structure:
 | Unavailabilities    | Declaring and searching unavailabilities               | [Unavailabilities overview](unavailabilities/unavailabilities-overview.md) |
 | Availabilities      | Field-worker availability calendar                     | [Availabilities](availabilities/availability.md) |
 | Supervision         | Activity monitoring, log, and dashboards               | [Supervision overview](supervision/supervision-overview.md) |
+| Additional modules  | Sectorization, Fulfilment, Tracking, Report, and custom modules | [Additional modules](additional-modules/additional-modules.md) |
 | Fulfilment          | Comparing planned and completed work                   | [Fulfilment](fulfilment/fulfilment.md) |
 | Report              | Report and form templates                              | [Report module overview](report/report-overview.md) |
 | Administration      | Human resources, teams, and reference data             | [Administration overview](administration/administration-overview.md) |
 | Imports and exports | CSV file import and export                             | [Imports and exports overview](imports-and-exports/imports-and-exports-overview.md) |
+| Data integration guide | Exchange model, imports and exports, integration order | [Data integration guide](data-integration-guide/data-integration-guide.md) |
 | FAQ                 | Quick answers about each module                        | [FAQ overview](faq/faq-overview.md) |
 | Reference           | Meaning of the terms and an alphabetical list of topics | [Glossary](reference/glossary.md) and [Find a topic (A–Z)](reference/find-a-topic.md) |
 
@@ -156,6 +158,16 @@ The documentation follows the application's module structure:
 | Find out how CSV imports and exports work | [Imports and exports overview](imports-and-exports/imports-and-exports-overview.md) |
 | Export entity data in CSV format | [Export a CSV file](imports-and-exports/export-a-csv-file.md) |
 | Create or update data from a CSV file | [Import a CSV file](imports-and-exports/import-a-csv-file.md) |
+| Find out how to feed NFS with a customer's data and extract the results | [Data integration guide](data-integration-guide/data-integration-guide.md) |
+| Understand the exchange channels, the architecture and the sequence of an import | [Integration overview](data-integration-guide/integration-overview.md) |
+| Prepare the data, external identifiers and access for an integration | [Prerequisites](data-integration-guide/prerequisites.md) |
+| Choose how to authenticate to the web services | [Authentication and security](data-integration-guide/authentication-and-security.md) |
+| Understand the entities, data types and relationships of the exchange model | [Concepts and exchange model](data-integration-guide/concepts-and-exchange-model.md) |
+| Find the order in which to load reference data | [Reference data and integration order](data-integration-guide/reference-data-and-integration-order.md) |
+| Import regions, work sites, teams, intervention groups and types | [Integrate the organization and activity](data-integration-guide/integrate-organization-and-activity.md) |
+| Import resources | [Integrate resources](data-integration-guide/integrate-resources.md) |
+| Import calendars, schedules and unavailabilities | [Integrate calendars, schedules, and unavailabilities](data-integration-guide/integrate-calendars-schedules-and-unavailabilities.md) |
+| Import skills, authorizations and assignment rules | [Integrate skills, authorizations, and assignment rules](data-integration-guide/integrate-skills-authorizations-and-assignment-rules.md) |
 
 ### Find an answer
 

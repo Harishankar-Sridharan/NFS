@@ -112,6 +112,19 @@
 * [Export a CSV file](imports-and-exports/export-a-csv-file.md)
 * [Import a CSV file](imports-and-exports/import-a-csv-file.md)
 
+## Data integration guide
+
+* [Data integration guide](data-integration-guide/data-integration-guide.md)
+* [Integration overview](data-integration-guide/integration-overview.md)
+* [Prerequisites](data-integration-guide/prerequisites.md)
+* [Authentication and security](data-integration-guide/authentication-and-security.md)
+* [Concepts and exchange model](data-integration-guide/concepts-and-exchange-model.md)
+* [Reference data and integration order](data-integration-guide/reference-data-and-integration-order.md)
+  * [Integrate the organization and activity](data-integration-guide/integrate-organization-and-activity.md)
+  * [Integrate resources](data-integration-guide/integrate-resources.md)
+  * [Integrate calendars, schedules, and unavailabilities](data-integration-guide/integrate-calendars-schedules-and-unavailabilities.md)
+  * [Integrate skills, authorizations, and assignment rules](data-integration-guide/integrate-skills-authorizations-and-assignment-rules.md)
+
 ## FAQ
 
 * [FAQ overview](faq/faq-overview.md)

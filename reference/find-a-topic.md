@@ -17,12 +17,14 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Additional modules](../additional-modules/additional-modules.md) | Additional modules | Discover the additional modules: Sectorization, Fulfilment, Tracking, Report, and custom modules. |
 | [Administration overview](../administration/administration-overview.md) | Administration | Discover the Administration module and shared data management. |
 | [Appointments overview](../appointments/appointments-overview.md) | Appointments | Schedule, search for, view, and edit appointments. |
+| [Authentication and security](../data-integration-guide/authentication-and-security.md) | Data integration guide | Authentication modes of the web services and security best practices. |
 | [Availabilities](../availabilities/availability.md) | Availabilities | View resource availability schedules and add an unavailability. |
 
 ## C
 
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
+| [Concepts and exchange model](../data-integration-guide/concepts-and-exchange-model.md) | Data integration guide | Entities, data types, import and export columns, and synonyms of the exchange model. |
 | [Configure a view with the wizard](../planning/manage-search-views/configure-a-view-with-the-wizard.md) | Planning | Configure the filters, columns, actions, and display options for a MySearch view. |
 | [Configure and view dashboards](../supervision/configure-and-view-dashboards.md) | Supervision | Configure dashboard criteria and view supervision tables and analyses. |
 | [Configure interventions](../administration/configure-interventions.md) | Administration | Define intervention groups and types. |
@@ -41,6 +43,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
+| [Data integration guide](../data-integration-guide/data-integration-guide.md) | Data integration guide | Feed NFS with a customer's data and extract the results. |
 | [Display route indicators in the resource mini-card](../planning/resource-monitoring/display-route-indicators-in-the-resource-mini-card.md) | Planning | Show a field worker’s route, quota, and vehicle-capacity indicators in the resource mini-card. |
 
 ## E
@@ -120,6 +123,11 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | ----- | ----------------- | -------------- |
 | [Import a CSV file](../imports-and-exports/import-a-csv-file.md) | Imports and exports | Import a CSV file to create or update data. |
 | [Imports and exports overview](../imports-and-exports/imports-and-exports-overview.md) | Imports and exports | Import and export data in CSV format. |
+| [Integrate calendars, schedules, and unavailabilities](../data-integration-guide/integrate-calendars-schedules-and-unavailabilities.md) | Data integration guide | Integrate public holidays, day and week templates, calendars, and unavailabilities. |
+| [Integrate resources](../data-integration-guide/integrate-resources.md) | Data integration guide | Integrate human resources and their attributes. |
+| [Integrate skills, authorizations, and assignment rules](../data-integration-guide/integrate-skills-authorizations-and-assignment-rules.md) | Data integration guide | Integrate skills, authorizations, and the rules that assign resources. |
+| [Integrate the organization and activity](../data-integration-guide/integrate-organization-and-activity.md) | Data integration guide | Integrate regions, work sites, teams, intervention groups, and intervention types. |
+| [Integration overview](../data-integration-guide/integration-overview.md) | Data integration guide | Principle, exchange channels, architecture, and typical sequence of an integration. |
 
 ## M
 
@@ -161,6 +169,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Planning overview](../planning/planning-overview.md) | Planning | Discover the Planning module screen and its menu. |
 | [Portal](../portal/portal.md) | Portal | View the Portal home dashboard. |
 | [Prepare a report Word template](../report/prepare-a-report-word-template.md) | Report | Prepare a Word appointment report template with merge fields. |
+| [Prerequisites](../data-integration-guide/prerequisites.md) | Data integration guide | Data to prepare, external identifiers, and access needed before an integration. |
 | [Process several appointments at once](../appointments/process-several-appointments-at-once.md) | Appointments | Swap two field workers' routes, reschedule a field worker's appointments, or schedule a selection of appointments. |
 
 ## Q
@@ -173,6 +182,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
+| [Reference data and integration order](../data-integration-guide/reference-data-and-integration-order.md) | Data integration guide | Recommended loading order of the reference data and of each domain. |
 | [Report module overview](../report/report-overview.md) | Report | View and create report and form templates. |
 | [Resource monitoring](../planning/resource-monitoring/README.md) | Planning | Track field-worker workload and activity from the schedule. |
 
