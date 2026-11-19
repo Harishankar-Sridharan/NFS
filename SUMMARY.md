@@ -134,6 +134,19 @@
 * [Logging and supervision](data-integration-guide/logging-and-supervision.md)
 * [Integration examples](data-integration-guide/integration-examples.md)
 * [Best practices](data-integration-guide/best-practices.md)
+* [Diagnosis and troubleshooting](data-integration-guide/diagnosis-and-troubleshooting.md)
+* [Exchange model reference](data-integration-guide/exchange-model-reference.md)
+* [Appendices](data-integration-guide/appendices.md)
+  * [Detailed integration order](data-integration-guide/detailed-integration-order.md)
+  * [Mapping to the former guide](data-integration-guide/mapping-to-the-former-guide.md)
+  * [Integration glossary](data-integration-guide/integration-glossary.md)
+
+## Circulation module
+
+* [Circulation module](circulation-module/circulation-module.md)
+* [Prerequisites and access](circulation-module/prerequisites-and-access.md)
+* [Secure credentials with the vault](circulation-module/secure-credentials-with-the-vault.md)
+* [Circulation file reference](circulation-module/circulation-file-reference.md)
 
 ## FAQ
 

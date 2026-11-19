@@ -15,14 +15,14 @@ Application configuration (profiles and rights, optimization tasks, vocabulary, 
 * Technical partners and customer IT teams who develop a connector.
 * R&D teams who need a functional reference for the exchange model.
 
-Readers must know how to handle a CSV file and read a JSON or XML document. Technical terms are defined in the glossary<!-- TODO-LINK: guide-dintegration-des-donnees/annexes/glossaire -->.
+Readers must know how to handle a CSV file and read a JSON or XML document. Technical terms are defined in the [glossary](integration-glossary.md).
 
 ## Scope
 
 | Included in this guide | Out of scope |
 | --- | --- |
 | Exchange model: 109 entities that can be imported or exported, fields, types, references | Functional configuration (profiles, right collections, optimization, vocabulary) |
-| CSV import and export from the administration interface, global import and export (ZIP) | Detailed Circulation configuration (see the Circulation module<!-- TODO-LINK: module-circulation/module-circulation -->) |
+| CSV import and export from the administration interface, global import and export (ZIP) | Detailed Circulation configuration (see the [Circulation module](../circulation-module/circulation-module.md)) |
 | Data exchange web services (SOAP and REST) and appointment-booking services | Mobile application, mobility, and field forms |
 | Appointment statuses and lifecycle, validation rules, errors, logging | Operations, hosting, backup, and infrastructure security |
 
@@ -43,6 +43,6 @@ Readers must know how to handle a CSV file and read a JSON or XML document. Tech
 | [Logging and supervision](logging-and-supervision.md) | Application log, subscriptions, supervision exports |
 | [Integration examples](integration-examples.md) | Complete fictitious data set and web service calls |
 | [Best practices](best-practices.md) | Preparation, loading, performance |
-| Diagnosis and troubleshooting<!-- TODO-LINK: guide-dintegration-des-donnees/diagnostic --> | Common errors and diagnostic approach |
-| Exchange model reference<!-- TODO-LINK: guide-dintegration-des-donnees/reference-modele --> | All entities and all fields, by domain |
-| Appendices<!-- TODO-LINK: guide-dintegration-des-donnees/annexes --> | Detailed integration order, mapping to the former guide, glossary |
+| [Diagnosis and troubleshooting](diagnosis-and-troubleshooting.md) | Common errors and diagnostic approach |
+| [Exchange model reference](exchange-model-reference.md) | All entities and all fields, by domain |
+| [Appendices](appendices.md) | Detailed integration order, mapping to the former guide, glossary |

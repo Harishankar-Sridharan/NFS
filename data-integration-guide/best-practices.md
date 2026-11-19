@@ -13,7 +13,7 @@ description: Best practices for preparation, loading, and performance.
 
 ## Loading
 
-* Follow the integration order (see the detailed integration order<!-- TODO-LINK: guide-dintegration-des-donnees/annexes/ordre-integration-detaille -->); check the report of each file.
+* Follow the integration order (see the [detailed integration order](detailed-integration-order.md)); check the report of each file.
 * Test each file on a sample of a few rows before the full load.
 * For updates, send only the columns to change and use the UPDATEONLY mode (…$ID) to avoid accidental creations.
 * Deactivate (ACTIVE = 0) rather than delete the reference data used by the history.

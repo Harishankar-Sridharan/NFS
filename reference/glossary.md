@@ -27,6 +27,7 @@ The terms are in alphabetical order. Each definition has a link to the topic tha
 | **Book** | An action that defines the time of an appointment. See [Understand appointment statuses](../introduction/appointment-statuses.md). |
 | **Calendar type** | The kind of schedule that the Planning module displays: Interventions, Workload, Position or Intervention type. See [View the schedule](../planning/view-the-schedule.md). |
 | **Candidate** | A family of appointment statuses that contains Requested and Suspended. See [Understand appointment statuses](../introduction/appointment-statuses.md). |
+| **Circulation** | An exchange engine built into NFS that moves data between NFS and external systems (files, SFTP servers, databases, web services, messaging) and automates some internal processing. It is configured in an XML file. See [Circulation module](../circulation-module/circulation-module.md). |
 | **Confirm** | An action that confirms an appointment. See [Understand appointment statuses](../introduction/appointment-statuses.md). |
 | **Customer** | The record of a company that you serve. You use it to schedule and review appointments. See [Customers overview](../customers/customers-overview.md). |
 | **Dashboard** | A set of supervision tables and analyses that you configure with criteria such as human resources, period and activities. The Portal is the home dashboard. See [Configure and view dashboards](../supervision/configure-and-view-dashboards.md). |
@@ -83,6 +84,7 @@ The terms are in alphabetical order. Each definition has a link to the topic tha
 | **Unavailability** | A period when a resource is not available. You can declare a one-off or a repeating unavailability, and search for unavailabilities. See [Unavailabilities overview](../unavailabilities/unavailabilities-overview.md). |
 | **Unavailability type** | The configuration of an unavailability: name, region, working time, multi-resource, default location and duration limits. See [Configure unavailability and exceptional location types](../administration/configure-unavailability-and-exceptional-location-types.md). |
 | **User view** | A personal MySearch view that only you can see. The number of user views is not limited. See [Create a user view](../planning/manage-search-views/create-a-user-view.md). |
+| **Vault** | The encrypted store for the credentials and access points that Circulation uses. The Circulation file only references them. See [Secure credentials with the vault](../circulation-module/secure-credentials-with-the-vault.md). |
 | **Visit slot** | A time range, on an appointment, during which the intervention is possible. You can define a different slot for each day of the week. See [Configure visit slots by day of the week](../planning/configure-visit-slots-by-weekday.md). |
 | **Week template** | A template that selects a day template for each day of the week. See [Manage calendars](../administration/manage-calendars.md). |
 | **Work site** | A workplace that is shared by several resources, such as an agency, a depot or a store. See [Manage geographic organization](../administration/manage-geographic-organization.md). |

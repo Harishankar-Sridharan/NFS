@@ -20,7 +20,7 @@ A dedicated processor handles each entity. It checks the values, resolves the re
 | Business web services (appointment booking, optimization, geocoding, and so on) | Real-time integration of a portal or an appointment-booking tool | SOAP, REST | Call from the customer system |
 | Circulation | Automated flows: file drop, SFTP, HTTP, SQL database, JMS, sending entities to a webhook | CSV, XML, JSON, SQL | Scheduled or event-driven |
 
-Circulation (the automated flow engine) has its own documentation: see the Circulation module<!-- TODO-LINK: module-circulation/module-circulation -->. This guide presents only its role. All channels rely on the same exchange model described here.
+Circulation (the automated flow engine) has its own documentation: see the [Circulation module](../circulation-module/circulation-module.md). This guide presents only its role. All channels rely on the same exchange model described here.
 
 ## Architecture and exchange flows
 

@@ -10,9 +10,9 @@ An entity can only reference an object that already exists in Nomadia Field Serv
 
 ## Detailed order
 
-Nomadia Field Service ranks entities by dependency level. The global export applies this ranking to number the files in the archive. It starts with a resources file reduced to RESOURCEID and RESOURCELASTNAME, which lets reference data point to a resource (team leader, region manager) before the full import of resources. The complete order (93 steps) is in the Detailed integration order<!-- TODO-LINK: guide-dintegration-des-donnees/annexes/ordre-integration-detaille --> page.
+Nomadia Field Service ranks entities by dependency level. The global export applies this ranking to number the files in the archive. It starts with a resources file reduced to RESOURCEID and RESOURCELASTNAME, which lets reference data point to a resource (team leader, region manager) before the full import of resources. The complete order (93 steps) is in the [Detailed integration order](detailed-integration-order.md) page.
 
-For an initial data load, import the files in the order given in the Detailed integration order<!-- TODO-LINK: guide-dintegration-des-donnees/annexes/ordre-integration-detaille --> page, and check the report of each file before moving on to the next one.
+For an initial data load, import the files in the order given in the [Detailed integration order](detailed-integration-order.md) page, and check the report of each file before moving on to the next one.
 
 ## In this section
 

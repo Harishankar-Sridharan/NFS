@@ -10,7 +10,7 @@ The exchange model describes each entity and each of its fields by its name, typ
 
 * in the application, from `Administration > CSV files > CSV import/export model`;
 * through the web service, with the ListEntities and GetExchangeModel operations (see [Integration APIs and web services](integration-apis-and-web-services.md));
-* in the exchange model reference<!-- TODO-LINK: guide-dintegration-des-donnees/reference-modele -->.
+* in the [exchange model reference](exchange-model-reference.md).
 
 ## Main entities and relationships
 
@@ -43,7 +43,7 @@ In the reference tables, the I/E column shows whether a field is accepted on imp
 
 ## Synonyms
 
-Some entities accept former column names, called synonyms, to stay compatible with existing files. For example, the Customer entity accepts CUSTOMERTYPE for CUSTOMERTYPEID. The synonyms are listed in the exchange model reference<!-- TODO-LINK: guide-dintegration-des-donnees/reference-modele -->; use the current name whenever possible.
+Some entities accept former column names, called synonyms, to stay compatible with existing files. For example, the Customer entity accepts CUSTOMERTYPE for CUSTOMERTYPEID. The synonyms are listed in the [exchange model reference](exchange-model-reference.md); use the current name whenever possible.
 
 Previous: [Authentication and security](authentication-and-security.md)
 

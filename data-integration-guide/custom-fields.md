@@ -16,7 +16,7 @@ Most entities have free fields to carry customer-specific data. Their number dep
 | EXTRADATE1 … EXTRADATE15 | Date | 15 |
 | EXTRADATETIME1 … EXTRADATETIME15 | Date-time | 15 |
 
-The exact number of fields of each entity is given in the exchange model reference<!-- TODO-LINK: guide-dintegration-des-donnees/reference-modele -->.
+The exact number of fields of each entity is given in the [exchange model reference](exchange-model-reference.md).
 
 ## Coded value lists (typologies)
 

@@ -16,6 +16,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | ----- | ----------------- | -------------- |
 | [Additional modules](../additional-modules/additional-modules.md) | Additional modules | Discover the additional modules: Sectorization, Fulfilment, Tracking, Report, and custom modules. |
 | [Administration overview](../administration/administration-overview.md) | Administration | Discover the Administration module and shared data management. |
+| [Appendices](../data-integration-guide/appendices.md) | Data integration guide | Detailed integration order, mapping to the former guide, and integration glossary. |
 | [Appointments overview](../appointments/appointments-overview.md) | Appointments | Schedule, search for, view, and edit appointments. |
 | [Authentication and security](../data-integration-guide/authentication-and-security.md) | Data integration guide | Authentication modes of the web services and security best practices. |
 | [Availabilities](../availabilities/availability.md) | Availabilities | View resource availability schedules and add an unavailability. |
@@ -30,6 +31,8 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
+| [Circulation file reference](../circulation-module/circulation-file-reference.md) | Circulation module | All objects of the Circulation file and their parameters. |
+| [Circulation module](../circulation-module/circulation-module.md) | Circulation module | Overview of the Circulation module, which moves data between NFS and external systems. |
 | [Concepts and exchange model](../data-integration-guide/concepts-and-exchange-model.md) | Data integration guide | Entities, data types, import and export columns, and synonyms of the exchange model. |
 | [Configure a view with the wizard](../planning/manage-search-views/configure-a-view-with-the-wizard.md) | Planning | Configure the filters, columns, actions, and display options for a MySearch view. |
 | [Configure and view dashboards](../supervision/configure-and-view-dashboards.md) | Supervision | Configure dashboard criteria and view supervision tables and analyses. |
@@ -52,6 +55,8 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | ----- | ----------------- | -------------- |
 | [Data integration guide](../data-integration-guide/data-integration-guide.md) | Data integration guide | Feed NFS with a customer's data and extract the results. |
 | [Data validation and error handling](../data-integration-guide/data-validation-and-error-handling.md) | Data integration guide | Checks, error codes, and the import report. |
+| [Detailed integration order](../data-integration-guide/detailed-integration-order.md) | Data integration guide | The complete integration order, entity by entity. |
+| [Diagnosis and troubleshooting](../data-integration-guide/diagnosis-and-troubleshooting.md) | Data integration guide | Common errors and a diagnostic approach for imports, exports, and web services. |
 | [Display route indicators in the resource mini-card](../planning/resource-monitoring/display-route-indicators-in-the-resource-mini-card.md) | Planning | Show a field worker’s route, quota, and vehicle-capacity indicators in the resource mini-card. |
 
 ## E
@@ -61,6 +66,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Edit an appointment](../appointments/edit-an-appointment.md) | Appointments | Update data for an existing appointment. |
 | [Edit the attendance planning](../availabilities/edit-the-attendance-planning.md) | Availabilities | Edit field workers' attendance planning by drag and drop, manage a selection, and produce reports. |
 | [Edit, copy, or delete a view](../planning/manage-search-views/edit-copy-or-delete-a-view.md) | Planning | Adjust, duplicate, or delete an existing MySearch view. |
+| [Exchange model reference](../data-integration-guide/exchange-model-reference.md) | Data integration guide | All entities and all fields of the exchange model, by domain. |
 | [Export a CSV file](../imports-and-exports/export-a-csv-file.md) | Imports and exports | Export entity data in CSV format. |
 | [Export data](../data-integration-guide/export-data.md) | Data integration guide | Entry points, extraction types, formats, and global export. |
 
@@ -141,6 +147,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Integrate the organization and activity](../data-integration-guide/integrate-organization-and-activity.md) | Data integration guide | Integrate regions, work sites, teams, intervention groups, and intervention types. |
 | [Integration APIs and web services](../data-integration-guide/integration-apis-and-web-services.md) | Data integration guide | Data exchange services, business services, and error codes. |
 | [Integration examples](../data-integration-guide/integration-examples.md) | Data integration guide | A complete fictitious data set and web service calls. |
+| [Integration glossary](../data-integration-guide/integration-glossary.md) | Data integration guide | Definitions of the terms used in the Data integration guide. |
 | [Integration overview](../data-integration-guide/integration-overview.md) | Data integration guide | Principle, exchange channels, architecture, and typical sequence of an integration. |
 
 ## L
@@ -168,6 +175,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Manage skills and authorizations](../administration/manage-skills-and-authorizations.md) | Administration | Create the skills and authorizations required to perform interventions. |
 | [Manage subcontractors, equipment and products](../administration/manage-subcontractors-equipment-and-products.md) | Administration | Manage subcontractors, equipment, product families and products. |
 | [Manage teams](../administration/manage-teams.md) | Administration | Create a team and view its members. |
+| [Mapping to the former guide](../data-integration-guide/mapping-to-the-former-guide.md) | Data integration guide | Differences between the former and the current integration documentation. |
 
 ## N
 
@@ -190,6 +198,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Portal](../portal/portal.md) | Portal | View the Portal home dashboard. |
 | [Prepare a report Word template](../report/prepare-a-report-word-template.md) | Report | Prepare a Word appointment report template with merge fields. |
 | [Prerequisites](../data-integration-guide/prerequisites.md) | Data integration guide | Data to prepare, external identifiers, and access needed before an integration. |
+| [Prerequisites and access](../circulation-module/prerequisites-and-access.md) | Circulation module | Rights and Administration screens needed to configure Circulation. |
 | [Process several appointments at once](../appointments/process-several-appointments-at-once.md) | Appointments | Swap two field workers' routes, reschedule a field worker's appointments, or schedule a selection of appointments. |
 
 ## Q
@@ -215,6 +224,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Search for a customer](../customers/search-for-a-customer.md) | Customers | Search for a customer using simple or advanced criteria. |
 | [Search for appointments](../appointments/search-for-appointments.md) | Appointments | Search for appointments by criteria and act on a selection. |
 | [Search for unavailabilities](../unavailabilities/search-for-unavailabilities.md) | Unavailabilities | Search for unavailabilities and change their status. |
+| [Secure credentials with the vault](../circulation-module/secure-credentials-with-the-vault.md) | Circulation module | Store the credentials used by Circulation in encrypted form and migrate to the vault. |
 | [Sign in](../introduction/sign-in.md) | Introduction | Sign in to and out of Nomadia Field Service. |
 | [Supervision overview](../supervision/supervision-overview.md) | Supervision | Monitor activity with the Supervision module. |
 

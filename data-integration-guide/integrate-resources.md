@@ -23,7 +23,7 @@ The human resource (`HumanResource`) represents both the scheduled field workers
 | `WORKEMAIL` | String | No |  | Resource email (work) |  |
 | `ACTION` | String | No |  | Action verb that triggers a specific import behavior (RETRIEVE_JOB_PRIORITIES_LIMITS: retrieve all the priorities and limits defined on a resource type and apply them to the current resource) |  |
 
-The entity has more than 300 fields: hours for each day of the week (`DAY1…` to `DAY7…`, 1 = Monday), working-time and travel-time limits, starting and return locations, and custom fields. The complete list is in the exchange model reference<!-- TODO-LINK: guide-dintegration-des-donnees/reference-modele -->.
+The entity has more than 300 fields: hours for each day of the week (`DAY1…` to `DAY7…`, 1 = Monday), working-time and travel-time limits, starting and return locations, and custom fields. The complete list is in the [exchange model reference](exchange-model-reference.md).
 
 ## Specific actions
 

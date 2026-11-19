@@ -38,6 +38,7 @@ The documentation follows the application's module structure:
 | Administration      | Human resources, teams, and reference data             | [Administration overview](administration/administration-overview.md) |
 | Imports and exports | CSV file import and export                             | [Imports and exports overview](imports-and-exports/imports-and-exports-overview.md) |
 | Data integration guide | Exchange model, imports and exports, integration order | [Data integration guide](data-integration-guide/data-integration-guide.md) |
+| Circulation module | Automated data flows between NFS and external systems | [Circulation module](circulation-module/circulation-module.md) |
 | FAQ                 | Quick answers about each module                        | [FAQ overview](faq/faq-overview.md) |
 | Reference           | Meaning of the terms and an alphabetical list of topics | [Glossary](reference/glossary.md) and [Find a topic (A–Z)](reference/find-a-topic.md) |
 
@@ -178,6 +179,13 @@ The documentation follows the application's module structure:
 | Follow imports, exports and web service calls in the application log | [Logging and supervision](data-integration-guide/logging-and-supervision.md) |
 | See a complete fictitious data set and web service calls | [Integration examples](data-integration-guide/integration-examples.md) |
 | Prepare, load and tune an integration | [Best practices](data-integration-guide/best-practices.md) |
+| Diagnose a failed import, export or web service call | [Diagnosis and troubleshooting](data-integration-guide/diagnosis-and-troubleshooting.md) |
+| Find all entities and fields of the exchange model, by domain | [Exchange model reference](data-integration-guide/exchange-model-reference.md) |
+| Check the full integration order, the mapping to the former guide or the integration terms | [Appendices](data-integration-guide/appendices.md) |
+| Automate data flows between NFS and external systems | [Circulation module](circulation-module/circulation-module.md) |
+| Check the rights and screens needed to configure Circulation | [Prerequisites and access](circulation-module/prerequisites-and-access.md) |
+| Store credentials for Circulation in encrypted form | [Secure credentials with the vault](circulation-module/secure-credentials-with-the-vault.md) |
+| Look up the objects and parameters of the Circulation file | [Circulation file reference](circulation-module/circulation-file-reference.md) |
 
 ### Find an answer
 

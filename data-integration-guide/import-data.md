@@ -19,7 +19,7 @@ Several entities share similar required fields. Always include all the required 
 | `Administration > CSV files > Import a CSV file` | Import of one file, with a choice of encoding, separators, date format, import mode, and geocoding options. |
 | `Administration > CSV files > Global CSV import/export` | Import of a ZIP archive containing one CSV file per entity (global export format). UTF-8 encoding is mandatory. |
 | entities web service (SOAP or REST) | Operations SetEntitiesFromCsv, SetEntityFromProperties, and setEntities (REST). See [Integration APIs and web services](integration-apis-and-web-services.md). |
-| Circulation | Automated import of files, SQL queries, or messages (see the Circulation module<!-- TODO-LINK: module-circulation/module-circulation -->). |
+| Circulation | Automated import of files, SQL queries, or messages (see the [Circulation module](../circulation-module/circulation-module.md)). |
 
 <!-- REVIEW: menu labels (CSV files, Import a CSV file, Global CSV import/export) are translated from the French menu names; check them against the English UI. -->
 
@@ -106,7 +106,7 @@ The $ID suffix replaces the first occurrence of ID in the name of the identifier
 
 ### Deletion
 
-You request deletion row by row with the value DELETE in the ACTION column, for the entities that support it (customer, contact, appointment, unavailability, resource skills, priorities, public holidays, and so on; see the description of the ACTION field in the exchange model reference<!-- TODO-LINK: guide-dintegration-des-donnees/reference-modele -->). There is no generic deactivation through the ACTION column: deactivation uses the ACTIVE field (0) of the entities that have it, or the disabledEntities web service.
+You request deletion row by row with the value DELETE in the ACTION column, for the entities that support it (customer, contact, appointment, unavailability, resource skills, priorities, public holidays, and so on; see the description of the ACTION field in the [exchange model reference](exchange-model-reference.md)). There is no generic deactivation through the ACTION column: deactivation uses the ACTIVE field (0) of the entities that have it, or the disabledEntities web service.
 
 {% hint style="warning" %}
 For an appointment, DELETE is a physical deletion.
