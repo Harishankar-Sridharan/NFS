@@ -51,6 +51,8 @@ The documentation follows the application's module structure:
 | Find my way around the screen and change module | [Navigate the application](introduction/navigate-the-application.md) |
 | Understand appointment statuses and the actions that change them | [Understand appointment statuses](introduction/appointment-statuses.md) |
 | See today's attendance, activity and forecast workload | [Portal](portal/portal.md) |
+| Validate an address so that it is positioned on the map | [Geocode an address](introduction/geocode-an-address.md) |
+| Discover the additional modules, such as Sectorization and Tracking | [Additional modules](additional-modules/additional-modules.md) |
 
 ### Plan and follow the schedule
 
@@ -67,6 +69,11 @@ The documentation follows the application's module structure:
 | Track a field worker's workload and activity | [Resource monitoring](planning/resource-monitoring/README.md) |
 | Show route indicators in the resource mini-card | [Display route indicators in the resource mini-card](planning/resource-monitoring/display-route-indicators-in-the-resource-mini-card.md) |
 | Compare the statistics of several field workers | [View the resource activity table](planning/resource-monitoring/view-the-resource-activity-table.md) |
+| Display appointments and sectors on the map | [Use the map](planning/use-the-map.md) |
+| Manage temporary jobs, sector assignments, agenda markers, hotel locations, locked days, equipment and sector opening | [Manage other planning items](planning/manage-other-planning-items.md) |
+| Define different visit slots for each day of the week on an appointment | [Configure visit slots by day of the week](planning/configure-visit-slots-by-weekday.md) |
+| Search around an address, compute a route, track vehicles or edit a route sheet | [Use the location and export tools](planning/use-location-and-export-tools.md) |
+| Follow appointment alerts, customers on alert and unread messages | [Follow alerts and messages](planning/follow-alerts-and-messages.md) |
 | Compare a resource's planned and completed day | [Fulfilment](fulfilment/fulfilment.md) |
 
 ### Work with appointments
@@ -79,6 +86,7 @@ The documentation follows the application's module structure:
 | Search for appointments and act on a selection | [Search for appointments](appointments/search-for-appointments.md) |
 | Read an appointment and use its actions | [View an appointment record](appointments/view-an-appointment-record.md) |
 | Update an appointment | [Edit an appointment](appointments/edit-an-appointment.md) |
+| Swap routes, reschedule a field worker's appointments or schedule a selection | [Process several appointments at once](appointments/process-several-appointments-at-once.md) |
 
 ### Work with customers
 
@@ -96,7 +104,9 @@ The documentation follows the application's module structure:
 | Find out how unavailabilities are handled | [Unavailabilities overview](unavailabilities/unavailabilities-overview.md) |
 | Declare a resource unavailability | [Create an unavailability](unavailabilities/create-an-unavailability.md) |
 | Search for unavailabilities and change their status | [Search for unavailabilities](unavailabilities/search-for-unavailabilities.md) |
+| Define a temporary start or end location for a route, such as an overnight stay | [Manage exceptional locations](unavailabilities/manage-exceptional-locations.md) |
 | View resource availability schedules and add an unavailability | [Availabilities](availabilities/availability.md) |
+| Place, repeat or delete templates and unavailabilities by drag and drop | [Edit the attendance planning](availabilities/edit-the-attendance-planning.md) |
 
 ### Monitor activity
 
@@ -106,6 +116,7 @@ The documentation follows the application's module structure:
 | Track the number of appointments and the revenue by week | [Track past and upcoming appointments](supervision/track-past-and-upcoming-appointments.md) |
 | Find the history of actions on appointments and unavailabilities | [View the log](supervision/view-the-log.md) |
 | Configure and view dashboards | [Configure and view dashboards](supervision/configure-and-view-dashboards.md) |
+| Study distances, centers of gravity, compliance and overtime | [Use the Supervision analyses](supervision/use-supervision-analyses.md) |
 
 ### Create reports and forms
 

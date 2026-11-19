@@ -51,3 +51,4 @@ The fields in this window are the same as in [unavailability management](../unav
 ## Notes
 
 * The hover window also provides the **Add a position** icon.
+* To place templates and unavailabilities by drag and drop, see [Edit the attendance planning](edit-the-attendance-planning.md).

@@ -47,3 +47,8 @@ The menu also contains **Alerts** and **View managers** at the bottom. The latte
 * [Manage an appointment from the schedule](manage-an-appointment-from-the-schedule.md)
 * [Manage search views](manage-search-views/)
 * [Resource monitoring](resource-monitoring/)
+* [Use the map](use-the-map.md)
+* [Manage other planning items](manage-other-planning-items.md)
+* [Configure visit slots by day of the week](configure-visit-slots-by-weekday.md)
+* [Use the location and export tools](use-location-and-export-tools.md)
+* [Follow alerts and messages](follow-alerts-and-messages.md)

@@ -35,3 +35,4 @@ Some dashboard labels appear in English.
 * [Track past and upcoming appointments](track-past-and-upcoming-appointments.md)
 * [View the log](view-the-log.md)
 * [Configure and view dashboards](configure-and-view-dashboards.md)
+* [Use the Supervision analyses](use-supervision-analyses.md)

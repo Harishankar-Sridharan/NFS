@@ -9,6 +9,7 @@
 * [Sign in](introduction/sign-in.md)
 * [Navigate the application](introduction/navigate-the-application.md)
 * [Understand appointment statuses](introduction/appointment-statuses.md)
+* [Geocode an address](introduction/geocode-an-address.md)
 
 ## Portal
 
@@ -27,6 +28,11 @@
 * [Resource monitoring](planning/resource-monitoring/README.md)
   * [Display route indicators in the resource mini-card](planning/resource-monitoring/display-route-indicators-in-the-resource-mini-card.md)
   * [View the resource activity table](planning/resource-monitoring/view-the-resource-activity-table.md)
+* [Use the map](planning/use-the-map.md)
+* [Manage other planning items](planning/manage-other-planning-items.md)
+* [Configure visit slots by day of the week](planning/configure-visit-slots-by-weekday.md)
+* [Use the location and export tools](planning/use-location-and-export-tools.md)
+* [Follow alerts and messages](planning/follow-alerts-and-messages.md)
 
 ## Appointments
 
@@ -36,6 +42,7 @@
 * [Search for appointments](appointments/search-for-appointments.md)
 * [View an appointment record](appointments/view-an-appointment-record.md)
 * [Edit an appointment](appointments/edit-an-appointment.md)
+* [Process several appointments at once](appointments/process-several-appointments-at-once.md)
 
 ## Customers
 
@@ -49,10 +56,12 @@
 * [Unavailabilities overview](unavailabilities/unavailabilities-overview.md)
 * [Create an unavailability](unavailabilities/create-an-unavailability.md)
 * [Search for unavailabilities](unavailabilities/search-for-unavailabilities.md)
+* [Manage exceptional locations](unavailabilities/manage-exceptional-locations.md)
 
 ## Availabilities
 
 * [Availabilities](availabilities/availability.md)
+* [Edit the attendance planning](availabilities/edit-the-attendance-planning.md)
 
 ## Supervision
 
@@ -60,6 +69,11 @@
 * [Track past and upcoming appointments](supervision/track-past-and-upcoming-appointments.md)
 * [View the log](supervision/view-the-log.md)
 * [Configure and view dashboards](supervision/configure-and-view-dashboards.md)
+* [Use the Supervision analyses](supervision/use-supervision-analyses.md)
+
+## Additional modules
+
+* [Additional modules](additional-modules/additional-modules.md)
 
 ## Fulfilment
 

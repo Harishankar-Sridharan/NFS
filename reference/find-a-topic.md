@@ -14,6 +14,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
+| [Additional modules](../additional-modules/additional-modules.md) | Additional modules | Discover the additional modules: Sectorization, Fulfilment, Tracking, Report, and custom modules. |
 | [Administration overview](../administration/administration-overview.md) | Administration | Discover the Administration module and shared data management. |
 | [Appointments overview](../appointments/appointments-overview.md) | Appointments | Schedule, search for, view, and edit appointments. |
 | [Availabilities](../availabilities/availability.md) | Availabilities | View resource availability schedules and add an unavailability. |
@@ -28,6 +29,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Configure on-call duties](../administration/configure-on-call-duties.md) | Administration | Create on-call day and week templates. |
 | [Configure optimization](../administration/configure-optimization.md) | Administration | Configure optimization profiles, schedule optimizations, and activate areas. |
 | [Configure unavailability and exceptional location types](../administration/configure-unavailability-and-exceptional-location-types.md) | Administration | Configure unavailability types and exceptional location types. |
+| [Configure visit slots by day of the week](../planning/configure-visit-slots-by-weekday.md) | Planning | Define different visit slots on an appointment for each day of the week. |
 | [Create a customer](../customers/create-a-customer.md) | Customers | Create a customer and geocode their address. |
 | [Create a user view](../planning/manage-search-views/create-a-user-view.md) | Planning | Create a personal appointment list that only you can see. |
 | [Create an administrator view](../planning/manage-search-views/create-an-administrator-view.md) | Planning | Configure a MySearch view shared by several users. |
@@ -46,6 +48,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
 | [Edit an appointment](../appointments/edit-an-appointment.md) | Appointments | Update data for an existing appointment. |
+| [Edit the attendance planning](../availabilities/edit-the-attendance-planning.md) | Availabilities | Edit field workers' attendance planning by drag and drop, manage a selection, and produce reports. |
 | [Edit, copy, or delete a view](../planning/manage-search-views/edit-copy-or-delete-a-view.md) | Planning | Adjust, duplicate, or delete an existing MySearch view. |
 | [Export a CSV file](../imports-and-exports/export-a-csv-file.md) | Imports and exports | Export entity data in CSV format. |
 
@@ -54,6 +57,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
 | [FAQ overview](../faq/faq-overview.md) | FAQ | Find quick answers to frequently asked questions about the Nomadia Field Service back-office. |
+| [Follow alerts and messages](../planning/follow-alerts-and-messages.md) | Planning | Follow appointment alerts, customers on alert, application alerts, and unread messages. |
 | [Fulfilment](../fulfilment/fulfilment.md) | Fulfilment | Compare a resource's planned and completed day. |
 
 ## G
@@ -61,6 +65,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
 | [Generate appointment reports](../report/generate-appointment-reports.md) | Report | Set up automatic PDF appointment report generation from a Word template. |
+| [Geocode an address](../introduction/geocode-an-address.md) | Introduction | Understand geocoding and validate an address so that it is positioned on the map. |
 | [Glossary](../reference/glossary.md) | Reference | Find the meaning of the terms that the application and this guide use. |
 
 ## H
@@ -122,11 +127,13 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | ----- | ----------------- | -------------- |
 | [Manage an appointment from the schedule](../planning/manage-an-appointment-from-the-schedule.md) | Planning | Open an appointment or change its status directly from the schedule. |
 | [Manage calendars](../administration/manage-calendars.md) | Administration | Configure public holidays, templates, and sales periods for planning. |
+| [Manage exceptional locations](../unavailabilities/manage-exceptional-locations.md) | Unavailabilities | Define a temporary start or end location for a route, for example for an overnight stay. |
 | [Manage exchange files](../administration/manage-exchange-files.md) | Administration | Use semi-automatic import, global import/export, CSV exchange templates, and specific and XML files. |
 | [Manage geographic organization](../administration/manage-geographic-organization.md) | Administration | Manage domains, regions, work sites, sectors and on-call sectors. |
 | [Manage human resources](../administration/manage-human-resources.md) | Administration | Search for and view human resources and their work settings. |
 | [Manage mobility](../administration/manage-mobility.md) | Administration | Configure vehicles, tracking, equipment assignments, and mobility settings. |
 | [Manage objectives, activity monitoring, and typologies](../administration/manage-objectives-activity-monitoring-and-typologies.md) | Administration | Configure objectives, completion statuses, follow-up, and typologies. |
+| [Manage other planning items](../planning/manage-other-planning-items.md) | Planning | Manage temporary jobs, sector assignments, agenda markers, hotel locations, locked days, equipment assignments, and sector opening. |
 | [Manage profiles and permissions](../administration/manage-profiles-and-permissions.md) | Administration | Manage profiles, permission collections, access rights, and alert subscriptions. |
 | [Manage resource and job types](../administration/manage-resource-and-job-types.md) | Administration | Configure resource and job types used for human resources. |
 | [Manage search views](../planning/manage-search-views/README.md) | Planning | Build custom appointment lists (MySearch) and choose which ones appear on the home screen. |
@@ -154,6 +161,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Planning overview](../planning/planning-overview.md) | Planning | Discover the Planning module screen and its menu. |
 | [Portal](../portal/portal.md) | Portal | View the Portal home dashboard. |
 | [Prepare a report Word template](../report/prepare-a-report-word-template.md) | Report | Prepare a Word appointment report template with merge fields. |
+| [Process several appointments at once](../appointments/process-several-appointments-at-once.md) | Appointments | Swap two field workers' routes, reschedule a field worker's appointments, or schedule a selection of appointments. |
 
 ## Q
 
@@ -193,6 +201,9 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Unavailabilities overview](../unavailabilities/unavailabilities-overview.md) | Unavailabilities | Declare and search for resource unavailabilities. |
 | [Understand appointment statuses](../introduction/appointment-statuses.md) | Introduction | Understand appointment statuses and the actions that change them. |
 | [Use administration tools](../administration/use-administration-tools.md) | Administration | Use administration tools and access API documentation. |
+| [Use the location and export tools](../planning/use-location-and-export-tools.md) | Planning | Search around an address, compute a route, track vehicles, and export data from the Planning module. |
+| [Use the map](../planning/use-the-map.md) | Planning | Use the Planning map to display appointments and sectors. |
+| [Use the Supervision analyses](../supervision/use-supervision-analyses.md) | Supervision | Use the Supervision analyses: customer distances, centers of gravity, unavailabilities, compliance, and overtime. |
 
 ## V
 

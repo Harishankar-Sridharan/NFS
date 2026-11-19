@@ -10,5 +10,6 @@ An unavailability is a period during which a resource cannot receive appointment
 
 * [Create an unavailability](create-an-unavailability.md)
 * [Search for unavailabilities](search-for-unavailabilities.md)
+* [Manage exceptional locations](manage-exceptional-locations.md)
 
 You can also add an unavailability from the **Availabilities** module. For more information, see Availabilities.

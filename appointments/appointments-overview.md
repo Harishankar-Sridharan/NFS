@@ -13,5 +13,6 @@ An appointment is a service to be completed for a customer by one or more field 
 * [Search for appointments](search-for-appointments.md): find appointments and act on a selection.
 * [View an appointment record](view-an-appointment-record.md): read information and use available actions.
 * [Edit an appointment](edit-an-appointment.md): update appointment data.
+* [Process several appointments at once](process-several-appointments-at-once.md): swap routes, reschedule a field worker's appointments, or schedule a selection.
 
 To understand appointment statuses, see [Understand appointment statuses](../introduction/appointment-statuses.md).

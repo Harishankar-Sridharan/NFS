@@ -31,3 +31,4 @@ The displayed module list depends on your profile and environment configuration.
 * Sign in
 * Navigate the application
 * Understand appointment statuses
+* [Geocode an address](geocode-an-address.md)

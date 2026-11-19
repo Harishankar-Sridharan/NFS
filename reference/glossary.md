@@ -15,6 +15,7 @@ The terms are in alphabetical order. Each definition has a link to the topic tha
 | **Accept** | An action that sets an appointment so that its assignment must no longer change. See [Understand appointment statuses](../introduction/appointment-statuses.md). |
 | **Access right** | An access right authorizes a specific action. Access rights are grouped in permission collections. See [Manage profiles and permissions](../administration/manage-profiles-and-permissions.md). |
 | **Administrator view** | A MySearch view that is shared with several users. There are 15 fixed slots, named MySearch 1 to 15. See [Create an administrator view](../planning/manage-search-views/create-an-administrator-view.md). |
+| **Agenda marker** | A timestamped reference point that you place in a field worker's planning, for example a phone call or a promised appointment. It does not need an address. See [Manage other planning items](../planning/manage-other-planning-items.md). |
 | **Application configuration** | The tree of settings under Administration > Customization. You filter it by name, change a value and save it. See [Customize the application](../administration/customize-the-application.md). |
 | **Application launcher** | The icon at the top left of the screen that opens the modules. See [Navigate the application](../introduction/navigate-the-application.md). |
 | **Appointment** | A visit to a customer that you schedule and assign to a field worker. It has a status. The mobile app calls it an intervention. See [Appointments overview](../appointments/appointments-overview.md). |
@@ -39,11 +40,13 @@ The terms are in alphabetical order. Each definition has a link to the topic tha
 | **Form template** | A form that lets technicians answer questions during an appointment. See [Report module overview](../report/report-overview.md). |
 | **Fulfilment** | The comparison of the planned day of a resource with its completed day. See [Fulfilment](../fulfilment/fulfilment.md). |
 | **Geocoding** | Finding the location of an address on the map. When you create a customer, you validate the address and choose the matching one. See [Create a customer](../customers/create-a-customer.md). |
+| **Hotel location** | A recorded hotel that you can use to position an overnight stay when you enter an exceptional location. See [Manage other planning items](../planning/manage-other-planning-items.md). |
 | **Human resource** | The record of a resource, with tabs such as Information, Assignment, User, Typical week, Limits and Skills. See [Manage human resources](../administration/manage-human-resources.md). |
 | **Import mode** | The way that a CSV import treats existing data: Standard, Insert only or Update only. See [Import a CSV file](../imports-and-exports/import-a-csv-file.md). |
 | **Intervention group** | A group of intervention types. See [Configure interventions](../administration/configure-interventions.md). |
 | **Intervention type** | The kind of work of an appointment, with an average duration, a number of resources, a priority, favorite days and required skills. See [Configure interventions](../administration/configure-interventions.md). |
 | **Job type** | A type of job that is used for human resources. It has a default location. See [Manage resource and job types](../administration/manage-resource-and-job-types.md). |
+| **Locked day** | A field worker's day that is protected against optimization. See [Manage other planning items](../planning/manage-other-planning-items.md). |
 | **Log** | The history of the actions performed on appointments, unavailabilities and exceptional locations. See [View the log](../supervision/view-the-log.md). |
 | **Manual scheduling** | Scheduling an appointment by choosing the field worker and the date and time yourself, without the optimizer. See [Schedule an appointment manually](../appointments/schedule-an-appointment-manually.md). |
 | **Mini-card** | The card of a resource, with the tabs ROUTES, QUOTA and VEHICLE. See [Display route indicators in the resource mini-card](../planning/resource-monitoring/display-route-indicators-in-the-resource-mini-card.md). |
@@ -73,10 +76,12 @@ The terms are in alphabetical order. Each definition has a link to the topic tha
 | **Supervision** | The module for monitoring appointments, the log, dashboards and analyses. See [Supervision overview](../supervision/supervision-overview.md). |
 | **Suspend** | An action to call the customer back and reschedule in real time. No batch optimization applies. See [Understand appointment statuses](../introduction/appointment-statuses.md). |
 | **Team** | A group of field workers, with a name, a service region and members. See [Manage teams](../administration/manage-teams.md). |
+| **Temporary job** | A job that temporarily replaces a field worker's main job for a period. See [Manage other planning items](../planning/manage-other-planning-items.md). |
 | **Tracking** | The module for monitoring location equipment. See [Overview](../introduction/overview.md). |
 | **Unavailability** | A period when a resource is not available. You can declare a one-off or a repeating unavailability, and search for unavailabilities. See [Unavailabilities overview](../unavailabilities/unavailabilities-overview.md). |
 | **Unavailability type** | The configuration of an unavailability: name, region, working time, multi-resource, default location and duration limits. See [Configure unavailability and exceptional location types](../administration/configure-unavailability-and-exceptional-location-types.md). |
 | **User view** | A personal MySearch view that only you can see. The number of user views is not limited. See [Create a user view](../planning/manage-search-views/create-a-user-view.md). |
+| **Visit slot** | A time range, on an appointment, during which the intervention is possible. You can define a different slot for each day of the week. See [Configure visit slots by day of the week](../planning/configure-visit-slots-by-weekday.md). |
 | **Week template** | A template that selects a day template for each day of the week. See [Manage calendars](../administration/manage-calendars.md). |
 | **Work site** | A workplace that is shared by several resources, such as an agency, a depot or a store. See [Manage geographic organization](../administration/manage-geographic-organization.md). |
 
