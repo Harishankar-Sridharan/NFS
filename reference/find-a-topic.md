@@ -8,7 +8,7 @@ Browse every topic of the guide in alphabetical order.
 
 Select a letter to jump to it, then select a topic to open it. Each row shows the part of the guide where the topic is and what it covers.
 
-[A](#a) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w)
+[A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · [H](#h) · [I](#i) · [L](#l) · [M](#m) · [N](#n) · [O](#o) · [P](#p) · [Q](#q) · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · [W](#w)
 
 ## A
 
@@ -19,6 +19,12 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Appointments overview](../appointments/appointments-overview.md) | Appointments | Schedule, search for, view, and edit appointments. |
 | [Authentication and security](../data-integration-guide/authentication-and-security.md) | Data integration guide | Authentication modes of the web services and security best practices. |
 | [Availabilities](../availabilities/availability.md) | Availabilities | View resource availability schedules and add an unavailability. |
+
+## B
+
+| Topic | Part of the guide | What it covers |
+| ----- | ----------------- | -------------- |
+| [Best practices](../data-integration-guide/best-practices.md) | Data integration guide | Preparation, loading, and performance of an integration. |
 
 ## C
 
@@ -36,6 +42,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Create a user view](../planning/manage-search-views/create-a-user-view.md) | Planning | Create a personal appointment list that only you can see. |
 | [Create an administrator view](../planning/manage-search-views/create-an-administrator-view.md) | Planning | Configure a MySearch view shared by several users. |
 | [Create an unavailability](../unavailabilities/create-an-unavailability.md) | Unavailabilities | Declare a resource unavailability from the Planning module. |
+| [Custom fields](../data-integration-guide/custom-fields.md) | Data integration guide | Free fields, typologies, and labels in an integration. |
 | [Customers overview](../customers/customers-overview.md) | Customers | Create, search for, and view customers. |
 | [Customize the application](../administration/customize-the-application.md) | Administration | Configure application settings, labels, themes, and colors. |
 
@@ -44,6 +51,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
 | [Data integration guide](../data-integration-guide/data-integration-guide.md) | Data integration guide | Feed NFS with a customer's data and extract the results. |
+| [Data validation and error handling](../data-integration-guide/data-validation-and-error-handling.md) | Data integration guide | Checks, error codes, and the import report. |
 | [Display route indicators in the resource mini-card](../planning/resource-monitoring/display-route-indicators-in-the-resource-mini-card.md) | Planning | Show a field worker’s route, quota, and vehicle-capacity indicators in the resource mini-card. |
 
 ## E
@@ -54,6 +62,7 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | [Edit the attendance planning](../availabilities/edit-the-attendance-planning.md) | Availabilities | Edit field workers' attendance planning by drag and drop, manage a selection, and produce reports. |
 | [Edit, copy, or delete a view](../planning/manage-search-views/edit-copy-or-delete-a-view.md) | Planning | Adjust, duplicate, or delete an existing MySearch view. |
 | [Export a CSV file](../imports-and-exports/export-a-csv-file.md) | Imports and exports | Export entity data in CSV format. |
+| [Export data](../data-integration-guide/export-data.md) | Data integration guide | Entry points, extraction types, formats, and global export. |
 
 ## F
 
@@ -122,12 +131,23 @@ Select a letter to jump to it, then select a topic to open it. Each row shows th
 | Topic | Part of the guide | What it covers |
 | ----- | ----------------- | -------------- |
 | [Import a CSV file](../imports-and-exports/import-a-csv-file.md) | Imports and exports | Import a CSV file to create or update data. |
+| [Import data](../data-integration-guide/import-data.md) | Data integration guide | Entry points, CSV format, creation, update, deletion, geocoding, and global import. |
 | [Imports and exports overview](../imports-and-exports/imports-and-exports-overview.md) | Imports and exports | Import and export data in CSV format. |
+| [Integrate appointments](../data-integration-guide/integrate-appointments.md) | Data integration guide | Appointment fields, statuses and lifecycle, actions, details, and completions. |
 | [Integrate calendars, schedules, and unavailabilities](../data-integration-guide/integrate-calendars-schedules-and-unavailabilities.md) | Data integration guide | Integrate public holidays, day and week templates, calendars, and unavailabilities. |
+| [Integrate customers and sites](../data-integration-guide/integrate-customers-and-sites.md) | Data integration guide | Customers, contacts, projects, and geolocation. |
 | [Integrate resources](../data-integration-guide/integrate-resources.md) | Data integration guide | Integrate human resources and their attributes. |
 | [Integrate skills, authorizations, and assignment rules](../data-integration-guide/integrate-skills-authorizations-and-assignment-rules.md) | Data integration guide | Integrate skills, authorizations, and the rules that assign resources. |
 | [Integrate the organization and activity](../data-integration-guide/integrate-organization-and-activity.md) | Data integration guide | Integrate regions, work sites, teams, intervention groups, and intervention types. |
+| [Integration APIs and web services](../data-integration-guide/integration-apis-and-web-services.md) | Data integration guide | Data exchange services, business services, and error codes. |
+| [Integration examples](../data-integration-guide/integration-examples.md) | Data integration guide | A complete fictitious data set and web service calls. |
 | [Integration overview](../data-integration-guide/integration-overview.md) | Data integration guide | Principle, exchange channels, architecture, and typical sequence of an integration. |
+
+## L
+
+| Topic | Part of the guide | What it covers |
+| ----- | ----------------- | -------------- |
+| [Logging and supervision](../data-integration-guide/logging-and-supervision.md) | Data integration guide | Application log, subscriptions, and supervision exports. |
 
 ## M
 

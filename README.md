@@ -168,6 +168,16 @@ The documentation follows the application's module structure:
 | Import resources | [Integrate resources](data-integration-guide/integrate-resources.md) |
 | Import calendars, schedules and unavailabilities | [Integrate calendars, schedules, and unavailabilities](data-integration-guide/integrate-calendars-schedules-and-unavailabilities.md) |
 | Import skills, authorizations and assignment rules | [Integrate skills, authorizations, and assignment rules](data-integration-guide/integrate-skills-authorizations-and-assignment-rules.md) |
+| Import customers, contacts and projects | [Integrate customers and sites](data-integration-guide/integrate-customers-and-sites.md) |
+| Import appointments and understand their statuses and lifecycle | [Integrate appointments](data-integration-guide/integrate-appointments.md) |
+| Import data from CSV files and understand how a file is processed | [Import data](data-integration-guide/import-data.md) |
+| Export data and extract the results | [Export data](data-integration-guide/export-data.md) |
+| Call the data exchange and business web services | [Integration APIs and web services](data-integration-guide/integration-apis-and-web-services.md) |
+| Use free fields and typologies in an integration | [Custom fields](data-integration-guide/custom-fields.md) |
+| Understand data checks, error codes and the import report | [Data validation and error handling](data-integration-guide/data-validation-and-error-handling.md) |
+| Follow imports, exports and web service calls in the application log | [Logging and supervision](data-integration-guide/logging-and-supervision.md) |
+| See a complete fictitious data set and web service calls | [Integration examples](data-integration-guide/integration-examples.md) |
+| Prepare, load and tune an integration | [Best practices](data-integration-guide/best-practices.md) |
 
 ### Find an answer
 

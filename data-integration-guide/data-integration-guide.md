@@ -35,14 +35,14 @@ Readers must know how to handle a CSV file and read a JSON or XML document. Tech
 | [Authentication and security](authentication-and-security.md) | Web service authentication modes, best practices |
 | [Concepts and exchange model](concepts-and-exchange-model.md) | Entities, data types, import and export columns, synonyms |
 | [Reference data and integration order](reference-data-and-integration-order.md) | Loading order, then integration of each domain: organization, resources, calendars, skills, customers, appointments |
-| Importing data<!-- TODO-LINK: guide-dintegration-des-donnees/imports --> | Entry points, CSV format, creation, update, deletion, geocoding, global import |
-| Exporting data<!-- TODO-LINK: guide-dintegration-des-donnees/exports --> | Entry points, extraction types, formats, global export |
-| Integration APIs and web services<!-- TODO-LINK: guide-dintegration-des-donnees/api-services-web --> | Data exchange services, business services, error codes |
-| Custom fields<!-- TODO-LINK: guide-dintegration-des-donnees/champs-personnalises --> | Free fields, typologies, labels |
-| Data validation and error handling<!-- TODO-LINK: guide-dintegration-des-donnees/validation-erreurs --> | Checks, error codes, import report |
-| Logging and supervision<!-- TODO-LINK: guide-dintegration-des-donnees/journalisation-supervision --> | Application log, subscriptions, supervision exports |
-| Integration examples<!-- TODO-LINK: guide-dintegration-des-donnees/exemples --> | Complete fictitious data set and web service calls |
-| Best practices<!-- TODO-LINK: guide-dintegration-des-donnees/bonnes-pratiques --> | Preparation, loading, performance |
+| [Import data](import-data.md) | Entry points, CSV format, creation, update, deletion, geocoding, global import |
+| [Export data](export-data.md) | Entry points, extraction types, formats, global export |
+| [Integration APIs and web services](integration-apis-and-web-services.md) | Data exchange services, business services, error codes |
+| [Custom fields](custom-fields.md) | Free fields, typologies, labels |
+| [Data validation and error handling](data-validation-and-error-handling.md) | Checks, error codes, import report |
+| [Logging and supervision](logging-and-supervision.md) | Application log, subscriptions, supervision exports |
+| [Integration examples](integration-examples.md) | Complete fictitious data set and web service calls |
+| [Best practices](best-practices.md) | Preparation, loading, performance |
 | Diagnosis and troubleshooting<!-- TODO-LINK: guide-dintegration-des-donnees/diagnostic --> | Common errors and diagnostic approach |
 | Exchange model reference<!-- TODO-LINK: guide-dintegration-des-donnees/reference-modele --> | All entities and all fields, by domain |
 | Appendices<!-- TODO-LINK: guide-dintegration-des-donnees/annexes --> | Detailed integration order, mapping to the former guide, glossary |

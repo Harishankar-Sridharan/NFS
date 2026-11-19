@@ -9,7 +9,7 @@ description: Exchange model, main entities, data types, import and export column
 The exchange model describes each entity and each of its fields by its name, type, whether it is required, any restriction to import or export, and the entity it references. You can view the model:
 
 * in the application, from `Administration > CSV files > CSV import/export model`;
-* through the web service, with the ListEntities and GetExchangeModel operations (see API and integration web services<!-- TODO-LINK: guide-dintegration-des-donnees/api-services-web -->);
+* through the web service, with the ListEntities and GetExchangeModel operations (see [Integration APIs and web services](integration-apis-and-web-services.md));
 * in the exchange model reference<!-- TODO-LINK: guide-dintegration-des-donnees/reference-modele -->.
 
 ## Main entities and relationships
@@ -24,7 +24,7 @@ The exchange model describes each entity and each of its fields by its name, typ
 | ID\_FOREIGN | External identifier of a referenced entity (must exist) | Text | AG\_PARIS\_N |
 | IDS\_LIST | List of external identifiers separated by the list separator | Text | TT\_ENTRETIEN,TT\_DEPANNAGE |
 | STRING / TEXT | Character string / free text | Text | Boulangerie des Lilas |
-| BOOLEAN | Logical value | See Importing data<!-- TODO-LINK: guide-dintegration-des-donnees/imports --> | 1 |
+| BOOLEAN | Logical value | See [Import data](import-data.md) | 1 |
 | INTEGER / REAL | Whole number / decimal number | Number | 60 / 12.5 |
 | DATE, PERIOD\_STARTDATE, PERIOD\_ENDDATE | Date; the last two set the bounds of a period | Import date format | 16/11/2026 |
 | DATETIME | Date and time | date + space + time | 16/11/2026 08:30 |

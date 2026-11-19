@@ -124,6 +124,16 @@
   * [Integrate resources](data-integration-guide/integrate-resources.md)
   * [Integrate calendars, schedules, and unavailabilities](data-integration-guide/integrate-calendars-schedules-and-unavailabilities.md)
   * [Integrate skills, authorizations, and assignment rules](data-integration-guide/integrate-skills-authorizations-and-assignment-rules.md)
+  * [Integrate customers and sites](data-integration-guide/integrate-customers-and-sites.md)
+  * [Integrate appointments](data-integration-guide/integrate-appointments.md)
+* [Import data](data-integration-guide/import-data.md)
+* [Export data](data-integration-guide/export-data.md)
+* [Integration APIs and web services](data-integration-guide/integration-apis-and-web-services.md)
+* [Custom fields](data-integration-guide/custom-fields.md)
+* [Data validation and error handling](data-integration-guide/data-validation-and-error-handling.md)
+* [Logging and supervision](data-integration-guide/logging-and-supervision.md)
+* [Integration examples](data-integration-guide/integration-examples.md)
+* [Best practices](data-integration-guide/best-practices.md)
 
 ## FAQ
 

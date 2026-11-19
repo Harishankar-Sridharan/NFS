@@ -22,8 +22,8 @@ For an initial data load, import the files in the order given in the Detailed in
 | [Integrate resources](integrate-resources.md) | Human resources, specific actions, field-worker and job types |
 | [Integrate calendars, schedules, and unavailabilities](integrate-calendars-schedules-and-unavailabilities.md) | Day and week templates, public holidays, unavailabilities |
 | [Integrate skills, authorizations, and assignment rules](integrate-skills-authorizations-and-assignment-rules.md) | Skills, priorities, authorizations, preferences |
-| Integrate customers and sites<!-- TODO-LINK: guide-dintegration-des-donnees/integrer-donnees/clients-sites --> | Customers, contacts, projects, geolocation |
-| Integrate appointments<!-- TODO-LINK: guide-dintegration-des-donnees/integrer-donnees/interventions --> | Fields, statuses and lifecycle, actions, details and completions |
+| [Integrate customers and sites](integrate-customers-and-sites.md) | Customers, contacts, projects, geolocation |
+| [Integrate appointments](integrate-appointments.md) | Fields, statuses and lifecycle, actions, details and completions |
 
 Previous: [Concepts and exchange model](concepts-and-exchange-model.md)
 
