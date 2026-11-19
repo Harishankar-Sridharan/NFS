@@ -30,8 +30,24 @@ The unavailability appears in the resource schedule and in the list below it, wi
 
 ![Unavailability added and displayed in the resource schedule](../.gitbook/assets/en_unavailability_schedule.png)
 
+## Handle a conflict with appointments
+
+If the unavailability overlaps appointments, a screen lists the appointments concerned. A warning flags the confirmed or booked appointments. Depending on your rights and the configuration, you can:
+
+* go back to the entry to change the unavailability;
+* select **Force**: create the unavailability and remove the conflicting appointments from the schedule;
+* select **Force/Manage**: create the unavailability, remove the conflicting appointments, then try to reschedule them automatically. A screen then shows the reassigned and unassigned appointments: select the new assignments to confirm, then select **Continue**.
+
+{% hint style="info" %}
+Appointments removed from the schedule become candidates again. By default, a planned appointment returns to the **Requested** status, and a confirmed or booked appointment to the **Suspended** status. This behavior depends on the configuration.
+{% endhint %}
+
+If the unavailability overlaps another unavailability of the same resource, it is not created: change the dates or the resource.
+
 ## Notes
 
 * The **Upcoming unavailabilities** list at the bottom of the panel shows future unavailabilities.
 * The **Address** section provides **Validate address**, **Position**, **Map**, and **Hotel** buttons.
 * If the **Invalid recurring unavailability declaration** message appears, check the dates, times, and **Recurrence** section. Also check unavailabilities already declared for that resource during the period.
+
+<!-- REVIEW: the conflict screen (Force, Force/Manage, Continue) is translated from the updated French topic and was not verified in the application, because creating a conflicting unavailability would change data in the test environment. The French topic itself has no screenshot of this screen yet. -->

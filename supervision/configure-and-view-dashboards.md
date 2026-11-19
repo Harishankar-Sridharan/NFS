@@ -54,3 +54,30 @@ The table displays **Number**, **Time**, **Travel time**, **Travel distance (km)
 | **Overall unavailability schedule**                            | **Team**, **From**, **To**, **Export csv**                                                                                            |
 | **Scheduling compliance** / **Overtime**                       | **From**, **To**, **Search**, **Export csv**                                                                                          |
 | **Edit dashboard**                                             | Dashboard list and **New dashboard** button                                                                                           |
+
+## View the schedule summary
+
+The **Schedule summary by day** and **Schedule summary by week** pages present, for each field worker in the configuration, the indicators of their routes: visits, trips, unavailabilities, leave, working time, and breaks.
+
+1. Open **Schedule summary by day** (or **by week**).
+2. Enter the **From** … **to** period.
+3. If needed, select **Show empty days** to also list days without activity.
+4. If needed, select **Show sums & indexes** to add a totals row and indexes, for example the kilometers traveled per visit or the share of working time spent on visits.
+5. Select **Search**, then **Export csv** to export the table.
+
+## Read the Appointment taking tables
+
+These tables require prior configuration: without it, an error message appears. For more information, see [Configure criteria](#configure-criteria).
+
+* **Appointment taking Quantity** measures the volume of appointments taken by the selected resource, compared with that of the work site and the region. For appointments placed by optimization, it compares the actual cost of the appointments with the best cost proposed: an average of actual costs close to the average of optimal costs indicates that appointments are taken at the best cost.
+* **Appointment taking Quality** measures the number of appointments taken, cancelled, and modified, and the lead times offered to the customer, for example the average time between taking the appointment and the visit.
+
+## Track objectives
+
+The **Targets** table compares the activity of the configured period with the objectives defined in Administration. For more information, see [Manage objectives, activity monitoring, and typologies](../administration/manage-objectives-activity-monitoring-and-typologies.md).
+
+If no objective matches the configuration, the message "No objective found" appears.
+
+For the analyses (distances, centers of gravity, compliance, overtime), see [Use the Supervision analyses](use-supervision-analyses.md).
+
+<!-- REVIEW: the schedule summary, Appointment taking, and Targets sections are translated from the updated French topic. The page titles Schedule summary by day and Appointment taking Quantity / Quality match the Supervisor menu of the test environment (where the objectives entry is named Targets). The Show empty days and Show sums & indexes labels and the "No objective found" message were not verified. The French topic has no screenshot of the schedule summary yet. -->

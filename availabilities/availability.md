@@ -10,6 +10,8 @@ The Availabilities module displays resource work schedules: day templates, break
 
 **Navigation:** `Application launcher > Availabilities`
 
+![Availabilities module weekly view with the left panel and the schedule](../.gitbook/assets/en_attendance_week_view.png)
+
 ## Identify screen areas
 
 ### Top bar

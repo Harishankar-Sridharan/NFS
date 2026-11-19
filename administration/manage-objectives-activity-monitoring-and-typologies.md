@@ -42,6 +42,20 @@ The **Objectives** page has three tabs: **Human resource**, **Worksite**, and **
 
 The **Type** field includes **Maximum daily working-time occupancy rate (in %)**, **Revenue**, **Number of appointments booked**, **Number of appointments**, **Daily revenue**, **Daily number of appointments**, **Daily number of appointments booked**, and **Daily number of meetings**.
 
+## Limit the number of appointments per day
+
+A **Daily number of appointments** objective defined on a human resource acts as a limit. When searching for time slots, scheduling, and optimizing, a slot that would exceed this value on a given day is not offered for the resource.
+
+* With an **Intervention group** and an **Intervention type**, only appointments of that type are counted.
+* With a group and **--All--**, all the appointments of the group are counted.
+* Appointments without an intervention group are not counted.
+
+**Example:** so that a field worker carries out only one appointment of the "Morning" type and one of the "Evening" type per day, create two **Daily number of appointments** objectives with a value of 1: one for the "Morning" type, the other for the "Evening" type.
+
+{% hint style="warning" %}
+The limit is daily. Appointments that are already scheduled are not removed from the schedule when you create the objective. Do not confuse **Daily number of appointments** with **Daily number of appointments booked**.
+{% endhint %}
+
 ## Manage completion statuses and follow-up actions
 
 Both entries work the same way: the entry form appears at the top of the page and the list of existing values appears below.
@@ -63,3 +77,5 @@ By default, **Region** is `All regions`. The **All**, **None**, and **Invert sel
 3. Choose the **Entity name**, such as `APPOINTMENT`, `CUSTOMER`, `RESOURCE`, or `WORKSITE`, then the **Field name**.
 4. If needed, choose a **Parent field** and enter a **Description**.
 5. Select **Save**.
+
+<!-- REVIEW: the Limit the number of appointments per day section is translated from the updated French topic. The objective type names (Daily number of appointments, Daily number of appointments booked) and the --All-- value were not verified in the application. -->

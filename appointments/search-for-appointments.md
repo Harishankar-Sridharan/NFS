@@ -56,7 +56,19 @@ The **Appointments found** page shows the number of appointments found and displ
    * **Schedule**;
    * **Subcontract**.
 
+## Use ready-made searches
+
+The `Planning > Appointments menu > My searches` section of the menu groups, depending on your rights:
+
+* appointment lists by status: **Requested appointments**, **Search for planned appointments**, **Accepted appointments**, **Booked appointments**, **Confirmed appointments**, **Unscheduled appointments**, and **Subcontracted appointments**;
+* the **MySearch 1** to **15 list of appointments** lists, configured by the administrator;
+* your personal views, for example **My planned appointments of the day**.
+
+To create or edit these views, see [Manage search views](../planning/manage-search-views/README.md).
+
 ## Points to note
 
 * Use the panel expand icon to display all result columns.
 * The **View services in the selection list** link appears above the results.
+
+<!-- REVIEW: the names of the status lists under My searches are translated from the updated French topic and were not verified in the application. In the test environment, the menu shows only the MySearch 1 to 3 lists under My searches. -->
